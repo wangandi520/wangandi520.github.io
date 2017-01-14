@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://andi.press/"/>
-  <updated>2017-01-09T10:35:52.729Z</updated>
+  <updated>2017-01-14T02:09:22.617Z</updated>
   <id>http://andi.press/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>路由器发送IP至服务器</title>
+    <link href="http://andi.press/2017/01/14/%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%91%E9%80%81IP%E8%87%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://andi.press/2017/01/14/路由器发送IP至服务器/</id>
+    <published>2017-01-13T16:31:16.000Z</published>
+    <updated>2017-01-14T02:09:22.617Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;路由器上&lt;br&gt;/etc/storage/ddns.sh&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#!/bin/bash&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;newip=`ifconfig ppp0|grep inet|awk &lt;span class=&quot;string&quot;&gt;&#39;&amp;#123;print $2&amp;#125;&#39;&lt;/span&gt;|awk -F &lt;span class=&quot;string&quot;&gt;&#39;:&#39;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;&amp;#123;print $2&amp;#125;&#39;&lt;/span&gt;`&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$ip&lt;/span&gt; &amp;gt; temp&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;oldip=`cat temp`&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; [ &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$oldip&lt;/span&gt;&quot;&lt;/span&gt; == &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$ip&lt;/span&gt;&quot;&lt;/span&gt; ];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;Same IP&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;curl http://andi.press/ebook/ddns.php?ip=&lt;span class=&quot;variable&quot;&gt;$newip&lt;/span&gt;:10090&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;fi&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;chmod +x /etc/storage/ddns.sh&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;crontab &lt;span class=&quot;_&quot;&gt;-e&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;0 * * * * /etc/storage/ddns.sh&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;服务器上&lt;br&gt;ddns.php&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://andi.press/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="php" scheme="http://andi.press/tags/php/"/>
+    
+      <category term="bash" scheme="http://andi.press/tags/bash/"/>
+    
+  </entry>
   
   <entry>
     <title>关于这个博客</title>
@@ -40,13 +64,11 @@
     <link href="http://andi.press/2017/01/09/%E6%AD%8C%E8%AF%8D/"/>
     <id>http://andi.press/2017/01/09/歌词/</id>
     <published>2017-01-09T09:53:55.000Z</published>
-    <updated>2017-01-09T09:56:30.765Z</updated>
+    <updated>2017-01-13T16:34:38.172Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;sister’s-noise&quot;&gt;&lt;a href=&quot;#sister’s-noise&quot; class=&quot;headerlink&quot; title=&quot;sister’s noise&quot;&gt;&lt;/a&gt;sister’s noise&lt;/h2&gt;&lt;p&gt;谁（だれ）よりも近（ちか）くにいた&lt;br&gt;その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)&lt;br&gt;刻（きざ）み続（つづ）けていた时（とき）の中（なか）で&lt;br&gt;やっと君（きみ）に逢（であ）えたから&lt;br&gt;sister’s noise 探(さが)し続(つづ)ける&lt;br&gt;彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)&lt;br&gt;重(かさ)ね合(あ)った この思(おも)いは&lt;br&gt;谁(だれ)にも壊(こわ)せないから&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
+      &lt;h2 id=&quot;sister’s-noise&quot;&gt;&lt;a href=&quot;#sister’s-noise&quot; class=&quot;headerlink&quot; title=&quot;sister’s noise&quot;&gt;&lt;/a&gt;sister’s noise&lt;/h2&gt;&lt;p&gt;谁（だれ）よりも近（ちか）くにいた&lt;br&gt;その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)&lt;br&gt;刻（きざ）み続（つづ）けていた时（とき）の中（なか）で&lt;br&gt;やっと君（きみ）に逢（であ）えたから&lt;br&gt;sister’s noise 探(さが)し続(つづ)ける&lt;br&gt;彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)&lt;br&gt;重(かさ)ね合(あ)った この思(おも)いは&lt;br&gt;谁(だれ)にも壊(こわ)せないから&lt;br&gt;
     
     </summary>
     
@@ -64,15 +86,13 @@
     <link href="http://andi.press/2017/01/09/kindle%E6%A0%87%E6%B3%A8/"/>
     <id>http://andi.press/2017/01/09/kindle标注/</id>
     <published>2017-01-09T09:52:41.000Z</published>
-    <updated>2017-01-09T10:07:40.911Z</updated>
+    <updated>2017-01-13T16:34:30.266Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;悟空传(完美纪念版) (今何在)&lt;br&gt;您在位置 #1114-1114的标注,添加于 2013年11月28日星期四 下午10:49:43&lt;/p&gt;
 &lt;p&gt;只有绝望，能毁灭一颗不死的心。&lt;br&gt;-&lt;br&gt;如何阅读一本书 ([美] 莫提默·J·艾德勒;查尔斯·范多伦)&lt;br&gt;您在位置 #194-195的标注,添加于 2013年11月30日星期六 下午9:55:52&lt;/p&gt;
-&lt;p&gt;简单来说，我们只能从比我们“更高杆”的人身上学习。&lt;br&gt;-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
+&lt;p&gt;简单来说，我们只能从比我们“更高杆”的人身上学习。&lt;br&gt;-&lt;br&gt;
     
     </summary>
     
@@ -90,13 +110,11 @@
     <link href="http://andi.press/2017/01/09/%E5%8D%95%E8%AF%8D/"/>
     <id>http://andi.press/2017/01/09/单词/</id>
     <published>2017-01-09T09:50:31.000Z</published>
-    <updated>2017-01-09T09:56:33.877Z</updated>
+    <updated>2017-01-13T16:34:34.463Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;中文&quot;&gt;&lt;a href=&quot;#中文&quot; class=&quot;headerlink&quot; title=&quot;中文&quot;&gt;&lt;/a&gt;中文&lt;/h2&gt;&lt;p&gt;踅 xue 来回走&lt;br&gt;迳 jing 至，经过&lt;br&gt;俹 ya 倚，靠&lt;br&gt;艖 cha 小船&lt;br&gt;馔 zhuan 准备食物，食物&lt;br&gt;郓 yun 地名&lt;br&gt;睃 suo 斜着眼睛看&lt;br&gt;唣 zao 吵闹&lt;br&gt;旖旎 yini 柔和美好&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
+      &lt;h2 id=&quot;中文&quot;&gt;&lt;a href=&quot;#中文&quot; class=&quot;headerlink&quot; title=&quot;中文&quot;&gt;&lt;/a&gt;中文&lt;/h2&gt;&lt;p&gt;踅 xue 来回走&lt;br&gt;迳 jing 至，经过&lt;br&gt;俹 ya 倚，靠&lt;br&gt;艖 cha 小船&lt;br&gt;馔 zhuan 准备食物，食物&lt;br&gt;郓 yun 地名&lt;br&gt;睃 suo 斜着眼睛看&lt;br&gt;唣 zao 吵闹&lt;br&gt;旖旎 yini 柔和美好&lt;br&gt;
     
     </summary>
     
@@ -116,14 +134,13 @@
     <link href="http://andi.press/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7OpenWrt/"/>
     <id>http://andi.press/2017/01/09/树莓派3-Raspberry-pi-3-刷OpenWrt/</id>
     <published>2017-01-09T02:58:52.000Z</published>
-    <updated>2017-01-09T03:58:21.269Z</updated>
+    <updated>2017-01-13T16:34:54.985Z</updated>
     
     <summary type="html">
     
       &lt;h3 id=&quot;下载镜像&quot;&gt;&lt;a href=&quot;#下载镜像&quot; class=&quot;headerlink&quot; title=&quot;下载镜像&quot;&gt;&lt;/a&gt;下载镜像&lt;/h3&gt;&lt;p&gt;这个lede好像是openwrt的一个分支，openwrt本身还没有支持pi3，&lt;a href=&quot;https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img&quot;&gt;https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;刻录到tf卡&quot;&gt;&lt;a href=&quot;#刻录到tf卡&quot; class=&quot;headerlink&quot; title=&quot;刻录到tf卡&quot;&gt;&lt;/a&gt;刻录到tf卡&lt;/h3&gt;&lt;p&gt;windows使用Win32DiskImager，linux使用dd命令。&lt;/p&gt;
-&lt;h3 id=&quot;树莓派通电，使用网线连接电脑。&quot;&gt;&lt;a href=&quot;#树莓派通电，使用网线连接电脑。&quot; class=&quot;headerlink&quot; title=&quot;树莓派通电，使用网线连接电脑。&quot;&gt;&lt;/a&gt;树莓派通电，使用网线连接电脑。&lt;/h3&gt;&lt;h3 id=&quot;修改-etc-config-network&quot;&gt;&lt;a href=&quot;#修改-etc-config-network&quot; class=&quot;headerlink&quot; title=&quot;修改/etc/config/network&quot;&gt;&lt;/a&gt;修改/etc/config/network&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
+&lt;h3 id=&quot;树莓派通电，使用网线连接电脑。&quot;&gt;&lt;a href=&quot;#树莓派通电，使用网线连接电脑。&quot; class=&quot;headerlink&quot; title=&quot;树莓派通电，使用网线连接电脑。&quot;&gt;&lt;/a&gt;树莓派通电，使用网线连接电脑。&lt;/h3&gt;&lt;h3 id=&quot;修改-etc-config-network&quot;&gt;&lt;a href=&quot;#修改-etc-config-network&quot; class=&quot;headerlink&quot; title=&quot;修改/etc/config/network&quot;&gt;&lt;/a&gt;修改/etc/config/network&lt;/h3&gt;
     
     </summary>
     
@@ -141,7 +158,7 @@
     <link href="http://andi.press/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7kali-3-5%E5%AF%B8%E5%BE%AE%E9%9B%AA%E5%B1%8F/"/>
     <id>http://andi.press/2017/01/09/树莓派3-Raspberry-pi-3-刷kali-3-5寸微雪屏/</id>
     <published>2017-01-09T02:58:00.000Z</published>
-    <updated>2017-01-09T03:09:42.509Z</updated>
+    <updated>2017-01-13T16:34:50.808Z</updated>
     
     <summary type="html">
     
@@ -149,8 +166,6 @@
 &lt;p&gt;git clone &lt;a href=&quot;https://github.com/swkim01/waveshare-dtoverlays.git&quot;&gt;https://github.com/swkim01/waveshare-dtoverlays.git&lt;/a&gt; waveshare-dtoverlays&lt;br&gt;cd waveshare-dtoverlays&lt;br&gt;mount /dev/mmcblk0p1 /boot/&lt;br&gt;cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/&lt;/p&gt;
 &lt;p&gt;编辑/boot/config.txt添加&lt;/p&gt;
 &lt;p&gt;dtoverlay=waveshare35a&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
     
     </summary>
     
@@ -168,14 +183,12 @@
     <link href="http://andi.press/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE-archlinuxarm%E5%81%9A%E8%B7%AF%E7%94%B1/"/>
     <id>http://andi.press/2017/01/09/树莓派-archlinuxarm做路由/</id>
     <published>2017-01-09T02:57:06.000Z</published>
-    <updated>2017-01-09T03:09:58.744Z</updated>
+    <updated>2017-01-13T16:34:59.010Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;pacman -S dnsmasq hostapd&lt;/p&gt;
 &lt;p&gt;ip link set dev wlan1 up&lt;br&gt;ip addr add 192.168.100.1/24 broadcast 192.168.100.255 dev wlan1&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
     
     </summary>
     
@@ -215,13 +228,11 @@
     <link href="http://andi.press/2017/01/08/%E5%B0%86%E7%9C%8B%E7%9A%84%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7/"/>
     <id>http://andi.press/2017/01/08/将看的书电影电视剧/</id>
     <published>2017-01-08T12:48:55.000Z</published>
-    <updated>2017-01-09T03:09:32.572Z</updated>
+    <updated>2017-01-14T00:20:28.244Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;重复的是读过多遍&lt;br&gt;数字为评分，满分10&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
+      &lt;p&gt;重复的是读过多遍&lt;br&gt;数字为评分，满分10&lt;br&gt;
     
     </summary>
     

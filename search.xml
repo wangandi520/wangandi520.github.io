@@ -4,6 +4,15 @@
   
     
     <entry>
+      <title><![CDATA[路由器发送IP至服务器]]></title>
+      <url>http://andi.press/2017/01/14/%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%91%E9%80%81IP%E8%87%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+      <content type="html"><![CDATA[<p>路由器上<br>/etc/storage/ddns.sh<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line">newip=`ifconfig ppp0|grep inet|awk <span class="string">'&#123;print $2&#125;'</span>|awk -F <span class="string">':'</span> <span class="string">'&#123;print $2&#125;'</span>`</div><div class="line"><span class="built_in">echo</span> <span class="variable">$ip</span> &gt; temp</div><div class="line">oldip=`cat temp`</div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$oldip</span>"</span> == <span class="string">"<span class="variable">$ip</span>"</span> ];<span class="keyword">then</span></div><div class="line"><span class="built_in">echo</span> <span class="string">"Same IP"</span></div><div class="line"><span class="keyword">else</span></div><div class="line">curl http://andi.press/ebook/ddns.php?ip=<span class="variable">$newip</span>:10090</div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">chmod +x /etc/storage/ddns.sh</div><div class="line">crontab <span class="_">-e</span></div><div class="line">0 * * * * /etc/storage/ddns.sh</div></pre></td></tr></table></figure>
+<p>服务器上<br>ddns.php<br><a id="more"></a><br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">header(<span class="string">"Content-type:text/html;charset=utf-8"</span>);  </div><div class="line">$ip = $_GET[<span class="string">'ip'</span>];</div><div class="line">$host = <span class="string">''</span>;</div><div class="line">$port = <span class="string">'3306'</span>;</div><div class="line">$user = <span class="string">''</span>;</div><div class="line">$password = <span class="string">''</span>;</div><div class="line">$database = <span class="string">''</span>;</div><div class="line">$con = mysql_connect($host.<span class="string">':'</span>.$port,$user,$password);</div><div class="line">mysql_query(<span class="string">"SET NAMES 'UTF8'"</span>);</div><div class="line">mysql_select_db($database,$con);</div><div class="line">$query = <span class="string">"truncate ip"</span>;</div><div class="line">$result = mysql_query($query,$con);</div><div class="line">$query = <span class="string">"insert into ip(addr) values(\""</span>.$ip.<span class="string">"\")"</span>;</div><div class="line">$result = mysql_query($query,$con);</div><div class="line"><span class="keyword">if</span> ($result)</div><div class="line"><span class="keyword">echo</span> <span class="string">"ip:"</span>.$ip.<span class="string">" status:OK"</span>;</div><div class="line"><span class="keyword">else</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"ip:"</span>.$ip.<span class="string">" status:Failed"</span>;</div><div class="line">mysql_free_result($result);</div><div class="line">mysql_close($con);</div><div class="line"><span class="meta">?&gt;</span></div></pre></td></tr></table></figure></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[关于这个博客]]></title>
       <url>http://andi.press/2017/01/09/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
       <content type="html"><![CDATA[<h2 id="博客程序"><a href="#博客程序" class="headerlink" title="博客程序"></a>博客程序</h2><p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a></p>
@@ -15,11 +24,7 @@
     <entry>
       <title><![CDATA[歌词]]></title>
       <url>http://andi.press/2017/01/09/%E6%AD%8C%E8%AF%8D/</url>
-      <content type="html"><![CDATA[<h2 id="sister’s-noise"><a href="#sister’s-noise" class="headerlink" title="sister’s noise"></a>sister’s noise</h2><p>谁（だれ）よりも近（ちか）くにいた<br>その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)<br>刻（きざ）み続（つづ）けていた时（とき）の中（なか）で<br>やっと君（きみ）に逢（であ）えたから<br>sister’s noise 探(さが)し続(つづ)ける<br>彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)<br>重(かさ)ね合(あ)った この思(おも)いは<br>谁(だれ)にも壊(こわ)せないから</p>
-<ul>
-<li><a id="more"></a>
-</li>
-</ul>
+      <content type="html"><![CDATA[<h2 id="sister’s-noise"><a href="#sister’s-noise" class="headerlink" title="sister’s noise"></a>sister’s noise</h2><p>谁（だれ）よりも近（ちか）くにいた<br>その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)<br>刻（きざ）み続（つづ）けていた时（とき）の中（なか）で<br>やっと君（きみ）に逢（であ）えたから<br>sister’s noise 探(さが)し続(つづ)ける<br>彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)<br>重(かさ)ね合(あ)った この思(おも)いは<br>谁(だれ)にも壊(こわ)せないから<br><a id="more"></a></p>
 <p>街（まち）は密(ひそ)やかに<br>君（きみ）を隐（かく）してた<br>辿(たど)り着（つ）いた场所(ばしょ)<br>苏(よみがえ)るあの记忆（きおく）<br>缲(く)り返(かえ)されてた<br>真实(しんじつ)は远(とお)く<br>君(きみ)のその痛(いた)みに<br>気付(きづ)けないまま<br>あの日(ひ)隠(かく)した その梦(ゆめ)が<br>私(わたし)を切(き)り裂(さ)いても<br>何(なに)よりも大切(たいせつ)な<br>希望(きぼう)だけ 信(しん)じ贯(つらぬ)いて</p>
 <p>自分（じぶん）らしく生（い）きること<br>何(なに)よりも伝（つた）えたくて(sister’s noise… I find it out…)<br>生（う）まれ続(つづ)ける哀（なか）しみの痛(いた)み<br>その意味（いみ）を刻（きざ）むなら<br>sister’s voice いま届（とど）けるよ<br>涙（なみ）さえ能力（ちから）にして(sorrow of your heart… I shoot it down…)<br>繋（つな）がり合（あ）う 强（つよ）さだけが全（すべ）てを打（う）ち抜（ぬ）いていく</p>
 <p>夕暮(ゆうぐ)れの放课后（ほうかご）<br>いつもの街（まち）并（な）み<br>ふと见（み）上(あ)げた空（そら）<br>思（おも）い出（だ）す 优（やさ）しさを<br>君（きみ）の眼差(まなざ)しが 気（き）づかせてくれた<br>弱（よわ）さ认（みと）める勇気（ゆうき）の强（つよ）さを<br>温（あたた）かな君（きみ）のその手（て）が<br>私（わたし）を导（みちび）いてく<br>何(なに)よりも守(まも)りたい<br>希望(きぼう)が暗（やみ）を贯（つらぬ）くから</p>
@@ -61,11 +66,7 @@
       <url>http://andi.press/2017/01/09/kindle%E6%A0%87%E6%B3%A8/</url>
       <content type="html"><![CDATA[<p>悟空传(完美纪念版) (今何在)<br>您在位置 #1114-1114的标注,添加于 2013年11月28日星期四 下午10:49:43</p>
 <p>只有绝望，能毁灭一颗不死的心。<br>-<br>如何阅读一本书 ([美] 莫提默·J·艾德勒;查尔斯·范多伦)<br>您在位置 #194-195的标注,添加于 2013年11月30日星期六 下午9:55:52</p>
-<p>简单来说，我们只能从比我们“更高杆”的人身上学习。<br>-</p>
-<ul>
-<li><a id="more"></a>
-悟空传(完美纪念版) (今何在)<br>您在位置 #2708-2709的标注,添加于 2013年11月30日星期六 下午10:24:13</li>
-</ul>
+<p>简单来说，我们只能从比我们“更高杆”的人身上学习。<br>-<br><a id="more"></a><br>悟空传(完美纪念版) (今何在)<br>您在位置 #2708-2709的标注,添加于 2013年11月30日星期六 下午10:24:13</p>
 <p>“齐天大圣！”一老妖泣不成声，振臂大喊道。<br>-<br>一万小时天才理论 ([美]丹尼尔·科伊尔)<br>您在位置 #185-186的标注,添加于 2013年12月1日星期日 下午11:40:37</p>
 <p>窍门是设定一个稍稍超过自己现有能力的目标：设定努力的目标靶。盲目受挫毫无帮助，实现目标才能突破原有水平。<br>-<br>一万小时天才理论 ([美]丹尼尔·科伊尔)<br>您在位置 #410-411的标注,添加于 2013年12月3日星期二 下午3:28:08</p>
 <p>信号必须以合适的速度传输，在正确的时刻到达，而髓鞘质正是大脑控制传输速度的方法。<br>-<br>一万小时天才理论 ([美]丹尼尔·科伊尔)<br>您在位置 #507-507的标注,添加于 2013年12月3日星期二 下午8:44:58</p>
@@ -319,11 +320,7 @@
     <entry>
       <title><![CDATA[单词]]></title>
       <url>http://andi.press/2017/01/09/%E5%8D%95%E8%AF%8D/</url>
-      <content type="html"><![CDATA[<h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><p>踅 xue 来回走<br>迳 jing 至，经过<br>俹 ya 倚，靠<br>艖 cha 小船<br>馔 zhuan 准备食物，食物<br>郓 yun 地名<br>睃 suo 斜着眼睛看<br>唣 zao 吵闹<br>旖旎 yini 柔和美好</p>
-<ul>
-<li><a id="more"></a>
-樨 xi 木樨，桂花<br>咂 za 嘴吸<br>辄 zhe 总是<br>扪 men 按<br>牝 pin 雌性<br>毳 cui 鸟兽的毛<br>赍 ji 抱着，给<br>攮 nang 用刀刺<br>杓 shao 北斗柄部的三颗星<br>兕 si 古代酒器，异兽<br>籴 di 买进<br>稃 fu 谷壳<br>镟 xuan<br>鳏 guan 无妻，丧妻<br>鹣 jian 鹣鹣，古代传说中的比翼鸟<br>奁 lian 本义为大号盛食器具，古代汉族女子存放梳妆用品的镜箱<br>杌 wu 杌凳;小凳<br>拶 za 逼迫<br>膂 lv 膂力，体力<br>浥 yi 沾湿<br>襞 bi 衣服上的褶子<br>粲 can 鲜明美好<br>帏 wei 古代佩戴的香囊<br>渌 lu 水名，在湖南省<br>蹙 cu 紧迫<br>晁 chao 姓<br>蠡 li 瓢<br>阗 tian 充满<br>湫 qiu 水池<br>佞 ning 奸佞，奸邪谄媚<br>寅 yin<br>恪 ke<br>骘 zhi 马<br>迩 er 近<br>杌 wu<br>箦 ze 床<br>磉 sang 石礅<br>蕤 rui 蕤宾，端午节<br>栉 zhi 梳子<br>鸨 bao<br>夤 yin 夤夜，深夜<br>凫 fu 水鸟<br>贲 ben 姓氏</li>
-</ul>
+      <content type="html"><![CDATA[<h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><p>踅 xue 来回走<br>迳 jing 至，经过<br>俹 ya 倚，靠<br>艖 cha 小船<br>馔 zhuan 准备食物，食物<br>郓 yun 地名<br>睃 suo 斜着眼睛看<br>唣 zao 吵闹<br>旖旎 yini 柔和美好<br><a id="more"></a><br>樨 xi 木樨，桂花<br>咂 za 嘴吸<br>辄 zhe 总是<br>扪 men 按<br>牝 pin 雌性<br>毳 cui 鸟兽的毛<br>赍 ji 抱着，给<br>攮 nang 用刀刺<br>杓 shao 北斗柄部的三颗星<br>兕 si 古代酒器，异兽<br>籴 di 买进<br>稃 fu 谷壳<br>镟 xuan<br>鳏 guan 无妻，丧妻<br>鹣 jian 鹣鹣，古代传说中的比翼鸟<br>奁 lian 本义为大号盛食器具，古代汉族女子存放梳妆用品的镜箱<br>杌 wu 杌凳;小凳<br>拶 za 逼迫<br>膂 lv 膂力，体力<br>浥 yi 沾湿<br>襞 bi 衣服上的褶子<br>粲 can 鲜明美好<br>帏 wei 古代佩戴的香囊<br>渌 lu 水名，在湖南省<br>蹙 cu 紧迫<br>晁 chao 姓<br>蠡 li 瓢<br>阗 tian 充满<br>湫 qiu 水池<br>佞 ning 奸佞，奸邪谄媚<br>寅 yin<br>恪 ke<br>骘 zhi 马<br>迩 er 近<br>杌 wu<br>箦 ze 床<br>磉 sang 石礅<br>蕤 rui 蕤宾，端午节<br>栉 zhi 梳子<br>鸨 bao<br>夤 yin 夤夜，深夜<br>凫 fu 水鸟<br>贲 ben 姓氏</p>
 <h2 id="英文"><a href="#英文" class="headerlink" title="英文"></a>英文</h2><p>senator<br>frown<br>stir<br>supreme<br>circumstance<br>saucer<br>clash<br>bond<br>presence<br>derive<br>proportion<br>dormitory<br>steep<br>steer<br>scandal</p>
 <h2 id="日文"><a href="#日文" class="headerlink" title="日文"></a>日文</h2><p>ただいま<br>おかえりなさい<br>いってらっしゃい<br>いってまいります<br>いってきます<br>いらっしゃいませ<br>かしこまりました<br>おじゃまします</p>
 <p>まっすぐ<br>笔直</p>
@@ -364,39 +361,13 @@
       <url>http://andi.press/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7OpenWrt/</url>
       <content type="html"><![CDATA[<h3 id="下载镜像"><a href="#下载镜像" class="headerlink" title="下载镜像"></a>下载镜像</h3><p>这个lede好像是openwrt的一个分支，openwrt本身还没有支持pi3，<a href="https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img" target="_blank" rel="external">https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img</a></p>
 <h3 id="刻录到tf卡"><a href="#刻录到tf卡" class="headerlink" title="刻录到tf卡"></a>刻录到tf卡</h3><p>windows使用Win32DiskImager，linux使用dd命令。</p>
-<h3 id="树莓派通电，使用网线连接电脑。"><a href="#树莓派通电，使用网线连接电脑。" class="headerlink" title="树莓派通电，使用网线连接电脑。"></a>树莓派通电，使用网线连接电脑。</h3><h3 id="修改-etc-config-network"><a href="#修改-etc-config-network" class="headerlink" title="修改/etc/config/network"></a>修改/etc/config/network</h3><ul>
-<li><a id="more"></a>
-config interface ‘loopback’<pre><code>option ifname &apos;lo&apos;
-option proto &apos;static&apos;
-option ipaddr &apos;127.0.0.1&apos;
-option netmask &apos;255.0.0.0&apos;
-</code></pre>config globals ‘globals’<pre><code>option ula_prefix &apos;fd11:8629:b448::/48&apos;
-</code></pre>config interface ‘lan’<pre><code>option type &apos;bridge&apos;
-option proto &apos;static&apos;
-option ipaddr &apos;192.168.1.1&apos;
-option netmask &apos;255.255.255.0&apos;
-option ip6assign &apos;60&apos;
-</code></pre>config interface wan<pre><code>option proto dhcp
-option ifname eth0
-</code></pre><h3 id="修改-etc-wireless"><a href="#修改-etc-wireless" class="headerlink" title="修改/etc/wireless"></a>修改/etc/wireless</h3>config wifi-device radio0<pre><code>option type     mac80211
-option channel  11
-option hwmode   11g
-option path     &apos;platform/soc/3f300000.mmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1&apos;
-option htmode   HT20
-option disabled 0
-</code></pre>config wifi-iface<pre><code>option device   radio0
-option network  lan
-option mode     ap
-option ssid     OpenWrt_RPI3
-option encryption psk2
-option key      yourwifikey
-</code></pre>允许通过wan连接ssh<br>/etc/config/firewall:<br>config rule                <pre><code>option src              wan
-option dest_port        22
-option target           ACCEPT     
-option proto  
-</code></pre><h3 id="重启"><a href="#重启" class="headerlink" title="重启"></a>重启</h3>网线连接路由器dhcp获取ip，电脑用wifi连接树莓派。<h3 id="安装luci界面"><a href="#安装luci界面" class="headerlink" title="安装luci界面"></a>安装luci界面</h3>可以通过浏览器访问路由<br>opkg install luci<br>/etc/init.d/uhttpd start<br>/etc/init.d/uhttpd enable<h3 id="调整rootfs空间大小"><a href="#调整rootfs空间大小" class="headerlink" title="调整rootfs空间大小"></a>调整rootfs空间大小</h3>tf卡不是所有空间都用了，下载Gparted系统刻录到u盘启动，启动后调整mmcblk0p2大小。<h3 id="可以开始折腾了。"><a href="#可以开始折腾了。" class="headerlink" title="可以开始折腾了。"></a>可以开始折腾了。</h3></li>
-</ul>
-]]></content>
+<h3 id="树莓派通电，使用网线连接电脑。"><a href="#树莓派通电，使用网线连接电脑。" class="headerlink" title="树莓派通电，使用网线连接电脑。"></a>树莓派通电，使用网线连接电脑。</h3><h3 id="修改-etc-config-network"><a href="#修改-etc-config-network" class="headerlink" title="修改/etc/config/network"></a>修改/etc/config/network</h3><a id="more"></a>
+<p>config interface ‘loopback’<br>        option ifname ‘lo’<br>        option proto ‘static’<br>        option ipaddr ‘127.0.0.1’<br>        option netmask ‘255.0.0.0’<br>config globals ‘globals’<br>        option ula_prefix ‘fd11:8629:b448::/48’<br>config interface ‘lan’<br>        option type ‘bridge’<br>        option proto ‘static’<br>        option ipaddr ‘192.168.1.1’<br>        option netmask ‘255.255.255.0’<br>        option ip6assign ‘60’<br>config interface wan<br>        option proto dhcp<br>        option ifname eth0</p>
+<h3 id="修改-etc-wireless"><a href="#修改-etc-wireless" class="headerlink" title="修改/etc/wireless"></a>修改/etc/wireless</h3><p>config wifi-device radio0<br>        option type     mac80211<br>        option channel  11<br>        option hwmode   11g<br>        option path     ‘platform/soc/3f300000.mmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1’<br>        option htmode   HT20<br>        option disabled 0<br>config wifi-iface<br>        option device   radio0<br>        option network  lan<br>        option mode     ap<br>        option ssid     OpenWrt_RPI3<br>        option encryption psk2<br>        option key      yourwifikey<br>允许通过wan连接ssh<br>/etc/config/firewall:<br>config rule<br>        option src              wan<br>        option dest_port        22<br>        option target           ACCEPT<br>        option proto  </p>
+<h3 id="重启"><a href="#重启" class="headerlink" title="重启"></a>重启</h3><p>网线连接路由器dhcp获取ip，电脑用wifi连接树莓派。</p>
+<h3 id="安装luci界面"><a href="#安装luci界面" class="headerlink" title="安装luci界面"></a>安装luci界面</h3><p>可以通过浏览器访问路由<br>opkg install luci<br>/etc/init.d/uhttpd start<br>/etc/init.d/uhttpd enable</p>
+<h3 id="调整rootfs空间大小"><a href="#调整rootfs空间大小" class="headerlink" title="调整rootfs空间大小"></a>调整rootfs空间大小</h3><p>tf卡不是所有空间都用了，下载Gparted系统刻录到u盘启动，启动后调整mmcblk0p2大小。</p>
+<h3 id="可以开始折腾了。"><a href="#可以开始折腾了。" class="headerlink" title="可以开始折腾了。"></a>可以开始折腾了。</h3>]]></content>
     </entry>
     
     <entry>
@@ -406,10 +377,8 @@ option proto
 <p>git clone <a href="https://github.com/swkim01/waveshare-dtoverlays.git" target="_blank" rel="external">https://github.com/swkim01/waveshare-dtoverlays.git</a> waveshare-dtoverlays<br>cd waveshare-dtoverlays<br>mount /dev/mmcblk0p1 /boot/<br>cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/</p>
 <p>编辑/boot/config.txt添加</p>
 <p>dtoverlay=waveshare35a</p>
-<ul>
-<li><a id="more"></a>
-需要的工具2：<a href="https://github.com/adafruit/Adafruit-PITFT-Helper" target="_blank" rel="external">https://github.com/adafruit/Adafruit-PITFT-Helper</a></li>
-</ul>
+<a id="more"></a>
+<p>需要的工具2：<a href="https://github.com/adafruit/Adafruit-PITFT-Helper" target="_blank" rel="external">https://github.com/adafruit/Adafruit-PITFT-Helper</a></p>
 <p>git clone <a href="https://github.com/adafruit/Adafruit-PiTFT-Helper.git" target="_blank" rel="external">https://github.com/adafruit/Adafruit-PiTFT-Helper.git</a><br>cd Adafruit-PiTFT-Helper<br>mkdir /etc/kbd<br>touch /etc/kbd/config<br>./adafruit-pitft-helper -t 35r -u /root</p>
 <p>全选y<br>reboot，屏幕可以用了。</p>
 <h3 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h3><p>编辑/etc/apt/sources.list文件<br>对于Kali 2.0，使用ipv4网络添加如下内容</p>
@@ -426,10 +395,8 @@ option proto
       <url>http://andi.press/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE-archlinuxarm%E5%81%9A%E8%B7%AF%E7%94%B1/</url>
       <content type="html"><![CDATA[<p>pacman -S dnsmasq hostapd</p>
 <p>ip link set dev wlan1 up<br>ip addr add 192.168.100.1/24 broadcast 192.168.100.255 dev wlan1</p>
-<ul>
-<li><a id="more"></a>
-/etc/hostapd/hostapd.conf<br>interface=wlan1<br>driver=nl80211<br>ssid=ArchlinuxARM_RPI<br>hw_mode=g<br>channel=7<br>wpa=2<br>wpa_passphrase=password<br>wpa_key_mgmt=WPA-PSK<br>wpa_pairwise=TKIP<br>rsn_pairwise=CCMP</li>
-</ul>
+<a id="more"></a>
+<p>/etc/hostapd/hostapd.conf<br>interface=wlan1<br>driver=nl80211<br>ssid=ArchlinuxARM_RPI<br>hw_mode=g<br>channel=7<br>wpa=2<br>wpa_passphrase=password<br>wpa_key_mgmt=WPA-PSK<br>wpa_pairwise=TKIP<br>rsn_pairwise=CCMP</p>
 <p>/etc/dnsmasq.conf<br>interface=wlan1<br>listen-address=192.168.100.1,127.0.0.1<br>dhcp-range=192.168.100.50,192.168.100.150,12h</p>
 <p>systemctl start hostapd<br>systemctl start dnsmasq</p>
 <p>echo “1” &gt;/proc/sys/net/ipv4/ip_forward<br>iptables -t nat -A POSTROUTING  -o eth0 -j MASQUERADE<br>iptables -P FORWARD ACCEPT<br>iptables -F FORWARD</p>
@@ -448,11 +415,167 @@ option proto
     <entry>
       <title><![CDATA[将看的书\电影\电视剧]]></title>
       <url>http://andi.press/2017/01/08/%E5%B0%86%E7%9C%8B%E7%9A%84%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7/</url>
-      <content type="html"><![CDATA[<p>重复的是读过多遍<br>数字为评分，满分10</p>
-<ul>
-<li><a id="more"></a>
-<h1 id="正在追的剧"><a href="#正在追的剧" class="headerlink" title="正在追的剧"></a>正在追的剧</h1>剧名|将要看哪集|时间<br>:|:|:<br>听力|26|2016.12.17<br>广播|25，73|2016.12.17<br>视频|27|2016.12.17<br>赖|p1|2016.12.17<br>Modern Family|8.10|2016.12.15<br>Shameless|7.13|2016.12.21<br>新华字典|p36|2016.12.14<br>齐木楠雄的灾难|116|2016.12.19<br>TBBT|10.13|2016.12.21<br>black mirror|3.7|2016.10.26<br>westworld|1.11|2016.12.6<br>The Blacklist|4.9|2016.11.15<br>逃避可耻但是很有用|2|2016.10.12<br>真田丸|46|2016.11.4<br>The Last Ship|1.9|2016.09.03<br>进撃の巨人|85|2016.08.24<br>新华字典第11版|p32|2016.08.16<br>House of cards|5.0|2016.04.28<br>Rick and Morty|2|2016.02.12<br>true detective|2.1|2015.12.22<br>Homeland|6.0|2015.12.22<br>Fargo|3.0|2015.12.20<br>名探偵コナン|935|<br>Salem|2.0|<br>ぐんしかんべえ|41|<br>the strain|2.0|<br>Black Sails|2.0|<br>newsroom|2.0|<br>ドラえもん|2|<br>スラムダンク|9|</li>
-</ul>
+      <content type="html"><![CDATA[<p>重复的是读过多遍<br>数字为评分，满分10<br><a id="more"></a></p>
+<h1 id="正在追的剧"><a href="#正在追的剧" class="headerlink" title="正在追的剧"></a>正在追的剧</h1><table>
+<thead>
+<tr>
+<th>剧名</th>
+<th>将要看哪集</th>
+<th>时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>听力</td>
+<td>26</td>
+<td>2016.12.17</td>
+</tr>
+<tr>
+<td>广播</td>
+<td>25，73</td>
+<td>2016.12.17</td>
+</tr>
+<tr>
+<td>视频</td>
+<td>27</td>
+<td>2016.12.17</td>
+</tr>
+<tr>
+<td>赖</td>
+<td>p1</td>
+<td>2016.12.17</td>
+</tr>
+<tr>
+<td>Modern Family</td>
+<td>8.10</td>
+<td>2016.12.15</td>
+</tr>
+<tr>
+<td>Shameless</td>
+<td>7.13</td>
+<td>2016.12.21</td>
+</tr>
+<tr>
+<td>新华字典</td>
+<td>p36</td>
+<td>2016.12.14</td>
+</tr>
+<tr>
+<td>齐木楠雄的灾难</td>
+<td>116</td>
+<td>2016.12.19</td>
+</tr>
+<tr>
+<td>TBBT</td>
+<td>10.13</td>
+<td>2016.12.21</td>
+</tr>
+<tr>
+<td>black mirror</td>
+<td>3.7</td>
+<td>2016.10.26</td>
+</tr>
+<tr>
+<td>westworld</td>
+<td>1.11</td>
+<td>2016.12.6</td>
+</tr>
+<tr>
+<td>The Blacklist</td>
+<td>4.9</td>
+<td>2016.11.15</td>
+</tr>
+<tr>
+<td>逃避可耻但是很有用</td>
+<td>2</td>
+<td>2016.10.12</td>
+</tr>
+<tr>
+<td>真田丸</td>
+<td>46</td>
+<td>2016.11.4</td>
+</tr>
+<tr>
+<td>The Last Ship</td>
+<td>1.9</td>
+<td>2016.09.03</td>
+</tr>
+<tr>
+<td>进撃の巨人</td>
+<td>85</td>
+<td>2016.08.24</td>
+</tr>
+<tr>
+<td>新华字典第11版</td>
+<td>p32</td>
+<td>2016.08.16</td>
+</tr>
+<tr>
+<td>House of cards</td>
+<td>5.0</td>
+<td>2016.04.28</td>
+</tr>
+<tr>
+<td>Rick and Morty</td>
+<td>2</td>
+<td>2016.02.12</td>
+</tr>
+<tr>
+<td>true detective</td>
+<td>2.1</td>
+<td>2015.12.22</td>
+</tr>
+<tr>
+<td>Homeland</td>
+<td>6.0</td>
+<td>2015.12.22</td>
+</tr>
+<tr>
+<td>Fargo</td>
+<td>3.0</td>
+<td>2015.12.20</td>
+</tr>
+<tr>
+<td>名探偵コナン</td>
+<td>935</td>
+<td></td>
+</tr>
+<tr>
+<td>Salem</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>ぐんしかんべえ</td>
+<td>41</td>
+<td></td>
+</tr>
+<tr>
+<td>the strain</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>Black Sails</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>newsroom</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>ドラえもん</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>スラムダンク</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
 <h1 id="看过的书"><a href="#看过的书" class="headerlink" title="看过的书"></a>看过的书</h1><table>
 <thead>
 <tr>
@@ -1175,7 +1298,7 @@ option proto
 <td>天堂向左 深圳往右</td>
 <td></td>
 <td></td>
-<td>9 </td>
+<td>9</td>
 </tr>
 <tr>
 <td>天上的白云真白啊</td>
@@ -1613,7 +1736,6 @@ option proto
 <td>王小波全集第三卷万寿寺</td>
 <td></td>
 <td>2017.01.02</td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -2530,25 +2652,21 @@ option proto
 <td>The Martian</td>
 <td>2015.12.24</td>
 <td>7.5</td>
-<td></td>
 </tr>
 <tr>
 <td>寻龙诀</td>
 <td>2015.12.29</td>
 <td>8.2</td>
-<td></td>
 </tr>
 <tr>
 <td>bref</td>
 <td>2015.12.30</td>
 <td>7</td>
-<td></td>
 </tr>
 <tr>
 <td>整人大赏2015</td>
 <td>2016.01.03</td>
 <td>7</td>
-<td></td>
 </tr>
 <tr>
 <td>pulp fiction</td>
@@ -2613,6 +2731,7 @@ option proto
 <tr>
 <td>没有黄段子存在的无聊世界</td>
 <td>2016.03.29</td>
+<td></td>
 </tr>
 <tr>
 <td>Shameless US S6</td>
@@ -2823,13 +2942,11 @@ option proto
 <td>最后的朋友</td>
 <td>2016.07.10</td>
 <td>7.5</td>
-<td></td>
 </tr>
 <tr>
 <td>百家讲坛易经的奥秘</td>
 <td>2016.07.10</td>
 <td>7</td>
-<td></td>
 </tr>
 <tr>
 <td>百家讲坛易中天品三国</td>
@@ -3010,25 +3127,21 @@ option proto
 <td>驴得水</td>
 <td>2016.12.15</td>
 <td>7.5</td>
-<td></td>
 </tr>
 <tr>
 <td>Sully</td>
 <td>2016.12.16</td>
 <td>7</td>
-<td></td>
 </tr>
 <tr>
 <td>罗曼蒂克消亡史</td>
 <td>2016.12.18</td>
 <td>1</td>
-<td></td>
 </tr>
 <tr>
 <td>血战钢锯岭</td>
 <td>2016.12.19</td>
 <td>7.9</td>
-<td></td>
 </tr>
 <tr>
 <td>柯南one</td>
@@ -3047,69 +3160,6 @@ option proto
     
   
   
-    
-    <entry>
-      <title><![CDATA[404]]></title>
-      <url>http://andi.press//404.html</url>
-      <content type="html"><![CDATA[<p>网址打错了！</p>
-<style type="text/css">
-    .article-header {
-        padding: 0;
-        padding-top: 26px;
-        border-left: none;
-        text-align: center;
-    }
-    .article-header:hover {
-        border-left: none;
-    }
-    .article-title {
-        font-size: 2.1em;
-    }
-    strong a {
-        color: #747474;
-    }
-    .article-meta {
-        display: none;
-    }
-    .share {
-        display: none;
-    }
-    .ds-meta {
-        display: none;
-    }
-    .player {
-        margin-left: -10px;
-    }
-    .sign {
-        text-align: right;
-        font-style: italic;
-    }
-      #page-visit {
-        display: none;
-    }
-    .center {
-        text-align: center;
-        height: 2.5em;
-        font-weight: bold;
-    }
-    .article-entry hr {
-        margin: 0;
-    }
-    .pic {
-        text-align: center;
-        margin: 0;
-    }
-    .pic br {
-          display: none;
-      }
-    #container .article-info-post.article-info {
-      display: none;
-      }
-    #container .article .article-title {
-    padding: 0;
-    }
-</style>]]></content>
-    </entry>
     
     <entry>
       <title><![CDATA[关于我]]></title>

@@ -204,7 +204,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/OpenWrt/">OpenWrt</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Raspberry/">Raspberry</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ResilioSync/">ResilioSync</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/archlinuxarm/">archlinuxarm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kali/">kali</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kindle/">kindle</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yelee/">yelee</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/中文/">中文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/书/">书</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/外语/">外语</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/学习/">学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/摘抄/">摘抄</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日语/">日语</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/标注/">标注</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/树莓派/">树莓派</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/歌词/">歌词</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电子书/">电子书</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电影/">电影</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电视剧/">电视剧</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/英语/">英语</a></li></ul>
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/OpenWrt/">OpenWrt</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Raspberry/">Raspberry</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ResilioSync/">ResilioSync</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/archlinuxarm/">archlinuxarm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bash/">bash</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kali/">kali</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kindle/">kindle</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yelee/">yelee</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/中文/">中文</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/书/">书</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/外语/">外语</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/学习/">学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/摘抄/">摘抄</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日语/">日语</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/标注/">标注</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/树莓派/">树莓派</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/歌词/">歌词</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电子书/">电子书</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电影/">电影</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/电视剧/">电视剧</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/编程/">编程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/英语/">英语</a></li></ul>
                     </div>
                 </section>
                 
@@ -297,6 +297,72 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-路由器发送IP至服务器" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/01/14/路由器发送IP至服务器/" class="article-date">
+      <time datetime="2017-01-13T16:31:16.000Z" itemprop="datePublished">2017-01-14</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/14/路由器发送IP至服务器/">路由器发送IP至服务器</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>路由器上<br>/etc/storage/ddns.sh<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line">newip=`ifconfig ppp0|grep inet|awk <span class="string">'&#123;print $2&#125;'</span>|awk -F <span class="string">':'</span> <span class="string">'&#123;print $2&#125;'</span>`</div><div class="line"><span class="built_in">echo</span> <span class="variable">$ip</span> &gt; temp</div><div class="line">oldip=`cat temp`</div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$oldip</span>"</span> == <span class="string">"<span class="variable">$ip</span>"</span> ];<span class="keyword">then</span></div><div class="line"><span class="built_in">echo</span> <span class="string">"Same IP"</span></div><div class="line"><span class="keyword">else</span></div><div class="line">curl http://andi.press/ebook/ddns.php?ip=<span class="variable">$newip</span>:10090</div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">chmod +x /etc/storage/ddns.sh</div><div class="line">crontab <span class="_">-e</span></div><div class="line">0 * * * * /etc/storage/ddns.sh</div></pre></td></tr></table></figure>
+<p>服务器上<br>ddns.php<br>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bash/">bash</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/编程/">编程</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2017/01/14/路由器发送IP至服务器/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-关于这个博客" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -388,9 +454,7 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-              <h2 id="sister’s-noise"><a href="#sister’s-noise" class="headerlink" title="sister’s noise"></a>sister’s noise</h2><p>谁（だれ）よりも近（ちか）くにいた<br>その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)<br>刻（きざ）み続（つづ）けていた时（とき）の中（なか）で<br>やっと君（きみ）に逢（であ）えたから<br>sister’s noise 探(さが)し続(つづ)ける<br>彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)<br>重(かさ)ね合(あ)った この思(おも)いは<br>谁(だれ)にも壊(こわ)せないから</p>
-<ul>
-<li>
+              <h2 id="sister’s-noise"><a href="#sister’s-noise" class="headerlink" title="sister’s noise"></a>sister’s noise</h2><p>谁（だれ）よりも近（ちか）くにいた<br>その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)<br>刻（きざ）み続（つづ）けていた时（とき）の中（なか）で<br>やっと君（きみ）に逢（であ）えたから<br>sister’s noise 探(さが)し続(つづ)ける<br>彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)<br>重(かさ)ね合(あ)った この思(おも)いは<br>谁(だれ)にも壊(こわ)せないから<br>
           
       
     </div>
@@ -456,9 +520,7 @@
           
               <p>悟空传(完美纪念版) (今何在)<br>您在位置 #1114-1114的标注,添加于 2013年11月28日星期四 下午10:49:43</p>
 <p>只有绝望，能毁灭一颗不死的心。<br>-<br>如何阅读一本书 ([美] 莫提默·J·艾德勒;查尔斯·范多伦)<br>您在位置 #194-195的标注,添加于 2013年11月30日星期六 下午9:55:52</p>
-<p>简单来说，我们只能从比我们“更高杆”的人身上学习。<br>-</p>
-<ul>
-<li>
+<p>简单来说，我们只能从比我们“更高杆”的人身上学习。<br>-<br>
           
       
     </div>
@@ -522,9 +584,7 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-              <h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><p>踅 xue 来回走<br>迳 jing 至，经过<br>俹 ya 倚，靠<br>艖 cha 小船<br>馔 zhuan 准备食物，食物<br>郓 yun 地名<br>睃 suo 斜着眼睛看<br>唣 zao 吵闹<br>旖旎 yini 柔和美好</p>
-<ul>
-<li>
+              <h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><p>踅 xue 来回走<br>迳 jing 至，经过<br>俹 ya 倚，靠<br>艖 cha 小船<br>馔 zhuan 准备食物，食物<br>郓 yun 地名<br>睃 suo 斜着眼睛看<br>唣 zao 吵闹<br>旖旎 yini 柔和美好<br>
           
       
     </div>
@@ -590,8 +650,7 @@
           
               <h3 id="下载镜像"><a href="#下载镜像" class="headerlink" title="下载镜像"></a>下载镜像</h3><p>这个lede好像是openwrt的一个分支，openwrt本身还没有支持pi3，<a href="https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img">https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img</a></p>
 <h3 id="刻录到tf卡"><a href="#刻录到tf卡" class="headerlink" title="刻录到tf卡"></a>刻录到tf卡</h3><p>windows使用Win32DiskImager，linux使用dd命令。</p>
-<h3 id="树莓派通电，使用网线连接电脑。"><a href="#树莓派通电，使用网线连接电脑。" class="headerlink" title="树莓派通电，使用网线连接电脑。"></a>树莓派通电，使用网线连接电脑。</h3><h3 id="修改-etc-config-network"><a href="#修改-etc-config-network" class="headerlink" title="修改/etc/config/network"></a>修改/etc/config/network</h3><ul>
-<li>
+<h3 id="树莓派通电，使用网线连接电脑。"><a href="#树莓派通电，使用网线连接电脑。" class="headerlink" title="树莓派通电，使用网线连接电脑。"></a>树莓派通电，使用网线连接电脑。</h3><h3 id="修改-etc-config-network"><a href="#修改-etc-config-network" class="headerlink" title="修改/etc/config/network"></a>修改/etc/config/network</h3>
           
       
     </div>
@@ -659,8 +718,6 @@
 <p>git clone <a href="https://github.com/swkim01/waveshare-dtoverlays.git">https://github.com/swkim01/waveshare-dtoverlays.git</a> waveshare-dtoverlays<br>cd waveshare-dtoverlays<br>mount /dev/mmcblk0p1 /boot/<br>cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/</p>
 <p>编辑/boot/config.txt添加</p>
 <p>dtoverlay=waveshare35a</p>
-<ul>
-<li>
           
       
     </div>
@@ -726,8 +783,6 @@
           
               <p>pacman -S dnsmasq hostapd</p>
 <p>ip link set dev wlan1 up<br>ip addr add 192.168.100.1/24 broadcast 192.168.100.255 dev wlan1</p>
-<ul>
-<li>
           
       
     </div>
@@ -851,9 +906,7 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-              <p>重复的是读过多遍<br>数字为评分，满分10</p>
-<ul>
-<li>
+              <p>重复的是读过多遍<br>数字为评分，满分10<br>
           
       
     </div>
