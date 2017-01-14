@@ -857,12 +857,6 @@ a {
   -moz-background-size: 88%;
   background-size: 88%;
 }
-#header .header-nav .social .ebook {
-  background: url("/img/ebook.png") center no-repeat #fff;
-  -webkit-background-size: 88%;
-  -moz-background-size: 88%;
-  background-size: 88%;
-}
 #header .header-nav .social .AcFun {
   background: url("/img/AcFun.png") center no-repeat #fbc054;
   -webkit-background-size: 90%;
