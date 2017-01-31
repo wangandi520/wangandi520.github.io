@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://andi.press/"/>
-  <updated>2017-01-14T14:37:02.870Z</updated>
+  <updated>2017-01-31T03:46:52.628Z</updated>
   <id>http://andi.press/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单页面投资行情</title>
+    <link href="http://andi.press/2017/01/31/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/"/>
+    <id>http://andi.press/2017/01/31/单页面投资行情/</id>
+    <published>2017-01-31T03:39:27.000Z</published>
+    <updated>2017-01-31T03:46:52.628Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯&lt;br&gt;只有一个93KB的html文件，，无数据库，方便手机访问&lt;br&gt;可以导入，计算股票盈亏，总资产&lt;br&gt;&lt;a href=&quot;http://andi.press/s/&quot;&gt;http://an
+    
+    </summary>
+    
+    
+      <category term="html" scheme="http://andi.press/tags/html/"/>
+    
+      <category term="投资" scheme="http://andi.press/tags/%E6%8A%95%E8%B5%84/"/>
+    
+  </entry>
   
   <entry>
     <title>路由器发送IP至服务器</title>

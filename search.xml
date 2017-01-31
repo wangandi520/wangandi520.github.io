@@ -4,6 +4,13 @@
   
     
     <entry>
+      <title><![CDATA[单页面投资行情]]></title>
+      <url>http://andi.press/2017/01/31/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/</url>
+      <content type="html"><![CDATA[<p>可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯<br>只有一个93KB的html文件，，无数据库，方便手机访问<br>可以导入，计算股票盈亏，总资产<br><a href="http://andi.press/s/">http://andi.press/s/</a><br>或<br><a href="http://andi.press/s/index.html?import=sh600000,stock">http://andi.press/s/index.html?import=sh600000,stock</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[路由器发送IP至服务器]]></title>
       <url>http://andi.press/2017/01/14/%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%91%E9%80%81IP%E8%87%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
       <content type="html"><![CDATA[<p>路由器上<br>/etc/storage/ddns.sh<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line">newip=$(ifconfig ppp0|grep inet|awk <span class="string">'&#123;print $2&#125;'</span>|awk -F <span class="string">':'</span> <span class="string">'&#123;print $2&#125;'</span>)</div><div class="line">oldip=$(cat /tmp/lastIP)</div><div class="line"><span class="keyword">if</span> [ <span class="variable">$oldip</span> == <span class="variable">$newip</span> ];<span class="keyword">then</span></div><div class="line">        logger <span class="string">"ddns: IP:"</span><span class="variable">$oldip</span><span class="string">",IP has not changed"</span></div><div class="line">        <span class="built_in">echo</span> <span class="string">"ddns: IP:"</span><span class="variable">$oldip</span><span class="string">",IP has not changed"</span></div><div class="line"><span class="keyword">else</span></div><div class="line">        info=$(curl http://andi.press/ebook/ddns.php?ip=<span class="variable">$newip</span>:10090 <span class="_">-s</span>)</div><div class="line">        <span class="built_in">echo</span> <span class="variable">$newip</span> &gt; /tmp/lastIP</div><div class="line">        logger <span class="variable">$info</span></div><div class="line">        <span class="built_in">echo</span> <span class="variable">$info</span></div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure></p>
