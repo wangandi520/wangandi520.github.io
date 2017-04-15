@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Andy&#39;s word</title>
-  <subtitle>假如本书有怪诞的地方，则非作者有意为之，而是历史的本来面貌。</subtitle>
+  <subtitle>“假如本书有怪诞的地方，则非作者有意为之，而是历史的本来面貌。”</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://andi.press/"/>
-  <updated>2017-01-31T03:46:52.628Z</updated>
+  <updated>2017-03-23T12:55:59.580Z</updated>
   <id>http://andi.press/</id>
   
   <author>
@@ -16,15 +16,53 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>老王随机点名器v0.41</title>
+    <link href="http://andi.press/2017/03/23/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41/"/>
+    <id>http://andi.press/2017/03/23/老王随机点名器v0.41/</id>
+    <published>2017-03-23T12:37:04.000Z</published>
+    <updated>2017-03-23T12:55:59.580Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://andi.press/files/老王随机点名器v0.41.zip&quot;&gt;下载地址1&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://on8vei0g9.bkt.clouddn.com/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41.zip&quot;&gt;下载地址2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;简易说明：&lt;br&gt;选取姓名按钮快捷键：空格，缺席按钮快捷键：B。&lt;/p&gt;
+&lt;p&gt;0.41版更新：&lt;br&gt;添加速度调节&lt;br&gt;修复bug&lt;br&gt;可快速捐赠&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Qt" scheme="http://andi.press/tags/Qt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>吉他翻弹.Speak softly love/The Godfather</title>
+    <link href="http://andi.press/2017/03/23/speaksoftlylove/"/>
+    <id>http://andi.press/2017/03/23/speaksoftlylove/</id>
+    <published>2017-03-23T12:31:58.000Z</published>
+    <updated>2017-03-23T13:08:58.970Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;拍摄：尼康D610外录&lt;br&gt;吉他：无牌古典吉他&lt;br&gt;原版：&lt;a href=&quot;https://www.youtube.com/watch?v=8vDhVFnYVl4&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.youtube.c
+    
+    </summary>
+    
+    
+      <category term="吉他" scheme="http://andi.press/tags/%E5%90%89%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>单页面投资行情</title>
     <link href="http://andi.press/2017/01/31/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/"/>
     <id>http://andi.press/2017/01/31/单页面投资行情/</id>
     <published>2017-01-31T03:39:27.000Z</published>
-    <updated>2017-01-31T03:46:52.628Z</updated>
+    <updated>2017-02-18T02:19:43.180Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯&lt;br&gt;只有一个93KB的html文件，，无数据库，方便手机访问&lt;br&gt;可以导入，计算股票盈亏，总资产&lt;br&gt;&lt;a href=&quot;http://andi.press/s/&quot;&gt;http://an
+      &lt;p&gt;可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯&lt;br&gt;只有一个93KB的html文件，无数据库，方便手机访问&lt;br&gt;可以导入，计算股票盈亏，总资产&lt;br&gt;&lt;a href=&quot;http://andi.press/s/&quot;&gt;http://and
     
     </summary>
     
