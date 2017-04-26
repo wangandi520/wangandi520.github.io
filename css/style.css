@@ -875,6 +875,12 @@ a {
   -moz-background-size: 103%;
   background-size: 103%;
 }
+#header .header-nav .social .amazon {
+  background: url("/img/amazon.png") center no-repeat #fff;
+  -webkit-background-size: 88%;
+  -moz-background-size: 88%;
+  background-size: 88%;
+}
 #header .header-nav .social .GitHub {
   background: url("//cdn.bootcss.com/logos/0.2.0/github-octocat.svg") no-repeat #fff;
   -webkit-background-size: 90%;

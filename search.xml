@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title><![CDATA[kindle常见问题]]></title>
+      <url>http://andi.press/2017/04/26/kindle%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<p>1.电池一般能用多久<br>超长续航，一次充电可维持数周。常看的话一般1星期没问题。如果特别耗电请查看<a href="http://andi.press/2017/04/26/%E4%B8%80%E7%A7%8D%E8%A7%A3%E5%86%B3kindle%E5%8D%A1%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8A%9E%E6%B3%95/">《一种解决kindle卡索引的办法》</a> 。不看的时候就直接放着或者按一下电源，不开灯、屏幕没变化就基本不费电。</p>
+<p>2.4GB空间够不够用<br>足够，一本书一般几百KB，建议放几十本书比较合适，放太多书注意力容易分散。<br><a id="more"></a><br>3.充电器，贴膜，套买不买<br>充电器不必买，电脑充电即可，用别的充电器注意电压电流，官方充电器5W,1A。 贴膜不建议用，使用的2年的kpw2，1年半1kpw3没有任何刮擦（最近kpw3出现了一条划痕），贴了影响看书效果。 套的话可用可不用，为了保护屏幕的话可以用，kpw2官方套很重，手拿着看书的话很累。一种比较好的解决方式是贴纸（见文章最后的图片），几乎不比原来重多少，颜色个人觉得黑色的比较合适，其他太鲜艳的颜色可能长时间看会有点累。外出的话放到信封套里保护下屏幕。</p>
+<p>4.支持的格式<br>epub不支持，Kindle Format 8 (AZW3)，Kindle (AZW)，TXT，PDF，MOBI，PRC原格式，HTML，DOC，DOCX，JPEG，GIF，PNG，BMP转换格式，详细的可以看亚马逊官网z.cn。epub可以使用KindlePreviewer，calibre转换。</p>
+<p>5.资源哪里找<br>亚马逊官网z.cn，hipda论坛的eink版。使用Resilio sync（原名BitTorrent Sync或BTSync） 同步，是在现在网盘很多不能方便共享的情况下的一个好方法，相当于每个人自己的电脑就是一个网盘，分布式的。这样不会因为某些公司停止的服务就失去了资源。</p>
+<p>6.有没有灯，翻页是触屏or按键<br>参照亚马逊官网z.cn。</p>
+<p>7.海淘<br>日本亚马逊，美国亚马逊购买的kindle可以登录中国亚马逊买书。</p>
+<p>8.制作自己的电子书<br>推荐软件sigil。</p>
+<p>9.能不能听mp3，上网<br>kindle touch可以听，其他不支持，也是为了专注阅读。可以用内置浏览器上网，reabble.com这网址看rss效果还不错。</p>
+<p>10.怎么看自己下载的电子书<br>插usb线，放支持的格式（见4）到documents文件夹里。</p>
+<p><img src="/img/kindle01.jpg" alt="KPW3正面贴纸"><br><img src="/img/kindle02.jpg" alt="KPW3背面贴纸"></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[一种解决kindle卡索引的办法]]></title>
+      <url>http://andi.press/2017/04/26/%E4%B8%80%E7%A7%8D%E8%A7%A3%E5%86%B3kindle%E5%8D%A1%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8A%9E%E6%B3%95/</url>
+      <content type="html"><![CDATA[<p>(kpw2美版测试通过)<br>1.使用calibre把书转换为epub格式<br>2.在亚马逊官方下载<a href="http://www.amazon.com/gp/feature.html?docId=1000765261" target="_blank" rel="external">Kindle Previewer</a><br><a id="more"></a><br>3.使用Kindle Previewer打开epub文件，会自动生成一个mobi，放到kindle里<br>4.在我的电脑里右键点选弹出kindle盘，不要拔掉usb线<br>5.搜索，选择“全部”，搜一串无意义的字符例如”dsafn.,1xc”，出现“尚未就该内容编制索引”就继续等待，点开可以查看哪些书没索引完。直到出现“没有符合xx的内容”就索引完毕</p>
+<p>测试文件3个，没转换前通电几小时都没索引完，转换后15分钟内都索引完了。</p>
+<p>本文测试时间为2015年，kindle固件是否修复问题未知，请注意时效。</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[老王随机点名器v0.41]]></title>
       <url>http://andi.press/2017/03/23/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41/</url>
       <content type="html"><![CDATA[<p><a href="http://andi.press/files/老王随机点名器v0.41.zip">下载地址1</a><br><a href="http://on8vei0g9.bkt.clouddn.com/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41.zip" target="_blank" rel="external">下载地址2</a></p>
@@ -3188,16 +3213,16 @@
   
     
     <entry>
-      <title><![CDATA[分类&标签]]></title>
-      <url>http://andi.press/tags/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于我]]></title>
       <url>http://andi.press/about/index.html</url>
       <content type="html"><![CDATA[<p>闲人一个。</p>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[分类&标签]]></title>
+      <url>http://andi.press/tags/index.html</url>
+      <content type="html"></content>
     </entry>
     
   

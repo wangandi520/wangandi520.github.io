@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://andi.press/"/>
-  <updated>2017-03-23T12:55:59.580Z</updated>
+  <updated>2017-04-26T07:53:35.281Z</updated>
   <id>http://andi.press/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kindle常见问题</title>
+    <link href="http://andi.press/2017/04/26/kindle%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://andi.press/2017/04/26/kindle常见问题/</id>
+    <published>2017-04-26T07:39:04.000Z</published>
+    <updated>2017-04-26T07:53:35.281Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1.电池一般能用多久&lt;br&gt;超长续航，一次充电可维持数周。常看的话一般1星期没问题。如果特别耗电请查看&lt;a href=&quot;http://andi.press/2017/04/26/%E4%B8%80%E7%A7%8D%E8%A7%A3%E5%86%B3kindle%E5%8D%A1%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8A%9E%E6%B3%95/&quot;&gt;《一种解决kindle卡索引的办法》&lt;/a&gt; 。不看的时候就直接放着或者按一下电源，不开灯、屏幕没变化就基本不费电。&lt;/p&gt;
+&lt;p&gt;2.4GB空间够不够用&lt;br&gt;足够，一本书一般几百KB，建议放几十本书比较合适，放太多书注意力容易分散。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="kindle" scheme="http://andi.press/tags/kindle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一种解决kindle卡索引的办法</title>
+    <link href="http://andi.press/2017/04/26/%E4%B8%80%E7%A7%8D%E8%A7%A3%E5%86%B3kindle%E5%8D%A1%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8A%9E%E6%B3%95/"/>
+    <id>http://andi.press/2017/04/26/一种解决kindle卡索引的办法/</id>
+    <published>2017-04-26T07:37:10.000Z</published>
+    <updated>2017-04-26T07:55:06.985Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;(kpw2美版测试通过)&lt;br&gt;1.使用calibre把书转换为epub格式&lt;br&gt;2.在亚马逊官方下载&lt;a href=&quot;http://www.amazon.com/gp/feature.html?docId=1000765261&quot;&gt;Kindle Previewer&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="kindle" scheme="http://andi.press/tags/kindle/"/>
+    
+      <category term="卡索引" scheme="http://andi.press/tags/%E5%8D%A1%E7%B4%A2%E5%BC%95/"/>
+    
+  </entry>
   
   <entry>
     <title>老王随机点名器v0.41</title>
@@ -273,11 +312,11 @@
     </summary>
     
     
+      <category term="kindle" scheme="http://andi.press/tags/kindle/"/>
+    
       <category term="ResilioSync" scheme="http://andi.press/tags/ResilioSync/"/>
     
       <category term="电子书" scheme="http://andi.press/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
-    
-      <category term="kindle" scheme="http://andi.press/tags/kindle/"/>
     
   </entry>
   
