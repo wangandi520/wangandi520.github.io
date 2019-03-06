@@ -4,9 +4,9 @@
   <subtitle>“假如本书有怪诞的地方，则非作者有意为之，而是历史的本来面貌。”</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://andi.press/"/>
-  <updated>2017-05-23T01:57:58.585Z</updated>
-  <id>http://andi.press/</id>
+  <link href="https://wangandi520.github.io/"/>
+  <updated>2017-05-23T01:57:58.586Z</updated>
+  <id>https://wangandi520.github.io/</id>
   
   <author>
     <name>Andy</name>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>树莓派3B和攀藤PMS5003ST</title>
-    <link href="http://andi.press/2017/05/15/%E6%A0%91%E8%8E%93%E6%B4%BE3B%E5%92%8C%E6%94%80%E8%97%A4PMS5003ST/"/>
-    <id>http://andi.press/2017/05/15/树莓派3B和攀藤PMS5003ST/</id>
+    <link href="https://wangandi520.github.io/2017/05/15/%E6%A0%91%E8%8E%93%E6%B4%BE3B%E5%92%8C%E6%94%80%E8%97%A4PMS5003ST/"/>
+    <id>https://wangandi520.github.io/2017/05/15/树莓派3B和攀藤PMS5003ST/</id>
     <published>2017-05-15T13:25:00.000Z</published>
-    <updated>2017-05-23T01:57:58.585Z</updated>
+    <updated>2017-05-23T01:57:58.586Z</updated>
     
     <summary type="html">
     
@@ -30,24 +30,24 @@
     </summary>
     
     
-      <category term="树莓派" scheme="http://andi.press/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+      <category term="树莓派" scheme="https://wangandi520.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
-      <category term="Raspberry" scheme="http://andi.press/tags/Raspberry/"/>
+      <category term="Raspberry" scheme="https://wangandi520.github.io/tags/Raspberry/"/>
     
-      <category term="攀藤" scheme="http://andi.press/tags/%E6%94%80%E8%97%A4/"/>
+      <category term="攀藤" scheme="https://wangandi520.github.io/tags/%E6%94%80%E8%97%A4/"/>
     
-      <category term="PMS5003ST" scheme="http://andi.press/tags/PMS5003ST/"/>
+      <category term="PMS5003ST" scheme="https://wangandi520.github.io/tags/PMS5003ST/"/>
     
-      <category term="PM2.5" scheme="http://andi.press/tags/PM2-5/"/>
+      <category term="PM2.5" scheme="https://wangandi520.github.io/tags/PM2-5/"/>
     
   </entry>
   
   <entry>
     <title>kindle常见问题</title>
-    <link href="http://andi.press/2017/04/26/kindle%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    <id>http://andi.press/2017/04/26/kindle常见问题/</id>
+    <link href="https://wangandi520.github.io/2017/04/26/kindle%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>https://wangandi520.github.io/2017/04/26/kindle常见问题/</id>
     <published>2017-04-26T07:39:04.000Z</published>
-    <updated>2017-05-09T02:53:12.554Z</updated>
+    <updated>2017-05-09T02:53:12.555Z</updated>
     
     <summary type="html">
     
@@ -57,14 +57,14 @@
     </summary>
     
     
-      <category term="kindle" scheme="http://andi.press/tags/kindle/"/>
+      <category term="kindle" scheme="https://wangandi520.github.io/tags/kindle/"/>
     
   </entry>
   
   <entry>
     <title>一种解决kindle卡索引的办法</title>
-    <link href="http://andi.press/2017/04/26/%E4%B8%80%E7%A7%8D%E8%A7%A3%E5%86%B3kindle%E5%8D%A1%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8A%9E%E6%B3%95/"/>
-    <id>http://andi.press/2017/04/26/一种解决kindle卡索引的办法/</id>
+    <link href="https://wangandi520.github.io/2017/04/26/%E4%B8%80%E7%A7%8D%E8%A7%A3%E5%86%B3kindle%E5%8D%A1%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8A%9E%E6%B3%95/"/>
+    <id>https://wangandi520.github.io/2017/04/26/一种解决kindle卡索引的办法/</id>
     <published>2017-04-26T07:37:10.000Z</published>
     <updated>2017-04-26T07:55:06.985Z</updated>
     
@@ -75,16 +75,16 @@
     </summary>
     
     
-      <category term="kindle" scheme="http://andi.press/tags/kindle/"/>
+      <category term="kindle" scheme="https://wangandi520.github.io/tags/kindle/"/>
     
-      <category term="卡索引" scheme="http://andi.press/tags/%E5%8D%A1%E7%B4%A2%E5%BC%95/"/>
+      <category term="卡索引" scheme="https://wangandi520.github.io/tags/%E5%8D%A1%E7%B4%A2%E5%BC%95/"/>
     
   </entry>
   
   <entry>
     <title>老王随机点名器v0.41</title>
-    <link href="http://andi.press/2017/03/23/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41/"/>
-    <id>http://andi.press/2017/03/23/老王随机点名器v0.41/</id>
+    <link href="https://wangandi520.github.io/2017/03/23/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41/"/>
+    <id>https://wangandi520.github.io/2017/03/23/老王随机点名器v0.41/</id>
     <published>2017-03-23T12:37:04.000Z</published>
     <updated>2017-03-23T12:55:59.580Z</updated>
     
@@ -97,16 +97,16 @@
     </summary>
     
     
-      <category term="Qt" scheme="http://andi.press/tags/Qt/"/>
+      <category term="Qt" scheme="https://wangandi520.github.io/tags/Qt/"/>
     
   </entry>
   
   <entry>
     <title>吉他翻弹.Speak softly love/The Godfather</title>
-    <link href="http://andi.press/2017/03/23/speaksoftlylove/"/>
-    <id>http://andi.press/2017/03/23/speaksoftlylove/</id>
+    <link href="https://wangandi520.github.io/2017/03/23/speaksoftlylove/"/>
+    <id>https://wangandi520.github.io/2017/03/23/speaksoftlylove/</id>
     <published>2017-03-23T12:31:58.000Z</published>
-    <updated>2017-03-23T13:08:58.970Z</updated>
+    <updated>2017-03-23T13:08:58.971Z</updated>
     
     <summary type="html">
     
@@ -115,16 +115,16 @@
     </summary>
     
     
-      <category term="吉他" scheme="http://andi.press/tags/%E5%90%89%E4%BB%96/"/>
+      <category term="吉他" scheme="https://wangandi520.github.io/tags/%E5%90%89%E4%BB%96/"/>
     
   </entry>
   
   <entry>
     <title>单页面投资行情</title>
-    <link href="http://andi.press/2017/01/31/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/"/>
-    <id>http://andi.press/2017/01/31/单页面投资行情/</id>
+    <link href="https://wangandi520.github.io/2017/01/31/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/"/>
+    <id>https://wangandi520.github.io/2017/01/31/单页面投资行情/</id>
     <published>2017-01-31T03:39:27.000Z</published>
-    <updated>2017-02-18T02:19:43.180Z</updated>
+    <updated>2017-02-18T02:19:43.181Z</updated>
     
     <summary type="html">
     
@@ -133,16 +133,16 @@
     </summary>
     
     
-      <category term="html" scheme="http://andi.press/tags/html/"/>
+      <category term="html" scheme="https://wangandi520.github.io/tags/html/"/>
     
-      <category term="投资" scheme="http://andi.press/tags/%E6%8A%95%E8%B5%84/"/>
+      <category term="投资" scheme="https://wangandi520.github.io/tags/%E6%8A%95%E8%B5%84/"/>
     
   </entry>
   
   <entry>
     <title>路由器发送IP至服务器</title>
-    <link href="http://andi.press/2017/01/14/%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%91%E9%80%81IP%E8%87%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>http://andi.press/2017/01/14/路由器发送IP至服务器/</id>
+    <link href="https://wangandi520.github.io/2017/01/14/%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%91%E9%80%81IP%E8%87%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>https://wangandi520.github.io/2017/01/14/路由器发送IP至服务器/</id>
     <published>2017-01-13T16:31:16.000Z</published>
     <updated>2017-01-14T14:37:02.870Z</updated>
     
@@ -155,20 +155,20 @@
     </summary>
     
     
-      <category term="编程" scheme="http://andi.press/tags/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://wangandi520.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
-      <category term="php" scheme="http://andi.press/tags/php/"/>
+      <category term="php" scheme="https://wangandi520.github.io/tags/php/"/>
     
-      <category term="bash" scheme="http://andi.press/tags/bash/"/>
+      <category term="bash" scheme="https://wangandi520.github.io/tags/bash/"/>
     
   </entry>
   
   <entry>
     <title>关于这个博客</title>
-    <link href="http://andi.press/2017/01/09/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://andi.press/2017/01/09/关于这个博客/</id>
+    <link href="https://wangandi520.github.io/2017/01/09/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://wangandi520.github.io/2017/01/09/关于这个博客/</id>
     <published>2017-01-09T10:31:40.000Z</published>
-    <updated>2017-01-09T10:35:52.729Z</updated>
+    <updated>2017-01-09T10:35:52.730Z</updated>
     
     <summary type="html">
     
@@ -177,16 +177,16 @@
     </summary>
     
     
-      <category term="hexo" scheme="http://andi.press/tags/hexo/"/>
+      <category term="hexo" scheme="https://wangandi520.github.io/tags/hexo/"/>
     
-      <category term="yelee" scheme="http://andi.press/tags/yelee/"/>
+      <category term="yelee" scheme="https://wangandi520.github.io/tags/yelee/"/>
     
   </entry>
   
   <entry>
     <title>歌词</title>
-    <link href="http://andi.press/2017/01/09/%E6%AD%8C%E8%AF%8D/"/>
-    <id>http://andi.press/2017/01/09/歌词/</id>
+    <link href="https://wangandi520.github.io/2017/01/09/%E6%AD%8C%E8%AF%8D/"/>
+    <id>https://wangandi520.github.io/2017/01/09/歌词/</id>
     <published>2017-01-09T09:53:55.000Z</published>
     <updated>2017-01-13T16:34:38.172Z</updated>
     
@@ -197,18 +197,18 @@
     </summary>
     
     
-      <category term="日语" scheme="http://andi.press/tags/%E6%97%A5%E8%AF%AD/"/>
+      <category term="日语" scheme="https://wangandi520.github.io/tags/%E6%97%A5%E8%AF%AD/"/>
     
-      <category term="歌词" scheme="http://andi.press/tags/%E6%AD%8C%E8%AF%8D/"/>
+      <category term="歌词" scheme="https://wangandi520.github.io/tags/%E6%AD%8C%E8%AF%8D/"/>
     
-      <category term="英语" scheme="http://andi.press/tags/%E8%8B%B1%E8%AF%AD/"/>
+      <category term="英语" scheme="https://wangandi520.github.io/tags/%E8%8B%B1%E8%AF%AD/"/>
     
   </entry>
   
   <entry>
     <title>kindle标注</title>
-    <link href="http://andi.press/2017/01/09/kindle%E6%A0%87%E6%B3%A8/"/>
-    <id>http://andi.press/2017/01/09/kindle标注/</id>
+    <link href="https://wangandi520.github.io/2017/01/09/kindle%E6%A0%87%E6%B3%A8/"/>
+    <id>https://wangandi520.github.io/2017/01/09/kindle标注/</id>
     <published>2017-01-09T09:52:41.000Z</published>
     <updated>2017-01-13T16:34:30.266Z</updated>
     
@@ -221,18 +221,18 @@
     </summary>
     
     
-      <category term="kindle" scheme="http://andi.press/tags/kindle/"/>
+      <category term="kindle" scheme="https://wangandi520.github.io/tags/kindle/"/>
     
-      <category term="摘抄" scheme="http://andi.press/tags/%E6%91%98%E6%8A%84/"/>
+      <category term="摘抄" scheme="https://wangandi520.github.io/tags/%E6%91%98%E6%8A%84/"/>
     
-      <category term="标注" scheme="http://andi.press/tags/%E6%A0%87%E6%B3%A8/"/>
+      <category term="标注" scheme="https://wangandi520.github.io/tags/%E6%A0%87%E6%B3%A8/"/>
     
   </entry>
   
   <entry>
     <title>单词</title>
-    <link href="http://andi.press/2017/01/09/%E5%8D%95%E8%AF%8D/"/>
-    <id>http://andi.press/2017/01/09/单词/</id>
+    <link href="https://wangandi520.github.io/2017/01/09/%E5%8D%95%E8%AF%8D/"/>
+    <id>https://wangandi520.github.io/2017/01/09/单词/</id>
     <published>2017-01-09T09:50:31.000Z</published>
     <updated>2017-01-13T16:34:34.463Z</updated>
     
@@ -243,22 +243,22 @@
     </summary>
     
     
-      <category term="学习" scheme="http://andi.press/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://wangandi520.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="外语" scheme="http://andi.press/tags/%E5%A4%96%E8%AF%AD/"/>
+      <category term="外语" scheme="https://wangandi520.github.io/tags/%E5%A4%96%E8%AF%AD/"/>
     
-      <category term="日语" scheme="http://andi.press/tags/%E6%97%A5%E8%AF%AD/"/>
+      <category term="日语" scheme="https://wangandi520.github.io/tags/%E6%97%A5%E8%AF%AD/"/>
     
-      <category term="中文" scheme="http://andi.press/tags/%E4%B8%AD%E6%96%87/"/>
+      <category term="中文" scheme="https://wangandi520.github.io/tags/%E4%B8%AD%E6%96%87/"/>
     
   </entry>
   
   <entry>
     <title>树莓派3(Raspberry pi 3)刷OpenWrt</title>
-    <link href="http://andi.press/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7OpenWrt/"/>
-    <id>http://andi.press/2017/01/09/树莓派3-Raspberry-pi-3-刷OpenWrt/</id>
+    <link href="https://wangandi520.github.io/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7OpenWrt/"/>
+    <id>https://wangandi520.github.io/2017/01/09/树莓派3-Raspberry-pi-3-刷OpenWrt/</id>
     <published>2017-01-09T02:58:52.000Z</published>
-    <updated>2017-01-13T16:34:54.985Z</updated>
+    <updated>2017-01-13T16:34:54.986Z</updated>
     
     <summary type="html">
     
@@ -269,20 +269,20 @@
     </summary>
     
     
-      <category term="树莓派" scheme="http://andi.press/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+      <category term="树莓派" scheme="https://wangandi520.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
-      <category term="Raspberry" scheme="http://andi.press/tags/Raspberry/"/>
+      <category term="Raspberry" scheme="https://wangandi520.github.io/tags/Raspberry/"/>
     
-      <category term="OpenWrt" scheme="http://andi.press/tags/OpenWrt/"/>
+      <category term="OpenWrt" scheme="https://wangandi520.github.io/tags/OpenWrt/"/>
     
   </entry>
   
   <entry>
     <title>树莓派3(Raspberry pi 3)刷kali+3.5寸微雪屏</title>
-    <link href="http://andi.press/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7kali-3-5%E5%AF%B8%E5%BE%AE%E9%9B%AA%E5%B1%8F/"/>
-    <id>http://andi.press/2017/01/09/树莓派3-Raspberry-pi-3-刷kali-3-5寸微雪屏/</id>
+    <link href="https://wangandi520.github.io/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7kali-3-5%E5%AF%B8%E5%BE%AE%E9%9B%AA%E5%B1%8F/"/>
+    <id>https://wangandi520.github.io/2017/01/09/树莓派3-Raspberry-pi-3-刷kali-3-5寸微雪屏/</id>
     <published>2017-01-09T02:58:00.000Z</published>
-    <updated>2017-01-13T16:34:50.808Z</updated>
+    <updated>2017-01-13T16:34:50.809Z</updated>
     
     <summary type="html">
     
@@ -294,20 +294,20 @@
     </summary>
     
     
-      <category term="树莓派" scheme="http://andi.press/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+      <category term="树莓派" scheme="https://wangandi520.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
-      <category term="Raspberry" scheme="http://andi.press/tags/Raspberry/"/>
+      <category term="Raspberry" scheme="https://wangandi520.github.io/tags/Raspberry/"/>
     
-      <category term="kali" scheme="http://andi.press/tags/kali/"/>
+      <category term="kali" scheme="https://wangandi520.github.io/tags/kali/"/>
     
   </entry>
   
   <entry>
     <title>树莓派+archlinuxarm做路由</title>
-    <link href="http://andi.press/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE-archlinuxarm%E5%81%9A%E8%B7%AF%E7%94%B1/"/>
-    <id>http://andi.press/2017/01/09/树莓派-archlinuxarm做路由/</id>
+    <link href="https://wangandi520.github.io/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE-archlinuxarm%E5%81%9A%E8%B7%AF%E7%94%B1/"/>
+    <id>https://wangandi520.github.io/2017/01/09/树莓派-archlinuxarm做路由/</id>
     <published>2017-01-09T02:57:06.000Z</published>
-    <updated>2017-01-13T16:34:59.010Z</updated>
+    <updated>2017-01-13T16:34:59.011Z</updated>
     
     <summary type="html">
     
@@ -317,20 +317,20 @@
     </summary>
     
     
-      <category term="树莓派" scheme="http://andi.press/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+      <category term="树莓派" scheme="https://wangandi520.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
-      <category term="Raspberry" scheme="http://andi.press/tags/Raspberry/"/>
+      <category term="Raspberry" scheme="https://wangandi520.github.io/tags/Raspberry/"/>
     
-      <category term="archlinuxarm" scheme="http://andi.press/tags/archlinuxarm/"/>
+      <category term="archlinuxarm" scheme="https://wangandi520.github.io/tags/archlinuxarm/"/>
     
   </entry>
   
   <entry>
     <title>某网友提供的70G的ResilioSync电子书资源</title>
-    <link href="http://andi.press/2017/01/08/%E6%9F%90%E7%BD%91%E5%8F%8B%E6%8F%90%E4%BE%9B%E7%9A%8470G%E7%9A%84ResilioSync%E7%94%B5%E5%AD%90%E4%B9%A6%E8%B5%84%E6%BA%90/"/>
-    <id>http://andi.press/2017/01/08/某网友提供的70G的ResilioSync电子书资源/</id>
+    <link href="https://wangandi520.github.io/2017/01/08/%E6%9F%90%E7%BD%91%E5%8F%8B%E6%8F%90%E4%BE%9B%E7%9A%8470G%E7%9A%84ResilioSync%E7%94%B5%E5%AD%90%E4%B9%A6%E8%B5%84%E6%BA%90/"/>
+    <id>https://wangandi520.github.io/2017/01/08/某网友提供的70G的ResilioSync电子书资源/</id>
     <published>2017-01-08T15:11:46.000Z</published>
-    <updated>2017-05-12T08:39:26.638Z</updated>
+    <updated>2017-05-12T08:39:26.639Z</updated>
     
     <summary type="html">
     
@@ -339,18 +339,18 @@
     </summary>
     
     
-      <category term="kindle" scheme="http://andi.press/tags/kindle/"/>
+      <category term="kindle" scheme="https://wangandi520.github.io/tags/kindle/"/>
     
-      <category term="ResilioSync" scheme="http://andi.press/tags/ResilioSync/"/>
+      <category term="ResilioSync" scheme="https://wangandi520.github.io/tags/ResilioSync/"/>
     
-      <category term="电子书" scheme="http://andi.press/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+      <category term="电子书" scheme="https://wangandi520.github.io/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>将看的书\电影\电视剧</title>
-    <link href="http://andi.press/2017/01/08/%E5%B0%86%E7%9C%8B%E7%9A%84%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7/"/>
-    <id>http://andi.press/2017/01/08/将看的书电影电视剧/</id>
+    <link href="https://wangandi520.github.io/2017/01/08/%E5%B0%86%E7%9C%8B%E7%9A%84%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7/"/>
+    <id>https://wangandi520.github.io/2017/01/08/将看的书电影电视剧/</id>
     <published>2017-01-08T12:48:55.000Z</published>
     <updated>2017-01-14T00:20:28.244Z</updated>
     
@@ -361,11 +361,11 @@
     </summary>
     
     
-      <category term="书" scheme="http://andi.press/tags/%E4%B9%A6/"/>
+      <category term="书" scheme="https://wangandi520.github.io/tags/%E4%B9%A6/"/>
     
-      <category term="电影" scheme="http://andi.press/tags/%E7%94%B5%E5%BD%B1/"/>
+      <category term="电影" scheme="https://wangandi520.github.io/tags/%E7%94%B5%E5%BD%B1/"/>
     
-      <category term="电视剧" scheme="http://andi.press/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
+      <category term="电视剧" scheme="https://wangandi520.github.io/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
     
   </entry>
   
