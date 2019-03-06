@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
-<head>
+<head><meta name="generator" content="Hexo 3.8.0">
 
     <!--[if lt IE 9]>
         <style>body {display: none; background: none !important} </style>
@@ -8,25 +8,27 @@
     <![endif]-->
 
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="format-detection" content="telephone=no" />
-<meta name="author" content="Andy" />
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="Andy">
 
 
 
 <meta name="description" content="路由器上/etc/storage/ddns.sh123456789101112#!/bin/bashnewip=$(ifconfig ppp0|grep inet|awk &apos;&amp;#123;print $2&amp;#125;&apos;|awk -F &apos;:&apos; &apos;&amp;#123;print $2&amp;#125;&apos;)oldip=$(cat /tmp/lastIP)if [ $oldip == $newip ];then">
+<meta name="keywords" content="编程,php,bash">
 <meta property="og:type" content="article">
 <meta property="og:title" content="路由器发送IP至服务器">
 <meta property="og:url" content="https://wangandi520.github.io/2017/01/14/路由器发送IP至服务器/index.html">
-<meta property="og:site_name" content="Andy's word">
+<meta property="og:site_name" content="Andy&#39;s word">
 <meta property="og:description" content="路由器上/etc/storage/ddns.sh123456789101112#!/bin/bashnewip=$(ifconfig ppp0|grep inet|awk &apos;&amp;#123;print $2&amp;#125;&apos;|awk -F &apos;:&apos; &apos;&amp;#123;print $2&amp;#125;&apos;)oldip=$(cat /tmp/lastIP)if [ $oldip == $newip ];then">
+<meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2017-01-14T14:37:02.870Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="路由器发送IP至服务器">
 <meta name="twitter:description" content="路由器上/etc/storage/ddns.sh123456789101112#!/bin/bashnewip=$(ifconfig ppp0|grep inet|awk &apos;&amp;#123;print $2&amp;#125;&apos;|awk -F &apos;:&apos; &apos;&amp;#123;print $2&amp;#125;&apos;)oldip=$(cat /tmp/lastIP)if [ $oldip == $newip ];then">
 
-<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 
     <link rel="alternate" href="/atom.xml" title="Andy&#39;s word" type="application/atom+xml">
@@ -86,7 +88,7 @@
 
 
 
-</head>
+</head></html>
 <body>
   <div id="container">
     <div class="left-col">
@@ -106,11 +108,11 @@
 
         
             <form id="search-form">
-            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false">
             <i class="fa fa-times" onclick="resetSearch()"></i>
             </form>
             <div id="local-search-result"></div>
-            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+            <p class="no-result">No results found <i class="fa fa-spinner fa-pulse"></i></p>
         
 
 
@@ -274,7 +276,7 @@
             </nav>
         </header>                
     </div>
-    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我">
 </nav>
       <div class="body-wrap"><article id="post-路由器发送IP至服务器" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -288,7 +290,7 @@
   
   <div class="article-inner">
     
-      <input type="hidden" class="isFancy" />
+      <input type="hidden" class="isFancy">
     
     
       <header class="article-header">
@@ -316,9 +318,9 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>路由器上<br>/etc/storage/ddns.sh<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line">newip=$(ifconfig ppp0|grep inet|awk <span class="string">'&#123;print $2&#125;'</span>|awk -F <span class="string">':'</span> <span class="string">'&#123;print $2&#125;'</span>)</div><div class="line">oldip=$(cat /tmp/lastIP)</div><div class="line"><span class="keyword">if</span> [ <span class="variable">$oldip</span> == <span class="variable">$newip</span> ];<span class="keyword">then</span></div><div class="line">        logger <span class="string">"ddns: IP:"</span><span class="variable">$oldip</span><span class="string">",IP has not changed"</span></div><div class="line">        <span class="built_in">echo</span> <span class="string">"ddns: IP:"</span><span class="variable">$oldip</span><span class="string">",IP has not changed"</span></div><div class="line"><span class="keyword">else</span></div><div class="line">        info=$(curl http://andi.press/ebook/ddns.php?ip=<span class="variable">$newip</span>:10090 <span class="_">-s</span>)</div><div class="line">        <span class="built_in">echo</span> <span class="variable">$newip</span> &gt; /tmp/lastIP</div><div class="line">        logger <span class="variable">$info</span></div><div class="line">        <span class="built_in">echo</span> <span class="variable">$info</span></div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">chmod +x /etc/storage/ddns.sh</div><div class="line">crontab <span class="_">-e</span></div><div class="line">0 * * * * /etc/storage/ddns.sh</div></pre></td></tr></table></figure>
-<p>服务器上<br>ddns.php<br><a id="more"></a><br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">header(<span class="string">"Content-type:text/html;charset=utf-8"</span>);  </div><div class="line">$ip = $_GET[<span class="string">'ip'</span>];</div><div class="line">$host = <span class="string">''</span>;</div><div class="line">$port = <span class="string">'3306'</span>;</div><div class="line">$user = <span class="string">''</span>;</div><div class="line">$password = <span class="string">''</span>;</div><div class="line">$database = <span class="string">''</span>;</div><div class="line">$con = mysql_connect($host.<span class="string">':'</span>.$port,$user,$password);</div><div class="line">mysql_query(<span class="string">"SET NAMES 'UTF8'"</span>);</div><div class="line">mysql_select_db($database,$con);</div><div class="line">$query = <span class="string">"truncate ip"</span>;</div><div class="line">$result = mysql_query($query,$con);</div><div class="line">$query = <span class="string">"insert into ip(addr) values(\""</span>.$ip.<span class="string">"\")"</span>;</div><div class="line">$result = mysql_query($query,$con);</div><div class="line"><span class="keyword">if</span> ($result)</div><div class="line"><span class="keyword">echo</span> <span class="string">"ddns: IP:"</span>.$ip.<span class="string">", Update succeed"</span>;</div><div class="line"><span class="keyword">else</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"ddns: IP:"</span>.$ip.<span class="string">" Update failed"</span>;</div><div class="line">mysql_free_result($result);</div><div class="line">mysql_close($con);</div><div class="line"><span class="meta">?&gt;</span></div></pre></td></tr></table></figure></p>
+        <p>路由器上<br>/etc/storage/ddns.sh<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">newip=$(ifconfig ppp0|grep inet|awk <span class="string">'&#123;print $2&#125;'</span>|awk -F <span class="string">':'</span> <span class="string">'&#123;print $2&#125;'</span>)</span><br><span class="line">oldip=$(cat /tmp/lastIP)</span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$oldip</span> == <span class="variable">$newip</span> ];<span class="keyword">then</span></span><br><span class="line">        logger <span class="string">"ddns: IP:"</span><span class="variable">$oldip</span><span class="string">",IP has not changed"</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">"ddns: IP:"</span><span class="variable">$oldip</span><span class="string">",IP has not changed"</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">        info=$(curl http://andi.press/ebook/ddns.php?ip=<span class="variable">$newip</span>:10090 <span class="_">-s</span>)</span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$newip</span> &gt; /tmp/lastIP</span><br><span class="line">        logger <span class="variable">$info</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$info</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /etc/storage/ddns.sh</span><br><span class="line">crontab <span class="_">-e</span></span><br><span class="line">0 * * * * /etc/storage/ddns.sh</span><br></pre></td></tr></table></figure>
+<p>服务器上<br>ddns.php<br><a id="more"></a><br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">header(<span class="string">"Content-type:text/html;charset=utf-8"</span>);  </span><br><span class="line">$ip = $_GET[<span class="string">'ip'</span>];</span><br><span class="line">$host = <span class="string">''</span>;</span><br><span class="line">$port = <span class="string">'3306'</span>;</span><br><span class="line">$user = <span class="string">''</span>;</span><br><span class="line">$password = <span class="string">''</span>;</span><br><span class="line">$database = <span class="string">''</span>;</span><br><span class="line">$con = mysql_connect($host.<span class="string">':'</span>.$port,$user,$password);</span><br><span class="line">mysql_query(<span class="string">"SET NAMES 'UTF8'"</span>);</span><br><span class="line">mysql_select_db($database,$con);</span><br><span class="line">$query = <span class="string">"truncate ip"</span>;</span><br><span class="line">$result = mysql_query($query,$con);</span><br><span class="line">$query = <span class="string">"insert into ip(addr) values(\""</span>.$ip.<span class="string">"\")"</span>;</span><br><span class="line">$result = mysql_query($query,$con);</span><br><span class="line"><span class="keyword">if</span> ($result)</span><br><span class="line"><span class="keyword">echo</span> <span class="string">"ddns: IP:"</span>.$ip.<span class="string">", Update succeed"</span>;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line"><span class="keyword">echo</span> <span class="string">"ddns: IP:"</span>.$ip.<span class="string">" Update failed"</span>;</span><br><span class="line">mysql_free_result($result);</span><br><span class="line">mysql_close($con);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -337,7 +339,7 @@
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
-            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target="_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
         </p>
     </div>
 
@@ -380,7 +382,7 @@
         }
     </style>
 
-    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+    <input type="button" id="tocButton" value="隐藏目录" title="点击按钮隐藏或者显示文章目录">
 
     <script>
         yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
@@ -433,7 +435,7 @@
         
             <div class="visit">
                 
-                    <span id="busuanzi_container_site_pv" style='display:none'>
+                    <span id="busuanzi_container_site_pv" style="display:none">
                         <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
                         </span>
                     </span>
@@ -442,8 +444,8 @@
                     <span>| </span>
                 
                 
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                    <span id="busuanzi_container_page_pv" style="display:none">
+                        <span id="page-visit" title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
                         </span>
                     </span>
                 

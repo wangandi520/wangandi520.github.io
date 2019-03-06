@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Andy&#39;s word</title>
+  
   <subtitle>“假如本书有怪诞的地方，则非作者有意为之，而是历史的本来面貌。”</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -24,7 +25,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;0-数据仅供学习参考，一切以官方数据为准。&quot;&gt;&lt;a href=&quot;#0-数据仅供学习参考，一切以官方数据为准。&quot; class=&quot;headerlink&quot; title=&quot;0.数据仅供学习参考，一切以官方数据为准。&quot;&gt;&lt;/a&gt;0.数据仅供学习参考，一切以官方数据为准。&lt;/h1&gt;&lt;h1 id=&quot;1-需要的设备&quot;&gt;&lt;a href=&quot;#1-需要的设备&quot; class=&quot;headerlink&quot; title=&quot;1.需要的设备&quot;&gt;&lt;/a&gt;1.需要的设备&lt;/h1&gt;&lt;p&gt;攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件&lt;a href=&quot;http://andi.press/files/PM2.5Collector.zip&quot;&gt;http://andi.press/files/PM2.5Collector.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;h1 id=&quot;0-数据仅供学习参考，一切以官方数据为准。&quot;&gt;&lt;a href=&quot;#0-数据仅供学习参考，一切以官方数据为准。&quot; class=&quot;headerlink&quot; title=&quot;0.数据仅供学习参考，一切以官方数据为准。&quot;&gt;&lt;/a&gt;0.数据仅供学习参考，一切以官方数据为准。&lt;/h1&gt;&lt;h1 id=&quot;1-需要的设备&quot;&gt;&lt;a href=&quot;#1-需要的设备&quot; class=&quot;headerlink&quot; title=&quot;1.需要的设备&quot;&gt;&lt;/a&gt;1.需要的设备&lt;/h1&gt;&lt;p&gt;攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件&lt;a href=&quot;http://andi.press/files/PM2.5Collector.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://andi.press/files/PM2.5Collector.zip&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;2-连接&quot;&gt;&lt;a href=&quot;#2-连接&quot; class=&quot;headerlink&quot; title=&quot;2.连接&quot;&gt;&lt;/a&gt;2.连接&lt;/h1&gt;&lt;p&gt;使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。&lt;br&gt;
     
     </summary>
@@ -70,7 +71,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;(kpw2美版测试通过)&lt;br&gt;1.使用calibre把书转换为epub格式&lt;br&gt;2.在亚马逊官方下载&lt;a href=&quot;http://www.amazon.com/gp/feature.html?docId=1000765261&quot;&gt;Kindle Previewer&lt;/a&gt;&lt;br&gt;
+      &lt;p&gt;(kpw2美版测试通过)&lt;br&gt;1.使用calibre把书转换为epub格式&lt;br&gt;2.在亚马逊官方下载&lt;a href=&quot;http://www.amazon.com/gp/feature.html?docId=1000765261&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Kindle Previewer&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
@@ -90,7 +91,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;http://andi.press/files/老王随机点名器v0.41.zip&quot;&gt;下载地址1&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://on8vei0g9.bkt.clouddn.com/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41.zip&quot;&gt;下载地址2&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;http://andi.press/files/老王随机点名器v0.41.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;下载地址1&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://on8vei0g9.bkt.clouddn.com/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;下载地址2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;简易说明：&lt;br&gt;选取姓名按钮快捷键：空格，缺席按钮快捷键：B。&lt;/p&gt;
 &lt;p&gt;0.41版更新：&lt;br&gt;添加速度调节&lt;br&gt;修复bug&lt;br&gt;可快速捐赠&lt;br&gt;
     
@@ -110,7 +111,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;拍摄：尼康D610外录&lt;br&gt;吉他：无牌古典吉他&lt;br&gt;原版：&lt;a href=&quot;https://www.youtube.com/watch?v=8vDhVFnYVl4&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.youtube.c
+      
+      
+        &lt;p&gt;拍摄：尼康D610外录&lt;br&gt;吉他：无牌古典吉他&lt;br&gt;原版：&lt;a href=&quot;https://www.youtube.com/watch?v=8vDhVFnYVl4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.youtube.c
+      
     
     </summary>
     
@@ -128,7 +132,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯&lt;br&gt;只有一个93KB的html文件，无数据库，方便手机访问&lt;br&gt;可以导入，计算股票盈亏，总资产&lt;br&gt;&lt;a href=&quot;http://andi.press/s/&quot; target=&quot;_b
+      
+      
+        &lt;p&gt;可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯&lt;br&gt;只有一个93KB的html文件，无数据库，方便手机访问&lt;br&gt;可以导入，计算股票盈亏，总资产&lt;br&gt;&lt;a href=&quot;http://andi.press/s/&quot; target=&quot;_b
+      
     
     </summary>
     
@@ -148,8 +155,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;路由器上&lt;br&gt;/etc/storage/ddns.sh&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#!/bin/bash&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;newip=$(ifconfig ppp0|grep inet|awk &lt;span class=&quot;string&quot;&gt;&#39;&amp;#123;print $2&amp;#125;&#39;&lt;/span&gt;|awk -F &lt;span class=&quot;string&quot;&gt;&#39;:&#39;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;&amp;#123;print $2&amp;#125;&#39;&lt;/span&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;oldip=$(cat /tmp/lastIP)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; [ &lt;span class=&quot;variable&quot;&gt;$oldip&lt;/span&gt; == &lt;span class=&quot;variable&quot;&gt;$newip&lt;/span&gt; ];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        logger &lt;span class=&quot;string&quot;&gt;&quot;ddns: IP:&quot;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$oldip&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;&quot;,IP has not changed&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;ddns: IP:&quot;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$oldip&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;&quot;,IP has not changed&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        info=$(curl http://andi.press/ebook/ddns.php?ip=&lt;span class=&quot;variable&quot;&gt;$newip&lt;/span&gt;:10090 &lt;span class=&quot;_&quot;&gt;-s&lt;/span&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$newip&lt;/span&gt; &amp;gt; /tmp/lastIP&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        logger &lt;span class=&quot;variable&quot;&gt;$info&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$info&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;fi&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;chmod +x /etc/storage/ddns.sh&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;crontab &lt;span class=&quot;_&quot;&gt;-e&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;0 * * * * /etc/storage/ddns.sh&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;p&gt;路由器上&lt;br&gt;/etc/storage/ddns.sh&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;newip=$(ifconfig ppp0|grep inet|awk &lt;span class=&quot;string&quot;&gt;&#39;&amp;#123;print $2&amp;#125;&#39;&lt;/span&gt;|awk -F &lt;span class=&quot;string&quot;&gt;&#39;:&#39;&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;&amp;#123;print $2&amp;#125;&#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;oldip=$(cat /tmp/lastIP)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; [ &lt;span class=&quot;variable&quot;&gt;$oldip&lt;/span&gt; == &lt;span class=&quot;variable&quot;&gt;$newip&lt;/span&gt; ];&lt;span class=&quot;keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        logger &lt;span class=&quot;string&quot;&gt;&quot;ddns: IP:&quot;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$oldip&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;&quot;,IP has not changed&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;ddns: IP:&quot;&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;$oldip&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;&quot;,IP has not changed&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        info=$(curl http://andi.press/ebook/ddns.php?ip=&lt;span class=&quot;variable&quot;&gt;$newip&lt;/span&gt;:10090 &lt;span class=&quot;_&quot;&gt;-s&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$newip&lt;/span&gt; &amp;gt; /tmp/lastIP&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        logger &lt;span class=&quot;variable&quot;&gt;$info&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;$info&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;chmod +x /etc/storage/ddns.sh&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;crontab &lt;span class=&quot;_&quot;&gt;-e&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;0 * * * * /etc/storage/ddns.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;服务器上&lt;br&gt;ddns.php&lt;br&gt;
     
     </summary>
@@ -172,7 +179,10 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;博客程序&quot;&gt;&lt;a href=&quot;#博客程序&quot; class=&quot;headerlink&quot; title=&quot;博客程序&quot;&gt;&lt;/a&gt;博客程序&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo
+      
+      
+        &lt;h2 id=&quot;博客程序&quot;&gt;&lt;a href=&quot;#博客程序&quot; class=&quot;headerlink&quot; title=&quot;博客程序&quot;&gt;&lt;/a&gt;博客程序&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo
+      
     
     </summary>
     
@@ -262,7 +272,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;下载镜像&quot;&gt;&lt;a href=&quot;#下载镜像&quot; class=&quot;headerlink&quot; title=&quot;下载镜像&quot;&gt;&lt;/a&gt;下载镜像&lt;/h3&gt;&lt;p&gt;这个lede好像是openwrt的一个分支，openwrt本身还没有支持pi3，&lt;a href=&quot;https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img&quot;&gt;https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img&lt;/a&gt;&lt;/p&gt;
+      &lt;h3 id=&quot;下载镜像&quot;&gt;&lt;a href=&quot;#下载镜像&quot; class=&quot;headerlink&quot; title=&quot;下载镜像&quot;&gt;&lt;/a&gt;下载镜像&lt;/h3&gt;&lt;p&gt;这个lede好像是openwrt的一个分支，openwrt本身还没有支持pi3，&lt;a href=&quot;https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://downloads.lede-project.org/snapshots/targets/brcm2708/bcm2710/lede-brcm2708-bcm2710-rpi-3-ext4-sdcard.img&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;刻录到tf卡&quot;&gt;&lt;a href=&quot;#刻录到tf卡&quot; class=&quot;headerlink&quot; title=&quot;刻录到tf卡&quot;&gt;&lt;/a&gt;刻录到tf卡&lt;/h3&gt;&lt;p&gt;windows使用Win32DiskImager，linux使用dd命令。&lt;/p&gt;
 &lt;h3 id=&quot;树莓派通电，使用网线连接电脑。&quot;&gt;&lt;a href=&quot;#树莓派通电，使用网线连接电脑。&quot; class=&quot;headerlink&quot; title=&quot;树莓派通电，使用网线连接电脑。&quot;&gt;&lt;/a&gt;树莓派通电，使用网线连接电脑。&lt;/h3&gt;&lt;h3 id=&quot;修改-etc-config-network&quot;&gt;&lt;a href=&quot;#修改-etc-config-network&quot; class=&quot;headerlink&quot; title=&quot;修改/etc/config/network&quot;&gt;&lt;/a&gt;修改/etc/config/network&lt;/h3&gt;
     
@@ -286,8 +296,8 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;点亮微雪3-5寸屏幕&quot;&gt;&lt;a href=&quot;#点亮微雪3-5寸屏幕&quot; class=&quot;headerlink&quot; title=&quot;点亮微雪3.5寸屏幕&quot;&gt;&lt;/a&gt;点亮微雪3.5寸屏幕&lt;/h3&gt;&lt;p&gt;需要的工具1：&lt;a href=&quot;https://github.com/swkim01/waveshare-dtoverlays&quot;&gt;https://github.com/swkim01/waveshare-dtoverlays&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;git clone &lt;a href=&quot;https://github.com/swkim01/waveshare-dtoverlays.git&quot;&gt;https://github.com/swkim01/waveshare-dtoverlays.git&lt;/a&gt; waveshare-dtoverlays&lt;br&gt;cd waveshare-dtoverlays&lt;br&gt;mount /dev/mmcblk0p1 /boot/&lt;br&gt;cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/&lt;/p&gt;
+      &lt;h3 id=&quot;点亮微雪3-5寸屏幕&quot;&gt;&lt;a href=&quot;#点亮微雪3-5寸屏幕&quot; class=&quot;headerlink&quot; title=&quot;点亮微雪3.5寸屏幕&quot;&gt;&lt;/a&gt;点亮微雪3.5寸屏幕&lt;/h3&gt;&lt;p&gt;需要的工具1：&lt;a href=&quot;https://github.com/swkim01/waveshare-dtoverlays&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/swkim01/waveshare-dtoverlays&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;git clone &lt;a href=&quot;https://github.com/swkim01/waveshare-dtoverlays.git&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/swkim01/waveshare-dtoverlays.git&lt;/a&gt; waveshare-dtoverlays&lt;br&gt;cd waveshare-dtoverlays&lt;br&gt;mount /dev/mmcblk0p1 /boot/&lt;br&gt;cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/&lt;/p&gt;
 &lt;p&gt;编辑/boot/config.txt添加&lt;/p&gt;
 &lt;p&gt;dtoverlay=waveshare35a&lt;/p&gt;
     
@@ -334,7 +344,10 @@
     
     <summary type="html">
     
-      &lt;h4 id=&quot;本资源仅供学习交流使用，请于下载后24小时内删除&quot;&gt;&lt;a href=&quot;#本资源仅供学习交流使用，请于下载后24小时内删除&quot; class=&quot;headerlink&quot; title=&quot;本资源仅供学习交流使用，请于下载后24小时内删除&quot;&gt;&lt;/a&gt;本资源仅供学习交流使用，请于
+      
+      
+        &lt;h4 id=&quot;本资源仅供学习交流使用，请于下载后24小时内删除&quot;&gt;&lt;a href=&quot;#本资源仅供学习交流使用，请于下载后24小时内删除&quot; class=&quot;headerlink&quot; title=&quot;本资源仅供学习交流使用，请于下载后24小时内删除&quot;&gt;&lt;/a&gt;本资源仅供学习交流使用，请于
+      
     
     </summary>
     
