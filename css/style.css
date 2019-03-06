@@ -809,6 +809,12 @@ a {
   -moz-background-size: 80%;
   background-size: 80%;
 }
+#header .header-nav .social .QQ音乐 {
+  background: url("/img/QQ音乐.png") center no-repeat #ff0;
+  -webkit-background-size: 88%;
+  -moz-background-size: 88%;
+  background-size: 88%;
+}
 #header .header-nav .social .虾米音乐 {
   background: url("/img/虾米音乐.png") center no-repeat #ff6a00;
   -webkit-background-size: 82%;
@@ -881,20 +887,14 @@ a {
   -moz-background-size: 88%;
   background-size: 88%;
 }
-#header .header-nav .social .hipda {
-  background: url("/img/hipda.png") center no-repeat #fff;
-  -webkit-background-size: 88%;
-  -moz-background-size: 88%;
-  background-size: 88%;
-}
-#header .header-nav .social .QQ音乐 {
-  background: url("/img/QQ音乐.png") center no-repeat #ff0;
-  -webkit-background-size: 88%;
-  -moz-background-size: 88%;
-  background-size: 88%;
-}
 #header .header-nav .social .GitHub {
   background: url("/img/GitHub.png") center no-repeat #000;
+  -webkit-background-size: 88%;
+  -moz-background-size: 88%;
+  background-size: 88%;
+}
+#header .header-nav .social .hipda {
+  background: url("/img/hipda.png") center no-repeat #fff;
   -webkit-background-size: 88%;
   -moz-background-size: 88%;
   background-size: 88%;
