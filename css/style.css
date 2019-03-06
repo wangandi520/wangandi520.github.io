@@ -887,6 +887,18 @@ a {
   -moz-background-size: 88%;
   background-size: 88%;
 }
+#header .header-nav .social .QQ音乐 {
+  background: url("/img/QQ音乐.png") center no-repeat #fff;
+  -webkit-background-size: 88%;
+  -moz-background-size: 88%;
+  background-size: 88%;
+}
+#header .header-nav .social .GitHub {
+  background: url("/img/GitHub.png") center no-repeat #fff;
+  -webkit-background-size: 88%;
+  -moz-background-size: 88%;
+  background-size: 88%;
+}
 #header .header-nav .social .GitHub {
   background: url("//cdn.bootcss.com/logos/0.2.0/github-octocat.svg") no-repeat #fff;
   -webkit-background-size: 90%;
