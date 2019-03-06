@@ -899,13 +899,6 @@ a {
   -moz-background-size: 88%;
   background-size: 88%;
 }
-#header .header-nav .social .CodePen {
-  background: url("//cdn.bootcss.com/logos/0.2.0/codepen-icon.svg") no-repeat #000;
-  -webkit-background-size: 70%;
-  -moz-background-size: 70%;
-  background-size: 70%;
-  background-position: 50% 50%;
-}
 #header .header-nav .social .RSS {
   background: #ef7522;
 }
