@@ -888,13 +888,13 @@ a {
   background-size: 88%;
 }
 #header .header-nav .social .QQ音乐 {
-  background: url("/img/QQ音乐.png") center no-repeat #fff;
+  background: url("/img/QQ音乐.png") center no-repeat #ff0;
   -webkit-background-size: 88%;
   -moz-background-size: 88%;
   background-size: 88%;
 }
 #header .header-nav .social .GitHub {
-  background: url("/img/GitHub.png") center no-repeat #fff;
+  background: url("/img/GitHub.png") center no-repeat #000;
   -webkit-background-size: 88%;
   -moz-background-size: 88%;
   background-size: 88%;
