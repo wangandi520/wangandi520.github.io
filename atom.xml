@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wangandi520.github.io/"/>
-  <updated>2017-05-23T01:57:58.586Z</updated>
+  <updated>2019-03-07T01:34:00.679Z</updated>
   <id>https://wangandi520.github.io/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://wangandi520.github.io/2017/05/15/%E6%A0%91%E8%8E%93%E6%B4%BE3B%E5%92%8C%E6%94%80%E8%97%A4PMS5003ST/"/>
     <id>https://wangandi520.github.io/2017/05/15/树莓派3B和攀藤PMS5003ST/</id>
     <published>2017-05-15T13:25:00.000Z</published>
-    <updated>2017-05-23T01:57:58.586Z</updated>
+    <updated>2019-03-07T01:34:00.679Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;0-数据仅供学习参考，一切以官方数据为准。&quot;&gt;&lt;a href=&quot;#0-数据仅供学习参考，一切以官方数据为准。&quot; class=&quot;headerlink&quot; title=&quot;0.数据仅供学习参考，一切以官方数据为准。&quot;&gt;&lt;/a&gt;0.数据仅供学习参考，一切以官方数据为准。&lt;/h1&gt;&lt;h1 id=&quot;1-需要的设备&quot;&gt;&lt;a href=&quot;#1-需要的设备&quot; class=&quot;headerlink&quot; title=&quot;1.需要的设备&quot;&gt;&lt;/a&gt;1.需要的设备&lt;/h1&gt;&lt;p&gt;攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件&lt;a href=&quot;http://andi.press/files/PM2.5Collector.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://andi.press/files/PM2.5Collector.zip&lt;/a&gt;&lt;/p&gt;
+      &lt;h1 id=&quot;0-数据仅供学习参考，一切以官方数据为准。&quot;&gt;&lt;a href=&quot;#0-数据仅供学习参考，一切以官方数据为准。&quot; class=&quot;headerlink&quot; title=&quot;0.数据仅供学习参考，一切以官方数据为准。&quot;&gt;&lt;/a&gt;0.数据仅供学习参考，一切以官方数据为准。&lt;/h1&gt;&lt;h1 id=&quot;1-需要的设备&quot;&gt;&lt;a href=&quot;#1-需要的设备&quot; class=&quot;headerlink&quot; title=&quot;1.需要的设备&quot;&gt;&lt;/a&gt;1.需要的设备&lt;/h1&gt;&lt;p&gt;攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件PM2.5Collector.zip&lt;/p&gt;
 &lt;h1 id=&quot;2-连接&quot;&gt;&lt;a href=&quot;#2-连接&quot; class=&quot;headerlink&quot; title=&quot;2.连接&quot;&gt;&lt;/a&gt;2.连接&lt;/h1&gt;&lt;p&gt;使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。&lt;br&gt;
     
     </summary>
@@ -128,13 +128,13 @@
     <link href="https://wangandi520.github.io/2017/01/31/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/"/>
     <id>https://wangandi520.github.io/2017/01/31/单页面投资行情/</id>
     <published>2017-01-31T03:39:27.000Z</published>
-    <updated>2017-02-18T02:19:43.181Z</updated>
+    <updated>2019-03-07T01:33:33.327Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯&lt;br&gt;只有一个93KB的html文件，无数据库，方便手机访问&lt;br&gt;可以导入，计算股票盈亏，总资产&lt;br&gt;&lt;a href=&quot;http://andi.press/s/&quot; target=&quot;_b
+        &lt;p&gt;可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯&lt;br&gt;只有一个93KB的html文件，无数据库，方便手机访问&lt;br&gt;可以导入，计算股票盈亏，总资产&lt;br&gt;&lt;a href=&quot;https://github.com/wangandi520/c
       
     
     </summary>
@@ -175,7 +175,7 @@
     <link href="https://wangandi520.github.io/2017/01/09/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://wangandi520.github.io/2017/01/09/关于这个博客/</id>
     <published>2017-01-09T10:31:40.000Z</published>
-    <updated>2017-01-09T10:35:52.730Z</updated>
+    <updated>2019-03-07T01:27:01.255Z</updated>
     
     <summary type="html">
     
@@ -220,13 +220,18 @@
     <link href="https://wangandi520.github.io/2017/01/09/kindle%E6%A0%87%E6%B3%A8/"/>
     <id>https://wangandi520.github.io/2017/01/09/kindle标注/</id>
     <published>2017-01-09T09:52:41.000Z</published>
-    <updated>2017-01-13T16:34:30.266Z</updated>
+    <updated>2019-03-07T01:30:35.564Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;悟空传(完美纪念版) (今何在)&lt;br&gt;您在位置 #1114-1114的标注,添加于 2013年11月28日星期四 下午10:49:43&lt;/p&gt;
-&lt;p&gt;只有绝望，能毁灭一颗不死的心。&lt;br&gt;-&lt;br&gt;如何阅读一本书 ([美] 莫提默·J·艾德勒;查尔斯·范多伦)&lt;br&gt;您在位置 #194-195的标注,添加于 2013年11月30日星期六 下午9:55:52&lt;/p&gt;
-&lt;p&gt;简单来说，我们只能从比我们“更高杆”的人身上学习。&lt;br&gt;-&lt;br&gt;
+      
+      
+        &lt;p&gt;悟空传(完美纪念版) (今何在)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;您在位置 #1114-1114的标注 | 添加于 2013年11月28日星期四 下午10:49:43&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;只有绝望，能毁灭一颗不死的心。&quot;&gt;&lt;a href=&quot;#只有绝望，能毁灭一颗
+      
     
     </summary>
     
@@ -244,11 +249,14 @@
     <link href="https://wangandi520.github.io/2017/01/09/%E5%8D%95%E8%AF%8D/"/>
     <id>https://wangandi520.github.io/2017/01/09/单词/</id>
     <published>2017-01-09T09:50:31.000Z</published>
-    <updated>2017-01-13T16:34:34.463Z</updated>
+    <updated>2019-03-07T01:32:30.451Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;中文&quot;&gt;&lt;a href=&quot;#中文&quot; class=&quot;headerlink&quot; title=&quot;中文&quot;&gt;&lt;/a&gt;中文&lt;/h2&gt;&lt;p&gt;踅 xue 来回走&lt;br&gt;迳 jing 至，经过&lt;br&gt;俹 ya 倚，靠&lt;br&gt;艖 cha 小船&lt;br&gt;馔 zhuan 准备食物，食物&lt;br&gt;郓 yun 地名&lt;br&gt;睃 suo 斜着眼睛看&lt;br&gt;唣 zao 吵闹&lt;br&gt;旖旎 yini 柔和美好&lt;br&gt;
+      
+      
+        &lt;p&gt;##中文&lt;br&gt;踅 xue 来回走&lt;br&gt;迳 jing 至，经过&lt;br&gt;俹 ya 倚，靠&lt;br&gt;艖 cha 小船&lt;br&gt;馔 zhuan 准备食物，食物&lt;br&gt;郓 yun 地名&lt;br&gt;睃 suo 斜着眼睛看&lt;br&gt;唣 zao 吵闹&lt;br&gt;旖旎 yini 柔和美好&lt;br&gt;樨 x
+      
     
     </summary>
     
@@ -336,11 +344,11 @@
   </entry>
   
   <entry>
-    <title>某网友提供的70G的ResilioSync电子书资源</title>
-    <link href="https://wangandi520.github.io/2017/01/08/%E6%9F%90%E7%BD%91%E5%8F%8B%E6%8F%90%E4%BE%9B%E7%9A%8470G%E7%9A%84ResilioSync%E7%94%B5%E5%AD%90%E4%B9%A6%E8%B5%84%E6%BA%90/"/>
-    <id>https://wangandi520.github.io/2017/01/08/某网友提供的70G的ResilioSync电子书资源/</id>
+    <title>某网友提供的107G的ResilioSync电子书资源</title>
+    <link href="https://wangandi520.github.io/2017/01/08/%E6%9F%90%E7%BD%91%E5%8F%8B%E6%8F%90%E4%BE%9B%E7%9A%84107G%E7%9A%84ResilioSync%E7%94%B5%E5%AD%90%E4%B9%A6%E8%B5%84%E6%BA%90/"/>
+    <id>https://wangandi520.github.io/2017/01/08/某网友提供的107G的ResilioSync电子书资源/</id>
     <published>2017-01-08T15:11:46.000Z</published>
-    <updated>2017-05-12T08:39:26.639Z</updated>
+    <updated>2019-03-07T01:27:53.422Z</updated>
     
     <summary type="html">
     
@@ -365,11 +373,15 @@
     <link href="https://wangandi520.github.io/2017/01/08/%E5%B0%86%E7%9C%8B%E7%9A%84%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7/"/>
     <id>https://wangandi520.github.io/2017/01/08/将看的书电影电视剧/</id>
     <published>2017-01-08T12:48:55.000Z</published>
-    <updated>2017-01-14T00:20:28.244Z</updated>
+    <updated>2019-03-07T01:29:46.705Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;重复的是读过多遍&lt;br&gt;数字为评分，满分10&lt;br&gt;
+      
+      
+        &lt;p&gt;&lt;strong&gt;重复的是读过多遍&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;数字为评分，满分10&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;每日任务&quot;&gt;&lt;a href=&quot;#每日任务&quot; class=&quot;headerlink&quot; title=&quot;每日任务&quot;&gt;&lt;/a&gt;每日任务&lt;/h1&gt;&lt;
+      
     
     </summary>
     
