@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wangandi520.github.io/"/>
-  <updated>2019-04-13T12:04:23.383Z</updated>
+  <updated>2019-12-04T03:53:36.269Z</updated>
   <id>https://wangandi520.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>老王随机点名器v0.41</title>
+    <link href="https://wangandi520.github.io/2019/12/04/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.42/"/>
+    <id>https://wangandi520.github.io/2019/12/04/老王随机点名器v0.42/</id>
+    <published>2019-12-04T03:37:04.000Z</published>
+    <updated>2019-12-04T03:53:36.269Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.lanzous.com/i7su3gj&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;简易说明：&lt;br&gt;选取姓名按钮快捷键：空格，缺席按钮快捷键：B。&lt;/p&gt;
+&lt;p&gt;0.42版更新：&lt;br&gt;更新捐赠二维码&lt;/p&gt;
+&lt;p&gt;0.41版更新：&lt;br&gt;添加速度调节&lt;br&gt;修复bug&lt;br&gt;可快速捐赠&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Qt" scheme="https://wangandi520.github.io/tags/Qt/"/>
+    
+  </entry>
   
   <entry>
     <title>boox poke pro体验</title>
@@ -27,6 +48,29 @@
     
       &lt;p&gt;系统问题多多，4个月不更新一次固件，给客服发邮件也不回复。下面写的bug一直没修复。&lt;br&gt;kpw，poke pro都给7分吧。电子书这行业还是不思进取&lt;/p&gt;
 &lt;h1 id=&quot;2-1版仍存在的bug，旧的重复的也写了：&quot;&gt;&lt;a href=&quot;#2-1版仍存在的bug，旧的重复的也写了：&quot; class=&quot;headerlink&quot; title=&quot;2.1版仍存在的bug，旧的重复的也写了：&quot;&gt;&lt;/a&gt;2.1版仍存在的bug，旧的重复的也写了：&lt;/h1&gt;&lt;p&gt;1.看书时，右上角书签不能隐藏&lt;br&gt;2.每本书右上角的进度图标的最下面，尖头末端被削掉了&lt;br&gt;3.应用界面右上角的三个杠粗细不同&lt;br&gt;4.音乐图标分辨率明显比其他的低&lt;br&gt;5.列表视图行距太大，和封面视图比，没有意义，一般都为了多显示几本书才用列表&lt;br&gt;6.标注的分割是———，不是同样的横杠&lt;br&gt;7.选中的字词没法调用其他自己安装的词典app&lt;br&gt;8.不支持思源宋体，行距极大，&lt;a href=&quot;https://github.com/adobe-fonts/source-han-serif&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/adobe-fonts/source-han-serif&lt;/a&gt;&lt;br&gt;9.浏览器上传文件，点击内存的文件后浏览器闪退  &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="电纸书" scheme="https://wangandi520.github.io/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
+    
+      <category term="文石" scheme="https://wangandi520.github.io/tags/%E6%96%87%E7%9F%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>boox poke pro体验</title>
+    <link href="https://wangandi520.github.io/2019/03/29/%E8%AF%B4%E8%AF%B4%E4%BB%8Epoke%20pro%E5%88%B0nova%20pro%EF%BC%8C%E5%B7%B2%E7%BB%8F%E5%BE%88%E5%A5%BD%E4%BD%86%E6%98%AF%E5%B0%8F%E5%9C%B0%E6%96%B9%E8%AE%A9%E4%BA%BA%E4%B8%8D%E7%88%BD/"/>
+    <id>https://wangandi520.github.io/2019/03/29/说说从poke pro到nova pro，已经很好但是小地方让人不爽/</id>
+    <published>2019-03-29T08:15:09.000Z</published>
+    <updated>2019-12-04T03:41:33.151Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;2-2-1的几个bug：&quot;&gt;&lt;a href=&quot;#2-2-1的几个bug：&quot; class=&quot;headerlink&quot; title=&quot;2.2.1的几个bug：&quot;&gt;&lt;/a&gt;2.2.1的几个bug：&lt;/h1&gt;&lt;p&gt;1.每次重启都会打开悬浮球。&lt;br&gt;2.单独优化应用要去悬浮
+      
     
     </summary>
     
@@ -100,26 +144,6 @@
       <category term="kindle" scheme="https://wangandi520.github.io/tags/kindle/"/>
     
       <category term="卡索引" scheme="https://wangandi520.github.io/tags/%E5%8D%A1%E7%B4%A2%E5%BC%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>老王随机点名器v0.41</title>
-    <link href="https://wangandi520.github.io/2017/03/23/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41/"/>
-    <id>https://wangandi520.github.io/2017/03/23/老王随机点名器v0.41/</id>
-    <published>2017-03-23T12:37:04.000Z</published>
-    <updated>2017-03-23T12:55:59.580Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://andi.press/files/老王随机点名器v0.41.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;下载地址1&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://on8vei0g9.bkt.clouddn.com/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v0.41.zip&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;下载地址2&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;简易说明：&lt;br&gt;选取姓名按钮快捷键：空格，缺席按钮快捷键：B。&lt;/p&gt;
-&lt;p&gt;0.41版更新：&lt;br&gt;添加速度调节&lt;br&gt;修复bug&lt;br&gt;可快速捐赠&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="Qt" scheme="https://wangandi520.github.io/tags/Qt/"/>
     
   </entry>
   
