@@ -278,6 +278,133 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-路由器发送IP至服务器" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/01/14/路由器发送IP至服务器/" class="article-date">
+      <time datetime="2017-01-13T16:31:16.000Z" itemprop="datePublished">2017-01-14</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/14/路由器发送IP至服务器/">路由器发送IP至服务器</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>路由器上<br>/etc/storage/ddns.sh<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">newip=$(ifconfig ppp0|grep inet|awk <span class="string">'&#123;print $2&#125;'</span>|awk -F <span class="string">':'</span> <span class="string">'&#123;print $2&#125;'</span>)</span><br><span class="line">oldip=$(cat /tmp/lastIP)</span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$oldip</span> == <span class="variable">$newip</span> ];<span class="keyword">then</span></span><br><span class="line">        logger <span class="string">"ddns: IP:"</span><span class="variable">$oldip</span><span class="string">",IP has not changed"</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">"ddns: IP:"</span><span class="variable">$oldip</span><span class="string">",IP has not changed"</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">        info=$(curl http://andi.press/ebook/ddns.php?ip=<span class="variable">$newip</span>:10090 <span class="_">-s</span>)</span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$newip</span> &gt; /tmp/lastIP</span><br><span class="line">        logger <span class="variable">$info</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$info</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /etc/storage/ddns.sh</span><br><span class="line">crontab <span class="_">-e</span></span><br><span class="line">0 * * * * /etc/storage/ddns.sh</span><br></pre></td></tr></table></figure>
+<p>服务器上<br>ddns.php<br>
+          
+      
+    </p></div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bash/">bash</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/编程/">编程</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2017/01/14/路由器发送IP至服务器/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-关于这个博客" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/01/09/关于这个博客/" class="article-date">
+      <time datetime="2017-01-09T10:31:40.000Z" itemprop="datePublished">2017-01-09</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/09/关于这个博客/">关于这个博客</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="博客程序"><a href="#博客程序" class="headerlink" title="博客程序"></a>博客程序</h2><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a></p>
+<h2 id="Hexo主题"><a href="#Hexo主题" class="headerlink" title="Hexo主题"></a>Hexo主题</h2><p><a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" rel="noopener">yelee</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/yelee/">yelee</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-歌词" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -307,10 +434,64 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-              <h2 id="sister’s-noise"><a href="#sister’s-noise" class="headerlink" title="sister’s noise"></a>sister’s noise</h2><p>谁（だれ）よりも近（ちか）くにいた<br>その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)<br>刻（きざ）み続（つづ）けていた时（とき）の中（なか）で<br>やっと君（きみ）に逢（であ）えたから<br>sister’s noise 探(さが)し続(つづ)ける<br>彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)<br>重(かさ)ね合(あ)った この思(おも)いは<br>谁(だれ)にも壊(こわ)せないから<br>
-          
+        <p>歌词<br>Endless rain</p>
+<p>I’m walking in the rain<br>行（ゆ）くあてもなく<br>仂（きず）ついた身体（からだ）濡（ぬ）らし<br>络（から）みつく冻（こお）りのざわめき<br>（ころ）し続（つづ）けて 彷徨（さまよ）う いつまでも<br>Until I can forget your love<br>眠（ねむ）りは麻薬（まやく）途方（とほう）にくれた<br>心（こころ）を静（しず）かに溶（と）かす<br>舞（ま）い上（あ）がる 爱（あい）を踊（おど）らせて<br>ふるえる身体（からだ）を<br>记忆（きおく）の蔷薇（ばら）につつむ<br>I keep my love for you to myself<br>Endless rain fall on my heart<br>心（こころ）の仂（きず）に<br>Let me forget all of the hate<br>all of the sadness<br>(rap:) Days of joy.<br>Days of sadness slowly pass me by<br>As I try to hold you<br>you are vanishing before me<br>You’re just an illusion<br>When I’m awake<br>my tears have dried<br>in the sand of sleep<br>I’m a rose blooming in the desert<br>It’s a dream, I’m in love with you<br>まどろみ抱（だ）きしめて<br>Endless rain fall on my heart<br>心（こころ）の仂（きず）に<br>Let me forget all of the hate<br>all of the sadness<br>I awake from my dream<br>I can’t find my way without you<br>The dream is over<br>声（こえ）にならない言叶（ことば）を缲（く）り返（かえ）しても<br>高（たか）ずぎる灰色（はいいろ）の壁（かべ）は<br>过（す）ぎ去(さ)った日(ひ)の思(おも)いを梦（ゆめ）に写(うつ)す<br>Until I can forget your love<br>Endless rain fall on my heart<br>心（こころ）の仂（きず）に<br>Let me forget all of hate<br>all of the sadness<br>Endless rain let me stay evermore in your heart<br>Let my heart take in your tears<br>take in your memories<br>Endless rain fall on my heart<br>心（こころ）の仂（きず）に<br>Let me forget all of the hate<br>all of the sadness<br>Endless rain</p>
+<p>Tears</p>
+<p>何処(どこ)に行(ゆ)けばいい<br>貴方(あなた)と離(はな)れて<br>今(いま)は過(す)ぎ去(さ)った<br>時流(とき)に問(と)い掛(か)けて<br>長(なが)すぎた夜(よる)に<br>旅立(たびだ)ちを夢見(ゆめみ)た<br>異国(いこく)の空見(そらみ)つめて<br>孤独(こどく)を抱(だ)きしめた<br>流(なが)れる淚(なみだ)を<br>時代(とき)の風(かぜ)に重(かさ)ねて<br>終(お)わらない貴方(あなた)の<br>吐息(といき)を感(かん)じて<br>Dry your tears with love…<br>Dry your tears with love…</p>
+<p>Loneliness your silent whisper<br>Fills a river of tears through the night<br>Memory you never let me cry<br>And you You never said goodbye<br>Sometimes our tears blinded the love<br>We lost our dreams along the way<br>But I never thought<br>You’d trade your soul to the fates<br>Never thought you’d leave me alone<br>Time through the rain has set me free<br>Sands of time will keep your memory<br>Love everlasting fades away<br>Alive within your beatless heart<br>Dry your tears with love…<br>Dry your tears with love…</p>
+<p>流(なが)れる淚(なみだ)を<br>時代(とき)の風(かぜ)に重(かさ)ねて<br>終(お)わらない悲(かな)しみを<br>青(あお)い薔薇(ばら)に変(か)えて<br>Dry your tears with love…<br>Dry your tears with love…<br>流(なが)れる淚(なみだ)を<br>時代(とき)の風(かぜ)に重(かさ)ねて<br>終(お)わらない貴方(あなた)の<br>吐息(といき)を感(かん)じて<br>Dry your tears with love…<br>Dry your tears with love…<br>Dry your tears with love…<br>Dry your tears with love…</p>
+<p>Crucify my love</p>
+<p>Crucify my love If my love is blind<br>Crucify my love If it sets me free<br>Never know Never trust<br>“That love should see a color”<br>Crucify my love If it should be that way<br>Swing the heartache Feel it inside out<br>When the wind cries I’ll say good-bye<br>Tired to learn Tired to found<br>To reach out for eternity<br>Where’s the answer Is this forever</p>
+<p>Like a river flowing to the sea<br>You’ll be miles away and I will know<br>I know I can deal with the pain<br>No reason to cry<br>Crucify my love If my love is blind<br>Crucify my love If it sets me free<br>Never know Never trust<br>“That love should see a color”<br>Crucify my love If it should be that way</p>
+<p>Till the loneliness shadows the sky<br>I’ll be sailing down and I will know<br>I know I can clear clouds away<br>Oh is it a crime to love</p>
+<p>Swing the heartache Feel it inside out<br>When the wind cries I’ll say good-bye<br>Tired to learn Tired to found<br>To reach out for eternity<br>Where’s the answer Is this forever<br>If my love is blind<br>Crucify my love If it sets me free<br>Never know Never trust<br>“That love should see a color”<br>Crucify my love If it should be that way</p>
+<p>红<br>I could not look back<br>You’d gone away from me<br>I felt my heart ache<br>I was afraid of following you<br>When I had looked at<br>The shadows on the wall<br>I started running into the night<br>To find the truth in me</p>
+<p>岚吹(あらしふ)くこの街(まち)が<br>お前(まえ)を抱(だ)く<br>吹(ふ)き抜(ぬ)ける风(かぜ)にさえ<br>目(め)を闭(と)じる<br>お前(まえ)は走(はし)り出(だ)す<br>何(なに)かに追(お)われるよう<br>俺(おれ)が见(み)えないのか<br>すぐそばにいるのに</p>
+<p>人波(ひとなみ)に消(き)えて行(い)く<br>记忆(きおく)の吐息(といき)<br>爱(あい)のない一人舞台(ひとりぶたい)<br>もう耐(た)えきれない<br>All of you in my memory<br>Is still shining in my heart<br>すれ违(ちが)う心(こころ)は<br>溢(あふ)れる涙(なみだ)に濡(ぬ)れ</p>
+<p>红(くれない)に染(そ)まったこの俺(おれ)を<br>慰(なぐさ)める奴(やつ)はもういない<br>もう二度(にど)と届(とど)かない<br>この思(おも)い<br>闭(と)ざされた爱（あい）に向(むか)い<br>叫(さけ)びつづける</p>
+<p>お前(まえ)は走(はし)り出(だ)す<br>何(なに)かに追(お)われるよう<br>俺(おれ)が见(み)えないのか<br>すぐそばにいるのに<br>红(くれない)に染(そ)まったこの俺(おれ)を<br>慰(なぐさ)める奴(やつ)はもういない<br>もう二度(にど)と届(とど)かない<br>この思(おも)い<br>闭(と)ざされた爱(あい)に向(むか)い<br>叫(さけ)びつづける<br>红(くれない)に染(そ)まったこの俺(おれ)を<br>慰(なぐさ)める奴(やつ)はもういない<br>Oh, Crying in deep red</p>
+<p>暁の車<br>风（かぜ）さそう木阴（こかげ）に俯（うつぶ）せて泣（な）いてる<br>见(み)も知(し)らぬ私（わたし）を私（わたし）が见（み）ていた<br>逝（ゆ）く人（ひと）の调（しら）べを奏（かな）でるギタ－ラ<br>来(こ)ぬ人（ひと）の叹(なげ)きに星（ほし）は落（お）ちて<br>行(ゆ)かないで、どんなに叫（さけ）んでも<br>オレンジの花(はな)びら静（しず）かに揺（ゆ）れるだけ<br>やわらかな额（ひたい）に残（のこ）された<br>手（て）のひらの记忆（きおく）遥（はる）か<br>とこしへのさよならつま弾（び）く</p>
+<p>優（やさ）しい手（て）にすがる子供（こども）の心（こころ）を<br>燃（も）えさかる车轮（くるま）は振（ふ）り払（はら）い进（すす）む<br>逝(ゆ)く人（ひと）の叹(なげ)きを奏(かな)でてギタ－ラ<br>胸（むね）の糸(いと)激(はげ)しく掻(か)き鸣（な）らして<br>哀（かな）しみに染(そ)まらない白(しろ)さで<br>オレンジの花（はな）びら揺（ゆ）れてた夏（なつ）の影（かげ）に<br>やわらかな额(ひたい)を失(な)くしても<br>赤（あか）く染(そ)めた砂遥(すなはる)か越（こ）えて行（い）く<br>さよならのリズム</p>
+<p>想（おも）い出(で)を焼(や)き尽(つ)くして进（すす）む大地（だいち）に<br>懐（なつ）かしく芽吹(めぶ)いて行（い）くものがあるの</p>
+<p>暁(あかつき)の车(くるま)を见送(みおく)って<br>オレンジの花（はな）びら揺（ゆ）れてる今（いま）も何処(どこ)か<br>いつか见（み）た安(やす)らかな夜明（よわ）けを<br>もう一度（いちど）手（て）にするまで<br>消（け）さないで灯火（ともしび）<br>车（くるま）は廻（まわ）るよ</p>
+<p>sister’s noise<br>谁（だれ）よりも近（ちか）くにいた<br>その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)<br>刻（きざ）み続（つづ）けていた时（とき）の中（なか）で<br>やっと君（きみ）に逢（であ）えたから<br>sister’s noise 探(さが)し続(つづ)ける<br>彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)<br>重(かさ)ね合(あ)った この思(おも)いは<br>谁(だれ)にも壊(こわ)せないから</p>
+<p>街（まち）は密(ひそ)やかに<br>君（きみ）を隐（かく）してた<br>辿(たど)り着（つ）いた场所(ばしょ)<br>苏(よみがえ)るあの记忆（きおく）<br>缲(く)り返(かえ)されてた<br>真实(しんじつ)は远(とお)く<br>君(きみ)のその痛(いた)みに<br>気付(きづ)けないまま<br>あの日(ひ)隠(かく)した その梦(ゆめ)が<br>私(わたし)を切(き)り裂(さ)いても<br>何(なに)よりも大切(たいせつ)な<br>希望(きぼう)だけ 信(しん)じ贯(つらぬ)いて</p>
+<p>自分（じぶん）らしく生（い）きること<br>何(なに)よりも伝（つた）えたくて(sister’s noise… I find it out…)<br>生（う）まれ続(つづ)ける哀（なか）しみの痛(いた)み<br>その意味（いみ）を刻（きざ）むなら<br>sister’s voice いま届（とど）けるよ<br>涙（なみ）さえ能力（ちから）にして(sorrow of your heart… I shoot it down…)<br>繋（つな）がり合（あ）う 强（つよ）さだけが全（すべ）てを打（う）ち抜（ぬ）いていく</p>
+<p>夕暮(ゆうぐ)れの放课后（ほうかご）<br>いつもの街（まち）并（な）み<br>ふと见（み）上(あ)げた空（そら）<br>思（おも）い出（だ）す 优（やさ）しさを<br>君（きみ）の眼差(まなざ)しが 気（き）づかせてくれた<br>弱（よわ）さ认（みと）める勇気（ゆうき）の强（つよ）さを<br>温（あたた）かな君（きみ）のその手（て）が<br>私（わたし）を导（みちび）いてく<br>何(なに)よりも守(まも)りたい<br>希望(きぼう)が暗（やみ）を贯（つらぬ）くから</p>
+<p>抱（だ）きしめた热（あつ）い想（おも）い<br>この世界（せかい）を照（て）らすから(sister’s noise… I find it out…)<br>走（はし）り続(つづ)け探(さが)し続(つづ)けていた<br>君（きみ）の梦（ゆめ）が动（うご）き出（だ）す<br>sister’s noise 响（ひび）きはじめる<br>高（たか）らかな生命(いのち)の意味（いみ）(sorrow of your heart… I shoot it down…)<br>理解（りか）ってるよ かけがえない绊（きずな）は壊（こわ）れないこと</p>
+<p>自分（じぶん）らしく生（い）きること<br>何(なに)よりも伝（つた）えたくて(sister’s noise… I find it out…)<br>生（う）まれ続(つづ)ける哀（かな）しみの痛(いた)み<br>その意味（いみ）を刻（きざ）むなら<br>谁（だれ）よりも近（ちか）くにいた<br>その声（こえ）は聴（きく）こえなくて(sister’s noise… I find it out…)<br>刻（きざ）み続（つづ）けていた时（とき）の中（なか）で<br>やっと君（きみ）に逢（であ）えたから<br>sister’s noise 探(さが)し続(つづ)ける<br>彷徨(さまよ)う 心(こころ)の场所(ばしょ)を(sorrow of your heart… I shoot it down…)<br>感（かん）じ合（あ）った 同(おな)じ笑颜(えがお) 必(かなら)ず守(まも)ってみせる<br>もう 谁(だれ)にも 壊(こわ)せないから</p>
+<p>Hesitation Snow<br>儚(はかな)い欠片(かけら)舞(ま)い散(ち)る<br>その光(ひかり)全(すべ)て照(て)らし導(みちび)き逢(あ)う…</p>
+<p>壊(こわ)れてゆく想(おも)いの果(は)て<br>いつかの夢(ゆめ)を捨(せ)てるよ<br>正解(せいかい)の無(な)い選択肢(せんたくし)しか<br>僕に残(のこ)されていないなら…</p>
+<p>季節(きせつ)は既(すで)に暗(くら)く冷(つめ)たく<br>温(ぬく)もり求(もと)めた心<br>君は現(あらわ)れ時間(じかん)は止(と)まり<br>物語(ものがたり)が始(はじ)まった…<br>真実(しんじつ)に近(ちか)づけば<br>君を守(まも)ることでしか<br>想(おも)い示(しめ)せないまま<br>冷(つめ)たい無情(むじょう)が絡(から)まる</p>
+<p>狂(くる)っている定義(ていぎ)が今(いま)<br>調和(ちょうわ)の糸(いと)手繰(たぐ)り寄(よ)せ<br>堕(おち)ちていった純粋(じゅんすい)な瞳(め)に<br>映(うつ)る何(なに)もかも歪(ゆが)んでく…</p>
+<p>耳元(みみもと)響(ひび)く君の声(こえ)さえ<br>時(とき)には痛(いた)みに変(か)わり<br>悔(くや)しくなって傷(きず)をつけても<br>その意味(いみ)は何処(どこ)にも無(な)い<br>永遠(えいえん)を求(もと)めれば<br>君の心に近(ちか)づく？<br>終(お)わりの無(な)い理想(りそう)が<br>残酷(ざんこく)な痛(いた)みを誘(さそ)う</p>
+<p>誰一人(だれひとり)も責(せ)められずに<br>悪(わる)いのは自分(じぶん)だったと<br>想(おも)い込(こ)んで耐(た)え切(き)れなくて<br>僕は生(う)まれ変(か)わる心ごと…</p>
+<p>取(と)り戻(もど)した記憶(きおく)さえも<br>どこか信(しん)じられなくて<br>世界中(せかいじゅう)が色(いろ)を失(な)くしてく…<br>もう気(き)づいてた<br>狂(くる)っている定義(ていぎ)が今(いま)<br>調和(ちょうわ)の糸(いと)手繰(たぐ)り寄(よ)せ<br>堕(おち)ちていった純粋(じゅんすい)な瞳(め)に<br>僕を見透(みす)かして…操(あやつ)ってた<br>誰(だれ)も責(せ)められずに<br>悪(わる)いのは自分(じぶん)だったと<br>想(おも)い込(こ)んで耐(た)え切(き)れなくて<br>僕は生(う)まれ変(か)わる心ごと…</p>
+<p>儚(はかな)い欠片(かけら)舞(ま)い散(ち)る<br>その光(ひかり)全(すべ)て照(て)らし導(みちび)き逢(あ)う…</p>
+<p>勇侠青春讴<br>行（ゆ）けどもけものみち 狮子（しし）よ虎（とら）よと吠（とほ）え<br>茜射（あかねさ）す空（そら）の 彼方（かなた）にまほろば<br>幽囚（ゆうしゅう）の孤独（こどく）に 彷徨（さまよ）う青春（せいしゅん）は<br>弱（よわ）さと怒（おこ）りが姿无（すがたな）き敌（てき）ですか<br>父（ちち）よ 未（ま）だ我（われ）は<br>己（おのれ）を知（し）りがたし</p>
+<p>先立（さきだ）つ兄（あに）らの<br>见（み）えない背中（せなか）を追（お）えば<br>迷（まよ）いの一夜（ひとよ）に明星（みょうじょう）は诱（いざな）う<br>死（し）して终（お）わらぬ<br>梦（ゆめ）を焦（こ）がれども<br>确（たし）かな君（きみ）こそ我（わ）が命（いのち）</p>
+<p>烈风（れっぷう）の荒野（こうや）で 蝶（ちょう）よ花（はな）よと生（い）き<br>とこしえの春（はる）に 咲（さ）き添（そ）うまぼろし<br>混浊（こんだく）の纯洁（じゅんけつ） この身（み）は汚（よご）れても<br>心（こころ）の锦（にしき）を信（しん）じていてください<br>母（はは）よ けして我（われ）は<br>涙（なみだ）を见（み）せねども<br>足下（あしもと）の草（くさ）に露（つゆ）は消（き）えもせで</p>
+<p>生（う）まれた意义（いぎ）なら<br>やがて知（し）る时（とき）が来（こ）よう<br>このいま せめての义旗（ぎき）<br>血汐（ちしお）に浸（ひた）し<br>ただ君（きみ）を爱（あい）し<br>胸（むね）に刻（きざ）んだ<br>刺青（しせい）のような伤（きず）を抱（だ）いて</p>
+<p>行（ゆ）けどもけものみち 狮子（しし）よ虎（とら）よと吠（とほ）え<br>茜射（あかねさ）す空（そら）の 彼方（かなた）にまほろば<br>勇侠（ゆうきょう）の士（し）となり 戦（たたか）う青春（せいしゅん）は<br>仄苍（そくあお）きほどに愚（おろ）かなものでしょうか<br>父（ちち）よ 未（ま）だ我（われ）は<br>爱（あい）ひとつ护（まも）れず<br>仮初（かりそ）めのこの世（よ）の真（まこと）はいづこ</p>
+<p>烈风（れっぷう）の荒野（こうや）で 蝶（ちょう）よ花（はな）よと生（い）き<br>とこしえの春（はる）に 舞（ま）い散（ち）るまぼろし<br>混浊（こんだく）の纯洁（じゅんけつ） この身（み）は汚（よご）れても<br>心（こころ）の锦（にしき）を信（しん）じていてください<br>母（はは）よ いつか我（われ）を<br>授（さず）かりし誉（ほま）れと<br>生（い）けどもけものみち 狮子（しし）よ虎（とら）よと吠（とほ）え<br>茜射（あかねさ）す空（そら）の 彼方（かなた）はまほろば<br>高洁（こうけつ）の志（し）のもと 戦（たたか）う青春（せいしゅん）は<br>果敢（かかん）なき时代（じだい）ゆえ美（うつく）しきものとあれ<br>父（ちち）よ いつか我（われ）は<br>己（おのれ）に打（う）ち克（か）たん<br>尊（たっと）びのこの世（よ）の诚（まこと）はそこに</p>
+<p>secret base ～君がくれたもの～<br>君（きみ）と夏（なつ）の终（お）わり<br>将来（しょうらい）の梦（ゆめ）<br>大（おお）きな希望（きぼう） 忘（わす）れない<br>十年（じゅうねん）後（ご）の八月（はちがつ）<br>また出会（であ）えるのを 信（しん）じて<br>最高（さいこう）の思（おも）い出（で）を…</p>
+<p>出会（であ）いは ふっとした 瞬间（しゅんかん）<br>帰（かえ）り道（みち）の交差点（こうさてん）で<br>声（こえ）をかけてくれたね<br>「一绪（いっしょ）に帰（かえ）ろう」<br>仆（ぼく）は 照（て）れくさそうに<br>カバンで 颜（かお）を隠（かく）しながら<br>本当（ほんとう）は とても とても 嬉（うれ）しかったよ<br>あぁ 花火（はなび）が夜空（よぞら）<br>きれいに咲（さ）いて　ちょっとセツナク<br>あぁ 风（かぜ）が时间（じかん）とともに 流（なが）れる<br>嬉（うれ）しくって 楽（たの）しくって<br>冒険（ぼうけん）も　いろいろしたね<br>二人（ふたり）の 秘密（ひみつ）の 基地（きち）の中（なか）</p>
+<p>君（きみ）と夏（なつ）の终（お）わり<br>将来（しょうらい）の梦（ゆめ）<br>大（おお）きな希望（きぼう） 忘（わす）れない<br>十年（じゅうねん）後（ご）の八月（はちがつ）<br>また出会（であ）えるのを 信（しん）じて<br>君（きみ）が最後（さいご）まで 心（こころ）から<br>「ありがとう」叫（さけ）んでいたこと 知（し）っていたよ<br>涙（なみだ）をこらえて 笑颜（えがお）でさよなら せつないよね<br>最高（さいこう）の思（おも）い出（で）を…</p>
+<p>あぁ 夏休（なつやす）みも あと少（すこ）しで终（お）わっちゃうから<br>あぁ 太阳（たいよう）と月（つき） 仲良（なかよ）くして<br>悲（かな）しくって寂（さび）しくって喧哗（けんか）も いろいろしたね<br>二人（ふたり）の 秘密（ひみつ）の 基地（きち）の中（なか）<br>君（きみ）が最後（さいご）まで 心（こころ）から<br>「ありがとう」叫（さけ）んでいたこと 知（し）っていたよ<br>涙（なみだ）をこらえて 笑颜（えがお）でさよなら せつないよね<br>最高（さいこう）の思（おも）い出（で）を…</p>
+<p>突然（とつぜん）の 転校（てんこう）で どうしようもなく<br>手纸（てがみ）书（か）くよ 电话（でんわ）もするよ<br>忘（わす）れないでね 仆（ぼく）のことを<br>いつまでも 二人（ふたり）の 基地（きち）の中（なか）<br>君（きみ）と夏（なつ）の终（お）わり ずっと话（はな）して<br>夕日（ゆうひ）を见（み）てから 星（ほし）を眺（なが）め<br>君（きみ）の頬（ほほ）を 流（なが）れた涙（なみだ）はず っと忘（わす）れない<br>君（きみ）が最後（さいご）まで<br>大（おお）きく手（て）を振（ふ）ってくれたこと<br>きっと忘（わす）れない<br>だから こうして 梦（ゆめ）の中（なか）で ずっと永远（えいえん）に…<br>君（きみ）と夏（なつ）の终（お）わり 将来（しょうらい）の梦（ゆめ）<br>大（おお）きな希望（きぼう） 忘（わす）れない<br>十年（じゅうねん）後（ご）の八月（はちがつ）また出会（であ）えるのを 信（しん）じて<br>君（きみ）が最後（さいご）まで 心（こころ）から<br>「ありがとう」叫（さけ）んでいたこと 知（し）っていたよ<br>涙（なみだ）をこらえて 笑颜（えがお）でさよなら せつないよね<br>最高（さいこう）の思（おも）い出（で）を…<br>最高（さいこう）の思（おも）い出（で）を…</p>
+<p>粉雪<br>粉雪(こなゆき)舞(ま)う季节(きせつ)は<br>いつもすれ违(ちが)い<br>人混(ひとご)みに纷(まぎ)れても<br>同(おな)じ空(そら)见(み)てるのに<br>风(かぜ)に吹(ふ)かれて<br>似(に)たように冻(こご)えるのに</p>
+<p>仆(ぼく)は君(きみ)の全(すべ)てなど<br>知(し)ってはいないだろう<br>それでも一(いち)億(おく)人(にん)から<br>君(きみ)を见(み)つけたよ<br>根拠(こんきょ)はないけど<br>本気(ほんき)で思(おも)ってるんだ</p>
+<p>些细(ささい)な言(い)い合(いあ)いもなくて<br>同(おな)じ时间(じかん)を<br>生(い)きてなどいけない<br>素直(すなお)になれないなら<br>喜(よろこ)びも悲(かな)しみも<br>虚(むな)しいだけ</p>
+<p>粉雪(こなゆき) ねえ<br>心(こころ)まで白(しろ)く<br>染(そ)められたなら<br>二人(ふたり)の孤独(こどく)を分(わ)け合(あ)う<br>事(こと)が出来(でき)たのかい</p>
+<p>仆(ぼく)は君(きみ)の心(こころ)に<br>耳(みみ)を押(お)し当(あ)てて<br>その声(こえ)のする方(ほう)へ<br>すっと深(ふか)くまで<br>下(お)りてゆきたい<br>そこでもう一度(いちど)会(あ)おう</p>
+<p>分(わ)かり合(あ)いたいなんて<br>上辺(うわべ)を抚(な)でて<br>いたのは仆(ぼく)の方(ほう)<br>君(きみ)のかじかんだ手(て)も<br>握(にぎ)りしめることだけで<br>繋(つな)がってたのに</p>
+<p>粉雪(こなゆき) ねえ<br>永远(えいえん)を前(まえ)に<br>あまりに脆(もろ)く<br>ざらつくアスファルトの上(うえ)<br>シミになってゆくよ<br>粉雪(こなゆき) ねえ<br>时(とき)に頼(たよ)りなく<br>心(こころ)は揺(ゆ)れる<br>それでも仆(ぼく)は君(きみ)のこと<br>守(まも)り続(つづ)けたい<br>粉雪(こなゆき) ねえ<br>心(こころ)まで白(しろ)く<br>染(そ)められたなら<br>二人(ふたり)の孤独(こどく)を包(つつ)んで<br>空(そら)にかえすから</p>
+<p>聖駿高校 校歌<br>ひかりは止(と)まる<br>のぞみは通過(つうか)<br>水(みず)の都(みやこ)<br>新緑(しんりょく)の匂(にお)い<br>友(とも)と語(かた)らう<br>コロッケの味(あじ)<br>ゆっくり走(はし)る<br>駿豆線(すんずせん)<br>ガタゴト走(はし)る<br>いずっぱこ<br>ある日(ひ)　神(かみ)さまと<br>仏(ほとけ)さまが仲直(なかなお)り<br>それが　青春(せいしゅん)の<br>始(はじ)まりでした</p>
+<p>神(かみ)に誓(ちか)って<br>知(し)らぬが仏(ほとけ)<br>色々(いろいろ)あったね<br>聖駿(せいしゅん)高校(こうこ)<br>悔(く)い改(あら)ためて<br>悟(さと)れよ自分(じぶん)<br>僕(ぼく)の　私(わたし)の<br>青春(せいしゅん)そのもの</p>
+<p>银の龙の背に乗って<br>あの苍（あお）ざめた海（うみ）の彼方（かなた）で<br>今（いま）まさに谁（だれ）かが伤（いた）んでいる<br>まだ飞（と）べない雏（ひな）たちみたいに<br>仆（ぼく）はこの 非力（ひりき）を叹（なげ）いている<br>急（いそ）げ悲（かな）しみ 翼（つばさ）に変（か）われ<br>急（いそ）げ伤迹（きずあと）罗针盘（らしんばん）になれ<br>まだ 飞（と）べない雏（ひな）たちみたいに<br>仆（ぼく）はこの 非力（ひりき）を叹（なげ）いている<br>梦（ゆめ）が 迎（むか）えに来（き）てくれるまで<br>震（ふる）えて待（ま）ってるだけだった昨日（きのう）<br>明日（あした）仆（ぼく）は龙（りゅう）の足元（あしもと）へ崖（がけ）を登（のぼ）-り<br>呼（よ）ぶよ「さあ、行（ゆ）こうぜ」<br>银（ぎん）の龙（りゅう）の 背（せ）に乗（の）って<br>届（とど）けに行（ゆ）こう 命（いのち）の砂漠（さばく）へ<br>银（ぎん）の龙（りゅう）の背（せ）に乗（の）って<br>运（はこ）んで行（ゆ」）こう 雨云（あまぐも）の涡（うず）を<br>失（うしな）うものさえ失（うしな）ってなお<br>人（ひと）はまだ谁（だれ）かの指（ゆび）にすがる<br>柔（やわ）らかな皮肤（ひふ）しかない理由（わけ）は<br>人（ひと）が人（ひと）の伤（いた）みを聴（き）くためだ<br>急（いそ）げ悲（かな）しみ 翼（つばさ）に変（か）われ<br>急（いそ）げ伤迹（きずあと） 罗针盘（らしんばん）になれ<br>まだ飞（と）べない雏（ひな）たちみたいに<br>仆（ぼく）はこの非力（ひりき）を叹（なげ）いている<br>绵ボコリみたいな翼（つばさ）でも<br>木（き）の芽（め）みたいな頼（たよ）りない爪（つめ）でも<br>明日（あした）仆（ぼく）は龙（りゅう）の足元（あしもと）へ崖（がけ）を登（のぼ）り<br>呼（よ）ぶよ「さあ、行（ゆ）こうぜ」<br>银（ぎん）の龙（りゅう）の背（せ）に乗（の）って<br>届（とど）けに行（ゆ）こう 命（いのち）の砂漠（さばく）へ<br>银（ぎん）の龙（りゅう）の背（せ）に乗（の）って<br>运（はこ）んで行（ゆ）こう 雨云（あまぐも）の涡（うず）を<br>银（ぎん）の龙（りゅう）の背（せ）に乗（の）って<br>运（はこ）んで行（ゆ）こう 雨云（あまぐも）の涡（うず）を<br>银（ぎん）の龙（りゅう）の背（せ）に乗（の）って</p>
+
       
-    </p></div>
+    </div>
     
     <div class="article-info article-info-index">
       
@@ -321,10 +502,6 @@
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日语/">日语</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/歌词/">歌词</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/英语/">英语</a></li></ul>
     </div>
 
-      
-        <p class="article-more-link">
-          <a href="/2017/01/09/歌词/#more">阅读全文 >></a>
-        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -1846,10 +2023,11 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>##中文<br>踅 xue 来回走<br>迳 jing 至，经过<br>俹 ya 倚，靠<br>艖 cha 小船<br>馔 zhuan 准备食物，食物<br>郓 yun 地名<br>睃 suo 斜着眼睛看<br>唣 zao 吵闹<br>旖旎 yini 柔和美好<br>樨 xi 木樨，桂花<br>咂 za 嘴吸<br>辄 zhe 总是<br>扪 men 按<br>牝 pin 雌性<br>毳 cui 鸟兽的毛<br>赍 ji 抱着，给<br>攮 nang 用刀刺<br>杓 shao 北斗柄部的三颗星<br>兕 si 古代酒器，异兽<br>籴 di 买进<br>稃 fu 谷壳<br>镟 xuan<br>鳏 guan 无妻，丧妻<br>鹣 jian 鹣鹣，古代传说中的比翼鸟<br>奁 lian 本义为大号盛食器具，古代汉族女子存放梳妆用品的镜箱<br>杌 wu 杌凳;小凳<br>拶 za 逼迫<br>膂 lv 膂力，体力<br>浥 yi 沾湿<br>襞 bi 衣服上的褶子<br>粲 can 鲜明美好<br>帏 wei 古代佩戴的香囊<br>渌 lu 水名，在湖南省<br>蹙 cu 紧迫<br>晁 chao 姓<br>蠡 li 瓢<br>阗 tian 充满<br>湫 qiu 水池<br>佞 ning 奸佞，奸邪谄媚<br>寅 yin<br>恪 ke<br>骘 zhi 马<br>迩 er 近<br>杌 wu<br>箦 ze 床<br>磉 sang 石礅<br>蕤 rui 蕤宾，端午节<br>栉 zhi 梳子<br>鸨 bao<br>夤 yin 夤夜，深夜<br>凫 fu 水鸟<br>贲 ben 姓氏<br>溆 xu 水边<br>荑 ti 嫩芽<br>诼 zhuo 毁谤<br>龁 he 咬<br>绁 xie 牵牲口的绳索<br>鹣 jian 比翼鸟<br>唼 sha 水鸟或鱼的吃食，声音<br>卮 zhi 古代盛酒的器皿<br>喙 hui 鸟嘴<br>觜 zui 鸟喙<br>觞 shang 酒器<br>袂 mei 衣袖<br>湔 jian 用水洗<br>檠 qing 灯架<br>愔 yin 安静柔弱的样子<br>嶲 gui 地名<br>呪 zhou 同”咒“<br>妲 da 人名<br>僭 jian 超越本分<br>斝 jia 酒器<br>尕 ga 小<br>恁 nen 那么<br>獃 dai 呆<br>黹 zhi 针线活<br>恁 nen 那样<br>郓 yun 地名<br>呧 di<br>孥 nu 子女<br>膫 liao 生殖器</p>
-<p>##写作<br>颜若冰霜，语如刀枪。<br>拔屌无情<br>物极必反<br>始乱终弃<br>宁做转瞬即逝之灿烂烟火，不做亘古永恒之沉默磐石<br>不知道结局，只是想先试试<br>有些话说出来就不准了<br>go back to where you came from<br>彩凤双鸣<br>麒麟独卧<br>烟霞散彩<br>日月摇光<br>天花乱坠，地涌金莲<br>口开神气散，舌动<br>有话即长，无话即短，不觉过了一月有余。<br>金石之语<br>骏马却驼痴汉走，美妻常伴拙夫眠。<br>水性从来是女流，背夫常与外人偷。<br>云情雨意两绸缪，恋色迷花不肯休。毕竟人生如泡影，何须死下杀人谋。<br>经目之事，犹恐未真；背后之言，岂能全信？<br>玉杵污泥中<br>甜言美语三冬暖，恶语伤人六月寒。 </p>
+        <p>##中文<br>踅 xue 来回走<br>迳 jing 至，经过<br>俹 ya 倚，靠<br>艖 cha 小船<br>馔 zhuan 准备食物，食物<br>郓 yun 地名<br>睃 suo 斜着眼睛看<br>唣 zao 吵闹<br>旖旎 yini 柔和美好<br>樨 xi 木樨，桂花<br>咂 za 嘴吸<br>辄 zhe 总是<br>扪 men 按<br>牝 pin 雌性<br>毳 cui 鸟兽的毛<br>赍 ji 抱着，给<br>攮 nang 用刀刺<br>杓 shao 北斗柄部的三颗星<br>兕 si 古代酒器，异兽<br>籴 di 买进<br>稃 fu 谷壳<br>镟 xuan<br>鳏 guan 无妻，丧妻<br>鹣 jian 鹣鹣，古代传说中的比翼鸟<br>奁 lian 本义为大号盛食器具，古代汉族女子存放梳妆用品的镜箱<br>杌 wu 杌凳;小凳<br>拶 za 逼迫<br>膂 lv 膂力，体力<br>浥 yi 沾湿<br>襞 bi 衣服上的褶子<br>粲 can 鲜明美好<br>帏 wei 古代佩戴的香囊<br>渌 lu 水名，在湖南省<br>蹙 cu 紧迫<br>晁 chao 姓<br>蠡 li 瓢<br>阗 tian 充满<br>湫 qiu 水池<br>佞 ning 奸佞，奸邪谄媚<br>寅 yin<br>恪 ke<br>骘 zhi 马<br>迩 er 近<br>杌 wu<br>箦 ze 床<br>磉 sang 石礅<br>蕤 rui 蕤宾，端午节<br>栉 zhi 梳子<br>鸨 bao<br>夤 yin 夤夜，深夜<br>凫 fu 水鸟<br>贲 ben 姓氏<br>溆 xu 水边<br>荑 ti 嫩芽<br>诼 zhuo 毁谤<br>龁 he 咬<br>绁 xie 牵牲口的绳索<br>鹣 jian 比翼鸟<br>唼 sha 水鸟或鱼的吃食，声音<br>卮 zhi 古代盛酒的器皿<br>喙 hui 鸟嘴<br>觜 zui 鸟喙<br>觞 shang 酒器<br>袂 mei 衣袖<br>湔 jian 用水洗<br>檠 qing 灯架<br>愔 yin 安静柔弱的样子<br>嶲 gui 地名<br>呪 zhou 同”咒“<br>妲 da 人名<br>僭 jian 超越本分<br>斝 jia 酒器<br>尕 ga 小<br>恁 nen 那么<br>獃 dai 呆<br>黹 zhi 针线活<br>恁 nen 那样<br>郓 yun 地名<br>呧 di<br>孥 nu 子女<br>膫 liao 生殖器<br>箇 ge 个</p>
+<p>脩 xiu 修<br>羣 qun 群<br>獃 dai 呆<br>笄 ji 簪子<br>晏 yan 迟<br>笴 ge3 箭杆<br>踬 zhi4 绊倒<br>雉 zhi4 野鸡<br>雊 gou4 野鸡鸣叫<br>挝 zhua1 鞭、棰一类的兵器<br>虿 chai4 蝎子一类毒虫<br>桎梏 zhi4gu4 束缚<br>豸 zhi4 虫子<br>繇 you2 由<br>靳 jin4<br>爿 pan2 边界</p>
+<p>##写作<br>颜若冰霜，语如刀枪。<br>拔屌无情<br>物极必反<br>始乱终弃<br>宁做转瞬即逝之灿烂烟火，不做亘古永恒之沉默磐石<br>不知道结局，只是想先试试<br>有些话说出来就不准了<br>go back to where you came from<br>彩凤双鸣<br>麒麟独卧<br>烟霞散彩<br>日月摇光<br>天花乱坠，地涌金莲<br>口开神气散，舌动<br>有话即长，无话即短，不觉过了一月有余。<br>金石之语<br>骏马却驼痴汉走，美妻常伴拙夫眠。<br>水性从来是女流，背夫常与外人偷。<br>云情雨意两绸缪，恋色迷花不肯休。毕竟人生如泡影，何须死下杀人谋。<br>经目之事，犹恐未真；背后之言，岂能全信？<br>玉杵污泥中<br>甜言美语三冬暖，恶语伤人六月寒。<br>喜欢一个人的作品，不要喜欢一个人，人会变，会让人失望<br>我愿意是激流<br>一切过去了的都会变成亲切的思念<br>流泪眼观流泪眼，断肠人送断肠人<br>天空为什么会这么蓝<br>奇迹还会再一次降临吗<br>令人怀念的故乡，鲜花一定会再次盛开<br>能随时抛弃一切的人，大概是真正自由的人。</p>
 <p>##英文<br>supreme<br>circumstance<br>comprehensive<br>presence<br>derive<br>proportion<br>steep<br>steer<br>scandal<br>a loaf of<br>half a pound of<br>tobacco<br>kettle<br>teapot<br>ripe<br>mince<br>lettuce<br>deprive<br>stem<br>render<br>shrink<br>stimulate<br>vultivate<br>personnel<br>particle<br>delegate<br>latter<br>parliament<br>partial<br>domestic<br>envelope<br>chalk<br>aspirin<br>measles<br>mumps<br>lean out of<br>eligible<br>greengrocer<br>submerge<br>imply<br>strain<br>strap<br>efficient<br>accommodation<br>strategic<br>exclaim<br>discipline<br>neutral<br>interpret<br>promote<br>acceptance<br>chap<br>strategy<br>straw<br>bearing<br>abstract<br>stretch<br>approximate<br>striking<br>critic<br>interpretation<br>illustrate<br>strip<br>hedge<br>indispensable<br>dairy<br>grocer<br>hurriedly<br>thirstily<br>groceries<br>newsagent<br>stationery<br>neutral<br>gramme<br>ingredient<br>arbitrary<br>exploit<br>bulk<br>comparison<br>brow<br>penetrate<br>carpenter<br>enlarge<br>inherit<br>drain<br>charity<br>subsequent<br>spite<br>substance<br>mutual<br>substantial<br>conviction<br>attendant<br>lamp-post<br>association<br>hostel<br>interaction<br>frustrate<br>preface<br>horizontal<br>invitation<br>rural<br>fortnight<br>offense<br>proportional<br>subtract<br>pace<br>sheer<br>sore<br>raid<br>distress<br>publicity<br>spin<br>ract<br>evidently<br>harness<br>genuine<br>prompt<br>suburb<br>intention<br>stale<br>teaspoonful<br>deposit<br>instalment<br>millionaire<br>conductor<br>tramp<br>lemonade<br>torch<br>parrot<br>magnet<br>attribute<br>succession<br>dull<br>provoke<br>substitute<br>orbit<br>correspondent<br>allowance<br>component<br>successive<br>sufficient<br>curl<br>bureau<br>dip<br>disposal<br>cart<br>reckon<br>reception<br>merit<br>rally<br>nuisance<br>sensational<br>mink coat<br>tyre<br>prosecute<br>grain<br>conservation<br>resident<br>boundary<br>radical<br>rag<br>prescribe<br>singular<br>beneath<br>recreation<br>tackle<br>resort<br>recruit<br>contrast<br>ancestor<br>superb<br>noticeable<br>fierce<br>enquire<br>preparation<br>drip<br>emit<br>superficial<br>sole<br>enclose<br>bounce<br>occasion<br>advisable<br>fatal<br>excursion<br>ignorant<br>condense<br>involve<br>hollow<br>procedure<br>controversial<br>cabbage<br>condemn<br>surgery<br>surplus<br>cassette<br>dam<br>survey<br>synthetic<br>manufacture<br>suspect<br>cope<br>joint<br>surrender<br>faint<br>conference<br>hazard<br>sway<br>editorial<br>recongnition<br>librarian<br>prohibit<br>landscape<br>audience<br>sanction<br>fibre<br>illustration<br>liable<br>sympathize<br>breeze<br>imitate<br>infant<br>spur<br>religious<br>exceedingly<br>symptom<br>pillar<br>conscience<br>consitute<br>cast<br>prior<br>dye<br>seal<br>hesitate<br>crawl<br>fascinating<br>cigarette<br>immense<br>ridge<br>competent<br>proposition<br>provision<br>reinforce<br>rail<br>pat<br>rational<br>consistent<br>sketch<br>tame<br>technician<br>capable<br>definition<br>participate<br>tedious<br>famine<br>fundamental<br>plural<br>discharge<br>extensive<br>decay<br>perceive<br>scarcely<br>clay<br>frequency<br>garlic<br>temporary<br>acquisition<br>temptation<br>disguise<br>solemn<br>beggar<br>primitive<br>consent<br>miserable<br>clerk<br>liquor<br>essential<br>decorate<br>excess<br>cement<br>magnificent<br>tendency<br>tender<br>moderate<br>collision<br>critical<br>interference<br>outline<br>fertilizer<br>petrol<br>distinguish<br>parcel<br>propose<br>incline<br>liberal<br>lavatory<br>constitution<br>tolerate<br>amateur<br>elbow<br>textile<br>notion<br>inference<br>preserve<br>secretary<br>irritable<br>pub<br>landlord<br>conjunction<br>therapy<br>cease<br>obligation<br>consuit<br>indirect<br>opponent<br>integrate<br>exterior<br>thereby<br>furthermore<br>insurance<br>merchant<br>chamber<br>realm<br>exchaim<br>constant<br>sustain<br>suspicion<br>prospect<br>conduct<br>thrive<br>prominent<br>recession<br>commitment<br>elastic<br>prosumably<br>bargain<br>comparable<br>instant<br>thrust<br>monument<br>deputy<br>exert<br>dispost<br>inward<br>timber<br>reluctant<br>wicked<br>proter<br>creep<br>leap<br>upright<br>furnish<br>institution<br>delicate<br>convey<br>slice<br>consultant<br>multiply<br>centigrade<br>precaution<br>allocate<br>certificate<br>torch<br>conservative<br>auxiliary<br>moisture<br>gulf<br>combat<br>fragment<br>distinct<br>priority<br>elementary<br>plough<br>desert<br>polo<br>row<br>temptation<br>article<br>instinct<br>prosperity<br>dominate<br>inspect<br>lorry<br>cue<br>revenue<br>advocate<br>prosperous<br>assemble<br>slope<br>crucial<br>conscious<br>contemporary<br>breadth<br>necessity<br>transportation<br>copper<br>carriage<br>mat<br>cashier<br>faithful<br>intensity<br>remedy<br>confine<br>fruitful<br>retain<br>owing<br>appoint<br>treaty<br>emphasis<br>tremble<br>faith<br>tremendous<br>magnetic<br>elaborate<br>glimpse<br>obviously<br>haunt<br>furniture<br>saddle<br>lest<br>creep<br>dental<br>portion<br>lodge<br>vague<br>tropical<br>coil<br>peculiar<br>resume<br>portrait<br>utter<br>bacteria<br>idle<br>pledge<br>trumpet<br>exaggerate<br>trunk<br>grocer<br>cruise<br>initial<br>attain<br>devise<br>shrug<br>site<br>turbine<br>reservoir<br>spring<br>mattress<br>gust<br>smash<br>miraculously<br>promptly<br>acquaintance<br>counsel<br>typical<br>corresponding<br>consequence<br>committee<br>tyre<br>appetite<br>impose<br>invade<br>controversy<br>nursery<br>fraction<br>amid<br>manufacturer<br>evolve<br>dictation<br>deposit<br>faculty<br>earnest<br>orchestra<br>arithmetic<br>oblige<br>convict<br>cite<br>discard<br>deceive<br>excursion<br>virtue<br>parcel<br>snatch<br>pastry<br>dismay<br>doorknob<br>revealer<br>pirate<br>revolt<br>mold<br>virtue<br>confront<br>emperor<br>undergraduate<br>circular<br>dictate<br>hydrogen<br>nitrogen<br>undoubtedly<br>mosquito<br>petroleum<br>accumulate<br>rival<br>collapse<br>corridor<br>balcony<br>diplomatic<br>conquer<br>inflation<br>paraphrase<br>restate<br>ostensible<br>plausible<br>specious<br>deception<br>opposition<br>digress<br>scornfully<br>despise<br>prompt<br>approve<br>disguise<br>vicar<br>desolate<br>authority<br>spray<br>thermometer<br>scenery<br>democracy<br>obstacle<br>nuisance<br>significance<br>neglect<br>punctual<br>herd<br>exclusive<br>heave<br>excessive<br>ventilate<br>continent<br>circus<br>bomber<br>wreck<br>aerial<br>enthusiast<br>colony<br>hive<br>beeswax<br>persistent<br>mournful<br>trim<br>qualification<br>restrain<br>flock<br>restraint<br>utility<br>receipt<br>specimen<br>utmost<br>vacant<br>conclude<br>restrict<br>contradiction<br>ore<br>clause<br>initiative<br>compel<br>matador<br>criticism<br>clumsily<br>sympathetically<br>truant<br>hithchike<br>evade<br>guarantee<br>semiconductor<br>geometry<br>butcher<br>triumph<br>vain<br>soak<br>exceed<br>compose<br>laboratory<br>haste<br>posionous<br>continual<br>slight<br>considerate<br>ditch<br>inquiry<br>implement<br>scout<br>limelight<br>precaution<br>disguise<br>shady<br>sheriff<br>sneer<br>stamp<br>helicopter<br>bulletin<br>macaroni<br>grower<br>splendid<br>stalk<br>thresh<br>mummy<br>plate<br>resin<br>salute<br>fanatical<br>opponent<br>radical<br>progressive<br>extent<br>gratitude<br>dimension<br>vigorous<br>skim<br>stake<br>accord<br>slam<br>endure<br>gradual<br>venture<br>implication<br>coincidence<br>buoy<br>dismay<br>petrol<br>drift<br>alibi<br>inspector<br>slip<br>binoculars<br>sarcastic<br>monument<br>sculptor<br>pedestal<br>reluctant<br>tricycle</p>
-<p>frightful<br>drily<br>spectacle<br>lantern<br>shiver<br>grasp<br>rigid<br>vessel<br>evident<br>veteran<br>glimpse<br>cord<br>fatigue<br>concrete<br>erect<br>vinegar<br>penalty</p>
+<p>frightful<br>drily<br>spectacle<br>lantern<br>shiver<br>grasp<br>rigid<br>vessel<br>evident<br>veteran<br>glimpse<br>cord<br>fatigue<br>concrete<br>erect<br>vinegar<br>penalty<br>discorder<br>dispute<br>hence<br>pine<br>operational<br>organism<br>violet<br>draught<br>flourish<br>correspondence<br>pronoun<br>impact<br>conceal<br>curriculum<br>loaf<br>stain<br>massive<br>extent<br>urban<br>marvelous<br>respective<br>boast<br>indicate<br>utilize<br>prevail<br>dense<br>scatter<br>shed<br>vivid<br>outset<br>engage<br>sphere<br>stale<br>canal<br>voluntary<br>spade<br>boot<br>literature<br>oval<br>glorious<br>omit<br>adequate<br>departure<br>sophisticated<br>damp<br>potential<br>permanent<br>furnace<br>wagon<br>waist<br>plunge<br>luxury<br>warmth<br>waterproof<br>complaint<br>progressive<br>residence<br>resemble<br>perception<br>pitch<br>vital<br>scold<br>speculate<br>scope<br>repetition<br>convention<br>reservation<br>ribbon<br>dissolve<br>scarce<br>clumsy<br>emphasize<br>frost</p>
 <p>##日文<br>ただいま<br>おかえりなさい<br>いってらっしゃい<br>いってまいります<br>いってきます<br>いらっしゃいませ<br>かしこまりました<br>おじゃまします</p>
 <p>まっすぐ<br>笔直</p>
 <p>たしか<br>不太有把握的记忆</p>
@@ -2132,130 +2310,6 @@
         <p class="article-more-link">
           <a href="/2017/01/09/树莓派-archlinuxarm做路由/#more">阅读全文 >></a>
         </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-某网友提供的107G的ResilioSync电子书资源" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/01/08/某网友提供的107G的ResilioSync电子书资源/" class="article-date">
-      <time datetime="2017-01-08T15:11:46.000Z" itemprop="datePublished">2017-01-08</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/08/某网友提供的107G的ResilioSync电子书资源/">某网友提供的107G的ResilioSync电子书资源</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h4 id="本资源仅供学习交流使用，请于下载后24小时内删除"><a href="#本资源仅供学习交流使用，请于下载后24小时内删除" class="headerlink" title="本资源仅供学习交流使用，请于下载后24小时内删除"></a>本资源仅供学习交流使用，请于下载后24小时内删除</h4><p>B2YZTLQJYCRWAM4LJLWBZWH7EEYU25J3T，只读<br>已去除重复文件<br>之后添加的书会放到Andy收集的日期文件夹里面<br>Andy收集 28.35 GB<br>kindlefere 22.69 GB<br>kindleren精品资源（一） 5.17 GB<br>kindleren精品资源（二） 3.20 GB<br>mebook 10.71 GB<br>suguniang01 20.34 GB<br>suguniang02 5.37 GB<br>其他sync资源 6.11 GB<br>子乌书简 846.36 MB<br>整理1500本 4.50 GB<br>共107.31GB,41722个文件，长期更新</p>
-<h4 id="建议保持上传，将知识传递下去"><a href="#建议保持上传，将知识传递下去" class="headerlink" title="建议保持上传，将知识传递下去"></a>建议保持上传，将知识传递下去</h4>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ResilioSync/">ResilioSync</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/kindle/">kindle</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/电子书/">电子书</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-将看的书电影电视剧" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/01/08/将看的书电影电视剧/" class="article-date">
-      <time datetime="2017-01-08T12:48:55.000Z" itemprop="datePublished">2017-01-08</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/08/将看的书电影电视剧/">将看的书\电影\电视剧</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p><strong>重复的是读过多遍</strong><br><strong>数字为评分，满分10</strong></p>
-<h1 id="每日任务"><a href="#每日任务" class="headerlink" title="每日任务"></a>每日任务</h1><p>项目|进度|时间<br>| — | — | — |<br>新华字典第11版|p541|2019.3.23<br>中日交流标准日本语初级下|书254,听力27,广播75,视频27|2019.3.23<br>四级词汇词根+联想记忆法乱序版|p291|2019.3.23<br>跳动的尼龙|书44,视频9|2019.3.23<br>车尔尼599|p14|2019.3.23<br>哈农钢琴练指法|p2|2019.3.23<br>跑步|椭圆机20分钟、跑步2000米、1万步|2019.2.22</p>
-<h1 id="正在看的"><a href="#正在看的" class="headerlink" title="正在看的"></a>正在看的</h1><p>剧名|将要看哪集|时间<br>| — | — | — |<br>喻世明言 中华书局|2|2019.1.21<br>The Blacklist|6.12|2019.3.18<br>西游记校注本|第79回|2019.3.21<br>Shameless US|10.1|2019.3.18<br>Billions|3.1|2017.5.13<br>Modern Family|9.22|2018.10.23<br>Rick and Morty|4.1|2019.3.21<br>会评会校金瓶梅 刘辉 吴敢辑校 香港天地图书 2010年修订|314|2019.1.20<br>进撃の巨人|111|2018.12.10<br>水浒传校注本|第0回|2018.11.28<br>名侦探柯南|1026话|2019.1.23<br>看不见的城市|卡尔维诺 张密译|0|2018.11.27<br>Better Call Saul|5.0|2018.11.5<br>犬夜叉|动画107话，漫画31卷|2018.10.6<br>十日谈|第二天故事第9|2018.10.23<br>皮囊|张美丽 40%|2018.9.21<br>一人之下|漫画62动画2.25|2018.11.28<br>四级词汇词根联想记忆法乱序2014新版|word list2|2018.9.21<br>卡拉马佐夫兄弟|2.5|2018.9.28<br>我读|4 40%|2018.9.21<br>柏杨版资治通鉴1|公元前二五八年 22%|2018.9.21<br>德川家康|第六部 41%|2018.9.20<br>冰与火之歌|列王的纷争中 23%|2018.9.20<br>海贼王|第3卷|2018.8.14<br>Fate/stay night 06版|1|2018.7.31<br>Preacher S3|1|2018.6.25<br>Westworld|2.0|2016.12.6<br>無謀な夜|104:00|2018.5.23<br>FL Studio12水果软件教程|39|2018.4.28<br>命运石之门 0|0|2018.4.15<br>孤独ンのグルメ|7.0|2017.7.3<br>灌篮高手|第9卷|<br>Homeland|7.12|2018.4.23<br>Black Mirror|5.1|2018.1.1<br>宋大叔教音乐|32|2017.8.23<br>Manhunt Unabomber|2.0|2017.9.15<br>TBBT|11.0|2017.9.1<br>GoT|8.0|2017.8.28<br>Fargo|4.0|2017.6.29<br>American Gods|2.0|2017.6.29<br>紧急审讯室|3.0|2017.6.17<br>House of cards|6.0|2017.6.6<br>齐木楠雄的灾难|121|2017.5.12<br>The Last Ship|1.9|2016.09.03<br>True Detective|2.1|2015.12.22<br>Newsroom|2.0|</p>
-<h1 id="看过的书"><a href="#看过的书" class="headerlink" title="看过的书"></a>看过的书</h1><p> 书名|备注|阅读时间|分数<br>| — | — | — | — |<br>2009以前|2009以前|2009以前|2009以前<br>寻找前世之旅|||<br>弹痕|||<br>2009~2013|2009~2013|2009~2013|2009~2013<br>挪威的森林|||<br>穆斯林的葬礼|||<br>可爱的洪水猛兽|||<br>撒哈拉的故事|||<br>雨季不再来|||<br>世界因你不同|||<br>踮脚张望的时光|||<br>神在看着你|||<br>五年文集上|||<br>长安乱|||<br>藏地密码1-5|||<br>毕业八年，我重逢了高中的校花|||<br>一个人住第5年|||<br>疯狂的程序员|||<br>裸婚|||<br>黄金时代|||<br>五年文集下|||<br>山楂树之恋|||<br>麦田里的守望者|||<br>了不起的盖茨比|||<br>史上最强日本史|||<br>一九八四|||<br>1Q84 Book1|||<br>别跟我说你懂日本|||<br>黄昏清兵卫|||<br>开源软件之道|||<br>1988我想和这个世界谈谈|||<br>我是一只IT小小鸟|||<br>鬼吹灯1-6|||<br>1Q84 book 2,3|||<br>看穿人心术拿来就用|||<br>独唱团|||<br>一座城池|||7.5<br>关原之战|||<br>第五部队|||7.5<br>蔡康永的说话之道|||<br>倒带人生|||<br>射雕英雄传|三联版||<br>藏地密码6-10|||<br>不能承受的生命之轻|||<br>鬼吹灯7、8|||<br>私募英雄|||<br>私募操盘高手投资实战技巧 |||<br>彼得林奇教你理财|||<br>彼得林奇的成功投资|||<br>时间的玫瑰|||<br>胡立阳股票投资100招|||<br>短线为王-掘金成交量|||<br>天才在左 疯子在右|||<br>炒股的智慧|||<br>从零开始学炒股|||<br>一个证券分析师的醒悟|||<br>股票作手回忆录|||<br>短线套利实战技法|||<br>无限恐怖|||<br>德川家康1-5|||<br>活着|||<br>兄弟|||<br>目送|||<br>平凡的世界|||<br>寻路中国|||<br>盗墓笔记1-10|||8<br>风起陇西|||<br>三国机密（上下册）|||7<br>饥饿游戏1|||<br>悟空传|||<br>毕业八年，我重逢了高中的校花|||8.8<br>今夜，我在想你的路上|||<br>白夜行|||<br>活着|||9<br>黄金时代|||8<br>2014年|2014年|2014年|2014年<br>追风筝的人|||<br>万历十五年|||<br>爱的流放地|||<br>撒哈拉的故事|||<br>雨季不再来|||<br>许三观卖血记|||<br>一万小时天才理论|||<br>我看到的世界和你们不一样|||<br>帝国最后的荣耀（上下册）|||<br>克罗谈投资策略|||<br>饥饿游戏1-3|||<br>被嫌弃的松子的一生|||7<br>三体2,3|||8.5<br>三体1|||<br>安德的游戏|||<br>我读书少 你可别骗我|||<br>大漠苍狼|||<br>怒江之战|||<br>天堂向左深圳往右|||8.5<br>成都，今夜请将我遗忘|||<br>知日知日1|||<br>我有一事，生死与之|||<br>球状闪电|||8.5<br>时间回旋|||<br>红拂夜奔|||<br>时间之墟|||<br>生存life|||<br>上帝掷骰子吗量子物理史话|||<br>解忧杂货店|||<br>天堂向左 深圳往右|||<br>大禁地|||<br>2015年|2015年|2015年|2015年<br>花花饭|||<br>成都，今夜请将我遗忘|||7<br>东北往事1,2,3,4,5|||<br>海伯利安|||7<br>海伯利安的陨落|||<br>知日知日2|||<br>安迪密恩|||<br>安迪密恩的觉醒|||<br>狼图腾|||3<br>知日知日3|||<br>天堂向左 深圳往右|||9<br>天上的白云真白啊|||6<br>活着|||9.5<br>跑步大全|||<br>科幻世界2014第二季度合集|||5<br>王小波全集第三卷长篇小说|云南出版社||<br>寄生獣|||<br>冰与火之歌权力的游戏 上|||<br>恋爱渴望|||<br>王小波全集第五卷长篇小说剧本|云南出版社||<br>王小波全集第六卷中篇小说|云南出版社||8<br>冰与火之歌权力的游戏中|||<br>王小波全集第七卷中篇小说|云南出版社||<br>宜家家居指南2015|||<br>民主的细节|||<br>柯南 卷1-84|||<br>知日知日4|||<br>知行合一王阳明|||7<br>明朝那些事儿1,2,3,4,5|||<br>宜家家居指南2016|||<br>冰与火之歌权力的游戏下|||<br>明朝那些事儿6|||<br>稻草人手记|哈尔滨出版社||<br>明朝那些事儿7|||<br>哭泣的骆驼|||<br>撒哈拉的故事|||<br>温柔的夜|||<br>雨季不再来|||<br>背影|||<br>梦里花落知多少|||<br>万水千山走遍|||<br>送你一匹马|||<br>倾城|||<br>谈心|||<br>随想|||<br>我的宝贝|||<br>小王子|||<br>闹学记|||<br>滚滚红尘|||<br>亲爱的三毛|||<br>我的快乐天堂|||<br>小王子|||<br>高原的百合花|||<br>我的灵魂骑在纸背上|||<br>我读1|||<br>在路上|文楚安译|2015.10.16|7<br>在路上||2015.10.27|<br>你是我不及的梦||2015.10.31|<br>宜家家居指南2016|||7<br>宜家家居指南2016|||<br>一句顶一万句||2015.12.17|7.6<br>我叫刘跃进||2015.12.21|<br>2016年|2016年|2016年|2016年<br>手机||2016.01.01|<br>一地鸡毛||2016.01.06|<br>增广贤文||2016.01.07|<br>在细雨中呼喊||2016.01.17|<br>李重光新编通俗基本乐理||2016.02.01|<br>一座城池||2016.02.10|<br>王小波全集第八卷短篇小说|云南出版社|2016.02.12|<br>斯通纳||2016.02.21|3<br>王小波全集第四卷中篇小说黄金时代|译林出版社|2016.03.25|9.5<br>王小波全集第一卷杂文||2016.04.04|<br>中国历代政治得失|九州出版社|2016.04.28|9<br>王小波全集第二卷杂文||2016.04.29|<br>王小波全集第九卷书信|云南出版社|2016.05.03|<br>王小波全集第十卷未竟稿|云南出版社|2016.05.09|<br>我不是潘金莲||2016.05.11|<br>盗墓笔记真正大结局||2016.06.10|<br>盗墓笔记贺岁篇2014+2015||2016.06.12|<br>情人||2016.07.03|1<br>余罪1||2016.07.07|<br>宜家家居指南2017||2016.08.26|<br>王小波全集第三卷万寿寺||2017.01.02|<br>神雕侠侣|三联版|2017.01.19|<br>红楼梦脂评汇校本||2017.02.21|<br>我读2||2017.02.22|<br>王小波全集第四卷红拂夜奔||2017.03.07|<br>王小波全集第五卷寻找无双||2017.03.21|<br>海伯利安||2017.04.03|9.8<br>海伯利安的陨落||2017.04.13|7<br>哲学家们都干了些什么?(2015修订版)||2017.05.11|<br>白鹿原(93版)||2017.05.18|7<br>科幻世界2014年第三季度合集||2017.05.18|7<br>进击的巨人Lost Girls 1,2卷||2017.05.21|<br>禅与摩托车维修艺术||2017.05.25|<br>达摩流浪者||2017.06.03|8<br>稻草人手记||2017.06.05|<br>哭泣的骆驼||2017.06.09|<br>温柔的夜||2017.06.27|<br>纳兰词全编笺注|苏缨笺注|2017.07.03|<br>我读3||2017.07.03|<br>月亮与六便士|徐淳刚译|2017.08.02|7<br>百年孤独|范晔译|2017.08.05|<br>永恒的终结||2017.08.10|<br>没有色彩的多崎作何他的巡礼之年|施小炜译|2017.08.12|7<br>世事如烟|余华|2017.08.14|<br>鲜血梅花|余华|2017.08.16|<br>PowerShot G7X MarkII 使用说明书||2017.08.21|<br>乡土中国||2017.08.25|8<br>弹指之间||2017.08.31|9<br>宜家家居指南2017||2017.09.08|<br>沙丘||2017.10.26|1<br>基本乐理教程||童忠良著|2017.10.26|<br>新概念英语1||2017.10.31|<br>皮皮鲁和魔方大厦||2018.1.9|<br>夹边沟记事||2018.1.9|8<br>背影|三毛|2018.1.17|<br>刀锋|毛姆|2018.3.8|8.5<br>炒股的智慧||2018.3.10|<br>梦里花落知多少||2018.3.10|<br>黄金时代||2018.4.18|<br>活着||2018.5.8|<br>失乐园|林少华译|2018.5.16|<br>黄金时代||2018.5.29|<br>白银时代||2018.6.11|<br>情人|王道乾译|2018.6.11|1.5<br>江城||2018.6.12|8<br>王小波全集第五卷长篇小说剧本|云南出版社|2018.6.20|<br>分成两半的子爵||2018.6.25|<br>红拂夜奔|北京十月文艺出版社|2018.7.4|<br>树上的男爵||2018.7.9|8.3<br>美国纽约摄影学院摄影教材||2018.7.18|<br>万寿寺|北京十月文艺，新经典文化|2018.7.24|<br>赖氏经典英语语法||2018.7.24|<br>伊藤润二恐怖漫画精选16卷||2018.8.2|9<br>伊藤润二 漩涡 短篇集||2018.8.4|<br>革命时期的爱情|新经典文化|2018.8.5|9<br>涅朵琦卡·涅茨瓦诺娃|荣如德译|2018.8.14|8<br>定西孤儿院纪事||2018.8.16|8.5<br>绿毛水怪|新经典文化|2018.8.18|8<br>忧国的拉斯普金|伊藤润二|2018.8.18|<br>人间失格|颜月译|2018.8.28|<br>全球通史从史前到21世纪第7版修订版||2018.8.30|<br>万历十五年（经典版）||2018.9.17|<br>宜家家居2019||2018.9.28|<br>夜行记|新经典文化|2018.10.3|<br>倚天屠龙记|三联版|2018.10.10|<br>不存在的骑士|吴正仪译|2018.10.17|<br>似水柔情|新经典文化|2018.10.19|<br>万水千山走遍|哈尔滨出版社|2018.11.6|<br>了不起的盖茨比|邓若虚译|2018.11.6|<br>白银时代|新经典文化|2018.11.11|<br>送你一匹马|哈尔滨出版社|2018.11.20|<br>我的阴阳两界|新经典文化|2018.11.23|<br>倾城|哈尔滨出版社|2018.11.28|<br>谈心|哈尔滨出版社|2018.12.15|<br>随想|哈尔滨出版社|2018.12.15|<br>红楼梦校注本程乙本120回|中央编译出版社|2018.12.22|8<br>约翰汤普森现代钢琴教程1||2018.12.24|3<br>新概念英语2新版||2018.12.25|3<br>拜厄钢琴基础教程||2018.12.26|2</p>
-<h1 id="看过的电影-电视剧"><a href="#看过的电影-电视剧" class="headerlink" title="看过的电影/电视剧"></a>看过的电影/电视剧</h1><p>剧名|观看时间|分数<br>| — | — | — |<br>2009之前|2009之前|2009之前<br>一公升眼泪||<br>在世界中心呼喊爱||<br>白夜行 日剧||8<br>Code Geass S1 S2||9.5<br>2009~2013|2009~2013|2009~2013<br>秒速5厘米||<br>拆弹部队||<br>矮仔多情||<br>大侦探福尔摩斯||<br>禁闭岛||<br>血色星期一2||<br>率直的男人||<br>我的女友是机器人||<br>生死狙击||<br>大兵小将||<br>少林足球||<br>七宗罪||<br>新撰组~京都青春录||<br>留级之王1，2||<br>虎胆龙威1，2||<br>岁月神偷||<br>唐山大地震||<br>爱得太迟||<br>The.Big.Bang.Theory 1,2,3季||<br>人间喜剧||<br>敢死队||<br>黄昏清兵卫||<br>名侦探柯南 天空的遇难船||<br>盗梦空间||<br>三个白痴||<br>维多利亚一号||<br>电锯惊魂1-7||<br>行尸走肉1||<br>刑警||<br>让子弹飞||<br>非诚勿扰2||<br>勇敢的心||<br>记忆碎片||<br>Lie to me||<br>学园默示录||<br>四重奏||<br>是你教会了我重要的一切||<br>国王的演讲||<br>功夫咏春||<br>钢铁侠2||<br>源代码||<br>变形金刚1-3||<br>大话西游1，2||<br>窃听风云2||<br>深夜食堂1，2||7.7<br>美国队长||<br>v字仇杀队||<br>战争之王||<br>生化危机1-4||<br>江~公主们的战国||<br>我们都是超能力者||<br>泰坦尼克号||<br>家政妇三田||<br>传染病||<br>黑镜||8<br>时代精神||<br>平清盛||<br>Modern family||8.8<br>Breaking bad||<br>Homeland 1,2季||<br>Legal high 1,2季||8.9<br>安堂机器人||<br>罪恶黑名单||<br>Link||<br>海上诊疗所||<br>单身贵族||<br>2014年|2014年|2014年<br>饥饿游戏2||<br>纸牌屋||<br>Homeland 3季||<br>大空港2013||<br>宇宙大爆炸之前发生了什么||<br>Helix||<br>紧急审讯室||<br>The spoils of babylon||<br>战力外搜查官||<br>S-最后的警官||<br>失恋巧克力职人||7<br>明天，妈妈不在||7.5<br>三傻齐兵||<br>上锁的房间SP||<br>Dr.DMAT||<br>Escape Plan||<br>七武士||<br>最完美的离婚sp||<br>猫侍||<br>mozu||<br>嗜血菌株 S1||<br>海女||9<br>昼颜||7<br>年轻人们2014||8.4<br>R100||<br>零之真实～监查医·松本真央||<br>武林外传||7<br>圣女||<br>我和僵尸有个约会1，2，3||8<br>HERO2014||<br>土拨鼠日||<br>星际穿越||<br>Modern family 1-5||8<br>LEGAL HIGH 2014SP||<br>黑镜圣诞特辑||<br>泰迪熊||<br>2001太空漫游||<br>深夜食堂3||<br>信长协奏曲TV||7<br>对不起青春||8.8<br>玉川区役所||3<br>后会无期||5<br>为了N||7.8<br>宇宙：穿越时空的冒险||8.5<br>一代宗师||5<br>白兔糖电影版||7.5<br>自恋刑警||7.8<br>2015年|2015年|2015年<br>限界集落株式会社||5.8<br>灰姑娘||5<br>还有第11人||7<br>问题餐厅||7.8<br>某某妻||6<br>无间双龙||7<br>流星旅行车||5<br>约会 恋爱究竟是什么呢||8<br>警部补·杉山真太郎||5<br>王牌特工特工学院||6<br>我们都是超能力者番外||7<br>摩登家庭第六季||8.5<br>小森林 夏篇||<br>小森林 秋篇||<br>池袋西口公园||<br>权力的游戏S5||<br>Dr.伦太郎||7.5<br>猫侍S2||7.5<br>I’m Home ||<br>海月姬||<br>小森林 冬春篇||8<br>泰迪熊2||<br>TBBTS8||5<br>宅女侦探桂香||1<br>民王||8<br>全力青蛙||8.4<br>碟中谍5||<br>Mad.Max.Fury.Road.2015||7<br>The.Hunger.Games.Mockingjay.Part.1||<br>2030彼岸的家人||<br>小希||4<br>我们都是超能力者~Love Wars||<br>Birdman.2014||<br>深夜食堂.2015||<br>约会 恋爱究竟是什么呢 夏季SP 秘密温泉||7.5<br>搏击俱乐部||<br>辛德勒的名单||<br>夏洛特烦恼|2015.10.17|7<br>港囧|2015.10.18|<br>功夫小蝇|2015.10.19|<br>Leon|2015.10.19|8<br>The.Legend.of.1900|2015.10.20|8<br>The.Butterfly.Effect|2015.10.21|8.2<br>Back.to.the.Future|2015.10.22|<br>Back.to.the.Future.II|2015.10.22|<br>Back.to.the.Future.III|2015.10.22|<br>The.Butterfly.Effect.2|2015.10.26|<br>The.Butterfly.Effect.3|2015.10.26|<br>魔方大厦|2015.10.31|<br>The brink|2015.10.31|8<br>女王的教室|2015.11.04|7.5<br>来自新世界|2015.11.07|7.1<br>偽装の夫婦|2015.12.10|<br>名侦探柯南业火的向日葵|2015.12.12|<br>サムライせんせい|2015.12.07|<br>Fargo S1 S2|2015.12.20|<br>監獄学園|2015.12.22|<br>Homeland S4 S5|2015.12.22|<br>True detective S1|2015.12.22|<br>The Martian|2015.12.24|7.5|<br>寻龙诀|2015.12.29|8.2|<br>bref|2015.12.30|7|<br>整人大赏2015|2016.01.03|7|<br>pulp fiction|2016.01.15|<br>Hero 2015|2016.01.16|<br>How I Met Your Mother S1-9|2016.02.07|7.2<br>美人鱼|2016.02.10|<br>shoot em up|2016.02.12|<br>澳门风云3|2016.02.17|0.5<br>shameless US S1-5|2016.03.04|8<br>孤独ンのグルメ S5|2016.03.08|<br>我们都是超能力者2015|2016.03.16|<br>お義父さんと呼ばせて|2016.03.17|<br>ナオミとカナコ|2016.03.18|<br>叶问3|2016.03.18|<br>没有黄段子存在的无聊世界|2016.03.29<br>Shameless US S6|2016.04.05|8.8<br>我的特工爷爷|2016.04.06|4<br>民王 特别篇～新的阴谋～|2016.04.16|<br>民王番外篇～恋爱总选举～|2016.04.23|<br>House of cards S3 S4|2016.04.23|<br>Better Call Saul S2|2016.04.29|<br>寻味顺德|2016.05.04|<br>老炮儿|2016.05.06|<br>TBBT S9|2016.05.14|<br>幽灵公主|2016.05.16|<br>天空之城|2016.05.17|<br>Frozen|2016.05.18|<br>超脑48小时|2016.05.22|<br>Zootopia|2016.05.23|<br>The Brothers Grimsby 2016|2016.05.29|<br>爱丽丝梦游仙境2镜中奇遇记|2016.05.29|7.5<br>Modern Family S7|2016.05.30|<br>新红楼梦2010|2016.05.30|<br>The blacklist S3|2016.05.31|<br>24小时绝对不准笑~2016名侦探篇|2016.06.04|8<br>X战警天启|2016.06.07|7<br>红楼梦87版|2016.06.08|8<br>Big Hero 6 2014|2016.06.10|<br>X-Men:Days of Future Past|2016.06.12|<br>X-Men 2000|2016.06.13|<br>X-Men 2003|2016.06.13|<br>X-Men The Last Stand|2016.06.13|<br>X-Men Origins Wolverine|2016.06.13|<br>X-Men First Class|2016.06.14|8.5<br>X-men The Wolverine|2016.06.15|<br>我的危险妻子|2016.06.16|8<br>也让我有点小执着|2016.06.19|7<br>宽松世代又如何|2016.06.21|7<br>小豆豆电视台|2016.06.21|<br>毒岛百合子的赤裸裸日记|2016.06.24|<br>树大招风 2016|2016.06.25|<br>Game of thrones|2016.06.28|<br>百家讲坛刘心武揭秘红楼梦61集|2016.07.01|<br>百家讲坛新解红楼梦16集|2016.07.01|<br>百家讲坛周汝昌眼中的四大名著全5集|2016.07.07|<br>太阳之歌|2016.07.09|7<br>最后的朋友|2016.07.10|7.5|<br>百家讲坛易经的奥秘|2016.07.10|7|<br>百家讲坛易中天品三国|2016.07.20|<br>惊天大逆转|2016.07.22|1<br>命运石之门TV+SP+WEB+剧场|2016.07.24|7<br>大鱼海棠|2016.07.26|3<br>家族游戏|2016.07.27|7<br>百家讲坛袁腾飞两宋风云|2016.07.27|<br>Saving Private Ryan|2016.07.30|8<br>先秦诸子百家争鸣三十六讲|2016.08.04|<br>绝地逃亡|2016.08.05|5<br>我们仍未知道那天所看见的花的名字|2016.08.06|<br>爱宠大机密|2016.08.20|7<br>The Bourne Identity|2016.08.22|<br>The Bourne Supremacy|2016.08.22|<br>The Bourne Ultimatum|2016.08.23|<br>The Bourne Legacy|2016.08.23|<br>Code Geass R1|2016.08.28|8<br>谍影重重5|2016.08.29|<br>Code Geass R2|2016.08.29|9<br>白色巨塔|2016.09.07|9.5<br>Legal High SP2|2016.09.09|<br>华丽一族|2016.09.10|7<br>不毛地带|2016.09.14|<br>命运之人|2016.09.17|<br>釜山行2016|2016.09.21|<br>Predestination|2016.09.21|<br>The night of S1|2016.09.22|<br>九条命|2016.09.24|<br>上甘岭 1956|2016.09.30|<br>不沉的太阳|2016.10.01|<br>路人超能100|2016.10.10|<br>侠探杰克：永不回头|2016.10.21|<br>火花|2016.10.21|<br>第一滴血2|2016.10.23|<br>重版出来|2016.11.3|<br>深夜食堂|2016.11.12|<br>驴得水|2016.12.15|7.5|<br>Sully|2016.12.16|7|<br>罗曼蒂克消亡史|2016.12.18|1|<br>血战钢锯岭|2016.12.19|7.9|<br>柯南one|2017.01.01|<br>the truman show|2016.01.03|<br>真田丸|2017.01.12|<br>太空旅客|2017.01.21|<br>降临|2017.01.24|<br>孤独的美食家 2017|2017.01.28|<br>极限特工|2017.02.20|<br>生化危机终章|2017.02.27|7<br>金刚狼3殊死一战|2017.03.16|6<br>四重奏|2017.03.22|<br>绑架者|2017.03.31|1<br>By players ~六个老戏骨 一个屋檐下~|2017.04.03|<br>Homeland S6|2017.04.17|8.5<br>帝国的毁灭|2017.04.18|8<br>Billions S1|2017.04.27|7<br>Narcos S1|2017.05.03|7<br>Narcos S2|2017.05.05|8<br>whiplash|2017.05.05|<br>东成西就(粤语)|2017.05.19|<br>The blacklist S4|2017.5.20|<br>拆弹专家|2017.05.23|<br>saw I|2017.05.27|8<br>saw II|2017.05.27|<br>saw III|2017.05.27|9<br>孤独的美食家 16夏宫城篇|2017.05.31|<br>志明与春娇|2017.06.07|<br>异星觉醒|2017.06.12|8<br>紧急审讯室S2|2017.06.17|8<br>变形金刚5最后的骑士|2017.06.25|5<br>Better call saul S3|2017.06.26|<br>嫌疑人X的献身2008|2017.06.27|<br>Modern family S8|2017.06.27|<br>Fargo S3|2017.06.29|<br>American gods S1|2017.06.29|<br>孤独ンのグルメ S6|2017.07.03|<br>宽松世代又如何:纯米吟酿纯情篇 上|2017.07.03|<br>宽松世代又如何:纯米吟酿纯情篇 下|2017.07.10|<br>大护法|2017.07.23|<br>新木乃伊(The Mummy 2017)|2017.08.06|<br>战狼2|2017.08.20|8<br>Rick and Morty S1|2017.08.26|<br>二十二|2017.08.27|7<br>Rick and Morty S2|2017.08.28|<br>Game of Thrones S7|2017.08.28|<br>Narcos S3|2017.9.7|8.5<br>Manhunt Unabomber S1|2017.9.7|<br>Pirates of the Caribbean Dead Men Tell No Tales|2017.9.18|<br>Baby driver 2017|2017.9.20|<br>王牌保镖|2017.9.24|<br>蜘蛛侠英雄归来|2017.10.8|<br>雷神3|2017.11.8|<br>Preacher S1|2017.11.10|<br>Preacher S2|2017.11.21|<br>太太请小心轻放|2017.12.30|7<br>Black Mirror S4|2018.1.1|8.5<br>星球大战：最后的绝地武士|2018.1.7|<br>银翼杀手2049|2018.1.27|<br>移动迷宫3|2018.1.27|<br>移动迷宫1|2018.1.29|<br>移动迷宫2|2018.1.31|<br>十二公民|2018.2.2|<br>泰囧|2018.2.2|<br>蛋炒饭|2018.2.3|<br>武林外传2011|2018.2.3|<br>无人区|2018.2.4|<br>黄金大劫案|2018.2.4|<br>铁齿铜牙纪晓岚第一部|2018.2.14|<br>红海行动|2018.2.21|8.5<br>铁齿铜牙纪晓岚第二部|2018.2.23|<br>铁齿铜牙纪晓岚第三部|2018.3.2|<br>铁齿铜牙纪晓岚第四部|2018.3.7|<br>黑豹|2018.3.11|<br>布衣天子|2018.3.20|<br>生物股长2016厚木演唱会|2018.4.16|8.5<br>X Japan The Last Live|2018.4.27|<br>X Japan 破壊の夜|2018.5.9|<br>幕后玩家|2018.5.12|6<br>The Blacklist S5|2018.6.5|<br>我不是药神|2018.7.16|<br>碟中谍6全面瓦解|2018.9.1|<br>Better Call Saul S4|2018.11.5|<br>海王|2018.12.9|<br>我是大哥大|2018.12.17|<br>热血高校|2018.12.18|<br>热血高校2|2019.1.4|<br>摄影机不要停|2019.1.5|<br>命运之夜天之杯恶兆之花|2019.1.13|<br>Fate/stay night Unlimited Blade Works|2019.1.19|7<br>我想吃掉你的胰脏|2019.1.24|3<br>Fate/stay night 06版|2019.1.25|8<br>大黄蜂|2019.1.26|<br>死侍2我爱我家|2019.1.29|<br>死侍1|2019.1.30|<br>卫宫家今天的饭|2019.1.31|<br>流浪地球|2019.2.10|7.5<br>Fate/Zero|2019.2.25|8<br>惊奇队长|2019.3.9|<br>Shameless US S8|2019.3.15|8<br>Shameless US S8|2019.3.18|<br>Rick and Morty S3|2019.3.21|</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/书/">书</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/电影/">电影</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/电视剧/">电视剧</a></li></ul>
-    </div>
-
       
       <div class="clearfix"></div>
     </div>
