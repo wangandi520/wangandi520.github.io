@@ -1,0 +1,28 @@
+body {
+  background: #fff url(../images/bg-black-gradient.jpg) repeat-x fixed top;
+  color:#000;
+  font-family: helvetica, arial, sans-serif;
+}
+
+#content{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ECF5FF;
+}
+#jtab_scalevalue{
+  width:20px;
+}
+
+#tab, #tab-download{
+  width:-moz-fit-content;
+  width:-webkit-fit-content;
+}
+
+#chord_tab, #chord-download{
+  width:-moz-fit-content;
+  width:-webkit-fit-content;
+}
+
+#tab-download,#chord_download{
+  display: none;
+}

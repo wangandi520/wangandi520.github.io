@@ -1,0 +1,213 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+
+  <title>Guitar Chord Search and Generate</title>
+  <link type="text/css" rel="stylesheet" href="css/jtab-site.css" />
+
+  <!-- START: for jtab -->
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+  <link type="text/css" rel="stylesheet" href="css/jtab-helper.css" />
+  <script src="javascripts/jquery.js" type="text/javascript"></script>
+  <script src="javascripts/raphael.js" type="text/javascript"></script>
+  <script src="javascripts/jtab.js" type="text/javascript"></script>
+  <script src="javascripts/chords.js"></script>
+  <script src="javascripts/html2canvas.js"></script>
+  <!-- END: for jtab -->
+
+  <script type='text/javascript'>
+    $.extend({
+      getUrlVars: function () {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for (var i = 0; i < hashes.length; i++) {
+          hash = hashes[i].split('=');
+          vars.push(hash[0]);
+          vars[hash[0]] = hash[1];
+        }
+        return vars;
+      },
+      getUrlVar: function (name) {
+        return $.getUrlVars()[name];
+      }
+    });
+    $('#user_notation').val($.getUrlVar('phrase'))
+  </script>
+</head>
+
+<body>
+
+  <div id="content">
+
+    <div id="jtab">
+
+      <p>Enter a phrase here:<a href="#" id="jtab_example">(Examples:Am):</a></p>
+      <p><input id="user_notation" size="40"></p>
+      <input id="jtab_scalebutton" type="button" value="Scale:">
+      <input id="jtab_scalevalue" value="1">
+      <input id="jtab_CAGED" type="button" value="CAGED">
+	  <br />
+      <input id="jtab_startButton" type="button" value="jTab Generate"
+        onclick="jtab.render($('#tab'),$('#user_notation').val());">
+      <input id="jtab_downloadButton" type="button" value="jTab Download">
+      <span><a href="jtab-index.htm">How to use</a></span>
+      <br />
+      <br />
+      <div id="tab"></div>
+      <div id="tab-download"></div>
+    </div>
+    <br />
+    <script type='text/javascript'>
+	var saveFile = function (data, filename) {
+          var save_link = document.createElementNS('http://www.w3.org/1999/xhtml', 'a');
+          save_link.href = data;
+          save_link.download = filename;
+
+          var event = document.createEvent('MouseEvents');
+          event.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+          save_link.dispatchEvent(event);
+        };
+
+
+      $('#user_notation').keyup(function (e) {
+        jtab.render($('#tab'), $(this).val());
+        $('#tab').css('transform', 'scale(' + $('#jtab_scalevalue').val() + ')');
+      });
+
+      $('#jtab_example').click(function () {
+        $('#user_notation').val('Am');
+        $('#jtab_startButton').click();
+      })
+
+      $('#jtab_scalevalue').blur(function () {
+        jtab.render($('#tab'), $(this).val());
+		jtab_scale = $('#jtab_scalevalue').val();
+        $('#tab').css('transform', 'scale(' + jtab_scale + ')');
+      })
+
+      $('#jtab_CAGED').click(function () {
+        var chord = $('#user_notation').val();
+        var chord_CAGED = chord + ' ';
+        for (i = 2; i <= 5; i++) {
+          chord_CAGED = chord_CAGED + chord + ':' + i + ' ';
+        }
+        $('#user_notation').val(chord_CAGED);
+        $('#jtab_startButton').click();
+      })
+
+      $('#jtab_startButton').click(function () {
+        jtab.render($('#tab'), $(this).val());
+        $('#tab').css('transform', 'scale(' + $('#jtab_scalevalue').val() + ')');
+      })
+
+      $('#jtab_scalebutton').click(function () {
+        jtab.render($('#tab'), $(this).val());
+        $('#tab').css('transform', 'scale(' + $('#jtab_scalevalue').val() + ')');
+      })
+
+      $('#jtab_downloadButton').click(function () {
+        html2canvas(document.querySelector("#tab")).then(canvas => {
+          $('#tab-download').html(canvas);
+          $('#tab').css('transform', 'scale(' + $('#jtab_scalevalue').val() + ')');
+          var pageData = canvas.toDataURL('image/png', 1.0);
+          var filename = $('#user_notation').val();
+          saveFile(pageData.replace("image/png", "image/octet-stream"), filename + ".png");
+        });
+      })
+
+      if ($.getUrlVar('phrase')) {
+        var paraments = $.getUrlVar('phrase');
+        paraments = decodeURIComponent(paraments);
+        $('#user_notation').val(paraments);
+        $('#jtab_startButton').click();
+      }
+    </script>
+
+    <div id="chord">
+      <p>Or make your own chord<a href="#" id="chord_example">(Examples:Am,X02210,--231-):</a></p>
+      <p>Name: <input id="chord_name" size="40"></p>
+      <p>Position: <input id="chord_positions" size="40"></p>
+      <p>Finger: <input id="chord_fingers" size="40"></p>
+      <p>Size: <input id="chord_size" size="40" value="4"></p>
+      <p>Layout: <input id="chord_layout" size="40" value="1"></p>
+      <p>Strings: <input id="chord_String" size="40" value="EADGBe"></p>
+      <input id="chord_startButton" type="button" value="ChordJS Generate">
+      <input id="chord_clearButton" type="button" value="ChordJS Clear">
+      <input id="chord_downloadButton" type="button" value="ChordJS Download">
+      <span><a href="ChordJS-README.md">How to use</a></span>
+      <br />
+      <br />
+      <div id="chord_tab"></div>
+      <div id="chord_download"></div>
+      <br />
+      <br />
+    </div>
+    <script>
+      $('#chord_example').click(function () {
+        $('#chord_name').val('Am');
+        $('#chord_positions').val('X02210');
+        $('#chord_fingers').val('--231-');
+        $('#chord_size').val('4');
+        $('#chord_layout').val('1');
+        $('#chord_String').val('EADGBe');
+        content = '<chord name="' + $('#chord_name').val() + '" positions="' + $('#chord_positions').val() + '" fingers="' + $('#chord_fingers').val() + '" size="' + $('#chord_size').val() + '" layout="' + $('#chord_layout').val() + '" strings="' + $('#chord_String').val() + '"></chord>';
+        $('#chord_tab').append(content);
+        ChordJS.replace();
+      })
+
+      $('#chord_startButton').click(function () {
+        content = '<chord name="' + $('#chord_name').val() + '" positions="' + $('#chord_positions').val() + '" fingers="' + $('#chord_fingers').val() + '" size="' + $('#chord_size').val() + '" layout="' + $('#chord_layout').val() + '" strings="' + $('#chord_String').val() + '"></chord>';
+        $('#chord_tab').append(content);
+        ChordJS.replace();
+      })
+
+      $('#chord_clearButton').click(function () {
+        $('#chord_tab').html('');
+        ChordJS.replace();
+      })
+	  
+      $('#chord_downloadButton').click(function () {
+        html2canvas(document.querySelector("#chord_tab")).then(canvas => {
+          $('#chord-download').html(canvas);
+          var pageData = canvas.toDataURL('image/png', 1.0);
+          var filename = $('#chord_name').val();
+          saveFile(pageData.replace("image/png", "image/octet-stream"), filename + ".png");
+        });
+      })
+
+      ChordJS.replace();
+    </script>
+
+    <div id="help">
+      <p>This project Demo: <a href="https://andi.press/guitar/">https://andi.press/guitar/</a></p>
+      <p>Github: <a
+          href="https://github.com/wangandi520/guitar-chord-search-and-generate">https://github.com/wangandi520/guitar-chord-search-and-generate</a>
+      </p>
+      <p>You can use this html like: <a href="?phrase=Am F C">index.html?phrase=Am F C</a></p>
+      <p>Or lite version: <a href="./index-lite.html?phrase=Am F C">index-lite.html?phrase=Am F C</a></p>
+      <br />
+      <p>This project combined two projects in one, Thanks: </p>
+      <p><a href="https://github.com/tardate/jtab">jTab https://github.com/tardate/jtab</a></p>
+      <p><a href="https://github.com/acspike/ChordJS">ChordJS https://github.com/acspike/ChordJS</a></p>
+      <p><a href="https://github.com/niklasvh/html2canvas">html2canvas https://github.com/niklasvh/html2canvas</a></p>
+
+      <p><input id="body-blackgroundcolor-button" type="button" value="Body color to white"></p>
+      <p><input id="content-blackgroundcolor-button" type="button" value="Content color to white"></p>
+      <script>
+        $('#body-blackgroundcolor-button').click(function () {
+          $('body').css('background', 'white');
+        })
+
+        $('#content-blackgroundcolor-button').click(function () {
+          $('#content').css('background-color', 'white');
+        })
+      </script>
+    </div>
+  </div>
+</body>
+
+</html>
