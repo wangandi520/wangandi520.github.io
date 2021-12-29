@@ -39,9 +39,9 @@
     
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
-    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
-    
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
     
   </entry>
   
@@ -103,9 +103,9 @@
     
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="钱穆" scheme="https://andi.wang/tags/%E9%92%B1%E7%A9%86/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -136,9 +136,9 @@
     
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
-    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
-    
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
     
   </entry>
   
@@ -160,9 +160,9 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
-    
     <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     
     <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
@@ -551,10 +551,11 @@
     <link href="https://andi.wang/2021/03/09/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/"/>
     <id>https://andi.wang/2021/03/09/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/</id>
     <published>2021-03-09T08:48:55.000Z</published>
-    <updated>2021-11-18T07:25:18.458Z</updated>
+    <updated>2021-11-21T15:16:38.215Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;everything搜索空文件夹&quot;&gt;&lt;a href=&quot;#everything搜索空文件夹&quot; class=&quot;headerlink&quot; title=&quot;everything搜索空文件夹&quot;&gt;&lt;/a&gt;everything搜索空文件夹&lt;/h2&gt;&lt;p&gt;empty:&lt;/p&gt;
 &lt;h2 id=&quot;百度网盘提取码错误&quot;&gt;&lt;a href=&quot;#百度网盘提取码错误&quot; class=&quot;headerlink&quot; title=&quot;百度网盘提取码错误&quot;&gt;&lt;/a&gt;百度网盘提取码错误&lt;/h2&gt;&lt;p&gt;地址的http改成https，复制到手机客户端提取&lt;/p&gt;
 &lt;h2 id=&quot;total-commander中纯数字文件排序&quot;&gt;&lt;a href=&quot;#total-commander中纯数字文件排序&quot; class=&quot;headerlink&quot; title=&quot;total commander中纯数字文件排序&quot;&gt;&lt;/a&gt;total commander中纯数字文件排序&lt;/h2&gt;&lt;p&gt;纯数字文件是这样排序的1，10，11，12，13，要变成1，2，3，4，选择&lt;/p&gt;
 &lt;p&gt;配置，选项，显示，文件排序方式，按字符代码及数字大小排序&lt;/p&gt;</summary>
