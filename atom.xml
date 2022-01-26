@@ -45,11 +45,15 @@
     <link href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"/>
     <id>https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/</id>
     <published>2022-01-26T10:11:42.000Z</published>
-    <updated>2022-01-26T11:37:37.630Z</updated>
+    <updated>2022-01-26T11:42:34.971Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;vsftpd权限&quot;&gt;&lt;a href=&quot;#vsftpd权限&quot; class=&quot;headerlink&quot; title=&quot;vsftpd权限&quot;&gt;&lt;/a&gt;vsftpd权限&lt;/h2&gt;&lt;p&gt;ftp目录755，用户root:ftp，里面upload目录777，用户root:root&lt;br&gt;/etc/vsftpd.conf里添加&lt;/p&gt;
+&lt;h2 id=&quot;vsftpd权限&quot;&gt;&lt;a href=&quot;#vsftpd权限&quot; class=&quot;headerlink&quot; title=&quot;vsftpd权限&quot;&gt;&lt;/a&gt;vsftpd权限&lt;/h2&gt;&lt;p&gt;启动vsftpd服务&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pacman -S vsftpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;systemctl enable vsftpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;systemctl start vsftpd&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;可以匿名上传文件，进行如下设置：ftp目录权限755，用户组root:ftp，里面新建文件夹upload，权限777，用户组root:root&lt;/p&gt;
+&lt;p&gt;在/etc/vsftpd.conf里添加&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;anon_mkdir_write_enable&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anon_root&amp;#x3D;&amp;#x2F;srv&amp;#x2F;ftp&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anon_other_write_enable&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anon_umask&amp;#x3D;022&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anon_upload_enable&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;no_anon_password&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anonymous_enable&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
