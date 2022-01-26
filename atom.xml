@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2022-01-08T04:33:51.934Z</updated>
+  <updated>2022-01-26T11:31:57.512Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>适合部署在树莓派上的项目</title>
+    <link href="https://andi.wang/2022/01/26/%E9%80%82%E5%90%88%E9%83%A8%E7%BD%B2%E5%9C%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://andi.wang/2022/01/26/%E9%80%82%E5%90%88%E9%83%A8%E7%BD%B2%E5%9C%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E7%9A%84%E9%A1%B9%E7%9B%AE/</id>
+    <published>2022-01-26T10:12:42.000Z</published>
+    <updated>2022-01-26T11:31:57.512Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;树莓派优势&quot;&gt;&lt;a href=&quot;#树莓派优势&quot; class=&quot;headerlink&quot; title=&quot;树莓派优势&quot;&gt;&lt;/a&gt;树莓派优势&lt;/h2&gt;&lt;p&gt;功耗低，测过大约0.5w。稳定，一个树莓派3，24小时开机，已经正常运行5年左右了。系统&lt;a href=&quot;https://archlinuxarm.org/&quot;&gt;archlinuxarm&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="树莓派" scheme="https://andi.wang/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="Raspberry" scheme="https://andi.wang/tags/Raspberry/"/>
+    
+    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux笔记</title>
+    <link href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"/>
+    <id>https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-01-26T10:11:42.000Z</published>
+    <updated>2022-01-26T11:18:27.418Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;linux笔记&quot;&gt;&lt;a href=&quot;#linux笔记&quot; class=&quot;headerlink&quot; title=&quot;linux笔记&quot;&gt;&lt;/a&gt;linux笔记&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="linux" scheme="https://andi.wang/tags/linux/"/>
+    
+    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Seventh9日麻教程 标注</title>
@@ -260,7 +306,7 @@
     <link href="https://andi.wang/2021/05/17/python%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC/"/>
     <id>https://andi.wang/2021/05/17/python%E8%87%AA%E5%88%B6%E8%84%9A%E6%9C%AC/</id>
     <published>2021-05-17T00:17:11.000Z</published>
-    <updated>2022-01-14T04:58:38.011Z</updated>
+    <updated>2022-01-26T11:19:48.083Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -300,7 +346,7 @@
     <link href="https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/"/>
     <id>https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/</id>
     <published>2021-03-22T02:31:55.000Z</published>
-    <updated>2021-03-23T10:01:42.549Z</updated>
+    <updated>2022-01-26T03:50:17.017Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -320,6 +366,8 @@
     <category term="linux" scheme="https://andi.wang/tags/linux/"/>
     
     <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
+    
+    <category term="webdav" scheme="https://andi.wang/tags/webdav/"/>
     
   </entry>
   
@@ -520,58 +568,6 @@
     <category term="REAPER" scheme="https://andi.wang/tags/REAPER/"/>
     
     <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>魔方笔记</title>
-    <link href="https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/"/>
-    <id>https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/</id>
-    <published>2021-03-11T06:11:27.000Z</published>
-    <updated>2021-03-16T02:05:23.770Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;cross&quot;&gt;&lt;a href=&quot;#cross&quot; class=&quot;headerlink&quot; title=&quot;cross&quot;&gt;&lt;/a&gt;cross&lt;/h2&gt;&lt;p&gt;底层对好白色十字&lt;br&gt;红橙，蓝绿，绿橙蓝红&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="魔方" scheme="https://andi.wang/tags/%E9%AD%94%E6%96%B9/"/>
-    
-    <category term="学习笔记" scheme="https://andi.wang/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>遥远的向日葵地 标注</title>
-    <link href="https://andi.wang/2021/03/11/%E9%81%A5%E8%BF%9C%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5%E5%9C%B0%E6%A0%87%E6%B3%A8/"/>
-    <id>https://andi.wang/2021/03/11/%E9%81%A5%E8%BF%9C%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5%E5%9C%B0%E6%A0%87%E6%B3%A8/</id>
-    <published>2021-03-11T02:22:10.000Z</published>
-    <updated>2021-03-16T01:33:48.430Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;仅仅只是水，一大滩明晃晃的水。镜子一样平平摊开在大地上，倒映着整面天空。又像是天空下的一面深渊&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;em&gt;2020.08.24 21:51:01&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;</summary>
-    
-    
-    
-    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
-    
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="遥远的向日葵地" scheme="https://andi.wang/tags/%E9%81%A5%E8%BF%9C%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5%E5%9C%B0/"/>
     
   </entry>
   
