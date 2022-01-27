@@ -32,11 +32,11 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
+    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
+    
     <category term="树莓派" scheme="https://andi.wang/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
     <category term="Raspberry" scheme="https://andi.wang/tags/Raspberry/"/>
-    
-    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
@@ -61,9 +61,9 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="linux" scheme="https://andi.wang/tags/linux/"/>
-    
     <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="linux" scheme="https://andi.wang/tags/linux/"/>
     
   </entry>
   
@@ -89,11 +89,11 @@
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
+    <category term="麻将" scheme="https://andi.wang/tags/%E9%BA%BB%E5%B0%86/"/>
+    
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="麻将" scheme="https://andi.wang/tags/%E9%BA%BB%E5%B0%86/"/>
     
   </entry>
   
@@ -150,11 +150,11 @@
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
-    
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
     
   </entry>
   
@@ -247,11 +247,11 @@
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
-    
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
     
   </entry>
   
@@ -275,9 +275,9 @@
     
     <category term="python" scheme="https://andi.wang/tags/python/"/>
     
-    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
-    
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
   </entry>
   
@@ -362,13 +362,13 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
+    <category term="linux" scheme="https://andi.wang/tags/linux/"/>
+    
     <category term="树莓派" scheme="https://andi.wang/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
     <category term="Raspberry" scheme="https://andi.wang/tags/Raspberry/"/>
     
     <category term="archlinuxarm" scheme="https://andi.wang/tags/archlinuxarm/"/>
-    
-    <category term="linux" scheme="https://andi.wang/tags/linux/"/>
     
     <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
     
