@@ -10841,7 +10841,7 @@ article.article .content code {
 }
 article.article .content blockquote.pullquote {
   float: right;
-  max-width: 60%;
+  max-width: 50%;
   font-size: 1.15rem;
   position: relative;
 }

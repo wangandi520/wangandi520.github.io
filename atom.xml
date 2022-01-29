@@ -45,10 +45,20 @@
     <link href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"/>
     <id>https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/</id>
     <published>2022-01-26T10:11:42.000Z</published>
-    <updated>2022-01-26T11:42:34.971Z</updated>
+    <updated>2022-01-28T11:47:52.949Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;archlinux更换默认终端&quot;&gt;&lt;a href=&quot;#archlinux更换默认终端&quot; class=&quot;headerlink&quot; title=&quot;archlinux更换默认终端&quot;&gt;&lt;/a&gt;archlinux更换默认终端&lt;/h2&gt;&lt;p&gt;列出已安装的shell：&lt;br&gt;chsh -l&lt;/p&gt;
+&lt;p&gt;设置默认shell：&lt;br&gt;chsh -s 绝对路径&lt;/p&gt;
+&lt;p&gt;下载后解压到/root/.oh-my-zsh&lt;br&gt;&lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh&quot;&gt;https://github.com/ohmyzsh/ohmyzsh&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cp ~&amp;#x2F;.oh-my-zsh&amp;#x2F;templates&amp;#x2F;zshrc.zsh-template ~&amp;#x2F;.zshrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;ZSH_THEME中修改主题&lt;br&gt;应用主题：&lt;br&gt;source ~/.zshrc&lt;/p&gt;
+&lt;p&gt;插件和其他主题&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pacman -S zsh-completions zsh-history-substring-search zsh-lovers zsh-syntax-highlighting zsh-theme-powerlevel10k&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;复制/usr/share/zsh-theme-powerlevel10下所有文件到/root/.oh-my-zsh/themes里&lt;/p&gt;
 &lt;h2 id=&quot;vsftpd权限&quot;&gt;&lt;a href=&quot;#vsftpd权限&quot; class=&quot;headerlink&quot; title=&quot;vsftpd权限&quot;&gt;&lt;/a&gt;vsftpd权限&lt;/h2&gt;&lt;p&gt;启动vsftpd服务&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pacman -S vsftpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;systemctl enable vsftpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;systemctl start vsftpd&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
