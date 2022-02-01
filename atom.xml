@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2022-01-27T04:18:48.527Z</updated>
+  <updated>2022-02-01T05:44:09.965Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>适合部署在树莓派上的项目</title>
-    <link href="https://andi.wang/2022/01/26/%E9%80%82%E5%90%88%E9%83%A8%E7%BD%B2%E5%9C%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
-    <id>https://andi.wang/2022/01/26/%E9%80%82%E5%90%88%E9%83%A8%E7%BD%B2%E5%9C%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E7%9A%84%E9%A1%B9%E7%9B%AE/</id>
+    <title>树莓派做家庭数据服务中心</title>
+    <link href="https://andi.wang/2022/01/26/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%81%9A%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"/>
+    <id>https://andi.wang/2022/01/26/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%81%9A%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/</id>
     <published>2022-01-26T10:12:42.000Z</published>
-    <updated>2022-01-27T04:18:48.527Z</updated>
+    <updated>2022-02-01T05:44:09.965Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -45,26 +45,11 @@
     <link href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"/>
     <id>https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/</id>
     <published>2022-01-26T10:11:42.000Z</published>
-    <updated>2022-01-28T11:47:52.949Z</updated>
+    <updated>2022-02-01T13:05:41.695Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;archlinux更换默认终端&quot;&gt;&lt;a href=&quot;#archlinux更换默认终端&quot; class=&quot;headerlink&quot; title=&quot;archlinux更换默认终端&quot;&gt;&lt;/a&gt;archlinux更换默认终端&lt;/h2&gt;&lt;p&gt;列出已安装的shell：&lt;br&gt;chsh -l&lt;/p&gt;
-&lt;p&gt;设置默认shell：&lt;br&gt;chsh -s 绝对路径&lt;/p&gt;
-&lt;p&gt;下载后解压到/root/.oh-my-zsh&lt;br&gt;&lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh&quot;&gt;https://github.com/ohmyzsh/ohmyzsh&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cp ~&amp;#x2F;.oh-my-zsh&amp;#x2F;templates&amp;#x2F;zshrc.zsh-template ~&amp;#x2F;.zshrc&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;ZSH_THEME中修改主题&lt;br&gt;应用主题：&lt;br&gt;source ~/.zshrc&lt;/p&gt;
-&lt;p&gt;插件和其他主题&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pacman -S zsh-completions zsh-history-substring-search zsh-lovers zsh-syntax-highlighting zsh-theme-powerlevel10k&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;复制/usr/share/zsh-theme-powerlevel10下所有文件到/root/.oh-my-zsh/themes里&lt;/p&gt;
-&lt;h2 id=&quot;vsftpd权限&quot;&gt;&lt;a href=&quot;#vsftpd权限&quot; class=&quot;headerlink&quot; title=&quot;vsftpd权限&quot;&gt;&lt;/a&gt;vsftpd权限&lt;/h2&gt;&lt;p&gt;启动vsftpd服务&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pacman -S vsftpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;systemctl enable vsftpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;systemctl start vsftpd&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;可以匿名上传文件，进行如下设置：ftp目录权限755，用户组root:ftp，里面新建文件夹upload，权限777，用户组root:root&lt;/p&gt;
-&lt;p&gt;在/etc/vsftpd.conf里添加&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;anon_mkdir_write_enable&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anon_root&amp;#x3D;&amp;#x2F;srv&amp;#x2F;ftp&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anon_other_write_enable&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anon_umask&amp;#x3D;022&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anon_upload_enable&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;no_anon_password&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;anonymous_enable&amp;#x3D;YES&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+&lt;h2 id=&quot;linux下配置github&quot;&gt;&lt;a href=&quot;#linux下配置github&quot; class=&quot;headerlink&quot; title=&quot;linux下配置github&quot;&gt;&lt;/a&gt;linux下配置github&lt;/h2&gt;&lt;p&gt;github右上角头像，settings，左下角developer settings，personal access tokens，generate new token&lt;br&gt;git config –global github.token 你的token&lt;br&gt;git config –global github.user 你的登录邮箱&lt;/p&gt;</summary>
     
     
     
