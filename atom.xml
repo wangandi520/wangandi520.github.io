@@ -45,11 +45,12 @@
     <link href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"/>
     <id>https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/</id>
     <published>2022-01-26T10:11:42.000Z</published>
-    <updated>2022-02-01T13:05:41.695Z</updated>
+    <updated>2022-02-01T14:32:32.484Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;linux下配置github&quot;&gt;&lt;a href=&quot;#linux下配置github&quot; class=&quot;headerlink&quot; title=&quot;linux下配置github&quot;&gt;&lt;/a&gt;linux下配置github&lt;/h2&gt;&lt;p&gt;github右上角头像，settings，左下角developer settings，personal access tokens，generate new token&lt;br&gt;git config –global github.token 你的token&lt;br&gt;git config –global github.user 你的登录邮箱&lt;/p&gt;</summary>
+&lt;h2 id=&quot;archlinux更换默认终端&quot;&gt;&lt;a href=&quot;#archlinux更换默认终端&quot; class=&quot;headerlink&quot; title=&quot;archlinux更换默认终端&quot;&gt;&lt;/a&gt;archlinux更换默认终端&lt;/h2&gt;&lt;p&gt;列出已安装的shell：&lt;br&gt;chsh -l&lt;/p&gt;
+&lt;p&gt;设置默认shell：&lt;br&gt;chsh -s 绝对路径&lt;/p&gt;</summary>
     
     
     
