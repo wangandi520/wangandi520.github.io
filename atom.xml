@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2022-03-12T00:55:18.606Z</updated>
+  <updated>2022-03-16T07:05:07.266Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PyQt5的使用</title>
+    <link href="https://andi.wang/2022/01/26/PyQt5%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://andi.wang/2022/01/26/PyQt5%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2022-01-26T10:12:42.000Z</published>
+    <updated>2022-03-16T07:05:07.266Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pip install -i https:&amp;#x2F;&amp;#x2F;pypi.tuna.tsinghua.edu.cn&amp;#x2F;simple pyqt5 pyqt5-tools pyinstaller &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>使用archlinux搭建家庭数据服务中心</title>
@@ -49,7 +71,7 @@
     <link href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"/>
     <id>https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/</id>
     <published>2022-01-26T10:11:42.000Z</published>
-    <updated>2022-02-28T14:26:04.875Z</updated>
+    <updated>2022-03-12T00:57:14.959Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -163,7 +185,7 @@
     <link href="https://andi.wang/2021/10/05/%E5%AF%B9%E6%AF%94%E5%87%A0%E4%B8%AA%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BB%E8%BD%AF%E4%BB%B6Honeyview,MangaMeeya,ComicsViewer,NeeView/"/>
     <id>https://andi.wang/2021/10/05/%E5%AF%B9%E6%AF%94%E5%87%A0%E4%B8%AA%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BB%E8%BD%AF%E4%BB%B6Honeyview,MangaMeeya,ComicsViewer,NeeView/</id>
     <published>2021-10-05T01:53:55.000Z</published>
-    <updated>2021-10-06T02:26:13.065Z</updated>
+    <updated>2022-03-15T01:40:16.112Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -277,9 +299,9 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
-    
     <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     
     <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
@@ -559,28 +581,6 @@
     <category term="REAPER" scheme="https://andi.wang/tags/REAPER/"/>
     
     <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>魔方笔记</title>
-    <link href="https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/"/>
-    <id>https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/</id>
-    <published>2021-03-11T06:11:27.000Z</published>
-    <updated>2021-03-16T02:05:23.770Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;cross&quot;&gt;&lt;a href=&quot;#cross&quot; class=&quot;headerlink&quot; title=&quot;cross&quot;&gt;&lt;/a&gt;cross&lt;/h2&gt;&lt;p&gt;底层对好白色十字&lt;br&gt;红橙，蓝绿，绿橙蓝红&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="魔方" scheme="https://andi.wang/tags/%E9%AD%94%E6%96%B9/"/>
-    
-    <category term="学习笔记" scheme="https://andi.wang/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
