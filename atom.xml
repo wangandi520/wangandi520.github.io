@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2022-03-19T08:23:03.444Z</updated>
+  <updated>2022-03-21T02:27:59.840Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,10 +21,12 @@
     <link href="https://andi.wang/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/"/>
     <id>https://andi.wang/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/</id>
     <published>2022-03-19T06:37:04.000Z</published>
-    <updated>2022-03-19T08:23:03.444Z</updated>
+    <updated>2022-03-21T02:27:59.840Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;使用PyQt5编写&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/wangandi520/andyspyqtscript&quot;&gt;https://github.com/wangandi520/andyspyqtscript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用PyQt5编写，生成exe，请运行pyinstaller -F 程序.py&lt;/p&gt;
+&lt;p&gt;需要pip install pyinstaller&lt;/p&gt;</summary>
     
     
     
@@ -34,28 +36,6 @@
     <category term="python" scheme="https://andi.wang/tags/python/"/>
     
     <category term="Qt" scheme="https://andi.wang/tags/Qt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PyQt5的使用</title>
-    <link href="https://andi.wang/2022/01/26/PyQt5%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
-    <id>https://andi.wang/2022/01/26/PyQt5%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
-    <published>2022-01-26T10:12:42.000Z</published>
-    <updated>2022-03-16T07:05:07.266Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pip install -i https:&amp;#x2F;&amp;#x2F;pypi.tuna.tsinghua.edu.cn&amp;#x2F;simple pyqt5 pyqt5-tools pyinstaller &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
-    
-    <category term="python" scheme="https://andi.wang/tags/python/"/>
     
   </entry>
   
@@ -567,6 +547,44 @@
     <category term="koreader" scheme="https://andi.wang/tags/koreader/"/>
     
     <category term="微信读书" scheme="https://andi.wang/tags/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文城 标注</title>
+    <link href="https://andi.wang/2021/03/13/%E6%96%87%E5%9F%8E%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2021/03/13/%E6%96%87%E5%9F%8E%E6%A0%87%E6%B3%A8/</id>
+    <published>2021-03-13T03:38:10.000Z</published>
+    <updated>2022-03-19T08:26:38.459Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;余华&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;十一&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2021-03-04 19:10&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[原文]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小美轻声说：“我怀上了你的骨肉。”林祥福一惊，仔细去看小美，小美的腹部已经隆起。林祥福不知所措了，看着小美哀求的眼神，听着她哭泣的声音，很长时间不知道说些什么，最后他重重地叹息一声，对小美说：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“你起来吧。”&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;[批注]&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="余华" scheme="https://andi.wang/tags/%E4%BD%99%E5%8D%8E/"/>
+    
+    <category term="文城" scheme="https://andi.wang/tags/%E6%96%87%E5%9F%8E/"/>
     
   </entry>
   
