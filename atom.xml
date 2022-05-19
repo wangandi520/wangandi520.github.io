@@ -284,7 +284,7 @@
     <link href="https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
     <id>https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
     <published>2021-07-03T07:10:01.000Z</published>
-    <updated>2022-05-16T00:26:44.508Z</updated>
+    <updated>2022-05-19T06:57:51.343Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -294,16 +294,7 @@
 &lt;h2 id=&quot;说明：&quot;&gt;&lt;a href=&quot;#说明：&quot; class=&quot;headerlink&quot; title=&quot;说明：&quot;&gt;&lt;/a&gt;说明：&lt;/h2&gt;&lt;p&gt;脚本下载地址：&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript&quot;&gt;Github：https://github.com/wangandi520/andyspythonscript&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;使用前请先安装python&lt;a href=&quot;https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe&quot;&gt;https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;官方网站&lt;a href=&quot;https://www.python.org/&quot;&gt;https://www.python.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;别在baidu搜索或别的不明网站下载，谨防流氓软件&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&quot;生成文件夹结构-html，支持搜索，简繁转换&quot;&gt;&lt;a href=&quot;#生成文件夹结构-html，支持搜索，简繁转换&quot; class=&quot;headerlink&quot; title=&quot;生成文件夹结构.html，支持搜索，简繁转换&quot;&gt;&lt;/a&gt;生成文件夹结构.html，支持搜索，简繁转换&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;适用于搜索，分享，查看所有的库存资源&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;生成目录.html，支持搜索，简繁转换（拖拽，递归，仅一个文件夹）.py&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;拖拽文件夹到py文件，被拖拽的目录下的所有文件，生成文件夹名.html，可搜索，点击Name回到首页&lt;/p&gt;
-&lt;p&gt;main()函数前几行可以进行一些自定义设置，文件夹名加粗显示&lt;/p&gt;
-&lt;p&gt;可进行的设置：显示完整地址还是只显示文件名，是否显示第一行，是否显示处理过程，键盘按键抬起立刻搜索还是按回车搜索，相对路径还是绝对路径，显示文件夹和文件还是只显示文件夹，是否显示文件大小，点击文件夹是搜索包含这个文件夹名的所有路径还是跳转到这个文件夹&lt;/p&gt;
-&lt;p&gt;自动搜索中文简体和繁体，可显示搜索结果的文件和文件夹的数量和总大小&lt;/p&gt;
-&lt;p&gt;html后加?search=关键词，打开网页时后自动显示搜索结果，例如1.html?search=伊藤润二&lt;/p&gt;
-&lt;p&gt;支持排除关键词，文件名中有关键词的文件不会写到html里，文件45行，keyWords = [‘关键词1’,’关键词2’,’关键词3’]&lt;/p&gt;</summary>
+&lt;p&gt;别在baidu搜索或别的不明网站下载，谨防流氓软件&lt;/p&gt;</summary>
     
     
     
@@ -421,7 +412,7 @@
     <link href="https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/"/>
     <id>https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/</id>
     <published>2021-03-16T15:13:01.000Z</published>
-    <updated>2022-05-06T14:31:12.338Z</updated>
+    <updated>2022-05-19T06:57:24.367Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
