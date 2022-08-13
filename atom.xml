@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2022-03-27T15:47:14.695Z</updated>
+  <updated>2022-08-09T03:27:02.275Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>漫画印刷与扫描错误</title>
+    <link href="https://andi.wang/2022/08/08/%E6%BC%AB%E7%94%BB%E5%8D%B0%E5%88%B7%E4%B8%8E%E6%89%AB%E6%8F%8F%E9%94%99%E8%AF%AF/"/>
+    <id>https://andi.wang/2022/08/08/%E6%BC%AB%E7%94%BB%E5%8D%B0%E5%88%B7%E4%B8%8E%E6%89%AB%E6%8F%8F%E9%94%99%E8%AF%AF/</id>
+    <published>2022-08-08T03:00:00.000Z</published>
+    <updated>2022-08-09T03:27:02.275Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;电子版来自网上下载&lt;/p&gt;
+&lt;p&gt;2022.08.08&lt;/p&gt;
+&lt;h2 id=&quot;自制补页下载&quot;&gt;&lt;a href=&quot;</summary>
+      
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对Eink电纸书的看法（2022）</title>
+    <link href="https://andi.wang/2022/08/06/%E5%AF%B9Eink%E7%94%B5%E7%BA%B8%E4%B9%A6%E7%9A%84%E7%9C%8B%E6%B3%95%EF%BC%882022%EF%BC%89/"/>
+    <id>https://andi.wang/2022/08/06/%E5%AF%B9Eink%E7%94%B5%E7%BA%B8%E4%B9%A6%E7%9A%84%E7%9C%8B%E6%B3%95%EF%BC%882022%EF%BC%89/</id>
+    <published>2022-08-06T04:00:00.000Z</published>
+    <updated>2022-08-10T10:51:15.721Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2022.08.06&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlin</summary>
+      
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>几个PyQt程序</title>
@@ -126,10 +175,10 @@
     <link href="https://andi.wang/2021/12/31/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E8%AE%B0%E5%BD%95/"/>
     <id>https://andi.wang/2021/12/31/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E8%AE%B0%E5%BD%95/</id>
     <published>2021-12-31T08:48:55.000Z</published>
-    <updated>2022-04-01T12:20:05.987Z</updated>
+    <updated>2022-08-08T14:37:47.306Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;重复的是看过多遍&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;数字为评分，满分10分&lt;/strong&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;strong&gt;重复的是看过很多遍的&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;数字为评分，满分10分，最低0分&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;每日任务&quot;&gt;&lt;a href=&quot;#每日任务&quot; class=&quot;headerlink&quot; title=&quot;每日任务&quot;&gt;&lt;/a&gt;每日任务&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -284,10 +333,11 @@
     <link href="https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
     <id>https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
     <published>2021-07-03T07:10:01.000Z</published>
-    <updated>2022-07-28T15:35:17.572Z</updated>
+    <updated>2022-08-08T04:01:10.346Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2022.07.28&lt;/p&gt;
 &lt;h2 id=&quot;注意事项&quot;&gt;&lt;a href=&quot;#注意事项&quot; class=&quot;headerlink&quot; title=&quot;注意事项&quot;&gt;&lt;/a&gt;注意事项&lt;/h2&gt;&lt;p&gt;请先备份你的文件，使用后确实符合你的要求后再批量应用&lt;/p&gt;
 &lt;p&gt;拖拽：拖文件或文件到这个py文件上&lt;/p&gt;
 &lt;p&gt;递归：这个效果，对于文件夹和他的所有子文件夹都会有效&lt;/p&gt;
@@ -412,10 +462,11 @@
     <link href="https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/"/>
     <id>https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/</id>
     <published>2021-03-16T15:13:01.000Z</published>
-    <updated>2022-07-31T10:15:34.536Z</updated>
+    <updated>2022-08-08T04:01:42.003Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2022.07.31&lt;/p&gt;
 &lt;h1 id=&quot;设备&quot;&gt;&lt;a href=&quot;#设备&quot; class=&quot;headerlink&quot; title=&quot;设备&quot;&gt;&lt;/a&gt;设备&lt;/h1&gt;&lt;h2 id=&quot;电纸书&quot;&gt;&lt;a href=&quot;#电纸书&quot; class=&quot;headerlink&quot; title=&quot;电纸书&quot;&gt;&lt;/a&gt;电纸书&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;kindle，封闭系统，边框宽，只适合看亚马逊的书，没其他需求的朋友，不推荐。&lt;/li&gt;
 &lt;li&gt;文石boox，安卓系统，系统bug多更新慢，遇到过半年修复一个bug。适合安装app阅读，或看部分pdf，不推荐。具体评测：&lt;a href=&quot;https://andi.wang/2020/06/23/%E6%96%87%E7%9F%B3boox%20nova2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/&quot;&gt;nova2&lt;/a&gt;，&lt;a href=&quot;https://andi.wang/2019/03/29/%E6%96%87%E7%9F%B3poke%20pro,nova%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/&quot;&gt;nova pro&lt;/a&gt;，&lt;a href=&quot;https://andi.wang/2019/03/29/%E6%96%87%E7%9F%B3boox%20poke%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/&quot;&gt;poke pro&lt;/a&gt;，&lt;/li&gt;
@@ -524,66 +575,6 @@
     <category term="koreader" scheme="https://andi.wang/tags/koreader/"/>
     
     <category term="微信读书" scheme="https://andi.wang/tags/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文城 标注</title>
-    <link href="https://andi.wang/2021/03/13/%E6%96%87%E5%9F%8E%E6%A0%87%E6%B3%A8/"/>
-    <id>https://andi.wang/2021/03/13/%E6%96%87%E5%9F%8E%E6%A0%87%E6%B3%A8/</id>
-    <published>2021-03-13T03:38:10.000Z</published>
-    <updated>2022-03-19T08:26:38.459Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;余华&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;十一&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;2021-03-04 19:10&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;[原文]&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;小美轻声说：“我怀上了你的骨肉。”林祥福一惊，仔细去看小美，小美的腹部已经隆起。林祥福不知所措了，看着小美哀求的眼神，听着她哭泣的声音，很长时间不知道说些什么，最后他重重地叹息一声，对小美说：&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;“你起来吧。”&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;[批注]&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;</summary>
-    
-    
-    
-    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
-    
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="余华" scheme="https://andi.wang/tags/%E4%BD%99%E5%8D%8E/"/>
-    
-    <category term="文城" scheme="https://andi.wang/tags/%E6%96%87%E5%9F%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>REAPER6学习笔记</title>
-    <link href="https://andi.wang/2021/03/12/REAPER6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>https://andi.wang/2021/03/12/REAPER6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
-    <published>2021-03-12T01:58:00.000Z</published>
-    <updated>2021-03-16T14:20:23.078Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;0-写在前面&quot;&gt;&lt;a href=&quot;#0-写在前面&quot; class=&quot;headerlink&quot; title=&quot;0.写在前面&quot;&gt;&lt;/a&gt;0.写在前面&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;：andi.wang&lt;br&gt;&lt;strong&gt;使用的版本&lt;/strong&gt;：v6.25，系统WIN10，设备建议使用支持ASIO的外置USB声卡&lt;br&gt;&lt;strong&gt;教程来源&lt;/strong&gt;：&lt;a href=&quot;https://www.bilibili.com/video/BV1L7411r7Rr&quot;&gt;[精校][人工翻译]REAPER 6音乐制作入门教程全21集&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.reaper.fm/&quot;&gt;软件下载&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://stash.reaper.fm/tag/Themes&quot;&gt;主题&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://stash.reaper.fm/tag/Language-Packs&quot;&gt;语言包&lt;/a&gt;&lt;br&gt;&lt;strong&gt;修改快捷键&lt;/strong&gt;：Actions，Show action list(?)，左下角Add添加，Key map导出。&lt;br&gt;括号内是英文或键盘快捷键&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="REAPER" scheme="https://andi.wang/tags/REAPER/"/>
-    
-    <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
     
   </entry>
   
