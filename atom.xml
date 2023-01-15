@@ -135,9 +135,9 @@
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="麻将" scheme="https://andi.wang/tags/%E9%BA%BB%E5%B0%86/"/>
-    
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="麻将" scheme="https://andi.wang/tags/%E9%BA%BB%E5%B0%86/"/>
     
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
@@ -223,8 +223,6 @@
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
     
     
-    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
-    
     <category term="Honeyview" scheme="https://andi.wang/tags/Honeyview/"/>
     
     <category term="MangaMeeya" scheme="https://andi.wang/tags/MangaMeeya/"/>
@@ -232,6 +230,8 @@
     <category term="ComicsViewer" scheme="https://andi.wang/tags/ComicsViewer/"/>
     
     <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
   </entry>
   
@@ -306,7 +306,7 @@
     <link href="https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
     <id>https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
     <published>2021-07-03T07:10:01.000Z</published>
-    <updated>2022-11-10T03:45:19.075Z</updated>
+    <updated>2022-12-23T07:58:51.793Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -489,9 +489,9 @@
     
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     <category term="西游记" scheme="https://andi.wang/tags/%E8%A5%BF%E6%B8%B8%E8%AE%B0/"/>
     
@@ -578,9 +578,9 @@
     
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     <category term="余华" scheme="https://andi.wang/tags/%E4%BD%99%E5%8D%8E/"/>
     
