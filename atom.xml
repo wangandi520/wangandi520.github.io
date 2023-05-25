@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2023-01-29T03:15:28.221Z</updated>
+  <updated>2023-05-25T16:03:59.244Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>红楼梦人物关系图（自制）</title>
+    <link href="https://andi.wang/2023/05/25/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/"/>
+    <id>https://andi.wang/2023/05/25/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</id>
+    <published>2023-05-25T12:41:25.000Z</published>
+    <updated>2023-05-25T16:03:59.244Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;/images/hongloumeng.png&quot; alt=&quot;红楼梦人物关系图（自制）&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="红楼梦" scheme="https://andi.wang/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SciTE文本编辑器配置</title>
     <link href="https://andi.wang/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/"/>
     <id>https://andi.wang/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/</id>
     <published>2023-01-29T12:55:01.000Z</published>
-    <updated>2023-01-29T03:15:28.221Z</updated>
+    <updated>2023-01-31T03:44:32.827Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -326,7 +350,7 @@
     <link href="https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
     <id>https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
     <published>2021-07-03T07:10:01.000Z</published>
-    <updated>2022-12-23T07:58:51.793Z</updated>
+    <updated>2023-02-06T08:28:03.972Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -534,39 +558,6 @@
     
     
     <category term="吉他" scheme="https://andi.wang/tags/%E5%90%89%E4%BB%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</title>
-    <link href="https://andi.wang/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/"/>
-    <id>https://andi.wang/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/</id>
-    <published>2021-03-14T23:57:06.000Z</published>
-    <updated>2021-11-18T07:24:49.610Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Github:&lt;a href=&quot;https://github.com/wangandi520/ClippingsToMarkdown&quot;&gt;https://github.com/wangandi520/ClippingsToMarkdown&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;基本用法(win10)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;安装python:&lt;a href=&quot;https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe&quot;&gt;https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe&lt;/a&gt;，复制你的标注到文件夹，运行对应的py文件或者拖拽标注文件的py上&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-    <category term="kindle" scheme="https://andi.wang/tags/kindle/"/>
-    
-    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
-    
-    <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
-    
-    <category term="markdown" scheme="https://andi.wang/tags/markdown/"/>
-    
-    <category term="koreader" scheme="https://andi.wang/tags/koreader/"/>
-    
-    <category term="微信读书" scheme="https://andi.wang/tags/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
