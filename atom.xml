@@ -47,7 +47,7 @@
     <link href="https://andi.wang/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
     <id>https://andi.wang/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</id>
     <published>2023-06-07T02:41:57.000Z</published>
-    <updated>2023-06-26T08:48:52.740Z</updated>
+    <updated>2023-07-19T06:58:41.905Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -269,11 +269,11 @@
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="麻将" scheme="https://andi.wang/tags/%E9%BA%BB%E5%B0%86/"/>
-    
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="麻将" scheme="https://andi.wang/tags/%E9%BA%BB%E5%B0%86/"/>
     
   </entry>
   
@@ -356,42 +356,11 @@
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
+    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
+    
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>对比几个windows下的漫画软件Honeyview,MangaMeeya,ComicsViewer,NeeView</title>
-    <link href="https://andi.wang/2021/10/05/%E5%AF%B9%E6%AF%94%E5%87%A0%E4%B8%AAwindows%E4%B8%8B%E7%9A%84%E6%BC%AB%E7%94%BB%E8%BD%AF%E4%BB%B6Honeyview,MangaMeeya,ComicsViewer,NeeView/"/>
-    <id>https://andi.wang/2021/10/05/%E5%AF%B9%E6%AF%94%E5%87%A0%E4%B8%AAwindows%E4%B8%8B%E7%9A%84%E6%BC%AB%E7%94%BB%E8%BD%AF%E4%BB%B6Honeyview,MangaMeeya,ComicsViewer,NeeView/</id>
-    <published>2021-10-05T01:53:55.000Z</published>
-    <updated>2022-05-01T05:47:11.065Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;官方下载地址：&quot;&gt;&lt;a href=&quot;#官方下载地址：&quot; class=&quot;headerlink&quot; title=&quot;官方下载地址：&quot;&gt;&lt;/a&gt;官方下载地址：&lt;/h2&gt;&lt;p&gt;Honeyview: &lt;a href=&quot;https://www.bandisoft.com/honeyview/&quot;&gt;https://www.bandisoft.com/honeyview/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;MangaMeeya: &lt;a href=&quot;&quot;&gt;无&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ComicsViewer: &lt;a href=&quot;https://www.cnblogs.com/stronghorse/p/14594337.html&quot;&gt;https://www.cnblogs.com/stronghorse/p/14594337.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;NeeView: &lt;a href=&quot;https://bitbucket.org/neelabo/neeview/downloads/&quot;&gt;https://bitbucket.org/neelabo/neeview/downloads/&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
-    
-    
-    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
-    
-    <category term="Honeyview" scheme="https://andi.wang/tags/Honeyview/"/>
-    
-    <category term="MangaMeeya" scheme="https://andi.wang/tags/MangaMeeya/"/>
-    
-    <category term="ComicsViewer" scheme="https://andi.wang/tags/ComicsViewer/"/>
-    
-    <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
     
   </entry>
   
@@ -414,7 +383,36 @@
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
     
     
+    <category term="Honeyview" scheme="https://andi.wang/tags/Honeyview/"/>
+    
+    <category term="MangaMeeya" scheme="https://andi.wang/tags/MangaMeeya/"/>
+    
+    <category term="ComicsViewer" scheme="https://andi.wang/tags/ComicsViewer/"/>
+    
+    <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
+    
     <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对比几个windows下的漫画软件Honeyview,MangaMeeya,ComicsViewer,NeeView</title>
+    <link href="https://andi.wang/2021/10/05/%E5%AF%B9%E6%AF%94%E5%87%A0%E4%B8%AAwindows%E4%B8%8B%E7%9A%84%E6%BC%AB%E7%94%BB%E8%BD%AF%E4%BB%B6Honeyview,MangaMeeya,ComicsViewer,NeeView/"/>
+    <id>https://andi.wang/2021/10/05/%E5%AF%B9%E6%AF%94%E5%87%A0%E4%B8%AAwindows%E4%B8%8B%E7%9A%84%E6%BC%AB%E7%94%BB%E8%BD%AF%E4%BB%B6Honeyview,MangaMeeya,ComicsViewer,NeeView/</id>
+    <published>2021-10-05T01:53:55.000Z</published>
+    <updated>2022-05-01T05:47:11.065Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;官方下载地址：&quot;&gt;&lt;a href=&quot;#官方下载地址：&quot; class=&quot;headerlink&quot; title=&quot;官方下载地址：&quot;&gt;&lt;/a&gt;官方下载地址：&lt;/h2&gt;&lt;p&gt;Honeyview: &lt;a href=&quot;https://www.bandisoft.com/honeyview/&quot;&gt;https://www.bandisoft.com/honeyview/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MangaMeeya: &lt;a href=&quot;&quot;&gt;无&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ComicsViewer: &lt;a href=&quot;https://www.cnblogs.com/stronghorse/p/14594337.html&quot;&gt;https://www.cnblogs.com/stronghorse/p/14594337.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NeeView: &lt;a href=&quot;https://bitbucket.org/neelabo/neeview/downloads/&quot;&gt;https://bitbucket.org/neelabo/neeview/downloads/&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
     
     <category term="Honeyview" scheme="https://andi.wang/tags/Honeyview/"/>
     
@@ -423,6 +421,8 @@
     <category term="ComicsViewer" scheme="https://andi.wang/tags/ComicsViewer/"/>
     
     <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
   </entry>
   
@@ -484,11 +484,11 @@
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
+    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
+    
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
     
   </entry>
   
