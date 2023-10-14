@@ -66,12 +66,11 @@
     <link href="https://andi.wang/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
     <id>https://andi.wang/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</id>
     <published>2023-06-07T02:41:57.000Z</published>
-    <updated>2023-09-16T14:12:18.293Z</updated>
+    <updated>2023-10-14T02:12:31.814Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;观点来自网络，不代表全部或任何人或事物。&lt;/p&gt;
-&lt;p&gt;更新日期2023.08.24&lt;/p&gt;</summary>
+&lt;p&gt;更新日期2023.10.14&lt;/p&gt;</summary>
     
     
     
@@ -199,11 +198,11 @@
     <link href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"/>
     <id>https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/</id>
     <published>2022-01-26T10:12:42.000Z</published>
-    <updated>2022-09-25T15:09:33.262Z</updated>
+    <updated>2023-10-08T00:18:52.331Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;平台&quot;&gt;&lt;a href=&quot;#平台&quot; class=&quot;headerlink&quot; title=&quot;平台&quot;&gt;&lt;/a&gt;平台&lt;/h2&gt;&lt;h3 id=&quot;树莓派&quot;&gt;&lt;a href=&quot;#树莓派&quot; class=&quot;headerlink&quot; title=&quot;树莓派&quot;&gt;&lt;/a&gt;树莓派&lt;/h3&gt;&lt;p&gt;型号3B，功耗约0.5w，2016年价格290。稳定，24小时开机，已经正常运行5年左右。系统&lt;a href=&quot;https://archlinuxarm.org/&quot;&gt;archlinuxarm&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;平台&quot;&gt;&lt;a href=&quot;#平台&quot; class=&quot;headerlink&quot; title=&quot;平台&quot;&gt;&lt;/a&gt;平台&lt;/h2&gt;&lt;h3 id=&quot;树莓派&quot;&gt;&lt;a href=&quot;#树莓派&quot; class=&quot;headerlink&quot; title=&quot;树莓派&quot;&gt;&lt;/a&gt;树莓派&lt;/h3&gt;&lt;p&gt;型号3B，功耗约0.5w，2016年价格219元，型号4B299元。。稳定，24小时开机，已经正常运行5年左右。系统&lt;a href=&quot;https://archlinuxarm.org/&quot;&gt;archlinuxarm&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;nuc&quot;&gt;&lt;a href=&quot;#nuc&quot; class=&quot;headerlink&quot; title=&quot;nuc&quot;&gt;&lt;/a&gt;nuc&lt;/h3&gt;&lt;p&gt;型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版&lt;a href=&quot;https://archlinux.org/&quot;&gt;archlinux&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;本文的内容几乎适用于两种平台的archlinux配置&lt;/p&gt;</summary>
     
