@@ -1,8 +1,0 @@
-2024-02-20 12:39:28: -- Analysis Started by User Command
-2024-02-20 12:39:28: L: Reading State File G:/Andy/hexo/public/_gsdata_/_file_state_v4._gs
-2024-02-20 12:39:28: L: State file does not exist: G:/Andy/hexo/public/_gsdata_/_file_state_v4._gs
-2024-02-20 12:39:28: R: Reading State File G:/Work/Github/wangandi520.github.io/_gsdata_/_file_state_v4._gs
-2024-02-20 12:39:28: R: State file does not exist: G:/Work/Github/wangandi520.github.io/_gsdata_/_file_state_v4._gs
-2024-02-20 12:39:28: Changes: 165, Conflicts: 0, CopyTime: 0, FixState: 504, Errors: 0, All: 671
-2024-02-20 12:39:28: Left to Right: Copy File: 7 Delete File: 158 
-2024-02-20 12:39:28: -- Analysis Complete. Time 00:00:00, Speed: Many files/s
