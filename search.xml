@@ -17986,6 +17986,8 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: true</span><br><span class="line">  github_id: 你的github账户名 # GitHub repo owner</span><br><span class="line">  repo: 你的Repository名 # Repository name to store issues</span><br><span class="line">  client_id: 你的id # GitHub Application Client ID</span><br><span class="line">  client_secret: 你的secret  # GitHub Application Client Secret</span><br><span class="line">  admin_user: 你的github账户名 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br></pre></td></tr></table></figure>
 
 <p>之后要在每篇文章下面点一下，才能使用评论，有点麻烦</p>
+<h3 id="修改一些名词"><a href="#修改一些名词" class="headerlink" title="修改一些名词"></a>修改一些名词</h3><p>node_modules\hexo-theme-next\languages\zh-CN.yml</p>
+<p>可以把每页下面的“赞赏”和“请我一杯咖啡吧”换成别的话</p>
 ]]></content>
       <categories>
         <category>程序</category>
