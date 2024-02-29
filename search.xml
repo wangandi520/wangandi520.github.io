@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>PNG批量转成PDF</title>
+    <url>/2021/04/30/PNG%E6%89%B9%E9%87%8F%E8%BD%AC%E6%88%90PDF/</url>
+    <content><![CDATA[<hr>
+<p><strong>Github:<a href="https://github.com/wangandi520/PNGToPDF">https://github.com/wangandi520/PNGToPDF</a></strong></p>
+<span id="more"></span>
+
+<hr>
+<h2 id="PNG批量转成PDF，使用ImageMagick"><a href="#PNG批量转成PDF，使用ImageMagick" class="headerlink" title="PNG批量转成PDF，使用ImageMagick"></a>PNG批量转成PDF，使用ImageMagick</h2><h3 id="PNG-to-PDF"><a href="#PNG-to-PDF" class="headerlink" title="PNG to PDF"></a>PNG to PDF</h3><p>把PNG2PDF.py和数个文件夹（每个文件夹相当于一本书，如XX第一卷）放在同级目录，这些文件夹里面是png文件。输出到PDF文件夹里。</p>
+<p>可以拖拽文件夹到py文件，注意，这个文件夹是包含数个文件夹（数本书）的上级文件夹（如XX作品合集）</p>
+<hr>
+<h2 id="PNG-to-PDF-using-ImageMagick"><a href="#PNG-to-PDF-using-ImageMagick" class="headerlink" title="PNG to PDF, using ImageMagick"></a>PNG to PDF, using ImageMagick</h2><h3 id="PNG-to-PDF-1"><a href="#PNG-to-PDF-1" class="headerlink" title="PNG to PDF"></a>PNG to PDF</h3><p>put PNG2PDF.py and many folders(each folder &#x3D; a book) in a same folder, each folder contents PNGs, output in PDF folder.</p>
+<p>support drag folder to py, the folder contains many folders(many books)</p>
+<hr>
+<p><a href="https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.11-10-portable-Q16-HDRI-x64.zip">imagemagick</a></p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>PDF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>REAPER6学习笔记</title>
     <url>/2021/03/12/REAPER6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<hr>
@@ -34,29 +57,6 @@
       <tags>
         <tag>REAPER</tag>
         <tag>音频</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PNG批量转成PDF</title>
-    <url>/2021/04/30/PNG%E6%89%B9%E9%87%8F%E8%BD%AC%E6%88%90PDF/</url>
-    <content><![CDATA[<hr>
-<p><strong>Github:<a href="https://github.com/wangandi520/PNGToPDF">https://github.com/wangandi520/PNGToPDF</a></strong></p>
-<span id="more"></span>
-
-<hr>
-<h2 id="PNG批量转成PDF，使用ImageMagick"><a href="#PNG批量转成PDF，使用ImageMagick" class="headerlink" title="PNG批量转成PDF，使用ImageMagick"></a>PNG批量转成PDF，使用ImageMagick</h2><h3 id="PNG-to-PDF"><a href="#PNG-to-PDF" class="headerlink" title="PNG to PDF"></a>PNG to PDF</h3><p>把PNG2PDF.py和数个文件夹（每个文件夹相当于一本书，如XX第一卷）放在同级目录，这些文件夹里面是png文件。输出到PDF文件夹里。</p>
-<p>可以拖拽文件夹到py文件，注意，这个文件夹是包含数个文件夹（数本书）的上级文件夹（如XX作品合集）</p>
-<hr>
-<h2 id="PNG-to-PDF-using-ImageMagick"><a href="#PNG-to-PDF-using-ImageMagick" class="headerlink" title="PNG to PDF, using ImageMagick"></a>PNG to PDF, using ImageMagick</h2><h3 id="PNG-to-PDF-1"><a href="#PNG-to-PDF-1" class="headerlink" title="PNG to PDF"></a>PNG to PDF</h3><p>put PNG2PDF.py and many folders(each folder &#x3D; a book) in a same folder, each folder contents PNGs, output in PDF folder.</p>
-<p>support drag folder to py, the folder contains many folders(many books)</p>
-<hr>
-<p><a href="https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.11-10-portable-Q16-HDRI-x64.zip">imagemagick</a></p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>PDF</tag>
       </tags>
   </entry>
   <entry>
@@ -668,6 +668,19 @@
       </tags>
   </entry>
   <entry>
+    <title>吉他翻弹.Speak softly love/The Godfather</title>
+    <url>/2017/03/23/speaksoftlylove/</url>
+    <content><![CDATA[<p>拍摄：尼康D610外录<br>吉他：无牌古典吉他<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> ]]></content>
+      <categories>
+        <category>吉他</category>
+      </categories>
+      <tags>
+        <tag>吉他</tag>
+        <tag>指弹</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo主题icarus的一些玩法</title>
     <url>/2021/03/17/hexo%E4%B8%BB%E9%A2%98icarus%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8E%A9%E6%B3%95/</url>
     <content><![CDATA[<hr>
@@ -715,125 +728,22 @@
       </tags>
   </entry>
   <entry>
-    <title>linux笔记</title>
-    <url>/2022/01/26/linux%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<hr>
-<h2 id="pip下载速度慢"><a href="#pip下载速度慢" class="headerlink" title="pip下载速度慢"></a>pip下载速度慢</h2><p>运行的时候添加参数 -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></p>
-<p>永久修改，linux下新建或修改~&#x2F;.pip&#x2F;pip.conf</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">[install]</span><br><span class="line">trusted-host = https://pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure>
+    <title>Hello World</title>
+    <url>/2024/03/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<span id="more"></span>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<h3 id="vim的主题设置vimrc"><a href="#vim的主题设置vimrc" class="headerlink" title="vim的主题设置vimrc"></a>vim的主题设置vimrc</h3><p><a href="https://github.com/amix/vimrc">https://github.com/amix/vimrc</a></p>
-<h2 id="修改ls时间显示格式"><a href="#修改ls时间显示格式" class="headerlink" title="修改ls时间显示格式"></a>修改ls时间显示格式</h2><p>编辑~&#x2F;.bashrc添加</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">export TIME_STYLE=&#x27;+%Y/%m-%d %H:%M:%S&#x27;</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<h2 id="备份整个硬盘到另一个硬盘"><a href="#备份整个硬盘到另一个硬盘" class="headerlink" title="备份整个硬盘到另一个硬盘"></a>备份整个硬盘到另一个硬盘</h2><p>dd if&#x3D;&#x2F;dev&#x2F;sda of&#x3D;&#x2F;dev&#x2F;sdb bs&#x3D;64k</p>
-<h2 id="提示FAILED-unknown-public-key-8F0871F202119294"><a href="#提示FAILED-unknown-public-key-8F0871F202119294" class="headerlink" title="提示FAILED (unknown public key 8F0871F202119294)"></a>提示FAILED (unknown public key 8F0871F202119294)</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gpg --recv-key 8F0871F202119294</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<h2 id="安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’"><a href="#安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’" class="headerlink" title="安装linux出现Sector 32 is already in use by the program &#96;FlexNet’"></a>安装linux出现Sector 32 is already in use by the program &#96;FlexNet’</h2><p>dd if&#x3D;&#x2F;dev&#x2F;zero of&#x3D;&#x2F;dev&#x2F;sda bs&#x3D;512 count&#x3D;1 seek&#x3D;32</p>
-<p>33也提示的话最后seek&#x3D;33即可</p>
-<h2 id="archlinux更换默认终端"><a href="#archlinux更换默认终端" class="headerlink" title="archlinux更换默认终端"></a>archlinux更换默认终端</h2><h3 id="zsh"><a href="#zsh" class="headerlink" title="zsh"></a>zsh</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -S zsh</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sh -c &quot;$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure>
-
-<p>安装主题powerlevel10k</p>
-<p>git clone –depth&#x3D;1 <a href="https://gitee.com/romkatv/powerlevel10k.git">https://gitee.com/romkatv/powerlevel10k.git</a> ${ZSH_CUSTOM:-$HOME&#x2F;.oh-my-zsh&#x2F;custom}&#x2F;themes&#x2F;powerlevel10k</p>
-<p>编辑~&#x2F;.zshrc</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ZSH_THEME=&quot;powerlevel10k/powerlevel10k&quot;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure>
-
-<h3 id="zsh快捷键"><a href="#zsh快捷键" class="headerlink" title="zsh快捷键"></a>zsh快捷键</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CTRL + A： 移动到行(line)的开始位置</span><br><span class="line">CTRL + E: 移动到行的最后面</span><br><span class="line">CTRL + [left arrow]: 向后移动一个单词(one word)</span><br><span class="line">CTRL + [right arrow]: 向前移动一个单词</span><br><span class="line">CTRL + T： 打开新的Tab标签</span><br><span class="line">CTRL + U (BASH): 清除当前行光标位置后面的字符</span><br><span class="line">CTRL + U (zsh): 如果是zsh，则将整行清除</span><br><span class="line">ESC + [backspack]: 删除光标前面的单词</span><br><span class="line">CTRL + W: 同上</span><br><span class="line">ALT + D: 删除光标后面的单词</span><br><span class="line">CTRL + R: 搜索历史</span><br><span class="line">CTRL + G: 退出搜索模式</span><br><span class="line">CTRL + _: 撤销最后一次的改变</span><br><span class="line">CTRL + L: 清空屏幕</span><br><span class="line">CTRL + S: 停止向屏幕继续输出</span><br><span class="line">CTRL + Q: 重新开启屏幕输出</span><br><span class="line">CTRL + C: 终止或者杀死当前前景进程(foreground process)</span><br><span class="line">CTRL + Z: 暂停或者停止当前前景进程</span><br><span class="line">!!: 执行历史记录中的上一个命令</span><br><span class="line">!abc: 执行历史记录中的以 abc开头的命令</span><br><span class="line">!abc:p: 打印历史记录中以abc开头的命令</span><br></pre></td></tr></table></figure>
-
-<h2 id="vsftpd权限"><a href="#vsftpd权限" class="headerlink" title="vsftpd权限"></a>vsftpd权限</h2><p>启动vsftpd服务</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -S vsftpd</span><br><span class="line">systemctl enable vsftpd</span><br><span class="line">systemctl start vsftpd</span><br></pre></td></tr></table></figure>
-
-<p>可以匿名上传文件，进行如下设置：ftp目录权限755，用户组root:ftp，里面新建文件夹upload，权限777，用户组root:root</p>
-<p>在&#x2F;etc&#x2F;vsftpd.conf里添加</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">anon_mkdir_write_enable=YES</span><br><span class="line">anon_root=/srv/ftp</span><br><span class="line">anon_other_write_enable=YES</span><br><span class="line">anon_umask=022</span><br><span class="line">anon_upload_enable=YES</span><br><span class="line">no_anon_password=YES</span><br><span class="line">anonymous_enable=YES</span><br><span class="line">seccomp_sandbox=NO</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="unraid-服务器"><a href="#unraid-服务器" class="headerlink" title="unraid 服务器"></a>unraid 服务器</h2><p><a href="https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg">https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg</a></p>
-<p>hosts里添加<br>199.232.4.133 raw.githubusercontent.com</p>
-<h2 id="设置时区"><a href="#设置时区" class="headerlink" title="设置时区"></a>设置时区</h2><p>timedatectl set-time YYYY-MM-DD       更改日期<br>timedatectl set-time HH:MM:SS           更改时间<br>timedatectl list-timezones                    列出所有时区<br>timedatectl set-timezone time-zone   设置时区<br>timedatectl set-ntp boolean    </p>
-<h2 id="终端显示中文"><a href="#终端显示中文" class="headerlink" title="终端显示中文"></a>终端显示中文</h2><p>localectl set-locale LANG&#x3D;en_US.UTF-8</p>
-<p>或者<br>&#x2F;etc&#x2F;locale.gen 设置en_US.UTF8 UTF-8 zh_CN.UTF8 UTF-8<br>locale-gen<br>locale<br>locale -a</p>
-<p>另一种</p>
-<p>&#x2F;etc&#x2F;locale.conf</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">LC_CTYPE=zh_CN.UTF-8</span><br></pre></td></tr></table></figure>
-
-<h2 id="nextcloud镜像"><a href="#nextcloud镜像" class="headerlink" title="nextcloud镜像"></a>nextcloud镜像</h2><p>vim &#x2F;etc&#x2F;docker&#x2F;daemon.json</p>
-<p>{<br>“registry-mirrors”: [“<a href="https://519hou3r.mirror.aliyuncs.com"]">https://519hou3r.mirror.aliyuncs.com&quot;]</a><br>}</p>
-<h2 id="wake-on-lan"><a href="#wake-on-lan" class="headerlink" title="wake on lan"></a>wake on lan</h2><p>wol<br>archlinux<br>70:85:c2:09:c4:46<br>192.168.1.156</p>
-<p>win10<br>04-D9-F5-04-95-EF<br>192.168.1.46</p>
-<h2 id="docker运行"><a href="#docker运行" class="headerlink" title="docker运行"></a>docker运行</h2><p>docker run –name nextcloud -p 8080:80   -v &#x2F;srv&#x2F;nextcloud:&#x2F;var&#x2F;www&#x2F;html&#x2F;data -d nextcloud<br>docker update –restart&#x3D;always nextcloud</p>
-<p>前面是本机地址，后面是docker地址</p>
-<h2 id="设置时区-1"><a href="#设置时区-1" class="headerlink" title="设置时区"></a>设置时区</h2><p>timedatectl set-timezone Asia&#x2F;Shanghai</p>
-<p>From <a href="https://wiki.archlinux.org/index.php/System_time_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">https://wiki.archlinux.org/index.php/System_time_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)</a> </p>
-<p>设置时区: sudo ln -sf &#x2F;usr&#x2F;share&#x2F;zoneinfo&#x2F;Asia&#x2F;Shanghai&#x2F;etc&#x2F;localtime<br>安装openNTPD: sudo pacman -S openntpd<br>重启openNTPD: systemctl restart openntpd<br>设置开机启动: systemctl enable openntpd<br>————————————————<br>版权声明：本文为CSDN博主「lalala323」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/lalala323/article/details/96473754">https://blog.csdn.net/lalala323/article/details/96473754</a></p>
-<h2 id="samba"><a href="#samba" class="headerlink" title="samba"></a>samba</h2><p>useradd guest -s &#x2F;bin&#x2F;nologin<br>systemctl enable nmb smb</p>
-<h2 id="archlinux安装注意事项"><a href="#archlinux安装注意事项" class="headerlink" title="archlinux安装注意事项"></a>archlinux安装注意事项</h2><p>archlinux 安装要<br>pacman -S base-devel<br>grub-install后要输出配置</p>
-<p>One or more PGP signatures could not be verified!<br>gpg –recv-key 520A9993A1C052F8</p>
-<h2 id="mysql本机登录不用密码"><a href="#mysql本机登录不用密码" class="headerlink" title="mysql本机登录不用密码"></a>mysql本机登录不用密码</h2><p>mysql<br>alter user ‘root‘@’localhost’ identified by ‘password’;<br>本机登陆不用密码，其他的要</p>
-<h2 id="Unraid插件地址"><a href="#Unraid插件地址" class="headerlink" title="Unraid插件地址"></a>Unraid插件地址</h2><p>Plugins<br><a href="https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg">https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg</a><br>From <a href="https://forums.unraid.net/topic/38582-plug-in-community-applications/">https://forums.unraid.net/topic/38582-plug-in-community-applications/</a> </p>
-<h2 id="deb安装"><a href="#deb安装" class="headerlink" title="deb安装"></a>deb安装</h2><p>Kali<br>dpkg -i <a href="http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20200207_all.deb">http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20200207_all.deb</a></p>
-<h2 id="kali设置时区"><a href="#kali设置时区" class="headerlink" title="kali设置时区"></a>kali设置时区</h2><p>dpkg-reconfigure tzdata</p>
-<p>From <a href="http://blog.sina.com.cn/s/blog_16eb03a2c0102yndh.html">http://blog.sina.com.cn/s/blog_16eb03a2c0102yndh.html</a> </p>
-<h2 id="shell和vim"><a href="#shell和vim" class="headerlink" title="shell和vim"></a>shell和vim</h2><p>Alt+.    上一行的参数<br>&#x2F;etc&#x2F;vim&#x2F;vimrc立刻生效，vim输入<br>:source &#x2F;etc&#x2F;vim&#x2F;vimrc</p>
-<h2 id="mobaxterm在vim里不能复制粘贴"><a href="#mobaxterm在vim里不能复制粘贴" class="headerlink" title="mobaxterm在vim里不能复制粘贴"></a>mobaxterm在vim里不能复制粘贴</h2><p>编辑~&#x2F;.vimrc</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">set mouse=r</span><br></pre></td></tr></table></figure>
-
-<h2 id="vim的温度符号"><a href="#vim的温度符号" class="headerlink" title="vim的温度符号"></a>vim的温度符号</h2><p>温度符号<br>vim<br>Ctrl+k DG<br>From <a href="https://www.phpfans.net/ask/fansa1/9537707728.html">https://www.phpfans.net/ask/fansa1/9537707728.html</a> </p>
-<h2 id="linux-bash乱码"><a href="#linux-bash乱码" class="headerlink" title="linux bash乱码"></a>linux bash乱码</h2><p>编辑~&#x2F;.bashrc<br>export LANG&#x3D;”en_US.UTF-8”</p>
-<h2 id="vim中文乱码"><a href="#vim中文乱码" class="headerlink" title="vim中文乱码"></a>vim中文乱码</h2><p>&#x2F;etc&#x2F;vim&#x2F;vimrc<br>set encoding&#x3D;utf-8<br>From <a href="https://blog.csdn.net/weixin_36250487/article/details/79888103">https://blog.csdn.net/weixin_36250487/article/details/79888103</a> </p>
-<h2 id="树莓派打开spi"><a href="#树莓派打开spi" class="headerlink" title="树莓派打开spi"></a>树莓派打开spi</h2><p>sudo vi config.txt<br>dtparam&#x3D;spi&#x3D;on</p>
-<h2 id="kali镜像"><a href="#kali镜像" class="headerlink" title="kali镜像"></a>kali镜像</h2><p>vim &#x2F;etc&#x2F;apt&#x2F;sources.list<br><a href="https://mirrors.tuna.tsinghua.edu.cn/kali/">https://mirrors.tuna.tsinghua.edu.cn/kali/</a><br>apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get clean<br>apt-get install ttf-wqy-microhei</p>
-<h2 id="nginx-413-Request-Entity-Too-Large"><a href="#nginx-413-Request-Entity-Too-Large" class="headerlink" title="nginx:413 Request Entity Too Large"></a>nginx:413 Request Entity Too Large</h2><p>1、php 默认上传文件大小限制为 2M，如果超出 2M 你需要修改 php 配置文件 php.ini 里面的参数</p>
-<p>post_max_size &#x3D; 8M （表单提交的最大限制，此项不是限制上传单个文件的大小，而是针对整个表单提交的数据进行限制。）</p>
-<p>upload_max_filesiz e &#x3D; 2M （上传的单个文件的最大限制）</p>
-<p>需要保证 post_max_size &gt;&#x3D; upload_max_filesize ，也就是前者不小于后者。</p>
-<p>修改之后一定要重启 php-fpm 。</p>
-<p>2.、除了修改 php 配置，你也需要修改nginx配置文件 nginx.conf</p>
-<p>打开 nginx 配置文件 nginx.conf，找到 http{} 段，在其中添加一行配置：</p>
-<p>client_max_body_size 8m;</p>
-<p>其中 8m 可以根据需要上传文件大小自行设定。</p>
-<p>修改之后一定要重新载入 nginx （service nginx reload）</p>
-<p>*&#x2F;60 &#x2F;opt&#x2F;home&#x2F;admin&#x2F;sendip.sh</p>
-<h2 id="python-pyserial"><a href="#python-pyserial" class="headerlink" title="python-pyserial"></a>python-pyserial</h2><p>pacman -S python-pyserial</p>
-<h2 id="路由器做交换机"><a href="#路由器做交换机" class="headerlink" title="路由器做交换机"></a>路由器做交换机</h2><p>wan 动态ip<br>lan 192.168.1.2<br>dhcp关<br>wifi名字一样</p>
-<h2 id="syncthing网络权限"><a href="#syncthing网络权限" class="headerlink" title="syncthing网络权限"></a>syncthing网络权限</h2><p>~&#x2F;.config&#x2F;syncthing&#x2F;config.xml<br>127.0.0.1</p>
-<p>ttrss<br>To enable this mode, set constantSIMPLE_UPDATE_MODEtotrueinconfig.php.</p>
-<p>kill -9 18493</p>
-<h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2><p>tar -cf &#x2F;andy&#x2F;backup.tar &#x2F;andy&#x2F;html<br>mv &#x2F;andy&#x2F;backup.tar &#x2F;andy&#x2F;html</p>
-<h2 id="crontab"><a href="#crontab" class="headerlink" title="crontab"></a>crontab</h2><p>脚本里要写绝对路径</p>
-<h2 id="mysql密码"><a href="#mysql密码" class="headerlink" title="mysql密码"></a>mysql密码</h2><p>mysql_install_db –user&#x3D;mysql –basedir&#x3D;&#x2F;usr –datadir&#x3D;&#x2F;var&#x2F;lib&#x2F;mysql<br>mysql_upgrade -u root -p<br>SET PASSWORD FOR ‘root‘@’localhost’ &#x3D; PASSWORD(‘’);</p>
-<h2 id="archlinuxarm镜像源"><a href="#archlinuxarm镜像源" class="headerlink" title="archlinuxarm镜像源"></a>archlinuxarm镜像源</h2><p>清华<br><a href="https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/">https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/</a></p>
-<p>中科大<br>Server &#x3D; <a href="https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo">https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo</a></p>
-<h2 id="wifi-menu配置无线网络"><a href="#wifi-menu配置无线网络" class="headerlink" title="wifi-menu配置无线网络"></a>wifi-menu配置无线网络</h2><p>使用 wifi-menu -o 在目录 &#x2F;etc&#x2F;netctl&#x2F; 中生成一个配置文件。<br>复制key<br>cp &#x2F;etc&#x2F;netctl&#x2F;examples&#x2F;wireless-wpa &#x2F;etc&#x2F;netctl&#x2F;wireless-wpa</p>
-<p>wifi-menu<br>netctl enable wlan0-OpenWrt_FB499A<br>netctl start wlan0-OpenWrt_FB499A</p>
-<h2 id="archlinux安装一些软件"><a href="#archlinux安装一些软件" class="headerlink" title="archlinux安装一些软件"></a>archlinux安装一些软件</h2><p>crontab: pacman -S cronie<br>mkfs.vfat: pacman -S dosfstools</p>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>程序</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>吉他翻弹.Speak softly love/The Godfather</title>
-    <url>/2017/03/23/speaksoftlylove/</url>
-    <content><![CDATA[<p>拍摄：尼康D610外录<br>吉他：无牌古典吉他<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
-<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> ]]></content>
-      <categories>
-        <category>吉他</category>
-      </categories>
-      <tags>
-        <tag>吉他</tag>
-        <tag>指弹</tag>
-      </tags>
   </entry>
   <entry>
     <title>kindle标注</title>
@@ -2466,6 +2376,114 @@
       </tags>
   </entry>
   <entry>
+    <title>linux笔记</title>
+    <url>/2022/01/26/linux%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<hr>
+<h2 id="pip下载速度慢"><a href="#pip下载速度慢" class="headerlink" title="pip下载速度慢"></a>pip下载速度慢</h2><p>运行的时候添加参数 -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></p>
+<p>永久修改，linux下新建或修改~&#x2F;.pip&#x2F;pip.conf</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">[install]</span><br><span class="line">trusted-host = https://pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h3 id="vim的主题设置vimrc"><a href="#vim的主题设置vimrc" class="headerlink" title="vim的主题设置vimrc"></a>vim的主题设置vimrc</h3><p><a href="https://github.com/amix/vimrc">https://github.com/amix/vimrc</a></p>
+<h2 id="修改ls时间显示格式"><a href="#修改ls时间显示格式" class="headerlink" title="修改ls时间显示格式"></a>修改ls时间显示格式</h2><p>编辑~&#x2F;.bashrc添加</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">export TIME_STYLE=&#x27;+%Y/%m-%d %H:%M:%S&#x27;</span><br></pre></td></tr></table></figure>
+
+<h2 id="备份整个硬盘到另一个硬盘"><a href="#备份整个硬盘到另一个硬盘" class="headerlink" title="备份整个硬盘到另一个硬盘"></a>备份整个硬盘到另一个硬盘</h2><p>dd if&#x3D;&#x2F;dev&#x2F;sda of&#x3D;&#x2F;dev&#x2F;sdb bs&#x3D;64k</p>
+<h2 id="提示FAILED-unknown-public-key-8F0871F202119294"><a href="#提示FAILED-unknown-public-key-8F0871F202119294" class="headerlink" title="提示FAILED (unknown public key 8F0871F202119294)"></a>提示FAILED (unknown public key 8F0871F202119294)</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gpg --recv-key 8F0871F202119294</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’"><a href="#安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’" class="headerlink" title="安装linux出现Sector 32 is already in use by the program &#96;FlexNet’"></a>安装linux出现Sector 32 is already in use by the program &#96;FlexNet’</h2><p>dd if&#x3D;&#x2F;dev&#x2F;zero of&#x3D;&#x2F;dev&#x2F;sda bs&#x3D;512 count&#x3D;1 seek&#x3D;32</p>
+<p>33也提示的话最后seek&#x3D;33即可</p>
+<h2 id="archlinux更换默认终端"><a href="#archlinux更换默认终端" class="headerlink" title="archlinux更换默认终端"></a>archlinux更换默认终端</h2><h3 id="zsh"><a href="#zsh" class="headerlink" title="zsh"></a>zsh</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -S zsh</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sh -c &quot;$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure>
+
+<p>安装主题powerlevel10k</p>
+<p>git clone –depth&#x3D;1 <a href="https://gitee.com/romkatv/powerlevel10k.git">https://gitee.com/romkatv/powerlevel10k.git</a> ${ZSH_CUSTOM:-$HOME&#x2F;.oh-my-zsh&#x2F;custom}&#x2F;themes&#x2F;powerlevel10k</p>
+<p>编辑~&#x2F;.zshrc</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ZSH_THEME=&quot;powerlevel10k/powerlevel10k&quot;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure>
+
+<h3 id="zsh快捷键"><a href="#zsh快捷键" class="headerlink" title="zsh快捷键"></a>zsh快捷键</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CTRL + A： 移动到行(line)的开始位置</span><br><span class="line">CTRL + E: 移动到行的最后面</span><br><span class="line">CTRL + [left arrow]: 向后移动一个单词(one word)</span><br><span class="line">CTRL + [right arrow]: 向前移动一个单词</span><br><span class="line">CTRL + T： 打开新的Tab标签</span><br><span class="line">CTRL + U (BASH): 清除当前行光标位置后面的字符</span><br><span class="line">CTRL + U (zsh): 如果是zsh，则将整行清除</span><br><span class="line">ESC + [backspack]: 删除光标前面的单词</span><br><span class="line">CTRL + W: 同上</span><br><span class="line">ALT + D: 删除光标后面的单词</span><br><span class="line">CTRL + R: 搜索历史</span><br><span class="line">CTRL + G: 退出搜索模式</span><br><span class="line">CTRL + _: 撤销最后一次的改变</span><br><span class="line">CTRL + L: 清空屏幕</span><br><span class="line">CTRL + S: 停止向屏幕继续输出</span><br><span class="line">CTRL + Q: 重新开启屏幕输出</span><br><span class="line">CTRL + C: 终止或者杀死当前前景进程(foreground process)</span><br><span class="line">CTRL + Z: 暂停或者停止当前前景进程</span><br><span class="line">!!: 执行历史记录中的上一个命令</span><br><span class="line">!abc: 执行历史记录中的以 abc开头的命令</span><br><span class="line">!abc:p: 打印历史记录中以abc开头的命令</span><br></pre></td></tr></table></figure>
+
+<h2 id="vsftpd权限"><a href="#vsftpd权限" class="headerlink" title="vsftpd权限"></a>vsftpd权限</h2><p>启动vsftpd服务</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -S vsftpd</span><br><span class="line">systemctl enable vsftpd</span><br><span class="line">systemctl start vsftpd</span><br></pre></td></tr></table></figure>
+
+<p>可以匿名上传文件，进行如下设置：ftp目录权限755，用户组root:ftp，里面新建文件夹upload，权限777，用户组root:root</p>
+<p>在&#x2F;etc&#x2F;vsftpd.conf里添加</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">anon_mkdir_write_enable=YES</span><br><span class="line">anon_root=/srv/ftp</span><br><span class="line">anon_other_write_enable=YES</span><br><span class="line">anon_umask=022</span><br><span class="line">anon_upload_enable=YES</span><br><span class="line">no_anon_password=YES</span><br><span class="line">anonymous_enable=YES</span><br><span class="line">seccomp_sandbox=NO</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="unraid-服务器"><a href="#unraid-服务器" class="headerlink" title="unraid 服务器"></a>unraid 服务器</h2><p><a href="https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg">https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg</a></p>
+<p>hosts里添加<br>199.232.4.133 raw.githubusercontent.com</p>
+<h2 id="设置时区"><a href="#设置时区" class="headerlink" title="设置时区"></a>设置时区</h2><p>timedatectl set-time YYYY-MM-DD       更改日期<br>timedatectl set-time HH:MM:SS           更改时间<br>timedatectl list-timezones                    列出所有时区<br>timedatectl set-timezone time-zone   设置时区<br>timedatectl set-ntp boolean    </p>
+<h2 id="终端显示中文"><a href="#终端显示中文" class="headerlink" title="终端显示中文"></a>终端显示中文</h2><p>localectl set-locale LANG&#x3D;en_US.UTF-8</p>
+<p>或者<br>&#x2F;etc&#x2F;locale.gen 设置en_US.UTF8 UTF-8 zh_CN.UTF8 UTF-8<br>locale-gen<br>locale<br>locale -a</p>
+<p>另一种</p>
+<p>&#x2F;etc&#x2F;locale.conf</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">LC_CTYPE=zh_CN.UTF-8</span><br></pre></td></tr></table></figure>
+
+<h2 id="nextcloud镜像"><a href="#nextcloud镜像" class="headerlink" title="nextcloud镜像"></a>nextcloud镜像</h2><p>vim &#x2F;etc&#x2F;docker&#x2F;daemon.json</p>
+<p>{<br>“registry-mirrors”: [“<a href="https://519hou3r.mirror.aliyuncs.com"]">https://519hou3r.mirror.aliyuncs.com&quot;]</a><br>}</p>
+<h2 id="wake-on-lan"><a href="#wake-on-lan" class="headerlink" title="wake on lan"></a>wake on lan</h2><p>wol<br>archlinux<br>70:85:c2:09:c4:46<br>192.168.1.156</p>
+<p>win10<br>04-D9-F5-04-95-EF<br>192.168.1.46</p>
+<h2 id="docker运行"><a href="#docker运行" class="headerlink" title="docker运行"></a>docker运行</h2><p>docker run –name nextcloud -p 8080:80   -v &#x2F;srv&#x2F;nextcloud:&#x2F;var&#x2F;www&#x2F;html&#x2F;data -d nextcloud<br>docker update –restart&#x3D;always nextcloud</p>
+<p>前面是本机地址，后面是docker地址</p>
+<h2 id="设置时区-1"><a href="#设置时区-1" class="headerlink" title="设置时区"></a>设置时区</h2><p>timedatectl set-timezone Asia&#x2F;Shanghai</p>
+<p>From <a href="https://wiki.archlinux.org/index.php/System_time_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">https://wiki.archlinux.org/index.php/System_time_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)</a> </p>
+<p>设置时区: sudo ln -sf &#x2F;usr&#x2F;share&#x2F;zoneinfo&#x2F;Asia&#x2F;Shanghai&#x2F;etc&#x2F;localtime<br>安装openNTPD: sudo pacman -S openntpd<br>重启openNTPD: systemctl restart openntpd<br>设置开机启动: systemctl enable openntpd<br>————————————————<br>版权声明：本文为CSDN博主「lalala323」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/lalala323/article/details/96473754">https://blog.csdn.net/lalala323/article/details/96473754</a></p>
+<h2 id="samba"><a href="#samba" class="headerlink" title="samba"></a>samba</h2><p>useradd guest -s &#x2F;bin&#x2F;nologin<br>systemctl enable nmb smb</p>
+<h2 id="archlinux安装注意事项"><a href="#archlinux安装注意事项" class="headerlink" title="archlinux安装注意事项"></a>archlinux安装注意事项</h2><p>archlinux 安装要<br>pacman -S base-devel<br>grub-install后要输出配置</p>
+<p>One or more PGP signatures could not be verified!<br>gpg –recv-key 520A9993A1C052F8</p>
+<h2 id="mysql本机登录不用密码"><a href="#mysql本机登录不用密码" class="headerlink" title="mysql本机登录不用密码"></a>mysql本机登录不用密码</h2><p>mysql<br>alter user ‘root‘@’localhost’ identified by ‘password’;<br>本机登陆不用密码，其他的要</p>
+<h2 id="Unraid插件地址"><a href="#Unraid插件地址" class="headerlink" title="Unraid插件地址"></a>Unraid插件地址</h2><p>Plugins<br><a href="https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg">https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg</a><br>From <a href="https://forums.unraid.net/topic/38582-plug-in-community-applications/">https://forums.unraid.net/topic/38582-plug-in-community-applications/</a> </p>
+<h2 id="deb安装"><a href="#deb安装" class="headerlink" title="deb安装"></a>deb安装</h2><p>Kali<br>dpkg -i <a href="http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20200207_all.deb">http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20200207_all.deb</a></p>
+<h2 id="kali设置时区"><a href="#kali设置时区" class="headerlink" title="kali设置时区"></a>kali设置时区</h2><p>dpkg-reconfigure tzdata</p>
+<p>From <a href="http://blog.sina.com.cn/s/blog_16eb03a2c0102yndh.html">http://blog.sina.com.cn/s/blog_16eb03a2c0102yndh.html</a> </p>
+<h2 id="shell和vim"><a href="#shell和vim" class="headerlink" title="shell和vim"></a>shell和vim</h2><p>Alt+.    上一行的参数<br>&#x2F;etc&#x2F;vim&#x2F;vimrc立刻生效，vim输入<br>:source &#x2F;etc&#x2F;vim&#x2F;vimrc</p>
+<h2 id="mobaxterm在vim里不能复制粘贴"><a href="#mobaxterm在vim里不能复制粘贴" class="headerlink" title="mobaxterm在vim里不能复制粘贴"></a>mobaxterm在vim里不能复制粘贴</h2><p>编辑~&#x2F;.vimrc</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">set mouse=r</span><br></pre></td></tr></table></figure>
+
+<h2 id="vim的温度符号"><a href="#vim的温度符号" class="headerlink" title="vim的温度符号"></a>vim的温度符号</h2><p>温度符号<br>vim<br>Ctrl+k DG<br>From <a href="https://www.phpfans.net/ask/fansa1/9537707728.html">https://www.phpfans.net/ask/fansa1/9537707728.html</a> </p>
+<h2 id="linux-bash乱码"><a href="#linux-bash乱码" class="headerlink" title="linux bash乱码"></a>linux bash乱码</h2><p>编辑~&#x2F;.bashrc<br>export LANG&#x3D;”en_US.UTF-8”</p>
+<h2 id="vim中文乱码"><a href="#vim中文乱码" class="headerlink" title="vim中文乱码"></a>vim中文乱码</h2><p>&#x2F;etc&#x2F;vim&#x2F;vimrc<br>set encoding&#x3D;utf-8<br>From <a href="https://blog.csdn.net/weixin_36250487/article/details/79888103">https://blog.csdn.net/weixin_36250487/article/details/79888103</a> </p>
+<h2 id="树莓派打开spi"><a href="#树莓派打开spi" class="headerlink" title="树莓派打开spi"></a>树莓派打开spi</h2><p>sudo vi config.txt<br>dtparam&#x3D;spi&#x3D;on</p>
+<h2 id="kali镜像"><a href="#kali镜像" class="headerlink" title="kali镜像"></a>kali镜像</h2><p>vim &#x2F;etc&#x2F;apt&#x2F;sources.list<br><a href="https://mirrors.tuna.tsinghua.edu.cn/kali/">https://mirrors.tuna.tsinghua.edu.cn/kali/</a><br>apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get clean<br>apt-get install ttf-wqy-microhei</p>
+<h2 id="nginx-413-Request-Entity-Too-Large"><a href="#nginx-413-Request-Entity-Too-Large" class="headerlink" title="nginx:413 Request Entity Too Large"></a>nginx:413 Request Entity Too Large</h2><p>1、php 默认上传文件大小限制为 2M，如果超出 2M 你需要修改 php 配置文件 php.ini 里面的参数</p>
+<p>post_max_size &#x3D; 8M （表单提交的最大限制，此项不是限制上传单个文件的大小，而是针对整个表单提交的数据进行限制。）</p>
+<p>upload_max_filesiz e &#x3D; 2M （上传的单个文件的最大限制）</p>
+<p>需要保证 post_max_size &gt;&#x3D; upload_max_filesize ，也就是前者不小于后者。</p>
+<p>修改之后一定要重启 php-fpm 。</p>
+<p>2.、除了修改 php 配置，你也需要修改nginx配置文件 nginx.conf</p>
+<p>打开 nginx 配置文件 nginx.conf，找到 http{} 段，在其中添加一行配置：</p>
+<p>client_max_body_size 8m;</p>
+<p>其中 8m 可以根据需要上传文件大小自行设定。</p>
+<p>修改之后一定要重新载入 nginx （service nginx reload）</p>
+<p>*&#x2F;60 &#x2F;opt&#x2F;home&#x2F;admin&#x2F;sendip.sh</p>
+<h2 id="python-pyserial"><a href="#python-pyserial" class="headerlink" title="python-pyserial"></a>python-pyserial</h2><p>pacman -S python-pyserial</p>
+<h2 id="路由器做交换机"><a href="#路由器做交换机" class="headerlink" title="路由器做交换机"></a>路由器做交换机</h2><p>wan 动态ip<br>lan 192.168.1.2<br>dhcp关<br>wifi名字一样</p>
+<h2 id="syncthing网络权限"><a href="#syncthing网络权限" class="headerlink" title="syncthing网络权限"></a>syncthing网络权限</h2><p>~&#x2F;.config&#x2F;syncthing&#x2F;config.xml<br>127.0.0.1</p>
+<p>ttrss<br>To enable this mode, set constantSIMPLE_UPDATE_MODEtotrueinconfig.php.</p>
+<p>kill -9 18493</p>
+<h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2><p>tar -cf &#x2F;andy&#x2F;backup.tar &#x2F;andy&#x2F;html<br>mv &#x2F;andy&#x2F;backup.tar &#x2F;andy&#x2F;html</p>
+<h2 id="crontab"><a href="#crontab" class="headerlink" title="crontab"></a>crontab</h2><p>脚本里要写绝对路径</p>
+<h2 id="mysql密码"><a href="#mysql密码" class="headerlink" title="mysql密码"></a>mysql密码</h2><p>mysql_install_db –user&#x3D;mysql –basedir&#x3D;&#x2F;usr –datadir&#x3D;&#x2F;var&#x2F;lib&#x2F;mysql<br>mysql_upgrade -u root -p<br>SET PASSWORD FOR ‘root‘@’localhost’ &#x3D; PASSWORD(‘’);</p>
+<h2 id="archlinuxarm镜像源"><a href="#archlinuxarm镜像源" class="headerlink" title="archlinuxarm镜像源"></a>archlinuxarm镜像源</h2><p>清华<br><a href="https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/">https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/</a></p>
+<p>中科大<br>Server &#x3D; <a href="https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo">https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo</a></p>
+<h2 id="wifi-menu配置无线网络"><a href="#wifi-menu配置无线网络" class="headerlink" title="wifi-menu配置无线网络"></a>wifi-menu配置无线网络</h2><p>使用 wifi-menu -o 在目录 &#x2F;etc&#x2F;netctl&#x2F; 中生成一个配置文件。<br>复制key<br>cp &#x2F;etc&#x2F;netctl&#x2F;examples&#x2F;wireless-wpa &#x2F;etc&#x2F;netctl&#x2F;wireless-wpa</p>
+<p>wifi-menu<br>netctl enable wlan0-OpenWrt_FB499A<br>netctl start wlan0-OpenWrt_FB499A</p>
+<h2 id="archlinux安装一些软件"><a href="#archlinux安装一些软件" class="headerlink" title="archlinux安装一些软件"></a>archlinux安装一些软件</h2><p>crontab: pacman -S cronie<br>mkfs.vfat: pacman -S dosfstools</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>程序</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>不能承受的生命之轻 标注</title>
     <url>/2024/01/28/%E4%B8%8D%E8%83%BD%E6%89%BF%E5%8F%97%E7%9A%84%E7%94%9F%E5%91%BD%E4%B9%8B%E8%BD%BB%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<p><strong>共41条标注</strong></p>
@@ -2694,6 +2712,33 @@
         <tag>标注</tag>
         <tag>读书笔记</tag>
         <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中文日文注音使用html上标注音格式</title>
+    <url>/2024/02/18/%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87%E6%B3%A8%E9%9F%B3%E4%BD%BF%E7%94%A8html%E4%B8%8A%E6%A0%87%E6%B3%A8%E9%9F%B3%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<hr>
+<h2 id="脚本地址"><a href="#脚本地址" class="headerlink" title="脚本地址"></a>脚本地址</h2><p><a href="https://github.com/wangandi520/andyspythonscript">https://github.com/wangandi520/andyspythonscript</a></p>
+<span id="more"></span>
+
+<h2 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h2><p>需要pip install pypinyin pykakasi</p>
+<p>中文可以设置成仅注音生僻字</p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p><a href="https://andi.wang/2017/01/09/%E6%AD%8C%E8%AF%8D/">https://andi.wang/2017/01/09/歌词/</a></p>
+<h2 id="转换前"><a href="#转换前" class="headerlink" title="转换前"></a>转换前</h2><p><em>中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</em></p>
+<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。</p>
+<p><em>日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</em></p>
+<p>冷たい雨が降りはじめて<br>街を闇に浸してく<br>ガラスを滑る雫は</p>
+<p><em>日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</em></p>
+<p>まるで流星(りゅうせい)のようね<br>ゆるやかに流(なが)れるひと時(とき)<br>あなたをしのんで</p>
+<h2 id="转换后"><a href="#转换后" class="headerlink" title="转换后"></a>转换后</h2><p><ruby>北<rt>běi</rt>冥<rt>míng</rt>有<rt>yǒu</rt>鱼<rt>yú</rt>，<rt></rt>其<rt>qí</rt>名<rt>míng</rt>为<rt>wèi</rt>鲲<rt>kūn</rt>。<rt></rt>鲲<rt>kūn</rt>之<rt>zhī</rt>大<rt>dà</rt>，<rt></rt>不<rt>bù</rt>知<rt>zhī</rt>其<rt>qí</rt>几<rt>jǐ</rt>千<rt>qiān</rt>里<rt>lǐ</rt>也<rt>yě</rt>；<rt></rt>化<rt>huà</rt>而<rt>ér</rt>为<rt>wèi</rt>鸟<rt>niǎo</rt>，<rt></rt>其<rt>qí</rt>名<rt>míng</rt>为<rt>wèi</rt>鹏<rt>péng</rt>。<rt></rt>鹏<rt>péng</rt>之<rt>zhī</rt>背<rt>bèi</rt>，<rt></rt>不<rt>bù</rt>知<rt>zhī</rt>其<rt>qí</rt>几<rt>jǐ</rt>千<rt>qiān</rt>里<rt>lǐ</rt>也<rt>yě</rt>；<rt></rt>怒<rt>nù</rt>而<rt>ér</rt>飞<rt>fēi</rt>，<rt></rt>其<rt>qí</rt>翼<rt>yì</rt>若<rt>ruò</rt>垂<rt>chuí</rt>天<rt>tiān</rt>之<rt>zhī</rt>云<rt>yún</rt>。</ruby></p>
+<p><ruby>冷た<rt>つめ</rt>た<rt></rt>い<rt></rt>雨<rt>あめ</rt>が<rt></rt>は<rt></rt>じ<rt></rt>め<rt></rt>て<rt></rt></ruby><br><ruby>街<rt>まち</rt>を<rt></rt>闇<rt>やみ</rt>に<rt></rt>浸<rt>ひた</rt>し<rt></rt>て<rt></rt>く<rt></rt></ruby><br><ruby>ガ<rt></rt>ラ<rt></rt>ス<rt></rt>を<rt></rt>滑<rt>すべ</rt>る<rt></rt>雫<rt>しずく</rt>は<rt></rt></ruby></p>
+<p><ruby>ま<rt></rt>る<rt></rt>で<rt></rt>流星<rt>りゅうせい</rt><rt></rt>の<rt></rt>よ<rt></rt>う<rt></rt>ね<rt></rt></ruby><br><ruby>ゆ<rt></rt>る<rt></rt>や<rt></rt>か<rt></rt>に<rt></rt>流<rt>なが</rt><rt></rt>れ<rt></rt>る<rt></rt>ひ<rt></rt>と<rt></rt>時<rt>とき</rt><rt></rt></ruby><br>あなたをしのんで</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -3312,33 +3357,6 @@
       </tags>
   </entry>
   <entry>
-    <title>中文日文注音使用html上标注音格式</title>
-    <url>/2024/02/18/%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87%E6%B3%A8%E9%9F%B3%E4%BD%BF%E7%94%A8html%E4%B8%8A%E6%A0%87%E6%B3%A8%E9%9F%B3%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<hr>
-<h2 id="脚本地址"><a href="#脚本地址" class="headerlink" title="脚本地址"></a>脚本地址</h2><p><a href="https://github.com/wangandi520/andyspythonscript">https://github.com/wangandi520/andyspythonscript</a></p>
-<span id="more"></span>
-
-<h2 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h2><p>需要pip install pypinyin pykakasi</p>
-<p>中文可以设置成仅注音生僻字</p>
-<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p><a href="https://andi.wang/2017/01/09/%E6%AD%8C%E8%AF%8D/">https://andi.wang/2017/01/09/歌词/</a></p>
-<h2 id="转换前"><a href="#转换前" class="headerlink" title="转换前"></a>转换前</h2><p><em>中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</em></p>
-<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。</p>
-<p><em>日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</em></p>
-<p>冷たい雨が降りはじめて<br>街を闇に浸してく<br>ガラスを滑る雫は</p>
-<p><em>日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</em></p>
-<p>まるで流星(りゅうせい)のようね<br>ゆるやかに流(なが)れるひと時(とき)<br>あなたをしのんで</p>
-<h2 id="转换后"><a href="#转换后" class="headerlink" title="转换后"></a>转换后</h2><p><ruby>北<rt>běi</rt>冥<rt>míng</rt>有<rt>yǒu</rt>鱼<rt>yú</rt>，<rt></rt>其<rt>qí</rt>名<rt>míng</rt>为<rt>wèi</rt>鲲<rt>kūn</rt>。<rt></rt>鲲<rt>kūn</rt>之<rt>zhī</rt>大<rt>dà</rt>，<rt></rt>不<rt>bù</rt>知<rt>zhī</rt>其<rt>qí</rt>几<rt>jǐ</rt>千<rt>qiān</rt>里<rt>lǐ</rt>也<rt>yě</rt>；<rt></rt>化<rt>huà</rt>而<rt>ér</rt>为<rt>wèi</rt>鸟<rt>niǎo</rt>，<rt></rt>其<rt>qí</rt>名<rt>míng</rt>为<rt>wèi</rt>鹏<rt>péng</rt>。<rt></rt>鹏<rt>péng</rt>之<rt>zhī</rt>背<rt>bèi</rt>，<rt></rt>不<rt>bù</rt>知<rt>zhī</rt>其<rt>qí</rt>几<rt>jǐ</rt>千<rt>qiān</rt>里<rt>lǐ</rt>也<rt>yě</rt>；<rt></rt>怒<rt>nù</rt>而<rt>ér</rt>飞<rt>fēi</rt>，<rt></rt>其<rt>qí</rt>翼<rt>yì</rt>若<rt>ruò</rt>垂<rt>chuí</rt>天<rt>tiān</rt>之<rt>zhī</rt>云<rt>yún</rt>。</ruby></p>
-<p><ruby>冷た<rt>つめ</rt>た<rt></rt>い<rt></rt>雨<rt>あめ</rt>が<rt></rt>は<rt></rt>じ<rt></rt>め<rt></rt>て<rt></rt></ruby><br><ruby>街<rt>まち</rt>を<rt></rt>闇<rt>やみ</rt>に<rt></rt>浸<rt>ひた</rt>し<rt></rt>て<rt></rt>く<rt></rt></ruby><br><ruby>ガ<rt></rt>ラ<rt></rt>ス<rt></rt>を<rt></rt>滑<rt>すべ</rt>る<rt></rt>雫<rt>しずく</rt>は<rt></rt></ruby></p>
-<p><ruby>ま<rt></rt>る<rt></rt>で<rt></rt>流星<rt>りゅうせい</rt><rt></rt>の<rt></rt>よ<rt></rt>う<rt></rt>ね<rt></rt></ruby><br><ruby>ゆ<rt></rt>る<rt></rt>や<rt></rt>か<rt></rt>に<rt></rt>流<rt>なが</rt><rt></rt>れ<rt></rt>る<rt></rt>ひ<rt></rt>と<rt></rt>時<rt>とき</rt><rt></rt></ruby><br>あなたをしのんで</p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>书，电影，电视剧简评</title>
     <url>/2022/01/06/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E7%AE%80%E8%AF%84/</url>
     <content><![CDATA[<div class="notification is-danger">
@@ -3614,54 +3632,6 @@
         <tag>书</tag>
         <tag>电影</tag>
         <tag>电视剧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>书籍删减与翻译情况</title>
-    <url>/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/</url>
-    <content><![CDATA[<hr>
-<p><strong>方括号内为被删减的内容，书名下多个出版社是都有删减的意思</strong></p>
-<span id="more"></span>
-
-<hr>
-<h2 id="二刻拍案惊奇"><a href="#二刻拍案惊奇" class="headerlink" title="二刻拍案惊奇"></a>二刻拍案惊奇</h2><p><strong>三民书局</strong></p>
-<p><strong>人民文学出版社 三言二拍插图典藏版</strong></p>
-<p><strong>人民文学出版社 中国古典小说藏本</strong></p>
-<h3 id="卷三十五-错调情贾母詈女-误告状孙郎得妻"><a href="#卷三十五-错调情贾母詈女-误告状孙郎得妻" class="headerlink" title="卷三十五 错调情贾母詈女 误告状孙郎得妻"></a>卷三十五 错调情贾母詈女 误告状孙郎得妻</h3><p>两腿中间，兀自气腾腾。[孙小官按不住欲心如火，腾的跳上身去，分开两股，将铁一般硬的玉茎，对着牝门，用些唾津润了，弄将进去，抽拽起来。]嘴对着嘴，恣意亲咂。</p>
-<hr>
-<h2 id="警世通言"><a href="#警世通言" class="headerlink" title="警世通言"></a>警世通言</h2><p><strong>中华书局 中华经典小说注释系列</strong></p>
-<p><strong>人民文学出版社 三言二拍插图典藏版</strong></p>
-<p><strong>人民文学出版社 中国古典小说藏本</strong></p>
-<p><strong>BookDNA浙版数媒</strong></p>
-<h3 id="第三十五卷-况太守断死孩儿"><a href="#第三十五卷-况太守断死孩儿" class="headerlink" title="第三十五卷 况太守断死孩儿"></a>第三十五卷 况太守断死孩儿</h3><p>如今五月，天气正热，你却赤身仰卧，把那[话儿弄得硬硬的，]待他来照门时，你只推做睡着了。</p>
-<hr>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>三言二拍 阉割 闻人生野战，甄监生，珍珠衫，乔太守乱点鸳鸯谱</p>
-<hr>
-<h2 id="故事-材质结构风格和银幕剧作的原理"><a href="#故事-材质结构风格和银幕剧作的原理" class="headerlink" title="故事 材质结构风格和银幕剧作的原理"></a>故事 材质结构风格和银幕剧作的原理</h2><p><strong>微信读书</strong></p>
-<h3 id="PARTI作家和故事艺术"><a href="#PARTI作家和故事艺术" class="headerlink" title="PARTI作家和故事艺术"></a>PARTI作家和故事艺术</h3><p>微信读书里删掉了下面两行，而纸质版和kindle版都有这句话</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">故事是人生必需的设备</span><br><span class="line">--肯尼斯伯克</span><br></pre></td></tr></table></figure>
-
-<p>英文版是Stories are equipment for living<br>繁体版是故事是生活中不可或缺的</p>
-<h3 id="PARTIV作家在工作"><a href="#PARTIV作家在工作" class="headerlink" title="PARTIV作家在工作"></a>PARTIV作家在工作</h3><p>简体版是任何文章的初稿都是狗屎<br>英文版是The first draft of anything is shit<br>繁体版是所有初稿都是狗屎</p>
-<p>感觉简体版翻译的有点问题。</p>
-<hr>
-<h2 id="在中国大地上-保罗索鲁"><a href="#在中国大地上-保罗索鲁" class="headerlink" title="在中国大地上 保罗索鲁"></a>在中国大地上 保罗索鲁</h2><p><strong>后浪出版 九州出版社 陈媛媛译</strong></p>
-<p>对比版本：马可孛罗文化出版，城邦出版发行（騎乘鐵公雞：搭火車橫越中國）徐丽松译</p>
-<p>几分钟简单看了几章，第三章，第十三章都有删减，疑似整本书的删减属于比较多了</p>
-<hr>
-<h2 id="一只鸟接着一只鸟：关于写作与人生的建议"><a href="#一只鸟接着一只鸟：关于写作与人生的建议" class="headerlink" title="一只鸟接着一只鸟：关于写作与人生的建议"></a>一只鸟接着一只鸟：关于写作与人生的建议</h2><p><strong>中信出版社 朱耘译</strong></p>
-<p>对比版本：野人文化出版，远足文化发行，寫作課一隻鳥接著一隻鳥寫就對了！，朱耘译</p>
-<p>每章标题和正文之间的几句话都被删掉了，这段话没在正文中出现过。</p>
-<hr>
-<h2 id="红楼梦"><a href="#红楼梦" class="headerlink" title="红楼梦"></a>红楼梦</h2><p><strong>微信读书 人民文学出版社 第四版 2022</strong></p>
-<p>第五回的红楼梦12支曲，把注释写到正文里了。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -15000,6 +14970,54 @@
       </tags>
   </entry>
   <entry>
+    <title>书籍删减与翻译情况</title>
+    <url>/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/</url>
+    <content><![CDATA[<hr>
+<p><strong>方括号内为被删减的内容，书名下多个出版社是都有删减的意思</strong></p>
+<span id="more"></span>
+
+<hr>
+<h2 id="二刻拍案惊奇"><a href="#二刻拍案惊奇" class="headerlink" title="二刻拍案惊奇"></a>二刻拍案惊奇</h2><p><strong>三民书局</strong></p>
+<p><strong>人民文学出版社 三言二拍插图典藏版</strong></p>
+<p><strong>人民文学出版社 中国古典小说藏本</strong></p>
+<h3 id="卷三十五-错调情贾母詈女-误告状孙郎得妻"><a href="#卷三十五-错调情贾母詈女-误告状孙郎得妻" class="headerlink" title="卷三十五 错调情贾母詈女 误告状孙郎得妻"></a>卷三十五 错调情贾母詈女 误告状孙郎得妻</h3><p>两腿中间，兀自气腾腾。[孙小官按不住欲心如火，腾的跳上身去，分开两股，将铁一般硬的玉茎，对着牝门，用些唾津润了，弄将进去，抽拽起来。]嘴对着嘴，恣意亲咂。</p>
+<hr>
+<h2 id="警世通言"><a href="#警世通言" class="headerlink" title="警世通言"></a>警世通言</h2><p><strong>中华书局 中华经典小说注释系列</strong></p>
+<p><strong>人民文学出版社 三言二拍插图典藏版</strong></p>
+<p><strong>人民文学出版社 中国古典小说藏本</strong></p>
+<p><strong>BookDNA浙版数媒</strong></p>
+<h3 id="第三十五卷-况太守断死孩儿"><a href="#第三十五卷-况太守断死孩儿" class="headerlink" title="第三十五卷 况太守断死孩儿"></a>第三十五卷 况太守断死孩儿</h3><p>如今五月，天气正热，你却赤身仰卧，把那[话儿弄得硬硬的，]待他来照门时，你只推做睡着了。</p>
+<hr>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>三言二拍 阉割 闻人生野战，甄监生，珍珠衫，乔太守乱点鸳鸯谱</p>
+<hr>
+<h2 id="故事-材质结构风格和银幕剧作的原理"><a href="#故事-材质结构风格和银幕剧作的原理" class="headerlink" title="故事 材质结构风格和银幕剧作的原理"></a>故事 材质结构风格和银幕剧作的原理</h2><p><strong>微信读书</strong></p>
+<h3 id="PARTI作家和故事艺术"><a href="#PARTI作家和故事艺术" class="headerlink" title="PARTI作家和故事艺术"></a>PARTI作家和故事艺术</h3><p>微信读书里删掉了下面两行，而纸质版和kindle版都有这句话</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">故事是人生必需的设备</span><br><span class="line">--肯尼斯伯克</span><br></pre></td></tr></table></figure>
+
+<p>英文版是Stories are equipment for living<br>繁体版是故事是生活中不可或缺的</p>
+<h3 id="PARTIV作家在工作"><a href="#PARTIV作家在工作" class="headerlink" title="PARTIV作家在工作"></a>PARTIV作家在工作</h3><p>简体版是任何文章的初稿都是狗屎<br>英文版是The first draft of anything is shit<br>繁体版是所有初稿都是狗屎</p>
+<p>感觉简体版翻译的有点问题。</p>
+<hr>
+<h2 id="在中国大地上-保罗索鲁"><a href="#在中国大地上-保罗索鲁" class="headerlink" title="在中国大地上 保罗索鲁"></a>在中国大地上 保罗索鲁</h2><p><strong>后浪出版 九州出版社 陈媛媛译</strong></p>
+<p>对比版本：马可孛罗文化出版，城邦出版发行（騎乘鐵公雞：搭火車橫越中國）徐丽松译</p>
+<p>几分钟简单看了几章，第三章，第十三章都有删减，疑似整本书的删减属于比较多了</p>
+<hr>
+<h2 id="一只鸟接着一只鸟：关于写作与人生的建议"><a href="#一只鸟接着一只鸟：关于写作与人生的建议" class="headerlink" title="一只鸟接着一只鸟：关于写作与人生的建议"></a>一只鸟接着一只鸟：关于写作与人生的建议</h2><p><strong>中信出版社 朱耘译</strong></p>
+<p>对比版本：野人文化出版，远足文化发行，寫作課一隻鳥接著一隻鳥寫就對了！，朱耘译</p>
+<p>每章标题和正文之间的几句话都被删掉了，这段话没在正文中出现过。</p>
+<hr>
+<h2 id="红楼梦"><a href="#红楼梦" class="headerlink" title="红楼梦"></a>红楼梦</h2><p><strong>微信读书 人民文学出版社 第四版 2022</strong></p>
+<p>第五回的红楼梦12支曲，把注释写到正文里了。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用archlinux搭建家庭数据服务中心</title>
     <url>/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/</url>
     <content><![CDATA[<hr>
@@ -16410,6 +16428,74 @@
       </tags>
   </entry>
   <entry>
+    <title>漫画印刷与扫描错误</title>
+    <url>/2022/08/08/%E6%BC%AB%E7%94%BB%E5%8D%B0%E5%88%B7%E4%B8%8E%E6%89%AB%E6%8F%8F%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>印刷错误、扫描错误、修图改图和谐等问题。</p>
+<p>2023.10.28</p>
+<h2 id="自制补页下载"><a href="#自制补页下载" class="headerlink" title="自制补页下载"></a>自制补页下载</h2><p>下载地址：<a href="https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528">https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd&#x3D;p528</a></p>
+<span id="more"></span>
+
+<h2 id="出包王女Darkness爱藏版"><a href="#出包王女Darkness爱藏版" class="headerlink" title="出包王女Darkness爱藏版"></a>出包王女Darkness爱藏版</h2><p>04_038 左图中间 起 字上一根头发</p>
+<h2 id="钢之炼金术师"><a href="#钢之炼金术师" class="headerlink" title="钢之炼金术师"></a>钢之炼金术师</h2><p>鋼之煉金術師完全版  </p>
+<p>VOL.01 缺<br>FULLMETAL.ALCHEMIST.01_x</p>
+<p>VOL.02 缺<br>FULLMETAL.ALCHEMIST.02_000b<br>FULLMETAL.ALCHEMIST.02_x</p>
+<h2 id="棋魂完全版"><a href="#棋魂完全版" class="headerlink" title="棋魂完全版"></a>棋魂完全版</h2><p>缺Hikaru.no.go.CV.09_000d.jpg</p>
+<h2 id="死亡笔记爱藏版"><a href="#死亡笔记爱藏版" class="headerlink" title="死亡笔记爱藏版"></a>死亡笔记爱藏版</h2><p>应该没多页，就是那个96形形色色错了，这版标题有时候会给两次出现，开篇出现一次，后面要是间隔不远就是特写页的话又会给一次，造成的结果就是出现了前面错了的96形形色色接了个没错的97形形色色，容易造成错觉</p>
+<p>大家拆了的，看看第7本，有没有这样的多页印刷错误问题，就是多2、3页，估计是前面的内容，标题却是96数字+97的标题，插在真正的96和97中间，有的都说说，我看看多少人遇到</p>
+<p>96另一方面 97形形色色 98全体</p>
+<p>来自<a href="https://tieba.baidu.com/p/7434193071">https://tieba.baidu.com/p/7434193071</a></p>
+<h2 id="幕张"><a href="#幕张" class="headerlink" title="幕张"></a>幕张</h2><p>Vol.03_055 左中 呼 字被切掉<br>Vol.05_070 左中 啊 字被切掉<br>Vol.08_042 左下 的 字被切掉<br>Vol.09_040 左中未知注释被切掉</p>
+<h2 id="死亡笔记爱藏版-1"><a href="#死亡笔记爱藏版-1" class="headerlink" title="死亡笔记爱藏版"></a>死亡笔记爱藏版</h2><p>对比旧东立、文传版</p>
+<p>其他问题：<br>每卷003.png 右侧有白有黑<br>DEATH NOTE Vol.02_011.png 右侧第三格图月省略号和鼻孔中间多一条线<br>DEATH NOTE Vol.02_040.png 上图中间屏幕车门上方一个白块<br>DEATH NOTE Vol.03_008.png 左下图外一条黑线<br>DEATH NOTE Vol.03_160.png 左页右上图脑袋上面白圈<br>DEATH NOTE Vol.04_067.png 左页中间图左对话框右下大黑点<br>DEATH NOTE Vol.05_028.png 与29重复<br>DEATH NOTE Vol.05_114.png 左下图右边文字和脑袋之间一条线<br>DEATH NOTE Vol.05_135.png 左下图右边第二行文字下面一条线<br>DEATH NOTE Vol.06_121.png 右页所有字锯齿</p>
+<p>黑白点：<br>DEATH NOTE Vol.02_072.png 右页左下图对话框中左右各一点<br>DEATH NOTE Vol.02_125.png 右页左上图对话框，赶字 右边<br>DEATH NOTE Vol.03_045.png 右页左下图右下角<br>DEATH NOTE Vol.03_047.png 右页左中图头和字中间白点<br>DEATH NOTE Vol.03_069.png 右页中间右图死神脸上一点<br>DEATH NOTE Vol.03_062.png 左上图人物左边两点右边两点<br>DEATH NOTE Vol.03_125.png 最左边边框外黑点多个<br>DEATH NOTE Vol.03_134.png 左页中间左侧图对话框最左边一片<br>DEATH NOTE Vol.03_152.png 左页中图最左中间白点<br>DEATH NOTE Vol.03_157.png 左页中图最左一片<br>DEATH NOTE Vol.04_024.png 左下 想字 左边<br>DEATH NOTE Vol.04_025.png 右页中右图对话框句号左边<br>DEATH NOTE Vol.04_030.png 左下光头脖子靠后位置黑线<br>DEATH NOTE Vol.04_076.png 左下L头上<br>DEATH NOTE Vol.04_126.png 左页中间图最左边一片<br>DEATH NOTE Vol.04_147.png 右下图左上角黑色网点错误<br>DEATH NOTE Vol.04_159.png 右上图白色条最左边黑点，最右边字右边黑线<br>DEATH NOTE Vol.04_175.png 左上图左边人物衣服白点2处<br>DEATH NOTE Vol.04_177.png 右下图左下衣服白点<br>DEATH NOTE Vol.04_178.png 右上图右2对话框上黑线<br>DEATH NOTE Vol.05_099.png 左页中间左边图影子中间<br>DEATH NOTE Vol.05_107.png 右页左下图左边文字下边白块<br>DEATH NOTE Vol.05_115.png 左边月嘴上<br>DEATH NOTE Vol.05_147.png 左页右侧黑点<br>DEATH NOTE Vol.06_009.png 左页中间左边图上字右边<br>DEATH NOTE Vol.06_013.png 右页右中间图左下角黑点，右下图怎么啦左边黑线<br>DEATH NOTE Vol.06_019.png 右下图左对话框箭头上黑线<br>DEATH NOTE Vol.06_029.png 左页右下图<br>DEATH NOTE Vol.06_035.png 左页左下图大拇指<br>DEATH NOTE Vol.06_055.png 右页中间右图手上伤短黑线<br>DEATH NOTE Vol.06_063.png 右页左下图头发白点<br>DEATH NOTE Vol.06_082.png 右页左上图 某字 左边黑点<br>DEATH NOTE Vol.06_127.png 右下图脸上白点<br>DEATH NOTE Vol.07_006.png 右上图裤子上<br>DEATH NOTE Vol.07_039.png 右下左边头发上白点，左页右上图 有 展 字<br>DEATH NOTE Vol.07_070.png 左下图衣服上<br>DEATH NOTE Vol.07_171.png 左下图月亮下</p>
+<p>印刷问题：<br>DEATH NOTE Vol.03_062.png 左下图左边柱子外一点，右边柱子内一点<br>DEATH NOTE Vol.03_098.png 左页右上图眼镜一点<br>DEATH NOTE Vol.03_135.png 左页右下链子断了<br>DEATH NOTE Vol.03_149.png 左上黑点<br>DEATH NOTE Vol.03_158.png 右上图左下角黑点<br>DEATH NOTE Vol.04_171.png 右页左中图 月字 左边黑线，左下图 时间上的问题而已 左边头发网点错误<br>DEATH NOTE Vol.05_154.png （疑）左页右下图很多黑线<br>DEATH NOTE Vol.06_031.png 左页中间图左2对话框左边一条线<br>DEATH NOTE Vol.06_072.png 右页中间右图墙上短黑线<br>DEATH NOTE Vol.06_099.png 右页中间右图短黑线<br>DEATH NOTE Vol.06_110.png 左页右下图两小人中间黑点<br>DEATH NOTE Vol.06_113.png 左页中图左下角黑点<br>DEATH NOTE Vol.06_114.png 左上图 每字<br>DEATH NOTE Vol.06_115.png 右上图 听字<br>DEATH NOTE Vol.06_117.png 右页左下图 模字<br>DEATH NOTE Vol.06_152.png 左页下中图 调字<br>DEATH NOTE Vol.06_161.png 右上图左下角<br>DEATH NOTE Vol.07_000.png 左上图右上角疑似缺一角<br>DEATH NOTE Vol.07_001.png 同上<br>DEATH NOTE Vol.07_044.png 右页中间图眼睛下面<br>DEATH NOTE Vol.07_055.png 96形形色色应该是97形形色色<br>DEATH NOTE Vol.07_067.png 左下图一条线</p>
+<h2 id="链锯人"><a href="#链锯人" class="headerlink" title="链锯人"></a>链锯人</h2><p>对比彩色版</p>
+<p>其他问题：<br>[Chain saw man]Vol_01_056.png 右页下图人手白点<br>[Chain saw man]Vol_05_099.png 左页右下黑块<br>[Chain saw man]Vol_06_008.png 中间白线偏右下一条细白线<br>[Chain saw man]Vol_06_083.png 右页右上第二张图头发上白方块<br>[Chain saw man]Vol_11_063(1).png 上面的嗡嗡嗡字裂开<br>[Chain saw man]Vol_11_081(1).png 左页右上字模糊</p>
+<p>黑点：<br>[Chain saw man]Vol_01_059.png 右页左下图人头白点<br>[Chain saw man]Vol_01_082.png 左页下第二排图第二个窗户黑点<br>[Chain saw man]Vol_02_017.png 左页第三张图房子上，左边1黑点，右边2黑点<br>[Chain saw man]Vol_02_037.png 右页左侧外黑点<br>[Chain saw man]Vol_02_039.png 右页左下图黑点<br>[Chain saw man]Vol_02_056.png 左页右下图右上角黑点<br>[Chain saw man]Vol_02_084.png 右页中左图右对话框黑点<br>[Chain saw man]Vol_03_010.png 右页下中图右上对话框外黑线<br>[Chain saw man]Vol_03_026.png 左页下中图左对话框黑点<br>[Chain saw man]Vol_03_038.png 左页中左图对话框黑点<br>[Chain saw man]Vol_03_081.png 中间黑点<br>[Chain saw man]Vol_04_063.png 左下黑点<br>[Chain saw man]Vol_04_071.png 左页左下图第二对话框黑点，右页右下对话框黑点<br>[Chain saw man]Vol_04_081.png 左上图对话框上两条黑线<br>[Chain saw man]Vol_04_083.png 左下人脸黑点<br>[Chain saw man]Vol_04_084.png 右页左下图黑点，左页左下图黑点右下角，左页右下图人头白点<br>[Chain saw man]Vol_04_088.png 左下黑点<br>[Chain saw man]Vol_04_091.png 右页左下对话框黑点<br>[Chain saw man]Vol_04_097.png 右页人脸黑点<br>[Chain saw man]Vol_05_081.png 中上黑点，左页中间图左对话框黑点<br>[Chain saw man]Vol_05_093.png 右页左上对话框问号左边灰块<br>[Chain saw man]Vol_07_022.png 左上对话框黑点<br>[Chain saw man]Vol_07_028.png 左页右上左边对话框听字左边黑点<br>[Chain saw man]Vol_07_060.png 左上白点<br>[Chain saw man]Vol_08_007.png 左页右下图中间窗台上黑点<br>[Chain saw man]Vol_09_039.png 中间左上一点<br>[Chain saw man]Vol_09_042.png 右页中间图两点</p>
+<h2 id="爆漫王爱藏版"><a href="#爆漫王爱藏版" class="headerlink" title="爆漫王爱藏版"></a>爆漫王爱藏版</h2><p>[BAKUMAN]Vol.06_081.png 第六册 第80页外表与打招呼的第12页 右上图文字出框<br>[BAKUMAN]Vol.08_013.png 左页左中第二图留学左边一黑点<br>[BAKUMAN]Vol.08_107.png 右下图黑点<br>[BAKUMAN]Vol.09_032.png 左页中间右边图右上角黑点<br>[BAKUMAN]Vol.09_048.png 第九册 第123页披萨与茶的第5页 左上图左二竖行文字变方框或是“叶”字<br>[BAKUMAN]Vol.11_132.png 第十一册 第161页转换气氛与排队 第258页 右下图右边第四行“不克参加”<br>[BAKUMAN]Vol.12_010.png 左下图 是… 歪了<br>[BAKUMAN]Vol.12_011.png 右上图 咻 歪了<br>[BAKUMAN]Vol.12_015.png 右下图 E 上黑点</p>
+<h2 id="偷窥孔"><a href="#偷窥孔" class="headerlink" title="偷窥孔"></a>偷窥孔</h2><p>NozokiAna01_096.png 右页图有头发<br>NozokiAna01_097.png 右页图有头发</p>
+<h2 id="水星领航员完全版"><a href="#水星领航员完全版" class="headerlink" title="水星领航员完全版"></a>水星领航员完全版</h2><p>对比旧12卷东立版</p>
+<p>其他问题：<br>[ARIA The MASTERPIECE]Vol.01_142.png 1卷272页 右上人物头发上4个字母AQUA<br>[ARIA The MASTERPIECE]Vol.03_035.png 3卷59页 左下对话框没翻译<br>[ARIA The MASTERPIECE]Vol.05_022.png 5卷21页 左下对话框左边某种圆形<br>[ARIA The MASTERPIECE]Vol.05_023.png 5卷22页 右页左下某种圆形<br>[ARIA The MASTERPIECE]Vol.06_076.png 6卷134页 右下右边人物脸右脸颊黑线</p>
+<p>黑点：<br>[ARIA The MASTERPIECE]Vol.05_064.png 5卷104页 右页三点位置三个点<br>[ARIA The MASTERPIECE]Vol.06_051.png 6卷84页 右上对话框左下云中<br>[ARIA The MASTERPIECE]Vol.06_128.png 6卷239页 左上两个对话框左上<br>[ARIA The MASTERPIECE]Vol.07_142.png 7卷273页 左下云的倒影右边一点</p>
+<p>白点：<br>[ARIA The MASTERPIECE]Vol.06_062.png 6卷106页 右页右下中图脑门<br>[ARIA The MASTERPIECE]Vol.06_102.png 6卷186页 右页左上对话框左上<br>[ARIA The MASTERPIECE]Vol.07_166.png 7卷321页 左页右下图右上</p>
+<p>奇怪的图：<br>[ARIA The MASTERPIECE]Vol.06_156.png 6卷294页 旧东立版6卷春夏秋冬122页 右下角眼睛<br>[ARIA The MASTERPIECE]Vol.07_082.png 7卷152页 旧东立版7卷黄昏时分150页 右页左下角右侧人脸一条线</p>
+<p>234卷前面各缺一张纯色页</p>
+<h2 id="她的世界"><a href="#她的世界" class="headerlink" title="她的世界"></a>她的世界</h2><p>[KANOJYO]Vol_015.png 边框<br>[KANOJYO]Vol_017,19,21,23,54 黑色部分斑斑点点 </p>
+<h2 id="夏日时光"><a href="#夏日时光" class="headerlink" title="夏日时光"></a>夏日时光</h2><p>SUMMER TIME RENDER 01-028.png 右页左上图右下角白线穿越3张图</p>
+<h2 id="金田一少年之时间簿爱藏版01歌剧院杀人事件"><a href="#金田一少年之时间簿爱藏版01歌剧院杀人事件" class="headerlink" title="金田一少年之时间簿爱藏版01歌剧院杀人事件"></a>金田一少年之时间簿爱藏版01歌剧院杀人事件</h2><p>01_121.png 右下角应该是17岁，缺字</p>
+<h2 id="星际少年队"><a href="#星际少年队" class="headerlink" title="星际少年队"></a>星际少年队</h2><p>ES.15_074后面缺2张半页</p>
+<h2 id="蓦然回首"><a href="#蓦然回首" class="headerlink" title="蓦然回首"></a>蓦然回首</h2><p>MRHS-052.png 右页左一图对话框黑线<br>MRHS-SP08-2.png 文字后黑框<br>MRHS-SP07-1.png 第三张图胳膊处黑线<br>MRHS-SP07-2.png 第三张图胳膊处黑线</p>
+<h2 id="麻辣教师GTO爱藏版"><a href="#麻辣教师GTO爱藏版" class="headerlink" title="麻辣教师GTO爱藏版"></a>麻辣教师GTO爱藏版</h2><p>GTO.11_038.png，左边字切的多<br>GTO.11_074.png，左边字切的多</p>
+<h2 id="火之鸟复刻版"><a href="#火之鸟复刻版" class="headerlink" title="火之鸟复刻版"></a>火之鸟复刻版</h2><p>初版1刷<br>第7册155页 文字出框<br>第7册318页 中间图一条线</p>
+<p>初版2刷<br>第8册41页 左上一片黑<br>第10册158页 右上一片黑遮住字</p>
+<h2 id="勿说是推理"><a href="#勿说是推理" class="headerlink" title="勿说是推理"></a>勿说是推理</h2><p>do.not.say-mystery.Vol.03-002.png 左页围巾处一条白线</p>
+<h2 id="漂流教室"><a href="#漂流教室" class="headerlink" title="漂流教室"></a>漂流教室</h2><p>HYORYU.KYOSHITSU.01_016.png 左页靠右一条白色竖线</p>
+<h2 id="与雪女同行吃螃蟹"><a href="#与雪女同行吃螃蟹" class="headerlink" title="与雪女同行吃螃蟹"></a>与雪女同行吃螃蟹</h2><p>[YUKI-ONNA TO KANI O KUU]Vol.02_002.png 作者名少一个字母<br>[YUKI-ONNA TO KANI O KUU]Vol.03_002.png 作者名少一个字母</p>
+<h2 id="PROPHECY預告犯"><a href="#PROPHECY預告犯" class="headerlink" title="PROPHECY預告犯"></a>PROPHECY預告犯</h2><p>vol02 31-32中间2页<br>vol03 73-74，75-76中间各2页</p>
+<h2 id="银河铁道999"><a href="#银河铁道999" class="headerlink" title="银河铁道999"></a>银河铁道999</h2><p>GALAXY.EXPRESS.999.01_018.png 右页左下图脸上黑点<br>GALAXY.EXPRESS.999.01_072.png 左页右下图黑点</p>
+<h2 id="独行月球"><a href="#独行月球" class="headerlink" title="独行月球"></a>独行月球</h2><p>大量图片下半部分出现红线，如dxyq01_c012.jpg第四行名字上<br>dxyq01_c053.jpg 左下图橙色痕迹</p>
+<h2 id="东京80年代"><a href="#东京80年代" class="headerlink" title="东京80年代"></a>东京80年代</h2><p>东京80年代 TOKYO EIGHTIES_01_106.png 右下头发<br>东京80年代 TOKYO EIGHTIES_03_107.png 右页左下对话框头发<br>东京80年代 TOKYO EIGHTIES_04_037.png 中间黑线<br>东京80年代 TOKYO EIGHTIES_04_046.png 右下黑线<br>东京80年代 TOKYO EIGHTIES_04_055.png 左页第二行右5竖行最后。。。黑<br>东京80年代 TOKYO EIGHTIES_05_011.png 右页右下黑线<br>东京80年代 TOKYO EIGHTIES_09_102.png 左下眼睛上大黑点</p>
+<h2 id="浪客剑心-全彩"><a href="#浪客剑心-全彩" class="headerlink" title="浪客剑心 全彩"></a>浪客剑心 全彩</h2><p>LKKS-DFC-03-018-剑心组反击-10.jpg 左下彦字缺一半</p>
+<h2 id="桂図録extended-version"><a href="#桂図録extended-version" class="headerlink" title="桂図録extended version"></a>桂図録extended version</h2><p>Katsura-Zuroku.exver_130.jpg 150页，中间一条竖着的白线</p>
+<h2 id="无实之花"><a href="#无实之花" class="headerlink" title="无实之花"></a>无实之花</h2><p>Adabana_01_005.png 右页左下图 对话框有毛<br>Adabana_01_010.png 左页中间图 黑点、白点、毛<br>Adabana_02_020.png 右下图左边字 黑点 两页中间 黑点</p>
+<h2 id="新世纪福音战士完全版-角川"><a href="#新世纪福音战士完全版-角川" class="headerlink" title="新世纪福音战士完全版 角川"></a>新世纪福音战士完全版 角川</h2><p>第一册197页 贞嗣应该是真嗣</p>
+<h2 id="相聚一刻-典藏版"><a href="#相聚一刻-典藏版" class="headerlink" title="相聚一刻 典藏版"></a>相聚一刻 典藏版</h2><p>第五册114页 “堂止” “表哥”和“堂兄妹”<br>第八册220页 右上一条横着的白线</p>
+<h2 id="IS-完全版-玉皇朝"><a href="#IS-完全版-玉皇朝" class="headerlink" title="IS 完全版 玉皇朝"></a>IS 完全版 玉皇朝</h2><p>11册221页右下图“我去…”应该是“请你吃饭”</p>
+<h2 id="古书堂事件手帖"><a href="#古书堂事件手帖" class="headerlink" title="古书堂事件手帖"></a>古书堂事件手帖</h2><p>白线：<br>Biblia Koshodou_01_038.png 左上白线<br>Biblia Koshodou_01_041.png 左上白线<br>Biblia Koshodou_01_042.png 左下白线<br>Biblia Koshodou_01_081.png 左下白线<br>Biblia Koshodou_01_082.png 左三白线<br>Biblia Koshodou_02_086.png 左中白线<br>Biblia Koshodou_05_016.png 右中白线<br>Biblia Koshodou_05_017.png 右中白线<br>Biblia Koshodou_05_018.png 右中白线<br>Biblia Koshodou_05_021.png 右中白线<br>Biblia Koshodou_05_022.png 右中白线<br>Biblia Koshodou_05_031.png 右上白线<br>Biblia Koshodou_05_032.png 右上白线<br>Biblia Koshodou_05_068.png 左中白线<br>Biblia Koshodou_06_050.png 右下白线</p>
+<h2 id="电影少女-爱藏版-东立"><a href="#电影少女-爱藏版-东立" class="headerlink" title="电影少女 爱藏版 东立"></a>电影少女 爱藏版 东立</h2><p>和谐：<br>第二册71，87，90，91，95，105，106，108，109，111，112页 原图没内裤<br>第二册116页左上图，118页右下图 原图大腿上没那么多机器<br>第三册167，168，170，171，172页 原图没内裤<br>第三册222页最上图 被替换过，原图是屁股<br>第三册231左页右上图 原图没内裤</p>
+<h2 id="灌篮高手-天下-C-C"><a href="#灌篮高手-天下-C-C" class="headerlink" title="灌篮高手 天下 C.C"></a>灌篮高手 天下 C.C</h2><p>SD02-121.png 左上对话框一根毛</p>
+<h2 id="初恋僵尸-b站境外版"><a href="#初恋僵尸-b站境外版" class="headerlink" title="初恋僵尸 b站境外版"></a>初恋僵尸 b站境外版</h2><p>59话第2页 最下中间对话框缺字<br>91话第4页 左下文字出了框，“现在回想起来”<br>92话第4页 “我下面可有穿打底裤哦！”下面的字隐约可见<br>93话第2页左中 疑似对话框缺字</p>
+<p>缺页：<br>第三册：<br>23 - 同情之泪-013.jpg<br>24 - 雨后之夜-013.jpg<br>第六册：<br>53 - 十年后的I LOVE U-007.jpg<br>第七册：<br>63 - 女澡堂事变-016.jpg<br>64 - 毫无成果的一晚……-016.jpg<br>第八册：<br>77 - 最受欢迎之人的宝座-015.jpg<br>第九册：<br>80 - after·bitter·dark-015.jpg<br>83 - 夺回我的所爱！-014.jpg<br>第十册：<br>96 - 不同颜色的花纹-010.jpg<br>第十一册：<br>104 - 得到升华的画布-007.jpg<br>第十二册：<br>109 - 圣诞节与假面具-014.jpg<br>113 - 谎言、真实与约定……-002.jpg<br>114 - Ready Christmas!!-016.jpg<br>第十三册：<br>126 - 此时此刻的伊芙和指宿-010.jpg<br>第十四册：<br>130 - 无言的约定-001.jpg<br>134 - 除夕的喃喃细语-007.jpg<br>第十五册：<br>142 - Maid in Ririsu-008.jpg<br>第十六册：<br>157 - 憧憬-012.jpg<br>第十七册：<br>158 - 疑心-014.jpg<br>160 - 依照你的愿望-006.jpg</p>
+]]></content>
+      <categories>
+        <category>评测</category>
+      </categories>
+      <tags>
+        <tag>漫画</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>歌词</title>
     <url>/2017/01/09/%E6%AD%8C%E8%AF%8D/</url>
     <content><![CDATA[<hr>
@@ -16570,71 +16656,17 @@
       </tags>
   </entry>
   <entry>
-    <title>漫画印刷与扫描错误</title>
-    <url>/2022/08/08/%E6%BC%AB%E7%94%BB%E5%8D%B0%E5%88%B7%E4%B8%8E%E6%89%AB%E6%8F%8F%E9%94%99%E8%AF%AF/</url>
+    <title>百年孤独人物关系图（自制）</title>
+    <url>/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>印刷错误、扫描错误、修图改图和谐等问题。</p>
-<p>2023.10.28</p>
-<h2 id="自制补页下载"><a href="#自制补页下载" class="headerlink" title="自制补页下载"></a>自制补页下载</h2><p>下载地址：<a href="https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528">https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd&#x3D;p528</a></p>
-<span id="more"></span>
-
-<h2 id="出包王女Darkness爱藏版"><a href="#出包王女Darkness爱藏版" class="headerlink" title="出包王女Darkness爱藏版"></a>出包王女Darkness爱藏版</h2><p>04_038 左图中间 起 字上一根头发</p>
-<h2 id="钢之炼金术师"><a href="#钢之炼金术师" class="headerlink" title="钢之炼金术师"></a>钢之炼金术师</h2><p>鋼之煉金術師完全版  </p>
-<p>VOL.01 缺<br>FULLMETAL.ALCHEMIST.01_x</p>
-<p>VOL.02 缺<br>FULLMETAL.ALCHEMIST.02_000b<br>FULLMETAL.ALCHEMIST.02_x</p>
-<h2 id="棋魂完全版"><a href="#棋魂完全版" class="headerlink" title="棋魂完全版"></a>棋魂完全版</h2><p>缺Hikaru.no.go.CV.09_000d.jpg</p>
-<h2 id="死亡笔记爱藏版"><a href="#死亡笔记爱藏版" class="headerlink" title="死亡笔记爱藏版"></a>死亡笔记爱藏版</h2><p>应该没多页，就是那个96形形色色错了，这版标题有时候会给两次出现，开篇出现一次，后面要是间隔不远就是特写页的话又会给一次，造成的结果就是出现了前面错了的96形形色色接了个没错的97形形色色，容易造成错觉</p>
-<p>大家拆了的，看看第7本，有没有这样的多页印刷错误问题，就是多2、3页，估计是前面的内容，标题却是96数字+97的标题，插在真正的96和97中间，有的都说说，我看看多少人遇到</p>
-<p>96另一方面 97形形色色 98全体</p>
-<p>来自<a href="https://tieba.baidu.com/p/7434193071">https://tieba.baidu.com/p/7434193071</a></p>
-<h2 id="幕张"><a href="#幕张" class="headerlink" title="幕张"></a>幕张</h2><p>Vol.03_055 左中 呼 字被切掉<br>Vol.05_070 左中 啊 字被切掉<br>Vol.08_042 左下 的 字被切掉<br>Vol.09_040 左中未知注释被切掉</p>
-<h2 id="死亡笔记爱藏版-1"><a href="#死亡笔记爱藏版-1" class="headerlink" title="死亡笔记爱藏版"></a>死亡笔记爱藏版</h2><p>对比旧东立、文传版</p>
-<p>其他问题：<br>每卷003.png 右侧有白有黑<br>DEATH NOTE Vol.02_011.png 右侧第三格图月省略号和鼻孔中间多一条线<br>DEATH NOTE Vol.02_040.png 上图中间屏幕车门上方一个白块<br>DEATH NOTE Vol.03_008.png 左下图外一条黑线<br>DEATH NOTE Vol.03_160.png 左页右上图脑袋上面白圈<br>DEATH NOTE Vol.04_067.png 左页中间图左对话框右下大黑点<br>DEATH NOTE Vol.05_028.png 与29重复<br>DEATH NOTE Vol.05_114.png 左下图右边文字和脑袋之间一条线<br>DEATH NOTE Vol.05_135.png 左下图右边第二行文字下面一条线<br>DEATH NOTE Vol.06_121.png 右页所有字锯齿</p>
-<p>黑白点：<br>DEATH NOTE Vol.02_072.png 右页左下图对话框中左右各一点<br>DEATH NOTE Vol.02_125.png 右页左上图对话框，赶字 右边<br>DEATH NOTE Vol.03_045.png 右页左下图右下角<br>DEATH NOTE Vol.03_047.png 右页左中图头和字中间白点<br>DEATH NOTE Vol.03_069.png 右页中间右图死神脸上一点<br>DEATH NOTE Vol.03_062.png 左上图人物左边两点右边两点<br>DEATH NOTE Vol.03_125.png 最左边边框外黑点多个<br>DEATH NOTE Vol.03_134.png 左页中间左侧图对话框最左边一片<br>DEATH NOTE Vol.03_152.png 左页中图最左中间白点<br>DEATH NOTE Vol.03_157.png 左页中图最左一片<br>DEATH NOTE Vol.04_024.png 左下 想字 左边<br>DEATH NOTE Vol.04_025.png 右页中右图对话框句号左边<br>DEATH NOTE Vol.04_030.png 左下光头脖子靠后位置黑线<br>DEATH NOTE Vol.04_076.png 左下L头上<br>DEATH NOTE Vol.04_126.png 左页中间图最左边一片<br>DEATH NOTE Vol.04_147.png 右下图左上角黑色网点错误<br>DEATH NOTE Vol.04_159.png 右上图白色条最左边黑点，最右边字右边黑线<br>DEATH NOTE Vol.04_175.png 左上图左边人物衣服白点2处<br>DEATH NOTE Vol.04_177.png 右下图左下衣服白点<br>DEATH NOTE Vol.04_178.png 右上图右2对话框上黑线<br>DEATH NOTE Vol.05_099.png 左页中间左边图影子中间<br>DEATH NOTE Vol.05_107.png 右页左下图左边文字下边白块<br>DEATH NOTE Vol.05_115.png 左边月嘴上<br>DEATH NOTE Vol.05_147.png 左页右侧黑点<br>DEATH NOTE Vol.06_009.png 左页中间左边图上字右边<br>DEATH NOTE Vol.06_013.png 右页右中间图左下角黑点，右下图怎么啦左边黑线<br>DEATH NOTE Vol.06_019.png 右下图左对话框箭头上黑线<br>DEATH NOTE Vol.06_029.png 左页右下图<br>DEATH NOTE Vol.06_035.png 左页左下图大拇指<br>DEATH NOTE Vol.06_055.png 右页中间右图手上伤短黑线<br>DEATH NOTE Vol.06_063.png 右页左下图头发白点<br>DEATH NOTE Vol.06_082.png 右页左上图 某字 左边黑点<br>DEATH NOTE Vol.06_127.png 右下图脸上白点<br>DEATH NOTE Vol.07_006.png 右上图裤子上<br>DEATH NOTE Vol.07_039.png 右下左边头发上白点，左页右上图 有 展 字<br>DEATH NOTE Vol.07_070.png 左下图衣服上<br>DEATH NOTE Vol.07_171.png 左下图月亮下</p>
-<p>印刷问题：<br>DEATH NOTE Vol.03_062.png 左下图左边柱子外一点，右边柱子内一点<br>DEATH NOTE Vol.03_098.png 左页右上图眼镜一点<br>DEATH NOTE Vol.03_135.png 左页右下链子断了<br>DEATH NOTE Vol.03_149.png 左上黑点<br>DEATH NOTE Vol.03_158.png 右上图左下角黑点<br>DEATH NOTE Vol.04_171.png 右页左中图 月字 左边黑线，左下图 时间上的问题而已 左边头发网点错误<br>DEATH NOTE Vol.05_154.png （疑）左页右下图很多黑线<br>DEATH NOTE Vol.06_031.png 左页中间图左2对话框左边一条线<br>DEATH NOTE Vol.06_072.png 右页中间右图墙上短黑线<br>DEATH NOTE Vol.06_099.png 右页中间右图短黑线<br>DEATH NOTE Vol.06_110.png 左页右下图两小人中间黑点<br>DEATH NOTE Vol.06_113.png 左页中图左下角黑点<br>DEATH NOTE Vol.06_114.png 左上图 每字<br>DEATH NOTE Vol.06_115.png 右上图 听字<br>DEATH NOTE Vol.06_117.png 右页左下图 模字<br>DEATH NOTE Vol.06_152.png 左页下中图 调字<br>DEATH NOTE Vol.06_161.png 右上图左下角<br>DEATH NOTE Vol.07_000.png 左上图右上角疑似缺一角<br>DEATH NOTE Vol.07_001.png 同上<br>DEATH NOTE Vol.07_044.png 右页中间图眼睛下面<br>DEATH NOTE Vol.07_055.png 96形形色色应该是97形形色色<br>DEATH NOTE Vol.07_067.png 左下图一条线</p>
-<h2 id="链锯人"><a href="#链锯人" class="headerlink" title="链锯人"></a>链锯人</h2><p>对比彩色版</p>
-<p>其他问题：<br>[Chain saw man]Vol_01_056.png 右页下图人手白点<br>[Chain saw man]Vol_05_099.png 左页右下黑块<br>[Chain saw man]Vol_06_008.png 中间白线偏右下一条细白线<br>[Chain saw man]Vol_06_083.png 右页右上第二张图头发上白方块<br>[Chain saw man]Vol_11_063(1).png 上面的嗡嗡嗡字裂开<br>[Chain saw man]Vol_11_081(1).png 左页右上字模糊</p>
-<p>黑点：<br>[Chain saw man]Vol_01_059.png 右页左下图人头白点<br>[Chain saw man]Vol_01_082.png 左页下第二排图第二个窗户黑点<br>[Chain saw man]Vol_02_017.png 左页第三张图房子上，左边1黑点，右边2黑点<br>[Chain saw man]Vol_02_037.png 右页左侧外黑点<br>[Chain saw man]Vol_02_039.png 右页左下图黑点<br>[Chain saw man]Vol_02_056.png 左页右下图右上角黑点<br>[Chain saw man]Vol_02_084.png 右页中左图右对话框黑点<br>[Chain saw man]Vol_03_010.png 右页下中图右上对话框外黑线<br>[Chain saw man]Vol_03_026.png 左页下中图左对话框黑点<br>[Chain saw man]Vol_03_038.png 左页中左图对话框黑点<br>[Chain saw man]Vol_03_081.png 中间黑点<br>[Chain saw man]Vol_04_063.png 左下黑点<br>[Chain saw man]Vol_04_071.png 左页左下图第二对话框黑点，右页右下对话框黑点<br>[Chain saw man]Vol_04_081.png 左上图对话框上两条黑线<br>[Chain saw man]Vol_04_083.png 左下人脸黑点<br>[Chain saw man]Vol_04_084.png 右页左下图黑点，左页左下图黑点右下角，左页右下图人头白点<br>[Chain saw man]Vol_04_088.png 左下黑点<br>[Chain saw man]Vol_04_091.png 右页左下对话框黑点<br>[Chain saw man]Vol_04_097.png 右页人脸黑点<br>[Chain saw man]Vol_05_081.png 中上黑点，左页中间图左对话框黑点<br>[Chain saw man]Vol_05_093.png 右页左上对话框问号左边灰块<br>[Chain saw man]Vol_07_022.png 左上对话框黑点<br>[Chain saw man]Vol_07_028.png 左页右上左边对话框听字左边黑点<br>[Chain saw man]Vol_07_060.png 左上白点<br>[Chain saw man]Vol_08_007.png 左页右下图中间窗台上黑点<br>[Chain saw man]Vol_09_039.png 中间左上一点<br>[Chain saw man]Vol_09_042.png 右页中间图两点</p>
-<h2 id="爆漫王爱藏版"><a href="#爆漫王爱藏版" class="headerlink" title="爆漫王爱藏版"></a>爆漫王爱藏版</h2><p>[BAKUMAN]Vol.06_081.png 第六册 第80页外表与打招呼的第12页 右上图文字出框<br>[BAKUMAN]Vol.08_013.png 左页左中第二图留学左边一黑点<br>[BAKUMAN]Vol.08_107.png 右下图黑点<br>[BAKUMAN]Vol.09_032.png 左页中间右边图右上角黑点<br>[BAKUMAN]Vol.09_048.png 第九册 第123页披萨与茶的第5页 左上图左二竖行文字变方框或是“叶”字<br>[BAKUMAN]Vol.11_132.png 第十一册 第161页转换气氛与排队 第258页 右下图右边第四行“不克参加”<br>[BAKUMAN]Vol.12_010.png 左下图 是… 歪了<br>[BAKUMAN]Vol.12_011.png 右上图 咻 歪了<br>[BAKUMAN]Vol.12_015.png 右下图 E 上黑点</p>
-<h2 id="偷窥孔"><a href="#偷窥孔" class="headerlink" title="偷窥孔"></a>偷窥孔</h2><p>NozokiAna01_096.png 右页图有头发<br>NozokiAna01_097.png 右页图有头发</p>
-<h2 id="水星领航员完全版"><a href="#水星领航员完全版" class="headerlink" title="水星领航员完全版"></a>水星领航员完全版</h2><p>对比旧12卷东立版</p>
-<p>其他问题：<br>[ARIA The MASTERPIECE]Vol.01_142.png 1卷272页 右上人物头发上4个字母AQUA<br>[ARIA The MASTERPIECE]Vol.03_035.png 3卷59页 左下对话框没翻译<br>[ARIA The MASTERPIECE]Vol.05_022.png 5卷21页 左下对话框左边某种圆形<br>[ARIA The MASTERPIECE]Vol.05_023.png 5卷22页 右页左下某种圆形<br>[ARIA The MASTERPIECE]Vol.06_076.png 6卷134页 右下右边人物脸右脸颊黑线</p>
-<p>黑点：<br>[ARIA The MASTERPIECE]Vol.05_064.png 5卷104页 右页三点位置三个点<br>[ARIA The MASTERPIECE]Vol.06_051.png 6卷84页 右上对话框左下云中<br>[ARIA The MASTERPIECE]Vol.06_128.png 6卷239页 左上两个对话框左上<br>[ARIA The MASTERPIECE]Vol.07_142.png 7卷273页 左下云的倒影右边一点</p>
-<p>白点：<br>[ARIA The MASTERPIECE]Vol.06_062.png 6卷106页 右页右下中图脑门<br>[ARIA The MASTERPIECE]Vol.06_102.png 6卷186页 右页左上对话框左上<br>[ARIA The MASTERPIECE]Vol.07_166.png 7卷321页 左页右下图右上</p>
-<p>奇怪的图：<br>[ARIA The MASTERPIECE]Vol.06_156.png 6卷294页 旧东立版6卷春夏秋冬122页 右下角眼睛<br>[ARIA The MASTERPIECE]Vol.07_082.png 7卷152页 旧东立版7卷黄昏时分150页 右页左下角右侧人脸一条线</p>
-<p>234卷前面各缺一张纯色页</p>
-<h2 id="她的世界"><a href="#她的世界" class="headerlink" title="她的世界"></a>她的世界</h2><p>[KANOJYO]Vol_015.png 边框<br>[KANOJYO]Vol_017,19,21,23,54 黑色部分斑斑点点 </p>
-<h2 id="夏日时光"><a href="#夏日时光" class="headerlink" title="夏日时光"></a>夏日时光</h2><p>SUMMER TIME RENDER 01-028.png 右页左上图右下角白线穿越3张图</p>
-<h2 id="金田一少年之时间簿爱藏版01歌剧院杀人事件"><a href="#金田一少年之时间簿爱藏版01歌剧院杀人事件" class="headerlink" title="金田一少年之时间簿爱藏版01歌剧院杀人事件"></a>金田一少年之时间簿爱藏版01歌剧院杀人事件</h2><p>01_121.png 右下角应该是17岁，缺字</p>
-<h2 id="星际少年队"><a href="#星际少年队" class="headerlink" title="星际少年队"></a>星际少年队</h2><p>ES.15_074后面缺2张半页</p>
-<h2 id="蓦然回首"><a href="#蓦然回首" class="headerlink" title="蓦然回首"></a>蓦然回首</h2><p>MRHS-052.png 右页左一图对话框黑线<br>MRHS-SP08-2.png 文字后黑框<br>MRHS-SP07-1.png 第三张图胳膊处黑线<br>MRHS-SP07-2.png 第三张图胳膊处黑线</p>
-<h2 id="麻辣教师GTO爱藏版"><a href="#麻辣教师GTO爱藏版" class="headerlink" title="麻辣教师GTO爱藏版"></a>麻辣教师GTO爱藏版</h2><p>GTO.11_038.png，左边字切的多<br>GTO.11_074.png，左边字切的多</p>
-<h2 id="火之鸟复刻版"><a href="#火之鸟复刻版" class="headerlink" title="火之鸟复刻版"></a>火之鸟复刻版</h2><p>初版1刷<br>第7册155页 文字出框<br>第7册318页 中间图一条线</p>
-<p>初版2刷<br>第8册41页 左上一片黑<br>第10册158页 右上一片黑遮住字</p>
-<h2 id="勿说是推理"><a href="#勿说是推理" class="headerlink" title="勿说是推理"></a>勿说是推理</h2><p>do.not.say-mystery.Vol.03-002.png 左页围巾处一条白线</p>
-<h2 id="漂流教室"><a href="#漂流教室" class="headerlink" title="漂流教室"></a>漂流教室</h2><p>HYORYU.KYOSHITSU.01_016.png 左页靠右一条白色竖线</p>
-<h2 id="与雪女同行吃螃蟹"><a href="#与雪女同行吃螃蟹" class="headerlink" title="与雪女同行吃螃蟹"></a>与雪女同行吃螃蟹</h2><p>[YUKI-ONNA TO KANI O KUU]Vol.02_002.png 作者名少一个字母<br>[YUKI-ONNA TO KANI O KUU]Vol.03_002.png 作者名少一个字母</p>
-<h2 id="PROPHECY預告犯"><a href="#PROPHECY預告犯" class="headerlink" title="PROPHECY預告犯"></a>PROPHECY預告犯</h2><p>vol02 31-32中间2页<br>vol03 73-74，75-76中间各2页</p>
-<h2 id="银河铁道999"><a href="#银河铁道999" class="headerlink" title="银河铁道999"></a>银河铁道999</h2><p>GALAXY.EXPRESS.999.01_018.png 右页左下图脸上黑点<br>GALAXY.EXPRESS.999.01_072.png 左页右下图黑点</p>
-<h2 id="独行月球"><a href="#独行月球" class="headerlink" title="独行月球"></a>独行月球</h2><p>大量图片下半部分出现红线，如dxyq01_c012.jpg第四行名字上<br>dxyq01_c053.jpg 左下图橙色痕迹</p>
-<h2 id="东京80年代"><a href="#东京80年代" class="headerlink" title="东京80年代"></a>东京80年代</h2><p>东京80年代 TOKYO EIGHTIES_01_106.png 右下头发<br>东京80年代 TOKYO EIGHTIES_03_107.png 右页左下对话框头发<br>东京80年代 TOKYO EIGHTIES_04_037.png 中间黑线<br>东京80年代 TOKYO EIGHTIES_04_046.png 右下黑线<br>东京80年代 TOKYO EIGHTIES_04_055.png 左页第二行右5竖行最后。。。黑<br>东京80年代 TOKYO EIGHTIES_05_011.png 右页右下黑线<br>东京80年代 TOKYO EIGHTIES_09_102.png 左下眼睛上大黑点</p>
-<h2 id="浪客剑心-全彩"><a href="#浪客剑心-全彩" class="headerlink" title="浪客剑心 全彩"></a>浪客剑心 全彩</h2><p>LKKS-DFC-03-018-剑心组反击-10.jpg 左下彦字缺一半</p>
-<h2 id="桂図録extended-version"><a href="#桂図録extended-version" class="headerlink" title="桂図録extended version"></a>桂図録extended version</h2><p>Katsura-Zuroku.exver_130.jpg 150页，中间一条竖着的白线</p>
-<h2 id="无实之花"><a href="#无实之花" class="headerlink" title="无实之花"></a>无实之花</h2><p>Adabana_01_005.png 右页左下图 对话框有毛<br>Adabana_01_010.png 左页中间图 黑点、白点、毛<br>Adabana_02_020.png 右下图左边字 黑点 两页中间 黑点</p>
-<h2 id="新世纪福音战士完全版-角川"><a href="#新世纪福音战士完全版-角川" class="headerlink" title="新世纪福音战士完全版 角川"></a>新世纪福音战士完全版 角川</h2><p>第一册197页 贞嗣应该是真嗣</p>
-<h2 id="相聚一刻-典藏版"><a href="#相聚一刻-典藏版" class="headerlink" title="相聚一刻 典藏版"></a>相聚一刻 典藏版</h2><p>第五册114页 “堂止” “表哥”和“堂兄妹”<br>第八册220页 右上一条横着的白线</p>
-<h2 id="IS-完全版-玉皇朝"><a href="#IS-完全版-玉皇朝" class="headerlink" title="IS 完全版 玉皇朝"></a>IS 完全版 玉皇朝</h2><p>11册221页右下图“我去…”应该是“请你吃饭”</p>
-<h2 id="古书堂事件手帖"><a href="#古书堂事件手帖" class="headerlink" title="古书堂事件手帖"></a>古书堂事件手帖</h2><p>白线：<br>Biblia Koshodou_01_038.png 左上白线<br>Biblia Koshodou_01_041.png 左上白线<br>Biblia Koshodou_01_042.png 左下白线<br>Biblia Koshodou_01_081.png 左下白线<br>Biblia Koshodou_01_082.png 左三白线<br>Biblia Koshodou_02_086.png 左中白线<br>Biblia Koshodou_05_016.png 右中白线<br>Biblia Koshodou_05_017.png 右中白线<br>Biblia Koshodou_05_018.png 右中白线<br>Biblia Koshodou_05_021.png 右中白线<br>Biblia Koshodou_05_022.png 右中白线<br>Biblia Koshodou_05_031.png 右上白线<br>Biblia Koshodou_05_032.png 右上白线<br>Biblia Koshodou_05_068.png 左中白线<br>Biblia Koshodou_06_050.png 右下白线</p>
-<h2 id="电影少女-爱藏版-东立"><a href="#电影少女-爱藏版-东立" class="headerlink" title="电影少女 爱藏版 东立"></a>电影少女 爱藏版 东立</h2><p>和谐：<br>第二册71，87，90，91，95，105，106，108，109，111，112页 原图没内裤<br>第二册116页左上图，118页右下图 原图大腿上没那么多机器<br>第三册167，168，170，171，172页 原图没内裤<br>第三册222页最上图 被替换过，原图是屁股<br>第三册231左页右上图 原图没内裤</p>
-<h2 id="灌篮高手-天下-C-C"><a href="#灌篮高手-天下-C-C" class="headerlink" title="灌篮高手 天下 C.C"></a>灌篮高手 天下 C.C</h2><p>SD02-121.png 左上对话框一根毛</p>
-<h2 id="初恋僵尸-b站境外版"><a href="#初恋僵尸-b站境外版" class="headerlink" title="初恋僵尸 b站境外版"></a>初恋僵尸 b站境外版</h2><p>59话第2页 最下中间对话框缺字<br>91话第4页 左下文字出了框，“现在回想起来”<br>92话第4页 “我下面可有穿打底裤哦！”下面的字隐约可见<br>93话第2页左中 疑似对话框缺字</p>
-<p>缺页：<br>第三册：<br>23 - 同情之泪-013.jpg<br>24 - 雨后之夜-013.jpg<br>第六册：<br>53 - 十年后的I LOVE U-007.jpg<br>第七册：<br>63 - 女澡堂事变-016.jpg<br>64 - 毫无成果的一晚……-016.jpg<br>第八册：<br>77 - 最受欢迎之人的宝座-015.jpg<br>第九册：<br>80 - after·bitter·dark-015.jpg<br>83 - 夺回我的所爱！-014.jpg<br>第十册：<br>96 - 不同颜色的花纹-010.jpg<br>第十一册：<br>104 - 得到升华的画布-007.jpg<br>第十二册：<br>109 - 圣诞节与假面具-014.jpg<br>113 - 谎言、真实与约定……-002.jpg<br>114 - Ready Christmas!!-016.jpg<br>第十三册：<br>126 - 此时此刻的伊芙和指宿-010.jpg<br>第十四册：<br>130 - 无言的约定-001.jpg<br>134 - 除夕的喃喃细语-007.jpg<br>第十五册：<br>142 - Maid in Ririsu-008.jpg<br>第十六册：<br>157 - 憧憬-012.jpg<br>第十七册：<br>158 - 疑心-014.jpg<br>160 - 依照你的愿望-006.jpg</p>
+<p><img src="/images/bainiangudu01.png" alt="百年孤独人物关系图（自制）"></p>
 ]]></content>
       <categories>
-        <category>评测</category>
+        <category>读书笔记</category>
       </categories>
       <tags>
-        <tag>漫画</tag>
+        <tag>阅读</tag>
+        <tag>百年孤独</tag>
       </tags>
   </entry>
   <entry>
@@ -16746,20 +16778,6 @@
       </categories>
       <tags>
         <tag>电脑手机技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>百年孤独人物关系图（自制）</title>
-    <url>/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
-    <content><![CDATA[<hr>
-<p><img src="/images/bainiangudu01.png" alt="百年孤独人物关系图（自制）"></p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>百年孤独</tag>
       </tags>
   </entry>
   <entry>
@@ -17560,6 +17578,103 @@
       </tags>
   </entry>
   <entry>
+    <title>遥远的向日葵地 标注</title>
+    <url>/2021/03/11/%E9%81%A5%E8%BF%9C%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5%E5%9C%B0%E6%A0%87%E6%B3%A8/</url>
+    <content><![CDATA[<hr>
+<blockquote>
+<p>仅仅只是水，一大滩明晃晃的水。镜子一样平平摊开在大地上，倒映着整面天空。又像是天空下的一面深渊</p>
+</blockquote>
+<p><em>2020.08.24 21:51:01</em></p>
+<hr>
+<span id="more"></span>
+
+<blockquote>
+<p>我要这样一座房子干什么呢？是为了从此能够安心地生活吗？<BR>不是的，是为了从此能够安心地等待。<BR>而眼下的我，只能安心地离别</p>
+</blockquote>
+<p><em>2020.08.25 13:50:14</em></p>
+<hr>
+<blockquote>
+<p>我又想，人是被时间磨损的吗？……不是的。人是被各种各样的离别磨损的</p>
+</blockquote>
+<p><em>2020.08.25 13:53:57</em></p>
+<hr>
+<blockquote>
+<p>可是大地永不改变。丰沃的森林不应被砍伐毁灭，贫瘠干涸之地也不应被强行垦耕或绿化。人的命运和自然的命运截然相反。我到了葵花地边，为这巨大的相反而惊骇。突然感到漂泊远不曾停止，感到往下还要经历更多的动荡</p>
+</blockquote>
+<p><em>2020.08.25 15:40:29</em></p>
+<hr>
+<blockquote>
+<p>可我出去散步时，无论走多远都从不曾遇到过什么花儿。似乎我妈采回来的这些就是眼下这场春天里的全部了。<BR>第九天我离开了。<BR>我把我妈、我外婆和小狗抛弃在荒野深处，抛弃了一整个夏天。<BR>又觉得像是把她们一直抛弃到现在。<BR>似乎这些年来，她们仍在那片广阔的天空下寂寞而艰辛地劳作，而种子仍在空旷的大地之下沉睡</p>
+</blockquote>
+<p><em>2020.08.25 21:47:42</em></p>
+<hr>
+<blockquote>
+<p>她已经不知时间是怎么回事了。她已经不知命运是怎么回事了</p>
+</blockquote>
+<p><em>2020.08.26 13:45:48</em></p>
+<hr>
+<blockquote>
+<p>我就是一个骗子，一个欲望大于能力的骗子。而被欺骗的外婆，拄着拐棍站在楼梯口等待。她脆弱不堪，她的愿望也脆弱不堪。我根本支撑不了她，拐棍也支撑不了她。其实我早就隐隐意识到了，唯有死亡才能令她展翅高飞</p>
+</blockquote>
+<p><em>2020.08.26 13:48:46</em></p>
+<hr>
+<blockquote>
+<p>突然而至的激情涨满咽喉，却什么也说不出来。我便大声呼唤赛虎和丑丑。喊啊喊啊，又像在呼唤普天之下所有一去不复返的事物。又像在大声地恳求，大声地应许。孤独而自由地站在那里，大声地证明自己此时此刻的微弱存在</p>
+</blockquote>
+<p><em>2020.08.26 16:28:00</em></p>
+<hr>
+<blockquote>
+<p>走啊走啊，我想，若不是穿着鞋子，脚下大概很快就长出根了吧？若不是穿着衣服，四肢很快就长出叶子了吧</p>
+</blockquote>
+<p><em>2020.08.27 10:31:32</em></p>
+<hr>
+<blockquote>
+<p>若是门朝里开的，还可以撑根棍子顶住。问题是门朝外开的</p>
+</blockquote>
+<p><em>2020.08.27 19:14:43</em></p>
+<hr>
+<blockquote>
+<p>我把被褥卷起来绑在摩托车后面，转身重新锁上这间房子。<BR>上锁的时候，心里突然间涌起几分离别的惆怅。奇怪，这个房间明明只住了一晚，这个小村子也只停留了半天，竟有异样的熟悉感</p>
+</blockquote>
+<p><em>2020.08.27 19:16:21</em></p>
+<hr>
+<blockquote>
+<p>而像我们这样的人，早就不录家谱的汉族人，自己都不知自己来历的逃难者的后代——我连爷爷和外公的名字都不知道——身世潦草，生活潦草。蒙古包也潦草，偶尔来个客人，慌张半天。和人的相处也潦草，好像打完眼下这茬交道便永不再见了。潦草地种地，潦草地经过此地。潦草地依随世人的步伐懵懂前行，不敢落下一步，却又不知前方是什么。还不如一个酒鬼清醒</p>
+</blockquote>
+<p><em>2020.08.27 19:26:58</em></p>
+<hr>
+<blockquote>
+<p>我独自在蒙古包里准备晚餐。揉面，擀平，一张一张烙饼。双手的力量不能改天换地，却恰好能维持个体的生命。恰好能令粮食从大地中产出，食物从火炉上诞生。<BR>烙好饼，再烧开一壶水。我压熄火，盖上炉圈，等待回家吃饭的人</p>
+</blockquote>
+<p><em>2020.08.27 19:31:45</em></p>
+<hr>
+<blockquote>
+<p>“新鲜的电”，巨量的水被截流，上下游生态生生断裂，亿万鱼类的道路被封堵。鱼群想要回溯，想要产卵，却只能在春天里，在大坝的瀑布下，无望地徘徊……所有这一切，只不过为了“新鲜的电”，为了令眼下的水温更暖和一些，为了让人类干干净净地活着。<BR>于是，又觉得此刻像是在朽坏的末世洗澡，像在一个冲着无底深渊无尽堕落的洗澡间中洗澡。<BR>洗啊洗啊，好像不只为了洗净尘垢，还想要洗去一身的罪过</p>
+</blockquote>
+<p><em>2020.09.08 20:39:39</em></p>
+<hr>
+<blockquote>
+<p>我不得安宁。无论生活在多么偏远僻静的地方，我的心都不得安宁。<BR>我最嘈杂，最贪婪。我与眼下这世界格格不入</p>
+</blockquote>
+<p><em>2020.09.09 18:14:26</em></p>
+<hr>
+<blockquote>
+<p>每当风势转烈，水边芦苇在风中猛烈地动荡，我想大声呼喊，又生怕暴露这一切似的苦苦压抑。又想哭诉，又想辩解，又想致歉。但最后开口的，却只有赞美</p>
+</blockquote>
+<p><em>2020.09.28 16:00:47</em></p>
+<hr>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>标注</tag>
+        <tag>读书笔记</tag>
+        <tag>阅读</tag>
+        <tag>遥远的向日葵地</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>西游记校注本 标注</title>
     <url>/2021/03/16/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E6%A0%A1%E6%B3%A8%E6%9C%AC%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<hr>
@@ -17730,103 +17845,6 @@
       </tags>
   </entry>
   <entry>
-    <title>遥远的向日葵地 标注</title>
-    <url>/2021/03/11/%E9%81%A5%E8%BF%9C%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5%E5%9C%B0%E6%A0%87%E6%B3%A8/</url>
-    <content><![CDATA[<hr>
-<blockquote>
-<p>仅仅只是水，一大滩明晃晃的水。镜子一样平平摊开在大地上，倒映着整面天空。又像是天空下的一面深渊</p>
-</blockquote>
-<p><em>2020.08.24 21:51:01</em></p>
-<hr>
-<span id="more"></span>
-
-<blockquote>
-<p>我要这样一座房子干什么呢？是为了从此能够安心地生活吗？<BR>不是的，是为了从此能够安心地等待。<BR>而眼下的我，只能安心地离别</p>
-</blockquote>
-<p><em>2020.08.25 13:50:14</em></p>
-<hr>
-<blockquote>
-<p>我又想，人是被时间磨损的吗？……不是的。人是被各种各样的离别磨损的</p>
-</blockquote>
-<p><em>2020.08.25 13:53:57</em></p>
-<hr>
-<blockquote>
-<p>可是大地永不改变。丰沃的森林不应被砍伐毁灭，贫瘠干涸之地也不应被强行垦耕或绿化。人的命运和自然的命运截然相反。我到了葵花地边，为这巨大的相反而惊骇。突然感到漂泊远不曾停止，感到往下还要经历更多的动荡</p>
-</blockquote>
-<p><em>2020.08.25 15:40:29</em></p>
-<hr>
-<blockquote>
-<p>可我出去散步时，无论走多远都从不曾遇到过什么花儿。似乎我妈采回来的这些就是眼下这场春天里的全部了。<BR>第九天我离开了。<BR>我把我妈、我外婆和小狗抛弃在荒野深处，抛弃了一整个夏天。<BR>又觉得像是把她们一直抛弃到现在。<BR>似乎这些年来，她们仍在那片广阔的天空下寂寞而艰辛地劳作，而种子仍在空旷的大地之下沉睡</p>
-</blockquote>
-<p><em>2020.08.25 21:47:42</em></p>
-<hr>
-<blockquote>
-<p>她已经不知时间是怎么回事了。她已经不知命运是怎么回事了</p>
-</blockquote>
-<p><em>2020.08.26 13:45:48</em></p>
-<hr>
-<blockquote>
-<p>我就是一个骗子，一个欲望大于能力的骗子。而被欺骗的外婆，拄着拐棍站在楼梯口等待。她脆弱不堪，她的愿望也脆弱不堪。我根本支撑不了她，拐棍也支撑不了她。其实我早就隐隐意识到了，唯有死亡才能令她展翅高飞</p>
-</blockquote>
-<p><em>2020.08.26 13:48:46</em></p>
-<hr>
-<blockquote>
-<p>突然而至的激情涨满咽喉，却什么也说不出来。我便大声呼唤赛虎和丑丑。喊啊喊啊，又像在呼唤普天之下所有一去不复返的事物。又像在大声地恳求，大声地应许。孤独而自由地站在那里，大声地证明自己此时此刻的微弱存在</p>
-</blockquote>
-<p><em>2020.08.26 16:28:00</em></p>
-<hr>
-<blockquote>
-<p>走啊走啊，我想，若不是穿着鞋子，脚下大概很快就长出根了吧？若不是穿着衣服，四肢很快就长出叶子了吧</p>
-</blockquote>
-<p><em>2020.08.27 10:31:32</em></p>
-<hr>
-<blockquote>
-<p>若是门朝里开的，还可以撑根棍子顶住。问题是门朝外开的</p>
-</blockquote>
-<p><em>2020.08.27 19:14:43</em></p>
-<hr>
-<blockquote>
-<p>我把被褥卷起来绑在摩托车后面，转身重新锁上这间房子。<BR>上锁的时候，心里突然间涌起几分离别的惆怅。奇怪，这个房间明明只住了一晚，这个小村子也只停留了半天，竟有异样的熟悉感</p>
-</blockquote>
-<p><em>2020.08.27 19:16:21</em></p>
-<hr>
-<blockquote>
-<p>而像我们这样的人，早就不录家谱的汉族人，自己都不知自己来历的逃难者的后代——我连爷爷和外公的名字都不知道——身世潦草，生活潦草。蒙古包也潦草，偶尔来个客人，慌张半天。和人的相处也潦草，好像打完眼下这茬交道便永不再见了。潦草地种地，潦草地经过此地。潦草地依随世人的步伐懵懂前行，不敢落下一步，却又不知前方是什么。还不如一个酒鬼清醒</p>
-</blockquote>
-<p><em>2020.08.27 19:26:58</em></p>
-<hr>
-<blockquote>
-<p>我独自在蒙古包里准备晚餐。揉面，擀平，一张一张烙饼。双手的力量不能改天换地，却恰好能维持个体的生命。恰好能令粮食从大地中产出，食物从火炉上诞生。<BR>烙好饼，再烧开一壶水。我压熄火，盖上炉圈，等待回家吃饭的人</p>
-</blockquote>
-<p><em>2020.08.27 19:31:45</em></p>
-<hr>
-<blockquote>
-<p>“新鲜的电”，巨量的水被截流，上下游生态生生断裂，亿万鱼类的道路被封堵。鱼群想要回溯，想要产卵，却只能在春天里，在大坝的瀑布下，无望地徘徊……所有这一切，只不过为了“新鲜的电”，为了令眼下的水温更暖和一些，为了让人类干干净净地活着。<BR>于是，又觉得此刻像是在朽坏的末世洗澡，像在一个冲着无底深渊无尽堕落的洗澡间中洗澡。<BR>洗啊洗啊，好像不只为了洗净尘垢，还想要洗去一身的罪过</p>
-</blockquote>
-<p><em>2020.09.08 20:39:39</em></p>
-<hr>
-<blockquote>
-<p>我不得安宁。无论生活在多么偏远僻静的地方，我的心都不得安宁。<BR>我最嘈杂，最贪婪。我与眼下这世界格格不入</p>
-</blockquote>
-<p><em>2020.09.09 18:14:26</em></p>
-<hr>
-<blockquote>
-<p>每当风势转烈，水边芦苇在风中猛烈地动荡，我想大声呼喊，又生怕暴露这一切似的苦苦压抑。又想哭诉，又想辩解，又想致歉。但最后开口的，却只有赞美</p>
-</blockquote>
-<p><em>2020.09.28 16:00:47</em></p>
-<hr>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>标注</tag>
-        <tag>读书笔记</tag>
-        <tag>阅读</tag>
-        <tag>遥远的向日葵地</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>音频软件插件简评</title>
     <url>/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</url>
     <content><![CDATA[<hr>
@@ -17948,5 +17966,24 @@
         <tag>魔方</tag>
         <tag>学习笔记</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于这个博客</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<h2 id="博客程序"><a href="#博客程序" class="headerlink" title="博客程序"></a>博客程序</h2><p><a href="https://hexo.io/">Hexo</a></p>
+<h2 id="Hexo主题"><a href="#Hexo主题" class="headerlink" title="Hexo主题"></a>Hexo主题</h2><p><a href="https://github.com/next-theme/hexo-theme-next">hexo-theme-next</a>，scheme: Pisces</p>
+<h2 id="托管平台"><a href="#托管平台" class="headerlink" title="托管平台"></a>托管平台</h2><p>Github pages，并绑定域名，评论系统gitalk，项目地址<a href="https://github.com/wangandi520/wangandi520.github.io">wangandi520.github.io</a></p>
+<h2 id="2017年建立此网站"><a href="#2017年建立此网站" class="headerlink" title="2017年建立此网站"></a>2017年建立此网站</h2><h2 id="捐赠"><a href="#捐赠" class="headerlink" title="捐赠"></a>捐赠</h2><p>支付宝</p>
+<p><img src="/images/alipay.png" alt="支付宝"></p>
+<p>微信</p>
+<p><img src="/images/weixin.png" alt="微信"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的作品</title>
+    <url>/links/index.html</url>
+    <content><![CDATA[<h2 id="吉他和弦图生成"><a href="#吉他和弦图生成" class="headerlink" title="吉他和弦图生成]"></a>吉他和弦图生成]</h2><p><a href="/guitar">演示</a><br><a href="https://github.com/wangandi520/guitar-chord-search-and-generate">Github</a></p>
+<h2 id="单页面股票行情查询"><a href="#单页面股票行情查询" class="headerlink" title="单页面股票行情查询"></a>单页面股票行情查询</h2><p><a href="/stock">演示</a><br><a href="https://github.com/wangandi520/allinonestock">Github</a></p>
+]]></content>
   </entry>
 </search>
