@@ -1,36 +1,246 @@
-<!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>使用archlinux搭建家庭数据服务中心 - Andy&#039;s word</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Andy&#039;s word"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Andy&#039;s word"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="更新时间：2023年11月21日平台树莓派型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统archlinuxarm nuc型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版archlinux 本文的内容几乎适用于两种平台的archlinux配置"><meta property="og:type" content="blog"><meta property="og:title" content="使用archlinux搭建家庭数据服务中心"><meta property="og:url" content="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"><meta property="og:site_name" content="Andy&#039;s word"><meta property="og:description" content="更新时间：2023年11月21日平台树莓派型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统archlinuxarm nuc型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版archlinux 本文的内容几乎适用于两种平台的archlinux配置"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://andi.wang/img/og_image.png"><meta property="article:published_time" content="2022-01-26T10:12:42.000Z"><meta property="article:modified_time" content="2023-12-23T07:09:43.605Z"><meta property="article:author" content="Andy"><meta property="article:tag" content="程序"><meta property="article:tag" content="Raspberry"><meta property="article:tag" content="树莓派"><meta property="article:tag" content="nuc"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://andi.wang/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"},"headline":"使用archlinux搭建家庭数据服务中心","image":["https://andi.wang/img/og_image.png"],"datePublished":"2022-01-26T10:12:42.000Z","dateModified":"2023-12-23T07:09:43.605Z","author":{"@type":"Person","name":"Andy"},"publisher":{"@type":"Organization","name":"Andy's word","logo":{"@type":"ImageObject","url":"https://andi.wang/img/avatar.jpg"}},"description":"更新时间：2023年11月21日平台树莓派型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统archlinuxarm nuc型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版archlinux 本文的内容几乎适用于两种平台的archlinux配置"}</script><link rel="canonical" href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.css"><link rel="stylesheet" href="/css/google.css"><link rel="stylesheet" href="/css/default.css"><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><!--!--><!--!--><!-- hexo injector head_end start --><script>
-  (function () {
-      function switchTab() {
-          if (!location.hash) {
-            return;
-          }
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.0.0">
 
-          const id = '#' + CSS.escape(location.hash.substring(1));
-          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
-          if (!$tabMenu) {
-            return;
-          }
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
-          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
-          Array.from($tabMenuContainer.querySelectorAll('a'))
-              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
-              .forEach($content => $content.classList.add('is-hidden'));
+<link rel="stylesheet" href="/css/main.css">
 
-          if ($tabMenu) {
-              $tabMenu.parentElement.classList.add('is-active');
-          }
-          const $activeTab = document.querySelector(id);
-          if ($activeTab) {
-              $activeTab.classList.remove('is-hidden');
-          }
-      }
-      switchTab();
-      window.addEventListener('hashchange', switchTab, false);
-  })();
-  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
-</head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/avatar.jpg" alt="Andy&#039;s word" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2022-01-26T10:12:42.000Z" title="2022/1/26 18:12:42">2022-01-26</time>发表</span><span class="level-item"><time dateTime="2023-12-23T07:09:43.605Z" title="2023/12/23 15:09:43">2023-12-23</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E7%A8%8B%E5%BA%8F/">程序</a></span><span class="level-item">29 分钟读完 (大约4353个字)</span><span class="level-item" id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">使用archlinux搭建家庭数据服务中心</h1><div class="content"><hr>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="更新时间：2023年11月21日平台树莓派型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统archlinuxarm nuc型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版archlinux 本文的内容几乎适用于两种平台的archlinux配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用archlinux搭建家庭数据服务中心">
+<meta property="og:url" content="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/index.html">
+<meta property="og:site_name" content="Andy&#39;s word">
+<meta property="og:description" content="更新时间：2023年11月21日平台树莓派型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统archlinuxarm nuc型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版archlinux 本文的内容几乎适用于两种平台的archlinux配置">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-26T10:12:42.000Z">
+<meta property="article:modified_time" content="2023-12-23T07:09:43.605Z">
+<meta property="article:author" content="Andy">
+<meta property="article:tag" content="程序">
+<meta property="article:tag" content="Raspberry">
+<meta property="article:tag" content="树莓派">
+<meta property="article:tag" content="nuc">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/","path":"2022/01/26/使用archlinux搭建家庭数据服务中心/","title":"使用archlinux搭建家庭数据服务中心"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>使用archlinux搭建家庭数据服务中心 | Andy's word</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Andy's word</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">如果我会发光，就不必害怕黑暗。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-主页"><a href="/" rel="section">主页</a></li><li class="menu-item menu-item-归档"><a href="/archives" rel="section">归档</a></li><li class="menu-item menu-item-分类"><a href="/categories" rel="section">分类</a></li><li class="menu-item menu-item-标签"><a href="/tags" rel="section">标签</a></li><li class="menu-item menu-item-关于"><a href="/about" rel="section">关于</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%EF%BC%9A2023%E5%B9%B411%E6%9C%8821%E6%97%A5"><span class="nav-number">1.</span> <span class="nav-text">更新时间：2023年11月21日</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B9%B3%E5%8F%B0"><span class="nav-number">2.</span> <span class="nav-text">平台</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%91%E8%8E%93%E6%B4%BE"><span class="nav-number">2.1.</span> <span class="nav-text">树莓派</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#nuc"><span class="nav-number">2.2.</span> <span class="nav-text">nuc</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E9%9C%80%E8%A6%81%E7%9A%84%E7%9F%A5%E8%AF%86"><span class="nav-number">3.</span> <span class="nav-text">操作需要的知识</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#archlinuxarm%E5%9C%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B%E4%B8%8A%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text">archlinuxarm在树莓派3B上的安装方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#archlinux%E5%9C%A8nuc%E4%B8%8A%E7%9A%84%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95"><span class="nav-number">5.</span> <span class="nav-text">archlinux在nuc上的安装方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E8%BD%AF%E4%BB%B6"><span class="nav-number">6.</span> <span class="nav-text">基本软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE"><span class="nav-number">7.</span> <span class="nav-text">基本设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%B6%E5%8C%BA"><span class="nav-number">7.1.</span> <span class="nav-text">时区</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9ls%E6%97%B6%E9%97%B4%E6%98%BE%E7%A4%BA%E6%A0%BC%E5%BC%8F"><span class="nav-number">8.</span> <span class="nav-text">修改ls时间显示格式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#vim%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E5%92%8Cssh%E9%BC%A0%E6%A0%87%E5%8F%B3%E9%94%AE%E5%A4%8D%E5%88%B6"><span class="nav-number">8.1.</span> <span class="nav-text">vim中文乱码和ssh鼠标右键复制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#vim%E7%9A%84%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AEvimrc"><span class="nav-number">8.2.</span> <span class="nav-text">vim的主题设置vimrc</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pip%E4%B8%8B%E8%BD%BD%E6%85%A2"><span class="nav-number">8.3.</span> <span class="nav-text">pip下载慢</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF"><span class="nav-number">9.</span> <span class="nav-text">更换默认终端</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#zsh"><span class="nav-number">9.1.</span> <span class="nav-text">zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#zsh%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">9.2.</span> <span class="nav-text">zsh快捷键</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cron%E5%AE%9A%E6%97%B6%E8%BF%90%E8%A1%8C"><span class="nav-number">10.</span> <span class="nav-text">cron定时运行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#http-php-mysql%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">11.</span> <span class="nav-text">http,php,mysql服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#aria%E4%B8%8B%E8%BD%BD%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">12.</span> <span class="nav-text">aria下载服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#linux%E4%B8%8B"><span class="nav-number">12.1.</span> <span class="nav-text">linux下</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%82%E8%BD%BDu%E7%9B%98"><span class="nav-number">12.2.</span> <span class="nav-text">挂载u盘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#windows%E4%B8%8B"><span class="nav-number">12.3.</span> <span class="nav-text">windows下</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%BA%A6%E7%9B%98%E5%92%8C%E9%98%BF%E9%87%8C%E7%9B%98"><span class="nav-number">12.4.</span> <span class="nav-text">浏览器下下载百度盘和阿里盘</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webdav%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">13.</span> <span class="nav-text">webdav服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ftp%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">14.</span> <span class="nav-text">ftp服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AD%BE%E5%88%B0%E8%84%9A%E6%9C%AC"><span class="nav-number">15.</span> <span class="nav-text">签到脚本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E6%A3%80%E6%B5%8B%E7%B3%BB%E7%BB%9F"><span class="nav-number">16.</span> <span class="nav-text">空气质量检测系统</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#samba%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">17.</span> <span class="nav-text">samba服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86"><span class="nav-number">18.</span> <span class="nav-text">文件管理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#filebrowser"><span class="nav-number">18.1.</span> <span class="nav-text">filebrowser</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Resilio-Sync%EF%BC%88BitTorrent-Sync%EF%BC%89%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5"><span class="nav-number">19.</span> <span class="nav-text">Resilio Sync（BitTorrent Sync）文件同步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96%E8%B7%AF%E7%94%B1%E5%99%A8ip%E7%9A%84%E6%96%B9%E6%B3%95"><span class="nav-number">20.</span> <span class="nav-text">获取路由器ip的方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#home-assistant%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85"><span class="nav-number">21.</span> <span class="nav-text">home assistant智能家居</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E6%9E%9C%E5%8D%87%E7%BA%A7%E5%A4%B1%E8%B4%A5%EF%BC%8C%E5%87%BA%E7%8E%B0building-wheel"><span class="nav-number">21.1.</span> <span class="nav-text">如果升级失败，出现building wheel</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E6%97%B6Error"><span class="nav-number">21.2.</span> <span class="nav-text">启动时Error</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96%E5%B0%8F%E7%B1%B3%E8%AE%BE%E5%A4%87token"><span class="nav-number">21.3.</span> <span class="nav-text">获取小米设备token</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E8%90%A4%E7%9F%B3%E6%91%84%E5%83%8F%E5%A4%B4"><span class="nav-number">21.4.</span> <span class="nav-text">添加萤石摄像头</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0pm2-5%E4%BF%A1%E6%81%AF"><span class="nav-number">21.5.</span> <span class="nav-text">添加pm2.5信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85hacs"><span class="nav-number">21.6.</span> <span class="nav-text">安装hacs</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Andy"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Andy</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">72</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wangandi520" title="Github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank">Github</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1952945" title="BiliBili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">BiliBili</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Andy">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="使用archlinux搭建家庭数据服务中心 | Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          使用archlinux搭建家庭数据服务中心
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-01-26 18:12:42" itemprop="dateCreated datePublished" datetime="2022-01-26T18:12:42+08:00">2022-01-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-12-23 15:09:43" itemprop="dateModified" datetime="2023-12-23T15:09:43+08:00">2023-12-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A8%8B%E5%BA%8F/" itemprop="url" rel="index"><span itemprop="name">程序</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><hr>
 <h2 id="更新时间：2023年11月21日"><a href="#更新时间：2023年11月21日" class="headerlink" title="更新时间：2023年11月21日"></a>更新时间：2023年11月21日</h2><h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="树莓派"><a href="#树莓派" class="headerlink" title="树莓派"></a>树莓派</h3><p>型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统<a target="_blank" rel="noopener" href="https://archlinuxarm.org/">archlinuxarm</a></p>
 <h3 id="nuc"><a href="#nuc" class="headerlink" title="nuc"></a>nuc</h3><p>型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版<a target="_blank" rel="noopener" href="https://archlinux.org/">archlinux</a></p>
 <p>本文的内容几乎适用于两种平台的archlinux配置</p>
@@ -44,20 +254,20 @@
 <p>u盘启动后<a target="_blank" rel="noopener" href="https://wiki.archlinux.org/title/Installation_guide">https://wiki.archlinux.org/title/Installation_guide</a></p>
 <h2 id="基本软件"><a href="#基本软件" class="headerlink" title="基本软件"></a>基本软件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -S wget git vim python python-pip unzip</span><br></pre></td></tr></table></figure>
 
-<h2 id="基本设置"><a href="#基本设置" class="headerlink" title="基本设置"></a>基本设置</h2><h3 id="时区"><a href="#时区" class="headerlink" title="时区"></a>时区</h3><p>编辑/etc/locale.gen，下面两行去掉前面的#</p>
+<h2 id="基本设置"><a href="#基本设置" class="headerlink" title="基本设置"></a>基本设置</h2><h3 id="时区"><a href="#时区" class="headerlink" title="时区"></a>时区</h3><p>编辑&#x2F;etc&#x2F;locale.gen，下面两行去掉前面的#</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">en_US.UTF-8 UTF-8</span><br><span class="line">zh_CN.UTF-8 UTF-8</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">locale-gen</span><br><span class="line">timedatectl set-timezone Asia/Shanghai</span><br></pre></td></tr></table></figure>
 
-<h2 id="修改ls时间显示格式"><a href="#修改ls时间显示格式" class="headerlink" title="修改ls时间显示格式"></a>修改ls时间显示格式</h2><p>编辑~/.bashrc添加</p>
+<h2 id="修改ls时间显示格式"><a href="#修改ls时间显示格式" class="headerlink" title="修改ls时间显示格式"></a>修改ls时间显示格式</h2><p>编辑~&#x2F;.bashrc添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export TIME_STYLE=&#x27;+%Y-%m-%d %H:%M:%S&#x27;</span><br></pre></td></tr></table></figure>
 
-<h3 id="vim中文乱码和ssh鼠标右键复制"><a href="#vim中文乱码和ssh鼠标右键复制" class="headerlink" title="vim中文乱码和ssh鼠标右键复制"></a>vim中文乱码和ssh鼠标右键复制</h3><p>编辑~/.vimrc添加</p>
+<h3 id="vim中文乱码和ssh鼠标右键复制"><a href="#vim中文乱码和ssh鼠标右键复制" class="headerlink" title="vim中文乱码和ssh鼠标右键复制"></a>vim中文乱码和ssh鼠标右键复制</h3><p>编辑~&#x2F;.vimrc添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set encoding=utf-8</span><br><span class="line">set mouse=r</span><br></pre></td></tr></table></figure>
 
 <h3 id="vim的主题设置vimrc"><a href="#vim的主题设置vimrc" class="headerlink" title="vim的主题设置vimrc"></a>vim的主题设置vimrc</h3><p><a target="_blank" rel="noopener" href="https://github.com/amix/vimrc">https://github.com/amix/vimrc</a></p>
 <h3 id="pip下载慢"><a href="#pip下载慢" class="headerlink" title="pip下载慢"></a>pip下载慢</h3><p>运行的时候添加参数 -i <a target="_blank" rel="noopener" href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></p>
-<p>永久修改的话，linux下新建或修改~/.pip/pip.conf，添加</p>
+<p>永久修改的话，linux下新建或修改~&#x2F;.pip&#x2F;pip.conf，添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">[install]</span><br><span class="line">trusted-host = https://pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure>
 
 <h2 id="更换默认终端"><a href="#更换默认终端" class="headerlink" title="更换默认终端"></a>更换默认终端</h2><h3 id="zsh"><a href="#zsh" class="headerlink" title="zsh"></a>zsh</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -S zsh</span><br></pre></td></tr></table></figure>
@@ -65,8 +275,8 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure>
 
 <p>安装主题powerlevel10k</p>
-<p>git clone –depth=1 <a target="_blank" rel="noopener" href="https://gitee.com/romkatv/powerlevel10k.git">https://gitee.com/romkatv/powerlevel10k.git</a> ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k</p>
-<p>编辑~/.zshrc</p>
+<p>git clone –depth&#x3D;1 <a target="_blank" rel="noopener" href="https://gitee.com/romkatv/powerlevel10k.git">https://gitee.com/romkatv/powerlevel10k.git</a> ${ZSH_CUSTOM:-$HOME&#x2F;.oh-my-zsh&#x2F;custom}&#x2F;themes&#x2F;powerlevel10k</p>
+<p>编辑~&#x2F;.zshrc</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ZSH_THEME=&quot;powerlevel10k/powerlevel10k&quot;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure>
@@ -77,10 +287,10 @@
 
 <h2 id="http-php-mysql服务器"><a href="#http-php-mysql服务器" class="headerlink" title="http,php,mysql服务器"></a>http,php,mysql服务器</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -S nginx php-fpm mysql</span><br></pre></td></tr></table></figure>
 
-<p>编辑/etc/nginx/nginx.conf，server下面添加</p>
+<p>编辑&#x2F;etc&#x2F;nginx&#x2F;nginx.conf，server下面添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root /srv/http;</span><br></pre></td></tr></table></figure>
 
-<p> location /{…}里修改</p>
+<p> location &#x2F;{…}里修改</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">       root /srv/http;</span><br><span class="line">       index index.html index.htm index.php;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
 
 <p>下面添加</p>
@@ -93,9 +303,9 @@
 <p>修改mysql密码mysql -u root -p</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">set password for root@localhost = password(&#x27;12332144&#x27;);</span><br><span class="line">FLUSH PRIVILEGES;</span><br><span class="line">quit;</span><br></pre></td></tr></table></figure>
 
-<p>备份数据库请复制/var/lib/mysql文件夹，粘贴后注意用户组</p>
-<p>修改/etc/php/php.ini，下面这行前的分号去掉</p>
-<p>extension=mysqli<br>extension=pdo_mysql</p>
+<p>备份数据库请复制&#x2F;var&#x2F;lib&#x2F;mysql文件夹，粘贴后注意用户组</p>
+<p>修改&#x2F;etc&#x2F;php&#x2F;php.ini，下面这行前的分号去掉</p>
+<p>extension&#x3D;mysqli<br>extension&#x3D;pdo_mysql</p>
 <p>启动服务</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable nginx</span><br><span class="line">systemctl enable php-fpm</span><br><span class="line">systemctl enable mariadb</span><br><span class="line">systemctl start nginx</span><br><span class="line">systemctl start php-fpm</span><br><span class="line">systemctl start mariadb</span><br></pre></td></tr></table></figure>
 
@@ -107,13 +317,13 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br></pre></td><td class="code"><pre><span class="line"># 文件的保存路径(可使用绝对路径或相对路径), 默认: 当前启动位置</span><br><span class="line">dir=/srv/ftp/upload</span><br><span class="line"></span><br><span class="line"># 启用磁盘缓存, 0为禁用缓存, 需1.16以上版本, 默认:16M</span><br><span class="line">disk-cache=30M</span><br><span class="line"></span><br><span class="line"># 文件预分配方式, 能有效降低磁盘碎片, 默认:prealloc</span><br><span class="line"># 预分配所需时间: none &lt; falloc ? trunc &lt; prealloc</span><br><span class="line"># falloc和trunc则需要文件系统和内核支持, NTFS建议使用falloc, EXT3/4建议trunc</span><br><span class="line">file-allocation=trunc</span><br><span class="line"></span><br><span class="line"># 断点续传</span><br><span class="line">continue=true</span><br><span class="line"></span><br><span class="line">log=/root/.aria2/aria2.log</span><br><span class="line"></span><br><span class="line">## 下载连接相关 ##</span><br><span class="line"></span><br><span class="line"># 最大同时下载任务数, 运行时可修改, 默认:5</span><br><span class="line">max-concurrent-downloads=10</span><br><span class="line"></span><br><span class="line"># 同一服务器连接数, 添加时可指定, 默认:1</span><br><span class="line">max-connection-per-server=15</span><br><span class="line"></span><br><span class="line"># 最小文件分片大小, 添加时可指定, 取值范围1M -1024M, 默认:20M</span><br><span class="line"># 假定size=10M, 文件为20MiB 则使用两个来源下载; 文件为15MiB 则使用一个来源下载</span><br><span class="line">min-split-size=5M</span><br><span class="line"></span><br><span class="line"># 单个任务最大线程数, 添加时可指定, 默认:5</span><br><span class="line">split=10</span><br><span class="line"></span><br><span class="line"># 整体下载速度限制, 运行时可修改, 默认:0</span><br><span class="line">max-overall-download-limit=0</span><br><span class="line"></span><br><span class="line"># 单个任务下载速度限制, 默认:0</span><br><span class="line">max-download-limit=0</span><br><span class="line"></span><br><span class="line"># 整体上传速度限制, 运行时可修改, 默认:0</span><br><span class="line">max-overall-upload-limit=20kb</span><br><span class="line"></span><br><span class="line"># 单个任务上传速度限制, 默认:0</span><br><span class="line">max-upload-limit=5kb</span><br><span class="line"></span><br><span class="line"># 禁用IPv6, 默认:false</span><br><span class="line">disable-ipv6=true</span><br><span class="line"></span><br><span class="line"># 禁用https证书检查</span><br><span class="line">check-certificate=false</span><br><span class="line"></span><br><span class="line">#运行覆盖已存在文件</span><br><span class="line">allow-overwrite=true</span><br><span class="line"></span><br><span class="line">#自动重命名</span><br><span class="line">auto-file-renaming=true</span><br><span class="line"></span><br><span class="line">## 进度保存相关 ##</span><br><span class="line"></span><br><span class="line"># 从会话文件中读取下载任务</span><br><span class="line">input-file=$&#123;HOME&#125;/.aria2/aria2.session</span><br><span class="line"></span><br><span class="line"># 在Aria2退出时保存`错误/未完成`的下载任务到会话文件</span><br><span class="line">save-session=$&#123;HOME&#125;/.aria2/aria2.session</span><br><span class="line"></span><br><span class="line"># 定时保存会话, 0为退出时才保存, 需1.16.1以上版本, 默认:0</span><br><span class="line">save-session-interval=0</span><br><span class="line"></span><br><span class="line">## RPC相关设置 ##</span><br><span class="line"></span><br><span class="line"># 启用RPC, 默认:false</span><br><span class="line">enable-rpc=true</span><br><span class="line"></span><br><span class="line"># 允许所有来源, 默认:false</span><br><span class="line">rpc-allow-origin-all=true</span><br><span class="line"></span><br><span class="line"># 允许非外部访问, 默认:false</span><br><span class="line">rpc-listen-all=true</span><br><span class="line"></span><br><span class="line"># 事件轮询方式, 取值:[epoll, kqueue, port, poll, select], 不同系统默认值不同</span><br><span class="line">#event-poll=select</span><br><span class="line"></span><br><span class="line"># RPC监听端口, 端口被占用时可以修改, 默认:6800</span><br><span class="line">rpc-listen-port=6800</span><br><span class="line"></span><br><span class="line">#RPC 密码</span><br><span class="line">#rpc-secret=</span><br><span class="line"></span><br><span class="line"># 保存上传的种子文件## BT/PT下载相关 ##</span><br><span class="line"></span><br><span class="line"># 当下载的是一个种子(以.torrent结尾)时, 自动开始BT任务, 默认:true</span><br><span class="line">follow-torrent=true</span><br><span class="line"></span><br><span class="line"># BT监听端口, 当端口被屏蔽时使用, 默认:6881-6999</span><br><span class="line">listen-port=51413</span><br><span class="line"></span><br><span class="line"># 单个种子最大连接数, 默认:55</span><br><span class="line">#bt-max-peers=55</span><br><span class="line"></span><br><span class="line"># 打开DHT功能, PT需要禁用, 默认:true</span><br><span class="line">enable-dht=true</span><br><span class="line"></span><br><span class="line"># 打开IPv6 DHT功能, PT需要禁用</span><br><span class="line">enable-dht6=false</span><br><span class="line"></span><br><span class="line"># DHT网络监听端口, 默认:6881-6999</span><br><span class="line">#dht-listen-port=6881-6999</span><br><span class="line"></span><br><span class="line"># 本地节点查找, PT需要禁用, 默认:false</span><br><span class="line">bt-enable-lpd=true</span><br><span class="line"></span><br><span class="line"># 种子交换, PT需要禁用, 默认:true</span><br><span class="line">enable-peer-exchange=true</span><br><span class="line"></span><br><span class="line"># 每个种子限速, 对少种的PT很有用, 默认:50K</span><br><span class="line">#bt-request-peer-speed-limit=50K</span><br><span class="line"></span><br><span class="line"># 客户端伪装, PT需要</span><br><span class="line">peer-id-prefix=-UT341-</span><br><span class="line"></span><br><span class="line"># user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763</span><br><span class="line"></span><br><span class="line"># 当种子的分享率达到这个数时, 自动停止做种, 0为一直做种, 默认:1.0</span><br><span class="line">seed-ratio=1.0</span><br><span class="line"></span><br><span class="line"># 强制保存会话, 话即使任务已经完成, 默认:false</span><br><span class="line"># 较新的版本开启后会在任务完成后依然保留.aria2文件</span><br><span class="line">#force-save=false</span><br><span class="line"># BT校验相关, 默认:true</span><br><span class="line">#bt-hash-check-seed=true</span><br><span class="line"># 继续之前的BT任务时, 无需再次校验, 默认:false</span><br><span class="line">bt-seed-unverified=true</span><br><span class="line"># 保存磁力链接元数据为种子文件(.torrent文件), 默认:falsefollow-torrent=mem</span><br><span class="line"></span><br><span class="line">daemon=true</span><br><span class="line"></span><br><span class="line">bt-tracker=udp://93.158.213.92:1337/announce,udp://151.80.120.112:2810/announce,udp://208.83.20.20:6969/announce,udp://91.216.110.52:451/announce,udp://89.234.156.205:451/announce,udp://65.108.63.133:80/announce,udp://163.172.170.127:6969/announce,udp://45.14.225.8:1337/announce,udp://51.81.46.170:6969/announce,udp://185.181.60.155:80/announce,udp://148.251.53.72:6969/announce,udp://184.105.151.166:6969/announce,udp://207.241.226.111:6969/announce</span><br></pre></td></tr></table></figure>
 
 <p>bt-tracker在这里获取<a target="_blank" rel="noopener" href="https://github.com/ngosang/trackerslist">https://github.com/ngosang/trackerslist</a></p>
-<p>编辑/etc/systemd/system/aria2c.service</p>
+<p>编辑&#x2F;etc&#x2F;systemd&#x2F;system&#x2F;aria2c.service</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=Aria2 Daemon</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=forking</span><br><span class="line">ExecStart=/usr/bin/aria2c --conf-path=/root/.aria2/aria2.conf</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=default.target</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable aria2c </span><br><span class="line">systemctl start aria2c</span><br></pre></td></tr></table></figure>
 
 <p>下载<a target="_blank" rel="noopener" href="https://github.com/mayswind/AriaNg/releases">https://github.com/mayswind/AriaNg/releases</a> ，AriaNg-1.2.3-AllInOne.zip，到http目录，新建文件夹aria，复制index.html进去，就可以网页运行管理了</p>
-<h3 id="挂载u盘"><a href="#挂载u盘" class="headerlink" title="挂载u盘"></a>挂载u盘</h3><p>vim /etc/fstab</p>
+<h3 id="挂载u盘"><a href="#挂载u盘" class="headerlink" title="挂载u盘"></a>挂载u盘</h3><p>vim &#x2F;etc&#x2F;fstab</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/dev/sda1               /srv/ftp/udisk  vfat            defaults,noatime        0 0</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount -a</span><br></pre></td></tr></table></figure>
@@ -122,18 +332,18 @@
 <p>或者 <a target="_blank" rel="noopener" href="https://github.com/mayswind/AriaNg-Native/releases">https://github.com/mayswind/AriaNg-Native/releases</a> 也可以</p>
 <p>后端 <a target="_blank" rel="noopener" href="https://github.com/aria2/aria2/releases">https://github.com/aria2/aria2/releases</a></p>
 <p>input-file和save-session的路径需要新建一个文件.txt并改成.session</p>
-<p>后端解压后，命令行下运行命令E:\aria2-1.36.0-win-64bit-build1\aria2c.exe  –conf-path=E:\aria2\aria2.conf –enable-rpc –rpc-listen-all –rpc-allow-origin-all –file-allocation=falloc –rpc-secret=密码 -c –dir D:\Downloads\aria2 -D，在网页前端里，密码填到ariang设置右侧rpc中，可以把这条命令添加到一个bat文件中一键启动</p>
+<p>后端解压后，命令行下运行命令E:\aria2-1.36.0-win-64bit-build1\aria2c.exe  –conf-path&#x3D;E:\aria2\aria2.conf –enable-rpc –rpc-listen-all –rpc-allow-origin-all –file-allocation&#x3D;falloc –rpc-secret&#x3D;密码 -c –dir D:\Downloads\aria2 -D，在网页前端里，密码填到ariang设置右侧rpc中，可以把这条命令添加到一个bat文件中一键启动</p>
 <h3 id="浏览器下下载百度盘和阿里盘"><a href="#浏览器下下载百度盘和阿里盘" class="headerlink" title="浏览器下下载百度盘和阿里盘"></a>浏览器下下载百度盘和阿里盘</h3><p>浏览器安装tampermonkey插件</p>
 <p>安装这个脚本<a target="_blank" rel="noopener" href="https://greasyfork.org/zh-CN/scripts/438022-%E6%B4%BE%E6%B4%BE%E5%8A%A9%E6%89%8B-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E5%B7%A5%E5%85%B7%E7%AE%B1%E7%9B%B4%E9%93%BE%E8%A7%A3%E6%9E%90-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0">https://greasyfork.org/zh-CN/scripts/438022-%E6%B4%BE%E6%B4%BE%E5%8A%A9%E6%89%8B-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E5%B7%A5%E5%85%B7%E7%AE%B1%E7%9B%B4%E9%93%BE%E8%A7%A3%E6%9E%90-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0 </a></p>
 <p>打开上面的bat文件，网页选取文件，百度盘左上，阿里盘右上直链助手，解析后发到aria或rpc下载，可能需要配置</p>
-<p>主机<a target="_blank" rel="noopener" href="http://localhost/">http://localhost</a> 端口6800 路径/jsonrpc 密钥你设置的密码</p>
+<p>主机<a target="_blank" rel="noopener" href="http://localhost/">http://localhost</a> 端口6800 路径&#x2F;jsonrpc 密钥你设置的密码</p>
 <h2 id="webdav服务器"><a href="#webdav服务器" class="headerlink" title="webdav服务器"></a>webdav服务器</h2><p>用途：静读天下同步阅读进度和标注，或者其他一些小文件</p>
 <p>参照<a href="https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/">搭建webdav服务器实现静读天下同步</a></p>
 <p>目前的使用方式：静读天下专业版同步，joplin同步</p>
 <h2 id="ftp服务器"><a href="#ftp服务器" class="headerlink" title="ftp服务器"></a>ftp服务器</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -S vsftpd</span><br></pre></td></tr></table></figure>
 
 <p>可以匿名上传文件，进行如下设置：ftp目录权限755，用户组root:ftp，里面新建文件夹upload，权限777，用户组root:root</p>
-<p>在/etc/vsftpd.conf里添加</p>
+<p>在&#x2F;etc&#x2F;vsftpd.conf里添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">anonymous_enable=YES</span><br><span class="line">write_enable=YES</span><br><span class="line">anon_mkdir_write_enable=YES</span><br><span class="line">anon_root=/srv/ftp</span><br><span class="line">anon_other_write_enable=YES</span><br><span class="line">anon_umask=022</span><br><span class="line">anon_upload_enable=YES</span><br><span class="line">no_anon_password=YES</span><br></pre></td></tr></table></figure>
 
 <p>ftp目录权限755，用户组root:ftp，里面新建文件夹upload，权限777，用户组root:root</p>
@@ -150,7 +360,7 @@
 <h2 id="samba服务器"><a href="#samba服务器" class="headerlink" title="samba服务器"></a>samba服务器</h2><p>用途：给perfect viewer远程看漫画，和电脑共享方式类似，可以和ftp的upload设置在同一个目录</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pacman -S samba</span><br><span class="line">useradd guest -s /bin/nologin</span><br></pre></td></tr></table></figure>
 
-<p>新建/etc/samba/smb.conf填以下内容</p>
+<p>新建&#x2F;etc&#x2F;samba&#x2F;smb.conf填以下内容</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">security = user</span><br><span class="line">map to guest = bad user</span><br><span class="line">guest account = guest</span><br><span class="line"></span><br><span class="line">[pi3]</span><br><span class="line">    comment = guest</span><br><span class="line">    path = /srv/ftp/</span><br><span class="line">    public = yes</span><br><span class="line">    only guest = yes</span><br><span class="line">    writable = yes</span><br><span class="line">    printable = no</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>启动服务</p>
@@ -161,7 +371,7 @@
 <p>树莓派下载linux-armv7-filebrowser.tar.gz<br>nuc下载linux-amd64-filebrowser.tar.gz</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">chmod +x filebrowser</span><br><span class="line">mv filebrowser /usr/bin</span><br><span class="line">cd /etc</span><br><span class="line">filebrowser config init </span><br><span class="line">filebrowser -d /etc/filebrowser.db config set --locale zh-cn</span><br><span class="line">filebrowser -d /etc/filebrowser.db config set --address 0.0.0.0</span><br><span class="line">filebrowser -d /etc/filebrowser.db config set --port 8080</span><br><span class="line">filebrowser -d /etc/filebrowser.db users add username userpassword --perm.admin</span><br></pre></td></tr></table></figure>
 
-<p>新建文件/etc/systemd/system/filebrowser.service并填写，注意修改路径和ip</p>
+<p>新建文件&#x2F;etc&#x2F;systemd&#x2F;system&#x2F;filebrowser.service并填写，注意修改路径和ip</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=filebrowser</span><br><span class="line">After=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=simple</span><br><span class="line">User=root</span><br><span class="line">ExecStart=/usr/bin/filebrowser -d /etc/filebrowser.db</span><br><span class="line">Restart=on-failure</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable filebrowser</span><br><span class="line">systemctl start filebrowser</span><br></pre></td></tr></table></figure>
@@ -213,14 +423,14 @@
 <p>升级home assistant</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install --upgrade homeassistant home-assistant-frontend</span><br></pre></td></tr></table></figure>
 
-<h3 id="如果升级失败，出现building-wheel"><a href="#如果升级失败，出现building-wheel" class="headerlink" title="如果升级失败，出现building wheel"></a>如果升级失败，出现building wheel</h3><p>编辑/etc/pip.conf添加</p>
+<h3 id="如果升级失败，出现building-wheel"><a href="#如果升级失败，出现building-wheel" class="headerlink" title="如果升级失败，出现building wheel"></a>如果升级失败，出现building wheel</h3><p>编辑&#x2F;etc&#x2F;pip.conf添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">extra-index-url=https://www.piwheels.org/simple</span><br></pre></td></tr></table></figure>
 
 <p>或尝试</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install --upgrade homeassistant --no-deps</span><br></pre></td></tr></table></figure>
 
 <h3 id="启动时Error"><a href="#启动时Error" class="headerlink" title="启动时Error"></a>启动时Error</h3><p>ERROR (MainThread) [homeassistant.setup] Error during setup of component cloud</p>
-<p>编辑/usr/lib/python3.10/site-packages/homeassistant/components/cloud/<strong>init</strong>.py第297行添加#</p>
+<p>编辑&#x2F;usr&#x2F;lib&#x2F;python3.10&#x2F;site-packages&#x2F;homeassistant&#x2F;components&#x2F;cloud&#x2F;<strong>init</strong>.py第297行添加#</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#cloud.register_on_initialized(_on_initialized)</span><br></pre></td></tr></table></figure>
 
 <h3 id="获取小米设备token"><a href="#获取小米设备token" class="headerlink" title="获取小米设备token"></a>获取小米设备token</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install pycryptodome pybase64 requests</span><br></pre></td></tr></table></figure>
@@ -229,8 +439,8 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 token_extractor.py</span><br></pre></td></tr></table></figure>
 
 <p>地址192.168.1.你的ip:8123，配置，集成，添加集成，xiaomi miio，手动配置，添加ip和token</p>
-<p>root配置文件默认保存在/root/.homeasistant/.storage</p>
-<h3 id="添加萤石摄像头"><a href="#添加萤石摄像头" class="headerlink" title="添加萤石摄像头"></a>添加萤石摄像头</h3><p>编辑/root/.homeassistant/configuration.yaml</p>
+<p>root配置文件默认保存在&#x2F;root&#x2F;.homeasistant&#x2F;.storage</p>
+<h3 id="添加萤石摄像头"><a href="#添加萤石摄像头" class="headerlink" title="添加萤石摄像头"></a>添加萤石摄像头</h3><p>编辑&#x2F;root&#x2F;.homeassistant&#x2F;configuration.yaml</p>
 <p>添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"> camera:</span><br><span class="line">- platform: ffmpeg</span><br><span class="line">  name: 摄像头名</span><br><span class="line">  input: -rtsp_transport tcp -i rtsp://admin:六位大写字幕，见摄像头底下贴纸前6位@192.168.1.你的ip:554/h264/ch1/main/av_stream</span><br></pre></td></tr></table></figure>
 
@@ -240,7 +450,7 @@
 <p>home assistant管理界面，概览，右上角编辑仪表盘，右下添加卡片，图片实体，实体选择添加的摄像头</p>
 <h3 id="添加pm2-5信息"><a href="#添加pm2-5信息" class="headerlink" title="添加pm2.5信息"></a>添加pm2.5信息</h3><p>pm2.5信息来源</p>
 <p><a href="https://andi.wang/2017/05/15/%E6%A0%91%E8%8E%93%E6%B4%BE3B%E5%92%8C%E6%94%80%E8%97%A4PMS5003ST/">https://andi.wang/2017/05/15/%E6%A0%91%E8%8E%93%E6%B4%BE3B%E5%92%8C%E6%94%80%E8%97%A4PMS5003ST/</a></p>
-<p>编辑/root/.homeassistant/configuration.yaml</p>
+<p>编辑&#x2F;root&#x2F;.homeassistant&#x2F;configuration.yaml</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">homeassistant:</span><br><span class="line">  allowlist_external_dirs:</span><br><span class="line">    - &quot;/srv/http/pm25&quot;</span><br><span class="line"></span><br><span class="line">sensor:</span><br><span class="line">- platform: file</span><br><span class="line">  name: Temperature</span><br><span class="line">  file_path: /srv/http/pm25/data.json</span><br><span class="line">  unit_of_measurement: &quot;°C&quot;</span><br><span class="line">  value_template: &#x27;&#123;&#123; value_json.temperature &#125;&#125;&#x27;</span><br><span class="line">- platform: file</span><br><span class="line">  name: Humidity</span><br><span class="line">  file_path: /srv/http/pm25/data.json</span><br><span class="line">  unit_of_measurement: &quot;%&quot;</span><br><span class="line">  value_template: &#x27;&#123;&#123; value_json.humidity &#125;&#125;&#x27;</span><br><span class="line">- platform: file</span><br><span class="line">  name: PM2.5</span><br><span class="line">  file_path: /srv/http/pm25/data.json</span><br><span class="line">  unit_of_measurement: &quot;μg/m³&quot;</span><br><span class="line">  value_template: &#x27;&#123;&#123; value_json.pm25 &#125;&#125;&#x27;</span><br></pre></td></tr></table></figure>
 
 <p>重启服务后添加卡片，实体</p>
@@ -255,13 +465,121 @@
 <p>重启home assistant，清除浏览器数据后，配置集成里添加hacs，按步骤连接github，连接不稳定可能要重试很多次</p>
 <p>成功后左边出现hacs栏，右下角浏览下载自己需要的插件</p>
 <p>在configuration.yaml按照对应的github说明添加设备，在重启服务后实体卡片添加就可以用了</p>
-</div><div class="article-licensing box"><div class="licensing-title"><p>使用archlinux搭建家庭数据服务中心</p><p><a href="https://andi.wang/2022/01/26/使用archlinux搭建家庭数据服务中心/">https://andi.wang/2022/01/26/使用archlinux搭建家庭数据服务中心/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Andy</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2022-01-26</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2023-12-23</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E7%A8%8B%E5%BA%8F/">程序</a><a class="link-muted mr-2" rel="tag" href="/tags/Raspberry/">Raspberry</a><a class="link-muted mr-2" rel="tag" href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</a><a class="link-muted mr-2" rel="tag" href="/tags/nuc/">nuc</a></div><!--!--></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button donate" data-type="alipay"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="/img/alipay.png" alt="支付宝"></span></a><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/img/weixin.png" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">几个PyQt程序</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2022/01/26/linux%E7%AC%94%E8%AE%B0/"><span class="level-item">linux笔记</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><a href="/"><img class="avatar" src="/img/avatar.jpg" alt="Andy"></a></figure><a href="/"><p class="title is-size-4 is-block" style="line-height:inherit;">Andy</p></a><p class="is-size-6 is-block">如果我会发光，就不必害怕黑暗。</p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">56</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">6</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">72</p></a></div></div></nav><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/wangandi520">Github</a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="BiliBili" href="https://space.bilibili.com/1952945">BiliBili</a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#更新时间：2023年11月21日"><span class="level-left"><span class="level-item">1</span><span class="level-item">更新时间：2023年11月21日</span></span></a></li><li><a class="level is-mobile" href="#平台"><span class="level-left"><span class="level-item">2</span><span class="level-item">平台</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#树莓派"><span class="level-left"><span class="level-item">2.1</span><span class="level-item">树莓派</span></span></a></li><li><a class="level is-mobile" href="#nuc"><span class="level-left"><span class="level-item">2.2</span><span class="level-item">nuc</span></span></a></li></ul></li><li><a class="level is-mobile" href="#操作需要的知识"><span class="level-left"><span class="level-item">3</span><span class="level-item">操作需要的知识</span></span></a></li><li><a class="level is-mobile" href="#archlinuxarm在树莓派3B上的安装方法"><span class="level-left"><span class="level-item">4</span><span class="level-item">archlinuxarm在树莓派3B上的安装方法</span></span></a></li><li><a class="level is-mobile" href="#archlinux在nuc上的安装方法"><span class="level-left"><span class="level-item">5</span><span class="level-item">archlinux在nuc上的安装方法</span></span></a></li><li><a class="level is-mobile" href="#基本软件"><span class="level-left"><span class="level-item">6</span><span class="level-item">基本软件</span></span></a></li><li><a class="level is-mobile" href="#基本设置"><span class="level-left"><span class="level-item">7</span><span class="level-item">基本设置</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#时区"><span class="level-left"><span class="level-item">7.1</span><span class="level-item">时区</span></span></a></li></ul></li><li><a class="level is-mobile" href="#修改ls时间显示格式"><span class="level-left"><span class="level-item">8</span><span class="level-item">修改ls时间显示格式</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#vim中文乱码和ssh鼠标右键复制"><span class="level-left"><span class="level-item">8.1</span><span class="level-item">vim中文乱码和ssh鼠标右键复制</span></span></a></li><li><a class="level is-mobile" href="#vim的主题设置vimrc"><span class="level-left"><span class="level-item">8.2</span><span class="level-item">vim的主题设置vimrc</span></span></a></li><li><a class="level is-mobile" href="#pip下载慢"><span class="level-left"><span class="level-item">8.3</span><span class="level-item">pip下载慢</span></span></a></li></ul></li><li><a class="level is-mobile" href="#更换默认终端"><span class="level-left"><span class="level-item">9</span><span class="level-item">更换默认终端</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#zsh"><span class="level-left"><span class="level-item">9.1</span><span class="level-item">zsh</span></span></a></li><li><a class="level is-mobile" href="#zsh快捷键"><span class="level-left"><span class="level-item">9.2</span><span class="level-item">zsh快捷键</span></span></a></li></ul></li><li><a class="level is-mobile" href="#cron定时运行"><span class="level-left"><span class="level-item">10</span><span class="level-item">cron定时运行</span></span></a></li><li><a class="level is-mobile" href="#http-php-mysql服务器"><span class="level-left"><span class="level-item">11</span><span class="level-item">http,php,mysql服务器</span></span></a></li><li><a class="level is-mobile" href="#aria下载服务器"><span class="level-left"><span class="level-item">12</span><span class="level-item">aria下载服务器</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#linux下"><span class="level-left"><span class="level-item">12.1</span><span class="level-item">linux下</span></span></a></li><li><a class="level is-mobile" href="#挂载u盘"><span class="level-left"><span class="level-item">12.2</span><span class="level-item">挂载u盘</span></span></a></li><li><a class="level is-mobile" href="#windows下"><span class="level-left"><span class="level-item">12.3</span><span class="level-item">windows下</span></span></a></li><li><a class="level is-mobile" href="#浏览器下下载百度盘和阿里盘"><span class="level-left"><span class="level-item">12.4</span><span class="level-item">浏览器下下载百度盘和阿里盘</span></span></a></li></ul></li><li><a class="level is-mobile" href="#webdav服务器"><span class="level-left"><span class="level-item">13</span><span class="level-item">webdav服务器</span></span></a></li><li><a class="level is-mobile" href="#ftp服务器"><span class="level-left"><span class="level-item">14</span><span class="level-item">ftp服务器</span></span></a></li><li><a class="level is-mobile" href="#签到脚本"><span class="level-left"><span class="level-item">15</span><span class="level-item">签到脚本</span></span></a></li><li><a class="level is-mobile" href="#空气质量检测系统"><span class="level-left"><span class="level-item">16</span><span class="level-item">空气质量检测系统</span></span></a></li><li><a class="level is-mobile" href="#samba服务器"><span class="level-left"><span class="level-item">17</span><span class="level-item">samba服务器</span></span></a></li><li><a class="level is-mobile" href="#文件管理"><span class="level-left"><span class="level-item">18</span><span class="level-item">文件管理</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#filebrowser"><span class="level-left"><span class="level-item">18.1</span><span class="level-item">filebrowser</span></span></a></li></ul></li><li><a class="level is-mobile" href="#Resilio-Sync（BitTorrent-Sync）文件同步"><span class="level-left"><span class="level-item">19</span><span class="level-item">Resilio Sync（BitTorrent Sync）文件同步</span></span></a></li><li><a class="level is-mobile" href="#获取路由器ip的方法"><span class="level-left"><span class="level-item">20</span><span class="level-item">获取路由器ip的方法</span></span></a></li><li><a class="level is-mobile" href="#home-assistant智能家居"><span class="level-left"><span class="level-item">21</span><span class="level-item">home assistant智能家居</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#如果升级失败，出现building-wheel"><span class="level-left"><span class="level-item">21.1</span><span class="level-item">如果升级失败，出现building wheel</span></span></a></li><li><a class="level is-mobile" href="#启动时Error"><span class="level-left"><span class="level-item">21.2</span><span class="level-item">启动时Error</span></span></a></li><li><a class="level is-mobile" href="#获取小米设备token"><span class="level-left"><span class="level-item">21.3</span><span class="level-item">获取小米设备token</span></span></a></li><li><a class="level is-mobile" href="#添加萤石摄像头"><span class="level-left"><span class="level-item">21.4</span><span class="level-item">添加萤石摄像头</span></span></a></li><li><a class="level is-mobile" href="#添加pm2-5信息"><span class="level-left"><span class="level-item">21.5</span><span class="level-item">添加pm2.5信息</span></span></a></li><li><a class="level is-mobile" href="#安装hacs"><span class="level-left"><span class="level-item">21.6</span><span class="level-item">安装hacs</span></span></a></li></ul></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="/guitar" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">吉他和弦生成</span></span></a></li><li><a class="level is-mobile" href="/mahjong" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">麻将牌谱生成</span></span></a></li><li><a class="level is-mobile" href="/2" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">漫画补页下载</span></span></a></li><li><a class="level is-mobile" href="/3" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">漫画整理脚本</span></span></a></li><li><a class="level is-mobile" href="/0" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">电子书漫画制作交流QQ群1321993</span></span></a></li></ul></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%E4%B8%AA%E4%BA%BA/"><span class="level-start"><span class="level-item">个人</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/%E5%90%89%E4%BB%96/"><span class="level-start"><span class="level-item">吉他</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span class="level-start"><span class="level-item">学习笔记</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/categories/%E7%A8%8B%E5%BA%8F/"><span class="level-start"><span class="level-item">程序</span></span><span class="level-end"><span class="level-item tag">20</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%AF%84%E6%B5%8B/"><span class="level-start"><span class="level-item">评测</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"><span class="level-start"><span class="level-item">读书笔记</span></span><span class="level-end"><span class="level-item tag">15</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/NeeView/"><span class="tag">NeeView</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/OpenWrt/"><span class="tag">OpenWrt</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PDF/"><span class="tag">PDF</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PM2-5/"><span class="tag">PM2.5</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PMS5003ST/"><span class="tag">PMS5003ST</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Qt/"><span class="tag">Qt</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/REAPER/"><span class="tag">REAPER</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Raspberry/"><span class="tag">Raspberry</span><span class="tag">7</span></a></div><div class="control"><a class="tags has-addons" href="/tags/archlinuxarm/"><span class="tag">archlinuxarm</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/bash/"><span class="tag">bash</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/boox/"><span class="tag">boox</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/hexo/"><span class="tag">hexo</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/html/"><span class="tag">html</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/icarus/"><span class="tag">icarus</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/javascript/"><span class="tag">javascript</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/kali/"><span class="tag">kali</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/kindle/"><span class="tag">kindle</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/koreader/"><span class="tag">koreader</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/linux/"><span class="tag">linux</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/markdown/"><span class="tag">markdown</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/nuc/"><span class="tag">nuc</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/padavan/"><span class="tag">padavan</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/php/"><span class="tag">php</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/python/"><span class="tag">python</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/webdav/"><span class="tag">webdav</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/y700/"><span class="tag">y700</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E4%B9%A6/"><span class="tag">书</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E4%BD%99%E5%8D%8E/"><span class="tag">余华</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%88%B7%E6%9C%BA/"><span class="tag">刷机</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%8D%95%E8%BD%A6/"><span class="tag">单车</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%90%89%E4%BB%96/"><span class="tag">吉他</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span class="tag">学习笔记</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%BC%B9%E5%BC%93/"><span class="tag">弹弓</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/"><span class="tag">微信读书</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%BE%AE%E9%9B%AA/"><span class="tag">微雪</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%8A%95%E8%B5%84/"><span class="tag">投资</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%8C%87%E5%BC%B9/"><span class="tag">指弹</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%91%84%E5%BD%B1/"><span class="tag">摄影</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%91%98%E6%8A%84/"><span class="tag">摘抄</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%94%80%E8%97%A4/"><span class="tag">攀藤</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%96%87%E5%9F%8E/"><span class="tag">文城</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%96%87%E7%9F%B3/"><span class="tag">文石</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%97%A5%E8%AF%AD/"><span class="tag">日语</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%A0%87%E6%B3%A8/"><span class="tag">标注</span><span class="tag">12</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"><span class="tag">树莓派</span><span class="tag">7</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%AD%8C%E8%AF%8D/"><span class="tag">歌词</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%BC%AB%E7%94%BB/"><span class="tag">漫画</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"><span class="tag">王小波</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E5%90%89%E4%BB%96/"><span class="tag">电吉他</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E5%BD%B1/"><span class="tag">电影</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"><span class="tag">电纸书</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/"><span class="tag">电脑手机技巧</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/"><span class="tag">电脑技巧</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"><span class="tag">电视剧</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC/"><span class="tag">百年孤独</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%A8%8B%E5%BA%8F/"><span class="tag">程序</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"><span class="tag">红楼梦</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%BE%BD%E6%AF%9B%E7%90%83/"><span class="tag">羽毛球</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%8B%B1%E8%AF%AD/"><span class="tag">英语</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%A5%BF%E6%B8%B8%E8%AE%B0/"><span class="tag">西游记</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%AF%84%E6%B5%8B/"><span class="tag">评测</span><span class="tag">5</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"><span class="tag">读书笔记</span><span class="tag">11</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"><span class="tag">路由器</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%81%A5%E8%BF%9C%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5%E5%9C%B0/"><span class="tag">遥远的向日葵地</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%92%B1%E7%A9%86/"><span class="tag">钱穆</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%98%85%E8%AF%BB/"><span class="tag">阅读</span><span class="tag">14</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"><span class="tag">静读天下专业版</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9F%B3%E4%B9%90/"><span class="tag">音乐</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9F%B3%E9%A2%91/"><span class="tag">音频</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"><span class="tag">食品用品</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%AD%94%E6%96%B9/"><span class="tag">魔方</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%BA%BB%E5%B0%86/"><span class="tag">麻将</span><span class="tag">1</span></a></div></div></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/avatar.jpg" alt="Andy&#039;s word" height="28"></a><p class="is-size-7"><span>&copy; 2024 Andy</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a><br><span id="busuanzi_container_site_uv">共<span id="busuanzi_value_site_uv">0</span>个访客</span></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
-            article: {
-                highlight: {
-                    clipboard: true,
-                    fold: 'unfolded'
-                }
-            }
-        };</script><script src="/js/column.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
-            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
-        });</script></body></html>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%A8%8B%E5%BA%8F/" rel="tag"># 程序</a>
+              <a href="/tags/Raspberry/" rel="tag"># Raspberry</a>
+              <a href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/" rel="tag"># 树莓派</a>
+              <a href="/tags/nuc/" rel="tag"># nuc</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/01/26/linux%E7%AC%94%E8%AE%B0/" rel="prev" title="linux笔记">
+                  <i class="fa fa-angle-left"></i> linux笔记
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/" rel="next" title="几个PyQt程序">
+                  几个PyQt程序 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Andy</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wangandi520","repo":"wangandi520.github.io","client_id":"4608a30c8bf01d212dc2","client_secret":"1728dfa6fb7625b83daa2e898ab26b0b82d475f2","admin_user":"wangandi520","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":["zh-CN","zh-TW","en"],"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"b7f313ded40e6e7728fa8871e79de967"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>

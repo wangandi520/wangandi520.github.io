@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Andy&#39;s word</title>
   
-  <subtitle>“假如本书有怪诞的地方，则非作者有意为之，而是历史的本来面貌。”</subtitle>
+  <subtitle>如果我会发光，就不必害怕黑暗。</subtitle>
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
@@ -416,7 +416,7 @@
     <summary type="html">&lt;hr&gt;
 &lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;印刷错误、扫描错误、修图改图和谐等问题。&lt;/p&gt;
 &lt;p&gt;2023.10.28&lt;/p&gt;
-&lt;h2 id=&quot;自制补页下载&quot;&gt;&lt;a href=&quot;#自制补页下载&quot; class=&quot;headerlink&quot; title=&quot;自制补页下载&quot;&gt;&lt;/a&gt;自制补页下载&lt;/h2&gt;&lt;p&gt;下载地址：&lt;a href=&quot;https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528&quot;&gt;https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;h2 id=&quot;自制补页下载&quot;&gt;&lt;a href=&quot;#自制补页下载&quot; class=&quot;headerlink&quot; title=&quot;自制补页下载&quot;&gt;&lt;/a&gt;自制补页下载&lt;/h2&gt;&lt;p&gt;下载地址：&lt;a href=&quot;https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528&quot;&gt;https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd&amp;#x3D;p528&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -489,7 +489,7 @@
     
     <summary type="html">&lt;hr&gt;
 &lt;h2 id=&quot;pip下载速度慢&quot;&gt;&lt;a href=&quot;#pip下载速度慢&quot; class=&quot;headerlink&quot; title=&quot;pip下载速度慢&quot;&gt;&lt;/a&gt;pip下载速度慢&lt;/h2&gt;&lt;p&gt;运行的时候添加参数 -i &lt;a href=&quot;https://pypi.tuna.tsinghua.edu.cn/simple&quot;&gt;https://pypi.tuna.tsinghua.edu.cn/simple&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;永久修改，linux下新建或修改~/.pip/pip.conf&lt;/p&gt;
+&lt;p&gt;永久修改，linux下新建或修改~&amp;#x2F;.pip&amp;#x2F;pip.conf&lt;/p&gt;
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[global]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;index-url = https://pypi.tuna.tsinghua.edu.cn/simple&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[install]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;trusted-host = https://pypi.tuna.tsinghua.edu.cn&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     

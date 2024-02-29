@@ -1,58 +1,266 @@
-<!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>linux笔记 - Andy&#039;s word</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Andy&#039;s word"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Andy&#039;s word"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="pip下载速度慢运行的时候添加参数 -i https:&amp;#x2F;&amp;#x2F;pypi.tuna.tsinghua.edu.cn&amp;#x2F;simple 永久修改，linux下新建或修改~&amp;#x2F;.pip&amp;#x2F;pip.conf 1234[global]index-url &amp;#x3D; https:&amp;#x2F;&amp;#x2F;pypi.tuna.tsinghua.edu.cn&amp;#x2F;simple[install]trusted-host &amp;#x3D; https:&amp;#x2F;&amp;#x2F;pypi.tuna"><meta property="og:type" content="blog"><meta property="og:title" content="linux笔记"><meta property="og:url" content="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"><meta property="og:site_name" content="Andy&#039;s word"><meta property="og:description" content="pip下载速度慢运行的时候添加参数 -i https:&amp;#x2F;&amp;#x2F;pypi.tuna.tsinghua.edu.cn&amp;#x2F;simple 永久修改，linux下新建或修改~&amp;#x2F;.pip&amp;#x2F;pip.conf 1234[global]index-url &amp;#x3D; https:&amp;#x2F;&amp;#x2F;pypi.tuna.tsinghua.edu.cn&amp;#x2F;simple[install]trusted-host &amp;#x3D; https:&amp;#x2F;&amp;#x2F;pypi.tuna"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://andi.wang/img/og_image.png"><meta property="article:published_time" content="2022-01-26T10:11:42.000Z"><meta property="article:modified_time" content="2022-09-23T08:30:07.493Z"><meta property="article:author" content="Andy"><meta property="article:tag" content="程序"><meta property="article:tag" content="linux"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://andi.wang/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"},"headline":"linux笔记","image":["https://andi.wang/img/og_image.png"],"datePublished":"2022-01-26T10:11:42.000Z","dateModified":"2022-09-23T08:30:07.493Z","author":{"@type":"Person","name":"Andy"},"publisher":{"@type":"Organization","name":"Andy's word","logo":{"@type":"ImageObject","url":"https://andi.wang/img/avatar.jpg"}},"description":"pip下载速度慢运行的时候添加参数 -i https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple 永久修改，linux下新建或修改~&#x2F;.pip&#x2F;pip.conf 1234[global]index-url &#x3D; https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple[install]trusted-host &#x3D; https:&#x2F;&#x2F;pypi.tuna"}</script><link rel="canonical" href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.css"><link rel="stylesheet" href="/css/google.css"><link rel="stylesheet" href="/css/default.css"><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><!--!--><!--!--><!-- hexo injector head_end start --><script>
-  (function () {
-      function switchTab() {
-          if (!location.hash) {
-            return;
-          }
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.0.0">
 
-          const id = '#' + CSS.escape(location.hash.substring(1));
-          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
-          if (!$tabMenu) {
-            return;
-          }
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
-          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
-          Array.from($tabMenuContainer.querySelectorAll('a'))
-              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
-              .forEach($content => $content.classList.add('is-hidden'));
+<link rel="stylesheet" href="/css/main.css">
 
-          if ($tabMenu) {
-              $tabMenu.parentElement.classList.add('is-active');
-          }
-          const $activeTab = document.querySelector(id);
-          if ($activeTab) {
-              $activeTab.classList.remove('is-hidden');
-          }
-      }
-      switchTab();
-      window.addEventListener('hashchange', switchTab, false);
-  })();
-  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
-</head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/avatar.jpg" alt="Andy&#039;s word" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2022-01-26T10:11:42.000Z" title="2022/1/26 18:11:42">2022-01-26</time>发表</span><span class="level-item"><time dateTime="2022-09-23T08:30:07.493Z" title="2022/9/23 16:30:07">2022-09-23</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E7%A8%8B%E5%BA%8F/">程序</a></span><span class="level-item">10 分钟读完 (大约1541个字)</span><span class="level-item" id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">linux笔记</h1><div class="content"><hr>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="pip下载速度慢运行的时候添加参数 -i https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple 永久修改，linux下新建或修改~&#x2F;.pip&#x2F;pip.conf 1234[global]index-url &#x3D; https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple[install]trusted-host &#x3D; https:&#x2F;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux笔记">
+<meta property="og:url" content="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="Andy&#39;s word">
+<meta property="og:description" content="pip下载速度慢运行的时候添加参数 -i https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple 永久修改，linux下新建或修改~&#x2F;.pip&#x2F;pip.conf 1234[global]index-url &#x3D; https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple[install]trusted-host &#x3D; https:&#x2F;">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-26T10:11:42.000Z">
+<meta property="article:modified_time" content="2022-09-23T08:30:07.493Z">
+<meta property="article:author" content="Andy">
+<meta property="article:tag" content="程序">
+<meta property="article:tag" content="linux">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/","path":"2022/01/26/linux笔记/","title":"linux笔记"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>linux笔记 | Andy's word</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Andy's word</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">如果我会发光，就不必害怕黑暗。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-主页"><a href="/" rel="section">主页</a></li><li class="menu-item menu-item-归档"><a href="/archives" rel="section">归档</a></li><li class="menu-item menu-item-分类"><a href="/categories" rel="section">分类</a></li><li class="menu-item menu-item-标签"><a href="/tags" rel="section">标签</a></li><li class="menu-item menu-item-关于"><a href="/about" rel="section">关于</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#pip%E4%B8%8B%E8%BD%BD%E9%80%9F%E5%BA%A6%E6%85%A2"><span class="nav-number">1.</span> <span class="nav-text">pip下载速度慢</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#vim%E7%9A%84%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AEvimrc"><span class="nav-number">1.1.</span> <span class="nav-text">vim的主题设置vimrc</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9ls%E6%97%B6%E9%97%B4%E6%98%BE%E7%A4%BA%E6%A0%BC%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">修改ls时间显示格式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%87%E4%BB%BD%E6%95%B4%E4%B8%AA%E7%A1%AC%E7%9B%98%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%A1%AC%E7%9B%98"><span class="nav-number">3.</span> <span class="nav-text">备份整个硬盘到另一个硬盘</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8F%90%E7%A4%BAFAILED-unknown-public-key-8F0871F202119294"><span class="nav-number">4.</span> <span class="nav-text">提示FAILED (unknown public key 8F0871F202119294)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85linux%E5%87%BA%E7%8E%B0Sector-32-is-already-in-use-by-the-program-FlexNet%E2%80%99"><span class="nav-number">5.</span> <span class="nav-text">安装linux出现Sector 32 is already in use by the program &#96;FlexNet’</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#archlinux%E6%9B%B4%E6%8D%A2%E9%BB%98%E8%AE%A4%E7%BB%88%E7%AB%AF"><span class="nav-number">6.</span> <span class="nav-text">archlinux更换默认终端</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#zsh"><span class="nav-number">6.1.</span> <span class="nav-text">zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#zsh%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">6.2.</span> <span class="nav-text">zsh快捷键</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vsftpd%E6%9D%83%E9%99%90"><span class="nav-number">7.</span> <span class="nav-text">vsftpd权限</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#unraid-%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">8.</span> <span class="nav-text">unraid 服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA"><span class="nav-number">9.</span> <span class="nav-text">设置时区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%88%E7%AB%AF%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87"><span class="nav-number">10.</span> <span class="nav-text">终端显示中文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nextcloud%E9%95%9C%E5%83%8F"><span class="nav-number">11.</span> <span class="nav-text">nextcloud镜像</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#wake-on-lan"><span class="nav-number">12.</span> <span class="nav-text">wake on lan</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#docker%E8%BF%90%E8%A1%8C"><span class="nav-number">13.</span> <span class="nav-text">docker运行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA-1"><span class="nav-number">14.</span> <span class="nav-text">设置时区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#samba"><span class="nav-number">15.</span> <span class="nav-text">samba</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#archlinux%E5%AE%89%E8%A3%85%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="nav-number">16.</span> <span class="nav-text">archlinux安装注意事项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mysql%E6%9C%AC%E6%9C%BA%E7%99%BB%E5%BD%95%E4%B8%8D%E7%94%A8%E5%AF%86%E7%A0%81"><span class="nav-number">17.</span> <span class="nav-text">mysql本机登录不用密码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unraid%E6%8F%92%E4%BB%B6%E5%9C%B0%E5%9D%80"><span class="nav-number">18.</span> <span class="nav-text">Unraid插件地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#deb%E5%AE%89%E8%A3%85"><span class="nav-number">19.</span> <span class="nav-text">deb安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kali%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA"><span class="nav-number">20.</span> <span class="nav-text">kali设置时区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#shell%E5%92%8Cvim"><span class="nav-number">21.</span> <span class="nav-text">shell和vim</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mobaxterm%E5%9C%A8vim%E9%87%8C%E4%B8%8D%E8%83%BD%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4"><span class="nav-number">22.</span> <span class="nav-text">mobaxterm在vim里不能复制粘贴</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vim%E7%9A%84%E6%B8%A9%E5%BA%A6%E7%AC%A6%E5%8F%B7"><span class="nav-number">23.</span> <span class="nav-text">vim的温度符号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#linux-bash%E4%B9%B1%E7%A0%81"><span class="nav-number">24.</span> <span class="nav-text">linux bash乱码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vim%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81"><span class="nav-number">25.</span> <span class="nav-text">vim中文乱码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%91%E8%8E%93%E6%B4%BE%E6%89%93%E5%BC%80spi"><span class="nav-number">26.</span> <span class="nav-text">树莓派打开spi</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kali%E9%95%9C%E5%83%8F"><span class="nav-number">27.</span> <span class="nav-text">kali镜像</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nginx-413-Request-Entity-Too-Large"><span class="nav-number">28.</span> <span class="nav-text">nginx:413 Request Entity Too Large</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python-pyserial"><span class="nav-number">29.</span> <span class="nav-text">python-pyserial</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B7%AF%E7%94%B1%E5%99%A8%E5%81%9A%E4%BA%A4%E6%8D%A2%E6%9C%BA"><span class="nav-number">30.</span> <span class="nav-text">路由器做交换机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#syncthing%E7%BD%91%E7%BB%9C%E6%9D%83%E9%99%90"><span class="nav-number">31.</span> <span class="nav-text">syncthing网络权限</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tar"><span class="nav-number">32.</span> <span class="nav-text">tar</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#crontab"><span class="nav-number">33.</span> <span class="nav-text">crontab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mysql%E5%AF%86%E7%A0%81"><span class="nav-number">34.</span> <span class="nav-text">mysql密码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#archlinuxarm%E9%95%9C%E5%83%8F%E6%BA%90"><span class="nav-number">35.</span> <span class="nav-text">archlinuxarm镜像源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#wifi-menu%E9%85%8D%E7%BD%AE%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C"><span class="nav-number">36.</span> <span class="nav-text">wifi-menu配置无线网络</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#archlinux%E5%AE%89%E8%A3%85%E4%B8%80%E4%BA%9B%E8%BD%AF%E4%BB%B6"><span class="nav-number">37.</span> <span class="nav-text">archlinux安装一些软件</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Andy"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Andy</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">72</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wangandi520" title="Github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank">Github</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1952945" title="BiliBili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">BiliBili</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Andy">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="linux笔记 | Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          linux笔记
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-01-26 18:11:42" itemprop="dateCreated datePublished" datetime="2022-01-26T18:11:42+08:00">2022-01-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-09-23 16:30:07" itemprop="dateModified" datetime="2022-09-23T16:30:07+08:00">2022-09-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A8%8B%E5%BA%8F/" itemprop="url" rel="index"><span itemprop="name">程序</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><hr>
 <h2 id="pip下载速度慢"><a href="#pip下载速度慢" class="headerlink" title="pip下载速度慢"></a>pip下载速度慢</h2><p>运行的时候添加参数 -i <a target="_blank" rel="noopener" href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></p>
-<p>永久修改，linux下新建或修改~/.pip/pip.conf</p>
+<p>永久修改，linux下新建或修改~&#x2F;.pip&#x2F;pip.conf</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">[install]</span><br><span class="line">trusted-host = https://pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure>
 
 <span id="more"></span>
 
 <h3 id="vim的主题设置vimrc"><a href="#vim的主题设置vimrc" class="headerlink" title="vim的主题设置vimrc"></a>vim的主题设置vimrc</h3><p><a target="_blank" rel="noopener" href="https://github.com/amix/vimrc">https://github.com/amix/vimrc</a></p>
-<h2 id="修改ls时间显示格式"><a href="#修改ls时间显示格式" class="headerlink" title="修改ls时间显示格式"></a>修改ls时间显示格式</h2><p>编辑~/.bashrc添加</p>
+<h2 id="修改ls时间显示格式"><a href="#修改ls时间显示格式" class="headerlink" title="修改ls时间显示格式"></a>修改ls时间显示格式</h2><p>编辑~&#x2F;.bashrc添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export TIME_STYLE=&#x27;+%Y/%m-%d %H:%M:%S&#x27;</span><br></pre></td></tr></table></figure>
 
-<h2 id="备份整个硬盘到另一个硬盘"><a href="#备份整个硬盘到另一个硬盘" class="headerlink" title="备份整个硬盘到另一个硬盘"></a>备份整个硬盘到另一个硬盘</h2><p>dd if=/dev/sda of=/dev/sdb bs=64k</p>
+<h2 id="备份整个硬盘到另一个硬盘"><a href="#备份整个硬盘到另一个硬盘" class="headerlink" title="备份整个硬盘到另一个硬盘"></a>备份整个硬盘到另一个硬盘</h2><p>dd if&#x3D;&#x2F;dev&#x2F;sda of&#x3D;&#x2F;dev&#x2F;sdb bs&#x3D;64k</p>
 <h2 id="提示FAILED-unknown-public-key-8F0871F202119294"><a href="#提示FAILED-unknown-public-key-8F0871F202119294" class="headerlink" title="提示FAILED (unknown public key 8F0871F202119294)"></a>提示FAILED (unknown public key 8F0871F202119294)</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gpg --recv-key 8F0871F202119294</span><br></pre></td></tr></table></figure>
 
-<h2 id="安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’"><a href="#安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’" class="headerlink" title="安装linux出现Sector 32 is already in use by the program `FlexNet’"></a>安装linux出现Sector 32 is already in use by the program `FlexNet’</h2><p>dd if=/dev/zero of=/dev/sda bs=512 count=1 seek=32</p>
-<p>33也提示的话最后seek=33即可</p>
+<h2 id="安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’"><a href="#安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’" class="headerlink" title="安装linux出现Sector 32 is already in use by the program &#96;FlexNet’"></a>安装linux出现Sector 32 is already in use by the program &#96;FlexNet’</h2><p>dd if&#x3D;&#x2F;dev&#x2F;zero of&#x3D;&#x2F;dev&#x2F;sda bs&#x3D;512 count&#x3D;1 seek&#x3D;32</p>
+<p>33也提示的话最后seek&#x3D;33即可</p>
 <h2 id="archlinux更换默认终端"><a href="#archlinux更换默认终端" class="headerlink" title="archlinux更换默认终端"></a>archlinux更换默认终端</h2><h3 id="zsh"><a href="#zsh" class="headerlink" title="zsh"></a>zsh</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -S zsh</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure>
 
 <p>安装主题powerlevel10k</p>
-<p>git clone –depth=1 <a target="_blank" rel="noopener" href="https://gitee.com/romkatv/powerlevel10k.git">https://gitee.com/romkatv/powerlevel10k.git</a> ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k</p>
-<p>编辑~/.zshrc</p>
+<p>git clone –depth&#x3D;1 <a target="_blank" rel="noopener" href="https://gitee.com/romkatv/powerlevel10k.git">https://gitee.com/romkatv/powerlevel10k.git</a> ${ZSH_CUSTOM:-$HOME&#x2F;.oh-my-zsh&#x2F;custom}&#x2F;themes&#x2F;powerlevel10k</p>
+<p>编辑~&#x2F;.zshrc</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ZSH_THEME=&quot;powerlevel10k/powerlevel10k&quot;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure>
@@ -63,76 +271,182 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pacman -S vsftpd</span><br><span class="line">systemctl enable vsftpd</span><br><span class="line">systemctl start vsftpd</span><br></pre></td></tr></table></figure>
 
 <p>可以匿名上传文件，进行如下设置：ftp目录权限755，用户组root:ftp，里面新建文件夹upload，权限777，用户组root:root</p>
-<p>在/etc/vsftpd.conf里添加</p>
+<p>在&#x2F;etc&#x2F;vsftpd.conf里添加</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">anon_mkdir_write_enable=YES</span><br><span class="line">anon_root=/srv/ftp</span><br><span class="line">anon_other_write_enable=YES</span><br><span class="line">anon_umask=022</span><br><span class="line">anon_upload_enable=YES</span><br><span class="line">no_anon_password=YES</span><br><span class="line">anonymous_enable=YES</span><br><span class="line">seccomp_sandbox=NO</span><br></pre></td></tr></table></figure>
 
 
 <h2 id="unraid-服务器"><a href="#unraid-服务器" class="headerlink" title="unraid 服务器"></a>unraid 服务器</h2><p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg">https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg</a></p>
 <p>hosts里添加<br>199.232.4.133 raw.githubusercontent.com</p>
 <h2 id="设置时区"><a href="#设置时区" class="headerlink" title="设置时区"></a>设置时区</h2><p>timedatectl set-time YYYY-MM-DD       更改日期<br>timedatectl set-time HH:MM:SS           更改时间<br>timedatectl list-timezones                    列出所有时区<br>timedatectl set-timezone time-zone   设置时区<br>timedatectl set-ntp boolean    </p>
-<h2 id="终端显示中文"><a href="#终端显示中文" class="headerlink" title="终端显示中文"></a>终端显示中文</h2><p>localectl set-locale LANG=en_US.UTF-8</p>
-<p>或者<br>/etc/locale.gen 设置en_US.UTF8 UTF-8 zh_CN.UTF8 UTF-8<br>locale-gen<br>locale<br>locale -a</p>
+<h2 id="终端显示中文"><a href="#终端显示中文" class="headerlink" title="终端显示中文"></a>终端显示中文</h2><p>localectl set-locale LANG&#x3D;en_US.UTF-8</p>
+<p>或者<br>&#x2F;etc&#x2F;locale.gen 设置en_US.UTF8 UTF-8 zh_CN.UTF8 UTF-8<br>locale-gen<br>locale<br>locale -a</p>
 <p>另一种</p>
-<p>/etc/locale.conf</p>
+<p>&#x2F;etc&#x2F;locale.conf</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">LC_CTYPE=zh_CN.UTF-8</span><br></pre></td></tr></table></figure>
 
-<h2 id="nextcloud镜像"><a href="#nextcloud镜像" class="headerlink" title="nextcloud镜像"></a>nextcloud镜像</h2><p>vim /etc/docker/daemon.json</p>
-<p>{<br>“registry-mirrors”: [“<a href="https://519hou3r.mirror.aliyuncs.com&quot;]">https://519hou3r.mirror.aliyuncs.com&quot;]</a><br>}</p>
+<h2 id="nextcloud镜像"><a href="#nextcloud镜像" class="headerlink" title="nextcloud镜像"></a>nextcloud镜像</h2><p>vim &#x2F;etc&#x2F;docker&#x2F;daemon.json</p>
+<p>{<br>“registry-mirrors”: [“<a target="_blank" rel="noopener" href="https://519hou3r.mirror.aliyuncs.com"]">https://519hou3r.mirror.aliyuncs.com&quot;]</a><br>}</p>
 <h2 id="wake-on-lan"><a href="#wake-on-lan" class="headerlink" title="wake on lan"></a>wake on lan</h2><p>wol<br>archlinux<br>70:85:c2:09:c4:46<br>192.168.1.156</p>
 <p>win10<br>04-D9-F5-04-95-EF<br>192.168.1.46</p>
-<h2 id="docker运行"><a href="#docker运行" class="headerlink" title="docker运行"></a>docker运行</h2><p>docker run –name nextcloud -p 8080:80   -v /srv/nextcloud:/var/www/html/data -d nextcloud<br>docker update –restart=always nextcloud</p>
+<h2 id="docker运行"><a href="#docker运行" class="headerlink" title="docker运行"></a>docker运行</h2><p>docker run –name nextcloud -p 8080:80   -v &#x2F;srv&#x2F;nextcloud:&#x2F;var&#x2F;www&#x2F;html&#x2F;data -d nextcloud<br>docker update –restart&#x3D;always nextcloud</p>
 <p>前面是本机地址，后面是docker地址</p>
-<h2 id="设置时区-1"><a href="#设置时区-1" class="headerlink" title="设置时区"></a>设置时区</h2><p>timedatectl set-timezone Asia/Shanghai</p>
+<h2 id="设置时区-1"><a href="#设置时区-1" class="headerlink" title="设置时区"></a>设置时区</h2><p>timedatectl set-timezone Asia&#x2F;Shanghai</p>
 <p>From <a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/System_time_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">https://wiki.archlinux.org/index.php/System_time_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)</a> </p>
-<p>设置时区: sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai/etc/localtime<br>安装openNTPD: sudo pacman -S openntpd<br>重启openNTPD: systemctl restart openntpd<br>设置开机启动: systemctl enable openntpd<br>————————————————<br>版权声明：本文为CSDN博主「lalala323」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/lalala323/article/details/96473754">https://blog.csdn.net/lalala323/article/details/96473754</a></p>
-<h2 id="samba"><a href="#samba" class="headerlink" title="samba"></a>samba</h2><p>useradd guest -s /bin/nologin<br>systemctl enable nmb smb</p>
+<p>设置时区: sudo ln -sf &#x2F;usr&#x2F;share&#x2F;zoneinfo&#x2F;Asia&#x2F;Shanghai&#x2F;etc&#x2F;localtime<br>安装openNTPD: sudo pacman -S openntpd<br>重启openNTPD: systemctl restart openntpd<br>设置开机启动: systemctl enable openntpd<br>————————————————<br>版权声明：本文为CSDN博主「lalala323」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/lalala323/article/details/96473754">https://blog.csdn.net/lalala323/article/details/96473754</a></p>
+<h2 id="samba"><a href="#samba" class="headerlink" title="samba"></a>samba</h2><p>useradd guest -s &#x2F;bin&#x2F;nologin<br>systemctl enable nmb smb</p>
 <h2 id="archlinux安装注意事项"><a href="#archlinux安装注意事项" class="headerlink" title="archlinux安装注意事项"></a>archlinux安装注意事项</h2><p>archlinux 安装要<br>pacman -S base-devel<br>grub-install后要输出配置</p>
 <p>One or more PGP signatures could not be verified!<br>gpg –recv-key 520A9993A1C052F8</p>
-<h2 id="mysql本机登录不用密码"><a href="#mysql本机登录不用密码" class="headerlink" title="mysql本机登录不用密码"></a>mysql本机登录不用密码</h2><p>mysql<br>alter user ‘root’@’localhost’ identified by ‘password’;<br>本机登陆不用密码，其他的要</p>
+<h2 id="mysql本机登录不用密码"><a href="#mysql本机登录不用密码" class="headerlink" title="mysql本机登录不用密码"></a>mysql本机登录不用密码</h2><p>mysql<br>alter user ‘root‘@’localhost’ identified by ‘password’;<br>本机登陆不用密码，其他的要</p>
 <h2 id="Unraid插件地址"><a href="#Unraid插件地址" class="headerlink" title="Unraid插件地址"></a>Unraid插件地址</h2><p>Plugins<br><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg">https://raw.githubusercontent.com/Squidly271/community.applications/master/plugins/community.applications.plg</a><br>From <a target="_blank" rel="noopener" href="https://forums.unraid.net/topic/38582-plug-in-community-applications/">https://forums.unraid.net/topic/38582-plug-in-community-applications/</a> </p>
 <h2 id="deb安装"><a href="#deb安装" class="headerlink" title="deb安装"></a>deb安装</h2><p>Kali<br>dpkg -i <a target="_blank" rel="noopener" href="http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20200207_all.deb">http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20200207_all.deb</a></p>
 <h2 id="kali设置时区"><a href="#kali设置时区" class="headerlink" title="kali设置时区"></a>kali设置时区</h2><p>dpkg-reconfigure tzdata</p>
 <p>From <a target="_blank" rel="noopener" href="http://blog.sina.com.cn/s/blog_16eb03a2c0102yndh.html">http://blog.sina.com.cn/s/blog_16eb03a2c0102yndh.html</a> </p>
-<h2 id="shell和vim"><a href="#shell和vim" class="headerlink" title="shell和vim"></a>shell和vim</h2><p>Alt+.    上一行的参数<br>/etc/vim/vimrc立刻生效，vim输入<br>:source /etc/vim/vimrc</p>
-<h2 id="mobaxterm在vim里不能复制粘贴"><a href="#mobaxterm在vim里不能复制粘贴" class="headerlink" title="mobaxterm在vim里不能复制粘贴"></a>mobaxterm在vim里不能复制粘贴</h2><p>编辑~/.vimrc</p>
+<h2 id="shell和vim"><a href="#shell和vim" class="headerlink" title="shell和vim"></a>shell和vim</h2><p>Alt+.    上一行的参数<br>&#x2F;etc&#x2F;vim&#x2F;vimrc立刻生效，vim输入<br>:source &#x2F;etc&#x2F;vim&#x2F;vimrc</p>
+<h2 id="mobaxterm在vim里不能复制粘贴"><a href="#mobaxterm在vim里不能复制粘贴" class="headerlink" title="mobaxterm在vim里不能复制粘贴"></a>mobaxterm在vim里不能复制粘贴</h2><p>编辑~&#x2F;.vimrc</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set mouse=r</span><br></pre></td></tr></table></figure>
 
 <h2 id="vim的温度符号"><a href="#vim的温度符号" class="headerlink" title="vim的温度符号"></a>vim的温度符号</h2><p>温度符号<br>vim<br>Ctrl+k DG<br>From <a target="_blank" rel="noopener" href="https://www.phpfans.net/ask/fansa1/9537707728.html">https://www.phpfans.net/ask/fansa1/9537707728.html</a> </p>
-<h2 id="linux-bash乱码"><a href="#linux-bash乱码" class="headerlink" title="linux bash乱码"></a>linux bash乱码</h2><p>编辑~/.bashrc<br>export LANG=”en_US.UTF-8”</p>
-<h2 id="vim中文乱码"><a href="#vim中文乱码" class="headerlink" title="vim中文乱码"></a>vim中文乱码</h2><p>/etc/vim/vimrc<br>set encoding=utf-8<br>From <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_36250487/article/details/79888103">https://blog.csdn.net/weixin_36250487/article/details/79888103</a> </p>
-<h2 id="树莓派打开spi"><a href="#树莓派打开spi" class="headerlink" title="树莓派打开spi"></a>树莓派打开spi</h2><p>sudo vi config.txt<br>dtparam=spi=on</p>
-<h2 id="kali镜像"><a href="#kali镜像" class="headerlink" title="kali镜像"></a>kali镜像</h2><p>vim /etc/apt/sources.list<br><a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/kali/">https://mirrors.tuna.tsinghua.edu.cn/kali/</a><br>apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get clean<br>apt-get install ttf-wqy-microhei</p>
+<h2 id="linux-bash乱码"><a href="#linux-bash乱码" class="headerlink" title="linux bash乱码"></a>linux bash乱码</h2><p>编辑~&#x2F;.bashrc<br>export LANG&#x3D;”en_US.UTF-8”</p>
+<h2 id="vim中文乱码"><a href="#vim中文乱码" class="headerlink" title="vim中文乱码"></a>vim中文乱码</h2><p>&#x2F;etc&#x2F;vim&#x2F;vimrc<br>set encoding&#x3D;utf-8<br>From <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_36250487/article/details/79888103">https://blog.csdn.net/weixin_36250487/article/details/79888103</a> </p>
+<h2 id="树莓派打开spi"><a href="#树莓派打开spi" class="headerlink" title="树莓派打开spi"></a>树莓派打开spi</h2><p>sudo vi config.txt<br>dtparam&#x3D;spi&#x3D;on</p>
+<h2 id="kali镜像"><a href="#kali镜像" class="headerlink" title="kali镜像"></a>kali镜像</h2><p>vim &#x2F;etc&#x2F;apt&#x2F;sources.list<br><a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/kali/">https://mirrors.tuna.tsinghua.edu.cn/kali/</a><br>apt-get update &amp;&amp; apt-get upgrade &amp;&amp; apt-get clean<br>apt-get install ttf-wqy-microhei</p>
 <h2 id="nginx-413-Request-Entity-Too-Large"><a href="#nginx-413-Request-Entity-Too-Large" class="headerlink" title="nginx:413 Request Entity Too Large"></a>nginx:413 Request Entity Too Large</h2><p>1、php 默认上传文件大小限制为 2M，如果超出 2M 你需要修改 php 配置文件 php.ini 里面的参数</p>
-<p>post_max_size = 8M （表单提交的最大限制，此项不是限制上传单个文件的大小，而是针对整个表单提交的数据进行限制。）</p>
-<p>upload_max_filesiz e = 2M （上传的单个文件的最大限制）</p>
-<p>需要保证 post_max_size &gt;= upload_max_filesize ，也就是前者不小于后者。</p>
+<p>post_max_size &#x3D; 8M （表单提交的最大限制，此项不是限制上传单个文件的大小，而是针对整个表单提交的数据进行限制。）</p>
+<p>upload_max_filesiz e &#x3D; 2M （上传的单个文件的最大限制）</p>
+<p>需要保证 post_max_size &gt;&#x3D; upload_max_filesize ，也就是前者不小于后者。</p>
 <p>修改之后一定要重启 php-fpm 。</p>
 <p>2.、除了修改 php 配置，你也需要修改nginx配置文件 nginx.conf</p>
 <p>打开 nginx 配置文件 nginx.conf，找到 http{} 段，在其中添加一行配置：</p>
 <p>client_max_body_size 8m;</p>
 <p>其中 8m 可以根据需要上传文件大小自行设定。</p>
 <p>修改之后一定要重新载入 nginx （service nginx reload）</p>
-<p>*/60 /opt/home/admin/sendip.sh</p>
+<p>*&#x2F;60 &#x2F;opt&#x2F;home&#x2F;admin&#x2F;sendip.sh</p>
 <h2 id="python-pyserial"><a href="#python-pyserial" class="headerlink" title="python-pyserial"></a>python-pyserial</h2><p>pacman -S python-pyserial</p>
 <h2 id="路由器做交换机"><a href="#路由器做交换机" class="headerlink" title="路由器做交换机"></a>路由器做交换机</h2><p>wan 动态ip<br>lan 192.168.1.2<br>dhcp关<br>wifi名字一样</p>
-<h2 id="syncthing网络权限"><a href="#syncthing网络权限" class="headerlink" title="syncthing网络权限"></a>syncthing网络权限</h2><p>~/.config/syncthing/config.xml<br>127.0.0.1</p>
+<h2 id="syncthing网络权限"><a href="#syncthing网络权限" class="headerlink" title="syncthing网络权限"></a>syncthing网络权限</h2><p>~&#x2F;.config&#x2F;syncthing&#x2F;config.xml<br>127.0.0.1</p>
 <p>ttrss<br>To enable this mode, set constantSIMPLE_UPDATE_MODEtotrueinconfig.php.</p>
 <p>kill -9 18493</p>
-<h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2><p>tar -cf /andy/backup.tar /andy/html<br>mv /andy/backup.tar /andy/html</p>
+<h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2><p>tar -cf &#x2F;andy&#x2F;backup.tar &#x2F;andy&#x2F;html<br>mv &#x2F;andy&#x2F;backup.tar &#x2F;andy&#x2F;html</p>
 <h2 id="crontab"><a href="#crontab" class="headerlink" title="crontab"></a>crontab</h2><p>脚本里要写绝对路径</p>
-<h2 id="mysql密码"><a href="#mysql密码" class="headerlink" title="mysql密码"></a>mysql密码</h2><p>mysql_install_db –user=mysql –basedir=/usr –datadir=/var/lib/mysql<br>mysql_upgrade -u root -p<br>SET PASSWORD FOR ‘root’@’localhost’ = PASSWORD(‘’);</p>
+<h2 id="mysql密码"><a href="#mysql密码" class="headerlink" title="mysql密码"></a>mysql密码</h2><p>mysql_install_db –user&#x3D;mysql –basedir&#x3D;&#x2F;usr –datadir&#x3D;&#x2F;var&#x2F;lib&#x2F;mysql<br>mysql_upgrade -u root -p<br>SET PASSWORD FOR ‘root‘@’localhost’ &#x3D; PASSWORD(‘’);</p>
 <h2 id="archlinuxarm镜像源"><a href="#archlinuxarm镜像源" class="headerlink" title="archlinuxarm镜像源"></a>archlinuxarm镜像源</h2><p>清华<br><a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/">https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/</a></p>
-<p>中科大<br>Server = <a target="_blank" rel="noopener" href="https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo">https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo</a></p>
-<h2 id="wifi-menu配置无线网络"><a href="#wifi-menu配置无线网络" class="headerlink" title="wifi-menu配置无线网络"></a>wifi-menu配置无线网络</h2><p>使用 wifi-menu -o 在目录 /etc/netctl/ 中生成一个配置文件。<br>复制key<br>cp /etc/netctl/examples/wireless-wpa /etc/netctl/wireless-wpa</p>
+<p>中科大<br>Server &#x3D; <a target="_blank" rel="noopener" href="https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo">https://mirrors.ustc.edu.cn/archlinuxarm/$arch/$repo</a></p>
+<h2 id="wifi-menu配置无线网络"><a href="#wifi-menu配置无线网络" class="headerlink" title="wifi-menu配置无线网络"></a>wifi-menu配置无线网络</h2><p>使用 wifi-menu -o 在目录 &#x2F;etc&#x2F;netctl&#x2F; 中生成一个配置文件。<br>复制key<br>cp &#x2F;etc&#x2F;netctl&#x2F;examples&#x2F;wireless-wpa &#x2F;etc&#x2F;netctl&#x2F;wireless-wpa</p>
 <p>wifi-menu<br>netctl enable wlan0-OpenWrt_FB499A<br>netctl start wlan0-OpenWrt_FB499A</p>
 <h2 id="archlinux安装一些软件"><a href="#archlinux安装一些软件" class="headerlink" title="archlinux安装一些软件"></a>archlinux安装一些软件</h2><p>crontab: pacman -S cronie<br>mkfs.vfat: pacman -S dosfstools</p>
-</div><div class="article-licensing box"><div class="licensing-title"><p>linux笔记</p><p><a href="https://andi.wang/2022/01/26/linux笔记/">https://andi.wang/2022/01/26/linux笔记/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Andy</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2022-01-26</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2022-09-23</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E7%A8%8B%E5%BA%8F/">程序</a><a class="link-muted mr-2" rel="tag" href="/tags/linux/">linux</a></div><!--!--></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button donate" data-type="alipay"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="/img/alipay.png" alt="支付宝"></span></a><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/img/weixin.png" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">使用archlinux搭建家庭数据服务中心</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2022/01/08/Seventh9%E6%97%A5%E9%BA%BB%E6%95%99%E7%A8%8B%EF%BC%8879%E5%8D%9A%E5%AE%A2%EF%BC%89v1.2/"><span class="level-item">Seventh9日麻教程 标注</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><a href="/"><img class="avatar" src="/img/avatar.jpg" alt="Andy"></a></figure><a href="/"><p class="title is-size-4 is-block" style="line-height:inherit;">Andy</p></a><p class="is-size-6 is-block">如果我会发光，就不必害怕黑暗。</p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">56</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">6</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">72</p></a></div></div></nav><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/wangandi520">Github</a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="BiliBili" href="https://space.bilibili.com/1952945">BiliBili</a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/atom.xml"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#pip下载速度慢"><span class="level-left"><span class="level-item">1</span><span class="level-item">pip下载速度慢</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#vim的主题设置vimrc"><span class="level-left"><span class="level-item">1.1</span><span class="level-item">vim的主题设置vimrc</span></span></a></li></ul></li><li><a class="level is-mobile" href="#修改ls时间显示格式"><span class="level-left"><span class="level-item">2</span><span class="level-item">修改ls时间显示格式</span></span></a></li><li><a class="level is-mobile" href="#备份整个硬盘到另一个硬盘"><span class="level-left"><span class="level-item">3</span><span class="level-item">备份整个硬盘到另一个硬盘</span></span></a></li><li><a class="level is-mobile" href="#提示FAILED-unknown-public-key-8F0871F202119294"><span class="level-left"><span class="level-item">4</span><span class="level-item">提示FAILED (unknown public key 8F0871F202119294)</span></span></a></li><li><a class="level is-mobile" href="#安装linux出现Sector-32-is-already-in-use-by-the-program-FlexNet’"><span class="level-left"><span class="level-item">5</span><span class="level-item">安装linux出现Sector 32 is already in use by the program `FlexNet’</span></span></a></li><li><a class="level is-mobile" href="#archlinux更换默认终端"><span class="level-left"><span class="level-item">6</span><span class="level-item">archlinux更换默认终端</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#zsh"><span class="level-left"><span class="level-item">6.1</span><span class="level-item">zsh</span></span></a></li><li><a class="level is-mobile" href="#zsh快捷键"><span class="level-left"><span class="level-item">6.2</span><span class="level-item">zsh快捷键</span></span></a></li></ul></li><li><a class="level is-mobile" href="#vsftpd权限"><span class="level-left"><span class="level-item">7</span><span class="level-item">vsftpd权限</span></span></a></li><li><a class="level is-mobile" href="#unraid-服务器"><span class="level-left"><span class="level-item">8</span><span class="level-item">unraid 服务器</span></span></a></li><li><a class="level is-mobile" href="#设置时区"><span class="level-left"><span class="level-item">9</span><span class="level-item">设置时区</span></span></a></li><li><a class="level is-mobile" href="#终端显示中文"><span class="level-left"><span class="level-item">10</span><span class="level-item">终端显示中文</span></span></a></li><li><a class="level is-mobile" href="#nextcloud镜像"><span class="level-left"><span class="level-item">11</span><span class="level-item">nextcloud镜像</span></span></a></li><li><a class="level is-mobile" href="#wake-on-lan"><span class="level-left"><span class="level-item">12</span><span class="level-item">wake on lan</span></span></a></li><li><a class="level is-mobile" href="#docker运行"><span class="level-left"><span class="level-item">13</span><span class="level-item">docker运行</span></span></a></li><li><a class="level is-mobile" href="#设置时区-1"><span class="level-left"><span class="level-item">14</span><span class="level-item">设置时区</span></span></a></li><li><a class="level is-mobile" href="#samba"><span class="level-left"><span class="level-item">15</span><span class="level-item">samba</span></span></a></li><li><a class="level is-mobile" href="#archlinux安装注意事项"><span class="level-left"><span class="level-item">16</span><span class="level-item">archlinux安装注意事项</span></span></a></li><li><a class="level is-mobile" href="#mysql本机登录不用密码"><span class="level-left"><span class="level-item">17</span><span class="level-item">mysql本机登录不用密码</span></span></a></li><li><a class="level is-mobile" href="#Unraid插件地址"><span class="level-left"><span class="level-item">18</span><span class="level-item">Unraid插件地址</span></span></a></li><li><a class="level is-mobile" href="#deb安装"><span class="level-left"><span class="level-item">19</span><span class="level-item">deb安装</span></span></a></li><li><a class="level is-mobile" href="#kali设置时区"><span class="level-left"><span class="level-item">20</span><span class="level-item">kali设置时区</span></span></a></li><li><a class="level is-mobile" href="#shell和vim"><span class="level-left"><span class="level-item">21</span><span class="level-item">shell和vim</span></span></a></li><li><a class="level is-mobile" href="#mobaxterm在vim里不能复制粘贴"><span class="level-left"><span class="level-item">22</span><span class="level-item">mobaxterm在vim里不能复制粘贴</span></span></a></li><li><a class="level is-mobile" href="#vim的温度符号"><span class="level-left"><span class="level-item">23</span><span class="level-item">vim的温度符号</span></span></a></li><li><a class="level is-mobile" href="#linux-bash乱码"><span class="level-left"><span class="level-item">24</span><span class="level-item">linux bash乱码</span></span></a></li><li><a class="level is-mobile" href="#vim中文乱码"><span class="level-left"><span class="level-item">25</span><span class="level-item">vim中文乱码</span></span></a></li><li><a class="level is-mobile" href="#树莓派打开spi"><span class="level-left"><span class="level-item">26</span><span class="level-item">树莓派打开spi</span></span></a></li><li><a class="level is-mobile" href="#kali镜像"><span class="level-left"><span class="level-item">27</span><span class="level-item">kali镜像</span></span></a></li><li><a class="level is-mobile" href="#nginx-413-Request-Entity-Too-Large"><span class="level-left"><span class="level-item">28</span><span class="level-item">nginx:413 Request Entity Too Large</span></span></a></li><li><a class="level is-mobile" href="#python-pyserial"><span class="level-left"><span class="level-item">29</span><span class="level-item">python-pyserial</span></span></a></li><li><a class="level is-mobile" href="#路由器做交换机"><span class="level-left"><span class="level-item">30</span><span class="level-item">路由器做交换机</span></span></a></li><li><a class="level is-mobile" href="#syncthing网络权限"><span class="level-left"><span class="level-item">31</span><span class="level-item">syncthing网络权限</span></span></a></li><li><a class="level is-mobile" href="#tar"><span class="level-left"><span class="level-item">32</span><span class="level-item">tar</span></span></a></li><li><a class="level is-mobile" href="#crontab"><span class="level-left"><span class="level-item">33</span><span class="level-item">crontab</span></span></a></li><li><a class="level is-mobile" href="#mysql密码"><span class="level-left"><span class="level-item">34</span><span class="level-item">mysql密码</span></span></a></li><li><a class="level is-mobile" href="#archlinuxarm镜像源"><span class="level-left"><span class="level-item">35</span><span class="level-item">archlinuxarm镜像源</span></span></a></li><li><a class="level is-mobile" href="#wifi-menu配置无线网络"><span class="level-left"><span class="level-item">36</span><span class="level-item">wifi-menu配置无线网络</span></span></a></li><li><a class="level is-mobile" href="#archlinux安装一些软件"><span class="level-left"><span class="level-item">37</span><span class="level-item">archlinux安装一些软件</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="/guitar" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">吉他和弦生成</span></span></a></li><li><a class="level is-mobile" href="/mahjong" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">麻将牌谱生成</span></span></a></li><li><a class="level is-mobile" href="/2" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">漫画补页下载</span></span></a></li><li><a class="level is-mobile" href="/3" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">漫画整理脚本</span></span></a></li><li><a class="level is-mobile" href="/0" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">电子书漫画制作交流QQ群1321993</span></span></a></li></ul></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%E4%B8%AA%E4%BA%BA/"><span class="level-start"><span class="level-item">个人</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/%E5%90%89%E4%BB%96/"><span class="level-start"><span class="level-item">吉他</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span class="level-start"><span class="level-item">学习笔记</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/categories/%E7%A8%8B%E5%BA%8F/"><span class="level-start"><span class="level-item">程序</span></span><span class="level-end"><span class="level-item tag">20</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%AF%84%E6%B5%8B/"><span class="level-start"><span class="level-item">评测</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"><span class="level-start"><span class="level-item">读书笔记</span></span><span class="level-end"><span class="level-item tag">15</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/NeeView/"><span class="tag">NeeView</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/OpenWrt/"><span class="tag">OpenWrt</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PDF/"><span class="tag">PDF</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PM2-5/"><span class="tag">PM2.5</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PMS5003ST/"><span class="tag">PMS5003ST</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Qt/"><span class="tag">Qt</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/REAPER/"><span class="tag">REAPER</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Raspberry/"><span class="tag">Raspberry</span><span class="tag">7</span></a></div><div class="control"><a class="tags has-addons" href="/tags/archlinuxarm/"><span class="tag">archlinuxarm</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/bash/"><span class="tag">bash</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/boox/"><span class="tag">boox</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/hexo/"><span class="tag">hexo</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/html/"><span class="tag">html</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/icarus/"><span class="tag">icarus</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/javascript/"><span class="tag">javascript</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/kali/"><span class="tag">kali</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/kindle/"><span class="tag">kindle</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/koreader/"><span class="tag">koreader</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/linux/"><span class="tag">linux</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/markdown/"><span class="tag">markdown</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/nuc/"><span class="tag">nuc</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/padavan/"><span class="tag">padavan</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/php/"><span class="tag">php</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/python/"><span class="tag">python</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/webdav/"><span class="tag">webdav</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/y700/"><span class="tag">y700</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E4%B9%A6/"><span class="tag">书</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E4%BD%99%E5%8D%8E/"><span class="tag">余华</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%88%B7%E6%9C%BA/"><span class="tag">刷机</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%8D%95%E8%BD%A6/"><span class="tag">单车</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%90%89%E4%BB%96/"><span class="tag">吉他</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span class="tag">学习笔记</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%BC%B9%E5%BC%93/"><span class="tag">弹弓</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/"><span class="tag">微信读书</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%BE%AE%E9%9B%AA/"><span class="tag">微雪</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%8A%95%E8%B5%84/"><span class="tag">投资</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%8C%87%E5%BC%B9/"><span class="tag">指弹</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%91%84%E5%BD%B1/"><span class="tag">摄影</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%91%98%E6%8A%84/"><span class="tag">摘抄</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%94%80%E8%97%A4/"><span class="tag">攀藤</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%96%87%E5%9F%8E/"><span class="tag">文城</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%96%87%E7%9F%B3/"><span class="tag">文石</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%97%A5%E8%AF%AD/"><span class="tag">日语</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%A0%87%E6%B3%A8/"><span class="tag">标注</span><span class="tag">12</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"><span class="tag">树莓派</span><span class="tag">7</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%AD%8C%E8%AF%8D/"><span class="tag">歌词</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%BC%AB%E7%94%BB/"><span class="tag">漫画</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"><span class="tag">王小波</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E5%90%89%E4%BB%96/"><span class="tag">电吉他</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E5%BD%B1/"><span class="tag">电影</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"><span class="tag">电纸书</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/"><span class="tag">电脑手机技巧</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/"><span class="tag">电脑技巧</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"><span class="tag">电视剧</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC/"><span class="tag">百年孤独</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%A8%8B%E5%BA%8F/"><span class="tag">程序</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"><span class="tag">红楼梦</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E7%BE%BD%E6%AF%9B%E7%90%83/"><span class="tag">羽毛球</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%8B%B1%E8%AF%AD/"><span class="tag">英语</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%A5%BF%E6%B8%B8%E8%AE%B0/"><span class="tag">西游记</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%AF%84%E6%B5%8B/"><span class="tag">评测</span><span class="tag">5</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"><span class="tag">读书笔记</span><span class="tag">11</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"><span class="tag">路由器</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%81%A5%E8%BF%9C%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5%E5%9C%B0/"><span class="tag">遥远的向日葵地</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%92%B1%E7%A9%86/"><span class="tag">钱穆</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%98%85%E8%AF%BB/"><span class="tag">阅读</span><span class="tag">14</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"><span class="tag">静读天下专业版</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9F%B3%E4%B9%90/"><span class="tag">音乐</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9F%B3%E9%A2%91/"><span class="tag">音频</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"><span class="tag">食品用品</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%AD%94%E6%96%B9/"><span class="tag">魔方</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%BA%BB%E5%B0%86/"><span class="tag">麻将</span><span class="tag">1</span></a></div></div></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/avatar.jpg" alt="Andy&#039;s word" height="28"></a><p class="is-size-7"><span>&copy; 2024 Andy</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a><br><span id="busuanzi_container_site_uv">共<span id="busuanzi_value_site_uv">0</span>个访客</span></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
-            article: {
-                highlight: {
-                    clipboard: true,
-                    fold: 'unfolded'
-                }
-            }
-        };</script><script src="/js/column.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
-            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
-        });</script></body></html>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%A8%8B%E5%BA%8F/" rel="tag"># 程序</a>
+              <a href="/tags/linux/" rel="tag"># linux</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/01/08/Seventh9%E6%97%A5%E9%BA%BB%E6%95%99%E7%A8%8B%EF%BC%8879%E5%8D%9A%E5%AE%A2%EF%BC%89v1.2/" rel="prev" title="Seventh9日麻教程 标注">
+                  <i class="fa fa-angle-left"></i> Seventh9日麻教程 标注
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/" rel="next" title="使用archlinux搭建家庭数据服务中心">
+                  使用archlinux搭建家庭数据服务中心 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Andy</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wangandi520","repo":"wangandi520.github.io","client_id":"4608a30c8bf01d212dc2","client_secret":"1728dfa6fb7625b83daa2e898ab26b0b82d475f2","admin_user":"wangandi520","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":["zh-CN","zh-TW","en"],"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"c0bede41679a98d134a3702d7a6d6f1d"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>
