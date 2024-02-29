@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.0.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="说明源代码：https:&#x2F;&#x2F;github.com&#x2F;wangandi520&#x2F;andyspyqtscript exe： https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1k40sYPhkG79yIehZaUuJtw?pwd&#x3D;41ix 使用PyQt5编写，生成exe，请运行pyinstaller -F 程序.py 需要pip install pyinstaller">
+<meta property="og:type" content="article">
+<meta property="og:title" content="几个PyQt程序">
+<meta property="og:url" content="https://andi.wang/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/index.html">
+<meta property="og:site_name" content="Andy&#39;s word">
+<meta property="og:description" content="说明源代码：https:&#x2F;&#x2F;github.com&#x2F;wangandi520&#x2F;andyspyqtscript exe： https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;1k40sYPhkG79yIehZaUuJtw?pwd&#x3D;41ix 使用PyQt5编写，生成exe，请运行pyinstaller -F 程序.py 需要pip install pyinstaller">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-03-19T06:37:04.000Z">
+<meta property="article:modified_time" content="2022-09-27T16:38:13.823Z">
+<meta property="article:author" content="Andy">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="Qt">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://andi.wang/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://andi.wang/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/","path":"2022/03/19/几个PyQt程序/","title":"几个PyQt程序"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>几个PyQt程序 | Andy's word</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Andy's word</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">如果我会发光，就不必害怕黑暗。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-主页"><a href="/" rel="section">主页</a></li><li class="menu-item menu-item-归档"><a href="/archives" rel="section">归档</a></li><li class="menu-item menu-item-分类"><a href="/categories" rel="section">分类</a></li><li class="menu-item menu-item-标签"><a href="/tags" rel="section">标签</a></li><li class="menu-item menu-item-关于"><a href="/about" rel="section">关于</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%B4%E6%98%8E"><span class="nav-number">1.</span> <span class="nav-text">说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%80%81%E7%8E%8BSHA1%E7%94%9F%E6%88%90%E6%A0%A1%E9%AA%8C%E5%99%A8"><span class="nav-number">2.</span> <span class="nav-text">老王SHA1生成校验器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%80%81%E7%8E%8B%E7%AE%80%E7%B9%81%E8%BD%AC%E6%8D%A2%E5%99%A8"><span class="nav-number">3.</span> <span class="nav-text">老王简繁转换器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8"><span class="nav-number">4.</span> <span class="nav-text">老王随机点名器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%80%81%E7%8E%8B%E6%89%A9%E5%B1%95%E5%90%8D%E4%BF%AE%E6%94%B9%E5%99%A8-db3-rar-pyw"><span class="nav-number">5.</span> <span class="nav-text">老王扩展名修改器&#x3D;db3_rar.pyw</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%9C%E8%80%85%EF%BC%9AAndy"><span class="nav-number">6.</span> <span class="nav-text">作者：Andy</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8"><span class="nav-number"></span> <span class="nav-text">使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E5%8D%95%E4%B8%80exe%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">生成单一exe执行文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%EF%BC%8C%E5%87%8F%E5%B0%91exe%E4%BD%93%E7%A7%AF"><span class="nav-number">3.</span> <span class="nav-text">虚拟环境，减少exe体积</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%94%99%E8%AF%AF"><span class="nav-number">4.</span> <span class="nav-text">错误</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E7%A8%8B%E5%BA%8F"><span class="nav-number">5.</span> <span class="nav-text">我的程序</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Andy"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Andy</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">72</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wangandi520" title="Github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank">Github</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1952945" title="BiliBili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">BiliBili</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://andi.wang/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Andy">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="几个PyQt程序 | Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          几个PyQt程序
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-03-19 14:37:04" itemprop="dateCreated datePublished" datetime="2022-03-19T14:37:04+08:00">2022-03-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-09-28 00:38:13" itemprop="dateModified" datetime="2022-09-28T00:38:13+08:00">2022-09-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A8%8B%E5%BA%8F/" itemprop="url" rel="index"><span itemprop="name">程序</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>源代码：<a target="_blank" rel="noopener" href="https://github.com/wangandi520/andyspyqtscript">https://github.com/wangandi520/andyspyqtscript</a></p>
+<p>exe： <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix">https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix</a></p>
+<p>使用PyQt5编写，生成exe，请运行pyinstaller -F 程序.py</p>
+<p>需要pip install pyinstaller</p>
+<span id="more"></span>
+
+<h2 id="老王SHA1生成校验器"><a href="#老王SHA1生成校验器" class="headerlink" title="老王SHA1生成校验器"></a>老王SHA1生成校验器</h2><p>可拖拽</p>
+<p>生成文件信息，html，markdown或sha格式</p>
+<p>单独拖拽sha文件或校验</p>
+<p>单独拖拽文件夹或把生成的文件放到这个文件夹里，其他时候放到py同路径</p>
+<h2 id="老王简繁转换器"><a href="#老王简繁转换器" class="headerlink" title="老王简繁转换器"></a>老王简繁转换器</h2><p>支持拖拽文件到程序中，可同一个文件多次改名</p>
+<p>需要pip install pyqt5 pyqt5-tools pypinyin opencc-python-reimplemented</p>
+<h2 id="老王随机点名器"><a href="#老王随机点名器" class="headerlink" title="老王随机点名器"></a>老王随机点名器</h2><p>选取姓名按钮快捷键：空格，缺席按钮快捷键：B。</p>
+<p>需要 pip install pyqt5 pyqt5-tools pandas openpyxl</p>
+<p><strong>1.1版更新：</strong><br>支持xls,xlsx</p>
+<p><strong>1.0版更新：</strong><br>改用PyQt5重写<br>暂时不支持xls文件</p>
+<p><strong>0.42版更新：</strong><br>更新捐赠二维码</p>
+<p><strong>0.41版更新：</strong><br>添加速度调节<br>修复bug<br>可快速捐赠</p>
+<p><strong>0.4版更新：</strong><br>支持模板的xls文件</p>
+<p><strong>0.3版更新：</strong><br>支持多文件同时选取<br>增加了重置列表按钮<br>更改了文件切换时重新读取文件的设计<br>修改缺席名单的命名方式<br>添加缺席按钮<br>修正取消打开文件而添加文件的错误</p>
+<p><strong>0.2版更新：</strong><br>修正了时间闪烁的问题<br>修改状态栏显示<br>增加打开文件后自动选择的功能<br>增加了字体大小调节<br>调整了内部设计，修复了剩余数量显示错误<br>修复文件删除后仍能点名的错误<br>添加清空列表按钮</p>
+<h2 id="老王扩展名修改器-db3-rar-pyw"><a href="#老王扩展名修改器-db3-rar-pyw" class="headerlink" title="老王扩展名修改器&#x3D;db3_rar.pyw"></a>老王扩展名修改器&#x3D;db3_rar.pyw</h2><p>使用PyQt5编写</p>
+<p>可以拖拽文件或文件夹，文件夹内所有符合条件的文件都会生效</p>
+<p>文件后面的&#x3D;py_pyw可以让程序读取，格式：&#x3D;原扩展名_新扩展名</p>
+<h2 id="作者：Andy"><a href="#作者：Andy" class="headerlink" title="作者：Andy"></a>作者：Andy</h2><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyqt5 pyqt5-tools pyinstaller </span><br></pre></td></tr></table></figure>
+
+<!-- more -->
+
+<h2 id="生成单一exe执行文件"><a href="#生成单一exe执行文件" class="headerlink" title="生成单一exe执行文件"></a>生成单一exe执行文件</h2><p>-w 不显示命令行窗口</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller -F -i 图标.ico 程序.py</span><br></pre></td></tr></table></figure>
+
+<h2 id="虚拟环境，减少exe体积"><a href="#虚拟环境，减少exe体积" class="headerlink" title="虚拟环境，减少exe体积"></a>虚拟环境，减少exe体积</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install pipenv</span><br></pre></td></tr></table></figure>
+
+<p>新建一个文件夹，命令提示符里运行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pipenv shell</span><br></pre></td></tr></table></figure>
+
+<p>然后安装需要的包，例如</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install pyqt5 pyinstaller pillow</span><br></pre></td></tr></table></figure>
+
+<p>最后用pyinstaller生成程序，体积才原来的50MB变成35MB</p>
+<h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><p>提示</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--system is intended to be used for pre-existing Pipfile installation, not installation of specific packages. Aborting.</span><br></pre></td></tr></table></figure>
+
+<p>删除这个命令显示的文件夹pipenv –venv</p>
+<h2 id="我的程序"><a href="#我的程序" class="headerlink" title="我的程序"></a>我的程序</h2><p>从qt5转过来，感觉不难</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/wangandi520/andiRandomNameChooserByPyQt5">https://github.com/wangandi520/andiRandomNameChooserByPyQt5</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python/" rel="tag"># python</a>
+              <a href="/tags/Qt/" rel="tag"># Qt</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/" rel="prev" title="使用archlinux搭建家庭数据服务中心">
+                  <i class="fa fa-angle-left"></i> 使用archlinux搭建家庭数据服务中心
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/08/08/%E6%BC%AB%E7%94%BB%E5%8D%B0%E5%88%B7%E4%B8%8E%E6%89%AB%E6%8F%8F%E9%94%99%E8%AF%AF/" rel="next" title="漫画印刷与扫描错误">
+                  漫画印刷与扫描错误 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Andy</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wangandi520","repo":"wangandi520.github.io","client_id":"4608a30c8bf01d212dc2","client_secret":"1728dfa6fb7625b83daa2e898ab26b0b82d475f2","admin_user":"wangandi520","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":["zh-CN","zh-TW","en"],"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"11cdbd569e5bde30b32072f1907bf707"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>
