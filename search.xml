@@ -15994,6 +15994,8 @@
 <p><a href="https://github.com/wangandi520/ClippingsToMarkdown">https://github.com/wangandi520/ClippingsToMarkdown</a></p>
 <p><a href="https://jq.qq.com/?_wv=1027&k=AqqQIfm7">电子书漫画制作闲聊群1321993</a></p>
 <hr>
+<span id="more"></span>
+
 <h2 id="文石Boox-Kindle-静读天下专业版-微信读书-KOReader的标注转换为Markdown格式"><a href="#文石Boox-Kindle-静读天下专业版-微信读书-KOReader的标注转换为Markdown格式" class="headerlink" title="文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式"></a>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</h2><p><strong>基本用法(win10)</strong></p>
 <p>安装python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>，复制你的标注到文件夹，运行对应的py文件或者拖拽标注文件的py上</p>
 <p><strong>静读天下专业版</strong></p>
@@ -17950,10 +17952,53 @@
       </tags>
   </entry>
   <entry>
+    <title>配置hexo主题next</title>
+    <url>/2024/02/29/%E9%85%8D%E7%BD%AEhexo%E4%B8%BB%E9%A2%98next/</url>
+    <content><![CDATA[<hr>
+<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>任意一个空文件夹右键open in terminal，输入以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init</span><br><span class="line">hexo new page &quot;tags&quot;</span><br><span class="line">hexo new page &quot;categories&quot;</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>编辑source\tags\index.md</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &quot;tags&quot;</span><br><span class="line">type: tags</span><br><span class="line">layout: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>编辑source\categories\index.md</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &quot;categories&quot;</span><br><span class="line">type: categories</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>输入npm install hexo-theme-next，主题会下载到node_modules\hexo-theme-next，打开配置文件node_modules\hexo-theme-next_config.yml</p>
+<h2 id="配置hexo主题"><a href="#配置hexo主题" class="headerlink" title="配置hexo主题"></a>配置hexo主题</h2><h3 id="选择风格"><a href="#选择风格" class="headerlink" title="选择风格"></a>选择风格</h3><p>主题有4个风格，可以搜一下选择哪个就把前面的井号去掉</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
+
+<h3 id="本地搜索"><a href="#本地搜索" class="headerlink" title="本地搜索"></a>本地搜索</h3><p>输入npm install hexo-generator-searchdb –save，_config.yml里输入下面的内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">path: search.xml</span><br><span class="line">field: post</span><br><span class="line">format: html</span><br><span class="line">limit: 10000</span><br></pre></td></tr></table></figure>
+
+<p>下面这里改成true</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="设置网站图标"><a href="#设置网站图标" class="headerlink" title="设置网站图标"></a>设置网站图标</h3><p>参考</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: /images/favicon.ico</span><br><span class="line">  medium: /images/favicon.ico</span><br></pre></td></tr></table></figure>
+
+<h3 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h3><p>输入npm install hexo-wordcount –save，_config.yml添加以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_wordcount:</span><br><span class="line">  item_text: true</span><br><span class="line">  wordcount: true #单篇文章字数</span><br><span class="line">  min2read: true #单篇阅读时长</span><br><span class="line">  totalcount: true #站点总字数</span><br><span class="line">  separated_meta: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="使用github当评论系统的gitalk"><a href="#使用github当评论系统的gitalk" class="headerlink" title="使用github当评论系统的gitalk"></a>使用github当评论系统的gitalk</h3><p>要修改的是以下位置，client_开头的两个，要在<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>，申请后generate a new client secret后得到</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: true</span><br><span class="line">  github_id: 你的github账户名 # GitHub repo owner</span><br><span class="line">  repo: 你的Repository名 # Repository name to store issues</span><br><span class="line">  client_id: 你的id # GitHub Application Client ID</span><br><span class="line">  client_secret: 你的secret  # GitHub Application Client Secret</span><br><span class="line">  admin_user: 你的github账户名 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br></pre></td></tr></table></figure>
+
+<p>之后要在每篇文章下面点一下，才能使用评论，有点麻烦</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于这个博客</title>
     <url>/about/index.html</url>
     <content><![CDATA[<h2 id="博客程序"><a href="#博客程序" class="headerlink" title="博客程序"></a>博客程序</h2><p><a href="https://hexo.io/">Hexo</a></p>
-<h2 id="Hexo主题"><a href="#Hexo主题" class="headerlink" title="Hexo主题"></a>Hexo主题</h2><p><a href="https://github.com/next-theme/hexo-theme-next">hexo-theme-next</a>，scheme: Pisces</p>
+<h2 id="Hexo主题"><a href="#Hexo主题" class="headerlink" title="Hexo主题"></a>Hexo主题</h2><p><a href="https://github.com/next-theme/hexo-theme-next">hexo-theme-next</a>，scheme: Gemini</p>
 <h2 id="托管平台"><a href="#托管平台" class="headerlink" title="托管平台"></a>托管平台</h2><p>Github pages，并绑定域名，评论系统gitalk，项目地址<a href="https://github.com/wangandi520/wangandi520.github.io">wangandi520.github.io</a></p>
 <h2 id="2017年建立此网站"><a href="#2017年建立此网站" class="headerlink" title="2017年建立此网站"></a>2017年建立此网站</h2><h2 id="捐赠"><a href="#捐赠" class="headerlink" title="捐赠"></a>捐赠</h2><p>支付宝</p>
 <p><img src="/images/alipay.png" alt="支付宝"></p>
