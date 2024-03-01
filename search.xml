@@ -17838,10 +17838,10 @@
 <span id="more"></span>
 
 <p>编辑source\tags\index.md</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &quot;tags&quot;</span><br><span class="line">type: tags</span><br><span class="line">layout: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &quot;标签&quot;</span><br><span class="line">type: tags</span><br><span class="line">layout: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <p>编辑source\categories\index.md</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &quot;categories&quot;</span><br><span class="line">type: categories</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &quot;分类&quot;</span><br><span class="line">type: categories</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>输入npm install hexo-theme-next，主题会下载到node_modules\hexo-theme-next，打开配置文件_config.yml</p>
 <h2 id="配置next主题"><a href="#配置next主题" class="headerlink" title="配置next主题"></a>配置next主题</h2><h3 id="选择风格"><a href="#选择风格" class="headerlink" title="选择风格"></a>选择风格</h3><p>主题有4个风格，可以搜一下选择哪个就把前面的井号去掉</p>
@@ -18017,12 +18017,12 @@
 ]]></content>
   </entry>
   <entry>
-    <title>tags</title>
+    <title>标签</title>
     <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>categories</title>
+    <title>分类</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
