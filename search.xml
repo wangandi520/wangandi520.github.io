@@ -17844,6 +17844,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line">type: categories</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>输入npm install hexo-theme-next，主题会下载到node_modules\hexo-theme-next，打开配置文件_config.yml</p>
+<p>升级主题npm update hexo-theme-next</p>
 <h2 id="配置next主题"><a href="#配置next主题" class="headerlink" title="配置next主题"></a>配置next主题</h2><h3 id="选择风格"><a href="#选择风格" class="headerlink" title="选择风格"></a>选择风格</h3><p>主题有4个风格，可以搜一下选择哪个就把前面的井号去掉</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
 
@@ -17866,7 +17867,9 @@
 <h3 id="修改一些名词"><a href="#修改一些名词" class="headerlink" title="修改一些名词"></a>修改一些名词</h3><p>node_modules\hexo-theme-next\languages\zh-CN.yml</p>
 <p>可以把每页下面的“赞赏”和“请我一杯咖啡吧”换成别的话</p>
 <h3 id="版权信息"><a href="#版权信息" class="headerlink" title="版权信息"></a>版权信息</h3><p>把creative_commons:下面改成post: true</p>
-]]></content>
+<h3 id="网站建立时间"><a href="#网站建立时间" class="headerlink" title="网站建立时间"></a>网站建立时间</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">footer:</span><br><span class="line">  since: 2017</span><br></pre></td></tr></table></figure>
+
+<h3 id="文章目录设置"><a href="#文章目录设置" class="headerlink" title="文章目录设置"></a>文章目录设置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">toc:</span><br><span class="line">  enable: true</span><br><span class="line">  number: true</span><br><span class="line">  wrap: true</span><br><span class="line">  expand_all: false</span><br><span class="line">  max_depth: 6</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>程序</category>
       </categories>
