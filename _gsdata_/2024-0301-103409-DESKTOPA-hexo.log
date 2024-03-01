@@ -1,0 +1,24 @@
+2024-03-01 10:34:12: == Sync Started by User Command
+2024-03-01 10:34:12: ConnectCloned connected to file:///G:/Andy/hexo/public
+2024-03-01 10:34:12: ConnectCloned connected to file:///G:/Andy/hexo/public
+2024-03-01 10:34:12: ConnectCloned connected to file:///G:/Andy/hexo/public
+2024-03-01 10:34:12: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2024-03-01 10:34:12: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2024-03-01 10:34:12: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2024-03-01 10:34:12: Copy New 'G:/Andy/hexo/public/images/alipay.png' -> 'G:/Work/Github/wangandi520.github.io/images/alipay.png' (10,470)
+2024-03-01 10:34:12: Copy New 'G:/Andy/hexo/public/images/avatar.jpg' -> 'G:/Work/Github/wangandi520.github.io/images/avatar.jpg' (14,260)
+2024-03-01 10:34:12: Copy Over 'G:/Andy/hexo/public/categories/index.html' -> 'G:/Work/Github/wangandi520.github.io/categories/index.html' (11,988)
+2024-03-01 10:34:12: Copy Over 'G:/Andy/hexo/public/index.html' -> 'G:/Work/Github/wangandi520.github.io/index.html' (44,617)
+2024-03-01 10:34:12: Copy New 'G:/Andy/hexo/public/images/avatar.png' -> 'G:/Work/Github/wangandi520.github.io/images/avatar.png' (26,603)
+2024-03-01 10:34:12: Copy New 'G:/Andy/hexo/public/images/favicon.ico' -> 'G:/Work/Github/wangandi520.github.io/images/favicon.ico' (26,603)
+2024-03-01 10:34:12: Copy New 'G:/Andy/hexo/public/images/weixin.png' -> 'G:/Work/Github/wangandi520.github.io/images/weixin.png' (48,887)
+2024-03-01 10:34:12: Close Modified Folder (mod-time, acl): /categories
+2024-03-01 10:34:12: Close Modified Folder (mod-time, acl): /images
+2024-03-01 10:34:12: Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (986,030)
+2024-03-01 10:34:12: Copy Over 'G:/Andy/hexo/public/tags/index.html' -> 'G:/Work/Github/wangandi520.github.io/tags/index.html' (17,712)
+2024-03-01 10:34:12: Copy Over 'G:/Andy/hexo/public/2024/02/29/配置hexo主题next/index.html' -> 'G:/Work/Github/wangandi520.github.io/2024/02/29/配置hexo主题next/index.html' (24,788)
+2024-03-01 10:34:12: Close Modified Folder (mod-time, acl): /tags
+2024-03-01 10:34:12: Close Modified Folder (mod-time, acl): /2024/02/29/配置hexo主题next
+2024-03-01 10:34:12: Save State File G:/Andy/hexo/public/_gsdata_/_file_state_v4._gs
+2024-03-01 10:34:12: Save State File G:/Work/Github/wangandi520.github.io/_gsdata_/_file_state_v4._gs
+2024-03-01 10:34:13: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, OK: 10, Errors: 0
