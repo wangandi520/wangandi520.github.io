@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Andy&#39;s word</title>
+  <icon>https://andi.wang/icon.png</icon>
+  <subtitle>如果我会发光，就不必害怕黑暗。</subtitle>
+  <link href="https://andi.wang/atom.xml" rel="self"/>
+  
+  <link href="https://andi.wang/"/>
+  <updated>2024-03-01T06:22:29.737Z</updated>
+  <id>https://andi.wang/</id>
+  
+  <author>
+    <name>Andy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo和next主题的一些配置</title>
+    <link href="https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/"/>
+    <id>https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</id>
+    <published>2024-02-29T12:33:12.000Z</published>
+    <updated>2024-03-01T06:22:29.737Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h2&gt;&lt;p&gt;任意一个空文件夹右键open in terminal，输入以下内容&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-cli -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo init&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo new page tags&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo new page categories&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="hexo" scheme="https://andi.wang/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中文日文注音使用html上标注音格式</title>
+    <link href="https://andi.wang/2024/02/18/%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87%E6%B3%A8%E9%9F%B3%E4%BD%BF%E7%94%A8html%E4%B8%8A%E6%A0%87%E6%B3%A8%E9%9F%B3%E6%A0%BC%E5%BC%8F/"/>
+    <id>https://andi.wang/2024/02/18/%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87%E6%B3%A8%E9%9F%B3%E4%BD%BF%E7%94%A8html%E4%B8%8A%E6%A0%87%E6%B3%A8%E9%9F%B3%E6%A0%BC%E5%BC%8F/</id>
+    <published>2024-02-18T04:22:17.000Z</published>
+    <updated>2024-02-26T04:31:05.777Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;脚本地址&quot;&gt;&lt;a href=&quot;#脚本地址&quot; class=&quot;headerlink&quot; title=&quot;脚本地址&quot;&gt;&lt;/a&gt;脚本地址&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript&quot;&gt;https://github.com/wangandi520/andyspythonscript&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用github的action配合python每天签到</title>
+    <link href="https://andi.wang/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/"/>
+    <id>https://andi.wang/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</id>
+    <published>2024-02-11T02:32:08.000Z</published>
+    <updated>2024-02-12T00:30:34.815Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>挪威的森林赖明珠译 标注</title>
+    <link href="https://andi.wang/2024/02/05/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E8%B5%96%E6%98%8E%E7%8F%A0%E8%AF%91%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2024/02/05/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E8%B5%96%E6%98%8E%E7%8F%A0%E8%AF%91%E6%A0%87%E6%B3%A8/</id>
+    <published>2024-02-05T03:09:36.000Z</published>
+    <updated>2024-02-05T03:09:36.599Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;共24条标注&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;老实说，对那时候的我来说，风景怎样好像都无所谓似的。我只想着我自己的事，想着那时候身边并肩走着一个美女的事，想着我和她的事，并且又再想回我自己的事。那个年纪不管看见什么、感觉什么、想到什么，最后都会像掷出回力标回到自己手上一样。何况我正在恋爱，那场恋爱把我带进一个非常麻烦复杂的处境。让我没有多余的心情转去看周遭的风景。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;2024.01.31 15:11:57&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“因为一个人一直保护另外一个人直到永远，是不可能的啊。假定噢，假定我跟你结婚了。你在公司上班。那么当你去上班的时候，到底有谁来保护我呢？你去出差的时候，到底有谁来保护我呢？难道我能够到死都黏着你吗？嘿，这样不是很不公平吗？这样不能叫做人际关系吧？而且有一天你会对我感到厌烦。开始想自己的人生到底算什么？难道只为了保护这个女人吗？你会这么说。我不喜欢那样。那样根本解决不了我的问题呀。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;2024.01.31 16:57:43&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不能承受的生命之轻 标注</title>
+    <link href="https://andi.wang/2024/01/28/%E4%B8%8D%E8%83%BD%E6%89%BF%E5%8F%97%E7%9A%84%E7%94%9F%E5%91%BD%E4%B9%8B%E8%BD%BB%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2024/01/28/%E4%B8%8D%E8%83%BD%E6%89%BF%E5%8F%97%E7%9A%84%E7%94%9F%E5%91%BD%E4%B9%8B%E8%BD%BB%E6%A0%87%E6%B3%A8/</id>
+    <published>2024-01-28T07:51:25.000Z</published>
+    <updated>2024-01-28T07:51:25.281Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;共41条标注&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;永恒轮回是一种神秘的想法，尼采(1)曾用它让不少哲学家陷入窘境：想想吧，有朝一日，一切都将以我们经历过的方式再现，而且这种反复还将无限重复下去！这一谵妄之说到底意味着什么？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;这本书的纸质版2016年4月13日在京东购买，这两段话写于2024年1月3日第一次阅读时。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2024.01.28 14:43:19&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;托马斯自言自语：einmal ist keinmal，这是一个德国谚语，是说一次不算数，一次就是从来没有。只能活一次，就和根本没有活过一样。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;2023.11.29 21:14:57&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>联想拯救者y700一代（2022）平板刷机过程</title>
+    <link href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
+    <id>https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</id>
+    <published>2024-01-13T09:11:23.000Z</published>
+    <updated>2024-01-27T03:07:11.570Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;分为第三方ROM和官方ROM两部分。&lt;/p&gt;
+&lt;p&gt;操作有风险，注意安全。&lt;/p&gt;
+&lt;p&gt;zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。&lt;/p&gt;
+&lt;p&gt;刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前zui14.0.286使用没问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="y700" scheme="https://andi.wang/tags/y700/"/>
+    
+    <category term="刷机" scheme="https://andi.wang/tags/%E5%88%B7%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows和Android优质软件</title>
+    <link href="https://andi.wang/2024/01/03/Windows%E5%92%8CAndroid%E4%BC%98%E8%B4%A8%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://andi.wang/2024/01/03/Windows%E5%92%8CAndroid%E4%BC%98%E8%B4%A8%E8%BD%AF%E4%BB%B6/</id>
+    <published>2024-01-03T06:55:41.000Z</published>
+    <updated>2024-02-20T03:43:05.364Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;建议只从各个软件官网下载。&lt;/p&gt;
+&lt;h1 id=&quot;两个平台&quot;&gt;&lt;a href=&quot;#两个平台&quot; class=&quot;headerlink&quot; title=&quot;两个平台&quot;&gt;&lt;/a&gt;两个平台&lt;/h1&gt;&lt;p&gt;microsoft edge：浏览器，同步，从手机发网页到电脑都很方便。&lt;br&gt;microsoft todo：计划清单提醒。&lt;br&gt;microsoft onenote：做笔记，同步时快时慢。&lt;br&gt;joplin：做笔记，可以自己搭建服务器同步，可以导出，可以webdav同步。&lt;br&gt;resilio sync：同步文件用，只有两边都打开软件就自动完成。&lt;br&gt;localsend：跨平台发文件，发文字，简洁高效。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="电脑技巧" scheme="https://andi.wang/tags/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速上手羽毛球弹弓</title>
+    <link href="https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/"/>
+    <id>https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/</id>
+    <published>2023-12-29T07:20:25.000Z</published>
+    <updated>2024-01-24T02:00:47.027Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;几个关键技巧。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="羽毛球" scheme="https://andi.wang/tags/%E7%BE%BD%E6%AF%9B%E7%90%83/"/>
+    
+    <category term="弹弓" scheme="https://andi.wang/tags/%E5%BC%B9%E5%BC%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>省钱玩电吉他单车摄影，阅读音乐</title>
+    <link href="https://andi.wang/2023/12/29/%E7%9C%81%E9%92%B1%E7%8E%A9%E7%94%B5%E5%90%89%E4%BB%96%E5%8D%95%E8%BD%A6%E6%91%84%E5%BD%B1%EF%BC%8C%E9%98%85%E8%AF%BB%E9%9F%B3%E4%B9%90/"/>
+    <id>https://andi.wang/2023/12/29/%E7%9C%81%E9%92%B1%E7%8E%A9%E7%94%B5%E5%90%89%E4%BB%96%E5%8D%95%E8%BD%A6%E6%91%84%E5%BD%B1%EF%BC%8C%E9%98%85%E8%AF%BB%E9%9F%B3%E4%B9%90/</id>
+    <published>2023-12-29T07:20:25.000Z</published>
+    <updated>2024-01-21T15:43:47.669Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;文章内提到的盗版或破解软件都来自互联网，与本文作者无关，也无利益关系。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;省钱玩，推荐的性价比高，性能又好。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="个人" scheme="https://andi.wang/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    
+    <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="音乐" scheme="https://andi.wang/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+    <category term="电吉他" scheme="https://andi.wang/tags/%E7%94%B5%E5%90%89%E4%BB%96/"/>
+    
+    <category term="单车" scheme="https://andi.wang/tags/%E5%8D%95%E8%BD%A6/"/>
+    
+    <category term="摄影" scheme="https://andi.wang/tags/%E6%91%84%E5%BD%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>美丽的世界，你在哪里 标注</title>
+    <link href="https://andi.wang/2023/12/25/%E7%BE%8E%E4%B8%BD%E7%9A%84%E4%B8%96%E7%95%8C%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C/"/>
+    <id>https://andi.wang/2023/12/25/%E7%BE%8E%E4%B8%BD%E7%9A%84%E4%B8%96%E7%95%8C%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C/</id>
+    <published>2023-12-25T03:38:22.000Z</published>
+    <updated>2023-12-26T14:59:14.445Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;她问：艾丽丝，我是不是总有一天要在现实里生活？艾丽丝头也没抬，嗤之以鼻道：老天，当然不会了。你听谁说的？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;2023.12.02 00:22:53&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>音频软件插件简评</title>
+    <link href="https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/"/>
+    <id>https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</id>
+    <published>2023-12-15T11:37:05.000Z</published>
+    <updated>2023-12-24T04:46:40.321Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;宿主DAW&quot;&gt;&lt;a href=&quot;#宿主DAW&quot; class=&quot;headerlink&quot; title=&quot;宿主DAW&quot;&gt;&lt;/a&gt;宿主DAW&lt;/h1&gt;&lt;h2 id=&quot;Reaper&quot;&gt;&lt;a href=&quot;#Reaper&quot; class=&quot;headerlink&quot; title=&quot;Reaper&quot;&gt;&lt;/a&gt;Reaper&lt;/h2&gt;&lt;p&gt;版本v7.07&lt;/p&gt;
+&lt;p&gt;60美元买，可以升级两个整数版本，或者免费试用，但是每次进去要等几秒，网上破解版也很容易找。&lt;/p&gt;
+&lt;p&gt;优点：体积小，很多自制脚本（官网reaper.fm里），快捷操作很多（菜单Actions里），社区活跃&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小米14的一些bug</title>
+    <link href="https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/"/>
+    <id>https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</id>
+    <published>2023-11-20T06:48:55.000Z</published>
+    <updated>2024-02-22T06:55:14.198Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;小米14的一些bug&quot;&gt;&lt;a href=&quot;#小米14的一些bug&quot; class=&quot;headerlink&quot; title=&quot;小米14的一些bug&quot;&gt;&lt;/a&gt;小米14的一些bug&lt;/h1&gt;&lt;p&gt;说明：手机没使用手机搬家，app都是在小米商店或google play下载，apk都通过在线杀毒，没安装乱七八糟的app，路由器正常且网络通畅。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>百年孤独人物关系图（自制）</title>
+    <link href="https://andi.wang/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/"/>
+    <id>https://andi.wang/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</id>
+    <published>2023-06-11T03:41:25.000Z</published>
+    <updated>2023-07-20T01:02:23.505Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;/images/bainiangudu01.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="百年孤独" scheme="https://andi.wang/tags/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>食品用品</title>
+    <link href="https://andi.wang/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
+    <id>https://andi.wang/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</id>
+    <published>2023-06-07T02:41:57.000Z</published>
+    <updated>2024-02-10T12:29:52.791Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;更新日期2023.10.14&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="食品用品" scheme="https://andi.wang/tags/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书籍删减与翻译情况</title>
+    <link href="https://andi.wang/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/"/>
+    <id>https://andi.wang/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/</id>
+    <published>2023-06-06T08:11:56.000Z</published>
+    <updated>2024-01-02T02:05:12.107Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;方括号内为被删减的内容，书名下多个出版社是都有删减的意思&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>红楼梦人物关系图（自制）</title>
+    <link href="https://andi.wang/2023/05/25/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/"/>
+    <id>https://andi.wang/2023/05/25/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</id>
+    <published>2023-05-25T12:41:25.000Z</published>
+    <updated>2023-06-11T07:50:20.012Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;/images/hongloumeng01.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="红楼梦" scheme="https://andi.wang/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SciTE文本编辑器配置</title>
+    <link href="https://andi.wang/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/"/>
+    <id>https://andi.wang/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/</id>
+    <published>2023-01-29T12:55:01.000Z</published>
+    <updated>2023-01-31T03:44:32.827Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;打开Options - Open User Options File，填写下面的代码&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="电脑技巧" scheme="https://andi.wang/tags/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>漫画印刷与扫描错误</title>
+    <link href="https://andi.wang/2022/08/08/%E6%BC%AB%E7%94%BB%E5%8D%B0%E5%88%B7%E4%B8%8E%E6%89%AB%E6%8F%8F%E9%94%99%E8%AF%AF/"/>
+    <id>https://andi.wang/2022/08/08/%E6%BC%AB%E7%94%BB%E5%8D%B0%E5%88%B7%E4%B8%8E%E6%89%AB%E6%8F%8F%E9%94%99%E8%AF%AF/</id>
+    <published>2022-08-08T03:00:00.000Z</published>
+    <updated>2024-02-07T06:37:43.838Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;印刷错误、扫描错误、修图改图和谐等问题。&lt;/p&gt;
+&lt;p&gt;2023.10.28&lt;/p&gt;
+&lt;h2 id=&quot;自制补页下载&quot;&gt;&lt;a href=&quot;#自制补页下载&quot; class=&quot;headerlink&quot; title=&quot;自制补页下载&quot;&gt;&lt;/a&gt;自制补页下载&lt;/h2&gt;&lt;p&gt;下载地址：&lt;a href=&quot;https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528&quot;&gt;https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd&amp;#x3D;p528&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>几个PyQt程序</title>
+    <link href="https://andi.wang/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/"/>
+    <id>https://andi.wang/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/</id>
+    <published>2022-03-19T06:37:04.000Z</published>
+    <updated>2022-09-27T16:38:13.823Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;源代码：&lt;a href=&quot;https://github.com/wangandi520/andyspyqtscript&quot;&gt;https://github.com/wangandi520/andyspyqtscript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;exe： &lt;a href=&quot;https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix&quot;&gt;https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用PyQt5编写，生成exe，请运行pyinstaller -F 程序.py&lt;/p&gt;
+&lt;p&gt;需要pip install pyinstaller&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+    <category term="Qt" scheme="https://andi.wang/tags/Qt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用archlinux搭建家庭数据服务中心</title>
+    <link href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"/>
+    <id>https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/</id>
+    <published>2022-01-26T10:12:42.000Z</published>
+    <updated>2023-12-23T07:09:43.605Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新时间：2023年11月21日&quot;&gt;&lt;a href=&quot;#更新时间：2023年11月21日&quot; class=&quot;headerlink&quot; title=&quot;更新时间：2023年11月21日&quot;&gt;&lt;/a&gt;更新时间：2023年11月21日&lt;/h2&gt;&lt;h2 id=&quot;平台&quot;&gt;&lt;a href=&quot;#平台&quot; class=&quot;headerlink&quot; title=&quot;平台&quot;&gt;&lt;/a&gt;平台&lt;/h2&gt;&lt;h3 id=&quot;树莓派&quot;&gt;&lt;a href=&quot;#树莓派&quot; class=&quot;headerlink&quot; title=&quot;树莓派&quot;&gt;&lt;/a&gt;树莓派&lt;/h3&gt;&lt;p&gt;型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统&lt;a href=&quot;https://archlinuxarm.org/&quot;&gt;archlinuxarm&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;nuc&quot;&gt;&lt;a href=&quot;#nuc&quot; class=&quot;headerlink&quot; title=&quot;nuc&quot;&gt;&lt;/a&gt;nuc&lt;/h3&gt;&lt;p&gt;型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版&lt;a href=&quot;https://archlinux.org/&quot;&gt;archlinux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本文的内容几乎适用于两种平台的archlinux配置&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="Raspberry" scheme="https://andi.wang/tags/Raspberry/"/>
+    
+    <category term="树莓派" scheme="https://andi.wang/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="nuc" scheme="https://andi.wang/tags/nuc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux笔记</title>
+    <link href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"/>
+    <id>https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-01-26T10:11:42.000Z</published>
+    <updated>2022-09-23T08:30:07.493Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;pip下载速度慢&quot;&gt;&lt;a href=&quot;#pip下载速度慢&quot; class=&quot;headerlink&quot; title=&quot;pip下载速度慢&quot;&gt;&lt;/a&gt;pip下载速度慢&lt;/h2&gt;&lt;p&gt;运行的时候添加参数 -i &lt;a href=&quot;https://pypi.tuna.tsinghua.edu.cn/simple&quot;&gt;https://pypi.tuna.tsinghua.edu.cn/simple&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;永久修改，linux下新建或修改~&amp;#x2F;.pip&amp;#x2F;pip.conf&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[global]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;index-url = https://pypi.tuna.tsinghua.edu.cn/simple&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[install]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;trusted-host = https://pypi.tuna.tsinghua.edu.cn&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="linux" scheme="https://andi.wang/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Seventh9日麻教程 标注</title>
+    <link href="https://andi.wang/2022/01/08/Seventh9%E6%97%A5%E9%BA%BB%E6%95%99%E7%A8%8B%EF%BC%8879%E5%8D%9A%E5%AE%A2%EF%BC%89v1.2/"/>
+    <id>https://andi.wang/2022/01/08/Seventh9%E6%97%A5%E9%BA%BB%E6%95%99%E7%A8%8B%EF%BC%8879%E5%8D%9A%E5%AE%A2%EF%BC%89v1.2/</id>
+    <published>2022-01-08T03:35:01.000Z</published>
+    <updated>2022-03-19T08:23:49.015Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;炽魂&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(高亮: 70; 标注: 0)&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;麻雀的基础1-麻雀是？&quot;&gt;&lt;a href=&quot;#麻雀的基础1-麻雀是？&quot; class=&quot;headerlink&quot; title=&quot;麻雀的基础1 麻雀是？&quot;&gt;&lt;/a&gt;麻雀的基础1 麻雀是？&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;麻将是大体被运气支配的赌博游戏，不能很明显反应自身的实力。即使通过很多努力提高了自身的水平，但你运气不好的时候依旧有可能惨败给水平不如你的对手。这就是麻将了。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="麻将" scheme="https://andi.wang/tags/%E9%BA%BB%E5%B0%86/"/>
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书，电影，电视剧简评</title>
+    <link href="https://andi.wang/2022/01/06/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E7%AE%80%E8%AF%84/"/>
+    <id>https://andi.wang/2022/01/06/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E7%AE%80%E8%AF%84/</id>
+    <published>2022-01-06T03:48:55.000Z</published>
+    <updated>2024-02-20T03:06:50.226Z</updated>
+    
+    
+    <summary type="html">&lt;div class=&quot;notification is-danger&quot;&gt;
+&lt;p&gt;本文含结局剧透，请谨慎阅读。&lt;/p&gt;
+&lt;/div&gt;</summary>
+    
+    
+    
+    <category term="个人" scheme="https://andi.wang/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    
+    <category term="书" scheme="https://andi.wang/tags/%E4%B9%A6/"/>
+    
+    <category term="电影" scheme="https://andi.wang/tags/%E7%94%B5%E5%BD%B1/"/>
+    
+    <category term="电视剧" scheme="https://andi.wang/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书，电影，电视剧记录</title>
+    <link href="https://andi.wang/2021/12/31/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E8%AE%B0%E5%BD%95/"/>
+    <id>https://andi.wang/2021/12/31/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-12-31T08:48:55.000Z</published>
+    <updated>2024-02-20T03:33:32.539Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;重复的是看过很多遍的&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;数字为评分，满分10分，最低0分&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;评分标准&quot;&gt;&lt;a href=&quot;#评分标准&quot; class=&quot;headerlink&quot; title=&quot;评分标准&quot;&gt;&lt;/a&gt;评分标准&lt;/h2&gt;&lt;p&gt;1分以下：&lt;br&gt;1-4分：&lt;br&gt;4-6分：&lt;br&gt;6-7分：不太需要思考的故事，适合下下饭。&lt;br&gt;7-8分：值得向别人推荐，有一两个情节能让人记住和回味。&lt;br&gt;8-9分：会摘录很多句子，截取很多画面。&lt;br&gt;9-10分：每年看一次都不会厌倦。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="个人" scheme="https://andi.wang/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    
+    <category term="书" scheme="https://andi.wang/tags/%E4%B9%A6/"/>
+    
+    <category term="电影" scheme="https://andi.wang/tags/%E7%94%B5%E5%BD%B1/"/>
+    
+    <category term="电视剧" scheme="https://andi.wang/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>沉默的大多数 标注</title>
+    <link href="https://andi.wang/2021/10/22/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2021/10/22/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0%E6%A0%87%E6%B3%A8/</id>
+    <published>2021-10-22T06:41:10.000Z</published>
+    <updated>2022-03-19T08:24:17.894Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;王小波&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(高亮: 85; 标注: 0)&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;自序&quot;&gt;&lt;a href=&quot;#自序&quot; class=&quot;headerlink&quot; title=&quot;自序&quot;&gt;&lt;/a&gt;自序&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;我反对愚蠢，不是反对天生就笨的人，这种人只是极少数，而且这种人还盼着变聪明。在这个世界上，大多数愚蠢里含有假装和弄假成真的成分。但这一点并不是我的发现，是萧伯纳告诉我的。在他的《匹克梅梁》里，息金斯教授遇上了一个假痴不癫的杜特立尔先生。息教授问：你是恶棍还是傻瓜？这就是问：你假傻真傻？杜先生答：两样都有点，先生，凡人两样都得有点呀。在我身上，后者的成分多，前者的成分少。而且我讨厌装傻，渴望变聪明。所以我才会写这本书。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>离线漫画NeeView的使用和与其他软件的对比</title>
+    <link href="https://andi.wang/2021/10/05/%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BBNeeView%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%B9%E6%AF%94/"/>
+    <id>https://andi.wang/2021/10/05/%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BBNeeView%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%B9%E6%AF%94/</id>
+    <published>2021-10-05T01:53:55.000Z</published>
+    <updated>2024-02-07T08:58:02.447Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;我的NeeView常用快捷键建议&quot;&gt;&lt;a href=&quot;#我的NeeView常用快捷键建议&quot; class=&quot;headerlink&quot; title=&quot;我的NeeView常用快捷键建议&quot;&gt;&lt;/a&gt;我的NeeView常用快捷键建议&lt;/h2&gt;&lt;p&gt;选项，设置，指令设置。因为看日版漫画多，所以一般把左当作下一页。&lt;/p&gt;
+&lt;p&gt;切换全屏幕，回车&lt;br&gt;启用&amp;#x2F;停用放大镜，F5，鼠标侧键&lt;br&gt;返回到前一个页面（上一页），方向右，方向上，pageup&lt;br&gt;前进到下一个页面（下一页），方向左，方向下，空格，pagedown&lt;br&gt;返回单页（双页显示时，只向下翻一单页），&amp;#x3D;&lt;br&gt;前进单页（双页显示时，只向上翻一单页），-&lt;br&gt;滚动+返回到前一个页面，鼠标滚轮上&lt;br&gt;滚动+前进到下一个页面，鼠标滚轮下&lt;br&gt;移动到开始页面（移动到第一页），Home&lt;br&gt;移动到最后的页面（移动到最后一页），End&lt;br&gt;移动到前一本书（打开上一个文件），]&lt;br&gt;移动到下一本本（打开下一个文件），[&lt;br&gt;单页显示，1&lt;br&gt;双页显示，2&lt;br&gt;结束应用程序，Esc&lt;/p&gt;
+&lt;p&gt;选项，汇入设定可直接导入，设定文件下载&lt;a href=&quot;/files/NeeView40.5-20240204.nvzip&quot;&gt;&amp;#x2F;files&amp;#x2F;NeeView40.5-20240204.nvzip&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+    <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中国历代政治得失 标注</title>
+    <link href="https://andi.wang/2021/09/28/%E4%B8%AD%E5%9B%BD%E5%8E%86%E4%BB%A3%E6%94%BF%E6%B2%BB%E5%BE%97%E5%A4%B1%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2021/09/28/%E4%B8%AD%E5%9B%BD%E5%8E%86%E4%BB%A3%E6%94%BF%E6%B2%BB%E5%BE%97%E5%A4%B1%E6%A0%87%E6%B3%A8/</id>
+    <published>2021-09-28T06:35:01.000Z</published>
+    <updated>2022-03-19T08:23:55.690Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;钱穆&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2020-04-07 10:23&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[原文]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本来政治应该分为两方面来讲：一是讲“人事”，一是讲“制度”。人事比较变动；制度由人创立，亦由人改订，亦属人事，而比较稳定，也可以规定人事，限制人事。这一番讲演，则只想多讲制度，少讲人事。但要讲制度甚不易。在史学里，制度本属一项专门学问。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;[批注]&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="钱穆" scheme="https://andi.wang/tags/%E9%92%B1%E7%A9%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一只特立独行的猪 标注</title>
+    <link href="https://andi.wang/2021/09/25/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2021/09/25/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA%E6%A0%87%E6%B3%A8/</id>
+    <published>2021-09-25T14:47:10.000Z</published>
+    <updated>2022-03-19T08:25:45.081Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;王小波&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(高亮: 57; 标注: 0)&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;自序&quot;&gt;&lt;a href=&quot;#自序&quot; class=&quot;headerlink&quot; title=&quot;自序&quot;&gt;&lt;/a&gt;自序&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;我以写小说为主业，但有时也写些杂文，来表明自己对世事的态度。作为一个寻常人，我的看法也许不值得别人重视，但对自己却很重要。这说明我有自己的好恶、爱憎等等。假如没有这些，做人也没什么味道。这些看法常常是在伦理的论域之内，所以对它们，我倒有一种平常心，罗素先生曾说，对伦理的问题无法做科学的辩护。我同意这个观点。举例来说，我认为，思维可以给人带来很大的乐趣，我看不出有什么理由可以剥夺这种乐趣。这个看法也在伦理的论域之内。所以，我举不出科学上的理由来说明自己是对的。假如有人说不思维才快乐，我只有摇头，却无话可说。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不管什么书，我都不希望它太严肃，这一本也不例外。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>几个漫画整理脚本的使用</title>
+    <link href="https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>https://andi.wang/2021/07/03/%E5%87%A0%E4%B8%AA%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+    <published>2021-07-03T07:10:01.000Z</published>
+    <updated>2024-02-26T03:20:26.821Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;注意事项&quot;&gt;&lt;a href=&quot;#注意事项&quot; class=&quot;headerlink&quot; title=&quot;注意事项&quot;&gt;&lt;/a&gt;注意事项&lt;/h2&gt;&lt;p&gt;请先备份你的文件，使用后确实符合你的要求后再批量应用&lt;/p&gt;
+&lt;p&gt;拖拽：拖文件或文件到这个py文件上&lt;/p&gt;
+&lt;p&gt;递归：这个效果，对于文件夹和他的所有子文件夹都会有效&lt;/p&gt;
+&lt;h2 id=&quot;说明：&quot;&gt;&lt;a href=&quot;#说明：&quot; class=&quot;headerlink&quot; title=&quot;说明：&quot;&gt;&lt;/a&gt;说明：&lt;/h2&gt;&lt;p&gt;脚本下载地址：&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript&quot;&gt;Github：https://github.com/wangandi520/andyspythonscript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用前请先安装python&lt;a href=&quot;https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe&quot;&gt;https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;官方网站&lt;a href=&quot;https://www.python.org/&quot;&gt;https://www.python.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;别在baidu搜索或别的不明网站下载，谨防流氓软件&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>红米ac2100路由器刷padavan系统</title>
+    <link href="https://andi.wang/2021/06/07/%E7%BA%A2%E7%B1%B3ac2100%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7padavan%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://andi.wang/2021/06/07/%E7%BA%A2%E7%B1%B3ac2100%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7padavan%E7%B3%BB%E7%BB%9F/</id>
+    <published>2021-06-07T05:11:42.000Z</published>
+    <updated>2021-07-15T12:38:36.158Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新2-0-7固件并获取root权限&quot;&gt;&lt;a href=&quot;#更新2-0-7固件并获取root权限&quot; class=&quot;headerlink&quot; title=&quot;更新2.0.7固件并获取root权限&quot;&gt;&lt;/a&gt;更新2.0.7固件并获取root权限&lt;/h2&gt;&lt;p&gt;ac2100通电连网线（右3个孔）或wifi后，打开本地浏览器输入192.168.31.1，右上角选择固件升级，选择2.0.7固件，下载地址&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://openwrt.ink:8666/%E5%AE%98%E6%96%B9%E5%B7%A5%E5%85%B7%E5%8C%85/%E7%BA%A2%E7%B1%B3AC2100/%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6/miwifi_rm2100_firmware_d6234_2.0.7.bin&quot;&gt;http://openwrt.ink:8666/%E5%AE%98%E6%96%B9%E5%B7%A5%E5%85%B7%E5%8C%85/%E7%BA%A2%E7%B1%B3AC2100/%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6/miwifi_rm2100_firmware_d6234_2.0.7.bin&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
+    
+    <category term="路由器" scheme="https://andi.wang/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+    <category term="padavan" scheme="https://andi.wang/tags/padavan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PNG批量转成PDF</title>
+    <link href="https://andi.wang/2021/04/30/PNG%E6%89%B9%E9%87%8F%E8%BD%AC%E6%88%90PDF/"/>
+    <id>https://andi.wang/2021/04/30/PNG%E6%89%B9%E9%87%8F%E8%BD%AC%E6%88%90PDF/</id>
+    <published>2021-04-30T02:39:06.000Z</published>
+    <updated>2021-05-02T02:12:59.504Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Github:&lt;a href=&quot;https://github.com/wangandi520/PNGToPDF&quot;&gt;https://github.com/wangandi520/PNGToPDF&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="PDF" scheme="https://andi.wang/tags/PDF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建webdav服务器实现静读天下同步</title>
+    <link href="https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/"/>
+    <id>https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/</id>
+    <published>2021-03-22T02:31:55.000Z</published>
+    <updated>2023-12-23T07:11:23.943Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;下载webdav程序&quot;&gt;&lt;a href=&quot;#下载webdav程序&quot; class=&quot;headerlink&quot; title=&quot;下载webdav程序&quot;&gt;&lt;/a&gt;下载webdav程序&lt;/h2&gt;&lt;p&gt;Github地址&lt;a href=&quot;https://github.com/hacdias/webdav/releases&quot;&gt;https://github.com/hacdias/webdav/releases&lt;/a&gt;&lt;br&gt;我的是树莓派3b，所以下载linux-armv7-webdav.tar.gz。&lt;br&gt;windows的话下载windows-amd64-webdav.zip。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="linux" scheme="https://andi.wang/tags/linux/"/>
+    
+    <category term="Raspberry" scheme="https://andi.wang/tags/Raspberry/"/>
+    
+    <category term="树莓派" scheme="https://andi.wang/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="archlinuxarm" scheme="https://andi.wang/tags/archlinuxarm/"/>
+    
+    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
+    
+    <category term="webdav" scheme="https://andi.wang/tags/webdav/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo主题icarus的一些玩法</title>
+    <link href="https://andi.wang/2021/03/17/hexo%E4%B8%BB%E9%A2%98icarus%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8E%A9%E6%B3%95/"/>
+    <id>https://andi.wang/2021/03/17/hexo%E4%B8%BB%E9%A2%98icarus%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8E%A9%E6%B3%95/</id>
+    <published>2021-03-17T12:48:55.000Z</published>
+    <updated>2021-03-21T07:43:58.486Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;设置文章封面图&quot;&gt;&lt;a href=&quot;#设置文章封面图&quot; class=&quot;headerlink&quot; title=&quot;设置文章封面图&quot;&gt;&lt;/a&gt;设置文章封面图&lt;/h2&gt;&lt;p&gt;在文章的front-matter中添加cover选项：&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cover: /gallery/covers/cover.jpg&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="hexo" scheme="https://andi.wang/tags/hexo/"/>
+    
+    <category term="icarus" scheme="https://andi.wang/tags/icarus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>舒适阅读电子书和漫画</title>
+    <link href="https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/"/>
+    <id>https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/</id>
+    <published>2021-03-16T15:13:01.000Z</published>
+    <updated>2024-01-15T03:50:48.353Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h1&gt;&lt;p&gt;2023.12.7&lt;/p&gt;
+&lt;h1 id=&quot;设备&quot;&gt;&lt;a href=&quot;#设备&quot; class=&quot;headerlink&quot; title=&quot;设备&quot;&gt;&lt;/a&gt;设备&lt;/h1&gt;&lt;h2 id=&quot;电纸书&quot;&gt;&lt;a href=&quot;#电纸书&quot; class=&quot;headerlink&quot; title=&quot;电纸书&quot;&gt;&lt;/a&gt;电纸书&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;kindle：封闭系统，边框宽，只适合看亚马逊的书，没其他需求的朋友。不推荐。&lt;/li&gt;
+&lt;li&gt;文石boox：安卓系统，系统bug多更新慢，遇到过半年修复一个bug。适合安装app阅读，或看部分pdf，轻度推荐。具体评测：&lt;a href=&quot;https://andi.wang/2020/06/23/%E6%96%87%E7%9F%B3boox%20nova2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/&quot;&gt;nova2&lt;/a&gt;，&lt;a href=&quot;https://andi.wang/2019/03/29/%E6%96%87%E7%9F%B3poke%20pro,nova%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/&quot;&gt;nova pro&lt;/a&gt;，&lt;a href=&quot;https://andi.wang/2019/03/29/%E6%96%87%E7%9F%B3boox%20poke%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/&quot;&gt;poke pro&lt;/a&gt;，&lt;/li&gt;
+&lt;li&gt;海信：安卓系统，5寸左右的手机，方便随时阅读，看小说的话轻度推荐。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;看纯文字书，推荐国产安卓电纸书，开放安卓系统。看漫画至少8寸，但是很多残影问题处理不好。&lt;/p&gt;
+&lt;p&gt;看漫画推荐安卓平板+perfect viewer或ipad+comicshare，比用电纸书舒服。&lt;/p&gt;
+&lt;p&gt;eink设备建议满足这些条件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;300ppi&lt;/li&gt;
+&lt;li&gt;开放系统&lt;/li&gt;
+&lt;li&gt;最新版屏幕（如carta1300）&lt;/li&gt;
+&lt;li&gt;重量轻&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
+    
+    <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>西游记校注本 标注</title>
+    <link href="https://andi.wang/2021/03/16/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E6%A0%A1%E6%B3%A8%E6%9C%AC%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2021/03/16/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E6%A0%A1%E6%B3%A8%E6%9C%AC%E6%A0%87%E6%B3%A8/</id>
+    <published>2021-03-16T04:15:10.000Z</published>
+    <updated>2022-03-19T08:25:51.484Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;（明）吴承恩&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;第二十七回　尸魔三戏唐三藏 圣僧恨逐美猴王&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2018-12-23 23:25&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[原文]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;行者笑道：“师父，你那里认得。老孙在水帘洞里做妖魔时，若想人肉吃，便是这等：或变金银，或变庄台，或变醉人，或变女色。有那等痴心的爱上我，我就迷他到洞里，尽意随心，或蒸或煮受用；吃不了，还要晒干了防天阴哩！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;[批注]&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="西游记" scheme="https://andi.wang/tags/%E8%A5%BF%E6%B8%B8%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>吉他和弦图查询与生成</title>
+    <link href="https://andi.wang/2021/03/15/%E5%90%89%E4%BB%96%E5%92%8C%E5%BC%A6%E5%9B%BE%E6%9F%A5%E8%AF%A2%E4%B8%8E%E7%94%9F%E6%88%90/"/>
+    <id>https://andi.wang/2021/03/15/%E5%90%89%E4%BB%96%E5%92%8C%E5%BC%A6%E5%9B%BE%E6%9F%A5%E8%AF%A2%E4%B8%8E%E7%94%9F%E6%88%90/</id>
+    <published>2021-03-15T00:11:42.000Z</published>
+    <updated>2021-03-16T01:30:19.396Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;演示：https-andi-wang-guitar&quot;&gt;&lt;a href=&quot;#演示：https-andi-wang-guitar&quot; class=&quot;headerlink&quot; title=&quot;演示：https://andi.wang/guitar/&quot;&gt;&lt;/a&gt;演示：&lt;a href=&quot;https://andi.wang/guitar/&quot;&gt;https://andi.wang/guitar/&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Github：&lt;a href=&quot;https://github.com/wangandi520/GuitarChordSearchAndGenerate&quot;&gt;https://github.com/wangandi520/GuitarChordSearchAndGenerate&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="吉他" scheme="https://andi.wang/tags/%E5%90%89%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</title>
+    <link href="https://andi.wang/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/"/>
+    <id>https://andi.wang/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/</id>
+    <published>2021-03-14T23:57:06.000Z</published>
+    <updated>2024-02-29T16:25:55.834Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/wangandi520/ClippingsToMarkdown&quot;&gt;https://github.com/wangandi520/ClippingsToMarkdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jq.qq.com/?_wv=1027&amp;k=AqqQIfm7&quot;&gt;电子书漫画制作闲聊群1321993&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="kindle" scheme="https://andi.wang/tags/kindle/"/>
+    
+    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
+    
+    <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
+    
+    <category term="markdown" scheme="https://andi.wang/tags/markdown/"/>
+    
+    <category term="koreader" scheme="https://andi.wang/tags/koreader/"/>
+    
+    <category term="微信读书" scheme="https://andi.wang/tags/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文城 标注</title>
+    <link href="https://andi.wang/2021/03/13/%E6%96%87%E5%9F%8E%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2021/03/13/%E6%96%87%E5%9F%8E%E6%A0%87%E6%B3%A8/</id>
+    <published>2021-03-13T03:38:10.000Z</published>
+    <updated>2022-03-19T08:26:38.459Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;余华&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;十一&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2021-03-04 19:10&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[原文]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小美轻声说：“我怀上了你的骨肉。”林祥福一惊，仔细去看小美，小美的腹部已经隆起。林祥福不知所措了，看着小美哀求的眼神，听着她哭泣的声音，很长时间不知道说些什么，最后他重重地叹息一声，对小美说：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“你起来吧。”&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;[批注]&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="余华" scheme="https://andi.wang/tags/%E4%BD%99%E5%8D%8E/"/>
+    
+    <category term="文城" scheme="https://andi.wang/tags/%E6%96%87%E5%9F%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>REAPER6学习笔记</title>
+    <link href="https://andi.wang/2021/03/12/REAPER6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://andi.wang/2021/03/12/REAPER6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-03-12T01:58:00.000Z</published>
+    <updated>2023-12-17T12:22:50.754Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;更新日期2023.12.16&lt;/p&gt;
+&lt;h2 id=&quot;1-写在前面&quot;&gt;&lt;a href=&quot;#1-写在前面&quot; class=&quot;headerlink&quot; title=&quot;1.写在前面&quot;&gt;&lt;/a&gt;1.写在前面&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;：andi.wang&lt;br&gt;&lt;strong&gt;使用的版本&lt;/strong&gt;：v6.25，系统WIN10，设备建议使用支持ASIO的外置USB声卡&lt;br&gt;&lt;strong&gt;教程来源&lt;/strong&gt;：&lt;a href=&quot;https://www.bilibili.com/video/BV1L7411r7Rr&quot;&gt;[精校][人工翻译]REAPER 6音乐制作入门教程全21集&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://www.reaper.fm/&quot;&gt;软件下载&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://stash.reaper.fm/tag/Themes&quot;&gt;主题&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://stash.reaper.fm/tag/Language-Packs&quot;&gt;语言包&lt;/a&gt;&lt;br&gt;&lt;strong&gt;修改快捷键&lt;/strong&gt;：Actions，Show action list(?)，左下角Add添加，Key map导出。&lt;br&gt;括号内是英文或键盘快捷键&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="REAPER" scheme="https://andi.wang/tags/REAPER/"/>
+    
+    <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>魔方笔记</title>
+    <link href="https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/"/>
+    <id>https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-03-11T06:11:27.000Z</published>
+    <updated>2022-08-18T03:54:08.941Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;cross&quot;&gt;&lt;a href=&quot;#cross&quot; class=&quot;headerlink&quot; title=&quot;cross&quot;&gt;&lt;/a&gt;cross&lt;/h2&gt;&lt;p&gt;底层对好白色十字&lt;br&gt;红橙，蓝绿，绿橙蓝红&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="魔方" scheme="https://andi.wang/tags/%E9%AD%94%E6%96%B9/"/>
+    
+    <category term="学习笔记" scheme="https://andi.wang/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>
