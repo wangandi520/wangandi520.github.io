@@ -775,8 +775,10 @@
 <h3 id="删除每篇文章下载捐赠按钮上面的字buy-me-a-coffee，只保留按钮"><a href="#删除每篇文章下载捐赠按钮上面的字buy-me-a-coffee，只保留按钮" class="headerlink" title="删除每篇文章下载捐赠按钮上面的字buy me a coffee，只保留按钮"></a>删除每篇文章下载捐赠按钮上面的字buy me a coffee，只保留按钮</h3><p>删掉node_modules\hexo-theme-next\layout\_partials\post\post-reward.njk的第二行</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;&#123;&#123; __(&#x27;reward.comment&#x27;) &#125;&#125;&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 
+<h3 id="添加友情链接"><a href="#添加友情链接" class="headerlink" title="添加友情链接"></a>添加友情链接</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">links_settings:</span><br><span class="line">  icon: fa fa-globe</span><br><span class="line">  # Available values: block | inline</span><br><span class="line">  layout: block</span><br><span class="line"></span><br><span class="line">links:</span><br><span class="line">  #Title: https://example.com</span><br><span class="line">  我的项目: https://example.com</span><br><span class="line">  吉他和弦生成: /guitar</span><br></pre></td></tr></table></figure>
+
 <h2 id="next主题的bug和不足"><a href="#next主题的bug和不足" class="headerlink" title="next主题的bug和不足"></a>next主题的bug和不足</h2><p>手机端浏览时没法显示文章目录，电脑端窗口缩窄也是一样</p>
-<h2 id="添加友情链接"><a href="#添加友情链接" class="headerlink" title="添加友情链接"></a>添加友情链接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">links_settings:</span><br><span class="line">  icon: fa fa-globe</span><br><span class="line">  # Available values: block | inline</span><br><span class="line">  layout: block</span><br><span class="line"></span><br><span class="line">links:</span><br><span class="line">  #Title: https://example.com</span><br><span class="line">  我的项目: https://example.com</span><br><span class="line">  吉他和弦生成: /guitar</span><br></pre></td></tr></table></figure>]]></content>
+]]></content>
       <categories>
         <category>程序</category>
       </categories>
