@@ -78,53 +78,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo主题icarus的一些玩法</title>
-    <url>/2021/03/17/hexo%E4%B8%BB%E9%A2%98icarus%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8E%A9%E6%B3%95/</url>
-    <content><![CDATA[<hr>
-<h2 id="设置文章封面图"><a href="#设置文章封面图" class="headerlink" title="设置文章封面图"></a>设置文章封面图</h2><p>在文章的front-matter中添加cover选项：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cover: /gallery/covers/cover.jpg</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<h2 id="设置一个点击后打开的代码块"><a href="#设置一个点击后打开的代码块" class="headerlink" title="设置一个点击后打开的代码块"></a>设置一个点击后打开的代码块</h2><p>代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% codeblock &quot;点击后显示代码&quot; lang:代码语言 &gt;folded %&#125;</span><br><span class="line">hi</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>效果：</p>
-<figure class="highlight plaintext"><figcaption><span>点击后显示代码 >folded</span></figcaption><table><tr><td class="code"><pre><span class="line">hi</span><br></pre></td></tr></table></figure>
-
-<p>上面两条来自<a href="https://blog.zhangruipeng.me/hexo-theme-icarus/Configuration/icarus%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">PPOffice</a></p>
-<h2 id="一段红色框的文字"><a href="#一段红色框的文字" class="headerlink" title="一段红色框的文字"></a>一段红色框的文字</h2><p>代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% raw %&#125;&lt;div class=&quot;notification is-danger&quot;&gt;&#123;% endraw %&#125;</span><br><span class="line">本文含结局剧透，请谨慎阅读。</span><br><span class="line">&#123;% raw %&#125;&lt;/div&gt;&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>效果：</p>
-<div class="notification is-danger">
-<p>本文含结局剧透，请谨慎阅读。</p>
-</div>
-
-<h2 id="修改widget"><a href="#修改widget" class="headerlink" title="修改widget"></a>修改widget</h2><p>把<a href="https://github.com/ppoffice/hexo-component-inferno/tree/master/src/view">hexo-component-inferno&#x2F;src&#x2F;view&#x2F;widget</a>需要的JSX 复制到icarus&#x2F;layout&#x2F;widget，如归档，分类，标签等。</p>
-<p>上面三条来自<a href="https://www.imaegoo.com/2020/icarus-with-bulma/">虹墨空间站</a></p>
-<h2 id="归档widget时间格式改成2021-03"><a href="#归档widget时间格式改成2021-03" class="headerlink" title="归档widget时间格式改成2021-03"></a>归档widget时间格式改成2021-03</h2><p>完成上一步，修改icarus&#x2F;layout&#x2F;widget&#x2F;archives.jsx，第119行改成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">const name = date.format(format || type === &#x27;monthly&#x27; ? &#x27;YYYY-MM&#x27; : &#x27;YYYY&#x27;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="点击头像和名字可以返回主页"><a href="#点击头像和名字可以返回主页" class="headerlink" title="点击头像和名字可以返回主页"></a>点击头像和名字可以返回主页</h2><p>修改icarus&#x2F;layout&#x2F;widget&#x2F;profile.jsx，第38行改成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;/&quot;&gt;&lt;img class=&#123;&#x27;avatar&#x27; + (avatarRounded ? &#x27; is-rounded&#x27; : &#x27;&#x27;)&#125; src=&#123;avatar&#125; alt=&#123;author&#125; /&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-
-<p>第40行改成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;author ? &lt;a href=&quot;/&quot;&gt;&lt;p class=&quot;title is-size-4 is-block&quot; style=&#123;&#123;&#x27;line-height&#x27;: &#x27;inherit&#x27;&#125;&#125;&gt;&#123;author&#125;&lt;/p&gt;&lt;/a&gt; : null&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="个人资料的联系方式图标搜索"><a href="#个人资料的联系方式图标搜索" class="headerlink" title="个人资料的联系方式图标搜索"></a>个人资料的联系方式图标搜索</h2><p><a href="https://fontawesome.cc/">https://fontawesome.cc/</a></p>
-<h2 id="生成并显示文章的目录"><a href="#生成并显示文章的目录" class="headerlink" title="生成并显示文章的目录"></a>生成并显示文章的目录</h2><p>在文章的front-matter中添加cover选项：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">toc: true</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>icarus</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SciTE文本编辑器配置</title>
     <url>/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<hr>
@@ -715,6 +668,53 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo主题icarus的一些玩法</title>
+    <url>/2021/03/17/hexo%E4%B8%BB%E9%A2%98icarus%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8E%A9%E6%B3%95/</url>
+    <content><![CDATA[<hr>
+<h2 id="设置文章封面图"><a href="#设置文章封面图" class="headerlink" title="设置文章封面图"></a>设置文章封面图</h2><p>在文章的front-matter中添加cover选项：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cover: /gallery/covers/cover.jpg</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h2 id="设置一个点击后打开的代码块"><a href="#设置一个点击后打开的代码块" class="headerlink" title="设置一个点击后打开的代码块"></a>设置一个点击后打开的代码块</h2><p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% codeblock &quot;点击后显示代码&quot; lang:代码语言 &gt;folded %&#125;</span><br><span class="line">hi</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<figure class="highlight plaintext"><figcaption><span>点击后显示代码 >folded</span></figcaption><table><tr><td class="code"><pre><span class="line">hi</span><br></pre></td></tr></table></figure>
+
+<p>上面两条来自<a href="https://blog.zhangruipeng.me/hexo-theme-icarus/Configuration/icarus%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">PPOffice</a></p>
+<h2 id="一段红色框的文字"><a href="#一段红色框的文字" class="headerlink" title="一段红色框的文字"></a>一段红色框的文字</h2><p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% raw %&#125;&lt;div class=&quot;notification is-danger&quot;&gt;&#123;% endraw %&#125;</span><br><span class="line">本文含结局剧透，请谨慎阅读。</span><br><span class="line">&#123;% raw %&#125;&lt;/div&gt;&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<div class="notification is-danger">
+<p>本文含结局剧透，请谨慎阅读。</p>
+</div>
+
+<h2 id="修改widget"><a href="#修改widget" class="headerlink" title="修改widget"></a>修改widget</h2><p>把<a href="https://github.com/ppoffice/hexo-component-inferno/tree/master/src/view">hexo-component-inferno&#x2F;src&#x2F;view&#x2F;widget</a>需要的JSX 复制到icarus&#x2F;layout&#x2F;widget，如归档，分类，标签等。</p>
+<p>上面三条来自<a href="https://www.imaegoo.com/2020/icarus-with-bulma/">虹墨空间站</a></p>
+<h2 id="归档widget时间格式改成2021-03"><a href="#归档widget时间格式改成2021-03" class="headerlink" title="归档widget时间格式改成2021-03"></a>归档widget时间格式改成2021-03</h2><p>完成上一步，修改icarus&#x2F;layout&#x2F;widget&#x2F;archives.jsx，第119行改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">const name = date.format(format || type === &#x27;monthly&#x27; ? &#x27;YYYY-MM&#x27; : &#x27;YYYY&#x27;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="点击头像和名字可以返回主页"><a href="#点击头像和名字可以返回主页" class="headerlink" title="点击头像和名字可以返回主页"></a>点击头像和名字可以返回主页</h2><p>修改icarus&#x2F;layout&#x2F;widget&#x2F;profile.jsx，第38行改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;/&quot;&gt;&lt;img class=&#123;&#x27;avatar&#x27; + (avatarRounded ? &#x27; is-rounded&#x27; : &#x27;&#x27;)&#125; src=&#123;avatar&#125; alt=&#123;author&#125; /&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>第40行改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;author ? &lt;a href=&quot;/&quot;&gt;&lt;p class=&quot;title is-size-4 is-block&quot; style=&#123;&#123;&#x27;line-height&#x27;: &#x27;inherit&#x27;&#125;&#125;&gt;&#123;author&#125;&lt;/p&gt;&lt;/a&gt; : null&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="个人资料的联系方式图标搜索"><a href="#个人资料的联系方式图标搜索" class="headerlink" title="个人资料的联系方式图标搜索"></a>个人资料的联系方式图标搜索</h2><p><a href="https://fontawesome.cc/">https://fontawesome.cc/</a></p>
+<h2 id="生成并显示文章的目录"><a href="#生成并显示文章的目录" class="headerlink" title="生成并显示文章的目录"></a>生成并显示文章的目录</h2><p>在文章的front-matter中添加cover选项：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">toc: true</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>icarus</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>linux笔记</title>
     <url>/2022/01/26/linux%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<hr>
@@ -820,19 +820,6 @@
       <tags>
         <tag>程序</tag>
         <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>吉他翻弹.Speak softly love/The Godfather</title>
-    <url>/2017/03/23/speaksoftlylove/</url>
-    <content><![CDATA[<p>拍摄：尼康D610外录<br>吉他：无牌古典吉他<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
-<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> ]]></content>
-      <categories>
-        <category>吉他</category>
-      </categories>
-      <tags>
-        <tag>吉他</tag>
-        <tag>指弹</tag>
       </tags>
   </entry>
   <entry>
@@ -2281,6 +2268,19 @@
       </tags>
   </entry>
   <entry>
+    <title>吉他翻弹.Speak softly love/The Godfather</title>
+    <url>/2017/03/23/speaksoftlylove/</url>
+    <content><![CDATA[<p>拍摄：尼康D610外录<br>吉他：无牌古典吉他<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> ]]></content>
+      <categories>
+        <category>吉他</category>
+      </categories>
+      <tags>
+        <tag>吉他</tag>
+        <tag>指弹</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一只特立独行的猪 标注</title>
     <url>/2021/09/25/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<hr>
@@ -3336,6 +3336,54 @@
       </categories>
       <tags>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>书籍删减与翻译情况</title>
+    <url>/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/</url>
+    <content><![CDATA[<hr>
+<p><strong>方括号内为被删减的内容，书名下多个出版社是都有删减的意思</strong></p>
+<span id="more"></span>
+
+<hr>
+<h2 id="二刻拍案惊奇"><a href="#二刻拍案惊奇" class="headerlink" title="二刻拍案惊奇"></a>二刻拍案惊奇</h2><p><strong>三民书局</strong></p>
+<p><strong>人民文学出版社 三言二拍插图典藏版</strong></p>
+<p><strong>人民文学出版社 中国古典小说藏本</strong></p>
+<h3 id="卷三十五-错调情贾母詈女-误告状孙郎得妻"><a href="#卷三十五-错调情贾母詈女-误告状孙郎得妻" class="headerlink" title="卷三十五 错调情贾母詈女 误告状孙郎得妻"></a>卷三十五 错调情贾母詈女 误告状孙郎得妻</h3><p>两腿中间，兀自气腾腾。[孙小官按不住欲心如火，腾的跳上身去，分开两股，将铁一般硬的玉茎，对着牝门，用些唾津润了，弄将进去，抽拽起来。]嘴对着嘴，恣意亲咂。</p>
+<hr>
+<h2 id="警世通言"><a href="#警世通言" class="headerlink" title="警世通言"></a>警世通言</h2><p><strong>中华书局 中华经典小说注释系列</strong></p>
+<p><strong>人民文学出版社 三言二拍插图典藏版</strong></p>
+<p><strong>人民文学出版社 中国古典小说藏本</strong></p>
+<p><strong>BookDNA浙版数媒</strong></p>
+<h3 id="第三十五卷-况太守断死孩儿"><a href="#第三十五卷-况太守断死孩儿" class="headerlink" title="第三十五卷 况太守断死孩儿"></a>第三十五卷 况太守断死孩儿</h3><p>如今五月，天气正热，你却赤身仰卧，把那[话儿弄得硬硬的，]待他来照门时，你只推做睡着了。</p>
+<hr>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>三言二拍 阉割 闻人生野战，甄监生，珍珠衫，乔太守乱点鸳鸯谱</p>
+<hr>
+<h2 id="故事-材质结构风格和银幕剧作的原理"><a href="#故事-材质结构风格和银幕剧作的原理" class="headerlink" title="故事 材质结构风格和银幕剧作的原理"></a>故事 材质结构风格和银幕剧作的原理</h2><p><strong>微信读书</strong></p>
+<h3 id="PARTI作家和故事艺术"><a href="#PARTI作家和故事艺术" class="headerlink" title="PARTI作家和故事艺术"></a>PARTI作家和故事艺术</h3><p>微信读书里删掉了下面两行，而纸质版和kindle版都有这句话</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">故事是人生必需的设备</span><br><span class="line">--肯尼斯伯克</span><br></pre></td></tr></table></figure>
+
+<p>英文版是Stories are equipment for living<br>繁体版是故事是生活中不可或缺的</p>
+<h3 id="PARTIV作家在工作"><a href="#PARTIV作家在工作" class="headerlink" title="PARTIV作家在工作"></a>PARTIV作家在工作</h3><p>简体版是任何文章的初稿都是狗屎<br>英文版是The first draft of anything is shit<br>繁体版是所有初稿都是狗屎</p>
+<p>感觉简体版翻译的有点问题。</p>
+<hr>
+<h2 id="在中国大地上-保罗索鲁"><a href="#在中国大地上-保罗索鲁" class="headerlink" title="在中国大地上 保罗索鲁"></a>在中国大地上 保罗索鲁</h2><p><strong>后浪出版 九州出版社 陈媛媛译</strong></p>
+<p>对比版本：马可孛罗文化出版，城邦出版发行（騎乘鐵公雞：搭火車橫越中國）徐丽松译</p>
+<p>几分钟简单看了几章，第三章，第十三章都有删减，疑似整本书的删减属于比较多了</p>
+<hr>
+<h2 id="一只鸟接着一只鸟：关于写作与人生的建议"><a href="#一只鸟接着一只鸟：关于写作与人生的建议" class="headerlink" title="一只鸟接着一只鸟：关于写作与人生的建议"></a>一只鸟接着一只鸟：关于写作与人生的建议</h2><p><strong>中信出版社 朱耘译</strong></p>
+<p>对比版本：野人文化出版，远足文化发行，寫作課一隻鳥接著一隻鳥寫就對了！，朱耘译</p>
+<p>每章标题和正文之间的几句话都被删掉了，这段话没在正文中出现过。</p>
+<hr>
+<h2 id="红楼梦"><a href="#红楼梦" class="headerlink" title="红楼梦"></a>红楼梦</h2><p><strong>微信读书 人民文学出版社 第四版 2022</strong></p>
+<p>第五回的红楼梦12支曲，把注释写到正文里了。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -14952,51 +15000,30 @@
       </tags>
   </entry>
   <entry>
-    <title>书籍删减与翻译情况</title>
-    <url>/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/</url>
-    <content><![CDATA[<hr>
-<p><strong>方括号内为被删减的内容，书名下多个出版社是都有删减的意思</strong></p>
+    <title>使用github的action配合python每天签到</title>
+    <url>/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</url>
+    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
 <span id="more"></span>
 
-<hr>
-<h2 id="二刻拍案惊奇"><a href="#二刻拍案惊奇" class="headerlink" title="二刻拍案惊奇"></a>二刻拍案惊奇</h2><p><strong>三民书局</strong></p>
-<p><strong>人民文学出版社 三言二拍插图典藏版</strong></p>
-<p><strong>人民文学出版社 中国古典小说藏本</strong></p>
-<h3 id="卷三十五-错调情贾母詈女-误告状孙郎得妻"><a href="#卷三十五-错调情贾母詈女-误告状孙郎得妻" class="headerlink" title="卷三十五 错调情贾母詈女 误告状孙郎得妻"></a>卷三十五 错调情贾母詈女 误告状孙郎得妻</h3><p>两腿中间，兀自气腾腾。[孙小官按不住欲心如火，腾的跳上身去，分开两股，将铁一般硬的玉茎，对着牝门，用些唾津润了，弄将进去，抽拽起来。]嘴对着嘴，恣意亲咂。</p>
-<hr>
-<h2 id="警世通言"><a href="#警世通言" class="headerlink" title="警世通言"></a>警世通言</h2><p><strong>中华书局 中华经典小说注释系列</strong></p>
-<p><strong>人民文学出版社 三言二拍插图典藏版</strong></p>
-<p><strong>人民文学出版社 中国古典小说藏本</strong></p>
-<p><strong>BookDNA浙版数媒</strong></p>
-<h3 id="第三十五卷-况太守断死孩儿"><a href="#第三十五卷-况太守断死孩儿" class="headerlink" title="第三十五卷 况太守断死孩儿"></a>第三十五卷 况太守断死孩儿</h3><p>如今五月，天气正热，你却赤身仰卧，把那[话儿弄得硬硬的，]待他来照门时，你只推做睡着了。</p>
-<hr>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>三言二拍 阉割 闻人生野战，甄监生，珍珠衫，乔太守乱点鸳鸯谱</p>
-<hr>
-<h2 id="故事-材质结构风格和银幕剧作的原理"><a href="#故事-材质结构风格和银幕剧作的原理" class="headerlink" title="故事 材质结构风格和银幕剧作的原理"></a>故事 材质结构风格和银幕剧作的原理</h2><p><strong>微信读书</strong></p>
-<h3 id="PARTI作家和故事艺术"><a href="#PARTI作家和故事艺术" class="headerlink" title="PARTI作家和故事艺术"></a>PARTI作家和故事艺术</h3><p>微信读书里删掉了下面两行，而纸质版和kindle版都有这句话</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">故事是人生必需的设备</span><br><span class="line">--肯尼斯伯克</span><br></pre></td></tr></table></figure>
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）</p>
+<p>在github的项目界面，点Actions，Skip this and set up a workflow yourself </p>
+<p>复制下面的代码后，右上角commit changes</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
 
-<p>英文版是Stories are equipment for living<br>繁体版是故事是生活中不可或缺的</p>
-<h3 id="PARTIV作家在工作"><a href="#PARTIV作家在工作" class="headerlink" title="PARTIV作家在工作"></a>PARTIV作家在工作</h3><p>简体版是任何文章的初稿都是狗屎<br>英文版是The first draft of anything is shit<br>繁体版是所有初稿都是狗屎</p>
-<p>感觉简体版翻译的有点问题。</p>
-<hr>
-<h2 id="在中国大地上-保罗索鲁"><a href="#在中国大地上-保罗索鲁" class="headerlink" title="在中国大地上 保罗索鲁"></a>在中国大地上 保罗索鲁</h2><p><strong>后浪出版 九州出版社 陈媛媛译</strong></p>
-<p>对比版本：马可孛罗文化出版，城邦出版发行（騎乘鐵公雞：搭火車橫越中國）徐丽松译</p>
-<p>几分钟简单看了几章，第三章，第十三章都有删减，疑似整本书的删减属于比较多了</p>
-<hr>
-<h2 id="一只鸟接着一只鸟：关于写作与人生的建议"><a href="#一只鸟接着一只鸟：关于写作与人生的建议" class="headerlink" title="一只鸟接着一只鸟：关于写作与人生的建议"></a>一只鸟接着一只鸟：关于写作与人生的建议</h2><p><strong>中信出版社 朱耘译</strong></p>
-<p>对比版本：野人文化出版，远足文化发行，寫作課一隻鳥接著一隻鳥寫就對了！，朱耘译</p>
-<p>每章标题和正文之间的几句话都被删掉了，这段话没在正文中出现过。</p>
-<hr>
-<h2 id="红楼梦"><a href="#红楼梦" class="headerlink" title="红楼梦"></a>红楼梦</h2><p><strong>微信读书 人民文学出版社 第四版 2022</strong></p>
-<p>第五回的红楼梦12支曲，把注释写到正文里了。</p>
-<hr>
+<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a href="https://crontab.guru/">https://crontab.guru/</a></p>
+<p>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。</p>
+<p>要运行两个以上的脚本，就把9到20行再复制一遍，任务名要改。</p>
+<p>几个python签到脚本例子：</p>
+<p><a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
+<p><a href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
+<p>Actions里没有东西，可能需要push一次才能更新。</p>
+<p>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
 ]]></content>
       <categories>
-        <category>读书笔记</category>
+        <category>程序</category>
       </categories>
       <tags>
-        <tag>阅读</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -15239,30 +15266,81 @@
       </tags>
   </entry>
   <entry>
-    <title>使用github的action配合python每天签到</title>
-    <url>/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</url>
-    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
+    <title>几个PyQt程序</title>
+    <url>/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>源代码：<a href="https://github.com/wangandi520/andyspyqtscript">https://github.com/wangandi520/andyspyqtscript</a></p>
+<p>exe： <a href="https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix">https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix</a></p>
+<p>使用PyQt5编写，生成exe，请运行pyinstaller -F 程序.py</p>
+<p>需要pip install pyinstaller</p>
 <span id="more"></span>
 
-<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）</p>
-<p>在github的项目界面，点Actions，Skip this and set up a workflow yourself </p>
-<p>复制下面的代码后，右上角commit changes</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
+<h2 id="老王SHA1生成校验器"><a href="#老王SHA1生成校验器" class="headerlink" title="老王SHA1生成校验器"></a>老王SHA1生成校验器</h2><p>可拖拽</p>
+<p>生成文件信息，html，markdown或sha格式</p>
+<p>单独拖拽sha文件或校验</p>
+<p>单独拖拽文件夹或把生成的文件放到这个文件夹里，其他时候放到py同路径</p>
+<h2 id="老王简繁转换器"><a href="#老王简繁转换器" class="headerlink" title="老王简繁转换器"></a>老王简繁转换器</h2><p>支持拖拽文件到程序中，可同一个文件多次改名</p>
+<p>需要pip install pyqt5 pyqt5-tools pypinyin opencc-python-reimplemented</p>
+<h2 id="老王随机点名器"><a href="#老王随机点名器" class="headerlink" title="老王随机点名器"></a>老王随机点名器</h2><p>选取姓名按钮快捷键：空格，缺席按钮快捷键：B。</p>
+<p>需要 pip install pyqt5 pyqt5-tools pandas openpyxl</p>
+<p><strong>1.1版更新：</strong><br>支持xls,xlsx</p>
+<p><strong>1.0版更新：</strong><br>改用PyQt5重写<br>暂时不支持xls文件</p>
+<p><strong>0.42版更新：</strong><br>更新捐赠二维码</p>
+<p><strong>0.41版更新：</strong><br>添加速度调节<br>修复bug<br>可快速捐赠</p>
+<p><strong>0.4版更新：</strong><br>支持模板的xls文件</p>
+<p><strong>0.3版更新：</strong><br>支持多文件同时选取<br>增加了重置列表按钮<br>更改了文件切换时重新读取文件的设计<br>修改缺席名单的命名方式<br>添加缺席按钮<br>修正取消打开文件而添加文件的错误</p>
+<p><strong>0.2版更新：</strong><br>修正了时间闪烁的问题<br>修改状态栏显示<br>增加打开文件后自动选择的功能<br>增加了字体大小调节<br>调整了内部设计，修复了剩余数量显示错误<br>修复文件删除后仍能点名的错误<br>添加清空列表按钮</p>
+<h2 id="老王扩展名修改器-db3-rar-pyw"><a href="#老王扩展名修改器-db3-rar-pyw" class="headerlink" title="老王扩展名修改器&#x3D;db3_rar.pyw"></a>老王扩展名修改器&#x3D;db3_rar.pyw</h2><p>使用PyQt5编写</p>
+<p>可以拖拽文件或文件夹，文件夹内所有符合条件的文件都会生效</p>
+<p>文件后面的&#x3D;py_pyw可以让程序读取，格式：&#x3D;原扩展名_新扩展名</p>
+<h2 id="作者：Andy"><a href="#作者：Andy" class="headerlink" title="作者：Andy"></a>作者：Andy</h2><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyqt5 pyqt5-tools pyinstaller </span><br></pre></td></tr></table></figure>
 
-<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a href="https://crontab.guru/">https://crontab.guru/</a></p>
-<p>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。</p>
-<p>要运行两个以上的脚本，就把9到20行再复制一遍，任务名要改。</p>
-<p>几个python签到脚本例子：</p>
-<p><a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
-<p><a href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
-<p>Actions里没有东西，可能需要push一次才能更新。</p>
-<p>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
+<!-- more -->
+
+<h2 id="生成单一exe执行文件"><a href="#生成单一exe执行文件" class="headerlink" title="生成单一exe执行文件"></a>生成单一exe执行文件</h2><p>-w 不显示命令行窗口</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pyinstaller -F -i 图标.ico 程序.py</span><br></pre></td></tr></table></figure>
+
+<h2 id="虚拟环境，减少exe体积"><a href="#虚拟环境，减少exe体积" class="headerlink" title="虚拟环境，减少exe体积"></a>虚拟环境，减少exe体积</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install pipenv</span><br></pre></td></tr></table></figure>
+
+<p>新建一个文件夹，命令提示符里运行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pipenv shell</span><br></pre></td></tr></table></figure>
+
+<p>然后安装需要的包，例如</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install pyqt5 pyinstaller pillow</span><br></pre></td></tr></table></figure>
+
+<p>最后用pyinstaller生成程序，体积才原来的50MB变成35MB</p>
+<h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><p>提示</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">--system is intended to be used for pre-existing Pipfile installation, not installation of specific packages. Aborting.</span><br></pre></td></tr></table></figure>
+
+<p>删除这个命令显示的文件夹pipenv –venv</p>
+<h2 id="我的程序"><a href="#我的程序" class="headerlink" title="我的程序"></a>我的程序</h2><p>从qt5转过来，感觉不难</p>
+<p><a href="https://github.com/wangandi520/andiRandomNameChooserByPyQt5">https://github.com/wangandi520/andiRandomNameChooserByPyQt5</a></p>
 ]]></content>
       <categories>
         <category>程序</category>
       </categories>
       <tags>
         <tag>python</tag>
+        <tag>Qt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>单页面投资行情</title>
+    <url>/2017/01/31/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/</url>
+    <content><![CDATA[<hr>
+<p>2022年<a href="http://hq.sinajs.cn接口已失效/">http://hq.sinajs.cn接口已失效</a></p>
+<p><strong>演示：<a href="https://andi.wang/stock">https://andi.wang/stock</a></strong><br><strong>Github：<a href="https://github.com/wangandi520/OnePageStockQuotations">https://github.com/wangandi520/OnePageStockQuotations</a></strong></p>
+<p>可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯<br>只有一个93KB的html文件，无数据库，方便手机访问<br>可以导入，计算股票盈亏，总资产<br>普通查询，输入完代码后按回车键，用于有下拉提示框的项目<br>手动查询，输入完代码后按空格或者点查询按钮，用于没下拉提示的项目，用于补充API的缺陷，如输入USBCNY查询外汇</p>
+<span id="more"></span>
+
+<p>股票stock，基金fund，期货future，港股hkstock，美股usstock,指数zs大部分可自动提示。外汇forex需要手动查询<br>另有网址查询模式，例index.html?content&#x3D;600036,stock<br>网址导入模式，例index.html?import&#x3D;f_000198,fund,f_000343,fund&lt;默认不自动刷新<br>详情查看时，股票名代码与更新时间的链接是当前网页<br>图片只有点击按钮时才下载，省流量。一次数据约0.2KB，一张图片10KB<br>点详情或自选时会更新数据<br>为了统一，所有均为红涨绿跌<br>持仓里的股票更新时间与自选一样，盈亏已减掉佣金<br>信息只保存在本机，不上传到服务器<br>除了点击存入数据库，其他的不需要数据库<br>将ID输入到文本框点导入后完成导入<br>存入数据库前先点击导出<br>基金收益未计算管理费等各种运作费用<br>数据由各个网站提供，本项目不任何责任</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+        <tag>投资</tag>
+        <tag>javascript</tag>
       </tags>
   </entry>
   <entry>
@@ -15444,84 +15522,6 @@
         <tag>阅读</tag>
         <tag>python</tag>
         <tag>漫画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>几个PyQt程序</title>
-    <url>/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/</url>
-    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>源代码：<a href="https://github.com/wangandi520/andyspyqtscript">https://github.com/wangandi520/andyspyqtscript</a></p>
-<p>exe： <a href="https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix">https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix</a></p>
-<p>使用PyQt5编写，生成exe，请运行pyinstaller -F 程序.py</p>
-<p>需要pip install pyinstaller</p>
-<span id="more"></span>
-
-<h2 id="老王SHA1生成校验器"><a href="#老王SHA1生成校验器" class="headerlink" title="老王SHA1生成校验器"></a>老王SHA1生成校验器</h2><p>可拖拽</p>
-<p>生成文件信息，html，markdown或sha格式</p>
-<p>单独拖拽sha文件或校验</p>
-<p>单独拖拽文件夹或把生成的文件放到这个文件夹里，其他时候放到py同路径</p>
-<h2 id="老王简繁转换器"><a href="#老王简繁转换器" class="headerlink" title="老王简繁转换器"></a>老王简繁转换器</h2><p>支持拖拽文件到程序中，可同一个文件多次改名</p>
-<p>需要pip install pyqt5 pyqt5-tools pypinyin opencc-python-reimplemented</p>
-<h2 id="老王随机点名器"><a href="#老王随机点名器" class="headerlink" title="老王随机点名器"></a>老王随机点名器</h2><p>选取姓名按钮快捷键：空格，缺席按钮快捷键：B。</p>
-<p>需要 pip install pyqt5 pyqt5-tools pandas openpyxl</p>
-<p><strong>1.1版更新：</strong><br>支持xls,xlsx</p>
-<p><strong>1.0版更新：</strong><br>改用PyQt5重写<br>暂时不支持xls文件</p>
-<p><strong>0.42版更新：</strong><br>更新捐赠二维码</p>
-<p><strong>0.41版更新：</strong><br>添加速度调节<br>修复bug<br>可快速捐赠</p>
-<p><strong>0.4版更新：</strong><br>支持模板的xls文件</p>
-<p><strong>0.3版更新：</strong><br>支持多文件同时选取<br>增加了重置列表按钮<br>更改了文件切换时重新读取文件的设计<br>修改缺席名单的命名方式<br>添加缺席按钮<br>修正取消打开文件而添加文件的错误</p>
-<p><strong>0.2版更新：</strong><br>修正了时间闪烁的问题<br>修改状态栏显示<br>增加打开文件后自动选择的功能<br>增加了字体大小调节<br>调整了内部设计，修复了剩余数量显示错误<br>修复文件删除后仍能点名的错误<br>添加清空列表按钮</p>
-<h2 id="老王扩展名修改器-db3-rar-pyw"><a href="#老王扩展名修改器-db3-rar-pyw" class="headerlink" title="老王扩展名修改器&#x3D;db3_rar.pyw"></a>老王扩展名修改器&#x3D;db3_rar.pyw</h2><p>使用PyQt5编写</p>
-<p>可以拖拽文件或文件夹，文件夹内所有符合条件的文件都会生效</p>
-<p>文件后面的&#x3D;py_pyw可以让程序读取，格式：&#x3D;原扩展名_新扩展名</p>
-<h2 id="作者：Andy"><a href="#作者：Andy" class="headerlink" title="作者：Andy"></a>作者：Andy</h2><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyqt5 pyqt5-tools pyinstaller </span><br></pre></td></tr></table></figure>
-
-<!-- more -->
-
-<h2 id="生成单一exe执行文件"><a href="#生成单一exe执行文件" class="headerlink" title="生成单一exe执行文件"></a>生成单一exe执行文件</h2><p>-w 不显示命令行窗口</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pyinstaller -F -i 图标.ico 程序.py</span><br></pre></td></tr></table></figure>
-
-<h2 id="虚拟环境，减少exe体积"><a href="#虚拟环境，减少exe体积" class="headerlink" title="虚拟环境，减少exe体积"></a>虚拟环境，减少exe体积</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install pipenv</span><br></pre></td></tr></table></figure>
-
-<p>新建一个文件夹，命令提示符里运行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pipenv shell</span><br></pre></td></tr></table></figure>
-
-<p>然后安装需要的包，例如</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install pyqt5 pyinstaller pillow</span><br></pre></td></tr></table></figure>
-
-<p>最后用pyinstaller生成程序，体积才原来的50MB变成35MB</p>
-<h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><p>提示</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">--system is intended to be used for pre-existing Pipfile installation, not installation of specific packages. Aborting.</span><br></pre></td></tr></table></figure>
-
-<p>删除这个命令显示的文件夹pipenv –venv</p>
-<h2 id="我的程序"><a href="#我的程序" class="headerlink" title="我的程序"></a>我的程序</h2><p>从qt5转过来，感觉不难</p>
-<p><a href="https://github.com/wangandi520/andiRandomNameChooserByPyQt5">https://github.com/wangandi520/andiRandomNameChooserByPyQt5</a></p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>Qt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>单页面投资行情</title>
-    <url>/2017/01/31/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/</url>
-    <content><![CDATA[<hr>
-<p>2022年<a href="http://hq.sinajs.cn接口已失效/">http://hq.sinajs.cn接口已失效</a></p>
-<p><strong>演示：<a href="https://andi.wang/stock">https://andi.wang/stock</a></strong><br><strong>Github：<a href="https://github.com/wangandi520/OnePageStockQuotations">https://github.com/wangandi520/OnePageStockQuotations</a></strong></p>
-<p>可以直接链接到新浪财经 东方财富 雪球 腾讯财经 网易财经 搜狐证券 凤凰财经 和讯<br>只有一个93KB的html文件，无数据库，方便手机访问<br>可以导入，计算股票盈亏，总资产<br>普通查询，输入完代码后按回车键，用于有下拉提示框的项目<br>手动查询，输入完代码后按空格或者点查询按钮，用于没下拉提示的项目，用于补充API的缺陷，如输入USBCNY查询外汇</p>
-<span id="more"></span>
-
-<p>股票stock，基金fund，期货future，港股hkstock，美股usstock,指数zs大部分可自动提示。外汇forex需要手动查询<br>另有网址查询模式，例index.html?content&#x3D;600036,stock<br>网址导入模式，例index.html?import&#x3D;f_000198,fund,f_000343,fund&lt;默认不自动刷新<br>详情查看时，股票名代码与更新时间的链接是当前网页<br>图片只有点击按钮时才下载，省流量。一次数据约0.2KB，一张图片10KB<br>点详情或自选时会更新数据<br>为了统一，所有均为红涨绿跌<br>持仓里的股票更新时间与自选一样，盈亏已减掉佣金<br>信息只保存在本机，不上传到服务器<br>除了点击存入数据库，其他的不需要数据库<br>将ID输入到文本框点导入后完成导入<br>存入数据库前先点击导出<br>基金收益未计算管理费等各种运作费用<br>数据由各个网站提供，本项目不任何责任</p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>html</tag>
-        <tag>投资</tag>
-        <tag>javascript</tag>
       </tags>
   </entry>
   <entry>
@@ -15776,78 +15776,6 @@
       </tags>
   </entry>
   <entry>
-    <title>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</title>
-    <url>/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<hr>
-<p><a href="https://github.com/wangandi520/ClippingsToMarkdown">https://github.com/wangandi520/ClippingsToMarkdown</a></p>
-<p><a href="https://jq.qq.com/?_wv=1027&k=AqqQIfm7">电子书漫画制作闲聊群1321993</a></p>
-<hr>
-<span id="more"></span>
-
-<h2 id="文石Boox-Kindle-静读天下专业版-微信读书-KOReader的标注转换为Markdown格式"><a href="#文石Boox-Kindle-静读天下专业版-微信读书-KOReader的标注转换为Markdown格式" class="headerlink" title="文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式"></a>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</h2><p><strong>基本用法(win10)</strong></p>
-<p>安装python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>，复制你的标注到文件夹，运行对应的py文件或者拖拽标注文件的py上</p>
-<p><strong>静读天下专业版</strong></p>
-<p>书签导出时选导出到文件(.mrexpt):MoonReaderProToMrexpt.py</p>
-<p>静读天下专业版中，书签，导出到文件，复制.mrexpt文件，拖拽文件夹或.mrexpt到MoonReaderProToMrexpt.py</p>
-<p>新版支持拖拽，支持标注添加的评论</p>
-<p>通样的方法拖拽到MoonReaderProToMrexptForHexo.py，生成的文件可以直接在Hexo博客里使用，可以设置按照标注添加的时间顺序，还是按住标注所在书中的先后顺序，默认后者</p>
-<p>书签导出时选分享高亮与备注(TXT), 后选total commander，保存成txt文件:MoonReaderProToTXT.py, MoonReaderPro7.0ToTXT.py</p>
-<p>含章节信息，使用方法相同</p>
-<p><strong>Kindle</strong></p>
-<p>自动检测到My Clippings.txt</p>
-<p><em>如果你想保留原来的标注顺序，KindleSorted.py 改成 Kindle.py</em></p>
-<p>标注文件测试成功在2020.03.13(My Clippings.txt 文件在 2018.10.14 生成)</p>
-<p>复制My Clippings.txt，运行KindleSorted.py</p>
-<p><strong>微信读书</strong></p>
-<p>我，笔记，书名，右上角，复制到剪贴板，复制到.txt文件中后运行WereadClippingsToMarkdown.py</p>
-<p><strong>KOReader</strong></p>
-<p>菜单，印象笔记，选中导出到本地json文件，点到处所有笔记，复制KOReaderClipping.json，拖拽json或文件夹到KOReaderJsonALL.py。如果想每本书一个文件，请运行KOReaderJsonALLtoEachBook.py</p>
-<p>新版支持拖拽</p>
-<p><strong>文石设备</strong></p>
-<p><strong>文石设备的脚本可能失效，设备已经二手出了，后续更新未知</strong></p>
-<p>如果没有参数，就转换当前文件夹下的所有.txt文件为.md，不删除源文件。</p>
-<p>如果有参数，就只转换那个文件</p>
-<p>只支持本地到处的标注，导出到印象笔记、onenote的暂不支持</p>
-<p>标注文件格式，在2020.03.13测试成功</p>
-<hr>
-<h2 id="Boox-Kindle-Moon-Reader-pro-KOReader-Weread-Clippings-To-Markdown"><a href="#Boox-Kindle-Moon-Reader-pro-KOReader-Weread-Clippings-To-Markdown" class="headerlink" title="Boox,Kindle,Moon Reader pro,KOReader,Weread Clippings To Markdown"></a>Boox,Kindle,Moon Reader pro,KOReader,Weread Clippings To Markdown</h2><p><em><a href="https://andi.wang/">https://andi.wang/</a></em></p>
-<p><strong>Basic usage(win10)</strong></p>
-<p>install python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>,copy your clipping file to folder,run .py or drag your file onto .py</p>
-<p><strong>Moon Reader pro</strong><br>in bookmark, chose output to file(.mrexpt):MoonReaderProToMrexpt.py</p>
-<p>In moon reader pro,bookmark, output to file, copy .mrexpt, drag .mrexpt or folder onto MoonReaderProToMrexpt.py</p>
-<p>For Hexo blog, use MoonReaderProToMrexptForHexo.py</p>
-<p>in bookmark, chose share clipping(TXT):MoonReaderProToTXT.py</p>
-<p>copy contents to TXT file, same</p>
-<p><strong>Kindle</strong></p>
-<p>Auto detect kindle My Clippings.txt</p>
-<p>if you dont’s want the clippings sorted as book. Change KindleSorted.py to Kindle.py</p>
-<p>origin clippings file tested in 2020.03.13(My Clippings.txt created in 2018.10.14)</p>
-<p>copy My Clippings.txt,run KindleSorted.py</p>
-<p><strong>weread</strong></p>
-<p>my,note,book,top right corner,copy to clipboard,copy contents to .txt and run WereadClippingsToMarkdown.py</p>
-<p><strong>KOReader</strong></p>
-<p>menu,Evernote,Export to local json files,Export all notes in your library，copy KOReaderClipping.json，drag .json or folder to KOReaderJsonALL.py. If you want each book a .md file,please run KOReaderJsonALLtoEachBook.py</p>
-<p><strong>Boox eink reader</strong></p>
-<p><strong>boox script maybe not work, device is sold, update not sure</strong></p>
-<p>if with no arguments, it convert all .txt file in the folder(include subs)，origin .txt not deleted</p>
-<p>if with arguments, it only convert the file to .md</p>
-<p>origin clippings file tested succeed in 2020.03.13</p>
-<p>BooxLocalInternational.py for <a href="https://github.com/wangandi520/ClippingsToMarkdown/issues/1">https://github.com/wangandi520/ClippingsToMarkdown/issues/1</a></p>
-<p>BooxLocalInternational_anotherVersion.py <a href="https://github.com/wangandi520/ClippingsToMarkdown/issues/2">https://github.com/wangandi520/ClippingsToMarkdown/issues/2</a></p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>kindle</tag>
-        <tag>静读天下专业版</tag>
-        <tag>文石</tag>
-        <tag>markdown</tag>
-        <tag>koreader</tag>
-        <tag>微信读书</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>文城 标注</title>
     <url>/2021/03/13/%E6%96%87%E5%9F%8E%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<hr>
@@ -15955,6 +15883,78 @@
         <tag>阅读</tag>
         <tag>余华</tag>
         <tag>文城</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</title>
+    <url>/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<hr>
+<p><a href="https://github.com/wangandi520/ClippingsToMarkdown">https://github.com/wangandi520/ClippingsToMarkdown</a></p>
+<p><a href="https://jq.qq.com/?_wv=1027&k=AqqQIfm7">电子书漫画制作闲聊群1321993</a></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="文石Boox-Kindle-静读天下专业版-微信读书-KOReader的标注转换为Markdown格式"><a href="#文石Boox-Kindle-静读天下专业版-微信读书-KOReader的标注转换为Markdown格式" class="headerlink" title="文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式"></a>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</h2><p><strong>基本用法(win10)</strong></p>
+<p>安装python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>，复制你的标注到文件夹，运行对应的py文件或者拖拽标注文件的py上</p>
+<p><strong>静读天下专业版</strong></p>
+<p>书签导出时选导出到文件(.mrexpt):MoonReaderProToMrexpt.py</p>
+<p>静读天下专业版中，书签，导出到文件，复制.mrexpt文件，拖拽文件夹或.mrexpt到MoonReaderProToMrexpt.py</p>
+<p>新版支持拖拽，支持标注添加的评论</p>
+<p>通样的方法拖拽到MoonReaderProToMrexptForHexo.py，生成的文件可以直接在Hexo博客里使用，可以设置按照标注添加的时间顺序，还是按住标注所在书中的先后顺序，默认后者</p>
+<p>书签导出时选分享高亮与备注(TXT), 后选total commander，保存成txt文件:MoonReaderProToTXT.py, MoonReaderPro7.0ToTXT.py</p>
+<p>含章节信息，使用方法相同</p>
+<p><strong>Kindle</strong></p>
+<p>自动检测到My Clippings.txt</p>
+<p><em>如果你想保留原来的标注顺序，KindleSorted.py 改成 Kindle.py</em></p>
+<p>标注文件测试成功在2020.03.13(My Clippings.txt 文件在 2018.10.14 生成)</p>
+<p>复制My Clippings.txt，运行KindleSorted.py</p>
+<p><strong>微信读书</strong></p>
+<p>我，笔记，书名，右上角，复制到剪贴板，复制到.txt文件中后运行WereadClippingsToMarkdown.py</p>
+<p><strong>KOReader</strong></p>
+<p>菜单，印象笔记，选中导出到本地json文件，点到处所有笔记，复制KOReaderClipping.json，拖拽json或文件夹到KOReaderJsonALL.py。如果想每本书一个文件，请运行KOReaderJsonALLtoEachBook.py</p>
+<p>新版支持拖拽</p>
+<p><strong>文石设备</strong></p>
+<p><strong>文石设备的脚本可能失效，设备已经二手出了，后续更新未知</strong></p>
+<p>如果没有参数，就转换当前文件夹下的所有.txt文件为.md，不删除源文件。</p>
+<p>如果有参数，就只转换那个文件</p>
+<p>只支持本地到处的标注，导出到印象笔记、onenote的暂不支持</p>
+<p>标注文件格式，在2020.03.13测试成功</p>
+<hr>
+<h2 id="Boox-Kindle-Moon-Reader-pro-KOReader-Weread-Clippings-To-Markdown"><a href="#Boox-Kindle-Moon-Reader-pro-KOReader-Weread-Clippings-To-Markdown" class="headerlink" title="Boox,Kindle,Moon Reader pro,KOReader,Weread Clippings To Markdown"></a>Boox,Kindle,Moon Reader pro,KOReader,Weread Clippings To Markdown</h2><p><em><a href="https://andi.wang/">https://andi.wang/</a></em></p>
+<p><strong>Basic usage(win10)</strong></p>
+<p>install python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>,copy your clipping file to folder,run .py or drag your file onto .py</p>
+<p><strong>Moon Reader pro</strong><br>in bookmark, chose output to file(.mrexpt):MoonReaderProToMrexpt.py</p>
+<p>In moon reader pro,bookmark, output to file, copy .mrexpt, drag .mrexpt or folder onto MoonReaderProToMrexpt.py</p>
+<p>For Hexo blog, use MoonReaderProToMrexptForHexo.py</p>
+<p>in bookmark, chose share clipping(TXT):MoonReaderProToTXT.py</p>
+<p>copy contents to TXT file, same</p>
+<p><strong>Kindle</strong></p>
+<p>Auto detect kindle My Clippings.txt</p>
+<p>if you dont’s want the clippings sorted as book. Change KindleSorted.py to Kindle.py</p>
+<p>origin clippings file tested in 2020.03.13(My Clippings.txt created in 2018.10.14)</p>
+<p>copy My Clippings.txt,run KindleSorted.py</p>
+<p><strong>weread</strong></p>
+<p>my,note,book,top right corner,copy to clipboard,copy contents to .txt and run WereadClippingsToMarkdown.py</p>
+<p><strong>KOReader</strong></p>
+<p>menu,Evernote,Export to local json files,Export all notes in your library，copy KOReaderClipping.json，drag .json or folder to KOReaderJsonALL.py. If you want each book a .md file,please run KOReaderJsonALLtoEachBook.py</p>
+<p><strong>Boox eink reader</strong></p>
+<p><strong>boox script maybe not work, device is sold, update not sure</strong></p>
+<p>if with no arguments, it convert all .txt file in the folder(include subs)，origin .txt not deleted</p>
+<p>if with arguments, it only convert the file to .md</p>
+<p>origin clippings file tested succeed in 2020.03.13</p>
+<p>BooxLocalInternational.py for <a href="https://github.com/wangandi520/ClippingsToMarkdown/issues/1">https://github.com/wangandi520/ClippingsToMarkdown/issues/1</a></p>
+<p>BooxLocalInternational_anotherVersion.py <a href="https://github.com/wangandi520/ClippingsToMarkdown/issues/2">https://github.com/wangandi520/ClippingsToMarkdown/issues/2</a></p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>kindle</tag>
+        <tag>静读天下专业版</tag>
+        <tag>文石</tag>
+        <tag>markdown</tag>
+        <tag>koreader</tag>
+        <tag>微信读书</tag>
       </tags>
   </entry>
   <entry>
@@ -16088,6 +16088,28 @@
       </tags>
   </entry>
   <entry>
+    <title>文石poke pro,nova pro评测体验</title>
+    <url>/2019/03/29/%E6%96%87%E7%9F%B3poke%20pro,nova%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
+    <content><![CDATA[<hr>
+<h2 id="2-2-1的几个bug："><a href="#2-2-1的几个bug：" class="headerlink" title="2.2.1的几个bug："></a>2.2.1的几个bug：</h2><p>1.每次重启都会打开悬浮球。<br>2.单独优化应用要去悬浮球里，dpi设置没法手动输入必须拖动。<br>3.应用冻结里少了很多应用，只有6个。<br>4.导出笔记，只显示最低级的标题，像是第一章这种。这个文件是几本书的合集，没显示出是哪本书的第一章。</p>
+<hr>
+<span id="more"></span>
+
+<h2 id="先说说几点优点："><a href="#先说说几点优点：" class="headerlink" title="先说说几点优点："></a>先说说几点优点：</h2><p>1.自带阅读器看pdf很舒服，裁边智能，打开很快，500多mb的文件大概2，3秒。<br>2.平时读书功能没啥槽点，epub，azw3都能打开，标注导出也还算方便。<br>3.手写笔记可以连接到onenote和印象笔记账号，以pdf格式同步过去。<br>4.bilibili漫画很舒服。</p>
+<h2 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h2><p>1.固件基本好几个月更新一次，上次是4个月，这次5个月还没更新。自带应用市场的app更是从来没更新过。估计文石的策略就是发了新设备就不怎么管旧设备了。<br>2.同步功能不确定好不好用。像是静读天下专业版的webdav方式就很舒服，进度和标注分开，每本书分开，哪本书什么时间同步的一目了然。<br>3.不支持epub的内置字体。<br>4.epub的注释不能弹窗显示，要点击后跳转过去，再自己点跳转回来。<br>5.没装任何新app，没改任何设置，有时候会突然一晚耗完电。<br>6.wifi传书进去还算方便，传标注之类的文件出来费点事得自己装别的app。<br>7.google play每次用都要登录，人的操作应该没问题，其他手机都装了google play正常用。<br>8.只支持pdf的书手写，其他的支持旁注，不能直接写在文字上。<br>9.试了typec接口不支持耳机。<br>10.有人说微信读书时长不增加，确实试过。不过不推荐微信读书，纸质书都没事微信就自带各种和谐**<br>11.手写导出后锯齿感略重，问题也不大。</p>
+<p>建议就是文石的工程师参照静读天下专业版，把功能都抄过来就完美了。或者对应优化下。</p>
+]]></content>
+      <categories>
+        <category>评测</category>
+      </categories>
+      <tags>
+        <tag>评测</tag>
+        <tag>文石</tag>
+        <tag>电纸书</tag>
+        <tag>boox</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>树莓派+archlinuxarm做路由</title>
     <url>/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE-archlinuxarm%E5%81%9A%E8%B7%AF%E7%94%B1/</url>
     <content><![CDATA[<hr>
@@ -16118,25 +16140,67 @@
       </tags>
   </entry>
   <entry>
-    <title>文石poke pro,nova pro评测体验</title>
-    <url>/2019/03/29/%E6%96%87%E7%9F%B3poke%20pro,nova%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
+    <title>树莓派3B和攀藤PMS5003ST</title>
+    <url>/2017/05/15/%E6%A0%91%E8%8E%93%E6%B4%BE3B%E5%92%8C%E6%94%80%E8%97%A4PMS5003ST/</url>
     <content><![CDATA[<hr>
-<h2 id="2-2-1的几个bug："><a href="#2-2-1的几个bug：" class="headerlink" title="2.2.1的几个bug："></a>2.2.1的几个bug：</h2><p>1.每次重启都会打开悬浮球。<br>2.单独优化应用要去悬浮球里，dpi设置没法手动输入必须拖动。<br>3.应用冻结里少了很多应用，只有6个。<br>4.导出笔记，只显示最低级的标题，像是第一章这种。这个文件是几本书的合集，没显示出是哪本书的第一章。</p>
-<hr>
+<h2 id="0-数据仅供学习参考，一切以官方数据为准。"><a href="#0-数据仅供学习参考，一切以官方数据为准。" class="headerlink" title="0.数据仅供学习参考，一切以官方数据为准。"></a>0.数据仅供学习参考，一切以官方数据为准。</h2><p>archlinuxarm下安装软件：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -S mysql php-fpm nginx cronie mysql-clients vi</span><br><span class="line">pip install pyserial</span><br></pre></td></tr></table></figure>
+
 <span id="more"></span>
 
-<h2 id="先说说几点优点："><a href="#先说说几点优点：" class="headerlink" title="先说说几点优点："></a>先说说几点优点：</h2><p>1.自带阅读器看pdf很舒服，裁边智能，打开很快，500多mb的文件大概2，3秒。<br>2.平时读书功能没啥槽点，epub，azw3都能打开，标注导出也还算方便。<br>3.手写笔记可以连接到onenote和印象笔记账号，以pdf格式同步过去。<br>4.bilibili漫画很舒服。</p>
-<h2 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h2><p>1.固件基本好几个月更新一次，上次是4个月，这次5个月还没更新。自带应用市场的app更是从来没更新过。估计文石的策略就是发了新设备就不怎么管旧设备了。<br>2.同步功能不确定好不好用。像是静读天下专业版的webdav方式就很舒服，进度和标注分开，每本书分开，哪本书什么时间同步的一目了然。<br>3.不支持epub的内置字体。<br>4.epub的注释不能弹窗显示，要点击后跳转过去，再自己点跳转回来。<br>5.没装任何新app，没改任何设置，有时候会突然一晚耗完电。<br>6.wifi传书进去还算方便，传标注之类的文件出来费点事得自己装别的app。<br>7.google play每次用都要登录，人的操作应该没问题，其他手机都装了google play正常用。<br>8.只支持pdf的书手写，其他的支持旁注，不能直接写在文字上。<br>9.试了typec接口不支持耳机。<br>10.有人说微信读书时长不增加，确实试过。不过不推荐微信读书，纸质书都没事微信就自带各种和谐**<br>11.手写导出后锯齿感略重，问题也不大。</p>
-<p>建议就是文石的工程师参照静读天下专业版，把功能都抄过来就完美了。或者对应优化下。</p>
+<h2 id="archlinuxarm下的命令"><a href="#archlinuxarm下的命令" class="headerlink" title="archlinuxarm下的命令"></a>archlinuxarm下的命令</h2><p>初始化mysql并启动服务</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql</span><br><span class="line">systemctl enable mariadb</span><br><span class="line">systemctl start mariadb</span><br></pre></td></tr></table></figure>
+
+<h2 id="1-需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件http-on8vei0g9-bkt-clouddn-com-PM2-5Collector-zip。下面所有代码下载http-on8vei0g9-bkt-clouddn-com-PM25-rar"><a href="#1-需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件http-on8vei0g9-bkt-clouddn-com-PM2-5Collector-zip。下面所有代码下载http-on8vei0g9-bkt-clouddn-com-PM25-rar" class="headerlink" title="1.需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件http://on8vei0g9.bkt.clouddn.com/PM2.5Collector.zip。下面所有代码下载http://on8vei0g9.bkt.clouddn.com/PM25.rar"></a>1.需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件<a href="http://on8vei0g9.bkt.clouddn.com/PM2.5Collector.zip">http://on8vei0g9.bkt.clouddn.com/PM2.5Collector.zip</a>。下面所有代码下载<a href="http://on8vei0g9.bkt.clouddn.com/PM25.rar">http://on8vei0g9.bkt.clouddn.com/PM25.rar</a></h2><h2 id="2-使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。"><a href="#2-使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。" class="headerlink" title="2.使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。"></a>2.使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。</h2><h2 id="3-使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件"><a href="#3-使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件" class="headerlink" title="3.使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件"></a>3.使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#encoding=utf-8</span><br><span class="line">import os</span><br><span class="line">import serial</span><br><span class="line">import time</span><br><span class="line">from struct import *</span><br><span class="line">ser = serial.Serial(&quot;/dev/ttyUSB0&quot;, baudrate=9600, timeout=2.0)</span><br><span class="line">def read_pm_line(_port):</span><br><span class="line">    rv = b&#x27;&#x27;</span><br><span class="line">    while True:</span><br><span class="line">        ch1 = _port.read()</span><br><span class="line">        if ch1 == b&#x27;\x42&#x27;:</span><br><span class="line">            ch2 = _port.read()</span><br><span class="line">            if ch2 == b&#x27;\x4d&#x27;:</span><br><span class="line">                rv += ch1 + ch2</span><br><span class="line">                rv += _port.read(38)</span><br><span class="line">                return rv</span><br><span class="line">def main():</span><br><span class="line">    # conn = sqlite3.connect(&#x27;pm25.db&#x27;)</span><br><span class="line">    # c = conn.cursor()</span><br><span class="line">    recv = read_pm_line(ser)</span><br><span class="line">    tmp = recv[4:36]</span><br><span class="line">    datas = unpack(&#x27;&gt;hhhhhhhhhhhhhhhh&#x27;, tmp)</span><br><span class="line">    print(&#x27;Plantower PMS5003ST,Updated:&#x27;,time.strftime(&quot;%Y-%m-%d %H:%M:%S&quot;, time.localtime()))</span><br><span class="line">    print(&#x27;PM1.0(CF=1): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM2.5(CF=1): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM10 (CF=1): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM1.0 (STD): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM2.5 (STD): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM10  (STD): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;&gt;0.3um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;0.5um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;1.0um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;2.5um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;5.0um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;10um      : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;HCHO       : &#123;&#125;mg/m3\n&#x27;</span><br><span class="line">              &#x27;Temperature: &#123;&#125;C\n&#x27;</span><br><span class="line">              &#x27;Humidity   : &#123;&#125;%&#x27;.format(datas[0], datas[1], datas[2],</span><br><span class="line">                                       datas[3], datas[4], datas[5],</span><br><span class="line">                                       datas[6], datas[7], datas[8],</span><br><span class="line">                                       datas[9], datas[10], datas[11],</span><br><span class="line">                                       datas[12]/1000.0, datas[13]/10.0, datas[14]/10.0))</span><br><span class="line">    ser.flushInput()</span><br><span class="line">    time.sleep(0.1)</span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    try:</span><br><span class="line">        main()</span><br><span class="line">    except KeyboardInterrupt:</span><br><span class="line">        if ser != None:</span><br><span class="line">            ser.close()</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-网站主页，单击当前数值显示完整数据"><a href="#4-网站主页，单击当前数值显示完整数据" class="headerlink" title="4.网站主页，单击当前数值显示完整数据"></a>4.网站主页，单击当前数值显示完整数据</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">&lt;title&gt;空气质量&lt;/title&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">html,body&#123;</span><br><span class="line">margin:0px 0px 0px 0px;</span><br><span class="line">padding:0px 0px 0px 0px;</span><br><span class="line">height:100%;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout&#123;</span><br><span class="line">width:100%;</span><br><span class="line">height:100%;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(1)&#123;</span><br><span class="line">background:#e7f7ed;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(2)&#123;</span><br><span class="line">background:#f9f5e3;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(3)&#123;</span><br><span class="line">background:#fbefe3;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(4)&#123;</span><br><span class="line">background:#fbe2e2;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(5)&#123;</span><br><span class="line">background:#f4e3f5;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(6)&#123;</span><br><span class="line">background:#ede2ed;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p&#123;</span><br><span class="line">margin:0px 0px 0px 0px;</span><br><span class="line">padding:10px 10px 10px 10px;</span><br><span class="line">width:5%;</span><br><span class="line">height:16.67%;</span><br><span class="line">&#125;</span><br><span class="line">#detailLayout&#123;</span><br><span class="line">display:none;</span><br><span class="line">&#125;#detailLayout p&#123;</span><br><span class="line">margin:0px 0px 0px 0px;</span><br><span class="line">padding:0px 0px 0px 0px;</span><br><span class="line">&#125;</span><br><span class="line">#dataLayout&#123;</span><br><span class="line">display:none;</span><br><span class="line">&#125;</span><br><span class="line">p&#123;</span><br><span class="line">font-size:40pt;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;div id=&quot;showLayout&quot;&gt;</span><br><span class="line">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;detailLayout&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;dataLayout&quot;&gt;</span><br><span class="line">&lt;div id=&quot;data&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;date&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; language=&quot;JavaScript&quot;&gt;</span><br><span class="line">function getData()&#123;</span><br><span class="line">    $.ajax(&#123;</span><br><span class="line">        url: &quot;getData.php&quot;,</span><br><span class="line">        dataType: &quot;json&quot;,</span><br><span class="line">        async: false,</span><br><span class="line">        type: &quot;POST&quot;,</span><br><span class="line">        success: function (data)&#123;</span><br><span class="line">            $(&#x27;#data&#x27;).html(data.pm);</span><br><span class="line">            $(&#x27;#date&#x27;).html(data.date);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line">$(document).ready(function()&#123;</span><br><span class="line">    getData();</span><br><span class="line">    var number = $(&#x27;#data&#x27;).html();</span><br><span class="line">    number = number.substring(1,number.length-1);</span><br><span class="line">    number = number.split(&#x27;,&#x27;);</span><br><span class="line">    var backgroundColor = &quot;white&quot;;</span><br><span class="line">    var fontColor = &quot;black&quot;;</span><br><span class="line">    var airQuality = &quot;无&quot;;</span><br><span class="line">    var index = 0;</span><br><span class="line">    if (number[4] &gt;= 0 &amp;&amp; number[4] &lt;= 12)&#123;</span><br><span class="line">        fontColor = &quot;#acddc6&quot;;</span><br><span class="line">        airQuality = &quot;优&quot;;</span><br><span class="line">        index = 0;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 12 &amp;&amp; number[4] &lt;= 35)&#123;</span><br><span class="line">        fontColor = &quot;#e0b902&quot;;</span><br><span class="line">        airQuality = &quot;良&quot;;</span><br><span class="line">        index = 1;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 35 &amp;&amp; number[4] &lt;= 55)&#123;</span><br><span class="line">        fontColor = &quot;#f08008&quot;;</span><br><span class="line">        airQuality = &quot;轻度污染&quot;;</span><br><span class="line">        index = 2;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 55 &amp;&amp; number[4] &lt;= 150)&#123;</span><br><span class="line">        fontColor = &quot;#db2d01&quot;;</span><br><span class="line">        airQuality = &quot;中度污染&quot;;</span><br><span class="line">        index = 3;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 150 &amp;&amp; number[4] &lt;= 250)&#123;</span><br><span class="line">        fontColor = &quot;#c870cd&quot;;</span><br><span class="line">        airQuality = &quot;重度污染&quot;;</span><br><span class="line">        index = 4;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 250 &amp;&amp; number[4] &lt;= 1000)&#123;</span><br><span class="line">        fontColor = &quot;#8f6091&quot;;</span><br><span class="line">        airQuality = &quot;严重污染&quot;;</span><br><span class="line">        index = 5;</span><br><span class="line">    &#125;</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).html(&#x27;&lt;span&gt;&#x27; + airQuality + &#x27;&lt;/span&gt;&lt;br/&gt;&lt;span&gt;&#x27; + number[4] + &#x27;μg/m³&lt;/span&gt;&#x27;);</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).css(&quot;color&quot;,fontColor);</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).css(&quot;text-align&quot;,&quot;center&quot;);</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).css(&#x27;width&#x27;,&#x27;100%&#x27;);</span><br><span class="line">    var fontSize = $(window).height() / 16;</span><br><span class="line">    $(&#x27;p&#x27;).css(&#x27;font-size&#x27;,fontSize);</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).click(function()&#123;</span><br><span class="line">        if($(&#x27;#detailLayout&#x27;).css(&#x27;display&#x27;) == &#x27;none&#x27;)&#123;</span><br><span class="line">            $(&#x27;#detailLayout&#x27;).show();</span><br><span class="line">            $(&#x27;#detailLayout&#x27;).html(&#x27;&lt;p&gt;数据更新时间:&#x27;+$(&#x27;#date&#x27;).html()+&#x27;&lt;/p&gt;&lt;p&gt;数据测量位置:广东省广州市&lt;/p&gt;&lt;p&gt;标准颗粒物质量浓度(CF=1)&lt;/p&gt;&lt;p&gt;PM 1.0: &#x27;+number[0]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;PM 2.5: &#x27;+number[1]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;PM 10 : &#x27;+number[2]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;大气环境下颗粒物质量浓度&lt;/p&gt;&lt;p&gt;PM 1.0: &#x27;+number[3]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;PM 2.5: &#x27;+number[4]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;PM 10 : &#x27;+number[5]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;0.1升空气中直径大于某值的颗粒物个数&lt;/p&gt;&lt;p&gt;&gt;0.3μm: &#x27;+number[6]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;0.5μm: &#x27;+number[7]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;1.0μm: &#x27;+number[8]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;2.5μm: &#x27;+number[9]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;5.0μm: &#x27;+number[10]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;10 μm: &#x27;+number[11]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;甲醛: &#x27;+number[12]+&#x27;mg/m³&lt;/p&gt;&lt;p&gt;温度: &#x27;+number[13]+&#x27;℃&lt;/p&gt;&lt;p&gt;湿度: &#x27;+number[14]+&#x27;%&lt;/p&gt;&#x27;);</span><br><span class="line">        &#125;</span><br><span class="line">        else&#123;</span><br><span class="line">            $(&#x27;#detailLayout&#x27;).hide();</span><br><span class="line">            $(&#x27;#detailLayout&#x27;).html(&#x27;&#x27;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-getData-php，上面的index-html需要"><a href="#5-getData-php，上面的index-html需要" class="headerlink" title="5.getData.php，上面的index.html需要"></a>5.getData.php，上面的index.html需要</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">$dsn = &#x27;mysql:dbname=pm;host=127.0.0.1;port=3306&#x27;;</span><br><span class="line">$username = &#x27;root&#x27;;</span><br><span class="line">$password = &#x27;&#x27;;</span><br><span class="line">try &#123;</span><br><span class="line">    $db = new PDO($dsn, $username, $password);</span><br><span class="line">&#125; catch(PDOException $e) &#123;</span><br><span class="line">    die(&#x27;Could not connect to the database:</span><br><span class="line">&#x27; . $e);</span><br><span class="line">&#125;</span><br><span class="line">$db-&gt;query(&#x27;set names utf8&#x27;);</span><br><span class="line">$sql = &quot;select * from pm order by time desc limit 1&quot;;</span><br><span class="line">$obj = $db-&gt;prepare($sql);</span><br><span class="line">$obj-&gt;execute();</span><br><span class="line">$arr = $obj-&gt;fetchAll(PDO::FETCH_ASSOC);</span><br><span class="line">$data = array(&quot;pm&quot;=&gt;$arr[0][&#x27;data&#x27;],&quot;date&quot;=&gt;$arr[0][&#x27;time&#x27;]);</span><br><span class="line">echo json_encode($data);</span><br><span class="line">//print_r($arr[0][time]);</span><br><span class="line">?&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="6-sendPM2-5-py"><a href="#6-sendPM2-5-py" class="headerlink" title="6.sendPM2.5.py"></a>6.sendPM2.5.py</h2><p>需要安装requests模块<br>pip install requests</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># encoding=utf-8</span><br><span class="line">import os</span><br><span class="line">import serial</span><br><span class="line">import time</span><br><span class="line">import requests</span><br><span class="line">import json</span><br><span class="line">from struct import *</span><br><span class="line"></span><br><span class="line"># pip install requests</span><br><span class="line"></span><br><span class="line">ser = serial.Serial(&quot;/dev/ttyUSB0&quot;, baudrate=9600, timeout=2.0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def read_pm_line(_port):</span><br><span class="line">    rv = b&#x27;&#x27;</span><br><span class="line">    while True:</span><br><span class="line">        ch1 = _port.read()</span><br><span class="line">        if ch1 == b&#x27;\x42&#x27;:</span><br><span class="line">            ch2 = _port.read()</span><br><span class="line">            if ch2 == b&#x27;\x4d&#x27;:</span><br><span class="line">                rv += ch1 + ch2</span><br><span class="line">                rv += _port.read(38)</span><br><span class="line">                return rv</span><br><span class="line"></span><br><span class="line">def writefile(filereadlines):</span><br><span class="line">    #write file</span><br><span class="line">    newfile = open(&#x27;data.json&#x27;, mode=&#x27;w&#x27;, encoding=&#x27;UTF-8&#x27;)</span><br><span class="line">    newfile.writelines(filereadlines)</span><br><span class="line">    newfile.close()</span><br><span class="line"></span><br><span class="line">def main():</span><br><span class="line">    recv = read_pm_line(ser)</span><br><span class="line"></span><br><span class="line">    tmp = recv[4:36]</span><br><span class="line">    datas = unpack(&#x27;&gt;hhhhhhhhhhhhhhhh&#x27;, tmp)</span><br><span class="line">    sendData = datas[0], datas[1], datas[2], datas[3], datas[4], datas[5], datas[6], datas[</span><br><span class="line">        7], datas[8], datas[9], datas[10], datas[11], datas[12]/1000.0, datas[13]/10.0, datas[14]/10.0</span><br><span class="line">    sendData = str(tuple(sendData))</span><br><span class="line">    tmp = sendData.split(&#x27; &#x27;)</span><br><span class="line">    sendData = &#x27;&#x27;.join(tmp)</span><br><span class="line">    url = &#x27;http://127.0.0.1/pm25/receivePM2.5.php?pm=&#x27; + sendData[1:-1]</span><br><span class="line">    se = requests.Session()</span><br><span class="line">    response = requests.get(url)</span><br><span class="line">    ser.flushInput()</span><br><span class="line">    time.sleep(0.1)</span><br><span class="line"></span><br><span class="line">    outputData = &#123;&#x27;temperature&#x27;:datas[13]/10,&#x27;humidity&#x27;:datas[14]/10,&#x27;pm25&#x27;:datas[4]&#125;</span><br><span class="line"></span><br><span class="line">    writefile(json.dumps(outputData))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    try:</span><br><span class="line">        main()</span><br><span class="line">    except KeyboardInterrupt:</span><br><span class="line">        if ser != None:</span><br><span class="line">            ser.close()</span><br></pre></td></tr></table></figure>
+
+<h2 id="7-定时发送数据"><a href="#7-定时发送数据" class="headerlink" title="7.定时发送数据"></a>7.定时发送数据</h2><p>启动服务</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl enable cronie</span><br><span class="line">systemctl start cronie</span><br></pre></td></tr></table></figure>
+
+<p>crontab -e，每10分钟获取一次数据</p>
+<p> *&#x2F;10 * * * * &#x2F;usr&#x2F;bin&#x2F;python &#x2F;root&#x2F;sendPM2.5.py</p>
+<h2 id="8-sql表结构"><a href="#8-sql表结构" class="headerlink" title="8.sql表结构"></a>8.sql表结构</h2><p>如果需要修改mysql的root密码<br>运行mysql -u root -p后<br>运行set password for root@localhost &#x3D; password(‘12332144’);</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">create database pm;</span><br><span class="line"></span><br><span class="line">use pm;</span><br><span class="line"></span><br><span class="line">CREATE TABLE `pm` (</span><br><span class="line">  `data` varchar(60) NOT NULL,</span><br><span class="line">  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP</span><br><span class="line">) ENGINE=MyISAM DEFAULT CHARSET=gbk;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
-        <category>评测</category>
+        <category>程序</category>
       </categories>
       <tags>
-        <tag>评测</tag>
-        <tag>文石</tag>
-        <tag>电纸书</tag>
-        <tag>boox</tag>
+        <tag>Raspberry</tag>
+        <tag>树莓派</tag>
+        <tag>攀藤</tag>
+        <tag>PMS5003ST</tag>
+        <tag>PM2.5</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>树莓派4B加微雪2.13寸墨水屏，监测pm2.5信息</title>
+    <url>/2020/03/26/%E6%A0%91%E8%8E%93%E6%B4%BE4B%E5%8A%A0%E5%BE%AE%E9%9B%AA2.13%E5%AF%B8%E5%A2%A8%E6%B0%B4%E5%B1%8F%E7%9B%91%E6%B5%8Bpm2.5%E4%BF%A1%E6%81%AF/</url>
+    <content><![CDATA[<hr>
+<p>获取pm2.5信息的教程参照我的博客<a href="https://my.oschina.net/wangandi/blog/901648">https://my.oschina.net/wangandi/blog/901648</a><br>微雪2.13寸墨水屏的资料参照<a href="http://www.waveshare.net/wiki/2.13inch_e-Paper_HAT">http://www.waveshare.net/wiki/2.13inch_e-Paper_HAT</a>  缺什么软件包也请参照这里</p>
+<span id="more"></span>
+
+<p>打开spi<br>vim &#x2F;boot&#x2F;config.txt<br>添加<br>dtparam&#x3D;spi&#x3D;on</p>
+<p>pip镜像源<br>pip config set global.index-url <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -S gcc python-numpy make wiringpi freetype2 python-pillow</span><br><span class="line">pip install spidev RPi.GPIO requests</span><br><span class="line">pip install --upgrade setuptools </span><br><span class="line">pip install wiringpi</span><br><span class="line">pip install --no-cache-dir pillow</span><br><span class="line">pip install --upgrade pip </span><br></pre></td></tr></table></figure>
+<p>如果rpi.gpio安装出错，下载<a href="https://sourceforge.net/code-snapshots/hg/r/ra/raspberry-gpio-python/code/raspberry-gpio-python-code-08048dd1894a6b09a104557b6eaa6bb68b6baac5.zip">https://sourceforge.net/code-snapshots/hg/r/ra/raspberry-gpio-python/code/raspberry-gpio-python-code-08048dd1894a6b09a104557b6eaa6bb68b6baac5.zip</a><br>解压后运行python setup.py install</p>
+<p>载样例包<a href="https://github.com/waveshare/e-Paper">https://github.com/waveshare/e-Paper</a><br>下面的python文件要放在e-paper&#x2F;RaspberryPi&amp;JetsonNano&#x2F;python&#x2F;examples&#x2F;里面<br>代中的url参照第一个网址的getData.php，格式如下{“pm”:”(23,32,35,23,32,35,3669,1042,136,13,1,1,10.0,19.9,64.4)”,”date”:”2020-02-24 13:40:01”}，我代码中另一个树莓派的地址，你也可以在同一个树莓派中使用<br>python代码如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#!/usr/bin/python</span><br><span class="line"># -*- coding:utf-8 -*-</span><br><span class="line">import sys</span><br><span class="line">import os</span><br><span class="line">import datetime</span><br><span class="line">import requests</span><br><span class="line">picdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), &#x27;pic&#x27;)</span><br><span class="line">libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), &#x27;lib&#x27;)</span><br><span class="line">if os.path.exists(libdir):</span><br><span class="line">    sys.path.append(libdir)</span><br><span class="line">import logging</span><br><span class="line">from waveshare_epd import epd2in13_V2</span><br><span class="line">import time</span><br><span class="line">from PIL import Image,ImageDraw,ImageFont</span><br><span class="line">import traceback</span><br><span class="line">logging.basicConfig(level=logging.DEBUG)</span><br><span class="line">try:</span><br><span class="line">    logging.info(&quot;epd2in13_V2 Demo&quot;)</span><br><span class="line">    epd = epd2in13_V2.EPD()</span><br><span class="line">    logging.info(&quot;init and Clear&quot;)</span><br><span class="line">    epd.init(epd.FULL_UPDATE)</span><br><span class="line">    #epd.Clear(0xFF)</span><br><span class="line"># Drawing on the image</span><br><span class="line">    font15 = ImageFont.truetype(os.path.join(picdir, &#x27;Font.ttc&#x27;), 15)</span><br><span class="line">    font24 = ImageFont.truetype(os.path.join(picdir, &#x27;Font.ttc&#x27;), 24)</span><br><span class="line">logging.info(&quot;1.Drawing on the image...&quot;)</span><br><span class="line">    image = Image.new(&#x27;1&#x27;, (epd.height, epd.width), 255)  # 255: clear the frame</span><br><span class="line">    draw = ImageDraw.Draw(image)</span><br><span class="line">#GetTime</span><br><span class="line">    #time = (datetime.datetime.now() + datetime.timedelta(hours=8)).strftime(&#x27;%Y.%m.%d %H:%M:%S&#x27;)</span><br><span class="line">    #PrintWord</span><br><span class="line">    #draw.text((20, 40), &#x27;呵呵&#x27;, font = font15, fill = 0)</span><br><span class="line">    #PrintTime</span><br><span class="line">    #draw.text((20, 80), time, font = font15, fill = 0)</span><br><span class="line">    #Your PM2.5 data url</span><br><span class="line">    #Content for example:</span><br><span class="line">    #&#123;&quot;pm&quot;:&quot;(25,37,46,25,37,46,3519,982,166,30,5,3,10.0,19.8,64.8)&quot;,&quot;date&quot;:&quot;2020-02-24 13:30:03&quot;&#125;</span><br><span class="line">    url = &quot;http://192.168.1.196/pm25/getData.php&quot;</span><br><span class="line">#Format pm2.5 data</span><br><span class="line">    alldata = requests.get(url)</span><br><span class="line">    pmdata = alldata.json()[&quot;pm&quot;]</span><br><span class="line">    pmdata = pmdata[1:-1]</span><br><span class="line">    pmdata = pmdata.split(&quot;,&quot;)</span><br><span class="line">#Get time</span><br><span class="line">    time = alldata.json()[&quot;date&quot;]</span><br><span class="line">#Get pm2.5,temperature,humidity</span><br><span class="line">    pm25 = pmdata[4]</span><br><span class="line">    temperature = pmdata[13]</span><br><span class="line">    humidity = pmdata[14]</span><br><span class="line">#Draw all data</span><br><span class="line">    draw.text((20, 10), &#x27;空气质量:&#x27; + pm25 + &#x27;μg/m³&#x27;, font = font15, fill = 0)</span><br><span class="line">    draw.text((20, 30), &#x27;温度:&#x27; + temperature + &#x27;°C&#x27;, font = font15, fill = 0)</span><br><span class="line">    draw.text((20, 50), &#x27;湿度:&#x27; + humidity + &#x27;%&#x27;, font = font15, fill = 0)</span><br><span class="line">    draw.text((20, 70), time, font = font15, fill = 0)</span><br><span class="line">    draw.text((20, 90), &#x27;By Andy&#x27;, font = font15, fill = 0)</span><br><span class="line">#ScreenRotate180</span><br><span class="line">    image = image.transpose(Image.ROTATE_180)</span><br><span class="line">    epd.display(epd.getbuffer(image))</span><br><span class="line">logging.info(&quot;Goto Sleep...&quot;)</span><br><span class="line">    epd.sleep()</span><br><span class="line">except IOError as e:</span><br><span class="line">    logging.info(e)</span><br><span class="line">except KeyboardInterrupt:</span><br><span class="line">    logging.info(&quot;ctrl + c:&quot;)</span><br><span class="line">    epd2in13_V2.epdconfig.module_exit()</span><br><span class="line">    exit()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>Raspberry</tag>
+        <tag>树莓派</tag>
+        <tag>微雪</tag>
       </tags>
   </entry>
   <entry>
@@ -16199,44 +16263,263 @@
       </tags>
   </entry>
   <entry>
-    <title>树莓派3B和攀藤PMS5003ST</title>
-    <url>/2017/05/15/%E6%A0%91%E8%8E%93%E6%B4%BE3B%E5%92%8C%E6%94%80%E8%97%A4PMS5003ST/</url>
+    <title>沉默的大多数 标注</title>
+    <url>/2021/10/22/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<hr>
-<h2 id="0-数据仅供学习参考，一切以官方数据为准。"><a href="#0-数据仅供学习参考，一切以官方数据为准。" class="headerlink" title="0.数据仅供学习参考，一切以官方数据为准。"></a>0.数据仅供学习参考，一切以官方数据为准。</h2><p>archlinuxarm下安装软件：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -S mysql php-fpm nginx cronie mysql-clients vi</span><br><span class="line">pip install pyserial</span><br></pre></td></tr></table></figure>
-
+<p><strong>王小波</strong></p>
+<p><strong>(高亮: 85; 标注: 0)</strong></p>
+<hr>
+<h2 id="自序"><a href="#自序" class="headerlink" title="自序"></a>自序</h2><blockquote>
+<p>我反对愚蠢，不是反对天生就笨的人，这种人只是极少数，而且这种人还盼着变聪明。在这个世界上，大多数愚蠢里含有假装和弄假成真的成分。但这一点并不是我的发现，是萧伯纳告诉我的。在他的《匹克梅梁》里，息金斯教授遇上了一个假痴不癫的杜特立尔先生。息教授问：你是恶棍还是傻瓜？这就是问：你假傻真傻？杜先生答：两样都有点，先生，凡人两样都得有点呀。在我身上，后者的成分多，前者的成分少。而且我讨厌装傻，渴望变聪明。所以我才会写这本书。</p>
+</blockquote>
 <span id="more"></span>
 
-<h2 id="archlinuxarm下的命令"><a href="#archlinuxarm下的命令" class="headerlink" title="archlinuxarm下的命令"></a>archlinuxarm下的命令</h2><p>初始化mysql并启动服务</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql</span><br><span class="line">systemctl enable mariadb</span><br><span class="line">systemctl start mariadb</span><br></pre></td></tr></table></figure>
-
-<h2 id="1-需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件http-on8vei0g9-bkt-clouddn-com-PM2-5Collector-zip。下面所有代码下载http-on8vei0g9-bkt-clouddn-com-PM25-rar"><a href="#1-需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件http-on8vei0g9-bkt-clouddn-com-PM2-5Collector-zip。下面所有代码下载http-on8vei0g9-bkt-clouddn-com-PM25-rar" class="headerlink" title="1.需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件http://on8vei0g9.bkt.clouddn.com/PM2.5Collector.zip。下面所有代码下载http://on8vei0g9.bkt.clouddn.com/PM25.rar"></a>1.需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件<a href="http://on8vei0g9.bkt.clouddn.com/PM2.5Collector.zip">http://on8vei0g9.bkt.clouddn.com/PM2.5Collector.zip</a>。下面所有代码下载<a href="http://on8vei0g9.bkt.clouddn.com/PM25.rar">http://on8vei0g9.bkt.clouddn.com/PM25.rar</a></h2><h2 id="2-使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。"><a href="#2-使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。" class="headerlink" title="2.使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。"></a>2.使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。</h2><h2 id="3-使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件"><a href="#3-使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件" class="headerlink" title="3.使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件"></a>3.使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#encoding=utf-8</span><br><span class="line">import os</span><br><span class="line">import serial</span><br><span class="line">import time</span><br><span class="line">from struct import *</span><br><span class="line">ser = serial.Serial(&quot;/dev/ttyUSB0&quot;, baudrate=9600, timeout=2.0)</span><br><span class="line">def read_pm_line(_port):</span><br><span class="line">    rv = b&#x27;&#x27;</span><br><span class="line">    while True:</span><br><span class="line">        ch1 = _port.read()</span><br><span class="line">        if ch1 == b&#x27;\x42&#x27;:</span><br><span class="line">            ch2 = _port.read()</span><br><span class="line">            if ch2 == b&#x27;\x4d&#x27;:</span><br><span class="line">                rv += ch1 + ch2</span><br><span class="line">                rv += _port.read(38)</span><br><span class="line">                return rv</span><br><span class="line">def main():</span><br><span class="line">    # conn = sqlite3.connect(&#x27;pm25.db&#x27;)</span><br><span class="line">    # c = conn.cursor()</span><br><span class="line">    recv = read_pm_line(ser)</span><br><span class="line">    tmp = recv[4:36]</span><br><span class="line">    datas = unpack(&#x27;&gt;hhhhhhhhhhhhhhhh&#x27;, tmp)</span><br><span class="line">    print(&#x27;Plantower PMS5003ST,Updated:&#x27;,time.strftime(&quot;%Y-%m-%d %H:%M:%S&quot;, time.localtime()))</span><br><span class="line">    print(&#x27;PM1.0(CF=1): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM2.5(CF=1): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM10 (CF=1): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM1.0 (STD): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM2.5 (STD): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;PM10  (STD): &#123;&#125;ug/m3\n&#x27;</span><br><span class="line">              &#x27;&gt;0.3um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;0.5um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;1.0um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;2.5um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;5.0um     : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;&gt;10um      : &#123;&#125;/0.1L\n&#x27;</span><br><span class="line">              &#x27;HCHO       : &#123;&#125;mg/m3\n&#x27;</span><br><span class="line">              &#x27;Temperature: &#123;&#125;C\n&#x27;</span><br><span class="line">              &#x27;Humidity   : &#123;&#125;%&#x27;.format(datas[0], datas[1], datas[2],</span><br><span class="line">                                       datas[3], datas[4], datas[5],</span><br><span class="line">                                       datas[6], datas[7], datas[8],</span><br><span class="line">                                       datas[9], datas[10], datas[11],</span><br><span class="line">                                       datas[12]/1000.0, datas[13]/10.0, datas[14]/10.0))</span><br><span class="line">    ser.flushInput()</span><br><span class="line">    time.sleep(0.1)</span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    try:</span><br><span class="line">        main()</span><br><span class="line">    except KeyboardInterrupt:</span><br><span class="line">        if ser != None:</span><br><span class="line">            ser.close()</span><br></pre></td></tr></table></figure>
-
-<h2 id="4-网站主页，单击当前数值显示完整数据"><a href="#4-网站主页，单击当前数值显示完整数据" class="headerlink" title="4.网站主页，单击当前数值显示完整数据"></a>4.网站主页，单击当前数值显示完整数据</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">&lt;title&gt;空气质量&lt;/title&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">html,body&#123;</span><br><span class="line">margin:0px 0px 0px 0px;</span><br><span class="line">padding:0px 0px 0px 0px;</span><br><span class="line">height:100%;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout&#123;</span><br><span class="line">width:100%;</span><br><span class="line">height:100%;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(1)&#123;</span><br><span class="line">background:#e7f7ed;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(2)&#123;</span><br><span class="line">background:#f9f5e3;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(3)&#123;</span><br><span class="line">background:#fbefe3;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(4)&#123;</span><br><span class="line">background:#fbe2e2;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(5)&#123;</span><br><span class="line">background:#f4e3f5;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p:nth-child(6)&#123;</span><br><span class="line">background:#ede2ed;</span><br><span class="line">&#125;</span><br><span class="line">#showLayout p&#123;</span><br><span class="line">margin:0px 0px 0px 0px;</span><br><span class="line">padding:10px 10px 10px 10px;</span><br><span class="line">width:5%;</span><br><span class="line">height:16.67%;</span><br><span class="line">&#125;</span><br><span class="line">#detailLayout&#123;</span><br><span class="line">display:none;</span><br><span class="line">&#125;#detailLayout p&#123;</span><br><span class="line">margin:0px 0px 0px 0px;</span><br><span class="line">padding:0px 0px 0px 0px;</span><br><span class="line">&#125;</span><br><span class="line">#dataLayout&#123;</span><br><span class="line">display:none;</span><br><span class="line">&#125;</span><br><span class="line">p&#123;</span><br><span class="line">font-size:40pt;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;div id=&quot;showLayout&quot;&gt;</span><br><span class="line">&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;detailLayout&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;dataLayout&quot;&gt;</span><br><span class="line">&lt;div id=&quot;data&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;date&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; language=&quot;JavaScript&quot;&gt;</span><br><span class="line">function getData()&#123;</span><br><span class="line">    $.ajax(&#123;</span><br><span class="line">        url: &quot;getData.php&quot;,</span><br><span class="line">        dataType: &quot;json&quot;,</span><br><span class="line">        async: false,</span><br><span class="line">        type: &quot;POST&quot;,</span><br><span class="line">        success: function (data)&#123;</span><br><span class="line">            $(&#x27;#data&#x27;).html(data.pm);</span><br><span class="line">            $(&#x27;#date&#x27;).html(data.date);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line">$(document).ready(function()&#123;</span><br><span class="line">    getData();</span><br><span class="line">    var number = $(&#x27;#data&#x27;).html();</span><br><span class="line">    number = number.substring(1,number.length-1);</span><br><span class="line">    number = number.split(&#x27;,&#x27;);</span><br><span class="line">    var backgroundColor = &quot;white&quot;;</span><br><span class="line">    var fontColor = &quot;black&quot;;</span><br><span class="line">    var airQuality = &quot;无&quot;;</span><br><span class="line">    var index = 0;</span><br><span class="line">    if (number[4] &gt;= 0 &amp;&amp; number[4] &lt;= 12)&#123;</span><br><span class="line">        fontColor = &quot;#acddc6&quot;;</span><br><span class="line">        airQuality = &quot;优&quot;;</span><br><span class="line">        index = 0;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 12 &amp;&amp; number[4] &lt;= 35)&#123;</span><br><span class="line">        fontColor = &quot;#e0b902&quot;;</span><br><span class="line">        airQuality = &quot;良&quot;;</span><br><span class="line">        index = 1;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 35 &amp;&amp; number[4] &lt;= 55)&#123;</span><br><span class="line">        fontColor = &quot;#f08008&quot;;</span><br><span class="line">        airQuality = &quot;轻度污染&quot;;</span><br><span class="line">        index = 2;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 55 &amp;&amp; number[4] &lt;= 150)&#123;</span><br><span class="line">        fontColor = &quot;#db2d01&quot;;</span><br><span class="line">        airQuality = &quot;中度污染&quot;;</span><br><span class="line">        index = 3;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 150 &amp;&amp; number[4] &lt;= 250)&#123;</span><br><span class="line">        fontColor = &quot;#c870cd&quot;;</span><br><span class="line">        airQuality = &quot;重度污染&quot;;</span><br><span class="line">        index = 4;</span><br><span class="line">    &#125;</span><br><span class="line">    if (number[4] &gt; 250 &amp;&amp; number[4] &lt;= 1000)&#123;</span><br><span class="line">        fontColor = &quot;#8f6091&quot;;</span><br><span class="line">        airQuality = &quot;严重污染&quot;;</span><br><span class="line">        index = 5;</span><br><span class="line">    &#125;</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).html(&#x27;&lt;span&gt;&#x27; + airQuality + &#x27;&lt;/span&gt;&lt;br/&gt;&lt;span&gt;&#x27; + number[4] + &#x27;μg/m³&lt;/span&gt;&#x27;);</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).css(&quot;color&quot;,fontColor);</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).css(&quot;text-align&quot;,&quot;center&quot;);</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).css(&#x27;width&#x27;,&#x27;100%&#x27;);</span><br><span class="line">    var fontSize = $(window).height() / 16;</span><br><span class="line">    $(&#x27;p&#x27;).css(&#x27;font-size&#x27;,fontSize);</span><br><span class="line">    $(&#x27;#showLayout p:eq(&#x27; + index + &#x27;)&#x27;).click(function()&#123;</span><br><span class="line">        if($(&#x27;#detailLayout&#x27;).css(&#x27;display&#x27;) == &#x27;none&#x27;)&#123;</span><br><span class="line">            $(&#x27;#detailLayout&#x27;).show();</span><br><span class="line">            $(&#x27;#detailLayout&#x27;).html(&#x27;&lt;p&gt;数据更新时间:&#x27;+$(&#x27;#date&#x27;).html()+&#x27;&lt;/p&gt;&lt;p&gt;数据测量位置:广东省广州市&lt;/p&gt;&lt;p&gt;标准颗粒物质量浓度(CF=1)&lt;/p&gt;&lt;p&gt;PM 1.0: &#x27;+number[0]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;PM 2.5: &#x27;+number[1]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;PM 10 : &#x27;+number[2]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;大气环境下颗粒物质量浓度&lt;/p&gt;&lt;p&gt;PM 1.0: &#x27;+number[3]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;PM 2.5: &#x27;+number[4]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;PM 10 : &#x27;+number[5]+&#x27; μg/m³&lt;/p&gt;&lt;p&gt;0.1升空气中直径大于某值的颗粒物个数&lt;/p&gt;&lt;p&gt;&gt;0.3μm: &#x27;+number[6]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;0.5μm: &#x27;+number[7]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;1.0μm: &#x27;+number[8]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;2.5μm: &#x27;+number[9]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;5.0μm: &#x27;+number[10]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;&gt;10 μm: &#x27;+number[11]+&#x27;/0.1L&lt;/p&gt;&lt;p&gt;甲醛: &#x27;+number[12]+&#x27;mg/m³&lt;/p&gt;&lt;p&gt;温度: &#x27;+number[13]+&#x27;℃&lt;/p&gt;&lt;p&gt;湿度: &#x27;+number[14]+&#x27;%&lt;/p&gt;&#x27;);</span><br><span class="line">        &#125;</span><br><span class="line">        else&#123;</span><br><span class="line">            $(&#x27;#detailLayout&#x27;).hide();</span><br><span class="line">            $(&#x27;#detailLayout&#x27;).html(&#x27;&#x27;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<h2 id="5-getData-php，上面的index-html需要"><a href="#5-getData-php，上面的index-html需要" class="headerlink" title="5.getData.php，上面的index.html需要"></a>5.getData.php，上面的index.html需要</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">$dsn = &#x27;mysql:dbname=pm;host=127.0.0.1;port=3306&#x27;;</span><br><span class="line">$username = &#x27;root&#x27;;</span><br><span class="line">$password = &#x27;&#x27;;</span><br><span class="line">try &#123;</span><br><span class="line">    $db = new PDO($dsn, $username, $password);</span><br><span class="line">&#125; catch(PDOException $e) &#123;</span><br><span class="line">    die(&#x27;Could not connect to the database:</span><br><span class="line">&#x27; . $e);</span><br><span class="line">&#125;</span><br><span class="line">$db-&gt;query(&#x27;set names utf8&#x27;);</span><br><span class="line">$sql = &quot;select * from pm order by time desc limit 1&quot;;</span><br><span class="line">$obj = $db-&gt;prepare($sql);</span><br><span class="line">$obj-&gt;execute();</span><br><span class="line">$arr = $obj-&gt;fetchAll(PDO::FETCH_ASSOC);</span><br><span class="line">$data = array(&quot;pm&quot;=&gt;$arr[0][&#x27;data&#x27;],&quot;date&quot;=&gt;$arr[0][&#x27;time&#x27;]);</span><br><span class="line">echo json_encode($data);</span><br><span class="line">//print_r($arr[0][time]);</span><br><span class="line">?&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="6-sendPM2-5-py"><a href="#6-sendPM2-5-py" class="headerlink" title="6.sendPM2.5.py"></a>6.sendPM2.5.py</h2><p>需要安装requests模块<br>pip install requests</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># encoding=utf-8</span><br><span class="line">import os</span><br><span class="line">import serial</span><br><span class="line">import time</span><br><span class="line">import requests</span><br><span class="line">import json</span><br><span class="line">from struct import *</span><br><span class="line"></span><br><span class="line"># pip install requests</span><br><span class="line"></span><br><span class="line">ser = serial.Serial(&quot;/dev/ttyUSB0&quot;, baudrate=9600, timeout=2.0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def read_pm_line(_port):</span><br><span class="line">    rv = b&#x27;&#x27;</span><br><span class="line">    while True:</span><br><span class="line">        ch1 = _port.read()</span><br><span class="line">        if ch1 == b&#x27;\x42&#x27;:</span><br><span class="line">            ch2 = _port.read()</span><br><span class="line">            if ch2 == b&#x27;\x4d&#x27;:</span><br><span class="line">                rv += ch1 + ch2</span><br><span class="line">                rv += _port.read(38)</span><br><span class="line">                return rv</span><br><span class="line"></span><br><span class="line">def writefile(filereadlines):</span><br><span class="line">    #write file</span><br><span class="line">    newfile = open(&#x27;data.json&#x27;, mode=&#x27;w&#x27;, encoding=&#x27;UTF-8&#x27;)</span><br><span class="line">    newfile.writelines(filereadlines)</span><br><span class="line">    newfile.close()</span><br><span class="line"></span><br><span class="line">def main():</span><br><span class="line">    recv = read_pm_line(ser)</span><br><span class="line"></span><br><span class="line">    tmp = recv[4:36]</span><br><span class="line">    datas = unpack(&#x27;&gt;hhhhhhhhhhhhhhhh&#x27;, tmp)</span><br><span class="line">    sendData = datas[0], datas[1], datas[2], datas[3], datas[4], datas[5], datas[6], datas[</span><br><span class="line">        7], datas[8], datas[9], datas[10], datas[11], datas[12]/1000.0, datas[13]/10.0, datas[14]/10.0</span><br><span class="line">    sendData = str(tuple(sendData))</span><br><span class="line">    tmp = sendData.split(&#x27; &#x27;)</span><br><span class="line">    sendData = &#x27;&#x27;.join(tmp)</span><br><span class="line">    url = &#x27;http://127.0.0.1/pm25/receivePM2.5.php?pm=&#x27; + sendData[1:-1]</span><br><span class="line">    se = requests.Session()</span><br><span class="line">    response = requests.get(url)</span><br><span class="line">    ser.flushInput()</span><br><span class="line">    time.sleep(0.1)</span><br><span class="line"></span><br><span class="line">    outputData = &#123;&#x27;temperature&#x27;:datas[13]/10,&#x27;humidity&#x27;:datas[14]/10,&#x27;pm25&#x27;:datas[4]&#125;</span><br><span class="line"></span><br><span class="line">    writefile(json.dumps(outputData))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    try:</span><br><span class="line">        main()</span><br><span class="line">    except KeyboardInterrupt:</span><br><span class="line">        if ser != None:</span><br><span class="line">            ser.close()</span><br></pre></td></tr></table></figure>
-
-<h2 id="7-定时发送数据"><a href="#7-定时发送数据" class="headerlink" title="7.定时发送数据"></a>7.定时发送数据</h2><p>启动服务</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">systemctl enable cronie</span><br><span class="line">systemctl start cronie</span><br></pre></td></tr></table></figure>
-
-<p>crontab -e，每10分钟获取一次数据</p>
-<p> *&#x2F;10 * * * * &#x2F;usr&#x2F;bin&#x2F;python &#x2F;root&#x2F;sendPM2.5.py</p>
-<h2 id="8-sql表结构"><a href="#8-sql表结构" class="headerlink" title="8.sql表结构"></a>8.sql表结构</h2><p>如果需要修改mysql的root密码<br>运行mysql -u root -p后<br>运行set password for root@localhost &#x3D; password(‘12332144’);</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">create database pm;</span><br><span class="line"></span><br><span class="line">use pm;</span><br><span class="line"></span><br><span class="line">CREATE TABLE `pm` (</span><br><span class="line">  `data` varchar(60) NOT NULL,</span><br><span class="line">  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP</span><br><span class="line">) ENGINE=MyISAM DEFAULT CHARSET=gbk;</span><br></pre></td></tr></table></figure>
-
+<blockquote>
+<p>在社会伦理的领域里我还想反对无趣，也就是说，要反对庄严肃穆的假正经。据我的考察，在一个宽松的社会里，人们可以收获到优雅，收获到精雕细琢的浪漫；在一个呆板的社会里，人们可以收获到幽默——起码是黑色的幽默。就是在我待的这个社会里，什么都收获不到，这可是件让人吃惊的事情。看过但丁《神曲》的人就会知道，对人来说，刀山、剑树、火海、油锅都不算严酷，最严酷的是寒冰地狱，把人冻在那里一动都不动。假如一个社会的宗旨就是反对有趣，那它比寒冰地狱又有不如。在这个领域里发议论的人总是在说：这个不宜提倡，那个不宜提倡。仿佛人活着就是为了被提倡。要真是这样，就不如不活。罗素先生说，参差多态乃是幸福的本源——弟兄姐妹们，让我们睁开眼睛往周围看看，所谓的参差多态，它在哪里呢？</p>
+</blockquote>
+<hr>
+<h2 id="思维的乐趣"><a href="#思维的乐趣" class="headerlink" title="思维的乐趣"></a>思维的乐趣</h2><blockquote>
+<p>插队的生活是艰苦的，吃不饱，水土不服，很多人得了病，但是最大的痛苦是没有书看，倘若可看的书很多的话，《变形记》也不会这样悲惨地消失了。除此之外，还得不到思想的乐趣。我相信这不是我一个人的经历：傍晚时分，你坐在屋檐下，看着天慢慢地黑下去，心里寂寞而凄凉，感到自己的生命被剥夺了。当时我是个年轻人，但我害怕这样生活下去，衰老下去。在我看来，这是比死亡更可怕的事。</p>
+</blockquote>
+<blockquote>
+<p>我最赞成罗素先生的一句话：“须知参差多态，乃是幸福的本源。”大多数的参差多态都是敏于思索的人创造出来的。当然，我知道有些人不赞成我们的意见。他们必然认为，单一机械，乃是幸福的本源。老子说，要让大家“虚其心而实其腹”，我听了就不是很喜欢；汉儒废黜百家，独尊儒术，在我看来是个很卑鄙的行为。</p>
+</blockquote>
+<blockquote>
+<p>可能是因为受了一些教育，也可能是因为已经成年，反正你要让我去解放什么人的话，我肯定要先问问，这些人是谁，为什么需要帮助；其次要问问，帮助他们是不是我能力所及；最后我还要想想，自己直奔云南去挖坑，是否于事有补。这样想来想去，我肯定不愿去插队。领导上硬要我去，我还得去，但是这以后挖坏了青山、造成了水土流失等等，就罪不在我。</p>
+</blockquote>
+<blockquote>
+<p>我虽然已活到了不惑之年，但还常常为一件事感到疑惑：为什么有很多人总是这样地仇恨新奇，仇恨有趣。古人曾说：天不生仲尼，万古长如夜。但我有相反的想法。假设历史上曾有一位大智者，一下发现了一切新奇、一切有趣，发现了终极真理，根绝了一切发现的可能性，我就情愿到该智者以前的年代去生活。这是因为，假如这种终极真理已经被发现，人类所能做的事就只剩下了依据这种真理来做价值判断。从汉代以后到近代，中国人就是这么生活的。我对这样的生活一点都不喜欢。</p>
+</blockquote>
+<blockquote>
+<p>质朴的人们假如能把自己理解不了的事情看做是与己无关的事，那就好了。</p>
+</blockquote>
+<hr>
+<h2 id="沉默的大多数"><a href="#沉默的大多数" class="headerlink" title="沉默的大多数"></a>沉默的大多数</h2><blockquote>
+<p>总而言之，从小我对讲出来的话就不大相信，越是声色俱厉，嗓门高亢，我越是不信，这种怀疑态度起源于我饥饿的肚肠。和任何话语相比，饥饿都是更大的真理。除了怀疑话语，我还有一个恶习，就是吃铅笔。上小学时，在课桌后面一坐定就开始吃。那种铅笔一毛三一支，后面有橡皮头。我从后面吃起，先吃掉柔软可口的橡皮，再吃掉柔韧爽口的铁皮，吃到木头笔杆以后，软糟糟的没什么味道，但有一点香料味，诱使我接着吃。终于把整支铅笔吃得只剩了一支铅芯，用橡皮膏缠上接着使。除了铅笔之外，课本、练习本，甚至课桌都可以吃。我说到的这些东西，有些被吃掉了，有些被啃得十分狼藉。这也是一个真理，但没有用话语来表达过：饥饿可以把小孩子变成白蚁。</p>
+</blockquote>
+<blockquote>
+<p>当年我就这么想，现在我也这么想：话语教给我们很多，但善恶还是可以自明。话语想要教给我们，人与人生来就不平等。在人间，尊卑有序是永恒的真理，但你也可以不听。</p>
+</blockquote>
+<blockquote>
+<p>几年前，我刚刚走出沉默，写了一本书，送给长者看。他不喜欢这本书，认为书不能这样来写。照他看来，写书应该能教育人民，提升人的灵魂。这真是金玉良言。但是在这世界上的一切人之中，我最希望予以提升的一个，就是我自己。这话很卑鄙，很自私，也很诚实。</p>
+</blockquote>
+<hr>
+<h2 id="论战与道德"><a href="#论战与道德" class="headerlink" title="论战与道德"></a>论战与道德</h2><blockquote>
+<p>当我和别人讨论文化问题时，我以为自己的审美情趣、文化修养在经受挑战，这方面的反对意见就如飞来的子弹，不能使我惧怕；而道德方面的非难就如飞来的粪便那样使我胆寒。我的意思当然不是说现在文化的领域是个屎橛纷飞的场所，臭气熏天——绝不是的；我只是说，它还有让我胆寒的气味。所以，假如有人以这种态度论争，我要做的第一件事，就是逃到安全距离之外，然后再好言相劝：算了吧，何必呢？</p>
+</blockquote>
+<hr>
+<h2 id="理想国与哲人王"><a href="#理想国与哲人王" class="headerlink" title="理想国与哲人王"></a>理想国与哲人王</h2><blockquote>
+<p>罗素先生对《乌托邦》的评价也很低，主要是讨厌那些烦琐的规定。罗素以为参差多态是幸福的本源，把什么都规定了就无幸福可言。作为经历了某种“乌托邦”的人，我认为这个罪状太过轻微。因为在乌托邦内，对什么是幸福都有规定，比如：“以苦为乐，以苦为荣”“宁要社会主义的草，不要资本主义的苗”之类。在乌托邦里，很难找到感觉自己不幸福的人，大伙只是傻愣愣的，感觉不大自在。以我个人为例，假如在七十年代，我能说出罗素先生那样充满了智慧的话语，那我对自己的智力状况就很满意，不再抱怨什么。实际上，我除了活着怪没劲之外，什么都说不出来。</p>
+</blockquote>
+<blockquote>
+<p>我也盼着中国古代的圣人活过来，把存天理灭人欲、饿死事小失节事大之类的话收回一些。</p>
+</blockquote>
+<blockquote>
+<p>不管怎么说，我不想把自己的未来交给任何人，尤其是哲人王。</p>
+</blockquote>
+<hr>
+<h2 id="智慧与国学"><a href="#智慧与国学" class="headerlink" title="智慧与国学"></a>智慧与国学</h2><blockquote>
+<p>维特根斯坦在临终时，回顾自己一生的智力活动时说：告诉他们，我度过了美好的一生。</p>
+</blockquote>
+<blockquote>
+<p>如此看来，东西方两种智慧的区别，不仅是驴和马的区别，而且是叫驴和骟马的区别。那东西怎么就没了，真是个大问题！</p>
+</blockquote>
+<blockquote>
+<p>也许在这个问题上可以提出一个骡子式的折衷方案：你只有变得更聪明，才能看到人间的至善。但我不喜欢这样的答案。我更喜欢驴子的想法：智慧本身就是好的。有一天我们都会死去，追求智慧的道路还会有人在走着。死掉以后的事我看不到。但在我活着的时候，想到这件事，心里就很高兴。</p>
+</blockquote>
+<blockquote>
+<p>相比之下我倒更相信苏格拉底的话：我只知道自己一无所知。罗素先生说，虽然有科学上的种种成就，但我们所知甚少，尤其是面对无限广阔的未知，简直可以说是无知的。与罗素的注释相比，我更喜欢苏格拉底的那句原话，这句话说得更加彻底。他还有些妙论我更加喜欢：只有那些知道自己智慧一文不值的人，才是最有智慧的人。这对某种偏向是种解毒剂。</p>
+</blockquote>
+<hr>
+<h2 id="人性的逆转"><a href="#人性的逆转" class="headerlink" title="人性的逆转"></a>人性的逆转</h2><blockquote>
+<p>有位西方的发展学者说：贫穷是一种生活方式。言下之意是说，有些人受穷，是因为他不想富裕。这句话是作为一种惊世骇俗的观点提出的，但我狭隘的人生经历却证明此话大有道理。对于这句话还可以充分地推广：贫困是一种生活方式，富裕是另一种生活方式；追求聪明是一种人生的态度，追求愚蠢则是另一种生活态度。在这个世界上，有一些人在追求快乐，另一些人在追求痛苦；有些人在追求聪明，另一些人在追求愚蠢。这种情形常常能把人彻底搞糊涂。</p>
+</blockquote>
+<blockquote>
+<p>弗洛伊德对受虐狂有如下的解释：假如人生活在一种无力改变的痛苦之中，就会转而爱上这种痛苦，把它视为一种快乐，以便使自己好过一些。对这个道理稍加推广，就会想道：人是一种会自己骗自己的动物。我们吃了很多无益的苦，虚掷了不少年华，所以有人就想说，这种经历是崇高的。这种想法可以使他自己好过一些，所以它有些好作用。很不幸的是它还有些坏作用：有些人就据此认为，人必须吃一些无益的苦、虚掷一些年华，用这种方法来达到崇高。这种想法不仅有害，而且是有病。</p>
+</blockquote>
+<hr>
+<h2 id="弗洛伊德和受虐狂"><a href="#弗洛伊德和受虐狂" class="headerlink" title="弗洛伊德和受虐狂"></a>弗洛伊德和受虐狂</h2><blockquote>
+<p>举例来说，很多中年人因为“文革”中上山下乡虚耗了青春，这本是种巨大的痛苦；但他们却觉得很幸福，还说：青春无悔！</p>
+</blockquote>
+<hr>
+<h2 id="体验生活"><a href="#体验生活" class="headerlink" title="体验生活"></a>体验生活</h2><blockquote>
+<p>因为他说，这些菜太老，不吃就要坏了。菜园子总有点垂垂老矣的菜，吃掉旧的，新的又老了，所以永远也吃不到嫩菜。</p>
+</blockquote>
+<hr>
+<h2 id="有与无"><a href="#有与无" class="headerlink" title="有与无"></a>有与无</h2><blockquote>
+<p>这个村里的“文化”，或者叫做“规范”，是有些特异性的。从总体来说，可以说存在着一种集体的“生活”。但若说到属于个人的生活，可以说是没有的。这是因为村里每个成年人惦记的都是一模一样的事情：给自己修座椅子坟就是其中比较有趣的一件。至于为什么要这样生活，他们也说不出。</p>
+</blockquote>
+<blockquote>
+<p>现在可以说到我自己。我从小就想写小说，最后在将近四十岁时，终于开始写作——我做这件事，纯粹是因为，这是我爱的事业。是我要做，不是我必须做——这是一种本质的区别。我个人以为，做爱做的事才是“有”，做自己也不知为什么要做的事则是“无”。因为这个缘故，我的生活看似平淡，但也不能说是“无”。有一种说法是这样的：人在年轻时，心气总是很高的，最后总要向现实投降。我刚刚过了四十四岁生日，在这个年龄上给自己做结论似乎还为时过早。但我总觉得，我这一生绝不会向虚无投降。我会一直战斗到死。</p>
+</blockquote>
+<hr>
+<h2 id="谦卑学习班"><a href="#谦卑学习班" class="headerlink" title="谦卑学习班"></a>谦卑学习班</h2><blockquote>
+<p>中国常有人不惜代价，冒了被踩死的危险，挤进体育馆一类的地方，去见见大名人，在里面涕泪直流，出来后又觉得上当。这道理是这样的：用不着花很多钱，受很多罪，跑好远的路，洗耳恭听别人说你是傻×。自己知道就够了。</p>
+</blockquote>
+<hr>
+<h2 id="关于格调"><a href="#关于格调" class="headerlink" title="关于格调"></a>关于格调</h2><blockquote>
+<p>我反对把一切统一到格调上，这是因为它会把整个生活变成一种得分游戏。一个得分游戏不管多么引人入胜，总不能包容全部生活，包容艺术，何况它根本就没什么意思。假如我要写什么，我就根本不管它格调不格调，正如谈恋爱时我绝不从爱祖国谈起。</p>
+</blockquote>
+<hr>
+<h2 id="关于崇高"><a href="#关于崇高" class="headerlink" title="关于崇高"></a>关于崇高</h2><blockquote>
+<p>时隔二十多年，我也读了一些书，从书本知识和亲身经历之中，我得到了这样一种结论：自打孔孟到如今，我们这个社会里只有两种人。一种编写生活的脚本，另一种去演出这些脚本。前一种人是古代的圣贤，七十年代的政工干部；后一种包括古代的老百姓和近代的知青。所谓上智下愚、劳心者治人劳力者治于人，就是这个意思吧。从气质来说，我只适合当演员，不适合当编剧，但是看到脚本编得太坏时，总禁不住要多上几句嘴，就被当落后分子来看待。这么多年了，我也习惯了。</p>
+</blockquote>
+<blockquote>
+<p>从历史上我们知道，宋明理学是一种高调。理学越兴盛，人也越虚伪。从亲身经历中我们知道，七十年代的调门最高。知青为了上大学、回城，什么事都干出来了。有种虚伪是不该受谴责的，因为这是为了能活着。现在又有人在提倡追逐崇高，我不知道是在提倡理性，还是一味煽情。假如是后者，那就是犯了老毛病。</p>
+</blockquote>
+<hr>
+<h2 id="我对国产片的看法"><a href="#我对国产片的看法" class="headerlink" title="我对国产片的看法"></a>我对国产片的看法</h2><blockquote>
+<p>家纳博科夫曾说，一流的读者不是天生的，他是培养出来的。《庐山恋》还评上了奖，这大概是因为编导对观众的培养之功，但是这样的观众恐怕不能算是一流的。所以我们可以改改纳博科夫的话：三流的影视观众不是天生的，他也是培养出来的。作为欣赏者，我们开头都是二流水平，只有经过了培养，才会特别好或是特别坏。</p>
+</blockquote>
+<blockquote>
+<p>莫泊桑曾说，提笔为文，就想到了读者。有些读者说：请让我笑吧。有些读者说：请让我哭吧。有些读者说，请让我感动吧……在中国，有些读者会说，请让我们受教育吧。我举这个例子，当然是想用莫泊桑和读者来比喻影视编导与观众。敏感的读者肯定能发现其中的可笑之处：作品培养了观众的口味，观众的口味再来影响作者，像这样颠过来、倒过去，肯定是很没劲。特别是，假如编导不妥当，就会使观众不妥当；观众又要求编导不妥当，这样下去大家都越来越不妥当。</p>
+</blockquote>
+<hr>
+<h2 id="生活和小说"><a href="#生活和小说" class="headerlink" title="生活和小说"></a>生活和小说</h2><blockquote>
+<p>罗素先生曾说，从一个假的前提出发，什么都能够推论出来，照我看这就是小说的实质。不管怎么说，小说里可以虚构。这就是说，在一本小说里，不管你看到什么千奇百怪的事，都不应该诧异，更不该指责作者违背了真实的原则，因为小说就是假的呀。</p>
+</blockquote>
+<blockquote>
+<p>凭良心说，我喜欢千奇百怪的结果——我把这叫做浪漫。但这不等于我就没有能力明辨是非了。</p>
+</blockquote>
+<hr>
+<h2 id="萧伯纳的《巴巴拉少校》"><a href="#萧伯纳的《巴巴拉少校》" class="headerlink" title="萧伯纳的《巴巴拉少校》"></a>萧伯纳的《巴巴拉少校》</h2><blockquote>
+<p>安德谢夫只好问他的儿子：“你能说说你长于什么或是爱好什么吗？”</p>
+</blockquote>
+<hr>
+<h2 id="个人尊严"><a href="#个人尊严" class="headerlink" title="个人尊严"></a>个人尊严</h2><blockquote>
+<p>在国外时看到，人们对时事做出价值评判时，总是从两个独立的方面来进行：一个方面是国家或者社会的尊严，这像是时事的经线；另一个方面是个人的尊严，这像是时事的纬线。回到国内，一条纬线就像是没有，连尊严这个字眼也感到陌生了。</p>
+</blockquote>
+<blockquote>
+<p>说来也奇怪，中华礼仪之邦，一切尊严，都从整体和人与人的关系上定义，就是没有个人的位置。一个人不在单位里、不在家里，不代表国家、民族，单独存在时，居然不算一个人，就算是一块肉。</p>
+</blockquote>
+<hr>
+<h2 id="居住环境与尊严"><a href="#居住环境与尊严" class="headerlink" title="居住环境与尊严"></a>居住环境与尊严</h2><blockquote>
+<p>假设有个外国人来看我，他必须从单元门进来，爬上六层，才能到达我家的门口。单元门旁边就是垃圾道的出口，那里总有大堆的垃圾流在外面，有鱼头鸭头鸡肠子在内，很招苍蝇，看起来相当吓人。此人看过了这种景色之后，爬上一至六层的楼梯，呼吸着富含尘土的空气，看到满地的葱皮、鸡蛋壳，还有墙上淋漓的污渍。我希望他有鼻炎，闻不见味。我没有鼻炎，每回爬楼梯时我都闭着气。上大学时，我肺活量有五千毫升，现在大概有八千。当然，这是在白天。要是黑夜他根本就上不来，因为楼道里没灯，他会撞进自行车堆里，摔断他的腿。夜里我上楼时，手里总拿个棍儿，探着往上爬。他还不知扶手不能摸，摸了就是一手灰。才搬来时我摸过一把，那手印子现在还印在那里，只是没有当初新鲜。就这样到了我的门外，此时他对我肯定有了一种不好的看法。坦白地说，我在美国留学时，见到哪个美国同学住在这样的房子里，肯定也会看不起他。</p>
+</blockquote>
+<hr>
+<h2 id="饮食卫生与尊严"><a href="#饮食卫生与尊严" class="headerlink" title="饮食卫生与尊严"></a>饮食卫生与尊严</h2><blockquote>
+<p>但我确实感到了，假如别人都不尊重我，我也没法尊重别人。假如所有的人都一直斜眼看我，粗声粗气地说我，那我的确什么事都干得出来。不过，回到家里，洗个热水澡，换上干净衣服，我心情又好了。有个住的地方，就有这点好处。</p>
+</blockquote>
+<hr>
 ]]></content>
       <categories>
-        <category>程序</category>
+        <category>读书笔记</category>
       </categories>
       <tags>
-        <tag>Raspberry</tag>
-        <tag>树莓派</tag>
-        <tag>攀藤</tag>
-        <tag>PMS5003ST</tag>
-        <tag>PM2.5</tag>
+        <tag>标注</tag>
+        <tag>读书笔记</tag>
+        <tag>王小波</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>电脑手机技巧</title>
+    <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<hr>
+<h2 id="QQNT版占用内存高"><a href="#QQNT版占用内存高" class="headerlink" title="QQNT版占用内存高"></a>QQNT版占用内存高</h2><p>点一下左边的#（QQ频道），再关掉就可以了</p>
+<span id="more"></span>
+
+<h2 id="npm下载速度慢"><a href="#npm下载速度慢" class="headerlink" title="npm下载速度慢"></a>npm下载速度慢</h2><p>命令行输入npm config set registry <a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>
+<h2 id="删除文件夹是提示0x80070091目录不是空的"><a href="#删除文件夹是提示0x80070091目录不是空的" class="headerlink" title="删除文件夹是提示0x80070091目录不是空的"></a>删除文件夹是提示0x80070091目录不是空的</h2><p>复制一个文件进去后再删除</p>
+<h2 id="下载优酷视频"><a href="#下载优酷视频" class="headerlink" title="下载优酷视频"></a>下载优酷视频</h2><p>安装python后pip3 install you-get<br>you-get 视频地址</p>
+<h2 id="联通手机把积分换成话费"><a href="#联通手机把积分换成话费" class="headerlink" title="联通手机把积分换成话费"></a>联通手机把积分换成话费</h2><p>发JFJF#Q到10010</p>
+<h2 id="小米手机静音看视频直播"><a href="#小米手机静音看视频直播" class="headerlink" title="小米手机静音看视频直播"></a>小米手机静音看视频直播</h2><p>对着小爱同学说实时字幕，再打开视频就可以看到悬浮框实时识别的字幕了</p>
+<h2 id="calibre直接打开epub文件后会修改文件导致sha1校验变化"><a href="#calibre直接打开epub文件后会修改文件导致sha1校验变化" class="headerlink" title="calibre直接打开epub文件后会修改文件导致sha1校验变化"></a>calibre直接打开epub文件后会修改文件导致sha1校验变化</h2><p>打开一本书，右键单机右侧，首选项，杂项，保存一份标注&#x2F;书签在电子书文件中便于共享，去掉勾</p>
+<h2 id="chrome提示网站不是私密链接"><a href="#chrome提示网站不是私密链接" class="headerlink" title="chrome提示网站不是私密链接"></a>chrome提示网站不是私密链接</h2><p>chrome右键属性，目标后面引号外添加–test-type –ignore-certificate-errors</p>
+<h2 id="poweramp蓝牙播放音乐卡顿"><a href="#poweramp蓝牙播放音乐卡顿" class="headerlink" title="poweramp蓝牙播放音乐卡顿"></a>poweramp蓝牙播放音乐卡顿</h2><p>在设置，音频，输出，尝试切换成其他输入</p>
+<h2 id="excel设置正数是红色，负数是绿色"><a href="#excel设置正数是红色，负数是绿色" class="headerlink" title="excel设置正数是红色，负数是绿色"></a>excel设置正数是红色，负数是绿色</h2><p>选单元格，可以按住ctrl多选，设置单元格格式，自定义，输入[红色]#,##0.00;[绿色]-#,##0.00</p>
+<h2 id="inoreader访问不了"><a href="#inoreader访问不了" class="headerlink" title="inoreader访问不了"></a>inoreader访问不了</h2><p>网页端inoreader改成innoreader</p>
+<p>安卓端进入设置，随便一个界面，摇晃手机，inoreader改成innoreader</p>
+<h2 id="winrar下载地址"><a href="#winrar下载地址" class="headerlink" title="winrar下载地址"></a>winrar下载地址</h2><p><a href="https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/rrlb/winrar-x64-624sc.exe">https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/rrlb/winrar-x64-624sc.exe</a><br><a href="https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/wrr/winrar-x64-624sc.exe">https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/wrr/winrar-x64-624sc.exe</a></p>
+<h2 id="github-pages设置"><a href="#github-pages设置" class="headerlink" title="github pages设置"></a>github pages设置</h2><p>要在文件夹内新建一个文件CNAME，里面是你的域名</p>
+<h2 id="萤石摄像头打开rtsp，可用播放器播放，关闭红外"><a href="#萤石摄像头打开rtsp，可用播放器播放，关闭红外" class="headerlink" title="萤石摄像头打开rtsp，可用播放器播放，关闭红外"></a>萤石摄像头打开rtsp，可用播放器播放，关闭红外</h2><p>打开手机萤石云视频app，我的，工具，局域网设备预览，开始扫描</p>
+<p>选择设备，输入密码是6位大写英文，在摄像头下面贴纸上可以找到</p>
+<p>右上角设置，更多设置，本地服务开关，RTSP打开，保存，有个设备可能没这个设置</p>
+<p>关闭红外：上面第三步后，右上角设置，日夜切换，强制白天</p>
+<p>电脑播放可以使用vlc，potplayer或vlc，安卓手机播放，使用vlc，新建my.m3u8</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#EXTM3U8</span><br><span class="line">#EXTINF:-1,名字</span><br><span class="line">rtsp://admin:密码@网址或ip:554/h264/ch1/main/av_stream</span><br></pre></td></tr></table></figure>
+
+<h2 id="foobar2000歌词插件、搜索、布局整合"><a href="#foobar2000歌词插件、搜索、布局整合" class="headerlink" title="foobar2000歌词插件、搜索、布局整合"></a>foobar2000歌词插件、搜索、布局整合</h2><p>插件ESLyric，下载地址<a href="https://github.com/ESLyric/release/releases">https://github.com/ESLyric/release/releases</a></p>
+<p>建立自己的布局，以左边播放列表右边歌词为例</p>
+<p>view-layout-create scratchbox，点击灰色的地方spliter(left&#x2F;right)</p>
+<p>点击左边add new ui element，playlist tabs，再点左边，playlist view</p>
+<p>点击右边add new ui element，ESLyric</p>
+<p>点击窗口左上edit， apply layout就成功了，重启foobar2000后就自动加载歌词了</p>
+<p>其他技巧：</p>
+<p>搜索播放列表里的歌，直接在播放列表输入就可以</p>
+<p>双击状态栏移动到现在正在播放的歌</p>
+<h2 id="浏览器设置自己的ip"><a href="#浏览器设置自己的ip" class="headerlink" title="浏览器设置自己的ip"></a>浏览器设置自己的ip</h2><p>chrome商店里安装modheader</p>
+<p>添加X-Forwarded-For，后面的值填想要的ip</p>
+<p>添加User-Agent，可以防止一些网站因为浏览器更新失去登录的问题</p>
+<h2 id="rpm-run-build提示error-03000086-digital-envelope-routines-initialization-error"><a href="#rpm-run-build提示error-03000086-digital-envelope-routines-initialization-error" class="headerlink" title="rpm run build提示error:03000086:digital envelope routines::initialization error"></a>rpm run build提示error:03000086:digital envelope routines::initialization error</h2><p>package.json里的这两行改成这样</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;scripts&quot;: &#123;</span><br><span class="line">    &quot;serve&quot;: &quot;SET NODE_OPTIONS=--openssl-legacy-provider &amp;&amp; vue-cli-service serve&quot;,</span><br><span class="line">    &quot;build&quot;: &quot;SET NODE_OPTIONS=--openssl-legacy-provider &amp;&amp; vue-cli-service build&quot;,</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
+
+<h2 id="linux重置root密码"><a href="#linux重置root密码" class="headerlink" title="linux重置root密码"></a>linux重置root密码</h2><p>把硬盘或tf拿下来放到另一个安装linux的机器上</p>
+<p>使用ls &#x2F;dev确定分区</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mount /dev/sdb2 /mnt</span><br><span class="line">passwd --root /mnt root</span><br></pre></td></tr></table></figure>
+
+<h2 id="windows11-Powershell里不能运行npm命令等"><a href="#windows11-Powershell里不能运行npm命令等" class="headerlink" title="windows11 Powershell里不能运行npm命令等"></a>windows11 Powershell里不能运行npm命令等</h2><p>管理员运行powershell，输入set-executionPolicy RemoteSigned，输入Y</p>
+<h2 id="chrome的idm插件"><a href="#chrome的idm插件" class="headerlink" title="chrome的idm插件"></a>chrome的idm插件</h2><p><a href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek/related">https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek/related</a></p>
+<h2 id="vscode显示选中多少行"><a href="#vscode显示选中多少行" class="headerlink" title="vscode显示选中多少行"></a>vscode显示选中多少行</h2><p>插件安装Select Line Status Bar</p>
+<h2 id="total-commander显示文件夹大小"><a href="#total-commander显示文件夹大小" class="headerlink" title="total commander显示文件夹大小"></a>total commander显示文件夹大小</h2><p>alt+shift+回车</p>
+<p>修改显示的单位：配置，选项，制表位，文件大小显示，建议第四个动态x.x KBMBGB</p>
+<h2 id="photoshop使用移动工具卡死"><a href="#photoshop使用移动工具卡死" class="headerlink" title="photoshop使用移动工具卡死"></a>photoshop使用移动工具卡死</h2><p>编辑菜单-首选项-工具，取消启用轻击平移和带动画效果的缩放</p>
+<h2 id="ImageMagick修改png图片位深度为4"><a href="#ImageMagick修改png图片位深度为4" class="headerlink" title="ImageMagick修改png图片位深度为4"></a>ImageMagick修改png图片位深度为4</h2><p>convert old.png -define png:color-type&#x3D;3 -define png:bit-depth&#x3D;4 new.png</p>
+<h2 id="photoshop中文变英文"><a href="#photoshop中文变英文" class="headerlink" title="photoshop中文变英文"></a>photoshop中文变英文</h2><p>Adobe Photoshop 2022\Locales\zh_CN\Support Files下的tw10428_Photoshop_zh_CN.dat文件改名成tw10428_Photoshop_zh_CN11.dat</p>
+<h2 id="goodsync同步速度慢"><a href="#goodsync同步速度慢" class="headerlink" title="goodsync同步速度慢"></a>goodsync同步速度慢</h2><p>选项，取消多线程并行运行同步。或编辑导出的任务组，WorkerThreads &#x3D; 3改成1</p>
+<h2 id="win11恢复成win10右键"><a href="#win11恢复成win10右键" class="headerlink" title="win11恢复成win10右键"></a>win11恢复成win10右键</h2><p>新建.bat文件写入<br>reg add “HKCU\Software\Classes\CLSID{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32” &#x2F;f &#x2F;ve<br>taskkill &#x2F;f &#x2F;im explorer.exe &amp; start explorer.exe</p>
+<p>还原就把add 改成delete</p>
+<h2 id="everything搜索空文件夹"><a href="#everything搜索空文件夹" class="headerlink" title="everything搜索空文件夹"></a>everything搜索空文件夹</h2><p>empty:</p>
+<h2 id="百度网盘提取码错误"><a href="#百度网盘提取码错误" class="headerlink" title="百度网盘提取码错误"></a>百度网盘提取码错误</h2><p>地址的http改成https，复制到手机客户端提取</p>
+<h2 id="total-commander中纯数字文件排序"><a href="#total-commander中纯数字文件排序" class="headerlink" title="total commander中纯数字文件排序"></a>total commander中纯数字文件排序</h2><p>纯数字文件是这样排序的1，10，11，12，13，要变成1，2，3，4，选择</p>
+<p>配置，选项，显示，文件排序方式，按字符代码及数字大小排序</p>
+<h2 id="total-commander中支持中文首字母搜索"><a href="#total-commander中支持中文首字母搜索" class="headerlink" title="total commander中支持中文首字母搜索"></a>total commander中支持中文首字母搜索</h2><p>安装QuickSearch eXtended，最新版2.2.7<br><a href="https://onedrive.live.com/?id=F8C4901FA2FB692E!132&cid=F8C4901FA2FB692E">https://onedrive.live.com/?id=F8C4901FA2FB692E%21132&amp;cid=F8C4901FA2FB692E</a></p>
+<p>配置，选项，快速搜索，字符，下面精确匹配都去掉勾</p>
+<h2 id="ComicsViewer在笔记本上缩放100-以上时模糊"><a href="#ComicsViewer在笔记本上缩放100-以上时模糊" class="headerlink" title="ComicsViewer在笔记本上缩放100%以上时模糊"></a>ComicsViewer在笔记本上缩放100%以上时模糊</h2><p>右键ComicsViewer.exe，属性，兼容性，更改高DPI设置，勾选使用此设置修复…的缩放问题，勾选替代高DPI缩放行为缩放执行：应用程序</p>
+<h2 id="oppo手机强制重启"><a href="#oppo手机强制重启" class="headerlink" title="oppo手机强制重启"></a>oppo手机强制重启</h2><p>长按电源和音量加，直到出现画面</p>
+<h2 id="winrar，每个文件夹单独一个zip文件"><a href="#winrar，每个文件夹单独一个zip文件" class="headerlink" title="winrar，每个文件夹单独一个zip文件"></a>winrar，每个文件夹单独一个zip文件</h2><p>选中数个文件夹，右键，添加到压缩文件，常规里选zip，文件里选将每个文件放到单独的压缩文件中</p>
+<h2 id="ed2k，kad网络服务器"><a href="#ed2k，kad网络服务器" class="headerlink" title="ed2k，kad网络服务器"></a>ed2k，kad网络服务器</h2><p>ed2k<br><a href="http://upd.emule-security.org/server.met">http://upd.emule-security.org/server.met</a><br>或者<br><a href="http://ed2k.im/server.met">http://ed2k.im/server.met</a></p>
+<p>kad<br><a href="http://upd.emule-security.org/nodes.dat">http://upd.emule-security.org/nodes.dat</a><br>或者<br><a href="http://ed2k.im/nodes.dat">http://ed2k.im/nodes.dat</a></p>
+<h2 id="total-commander-批量重命名"><a href="#total-commander-批量重命名" class="headerlink" title="total commander 批量重命名"></a>total commander 批量重命名</h2><p>选中，ctrl+m，[[]Comic[]][[]犬夜叉[]][[]高橋留美子[]][[]青文[]][[]HMM[]]Vol_[C]</p>
+<h2 id="vim中格式化代码"><a href="#vim中格式化代码" class="headerlink" title="vim中格式化代码"></a>vim中格式化代码</h2><p>gg,shift+v,shift+g,&#x3D;</p>
+<h2 id="搜索大文件"><a href="#搜索大文件" class="headerlink" title="搜索大文件"></a>搜索大文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">du -a / | sort -n -r | head -n 20</span><br></pre></td></tr></table></figure>
+<p>archlinux下这个文件夹占用空间大 &#x2F;var&#x2F;cache&#x2F;pacman&#x2F;pkg&#x2F;<br>清理&#x2F;var&#x2F;cache&#x2F;pacman&#x2F;pkg目录下的旧包</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -Sc</span><br></pre></td></tr></table></figure>
+
+<h2 id="git代理和取消"><a href="#git代理和取消" class="headerlink" title="git代理和取消"></a>git代理和取消</h2><p>git config –global http.proxy <a href="http://127.0.0.1:7890/">http://127.0.0.1:7890</a><br>git config –global –unset http.proxy</p>
+<h2 id="迅雷自动升级"><a href="#迅雷自动升级" class="headerlink" title="迅雷自动升级"></a>迅雷自动升级</h2><p>xlliveud.exe</p>
+<h2 id="compattelrunner"><a href="#compattelrunner" class="headerlink" title="compattelrunner"></a>compattelrunner</h2><p>taskschd.msc里app，禁用Microsoft Compatibility Appraiser</p>
+<h2 id="autohotkey显示鼠标坐标"><a href="#autohotkey显示鼠标坐标" class="headerlink" title="autohotkey显示鼠标坐标"></a>autohotkey显示鼠标坐标</h2><p>space::<br>MouseGetPos, xpos, ypos<br>Msgbox, The cursor is at X%xpos% Y%ypos%.<br>return</p>
+<h2 id="B站批量删除粉丝"><a href="#B站批量删除粉丝" class="headerlink" title="B站批量删除粉丝"></a>B站批量删除粉丝</h2><p>F12，console里输入<br>$(“.be-switch-input”).click();<br>这一句只运行一次，然后输入下面的，就自动运行了</p>
+<p>var count&#x3D;0;a&#x3D;function(){$(“.be-dropdown-item”).each(function(a,b){ if(“移除粉丝”&#x3D;&#x3D;b.innerHTML) {b.click();return false;}})};b&#x3D;function(){$(“.modal”).each(function(a,b){$c&#x3D;$(b).find(“.modal-title”);if($c[0].innerText&#x3D;&#x3D;”确认移除粉丝”){console.log(“正在删除粉丝:”+$(b).find(“em”).get(0).innerText);$(b).find(“.btn-content”).get(0).click()}});};function timeout(){setTimeout(function(){if(count%2&#x3D;&#x3D;0){a();}else{b();};count++;timeout();}, 2100);};timeout();</p>
+<h2 id="新建，删除文件没法刷新"><a href="#新建，删除文件没法刷新" class="headerlink" title="新建，删除文件没法刷新"></a>新建，删除文件没法刷新</h2><p>ie4uinit -show</p>
+<h2 id="身份证复印件"><a href="#身份证复印件" class="headerlink" title="身份证复印件"></a>身份证复印件</h2><p>复印件纸张大小为A4纸规格尺寸：210mm×297mm。第二代身份证尺寸规格为8.56cm×5.40cm(长×宽)。</p>
+<h2 id="win10自动唤醒"><a href="#win10自动唤醒" class="headerlink" title="win10自动唤醒"></a>win10自动唤醒</h2><p>关闭网卡唤醒，好像睡眠就不会自动唤醒了。</p>
+<h2 id="win10商店打不开"><a href="#win10商店打不开" class="headerlink" title="win10商店打不开"></a>win10商店打不开</h2><p>internet选项，打开tls1.2</p>
+<h2 id="删除hiberfil-sys"><a href="#删除hiberfil-sys" class="headerlink" title="删除hiberfil.sys"></a>删除hiberfil.sys</h2><p>管理员运行cmd<br>powercfg -h off</p>
+<h2 id="迅雷屏蔽"><a href="#迅雷屏蔽" class="headerlink" title="迅雷屏蔽"></a>迅雷屏蔽</h2><p>127.0.0.1 hub5btmain.sandai.net<br>127.0.0.1 hub5emu.sandai.net<br>127.0.0.1 upgrade.xl9.xunlei.com</p>
+<h2 id="关闭腾讯广告"><a href="#关闭腾讯广告" class="headerlink" title="关闭腾讯广告"></a>关闭腾讯广告</h2><p><a href="https://privacy.qq.com/ads/optout.html#">https://privacy.qq.com/ads/optout.html#</a></p>
+<h2 id="u盘转换成ntfs"><a href="#u盘转换成ntfs" class="headerlink" title="u盘转换成ntfs"></a>u盘转换成ntfs</h2><p>convert x: &#x2F;fs:ntfs</p>
+<h2 id="浏览器报Mixed-Content错误的解决"><a href="#浏览器报Mixed-Content错误的解决" class="headerlink" title="浏览器报Mixed Content错误的解决"></a>浏览器报Mixed Content错误的解决</h2><meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+<p>f12,ctrl + shift + p, capture full size
+ </p>
+<h2 id="显示不了迅雷文件夹"><a href="#显示不了迅雷文件夹" class="headerlink" title="显示不了迅雷文件夹"></a>显示不了迅雷文件夹</h2><p>attrib –s “TDDOWNLOAD”
+ </p>
+<h2 id="win11快捷键"><a href="#win11快捷键" class="headerlink" title="win11快捷键"></a>win11快捷键</h2><p>win+shift+s 截图<br>win+d 显示桌面<br>win+左右箭头 窗口停靠或者移动到另一个屏幕<br>win+主键盘数字 打开任务栏第几个程序<br>win+-+ 放大镜<br>win+e 资源管理器<br>win+a 右下角设置窗<br>win+v 云剪贴板或表情<br>win+空格 切换输入法语言
+ </p>
+<h2 id="显示器发白"><a href="#显示器发白" class="headerlink" title="显示器发白"></a>显示器发白</h2><p>nvidia控制面板，更改分辨率，2，自定义，使用nvidia设置，输出动态范围，完全
+ </p>
+<h2 id="chrome快捷键"><a href="#chrome快捷键" class="headerlink" title="chrome快捷键"></a>chrome快捷键</h2><p>ctrl+t新建页面<br>ctrl+w关闭页面<br>alt+d输入地址<br>chrome F12 ctrl+shift+p capture 截全屏
+ </p>
+<h2 id="onenote-清除格式"><a href="#onenote-清除格式" class="headerlink" title="onenote 清除格式"></a>onenote 清除格式</h2><p>ctrl+shift+n</p>
+<h2 id="7z"><a href="#7z" class="headerlink" title="7z"></a>7z</h2><p>例如打包根目录下www目录的文件<br>7za a <a href="http://www.7z/">www.7z</a> &#x2F;www</p>
+<p>解压<br>7za x <a href="http://www.7z/">www.7z</a> -o&#x2F;home&#x2F;www<br>&#x2F;&#x2F; -o 表示输出目录，其与目录路径之间没有空格哦注意.</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>电脑手机技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -16400,175 +16683,17 @@
       </tags>
   </entry>
   <entry>
-    <title>树莓派4B加微雪2.13寸墨水屏，监测pm2.5信息</title>
-    <url>/2020/03/26/%E6%A0%91%E8%8E%93%E6%B4%BE4B%E5%8A%A0%E5%BE%AE%E9%9B%AA2.13%E5%AF%B8%E5%A2%A8%E6%B0%B4%E5%B1%8F%E7%9B%91%E6%B5%8Bpm2.5%E4%BF%A1%E6%81%AF/</url>
+    <title>百年孤独人物关系图（自制）</title>
+    <url>/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
     <content><![CDATA[<hr>
-<p>获取pm2.5信息的教程参照我的博客<a href="https://my.oschina.net/wangandi/blog/901648">https://my.oschina.net/wangandi/blog/901648</a><br>微雪2.13寸墨水屏的资料参照<a href="http://www.waveshare.net/wiki/2.13inch_e-Paper_HAT">http://www.waveshare.net/wiki/2.13inch_e-Paper_HAT</a>  缺什么软件包也请参照这里</p>
-<span id="more"></span>
-
-<p>打开spi<br>vim &#x2F;boot&#x2F;config.txt<br>添加<br>dtparam&#x3D;spi&#x3D;on</p>
-<p>pip镜像源<br>pip config set global.index-url <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -S gcc python-numpy make wiringpi freetype2 python-pillow</span><br><span class="line">pip install spidev RPi.GPIO requests</span><br><span class="line">pip install --upgrade setuptools </span><br><span class="line">pip install wiringpi</span><br><span class="line">pip install --no-cache-dir pillow</span><br><span class="line">pip install --upgrade pip </span><br></pre></td></tr></table></figure>
-<p>如果rpi.gpio安装出错，下载<a href="https://sourceforge.net/code-snapshots/hg/r/ra/raspberry-gpio-python/code/raspberry-gpio-python-code-08048dd1894a6b09a104557b6eaa6bb68b6baac5.zip">https://sourceforge.net/code-snapshots/hg/r/ra/raspberry-gpio-python/code/raspberry-gpio-python-code-08048dd1894a6b09a104557b6eaa6bb68b6baac5.zip</a><br>解压后运行python setup.py install</p>
-<p>载样例包<a href="https://github.com/waveshare/e-Paper">https://github.com/waveshare/e-Paper</a><br>下面的python文件要放在e-paper&#x2F;RaspberryPi&amp;JetsonNano&#x2F;python&#x2F;examples&#x2F;里面<br>代中的url参照第一个网址的getData.php，格式如下{“pm”:”(23,32,35,23,32,35,3669,1042,136,13,1,1,10.0,19.9,64.4)”,”date”:”2020-02-24 13:40:01”}，我代码中另一个树莓派的地址，你也可以在同一个树莓派中使用<br>python代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#!/usr/bin/python</span><br><span class="line"># -*- coding:utf-8 -*-</span><br><span class="line">import sys</span><br><span class="line">import os</span><br><span class="line">import datetime</span><br><span class="line">import requests</span><br><span class="line">picdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), &#x27;pic&#x27;)</span><br><span class="line">libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), &#x27;lib&#x27;)</span><br><span class="line">if os.path.exists(libdir):</span><br><span class="line">    sys.path.append(libdir)</span><br><span class="line">import logging</span><br><span class="line">from waveshare_epd import epd2in13_V2</span><br><span class="line">import time</span><br><span class="line">from PIL import Image,ImageDraw,ImageFont</span><br><span class="line">import traceback</span><br><span class="line">logging.basicConfig(level=logging.DEBUG)</span><br><span class="line">try:</span><br><span class="line">    logging.info(&quot;epd2in13_V2 Demo&quot;)</span><br><span class="line">    epd = epd2in13_V2.EPD()</span><br><span class="line">    logging.info(&quot;init and Clear&quot;)</span><br><span class="line">    epd.init(epd.FULL_UPDATE)</span><br><span class="line">    #epd.Clear(0xFF)</span><br><span class="line"># Drawing on the image</span><br><span class="line">    font15 = ImageFont.truetype(os.path.join(picdir, &#x27;Font.ttc&#x27;), 15)</span><br><span class="line">    font24 = ImageFont.truetype(os.path.join(picdir, &#x27;Font.ttc&#x27;), 24)</span><br><span class="line">logging.info(&quot;1.Drawing on the image...&quot;)</span><br><span class="line">    image = Image.new(&#x27;1&#x27;, (epd.height, epd.width), 255)  # 255: clear the frame</span><br><span class="line">    draw = ImageDraw.Draw(image)</span><br><span class="line">#GetTime</span><br><span class="line">    #time = (datetime.datetime.now() + datetime.timedelta(hours=8)).strftime(&#x27;%Y.%m.%d %H:%M:%S&#x27;)</span><br><span class="line">    #PrintWord</span><br><span class="line">    #draw.text((20, 40), &#x27;呵呵&#x27;, font = font15, fill = 0)</span><br><span class="line">    #PrintTime</span><br><span class="line">    #draw.text((20, 80), time, font = font15, fill = 0)</span><br><span class="line">    #Your PM2.5 data url</span><br><span class="line">    #Content for example:</span><br><span class="line">    #&#123;&quot;pm&quot;:&quot;(25,37,46,25,37,46,3519,982,166,30,5,3,10.0,19.8,64.8)&quot;,&quot;date&quot;:&quot;2020-02-24 13:30:03&quot;&#125;</span><br><span class="line">    url = &quot;http://192.168.1.196/pm25/getData.php&quot;</span><br><span class="line">#Format pm2.5 data</span><br><span class="line">    alldata = requests.get(url)</span><br><span class="line">    pmdata = alldata.json()[&quot;pm&quot;]</span><br><span class="line">    pmdata = pmdata[1:-1]</span><br><span class="line">    pmdata = pmdata.split(&quot;,&quot;)</span><br><span class="line">#Get time</span><br><span class="line">    time = alldata.json()[&quot;date&quot;]</span><br><span class="line">#Get pm2.5,temperature,humidity</span><br><span class="line">    pm25 = pmdata[4]</span><br><span class="line">    temperature = pmdata[13]</span><br><span class="line">    humidity = pmdata[14]</span><br><span class="line">#Draw all data</span><br><span class="line">    draw.text((20, 10), &#x27;空气质量:&#x27; + pm25 + &#x27;μg/m³&#x27;, font = font15, fill = 0)</span><br><span class="line">    draw.text((20, 30), &#x27;温度:&#x27; + temperature + &#x27;°C&#x27;, font = font15, fill = 0)</span><br><span class="line">    draw.text((20, 50), &#x27;湿度:&#x27; + humidity + &#x27;%&#x27;, font = font15, fill = 0)</span><br><span class="line">    draw.text((20, 70), time, font = font15, fill = 0)</span><br><span class="line">    draw.text((20, 90), &#x27;By Andy&#x27;, font = font15, fill = 0)</span><br><span class="line">#ScreenRotate180</span><br><span class="line">    image = image.transpose(Image.ROTATE_180)</span><br><span class="line">    epd.display(epd.getbuffer(image))</span><br><span class="line">logging.info(&quot;Goto Sleep...&quot;)</span><br><span class="line">    epd.sleep()</span><br><span class="line">except IOError as e:</span><br><span class="line">    logging.info(e)</span><br><span class="line">except KeyboardInterrupt:</span><br><span class="line">    logging.info(&quot;ctrl + c:&quot;)</span><br><span class="line">    epd2in13_V2.epdconfig.module_exit()</span><br><span class="line">    exit()</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>Raspberry</tag>
-        <tag>树莓派</tag>
-        <tag>微雪</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>沉默的大多数 标注</title>
-    <url>/2021/10/22/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0%E6%A0%87%E6%B3%A8/</url>
-    <content><![CDATA[<hr>
-<p><strong>王小波</strong></p>
-<p><strong>(高亮: 85; 标注: 0)</strong></p>
-<hr>
-<h2 id="自序"><a href="#自序" class="headerlink" title="自序"></a>自序</h2><blockquote>
-<p>我反对愚蠢，不是反对天生就笨的人，这种人只是极少数，而且这种人还盼着变聪明。在这个世界上，大多数愚蠢里含有假装和弄假成真的成分。但这一点并不是我的发现，是萧伯纳告诉我的。在他的《匹克梅梁》里，息金斯教授遇上了一个假痴不癫的杜特立尔先生。息教授问：你是恶棍还是傻瓜？这就是问：你假傻真傻？杜先生答：两样都有点，先生，凡人两样都得有点呀。在我身上，后者的成分多，前者的成分少。而且我讨厌装傻，渴望变聪明。所以我才会写这本书。</p>
-</blockquote>
-<span id="more"></span>
-
-<blockquote>
-<p>在社会伦理的领域里我还想反对无趣，也就是说，要反对庄严肃穆的假正经。据我的考察，在一个宽松的社会里，人们可以收获到优雅，收获到精雕细琢的浪漫；在一个呆板的社会里，人们可以收获到幽默——起码是黑色的幽默。就是在我待的这个社会里，什么都收获不到，这可是件让人吃惊的事情。看过但丁《神曲》的人就会知道，对人来说，刀山、剑树、火海、油锅都不算严酷，最严酷的是寒冰地狱，把人冻在那里一动都不动。假如一个社会的宗旨就是反对有趣，那它比寒冰地狱又有不如。在这个领域里发议论的人总是在说：这个不宜提倡，那个不宜提倡。仿佛人活着就是为了被提倡。要真是这样，就不如不活。罗素先生说，参差多态乃是幸福的本源——弟兄姐妹们，让我们睁开眼睛往周围看看，所谓的参差多态，它在哪里呢？</p>
-</blockquote>
-<hr>
-<h2 id="思维的乐趣"><a href="#思维的乐趣" class="headerlink" title="思维的乐趣"></a>思维的乐趣</h2><blockquote>
-<p>插队的生活是艰苦的，吃不饱，水土不服，很多人得了病，但是最大的痛苦是没有书看，倘若可看的书很多的话，《变形记》也不会这样悲惨地消失了。除此之外，还得不到思想的乐趣。我相信这不是我一个人的经历：傍晚时分，你坐在屋檐下，看着天慢慢地黑下去，心里寂寞而凄凉，感到自己的生命被剥夺了。当时我是个年轻人，但我害怕这样生活下去，衰老下去。在我看来，这是比死亡更可怕的事。</p>
-</blockquote>
-<blockquote>
-<p>我最赞成罗素先生的一句话：“须知参差多态，乃是幸福的本源。”大多数的参差多态都是敏于思索的人创造出来的。当然，我知道有些人不赞成我们的意见。他们必然认为，单一机械，乃是幸福的本源。老子说，要让大家“虚其心而实其腹”，我听了就不是很喜欢；汉儒废黜百家，独尊儒术，在我看来是个很卑鄙的行为。</p>
-</blockquote>
-<blockquote>
-<p>可能是因为受了一些教育，也可能是因为已经成年，反正你要让我去解放什么人的话，我肯定要先问问，这些人是谁，为什么需要帮助；其次要问问，帮助他们是不是我能力所及；最后我还要想想，自己直奔云南去挖坑，是否于事有补。这样想来想去，我肯定不愿去插队。领导上硬要我去，我还得去，但是这以后挖坏了青山、造成了水土流失等等，就罪不在我。</p>
-</blockquote>
-<blockquote>
-<p>我虽然已活到了不惑之年，但还常常为一件事感到疑惑：为什么有很多人总是这样地仇恨新奇，仇恨有趣。古人曾说：天不生仲尼，万古长如夜。但我有相反的想法。假设历史上曾有一位大智者，一下发现了一切新奇、一切有趣，发现了终极真理，根绝了一切发现的可能性，我就情愿到该智者以前的年代去生活。这是因为，假如这种终极真理已经被发现，人类所能做的事就只剩下了依据这种真理来做价值判断。从汉代以后到近代，中国人就是这么生活的。我对这样的生活一点都不喜欢。</p>
-</blockquote>
-<blockquote>
-<p>质朴的人们假如能把自己理解不了的事情看做是与己无关的事，那就好了。</p>
-</blockquote>
-<hr>
-<h2 id="沉默的大多数"><a href="#沉默的大多数" class="headerlink" title="沉默的大多数"></a>沉默的大多数</h2><blockquote>
-<p>总而言之，从小我对讲出来的话就不大相信，越是声色俱厉，嗓门高亢，我越是不信，这种怀疑态度起源于我饥饿的肚肠。和任何话语相比，饥饿都是更大的真理。除了怀疑话语，我还有一个恶习，就是吃铅笔。上小学时，在课桌后面一坐定就开始吃。那种铅笔一毛三一支，后面有橡皮头。我从后面吃起，先吃掉柔软可口的橡皮，再吃掉柔韧爽口的铁皮，吃到木头笔杆以后，软糟糟的没什么味道，但有一点香料味，诱使我接着吃。终于把整支铅笔吃得只剩了一支铅芯，用橡皮膏缠上接着使。除了铅笔之外，课本、练习本，甚至课桌都可以吃。我说到的这些东西，有些被吃掉了，有些被啃得十分狼藉。这也是一个真理，但没有用话语来表达过：饥饿可以把小孩子变成白蚁。</p>
-</blockquote>
-<blockquote>
-<p>当年我就这么想，现在我也这么想：话语教给我们很多，但善恶还是可以自明。话语想要教给我们，人与人生来就不平等。在人间，尊卑有序是永恒的真理，但你也可以不听。</p>
-</blockquote>
-<blockquote>
-<p>几年前，我刚刚走出沉默，写了一本书，送给长者看。他不喜欢这本书，认为书不能这样来写。照他看来，写书应该能教育人民，提升人的灵魂。这真是金玉良言。但是在这世界上的一切人之中，我最希望予以提升的一个，就是我自己。这话很卑鄙，很自私，也很诚实。</p>
-</blockquote>
-<hr>
-<h2 id="论战与道德"><a href="#论战与道德" class="headerlink" title="论战与道德"></a>论战与道德</h2><blockquote>
-<p>当我和别人讨论文化问题时，我以为自己的审美情趣、文化修养在经受挑战，这方面的反对意见就如飞来的子弹，不能使我惧怕；而道德方面的非难就如飞来的粪便那样使我胆寒。我的意思当然不是说现在文化的领域是个屎橛纷飞的场所，臭气熏天——绝不是的；我只是说，它还有让我胆寒的气味。所以，假如有人以这种态度论争，我要做的第一件事，就是逃到安全距离之外，然后再好言相劝：算了吧，何必呢？</p>
-</blockquote>
-<hr>
-<h2 id="理想国与哲人王"><a href="#理想国与哲人王" class="headerlink" title="理想国与哲人王"></a>理想国与哲人王</h2><blockquote>
-<p>罗素先生对《乌托邦》的评价也很低，主要是讨厌那些烦琐的规定。罗素以为参差多态是幸福的本源，把什么都规定了就无幸福可言。作为经历了某种“乌托邦”的人，我认为这个罪状太过轻微。因为在乌托邦内，对什么是幸福都有规定，比如：“以苦为乐，以苦为荣”“宁要社会主义的草，不要资本主义的苗”之类。在乌托邦里，很难找到感觉自己不幸福的人，大伙只是傻愣愣的，感觉不大自在。以我个人为例，假如在七十年代，我能说出罗素先生那样充满了智慧的话语，那我对自己的智力状况就很满意，不再抱怨什么。实际上，我除了活着怪没劲之外，什么都说不出来。</p>
-</blockquote>
-<blockquote>
-<p>我也盼着中国古代的圣人活过来，把存天理灭人欲、饿死事小失节事大之类的话收回一些。</p>
-</blockquote>
-<blockquote>
-<p>不管怎么说，我不想把自己的未来交给任何人，尤其是哲人王。</p>
-</blockquote>
-<hr>
-<h2 id="智慧与国学"><a href="#智慧与国学" class="headerlink" title="智慧与国学"></a>智慧与国学</h2><blockquote>
-<p>维特根斯坦在临终时，回顾自己一生的智力活动时说：告诉他们，我度过了美好的一生。</p>
-</blockquote>
-<blockquote>
-<p>如此看来，东西方两种智慧的区别，不仅是驴和马的区别，而且是叫驴和骟马的区别。那东西怎么就没了，真是个大问题！</p>
-</blockquote>
-<blockquote>
-<p>也许在这个问题上可以提出一个骡子式的折衷方案：你只有变得更聪明，才能看到人间的至善。但我不喜欢这样的答案。我更喜欢驴子的想法：智慧本身就是好的。有一天我们都会死去，追求智慧的道路还会有人在走着。死掉以后的事我看不到。但在我活着的时候，想到这件事，心里就很高兴。</p>
-</blockquote>
-<blockquote>
-<p>相比之下我倒更相信苏格拉底的话：我只知道自己一无所知。罗素先生说，虽然有科学上的种种成就，但我们所知甚少，尤其是面对无限广阔的未知，简直可以说是无知的。与罗素的注释相比，我更喜欢苏格拉底的那句原话，这句话说得更加彻底。他还有些妙论我更加喜欢：只有那些知道自己智慧一文不值的人，才是最有智慧的人。这对某种偏向是种解毒剂。</p>
-</blockquote>
-<hr>
-<h2 id="人性的逆转"><a href="#人性的逆转" class="headerlink" title="人性的逆转"></a>人性的逆转</h2><blockquote>
-<p>有位西方的发展学者说：贫穷是一种生活方式。言下之意是说，有些人受穷，是因为他不想富裕。这句话是作为一种惊世骇俗的观点提出的，但我狭隘的人生经历却证明此话大有道理。对于这句话还可以充分地推广：贫困是一种生活方式，富裕是另一种生活方式；追求聪明是一种人生的态度，追求愚蠢则是另一种生活态度。在这个世界上，有一些人在追求快乐，另一些人在追求痛苦；有些人在追求聪明，另一些人在追求愚蠢。这种情形常常能把人彻底搞糊涂。</p>
-</blockquote>
-<blockquote>
-<p>弗洛伊德对受虐狂有如下的解释：假如人生活在一种无力改变的痛苦之中，就会转而爱上这种痛苦，把它视为一种快乐，以便使自己好过一些。对这个道理稍加推广，就会想道：人是一种会自己骗自己的动物。我们吃了很多无益的苦，虚掷了不少年华，所以有人就想说，这种经历是崇高的。这种想法可以使他自己好过一些，所以它有些好作用。很不幸的是它还有些坏作用：有些人就据此认为，人必须吃一些无益的苦、虚掷一些年华，用这种方法来达到崇高。这种想法不仅有害，而且是有病。</p>
-</blockquote>
-<hr>
-<h2 id="弗洛伊德和受虐狂"><a href="#弗洛伊德和受虐狂" class="headerlink" title="弗洛伊德和受虐狂"></a>弗洛伊德和受虐狂</h2><blockquote>
-<p>举例来说，很多中年人因为“文革”中上山下乡虚耗了青春，这本是种巨大的痛苦；但他们却觉得很幸福，还说：青春无悔！</p>
-</blockquote>
-<hr>
-<h2 id="体验生活"><a href="#体验生活" class="headerlink" title="体验生活"></a>体验生活</h2><blockquote>
-<p>因为他说，这些菜太老，不吃就要坏了。菜园子总有点垂垂老矣的菜，吃掉旧的，新的又老了，所以永远也吃不到嫩菜。</p>
-</blockquote>
-<hr>
-<h2 id="有与无"><a href="#有与无" class="headerlink" title="有与无"></a>有与无</h2><blockquote>
-<p>这个村里的“文化”，或者叫做“规范”，是有些特异性的。从总体来说，可以说存在着一种集体的“生活”。但若说到属于个人的生活，可以说是没有的。这是因为村里每个成年人惦记的都是一模一样的事情：给自己修座椅子坟就是其中比较有趣的一件。至于为什么要这样生活，他们也说不出。</p>
-</blockquote>
-<blockquote>
-<p>现在可以说到我自己。我从小就想写小说，最后在将近四十岁时，终于开始写作——我做这件事，纯粹是因为，这是我爱的事业。是我要做，不是我必须做——这是一种本质的区别。我个人以为，做爱做的事才是“有”，做自己也不知为什么要做的事则是“无”。因为这个缘故，我的生活看似平淡，但也不能说是“无”。有一种说法是这样的：人在年轻时，心气总是很高的，最后总要向现实投降。我刚刚过了四十四岁生日，在这个年龄上给自己做结论似乎还为时过早。但我总觉得，我这一生绝不会向虚无投降。我会一直战斗到死。</p>
-</blockquote>
-<hr>
-<h2 id="谦卑学习班"><a href="#谦卑学习班" class="headerlink" title="谦卑学习班"></a>谦卑学习班</h2><blockquote>
-<p>中国常有人不惜代价，冒了被踩死的危险，挤进体育馆一类的地方，去见见大名人，在里面涕泪直流，出来后又觉得上当。这道理是这样的：用不着花很多钱，受很多罪，跑好远的路，洗耳恭听别人说你是傻×。自己知道就够了。</p>
-</blockquote>
-<hr>
-<h2 id="关于格调"><a href="#关于格调" class="headerlink" title="关于格调"></a>关于格调</h2><blockquote>
-<p>我反对把一切统一到格调上，这是因为它会把整个生活变成一种得分游戏。一个得分游戏不管多么引人入胜，总不能包容全部生活，包容艺术，何况它根本就没什么意思。假如我要写什么，我就根本不管它格调不格调，正如谈恋爱时我绝不从爱祖国谈起。</p>
-</blockquote>
-<hr>
-<h2 id="关于崇高"><a href="#关于崇高" class="headerlink" title="关于崇高"></a>关于崇高</h2><blockquote>
-<p>时隔二十多年，我也读了一些书，从书本知识和亲身经历之中，我得到了这样一种结论：自打孔孟到如今，我们这个社会里只有两种人。一种编写生活的脚本，另一种去演出这些脚本。前一种人是古代的圣贤，七十年代的政工干部；后一种包括古代的老百姓和近代的知青。所谓上智下愚、劳心者治人劳力者治于人，就是这个意思吧。从气质来说，我只适合当演员，不适合当编剧，但是看到脚本编得太坏时，总禁不住要多上几句嘴，就被当落后分子来看待。这么多年了，我也习惯了。</p>
-</blockquote>
-<blockquote>
-<p>从历史上我们知道，宋明理学是一种高调。理学越兴盛，人也越虚伪。从亲身经历中我们知道，七十年代的调门最高。知青为了上大学、回城，什么事都干出来了。有种虚伪是不该受谴责的，因为这是为了能活着。现在又有人在提倡追逐崇高，我不知道是在提倡理性，还是一味煽情。假如是后者，那就是犯了老毛病。</p>
-</blockquote>
-<hr>
-<h2 id="我对国产片的看法"><a href="#我对国产片的看法" class="headerlink" title="我对国产片的看法"></a>我对国产片的看法</h2><blockquote>
-<p>家纳博科夫曾说，一流的读者不是天生的，他是培养出来的。《庐山恋》还评上了奖，这大概是因为编导对观众的培养之功，但是这样的观众恐怕不能算是一流的。所以我们可以改改纳博科夫的话：三流的影视观众不是天生的，他也是培养出来的。作为欣赏者，我们开头都是二流水平，只有经过了培养，才会特别好或是特别坏。</p>
-</blockquote>
-<blockquote>
-<p>莫泊桑曾说，提笔为文，就想到了读者。有些读者说：请让我笑吧。有些读者说：请让我哭吧。有些读者说，请让我感动吧……在中国，有些读者会说，请让我们受教育吧。我举这个例子，当然是想用莫泊桑和读者来比喻影视编导与观众。敏感的读者肯定能发现其中的可笑之处：作品培养了观众的口味，观众的口味再来影响作者，像这样颠过来、倒过去，肯定是很没劲。特别是，假如编导不妥当，就会使观众不妥当；观众又要求编导不妥当，这样下去大家都越来越不妥当。</p>
-</blockquote>
-<hr>
-<h2 id="生活和小说"><a href="#生活和小说" class="headerlink" title="生活和小说"></a>生活和小说</h2><blockquote>
-<p>罗素先生曾说，从一个假的前提出发，什么都能够推论出来，照我看这就是小说的实质。不管怎么说，小说里可以虚构。这就是说，在一本小说里，不管你看到什么千奇百怪的事，都不应该诧异，更不该指责作者违背了真实的原则，因为小说就是假的呀。</p>
-</blockquote>
-<blockquote>
-<p>凭良心说，我喜欢千奇百怪的结果——我把这叫做浪漫。但这不等于我就没有能力明辨是非了。</p>
-</blockquote>
-<hr>
-<h2 id="萧伯纳的《巴巴拉少校》"><a href="#萧伯纳的《巴巴拉少校》" class="headerlink" title="萧伯纳的《巴巴拉少校》"></a>萧伯纳的《巴巴拉少校》</h2><blockquote>
-<p>安德谢夫只好问他的儿子：“你能说说你长于什么或是爱好什么吗？”</p>
-</blockquote>
-<hr>
-<h2 id="个人尊严"><a href="#个人尊严" class="headerlink" title="个人尊严"></a>个人尊严</h2><blockquote>
-<p>在国外时看到，人们对时事做出价值评判时，总是从两个独立的方面来进行：一个方面是国家或者社会的尊严，这像是时事的经线；另一个方面是个人的尊严，这像是时事的纬线。回到国内，一条纬线就像是没有，连尊严这个字眼也感到陌生了。</p>
-</blockquote>
-<blockquote>
-<p>说来也奇怪，中华礼仪之邦，一切尊严，都从整体和人与人的关系上定义，就是没有个人的位置。一个人不在单位里、不在家里，不代表国家、民族，单独存在时，居然不算一个人，就算是一块肉。</p>
-</blockquote>
-<hr>
-<h2 id="居住环境与尊严"><a href="#居住环境与尊严" class="headerlink" title="居住环境与尊严"></a>居住环境与尊严</h2><blockquote>
-<p>假设有个外国人来看我，他必须从单元门进来，爬上六层，才能到达我家的门口。单元门旁边就是垃圾道的出口，那里总有大堆的垃圾流在外面，有鱼头鸭头鸡肠子在内，很招苍蝇，看起来相当吓人。此人看过了这种景色之后，爬上一至六层的楼梯，呼吸着富含尘土的空气，看到满地的葱皮、鸡蛋壳，还有墙上淋漓的污渍。我希望他有鼻炎，闻不见味。我没有鼻炎，每回爬楼梯时我都闭着气。上大学时，我肺活量有五千毫升，现在大概有八千。当然，这是在白天。要是黑夜他根本就上不来，因为楼道里没灯，他会撞进自行车堆里，摔断他的腿。夜里我上楼时，手里总拿个棍儿，探着往上爬。他还不知扶手不能摸，摸了就是一手灰。才搬来时我摸过一把，那手印子现在还印在那里，只是没有当初新鲜。就这样到了我的门外，此时他对我肯定有了一种不好的看法。坦白地说，我在美国留学时，见到哪个美国同学住在这样的房子里，肯定也会看不起他。</p>
-</blockquote>
-<hr>
-<h2 id="饮食卫生与尊严"><a href="#饮食卫生与尊严" class="headerlink" title="饮食卫生与尊严"></a>饮食卫生与尊严</h2><blockquote>
-<p>但我确实感到了，假如别人都不尊重我，我也没法尊重别人。假如所有的人都一直斜眼看我，粗声粗气地说我，那我的确什么事都干得出来。不过，回到家里，洗个热水澡，换上干净衣服，我心情又好了。有个住的地方，就有这点好处。</p>
-</blockquote>
-<hr>
+<p><img src="/images/bainiangudu01.png" alt="百年孤独人物关系图（自制）"></p>
 ]]></content>
       <categories>
         <category>读书笔记</category>
       </categories>
       <tags>
-        <tag>标注</tag>
-        <tag>读书笔记</tag>
-        <tag>王小波</tag>
+        <tag>阅读</tag>
+        <tag>百年孤独</tag>
       </tags>
   </entry>
   <entry>
@@ -16637,131 +16762,6 @@
       </categories>
       <tags>
         <tag>漫画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电脑手机技巧</title>
-    <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<hr>
-<h2 id="QQNT版占用内存高"><a href="#QQNT版占用内存高" class="headerlink" title="QQNT版占用内存高"></a>QQNT版占用内存高</h2><p>点一下左边的#（QQ频道），再关掉就可以了</p>
-<span id="more"></span>
-
-<h2 id="npm下载速度慢"><a href="#npm下载速度慢" class="headerlink" title="npm下载速度慢"></a>npm下载速度慢</h2><p>命令行输入npm config set registry <a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>
-<h2 id="删除文件夹是提示0x80070091目录不是空的"><a href="#删除文件夹是提示0x80070091目录不是空的" class="headerlink" title="删除文件夹是提示0x80070091目录不是空的"></a>删除文件夹是提示0x80070091目录不是空的</h2><p>复制一个文件进去后再删除</p>
-<h2 id="下载优酷视频"><a href="#下载优酷视频" class="headerlink" title="下载优酷视频"></a>下载优酷视频</h2><p>安装python后pip3 install you-get<br>you-get 视频地址</p>
-<h2 id="联通手机把积分换成话费"><a href="#联通手机把积分换成话费" class="headerlink" title="联通手机把积分换成话费"></a>联通手机把积分换成话费</h2><p>发JFJF#Q到10010</p>
-<h2 id="小米手机静音看视频直播"><a href="#小米手机静音看视频直播" class="headerlink" title="小米手机静音看视频直播"></a>小米手机静音看视频直播</h2><p>对着小爱同学说实时字幕，再打开视频就可以看到悬浮框实时识别的字幕了</p>
-<h2 id="calibre直接打开epub文件后会修改文件导致sha1校验变化"><a href="#calibre直接打开epub文件后会修改文件导致sha1校验变化" class="headerlink" title="calibre直接打开epub文件后会修改文件导致sha1校验变化"></a>calibre直接打开epub文件后会修改文件导致sha1校验变化</h2><p>打开一本书，右键单机右侧，首选项，杂项，保存一份标注&#x2F;书签在电子书文件中便于共享，去掉勾</p>
-<h2 id="chrome提示网站不是私密链接"><a href="#chrome提示网站不是私密链接" class="headerlink" title="chrome提示网站不是私密链接"></a>chrome提示网站不是私密链接</h2><p>chrome右键属性，目标后面引号外添加–test-type –ignore-certificate-errors</p>
-<h2 id="poweramp蓝牙播放音乐卡顿"><a href="#poweramp蓝牙播放音乐卡顿" class="headerlink" title="poweramp蓝牙播放音乐卡顿"></a>poweramp蓝牙播放音乐卡顿</h2><p>在设置，音频，输出，尝试切换成其他输入</p>
-<h2 id="excel设置正数是红色，负数是绿色"><a href="#excel设置正数是红色，负数是绿色" class="headerlink" title="excel设置正数是红色，负数是绿色"></a>excel设置正数是红色，负数是绿色</h2><p>选单元格，可以按住ctrl多选，设置单元格格式，自定义，输入[红色]#,##0.00;[绿色]-#,##0.00</p>
-<h2 id="inoreader访问不了"><a href="#inoreader访问不了" class="headerlink" title="inoreader访问不了"></a>inoreader访问不了</h2><p>网页端inoreader改成innoreader</p>
-<p>安卓端进入设置，随便一个界面，摇晃手机，inoreader改成innoreader</p>
-<h2 id="winrar下载地址"><a href="#winrar下载地址" class="headerlink" title="winrar下载地址"></a>winrar下载地址</h2><p><a href="https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/rrlb/winrar-x64-624sc.exe">https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/rrlb/winrar-x64-624sc.exe</a><br><a href="https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/wrr/winrar-x64-624sc.exe">https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/wrr/winrar-x64-624sc.exe</a></p>
-<h2 id="github-pages设置"><a href="#github-pages设置" class="headerlink" title="github pages设置"></a>github pages设置</h2><p>要在文件夹内新建一个文件CNAME，里面是你的域名</p>
-<h2 id="萤石摄像头打开rtsp，可用播放器播放，关闭红外"><a href="#萤石摄像头打开rtsp，可用播放器播放，关闭红外" class="headerlink" title="萤石摄像头打开rtsp，可用播放器播放，关闭红外"></a>萤石摄像头打开rtsp，可用播放器播放，关闭红外</h2><p>打开手机萤石云视频app，我的，工具，局域网设备预览，开始扫描</p>
-<p>选择设备，输入密码是6位大写英文，在摄像头下面贴纸上可以找到</p>
-<p>右上角设置，更多设置，本地服务开关，RTSP打开，保存，有个设备可能没这个设置</p>
-<p>关闭红外：上面第三步后，右上角设置，日夜切换，强制白天</p>
-<p>电脑播放可以使用vlc，potplayer或vlc，安卓手机播放，使用vlc，新建my.m3u8</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#EXTM3U8</span><br><span class="line">#EXTINF:-1,名字</span><br><span class="line">rtsp://admin:密码@网址或ip:554/h264/ch1/main/av_stream</span><br></pre></td></tr></table></figure>
-
-<h2 id="foobar2000歌词插件、搜索、布局整合"><a href="#foobar2000歌词插件、搜索、布局整合" class="headerlink" title="foobar2000歌词插件、搜索、布局整合"></a>foobar2000歌词插件、搜索、布局整合</h2><p>插件ESLyric，下载地址<a href="https://github.com/ESLyric/release/releases">https://github.com/ESLyric/release/releases</a></p>
-<p>建立自己的布局，以左边播放列表右边歌词为例</p>
-<p>view-layout-create scratchbox，点击灰色的地方spliter(left&#x2F;right)</p>
-<p>点击左边add new ui element，playlist tabs，再点左边，playlist view</p>
-<p>点击右边add new ui element，ESLyric</p>
-<p>点击窗口左上edit， apply layout就成功了，重启foobar2000后就自动加载歌词了</p>
-<p>其他技巧：</p>
-<p>搜索播放列表里的歌，直接在播放列表输入就可以</p>
-<p>双击状态栏移动到现在正在播放的歌</p>
-<h2 id="浏览器设置自己的ip"><a href="#浏览器设置自己的ip" class="headerlink" title="浏览器设置自己的ip"></a>浏览器设置自己的ip</h2><p>chrome商店里安装modheader</p>
-<p>添加X-Forwarded-For，后面的值填想要的ip</p>
-<p>添加User-Agent，可以防止一些网站因为浏览器更新失去登录的问题</p>
-<h2 id="rpm-run-build提示error-03000086-digital-envelope-routines-initialization-error"><a href="#rpm-run-build提示error-03000086-digital-envelope-routines-initialization-error" class="headerlink" title="rpm run build提示error:03000086:digital envelope routines::initialization error"></a>rpm run build提示error:03000086:digital envelope routines::initialization error</h2><p>package.json里的这两行改成这样</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;scripts&quot;: &#123;</span><br><span class="line">    &quot;serve&quot;: &quot;SET NODE_OPTIONS=--openssl-legacy-provider &amp;&amp; vue-cli-service serve&quot;,</span><br><span class="line">    &quot;build&quot;: &quot;SET NODE_OPTIONS=--openssl-legacy-provider &amp;&amp; vue-cli-service build&quot;,</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
-
-<h2 id="linux重置root密码"><a href="#linux重置root密码" class="headerlink" title="linux重置root密码"></a>linux重置root密码</h2><p>把硬盘或tf拿下来放到另一个安装linux的机器上</p>
-<p>使用ls &#x2F;dev确定分区</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mount /dev/sdb2 /mnt</span><br><span class="line">passwd --root /mnt root</span><br></pre></td></tr></table></figure>
-
-<h2 id="windows11-Powershell里不能运行npm命令等"><a href="#windows11-Powershell里不能运行npm命令等" class="headerlink" title="windows11 Powershell里不能运行npm命令等"></a>windows11 Powershell里不能运行npm命令等</h2><p>管理员运行powershell，输入set-executionPolicy RemoteSigned，输入Y</p>
-<h2 id="chrome的idm插件"><a href="#chrome的idm插件" class="headerlink" title="chrome的idm插件"></a>chrome的idm插件</h2><p><a href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek/related">https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek/related</a></p>
-<h2 id="vscode显示选中多少行"><a href="#vscode显示选中多少行" class="headerlink" title="vscode显示选中多少行"></a>vscode显示选中多少行</h2><p>插件安装Select Line Status Bar</p>
-<h2 id="total-commander显示文件夹大小"><a href="#total-commander显示文件夹大小" class="headerlink" title="total commander显示文件夹大小"></a>total commander显示文件夹大小</h2><p>alt+shift+回车</p>
-<p>修改显示的单位：配置，选项，制表位，文件大小显示，建议第四个动态x.x KBMBGB</p>
-<h2 id="photoshop使用移动工具卡死"><a href="#photoshop使用移动工具卡死" class="headerlink" title="photoshop使用移动工具卡死"></a>photoshop使用移动工具卡死</h2><p>编辑菜单-首选项-工具，取消启用轻击平移和带动画效果的缩放</p>
-<h2 id="ImageMagick修改png图片位深度为4"><a href="#ImageMagick修改png图片位深度为4" class="headerlink" title="ImageMagick修改png图片位深度为4"></a>ImageMagick修改png图片位深度为4</h2><p>convert old.png -define png:color-type&#x3D;3 -define png:bit-depth&#x3D;4 new.png</p>
-<h2 id="photoshop中文变英文"><a href="#photoshop中文变英文" class="headerlink" title="photoshop中文变英文"></a>photoshop中文变英文</h2><p>Adobe Photoshop 2022\Locales\zh_CN\Support Files下的tw10428_Photoshop_zh_CN.dat文件改名成tw10428_Photoshop_zh_CN11.dat</p>
-<h2 id="goodsync同步速度慢"><a href="#goodsync同步速度慢" class="headerlink" title="goodsync同步速度慢"></a>goodsync同步速度慢</h2><p>选项，取消多线程并行运行同步。或编辑导出的任务组，WorkerThreads &#x3D; 3改成1</p>
-<h2 id="win11恢复成win10右键"><a href="#win11恢复成win10右键" class="headerlink" title="win11恢复成win10右键"></a>win11恢复成win10右键</h2><p>新建.bat文件写入<br>reg add “HKCU\Software\Classes\CLSID{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32” &#x2F;f &#x2F;ve<br>taskkill &#x2F;f &#x2F;im explorer.exe &amp; start explorer.exe</p>
-<p>还原就把add 改成delete</p>
-<h2 id="everything搜索空文件夹"><a href="#everything搜索空文件夹" class="headerlink" title="everything搜索空文件夹"></a>everything搜索空文件夹</h2><p>empty:</p>
-<h2 id="百度网盘提取码错误"><a href="#百度网盘提取码错误" class="headerlink" title="百度网盘提取码错误"></a>百度网盘提取码错误</h2><p>地址的http改成https，复制到手机客户端提取</p>
-<h2 id="total-commander中纯数字文件排序"><a href="#total-commander中纯数字文件排序" class="headerlink" title="total commander中纯数字文件排序"></a>total commander中纯数字文件排序</h2><p>纯数字文件是这样排序的1，10，11，12，13，要变成1，2，3，4，选择</p>
-<p>配置，选项，显示，文件排序方式，按字符代码及数字大小排序</p>
-<h2 id="total-commander中支持中文首字母搜索"><a href="#total-commander中支持中文首字母搜索" class="headerlink" title="total commander中支持中文首字母搜索"></a>total commander中支持中文首字母搜索</h2><p>安装QuickSearch eXtended，最新版2.2.7<br><a href="https://onedrive.live.com/?id=F8C4901FA2FB692E!132&cid=F8C4901FA2FB692E">https://onedrive.live.com/?id=F8C4901FA2FB692E%21132&amp;cid=F8C4901FA2FB692E</a></p>
-<p>配置，选项，快速搜索，字符，下面精确匹配都去掉勾</p>
-<h2 id="ComicsViewer在笔记本上缩放100-以上时模糊"><a href="#ComicsViewer在笔记本上缩放100-以上时模糊" class="headerlink" title="ComicsViewer在笔记本上缩放100%以上时模糊"></a>ComicsViewer在笔记本上缩放100%以上时模糊</h2><p>右键ComicsViewer.exe，属性，兼容性，更改高DPI设置，勾选使用此设置修复…的缩放问题，勾选替代高DPI缩放行为缩放执行：应用程序</p>
-<h2 id="oppo手机强制重启"><a href="#oppo手机强制重启" class="headerlink" title="oppo手机强制重启"></a>oppo手机强制重启</h2><p>长按电源和音量加，直到出现画面</p>
-<h2 id="winrar，每个文件夹单独一个zip文件"><a href="#winrar，每个文件夹单独一个zip文件" class="headerlink" title="winrar，每个文件夹单独一个zip文件"></a>winrar，每个文件夹单独一个zip文件</h2><p>选中数个文件夹，右键，添加到压缩文件，常规里选zip，文件里选将每个文件放到单独的压缩文件中</p>
-<h2 id="ed2k，kad网络服务器"><a href="#ed2k，kad网络服务器" class="headerlink" title="ed2k，kad网络服务器"></a>ed2k，kad网络服务器</h2><p>ed2k<br><a href="http://upd.emule-security.org/server.met">http://upd.emule-security.org/server.met</a><br>或者<br><a href="http://ed2k.im/server.met">http://ed2k.im/server.met</a></p>
-<p>kad<br><a href="http://upd.emule-security.org/nodes.dat">http://upd.emule-security.org/nodes.dat</a><br>或者<br><a href="http://ed2k.im/nodes.dat">http://ed2k.im/nodes.dat</a></p>
-<h2 id="total-commander-批量重命名"><a href="#total-commander-批量重命名" class="headerlink" title="total commander 批量重命名"></a>total commander 批量重命名</h2><p>选中，ctrl+m，[[]Comic[]][[]犬夜叉[]][[]高橋留美子[]][[]青文[]][[]HMM[]]Vol_[C]</p>
-<h2 id="vim中格式化代码"><a href="#vim中格式化代码" class="headerlink" title="vim中格式化代码"></a>vim中格式化代码</h2><p>gg,shift+v,shift+g,&#x3D;</p>
-<h2 id="搜索大文件"><a href="#搜索大文件" class="headerlink" title="搜索大文件"></a>搜索大文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">du -a / | sort -n -r | head -n 20</span><br></pre></td></tr></table></figure>
-<p>archlinux下这个文件夹占用空间大 &#x2F;var&#x2F;cache&#x2F;pacman&#x2F;pkg&#x2F;<br>清理&#x2F;var&#x2F;cache&#x2F;pacman&#x2F;pkg目录下的旧包</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -Sc</span><br></pre></td></tr></table></figure>
-
-<h2 id="git代理和取消"><a href="#git代理和取消" class="headerlink" title="git代理和取消"></a>git代理和取消</h2><p>git config –global http.proxy <a href="http://127.0.0.1:7890/">http://127.0.0.1:7890</a><br>git config –global –unset http.proxy</p>
-<h2 id="迅雷自动升级"><a href="#迅雷自动升级" class="headerlink" title="迅雷自动升级"></a>迅雷自动升级</h2><p>xlliveud.exe</p>
-<h2 id="compattelrunner"><a href="#compattelrunner" class="headerlink" title="compattelrunner"></a>compattelrunner</h2><p>taskschd.msc里app，禁用Microsoft Compatibility Appraiser</p>
-<h2 id="autohotkey显示鼠标坐标"><a href="#autohotkey显示鼠标坐标" class="headerlink" title="autohotkey显示鼠标坐标"></a>autohotkey显示鼠标坐标</h2><p>space::<br>MouseGetPos, xpos, ypos<br>Msgbox, The cursor is at X%xpos% Y%ypos%.<br>return</p>
-<h2 id="B站批量删除粉丝"><a href="#B站批量删除粉丝" class="headerlink" title="B站批量删除粉丝"></a>B站批量删除粉丝</h2><p>F12，console里输入<br>$(“.be-switch-input”).click();<br>这一句只运行一次，然后输入下面的，就自动运行了</p>
-<p>var count&#x3D;0;a&#x3D;function(){$(“.be-dropdown-item”).each(function(a,b){ if(“移除粉丝”&#x3D;&#x3D;b.innerHTML) {b.click();return false;}})};b&#x3D;function(){$(“.modal”).each(function(a,b){$c&#x3D;$(b).find(“.modal-title”);if($c[0].innerText&#x3D;&#x3D;”确认移除粉丝”){console.log(“正在删除粉丝:”+$(b).find(“em”).get(0).innerText);$(b).find(“.btn-content”).get(0).click()}});};function timeout(){setTimeout(function(){if(count%2&#x3D;&#x3D;0){a();}else{b();};count++;timeout();}, 2100);};timeout();</p>
-<h2 id="新建，删除文件没法刷新"><a href="#新建，删除文件没法刷新" class="headerlink" title="新建，删除文件没法刷新"></a>新建，删除文件没法刷新</h2><p>ie4uinit -show</p>
-<h2 id="身份证复印件"><a href="#身份证复印件" class="headerlink" title="身份证复印件"></a>身份证复印件</h2><p>复印件纸张大小为A4纸规格尺寸：210mm×297mm。第二代身份证尺寸规格为8.56cm×5.40cm(长×宽)。</p>
-<h2 id="win10自动唤醒"><a href="#win10自动唤醒" class="headerlink" title="win10自动唤醒"></a>win10自动唤醒</h2><p>关闭网卡唤醒，好像睡眠就不会自动唤醒了。</p>
-<h2 id="win10商店打不开"><a href="#win10商店打不开" class="headerlink" title="win10商店打不开"></a>win10商店打不开</h2><p>internet选项，打开tls1.2</p>
-<h2 id="删除hiberfil-sys"><a href="#删除hiberfil-sys" class="headerlink" title="删除hiberfil.sys"></a>删除hiberfil.sys</h2><p>管理员运行cmd<br>powercfg -h off</p>
-<h2 id="迅雷屏蔽"><a href="#迅雷屏蔽" class="headerlink" title="迅雷屏蔽"></a>迅雷屏蔽</h2><p>127.0.0.1 hub5btmain.sandai.net<br>127.0.0.1 hub5emu.sandai.net<br>127.0.0.1 upgrade.xl9.xunlei.com</p>
-<h2 id="关闭腾讯广告"><a href="#关闭腾讯广告" class="headerlink" title="关闭腾讯广告"></a>关闭腾讯广告</h2><p><a href="https://privacy.qq.com/ads/optout.html#">https://privacy.qq.com/ads/optout.html#</a></p>
-<h2 id="u盘转换成ntfs"><a href="#u盘转换成ntfs" class="headerlink" title="u盘转换成ntfs"></a>u盘转换成ntfs</h2><p>convert x: &#x2F;fs:ntfs</p>
-<h2 id="浏览器报Mixed-Content错误的解决"><a href="#浏览器报Mixed-Content错误的解决" class="headerlink" title="浏览器报Mixed Content错误的解决"></a>浏览器报Mixed Content错误的解决</h2><meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
-<p>f12,ctrl + shift + p, capture full size
- </p>
-<h2 id="显示不了迅雷文件夹"><a href="#显示不了迅雷文件夹" class="headerlink" title="显示不了迅雷文件夹"></a>显示不了迅雷文件夹</h2><p>attrib –s “TDDOWNLOAD”
- </p>
-<h2 id="win11快捷键"><a href="#win11快捷键" class="headerlink" title="win11快捷键"></a>win11快捷键</h2><p>win+shift+s 截图<br>win+d 显示桌面<br>win+左右箭头 窗口停靠或者移动到另一个屏幕<br>win+主键盘数字 打开任务栏第几个程序<br>win+-+ 放大镜<br>win+e 资源管理器<br>win+a 右下角设置窗<br>win+v 云剪贴板或表情<br>win+空格 切换输入法语言
- </p>
-<h2 id="显示器发白"><a href="#显示器发白" class="headerlink" title="显示器发白"></a>显示器发白</h2><p>nvidia控制面板，更改分辨率，2，自定义，使用nvidia设置，输出动态范围，完全
- </p>
-<h2 id="chrome快捷键"><a href="#chrome快捷键" class="headerlink" title="chrome快捷键"></a>chrome快捷键</h2><p>ctrl+t新建页面<br>ctrl+w关闭页面<br>alt+d输入地址<br>chrome F12 ctrl+shift+p capture 截全屏
- </p>
-<h2 id="onenote-清除格式"><a href="#onenote-清除格式" class="headerlink" title="onenote 清除格式"></a>onenote 清除格式</h2><p>ctrl+shift+n</p>
-<h2 id="7z"><a href="#7z" class="headerlink" title="7z"></a>7z</h2><p>例如打包根目录下www目录的文件<br>7za a <a href="http://www.7z/">www.7z</a> &#x2F;www</p>
-<p>解压<br>7za x <a href="http://www.7z/">www.7z</a> -o&#x2F;home&#x2F;www<br>&#x2F;&#x2F; -o 表示输出目录，其与目录路径之间没有空格哦注意.</p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电脑手机技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>百年孤独人物关系图（自制）</title>
-    <url>/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
-    <content><![CDATA[<hr>
-<p><img src="/images/bainiangudu01.png" alt="百年孤独人物关系图（自制）"></p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>百年孤独</tag>
       </tags>
   </entry>
   <entry>
@@ -17015,20 +17015,6 @@
       </tags>
   </entry>
   <entry>
-    <title>红楼梦人物关系图（自制）</title>
-    <url>/2023/05/25/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
-    <content><![CDATA[<hr>
-<p><img src="/images/hongloumeng01.png" alt="红楼梦人物关系图（自制）"></p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>红楼梦</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>红楼梦校注本 标注</title>
     <url>/2021/03/09/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E6%A0%A1%E6%B3%A8%E6%9C%AC%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<hr>
@@ -17245,6 +17231,20 @@
       </tags>
   </entry>
   <entry>
+    <title>红楼梦人物关系图（自制）</title>
+    <url>/2023/05/25/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
+    <content><![CDATA[<hr>
+<p><img src="/images/hongloumeng01.png" alt="红楼梦人物关系图（自制）"></p>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>红楼梦</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>美丽的世界，你在哪里 标注</title>
     <url>/2023/12/25/%E7%BE%8E%E4%B8%BD%E7%9A%84%E4%B8%96%E7%95%8C%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C/</url>
     <content><![CDATA[<hr>
@@ -17368,30 +17368,6 @@
         <tag>标注</tag>
         <tag>读书笔记</tag>
         <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>老王随机点名器v1.0</title>
-    <url>/2019/12/04/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v1.0/</url>
-    <content><![CDATA[<hr>
-<p><a href="https://github.com/wangandi520/andiRandomNameChooser/releases/tag/0.42">下载地址1：https://github.com/wangandi520/andiRandomNameChooser/releases/tag/0.42</a><br><a href="https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ">下载地址2：链接：https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ 提取码：6666</a></p>
-<p>PyQt5的1.0版：版本：<a href="https://github.com/wangandi520/andiRandomNameChooserByPyQt5">https://github.com/wangandi520/andiRandomNameChooserByPyQt5</a></p>
-<p>简易说明：<br>选取姓名按钮快捷键：空格，缺席按钮快捷键：B。</p>
-<span id="more"></span>
-
-<p><strong>1.0版更新：</strong><br>改用PyQt5重写<br>暂时不支持xls文件</p>
-<p><strong>0.42版更新：</strong><br>更新捐赠二维码</p>
-<p><strong>0.41版更新：</strong><br>添加速度调节<br>修复bug<br>可快速捐赠</p>
-<p><strong>0.4版更新：</strong><br>支持模板的xls文件</p>
-<p><strong>0.3版更新：</strong><br>支持多文件同时选取<br>增加了重置列表按钮<br>更改了文件切换时重新读取文件的设计<br>修改缺席名单的命名方式<br>添加缺席按钮<br>修正取消打开文件而添加文件的错误</p>
-<p><strong>0.2版更新：</strong><br>修正了时间闪烁的问题<br>修改状态栏显示<br>增加打开文件后自动选择的功能<br>增加了字体大小调节<br>调整了内部设计，修复了剩余数量显示错误<br>修复文件删除后仍能点名的错误<br>添加清空列表按钮</p>
-<p><strong>这是我制作的第一个有用的Qt程序</strong></p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>Qt</tag>
       </tags>
   </entry>
   <entry>
@@ -17562,6 +17538,30 @@
       </tags>
   </entry>
   <entry>
+    <title>老王随机点名器v1.0</title>
+    <url>/2019/12/04/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v1.0/</url>
+    <content><![CDATA[<hr>
+<p><a href="https://github.com/wangandi520/andiRandomNameChooser/releases/tag/0.42">下载地址1：https://github.com/wangandi520/andiRandomNameChooser/releases/tag/0.42</a><br><a href="https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ">下载地址2：链接：https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ 提取码：6666</a></p>
+<p>PyQt5的1.0版：版本：<a href="https://github.com/wangandi520/andiRandomNameChooserByPyQt5">https://github.com/wangandi520/andiRandomNameChooserByPyQt5</a></p>
+<p>简易说明：<br>选取姓名按钮快捷键：空格，缺席按钮快捷键：B。</p>
+<span id="more"></span>
+
+<p><strong>1.0版更新：</strong><br>改用PyQt5重写<br>暂时不支持xls文件</p>
+<p><strong>0.42版更新：</strong><br>更新捐赠二维码</p>
+<p><strong>0.41版更新：</strong><br>添加速度调节<br>修复bug<br>可快速捐赠</p>
+<p><strong>0.4版更新：</strong><br>支持模板的xls文件</p>
+<p><strong>0.3版更新：</strong><br>支持多文件同时选取<br>增加了重置列表按钮<br>更改了文件切换时重新读取文件的设计<br>修改缺席名单的命名方式<br>添加缺席按钮<br>修正取消打开文件而添加文件的错误</p>
+<p><strong>0.2版更新：</strong><br>修正了时间闪烁的问题<br>修改状态栏显示<br>增加打开文件后自动选择的功能<br>增加了字体大小调节<br>调整了内部设计，修复了剩余数量显示错误<br>修复文件删除后仍能点名的错误<br>添加清空列表按钮</p>
+<p><strong>这是我制作的第一个有用的Qt程序</strong></p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>Qt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>西游记校注本 标注</title>
     <url>/2021/03/16/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E6%A0%A1%E6%B3%A8%E6%9C%AC%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<hr>
@@ -17709,6 +17709,84 @@
       </tags>
   </entry>
   <entry>
+    <title>路由器发送IP至服务器</title>
+    <url>/2017/01/14/%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%91%E9%80%81IP%E8%87%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<hr>
+<h2 id="路由器上"><a href="#路由器上" class="headerlink" title="路由器上"></a>路由器上</h2><p>&#x2F;etc&#x2F;storage&#x2F;ddns.sh</p>
+<span id="more"></span>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">newip=$(ifconfig ppp0|grep inet|awk <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>|awk -F <span class="string">&#x27;:&#x27;</span> <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>)</span><br><span class="line">oldip=$(<span class="built_in">cat</span> /tmp/lastIP)</span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$oldip</span> == <span class="variable">$newip</span> ];<span class="keyword">then</span></span><br><span class="line">        logger <span class="string">&quot;ddns: IP:&quot;</span><span class="variable">$oldip</span><span class="string">&quot;,IP has not changed&quot;</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;ddns: IP:&quot;</span><span class="variable">$oldip</span><span class="string">&quot;,IP has not changed&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">        info=$(curl http://andi.press/ebook/ddns.php?ip=<span class="variable">$newip</span>:10090 -s)</span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$newip</span> &gt; /tmp/lastIP</span><br><span class="line">        logger <span class="variable">$info</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$info</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+
+<p>运行命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x /etc/storage/ddns.sh</span><br><span class="line">crontab -e</span><br><span class="line">0 * * * * /etc/storage/ddns.sh</span><br></pre></td></tr></table></figure>
+
+<h2 id="服务器上"><a href="#服务器上" class="headerlink" title="服务器上"></a>服务器上</h2><p>ddns.php</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">header</span>(<span class="string">&quot;Content-type:text/html;charset=utf-8&quot;</span>);  </span><br><span class="line"><span class="variable">$ip</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;ip&#x27;</span>];</span><br><span class="line"><span class="variable">$host</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="variable">$port</span> = <span class="string">&#x27;3306&#x27;</span>;</span><br><span class="line"><span class="variable">$user</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="variable">$password</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="variable">$database</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="variable">$con</span> = <span class="title function_ invoke__">mysql_connect</span>(<span class="variable">$host</span>.<span class="string">&#x27;:&#x27;</span>.<span class="variable">$port</span>,<span class="variable">$user</span>,<span class="variable">$password</span>);</span><br><span class="line"><span class="title function_ invoke__">mysql_query</span>(<span class="string">&quot;SET NAMES &#x27;UTF8&#x27;&quot;</span>);</span><br><span class="line"><span class="title function_ invoke__">mysql_select_db</span>(<span class="variable">$database</span>,<span class="variable">$con</span>);</span><br><span class="line"><span class="variable">$query</span> = <span class="string">&quot;truncate ip&quot;</span>;</span><br><span class="line"><span class="variable">$result</span> = <span class="title function_ invoke__">mysql_query</span>(<span class="variable">$query</span>,<span class="variable">$con</span>);</span><br><span class="line"><span class="variable">$query</span> = <span class="string">&quot;insert into ip(addr) values(\&quot;&quot;</span>.<span class="variable">$ip</span>.<span class="string">&quot;\&quot;)&quot;</span>;</span><br><span class="line"><span class="variable">$result</span> = <span class="title function_ invoke__">mysql_query</span>(<span class="variable">$query</span>,<span class="variable">$con</span>);</span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$result</span>)</span><br><span class="line"><span class="keyword">echo</span> <span class="string">&quot;ddns: IP:&quot;</span>.<span class="variable">$ip</span>.<span class="string">&quot;, Update succeed&quot;</span>;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line"><span class="keyword">echo</span> <span class="string">&quot;ddns: IP:&quot;</span>.<span class="variable">$ip</span>.<span class="string">&quot; Update failed&quot;</span>;</span><br><span class="line"><span class="title function_ invoke__">mysql_free_result</span>(<span class="variable">$result</span>);</span><br><span class="line"><span class="title function_ invoke__">mysql_close</span>(<span class="variable">$con</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+        <tag>bash</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>配置hexo主题next</title>
+    <url>/2024/02/29/%E9%85%8D%E7%BD%AEhexo%E4%B8%BB%E9%A2%98next/</url>
+    <content><![CDATA[<hr>
+<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>任意一个空文件夹右键open in terminal，输入以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init</span><br><span class="line">hexo new page tags</span><br><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>编辑source\tags\index.md</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line">type: tags</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>编辑source\categories\index.md</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line">type: categories</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>输入npm install hexo-theme-next，主题会下载到node_modules\hexo-theme-next，打开配置文件_config.yml</p>
+<p>升级主题npm update hexo-theme-next</p>
+<h2 id="配置next主题"><a href="#配置next主题" class="headerlink" title="配置next主题"></a>配置next主题</h2><h3 id="选择风格"><a href="#选择风格" class="headerlink" title="选择风格"></a>选择风格</h3><p>主题有4个风格，可以搜一下选择哪个就把前面的井号去掉</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
+
+<h3 id="本地搜索"><a href="#本地搜索" class="headerlink" title="本地搜索"></a>本地搜索</h3><p>输入npm install hexo-generator-searchdb –save，_config.yml里输入下面的内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">path: search.xml</span><br><span class="line">field: post</span><br><span class="line">format: html</span><br><span class="line">limit: 10000</span><br></pre></td></tr></table></figure>
+
+<p>下面这里改成true</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="设置网站图标"><a href="#设置网站图标" class="headerlink" title="设置网站图标"></a>设置网站图标</h3><p>参考</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: /images/favicon.ico</span><br><span class="line">  medium: /images/favicon.ico</span><br></pre></td></tr></table></figure>
+
+<h3 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h3><p>输入npm install hexo-symbols-count-time –save，_config.yml修改以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: true</span><br><span class="line">  item_text_total: true</span><br><span class="line">  item_text_post: true</span><br><span class="line">  symbols: true</span><br><span class="line">  time: true</span><br><span class="line">  total_symbols: true</span><br><span class="line">  total_time: true</span><br><span class="line">  exclude_codeblock: false</span><br><span class="line">  awl: 2</span><br><span class="line">  wpm: 300</span><br><span class="line">  suffix: &quot;分钟&quot;</span><br></pre></td></tr></table></figure>
+
+<p>直接显示字数1000，而不显示1k，修改node_modules\hexo-symbols-count-time\lib\helper.js，删除以下内容，大致在26-30行，站点总字数module.exports.symbolsCountTotal大致一样的改法</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if (symbolsResult &gt; 9999) &#123;</span><br><span class="line">  symbolsResult = Math.round(symbolsResult / 1000) + &#x27;k&#x27;; // &gt; 9999 =&gt; 11k</span><br><span class="line">&#125; else if (symbolsResult &gt; 999) &#123;</span><br><span class="line">  symbolsResult = Math.round(symbolsResult / 100) / 10 + &#x27;k&#x27;; // &gt; 999 =&gt; 1.1k</span><br><span class="line">&#125; // &lt; 999 =&gt; 111</span><br></pre></td></tr></table></figure>
+
+<p>显示1000 字，而不是1000，修改25行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var symbolsResult = getSymbols(post) + &#x27; 字&#x27;;</span><br></pre></td></tr></table></figure>
+
+<h3 id="使用github当评论系统的gitalk"><a href="#使用github当评论系统的gitalk" class="headerlink" title="使用github当评论系统的gitalk"></a>使用github当评论系统的gitalk</h3><p>要修改的是以下位置，client_开头的两个，要在<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>，申请后generate a new client secret后得到</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: true</span><br><span class="line">  github_id: 你的github账户名 # GitHub repo owner</span><br><span class="line">  repo: 你的Repository名 # Repository name to store issues</span><br><span class="line">  client_id: 你的id # GitHub Application Client ID</span><br><span class="line">  client_secret: 你的secret  # GitHub Application Client Secret</span><br><span class="line">  admin_user: 你的github账户名 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br></pre></td></tr></table></figure>
+
+<p>之后要在每篇文章下面点一下，才能使用评论，有点麻烦</p>
+<h3 id="修改一些名词"><a href="#修改一些名词" class="headerlink" title="修改一些名词"></a>修改一些名词</h3><p>node_modules\hexo-theme-next\languages\zh-CN.yml</p>
+<p>可以把每页下面的“赞赏”和“请我一杯咖啡吧”换成别的话</p>
+<h3 id="版权信息"><a href="#版权信息" class="headerlink" title="版权信息"></a>版权信息</h3><p>把creative_commons:下面改成post: true</p>
+<h3 id="网站建立时间"><a href="#网站建立时间" class="headerlink" title="网站建立时间"></a>网站建立时间</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">footer:</span><br><span class="line">  since: 2017</span><br></pre></td></tr></table></figure>
+
+<h3 id="文章目录设置"><a href="#文章目录设置" class="headerlink" title="文章目录设置"></a>文章目录设置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">toc:</span><br><span class="line">  enable: true</span><br><span class="line">  number: true</span><br><span class="line">  wrap: true</span><br><span class="line">  expand_all: false</span><br><span class="line">  max_depth: 6</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>遥远的向日葵地 标注</title>
     <url>/2021/03/11/%E9%81%A5%E8%BF%9C%E7%9A%84%E5%90%91%E6%97%A5%E8%91%B5%E5%9C%B0%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<hr>
@@ -17806,104 +17884,6 @@
       </tags>
   </entry>
   <entry>
-    <title>配置hexo主题next</title>
-    <url>/2024/02/29/%E9%85%8D%E7%BD%AEhexo%E4%B8%BB%E9%A2%98next/</url>
-    <content><![CDATA[<hr>
-<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>任意一个空文件夹右键open in terminal，输入以下内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init</span><br><span class="line">hexo new page tags</span><br><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<p>编辑source\tags\index.md</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line">type: tags</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p>编辑source\categories\index.md</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line">type: categories</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>输入npm install hexo-theme-next，主题会下载到node_modules\hexo-theme-next，打开配置文件_config.yml</p>
-<p>升级主题npm update hexo-theme-next</p>
-<h2 id="配置next主题"><a href="#配置next主题" class="headerlink" title="配置next主题"></a>配置next主题</h2><h3 id="选择风格"><a href="#选择风格" class="headerlink" title="选择风格"></a>选择风格</h3><p>主题有4个风格，可以搜一下选择哪个就把前面的井号去掉</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
-
-<h3 id="本地搜索"><a href="#本地搜索" class="headerlink" title="本地搜索"></a>本地搜索</h3><p>输入npm install hexo-generator-searchdb –save，_config.yml里输入下面的内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">path: search.xml</span><br><span class="line">field: post</span><br><span class="line">format: html</span><br><span class="line">limit: 10000</span><br></pre></td></tr></table></figure>
-
-<p>下面这里改成true</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
-
-<h3 id="设置网站图标"><a href="#设置网站图标" class="headerlink" title="设置网站图标"></a>设置网站图标</h3><p>参考</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: /images/favicon.ico</span><br><span class="line">  medium: /images/favicon.ico</span><br></pre></td></tr></table></figure>
-
-<h3 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h3><p>输入npm install hexo-symbols-count-time –save，_config.yml修改以下内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: true</span><br><span class="line">  item_text_total: true</span><br><span class="line">  item_text_post: true</span><br><span class="line">  symbols: true</span><br><span class="line">  time: true</span><br><span class="line">  total_symbols: true</span><br><span class="line">  total_time: true</span><br><span class="line">  exclude_codeblock: false</span><br><span class="line">  awl: 2</span><br><span class="line">  wpm: 300</span><br><span class="line">  suffix: &quot;分钟&quot;</span><br></pre></td></tr></table></figure>
-
-<p>直接显示字数1000，而不显示1k，修改node_modules\hexo-symbols-count-time\lib\helper.js，删除以下内容，大致在26-30行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if (symbolsResult &gt; 9999) &#123;</span><br><span class="line">  symbolsResult = Math.round(symbolsResult / 1000) + &#x27;k&#x27;; // &gt; 9999 =&gt; 11k</span><br><span class="line">&#125; else if (symbolsResult &gt; 999) &#123;</span><br><span class="line">  symbolsResult = Math.round(symbolsResult / 100) / 10 + &#x27;k&#x27;; // &gt; 999 =&gt; 1.1k</span><br><span class="line">&#125; // &lt; 999 =&gt; 111</span><br></pre></td></tr></table></figure>
-
-<p>显示1000 字，而不是1000，修改25行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var symbolsResult = getSymbols(post) + &#x27; 字&#x27;;</span><br></pre></td></tr></table></figure>
-
-<h3 id="使用github当评论系统的gitalk"><a href="#使用github当评论系统的gitalk" class="headerlink" title="使用github当评论系统的gitalk"></a>使用github当评论系统的gitalk</h3><p>要修改的是以下位置，client_开头的两个，要在<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>，申请后generate a new client secret后得到</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: true</span><br><span class="line">  github_id: 你的github账户名 # GitHub repo owner</span><br><span class="line">  repo: 你的Repository名 # Repository name to store issues</span><br><span class="line">  client_id: 你的id # GitHub Application Client ID</span><br><span class="line">  client_secret: 你的secret  # GitHub Application Client Secret</span><br><span class="line">  admin_user: 你的github账户名 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br></pre></td></tr></table></figure>
-
-<p>之后要在每篇文章下面点一下，才能使用评论，有点麻烦</p>
-<h3 id="修改一些名词"><a href="#修改一些名词" class="headerlink" title="修改一些名词"></a>修改一些名词</h3><p>node_modules\hexo-theme-next\languages\zh-CN.yml</p>
-<p>可以把每页下面的“赞赏”和“请我一杯咖啡吧”换成别的话</p>
-<h3 id="版权信息"><a href="#版权信息" class="headerlink" title="版权信息"></a>版权信息</h3><p>把creative_commons:下面改成post: true</p>
-<h3 id="网站建立时间"><a href="#网站建立时间" class="headerlink" title="网站建立时间"></a>网站建立时间</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">footer:</span><br><span class="line">  since: 2017</span><br></pre></td></tr></table></figure>
-
-<h3 id="文章目录设置"><a href="#文章目录设置" class="headerlink" title="文章目录设置"></a>文章目录设置</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">toc:</span><br><span class="line">  enable: true</span><br><span class="line">  number: true</span><br><span class="line">  wrap: true</span><br><span class="line">  expand_all: false</span><br><span class="line">  max_depth: 6</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>路由器发送IP至服务器</title>
-    <url>/2017/01/14/%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8F%91%E9%80%81IP%E8%87%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<hr>
-<h2 id="路由器上"><a href="#路由器上" class="headerlink" title="路由器上"></a>路由器上</h2><p>&#x2F;etc&#x2F;storage&#x2F;ddns.sh</p>
-<span id="more"></span>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">newip=$(ifconfig ppp0|grep inet|awk <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>|awk -F <span class="string">&#x27;:&#x27;</span> <span class="string">&#x27;&#123;print $2&#125;&#x27;</span>)</span><br><span class="line">oldip=$(<span class="built_in">cat</span> /tmp/lastIP)</span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$oldip</span> == <span class="variable">$newip</span> ];<span class="keyword">then</span></span><br><span class="line">        logger <span class="string">&quot;ddns: IP:&quot;</span><span class="variable">$oldip</span><span class="string">&quot;,IP has not changed&quot;</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;ddns: IP:&quot;</span><span class="variable">$oldip</span><span class="string">&quot;,IP has not changed&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">        info=$(curl http://andi.press/ebook/ddns.php?ip=<span class="variable">$newip</span>:10090 -s)</span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$newip</span> &gt; /tmp/lastIP</span><br><span class="line">        logger <span class="variable">$info</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$info</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
-
-<p>运行命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x /etc/storage/ddns.sh</span><br><span class="line">crontab -e</span><br><span class="line">0 * * * * /etc/storage/ddns.sh</span><br></pre></td></tr></table></figure>
-
-<h2 id="服务器上"><a href="#服务器上" class="headerlink" title="服务器上"></a>服务器上</h2><p>ddns.php</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="title function_ invoke__">header</span>(<span class="string">&quot;Content-type:text/html;charset=utf-8&quot;</span>);  </span><br><span class="line"><span class="variable">$ip</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;ip&#x27;</span>];</span><br><span class="line"><span class="variable">$host</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="variable">$port</span> = <span class="string">&#x27;3306&#x27;</span>;</span><br><span class="line"><span class="variable">$user</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="variable">$password</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="variable">$database</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line"><span class="variable">$con</span> = <span class="title function_ invoke__">mysql_connect</span>(<span class="variable">$host</span>.<span class="string">&#x27;:&#x27;</span>.<span class="variable">$port</span>,<span class="variable">$user</span>,<span class="variable">$password</span>);</span><br><span class="line"><span class="title function_ invoke__">mysql_query</span>(<span class="string">&quot;SET NAMES &#x27;UTF8&#x27;&quot;</span>);</span><br><span class="line"><span class="title function_ invoke__">mysql_select_db</span>(<span class="variable">$database</span>,<span class="variable">$con</span>);</span><br><span class="line"><span class="variable">$query</span> = <span class="string">&quot;truncate ip&quot;</span>;</span><br><span class="line"><span class="variable">$result</span> = <span class="title function_ invoke__">mysql_query</span>(<span class="variable">$query</span>,<span class="variable">$con</span>);</span><br><span class="line"><span class="variable">$query</span> = <span class="string">&quot;insert into ip(addr) values(\&quot;&quot;</span>.<span class="variable">$ip</span>.<span class="string">&quot;\&quot;)&quot;</span>;</span><br><span class="line"><span class="variable">$result</span> = <span class="title function_ invoke__">mysql_query</span>(<span class="variable">$query</span>,<span class="variable">$con</span>);</span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$result</span>)</span><br><span class="line"><span class="keyword">echo</span> <span class="string">&quot;ddns: IP:&quot;</span>.<span class="variable">$ip</span>.<span class="string">&quot;, Update succeed&quot;</span>;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line"><span class="keyword">echo</span> <span class="string">&quot;ddns: IP:&quot;</span>.<span class="variable">$ip</span>.<span class="string">&quot; Update failed&quot;</span>;</span><br><span class="line"><span class="title function_ invoke__">mysql_free_result</span>(<span class="variable">$result</span>);</span><br><span class="line"><span class="title function_ invoke__">mysql_close</span>(<span class="variable">$con</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>php</tag>
-        <tag>bash</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>食品用品</title>
-    <url>/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</url>
-    <content><![CDATA[<hr>
-<p>更新日期2023.10.14</p>
-<span id="more"></span>
-
-<h1 id="添加剂"><a href="#添加剂" class="headerlink" title="添加剂"></a>添加剂</h1><p>乙基麦芽酚<br>焦亚硫酸钠<br>特丁基对苯二酚（TBHQ）<br>亚硝酸钠<br>苯甲酸钠<br>六偏磷酸钠<br>三聚磷酸钠<br>阿斯巴甜<br>安赛蜜<br>硼砂<br>三氯生<br>联苯乙烯二苯基二磺酸二钠<br>脱氢乙酸钠<br>氢氧化钠（火碱）<br>甲醛次硫酸氢钠（吊白块）<br>呈味核苷酸二钠<br>双乙酰酒石酸单双甘油酯<br>三氯蔗糖<br>四聚乙醛（蔬菜中的蓝色颗粒）<br>三聚氰胺</p>
-<h1 id="食品"><a href="#食品" class="headerlink" title="食品"></a>食品</h1><h2 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h2><p>韭菜<br>西兰花<br>花菜<br>豇豆<br>包菜<br>豆芽<br>娃娃菜<br>蒜苔<br>西红柿<br>芹菜<br>菠菜<br>莲藕<br>木耳<br>油麦菜<br>芥兰</p>
-<h2 id="水果"><a href="#水果" class="headerlink" title="水果"></a>水果</h2><p>草莓<br>桃<br>葡萄<br>苹果<br>荔枝</p>
-<h2 id="肉豆等其他"><a href="#肉豆等其他" class="headerlink" title="肉豆等其他"></a>肉豆等其他</h2><p>牛蛙<br>豆腐<br>干豆腐<br>虾<br>鱿鱼<br>腊肠<br>腊肉<br>熟食<br>动物内脏<br>凉拌菜<br>凉皮<br>豆腐<br>腐竹</p>
-<h1 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h1><p>舒肤佳（联苯乙烯二苯基二磺酸二钠）<br>粒上皇（特丁基对苯二酚）</p>
-]]></content>
-      <categories>
-        <category>评测</category>
-      </categories>
-      <tags>
-        <tag>食品用品</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>音频软件插件简评</title>
     <url>/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</url>
     <content><![CDATA[<hr>
@@ -17948,6 +17928,26 @@
       </categories>
       <tags>
         <tag>音频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>食品用品</title>
+    <url>/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</url>
+    <content><![CDATA[<hr>
+<p>更新日期2023.10.14</p>
+<span id="more"></span>
+
+<h1 id="添加剂"><a href="#添加剂" class="headerlink" title="添加剂"></a>添加剂</h1><p>乙基麦芽酚<br>焦亚硫酸钠<br>特丁基对苯二酚（TBHQ）<br>亚硝酸钠<br>苯甲酸钠<br>六偏磷酸钠<br>三聚磷酸钠<br>阿斯巴甜<br>安赛蜜<br>硼砂<br>三氯生<br>联苯乙烯二苯基二磺酸二钠<br>脱氢乙酸钠<br>氢氧化钠（火碱）<br>甲醛次硫酸氢钠（吊白块）<br>呈味核苷酸二钠<br>双乙酰酒石酸单双甘油酯<br>三氯蔗糖<br>四聚乙醛（蔬菜中的蓝色颗粒）<br>三聚氰胺</p>
+<h1 id="食品"><a href="#食品" class="headerlink" title="食品"></a>食品</h1><h2 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h2><p>韭菜<br>西兰花<br>花菜<br>豇豆<br>包菜<br>豆芽<br>娃娃菜<br>蒜苔<br>西红柿<br>芹菜<br>菠菜<br>莲藕<br>木耳<br>油麦菜<br>芥兰</p>
+<h2 id="水果"><a href="#水果" class="headerlink" title="水果"></a>水果</h2><p>草莓<br>桃<br>葡萄<br>苹果<br>荔枝</p>
+<h2 id="肉豆等其他"><a href="#肉豆等其他" class="headerlink" title="肉豆等其他"></a>肉豆等其他</h2><p>牛蛙<br>豆腐<br>干豆腐<br>虾<br>鱿鱼<br>腊肠<br>腊肉<br>熟食<br>动物内脏<br>凉拌菜<br>凉皮<br>豆腐<br>腐竹</p>
+<h1 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h1><p>舒肤佳（联苯乙烯二苯基二磺酸二钠）<br>粒上皇（特丁基对苯二酚）</p>
+]]></content>
+      <categories>
+        <category>评测</category>
+      </categories>
+      <tags>
+        <tag>食品用品</tag>
       </tags>
   </entry>
   <entry>
@@ -18019,11 +18019,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我的作品</title>
-    <url>/links/index.html</url>
-    <content><![CDATA[<h2 id="吉他和弦图生成"><a href="#吉他和弦图生成" class="headerlink" title="吉他和弦图生成]"></a>吉他和弦图生成]</h2><p><a href="/guitar">演示</a><br><a href="https://github.com/wangandi520/guitar-chord-search-and-generate">Github</a></p>
-<h2 id="单页面股票行情查询"><a href="#单页面股票行情查询" class="headerlink" title="单页面股票行情查询"></a>单页面股票行情查询</h2><p><a href="/stock">演示</a><br><a href="https://github.com/wangandi520/allinonestock">Github</a></p>
-]]></content>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>标签</title>
@@ -18031,8 +18029,10 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>我的作品</title>
+    <url>/links/index.html</url>
+    <content><![CDATA[<h2 id="吉他和弦图生成"><a href="#吉他和弦图生成" class="headerlink" title="吉他和弦图生成]"></a>吉他和弦图生成]</h2><p><a href="/guitar">演示</a><br><a href="https://github.com/wangandi520/guitar-chord-search-and-generate">Github</a></p>
+<h2 id="单页面股票行情查询"><a href="#单页面股票行情查询" class="headerlink" title="单页面股票行情查询"></a>单页面股票行情查询</h2><p><a href="/stock">演示</a><br><a href="https://github.com/wangandi520/allinonestock">Github</a></p>
+]]></content>
   </entry>
 </search>
