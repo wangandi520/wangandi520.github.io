@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2024-03-02T11:21:45.965Z</updated>
+  <updated>2024-03-02T11:59:40.563Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/"/>
     <id>https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</id>
     <published>2024-02-29T12:33:12.000Z</published>
-    <updated>2024-03-02T11:21:45.965Z</updated>
+    <updated>2024-03-02T11:59:40.563Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -822,9 +822,9 @@
     
     <category term="树莓派" scheme="https://andi.wang/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
-    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
-    
     <category term="archlinuxarm" scheme="https://andi.wang/tags/archlinuxarm/"/>
+    
+    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
     
     <category term="webdav" scheme="https://andi.wang/tags/webdav/"/>
     
@@ -958,6 +958,8 @@
     
     <category term="kindle" scheme="https://andi.wang/tags/kindle/"/>
     
+    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
+    
     <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
     
     <category term="markdown" scheme="https://andi.wang/tags/markdown/"/>
@@ -965,8 +967,6 @@
     <category term="koreader" scheme="https://andi.wang/tags/koreader/"/>
     
     <category term="微信读书" scheme="https://andi.wang/tags/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/"/>
-    
-    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
     
   </entry>
   
