@@ -17128,8 +17128,8 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i</span><br><span class="line">npm run build:wasm</span><br><span class="line">npm run dev</span><br></pre></td></tr></table></figure>
 
 <p>把dist文件夹里面的文件复制到你的服务器就可以了</p>
-<p>我搬运的成品：<a href="https://andi.wang/mahjong-calc/">https://andi.wang/mahjong-calc/</a></p>
-<p>懒人可以直接把源码复制就能运行：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc">https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc</a></p>
+<p>成品演示：<a href="https://andi.wang/mahjong-calc/">https://andi.wang/mahjong-calc/</a></p>
+<p>成品源码：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc">https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc</a></p>
 ]]></content>
       <categories>
         <category>程序</category>
