@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2024-03-02T11:59:40.563Z</updated>
+  <updated>2024-03-03T02:43:28.321Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>立直麻将点数计算工具mahjong-calc</title>
+    <link href="https://andi.wang/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/"/>
+    <id>https://andi.wang/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/</id>
+    <published>2024-03-03T02:11:04.000Z</published>
+    <updated>2024-03-03T02:43:28.321Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;原项目地址：&lt;a href=&quot;https://github.com/livewing/mahjong-calc&quot;&gt;https://github.com/livewing/mahjong-calc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原作者演示地址：&lt;a href=&quot;https://mahjong-calc.livewing.net/&quot;&gt;https://mahjong-calc.livewing.net/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原作者使用方法（日文）：&lt;a href=&quot;https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md&quot;&gt;https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;能计算麻将的进张面，向听数，听什么牌，和牌点数，很好的工具&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo和next主题的一些配置</title>
@@ -1028,28 +1050,6 @@
     <category term="REAPER" scheme="https://andi.wang/tags/REAPER/"/>
     
     <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>魔方笔记</title>
-    <link href="https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/"/>
-    <id>https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/</id>
-    <published>2021-03-11T06:11:27.000Z</published>
-    <updated>2022-08-18T03:54:08.941Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;cross&quot;&gt;&lt;a href=&quot;#cross&quot; class=&quot;headerlink&quot; title=&quot;cross&quot;&gt;&lt;/a&gt;cross&lt;/h2&gt;&lt;p&gt;底层对好白色十字&lt;br&gt;红橙，蓝绿，绿橙蓝红&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="魔方" scheme="https://andi.wang/tags/%E9%AD%94%E6%96%B9/"/>
-    
-    <category term="学习笔记" scheme="https://andi.wang/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
