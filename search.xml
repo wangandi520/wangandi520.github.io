@@ -729,7 +729,7 @@
 <p>编辑source\categories\index.md</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line">type: categories</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
-<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>命令提示符输入npm install hexo-theme-next，主题会下载到node_modules\hexo-theme-next，打开配置文件_config.yml</p>
+<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>命令提示符输入npm install hexo-theme-next，主题会下载到node_modules\hexo-theme-next，打开配置文件node_modules\hexo-theme-next\_config.yml</p>
 <p>升级主题npm install hexo-theme-next@latest</p>
 <h2 id="预览和部署"><a href="#预览和部署" class="headerlink" title="预览和部署"></a>预览和部署</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
