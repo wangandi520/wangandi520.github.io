@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.19.1","exturl":true,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="分为第三方ROM和官方ROM两部分。 操作有风险，注意安全。 zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。 刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前zui14.0.286使用没问题。">
 <meta property="og:type" content="article">
@@ -175,10 +175,10 @@
 </div>
   <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="https://github.com/wangandi520" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>github</a>
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3dhbmdhbmRpNTIw" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520"><i class="fab fa-github fa-fw"></i>github</span>
       </span>
       <span class="links-of-author-item">
-        <a href="https://space.bilibili.com/1952945" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">bilibili</a>
+        <span class="exturl" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMTk1Mjk0NQ==" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945">bilibili</span>
       </span>
       <span class="links-of-author-item">
         <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
@@ -323,12 +323,12 @@
 <p>其他设置里，进入开发者模式，启用usb调试。</p>
 <p>使用usb线连接电脑和y700，在y700出现的弹窗上点击允许。</p>
 <h2 id="解锁bootloader"><a href="#解锁bootloader" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h2><p>不需要去联想官网申请</p>
-<p><a target="_blank" rel="noopener" href="https://developer.android.com/tools/releases/platform-tools?hl=zh-cn">https://developer.android.com/tools/releases/platform-tools?hl=zh-cn</a>， 下载适用于 Windows 的 SDK Platform-Tools</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXIuYW5kcm9pZC5jb20vdG9vbHMvcmVsZWFzZXMvcGxhdGZvcm0tdG9vbHM/aGw9emgtY24=">https://developer.android.com/tools/releases/platform-tools?hl=zh-cn<i class="fa fa-external-link-alt"></i></span>， 下载适用于 Windows 的 SDK Platform-Tools</p>
 <p>解压缩进入文件夹，右键空白处，open in terminal，出现了command prompt窗口，窗口里输入adb reboot bootloader，y700会重启进入一个黑白的界面，界面最下一行会显示locked</p>
-<p>输入fastboot devices，显示一串序列号的设备，就可以进行下一步，如果没显示就下载<a target="_blank" rel="noopener" href="https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip">https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip</a>， 右键点击此电脑，属性，设备管理器，通用串行总线设备，Android，更新驱动程序，浏览我的电脑以查找驱动程序，选择文件夹MiFlash20220507，更新后重启电脑。</p>
+<p>输入fastboot devices，显示一串序列号的设备，就可以进行下一步，如果没显示就下载<span class="exturl" data-url="aHR0cHM6Ly94aWFvbWlmbGFzaHRvb2wuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy9NaUZsYXNoMjAyMjA1MDcuemlw">https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip<i class="fa fa-external-link-alt"></i></span>， 右键点击此电脑，属性，设备管理器，通用串行总线设备，Android，更新驱动程序，浏览我的电脑以查找驱动程序，选择文件夹MiFlash20220507，更新后重启电脑。</p>
 <p>注意完成这步后，平板里的所有东西都会清空。电脑输入fastboot flashing unlock，平板上出现新界面，按音量下确定，平板重启，启动时一个最上面是叹号的界面要按两下电源键，一般就是成功了。</p>
-<p>下载rom：<a target="_blank" rel="noopener" href="https://github.com/ponces/treble_aosp/releases">https://github.com/ponces/treble_aosp&#x2F;releases</a></p>
-<p>另一个可用的crdroid：<a target="_blank" rel="noopener" href="https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz/download">https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz&#x2F;download</a></p>
+<p>下载rom：<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3BvbmNlcy90cmVibGVfYW9zcC9yZWxlYXNlcw==">https://github.com/ponces/treble_aosp&#x2F;releases<i class="fa fa-external-link-alt"></i></span></p>
+<p>另一个可用的crdroid：<span class="exturl" data-url="aHR0cHM6Ly9zb3VyY2Vmb3JnZS5uZXQvcHJvamVjdHMvZ3NpLXByb2plY3RzL2ZpbGVzL0ExMy9jckRyb2lkLzE1MDEyMDIzL2NyRHJvaWQtOS4xLWFybTY0X2J2Ti1Vbm9mZmljaWFsLmltZy54ei9kb3dubG9hZA==">https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz&#x2F;download<i class="fa fa-external-link-alt"></i></span></p>
 <p>（v&#x3D;vanilla没有谷歌套件，需要谷歌的下载bgN），下载完解压缩后得到一个.img的文件。</p>
 <h2 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h2><p>以后每次刷机只从这开始做就行。</p>
 <p>电脑再用同样的过程adb reboot bootloader，平板重启后最下一行显示unlocked。按平板音量下两下，最上显示Recovery mode，按电源键进入，选择enter fastboot，按电源键进去，最上面显示fastbootd，电脑输入fastboot devices正常显示设备后。</p>
@@ -338,17 +338,17 @@
 <p>完成后进入enter recovery，选择wipe date&#x2F;factory reset，factory date reset清空数据，或者电脑上输入fastboot -w</p>
 <p>重启reboot system now，就进入新系统了。</p>
 <p>如果一直重启，在屏幕黑的时候同时按住电源键和音量加，就能进入fastboot刷机。</p>
-<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a target="_blank" rel="noopener" href="https://xdaforums.com/t/y700-roms.4454585">https://xdaforums.com/t/y700-roms.4454585</a></p>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><span class="exturl" data-url="aHR0cHM6Ly94ZGFmb3J1bXMuY29tL3QveTcwMC1yb21zLjQ0NTQ1ODU=">https://xdaforums.com/t/y700-roms.4454585<i class="fa fa-external-link-alt"></i></span></p>
 <h1 id="官方ROM"><a href="#官方ROM" class="headerlink" title="官方ROM"></a>官方ROM</h1><h2 id="解锁bootloader-1"><a href="#解锁bootloader-1" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h2><p>和上面的方法一样，解锁过的可以跳过。</p>
-<h2 id="下载ROM"><a href="#下载ROM" class="headerlink" title="下载ROM"></a>下载ROM</h2><p><a target="_blank" rel="noopener" href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#</a></p>
-<p>同一个文件<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333">https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333</a>， 提取码：3333</p>
-<h2 id="刷机-1"><a href="#刷机-1" class="headerlink" title="刷机"></a>刷机</h2><p>下载安装QPST，<a target="_blank" rel="noopener" href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0</a></p>
+<h2 id="下载ROM"><a href="#下载ROM" class="headerlink" title="下载ROM"></a>下载ROM</h2><p><span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS53ZWl4aW4ucXEuY29tL3M/az1BRGNBMEFlTEFFUUVVeXFCU1BBWElBTUFhd0FQMCM=">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#<i class="fa fa-external-link-alt"></i></span></p>
+<p>同一个文件<span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMVMwZGJMdFZ1Q215NGF5VGktcXQxcmc/cHdkPTMzMzM=">https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333<i class="fa fa-external-link-alt"></i></span>， 提取码：3333</p>
+<h2 id="刷机-1"><a href="#刷机-1" class="headerlink" title="刷机"></a>刷机</h2><p>下载安装QPST，<span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS53ZWl4aW4ucXEuY29tL3M/az1BRGNBMEFlTEFFUTR1bXBNTmRBWElBTUFhd0FQMA==">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0<i class="fa fa-external-link-alt"></i></span></p>
 <p>安装完成后运行QFIL.exe，点上方Configuration，FireHose Configuration，Device Type选ufs，勾选Reset After Download，点OK。</p>
 <p>主界面点击Load Content，刚才下载的ROM解压缩后，选择contents.xml。</p>
 <p>Y700平板关机。只按住音量上键的同时插入usb线，软件主界面上方Select Port，里面选9008，如果没有选项，在参考文章里有几个方法可以试试。</p>
 <p>点Download Content等待刷机完成就行了。</p>
 <p>新系统是zui13，会更新几次到14.0.286，就可以停了，下一个版本是15，不要更新，系统更新的通知取消不了，按住系统更新app，应用信息里停用+强行停止就看不见通知了。</p>
-<h2 id="参考文章-1"><a href="#参考文章-1" class="headerlink" title="参考文章"></a>参考文章</h2><p><a target="_blank" rel="noopener" href="https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode=AOoATwelAA8lI8l6V2Af0Alwb2ADI">https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode&#x3D;AOoATwelAA8lI8l6V2Af0Alwb2ADI</a></p>
+<h2 id="参考文章-1"><a href="#参考文章-1" class="headerlink" title="参考文章"></a>参考文章</h2><p><span class="exturl" data-url="aHR0cHM6Ly9kb2Mud2VpeGluLnFxLmNvbS9kb2MvdzNfQWYwQWx3YjJBREk1MEE2bnlYWFRseWpyaFFlelQ/c2NvZGU9QU9vQVR3ZWxBQThsSThsNlYyQWYwQWx3YjJBREk=">https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode&#x3D;AOoATwelAA8lI8l6V2Af0Alwb2ADI<i class="fa fa-external-link-alt"></i></span></p>
 
     </div>
 
@@ -386,7 +386,7 @@
       <a href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/" title="联想拯救者y700一代（2022）平板刷机过程">https://andi.wang/2024/01/13/联想拯救者y700一代（2022）平板刷机过程/</a>
   </li>
   <li class="post-copyright-license">
-      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpoLWhhbnM="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
@@ -468,7 +468,7 @@
       </span>
     </span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9taXN0Lw==">NexT.Mist</span> 强力驱动
   </div>
 
     </div>

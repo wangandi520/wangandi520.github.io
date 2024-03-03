@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.19.1","exturl":true,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="说明使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。">
 <meta property="og:type" content="article">
@@ -172,10 +172,10 @@
 </div>
   <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="https://github.com/wangandi520" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>github</a>
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3dhbmdhbmRpNTIw" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520"><i class="fab fa-github fa-fw"></i>github</span>
       </span>
       <span class="links-of-author-item">
-        <a href="https://space.bilibili.com/1952945" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">bilibili</a>
+        <span class="exturl" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMTk1Mjk0NQ==" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945">bilibili</span>
       </span>
       <span class="links-of-author-item">
         <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
@@ -317,12 +317,12 @@
 <p>复制下面的代码后，右上角commit changes</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
 
-<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a target="_blank" rel="noopener" href="https://crontab.guru/">https://crontab.guru/</a></p>
+<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<span class="exturl" data-url="aHR0cHM6Ly9jcm9udGFiLmd1cnUv">https://crontab.guru/<i class="fa fa-external-link-alt"></i></span></p>
 <p>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。</p>
 <p>要运行两个以上的脚本，就把9到20行再复制一遍，任务名要改。</p>
 <p>几个python签到脚本例子：</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
-<p><a target="_blank" rel="noopener" href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3dhbmdhbmRpNTIwL2FuZHlzcHl0aG9uc2NyaXB0L2Jsb2IvbWFpbi8lRTYlQkMlQUIlRTclOTQlQkIlRTglQTElQTUlRTYlQTElQTMlRTclQUQlQkUlRTUlODglQjAucHk=">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py<i class="fa fa-external-link-alt"></i></span></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0RyYWdvbmxpdTIwMTgvZHVrb3UtY2hlY2tpbi9ibG9iL21haW4vY2hlY2tpbi5weQ==">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py<i class="fa fa-external-link-alt"></i></span></p>
 <p>Actions里没有东西，可能需要push一次才能更新。</p>
 <p>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
 
@@ -362,7 +362,7 @@
       <a href="https://andi.wang/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/" title="使用github的action配合python每天签到">https://andi.wang/2024/02/11/使用github的action配合python每天签到/</a>
   </li>
   <li class="post-copyright-license">
-      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpoLWhhbnM="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
@@ -443,7 +443,7 @@
       </span>
     </span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9taXN0Lw==">NexT.Mist</span> 强力驱动
   </div>
 
     </div>

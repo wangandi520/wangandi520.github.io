@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.19.1","exturl":true,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="设置文章封面图在文章的front-matter中添加cover选项： 1cover: &#x2F;gallery&#x2F;covers&#x2F;cover.jpg">
 <meta property="og:type" content="article">
@@ -173,10 +173,10 @@
 </div>
   <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="https://github.com/wangandi520" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>github</a>
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3dhbmdhbmRpNTIw" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520"><i class="fab fa-github fa-fw"></i>github</span>
       </span>
       <span class="links-of-author-item">
-        <a href="https://space.bilibili.com/1952945" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">bilibili</a>
+        <span class="exturl" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMTk1Mjk0NQ==" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945">bilibili</span>
       </span>
       <span class="links-of-author-item">
         <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
@@ -322,7 +322,7 @@
 <p>效果：</p>
 <figure class="highlight plaintext"><figcaption><span>点击后显示代码 >folded</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hi</span><br></pre></td></tr></table></figure>
 
-<p>上面两条来自<a target="_blank" rel="noopener" href="https://blog.zhangruipeng.me/hexo-theme-icarus/Configuration/icarus%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">PPOffice</a></p>
+<p>上面两条来自<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLnpoYW5ncnVpcGVuZy5tZS9oZXhvLXRoZW1lLWljYXJ1cy9Db25maWd1cmF0aW9uL2ljYXJ1cyVFNyU5NCVBOCVFNiU4OCVCNyVFNiU4QyU4NyVFNSU4RCU5Ny0lRTQlQjglQkIlRTklQTIlOTglRTklODUlOEQlRTclQkQlQUUv">PPOffice<i class="fa fa-external-link-alt"></i></span></p>
 <h2 id="一段红色框的文字"><a href="#一段红色框的文字" class="headerlink" title="一段红色框的文字"></a>一段红色框的文字</h2><p>代码：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;&lt;div class=&quot;notification is-danger&quot;&gt;&#123;% endraw %&#125;</span><br><span class="line">本文含结局剧透，请谨慎阅读。</span><br><span class="line">&#123;% raw %&#125;&lt;/div&gt;&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
 
@@ -331,8 +331,8 @@
 <p>本文含结局剧透，请谨慎阅读。</p>
 </div>
 
-<h2 id="修改widget"><a href="#修改widget" class="headerlink" title="修改widget"></a>修改widget</h2><p>把<a target="_blank" rel="noopener" href="https://github.com/ppoffice/hexo-component-inferno/tree/master/src/view">hexo-component-inferno&#x2F;src&#x2F;view&#x2F;widget</a>需要的JSX 复制到icarus&#x2F;layout&#x2F;widget，如归档，分类，标签等。</p>
-<p>上面三条来自<a target="_blank" rel="noopener" href="https://www.imaegoo.com/2020/icarus-with-bulma/">虹墨空间站</a></p>
+<h2 id="修改widget"><a href="#修改widget" class="headerlink" title="修改widget"></a>修改widget</h2><p>把<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3Bwb2ZmaWNlL2hleG8tY29tcG9uZW50LWluZmVybm8vdHJlZS9tYXN0ZXIvc3JjL3ZpZXc=">hexo-component-inferno&#x2F;src&#x2F;view&#x2F;widget<i class="fa fa-external-link-alt"></i></span>需要的JSX 复制到icarus&#x2F;layout&#x2F;widget，如归档，分类，标签等。</p>
+<p>上面三条来自<span class="exturl" data-url="aHR0cHM6Ly93d3cuaW1hZWdvby5jb20vMjAyMC9pY2FydXMtd2l0aC1idWxtYS8=">虹墨空间站<i class="fa fa-external-link-alt"></i></span></p>
 <h2 id="归档widget时间格式改成2021-03"><a href="#归档widget时间格式改成2021-03" class="headerlink" title="归档widget时间格式改成2021-03"></a>归档widget时间格式改成2021-03</h2><p>完成上一步，修改icarus&#x2F;layout&#x2F;widget&#x2F;archives.jsx，第119行改成</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const name = date.format(format || type === &#x27;monthly&#x27; ? &#x27;YYYY-MM&#x27; : &#x27;YYYY&#x27;);</span><br></pre></td></tr></table></figure>
 
@@ -342,7 +342,7 @@
 <p>第40行改成</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;author ? &lt;a href=&quot;/&quot;&gt;&lt;p class=&quot;title is-size-4 is-block&quot; style=&#123;&#123;&#x27;line-height&#x27;: &#x27;inherit&#x27;&#125;&#125;&gt;&#123;author&#125;&lt;/p&gt;&lt;/a&gt; : null&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="个人资料的联系方式图标搜索"><a href="#个人资料的联系方式图标搜索" class="headerlink" title="个人资料的联系方式图标搜索"></a>个人资料的联系方式图标搜索</h2><p><a target="_blank" rel="noopener" href="https://fontawesome.cc/">https://fontawesome.cc/</a></p>
+<h2 id="个人资料的联系方式图标搜索"><a href="#个人资料的联系方式图标搜索" class="headerlink" title="个人资料的联系方式图标搜索"></a>个人资料的联系方式图标搜索</h2><p><span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jYy8=">https://fontawesome.cc/<i class="fa fa-external-link-alt"></i></span></p>
 <h2 id="生成并显示文章的目录"><a href="#生成并显示文章的目录" class="headerlink" title="生成并显示文章的目录"></a>生成并显示文章的目录</h2><p>在文章的front-matter中添加cover选项：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">toc: true</span><br></pre></td></tr></table></figure>
 
@@ -382,7 +382,7 @@
       <a href="https://andi.wang/2021/03/17/hexo%E4%B8%BB%E9%A2%98icarus%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8E%A9%E6%B3%95/" title="hexo主题icarus的一些玩法">https://andi.wang/2021/03/17/hexo主题icarus的一些玩法/</a>
   </li>
   <li class="post-copyright-license">
-      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpoLWhhbnM="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
@@ -464,7 +464,7 @@
       </span>
     </span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9taXN0Lw==">NexT.Mist</span> 强力驱动
   </div>
 
     </div>
