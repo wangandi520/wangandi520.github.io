@@ -1872,7 +1872,6 @@ pre code {
 }
 .posts-expand .post-title {
   font-size: 1.5em;
-  font-weight: normal;
   margin: initial;
   overflow-wrap: break-word;
 }
@@ -2649,7 +2648,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff1bd7;
+  background: #ff1cff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
