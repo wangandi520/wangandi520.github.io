@@ -1979,13 +1979,11 @@ pre code {
   justify-content: center;
 }
 .post-eof {
-  background: #ccc;
-  height: 1px;
   margin: 80px auto 60px;
-  width: 8%;
-}
-.post-block:last-of-type .post-eof {
-  display: none;
+  background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 4px, transparent 4px, transparent 8px);
+  border: 0;
+  height: 3px;
+  margin: 40px 0;
 }
 .post-copyright ul {
   list-style: none;
@@ -2498,57 +2496,48 @@ header.header {
   padding: 1px 4px;
   text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
-.posts-expand.index .post-header {
-  text-align: left;
+.post-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-@media (max-width: 767px) {
-  .posts-expand.index .post-header {
-    text-align: center;
-  }
+.post-eof {
+  background: #ccc;
+  height: 1px;
+  margin: 80px auto 60px;
+  width: 8%;
 }
-.posts-expand.index .post-meta-container {
-  margin-top: 5px;
-}
-.posts-expand.index .post-meta {
-  justify-content: flex-start;
-}
-@media (max-width: 767px) {
-  .posts-expand.index .post-meta {
-    justify-content: center;
-  }
-}
-.posts-expand .post-eof {
+.post-block:last-of-type .post-eof {
   display: none;
 }
-.posts-expand .post-block:not(:first-of-type) {
-  margin-top: 120px;
+.post-copyright ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0.5em 1em;
+  position: relative;
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  margin: 1em 0 0;
 }
-.posts-expand .post-header {
-  margin-bottom: 20px;
+.post-copyright ul::after {
+  content: '\f25e';
+  font-family: 'Font Awesome 6 Brands';
+  font-size: 200px;
+  opacity: 0.1;
+  position: absolute;
+  right: -50px;
+  top: -150px;
 }
-.posts-expand .post-tags a {
-  background: var(--content-bg-color);
-  border-bottom: 0;
-  padding: 1px 5px;
-}
-.posts-expand .post-tags a:hover {
-  background: var(--menu-item-bg-color);
-}
-.posts-expand .post-nav {
+.post-tags {
   margin-top: 40px;
+  text-align: left;
 }
-.post-button {
-  margin-top: 20px;
+.post-tags a {
+  display: inline-block;
+  font-size: 0.8125em;
 }
-.post-button .btn {
-  background: none;
-  border: 0;
-  border-bottom: 2px solid var(--btn-default-border-color);
-  padding: 0;
-  transition-property: border;
-}
-.post-button .btn:hover {
-  border-bottom-color: var(--btn-default-hover-border-color);
+.post-tags a:not(:last-child) {
+  margin-right: 10px;
 }
 header.header {
   margin: 0 auto;
@@ -2648,7 +2637,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff1cff;
+  background: #24ff7c;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
