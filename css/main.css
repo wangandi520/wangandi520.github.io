@@ -1196,9 +1196,6 @@ pre code {
     margin-left: 0;
   }
 }
-.use-motion .menu-item {
-  visibility: hidden;
-}
 .sidebar-inner {
   color: #999;
   padding: 18px 10px;
@@ -1624,20 +1621,6 @@ pre code {
 .post-button {
   margin-top: 40px;
   text-align: left;
-}
-.use-motion .post-block,
-.use-motion .pagination,
-.use-motion .comments {
-  visibility: hidden;
-}
-.use-motion .post-header {
-  visibility: hidden;
-}
-.use-motion .post-body {
-  visibility: hidden;
-}
-.use-motion .collection-header {
-  visibility: hidden;
 }
 .posts-collapse .post-content {
   margin-bottom: 35px;
@@ -2666,7 +2649,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #34ffff;
+  background: #ff1bd7;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
