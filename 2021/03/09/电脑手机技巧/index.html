@@ -5,17 +5,19 @@
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.19.1","exturl":true,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="QQNT版占用内存高点一下左边的#（QQ频道），再关掉就可以了">
 <meta property="og:type" content="article">
@@ -54,7 +56,7 @@
 <link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
 
   <main class="main">
@@ -62,9 +64,6 @@
       <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
-        <span class="toggle-line"></span>
-        <span class="toggle-line"></span>
-        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -80,46 +79,15 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger" aria-label="搜索" role="button">
-        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
 
 
 
-<nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
-        </a>
-      </li>
-  </ul>
-</nav>
 
 
 
-  <div class="search-pop-overlay">
-    <div class="popup search-popup"><div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="搜索..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close" role="button">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div class="search-result-container no-result">
-  <div class="search-result-icon">
-    <i class="fa fa-spinner fa-pulse fa-5x"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
 
 </header>
         
@@ -145,8 +113,6 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
-      src="/images/avatar.png"></a>
   <p class="site-author-name" itemprop="name">Andy</p>
   <div class="site-description" itemprop="description">如果我会发光，就不必害怕黑暗。</div>
 </div>
@@ -170,50 +136,12 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author animated">
-      <span class="links-of-author-item">
-        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3dhbmdhbmRpNTIw" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520"><i class="fab fa-github fa-fw"></i>github</span>
-      </span>
-      <span class="links-of-author-item">
-        <span class="exturl" data-url="aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMTk1Mjk0NQ==" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945">bilibili</span>
-      </span>
-      <span class="links-of-author-item">
-        <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
-      </span>
-  </div>
 
         </div>
       </div>
     </div>
 
     
-    <div class="sidebar-inner sidebar-blogroll">
-      <div class="links-of-blogroll animated">
-        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-          链接
-        </div>
-        <ul class="links-of-blogroll-list">
-            <li class="links-of-blogroll-item">
-              <a href="/guitar" title="&#x2F;guitar">吉他和弦生成</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="/mahjongtab" title="&#x2F;mahjongtab">麻将牌谱生成</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="/mahjong-calc" title="&#x2F;mahjong-calc">麻将点数计算</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="/2" title="&#x2F;2">漫画补页下载</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="/3" title="&#x2F;3">漫画整理脚本</a>
-            </li>
-            <li class="links-of-blogroll-item">
-              <a href="/0" title="&#x2F;0">电子书漫画制作交流QQ群1321993</a>
-            </li>
-        </ul>
-      </div>
-    </div>
   </aside>
 
 
@@ -233,7 +161,7 @@
     <link itemprop="mainEntityOfPage" href="https://andi.wang/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="Andy">
     </span>
 
@@ -279,13 +207,6 @@
     </span>
 
   
-    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">阅读次数：</span>
-      <span id="busuanzi_value_page_pv"></span>
-    </span>
     <span class="post-meta-break"></span>
     <span class="post-meta-item" title="本文字数">
       <span class="post-meta-item-icon">
@@ -313,7 +234,7 @@
 <h2 id="QQNT版占用内存高"><a href="#QQNT版占用内存高" class="headerlink" title="QQNT版占用内存高"></a>QQNT版占用内存高</h2><p>点一下左边的#（QQ频道），再关掉就可以了</p>
 <span id="more"></span>
 
-<h2 id="npm下载速度慢"><a href="#npm下载速度慢" class="headerlink" title="npm下载速度慢"></a>npm下载速度慢</h2><p>命令行输入npm config set registry <span class="exturl" data-url="aHR0cHM6Ly9yZWdpc3RyeS5ucG1taXJyb3IuY29tLw==">https://registry.npmmirror.com<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="npm下载速度慢"><a href="#npm下载速度慢" class="headerlink" title="npm下载速度慢"></a>npm下载速度慢</h2><p>命令行输入npm config set registry <a target="_blank" rel="noopener" href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>
 <h2 id="删除文件夹是提示0x80070091目录不是空的"><a href="#删除文件夹是提示0x80070091目录不是空的" class="headerlink" title="删除文件夹是提示0x80070091目录不是空的"></a>删除文件夹是提示0x80070091目录不是空的</h2><p>复制一个文件进去后再删除</p>
 <h2 id="下载优酷视频"><a href="#下载优酷视频" class="headerlink" title="下载优酷视频"></a>下载优酷视频</h2><p>安装python后pip3 install you-get<br>you-get 视频地址</p>
 <h2 id="联通手机把积分换成话费"><a href="#联通手机把积分换成话费" class="headerlink" title="联通手机把积分换成话费"></a>联通手机把积分换成话费</h2><p>发JFJF#Q到10010</p>
@@ -324,7 +245,7 @@
 <h2 id="excel设置正数是红色，负数是绿色"><a href="#excel设置正数是红色，负数是绿色" class="headerlink" title="excel设置正数是红色，负数是绿色"></a>excel设置正数是红色，负数是绿色</h2><p>选单元格，可以按住ctrl多选，设置单元格格式，自定义，输入[红色]#,##0.00;[绿色]-#,##0.00</p>
 <h2 id="inoreader访问不了"><a href="#inoreader访问不了" class="headerlink" title="inoreader访问不了"></a>inoreader访问不了</h2><p>网页端inoreader改成innoreader</p>
 <p>安卓端进入设置，随便一个界面，摇晃手机，inoreader改成innoreader</p>
-<h2 id="winrar下载地址"><a href="#winrar下载地址" class="headerlink" title="winrar下载地址"></a>winrar下载地址</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cud2luLXJhci5jb20vZmlsZWFkbWluL3dpbnJhci12ZXJzaW9ucy9zYy9zYzIwMjMxMDEzL3JybGIvd2lucmFyLXg2NC02MjRzYy5leGU=">https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/rrlb/winrar-x64-624sc.exe<i class="fa fa-external-link-alt"></i></span><br><span class="exturl" data-url="aHR0cHM6Ly93d3cud2luLXJhci5jb20vZmlsZWFkbWluL3dpbnJhci12ZXJzaW9ucy9zYy9zYzIwMjMxMDEzL3dyci93aW5yYXIteDY0LTYyNHNjLmV4ZQ==">https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/wrr/winrar-x64-624sc.exe<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="winrar下载地址"><a href="#winrar下载地址" class="headerlink" title="winrar下载地址"></a>winrar下载地址</h2><p><a target="_blank" rel="noopener" href="https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/rrlb/winrar-x64-624sc.exe">https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/rrlb/winrar-x64-624sc.exe</a><br><a target="_blank" rel="noopener" href="https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/wrr/winrar-x64-624sc.exe">https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20231013/wrr/winrar-x64-624sc.exe</a></p>
 <h2 id="github-pages设置"><a href="#github-pages设置" class="headerlink" title="github pages设置"></a>github pages设置</h2><p>要在文件夹内新建一个文件CNAME，里面是你的域名</p>
 <h2 id="萤石摄像头打开rtsp，可用播放器播放，关闭红外"><a href="#萤石摄像头打开rtsp，可用播放器播放，关闭红外" class="headerlink" title="萤石摄像头打开rtsp，可用播放器播放，关闭红外"></a>萤石摄像头打开rtsp，可用播放器播放，关闭红外</h2><p>打开手机萤石云视频app，我的，工具，局域网设备预览，开始扫描</p>
 <p>选择设备，输入密码是6位大写英文，在摄像头下面贴纸上可以找到</p>
@@ -333,7 +254,7 @@
 <p>电脑播放可以使用vlc，potplayer或vlc，安卓手机播放，使用vlc，新建my.m3u8</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#EXTM3U8</span><br><span class="line">#EXTINF:-1,名字</span><br><span class="line">rtsp://admin:密码@网址或ip:554/h264/ch1/main/av_stream</span><br></pre></td></tr></table></figure>
 
-<h2 id="foobar2000歌词插件、搜索、布局整合"><a href="#foobar2000歌词插件、搜索、布局整合" class="headerlink" title="foobar2000歌词插件、搜索、布局整合"></a>foobar2000歌词插件、搜索、布局整合</h2><p>插件ESLyric，下载地址<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0VTTHlyaWMvcmVsZWFzZS9yZWxlYXNlcw==">https://github.com/ESLyric/release/releases<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="foobar2000歌词插件、搜索、布局整合"><a href="#foobar2000歌词插件、搜索、布局整合" class="headerlink" title="foobar2000歌词插件、搜索、布局整合"></a>foobar2000歌词插件、搜索、布局整合</h2><p>插件ESLyric，下载地址<a target="_blank" rel="noopener" href="https://github.com/ESLyric/release/releases">https://github.com/ESLyric/release/releases</a></p>
 <p>建立自己的布局，以左边播放列表右边歌词为例</p>
 <p>view-layout-create scratchbox，点击灰色的地方spliter(left&#x2F;right)</p>
 <p>点击左边add new ui element，playlist tabs，再点左边，playlist view</p>
@@ -353,7 +274,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mount /dev/sdb2 /mnt</span><br><span class="line">passwd --root /mnt root</span><br></pre></td></tr></table></figure>
 
 <h2 id="windows11-Powershell里不能运行npm命令等"><a href="#windows11-Powershell里不能运行npm命令等" class="headerlink" title="windows11 Powershell里不能运行npm命令等"></a>windows11 Powershell里不能运行npm命令等</h2><p>管理员运行powershell，输入set-executionPolicy RemoteSigned，输入Y</p>
-<h2 id="chrome的idm插件"><a href="#chrome的idm插件" class="headerlink" title="chrome的idm插件"></a>chrome的idm插件</h2><p><span class="exturl" data-url="aHR0cHM6Ly9jaHJvbWUuZ29vZ2xlLmNvbS93ZWJzdG9yZS9kZXRhaWwvaWRtLWludGVncmF0aW9uLW1vZHVsZS9uZ3BhbXBhcHBubWVwZ2lsb2pmb2hhZGhobWJobGFlay9yZWxhdGVk">https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek/related<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="chrome的idm插件"><a href="#chrome的idm插件" class="headerlink" title="chrome的idm插件"></a>chrome的idm插件</h2><p><a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek/related">https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek/related</a></p>
 <h2 id="vscode显示选中多少行"><a href="#vscode显示选中多少行" class="headerlink" title="vscode显示选中多少行"></a>vscode显示选中多少行</h2><p>插件安装Select Line Status Bar</p>
 <h2 id="total-commander显示文件夹大小"><a href="#total-commander显示文件夹大小" class="headerlink" title="total commander显示文件夹大小"></a>total commander显示文件夹大小</h2><p>alt+shift+回车</p>
 <p>修改显示的单位：配置，选项，制表位，文件大小显示，建议第四个动态x.x KBMBGB</p>
@@ -367,20 +288,20 @@
 <h2 id="百度网盘提取码错误"><a href="#百度网盘提取码错误" class="headerlink" title="百度网盘提取码错误"></a>百度网盘提取码错误</h2><p>地址的http改成https，复制到手机客户端提取</p>
 <h2 id="total-commander中纯数字文件排序"><a href="#total-commander中纯数字文件排序" class="headerlink" title="total commander中纯数字文件排序"></a>total commander中纯数字文件排序</h2><p>纯数字文件是这样排序的1，10，11，12，13，要变成1，2，3，4，选择</p>
 <p>配置，选项，显示，文件排序方式，按字符代码及数字大小排序</p>
-<h2 id="total-commander中支持中文首字母搜索"><a href="#total-commander中支持中文首字母搜索" class="headerlink" title="total commander中支持中文首字母搜索"></a>total commander中支持中文首字母搜索</h2><p>安装QuickSearch eXtended，最新版2.2.7<br><span class="exturl" data-url="aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS8/aWQ9RjhDNDkwMUZBMkZCNjkyRSExMzImY2lkPUY4QzQ5MDFGQTJGQjY5MkU=">https://onedrive.live.com/?id=F8C4901FA2FB692E%21132&amp;cid=F8C4901FA2FB692E<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="total-commander中支持中文首字母搜索"><a href="#total-commander中支持中文首字母搜索" class="headerlink" title="total commander中支持中文首字母搜索"></a>total commander中支持中文首字母搜索</h2><p>安装QuickSearch eXtended，最新版2.2.7<br><a target="_blank" rel="noopener" href="https://onedrive.live.com/?id=F8C4901FA2FB692E!132&cid=F8C4901FA2FB692E">https://onedrive.live.com/?id=F8C4901FA2FB692E%21132&amp;cid=F8C4901FA2FB692E</a></p>
 <p>配置，选项，快速搜索，字符，下面精确匹配都去掉勾</p>
 <h2 id="ComicsViewer在笔记本上缩放100-以上时模糊"><a href="#ComicsViewer在笔记本上缩放100-以上时模糊" class="headerlink" title="ComicsViewer在笔记本上缩放100%以上时模糊"></a>ComicsViewer在笔记本上缩放100%以上时模糊</h2><p>右键ComicsViewer.exe，属性，兼容性，更改高DPI设置，勾选使用此设置修复…的缩放问题，勾选替代高DPI缩放行为缩放执行：应用程序</p>
 <h2 id="oppo手机强制重启"><a href="#oppo手机强制重启" class="headerlink" title="oppo手机强制重启"></a>oppo手机强制重启</h2><p>长按电源和音量加，直到出现画面</p>
 <h2 id="winrar，每个文件夹单独一个zip文件"><a href="#winrar，每个文件夹单独一个zip文件" class="headerlink" title="winrar，每个文件夹单独一个zip文件"></a>winrar，每个文件夹单独一个zip文件</h2><p>选中数个文件夹，右键，添加到压缩文件，常规里选zip，文件里选将每个文件放到单独的压缩文件中</p>
-<h2 id="ed2k，kad网络服务器"><a href="#ed2k，kad网络服务器" class="headerlink" title="ed2k，kad网络服务器"></a>ed2k，kad网络服务器</h2><p>ed2k<br><span class="exturl" data-url="aHR0cDovL3VwZC5lbXVsZS1zZWN1cml0eS5vcmcvc2VydmVyLm1ldA==">http://upd.emule-security.org/server.met<i class="fa fa-external-link-alt"></i></span><br>或者<br><span class="exturl" data-url="aHR0cDovL2VkMmsuaW0vc2VydmVyLm1ldA==">http://ed2k.im/server.met<i class="fa fa-external-link-alt"></i></span></p>
-<p>kad<br><span class="exturl" data-url="aHR0cDovL3VwZC5lbXVsZS1zZWN1cml0eS5vcmcvbm9kZXMuZGF0">http://upd.emule-security.org/nodes.dat<i class="fa fa-external-link-alt"></i></span><br>或者<br><span class="exturl" data-url="aHR0cDovL2VkMmsuaW0vbm9kZXMuZGF0">http://ed2k.im/nodes.dat<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="ed2k，kad网络服务器"><a href="#ed2k，kad网络服务器" class="headerlink" title="ed2k，kad网络服务器"></a>ed2k，kad网络服务器</h2><p>ed2k<br><a target="_blank" rel="noopener" href="http://upd.emule-security.org/server.met">http://upd.emule-security.org/server.met</a><br>或者<br><a target="_blank" rel="noopener" href="http://ed2k.im/server.met">http://ed2k.im/server.met</a></p>
+<p>kad<br><a target="_blank" rel="noopener" href="http://upd.emule-security.org/nodes.dat">http://upd.emule-security.org/nodes.dat</a><br>或者<br><a target="_blank" rel="noopener" href="http://ed2k.im/nodes.dat">http://ed2k.im/nodes.dat</a></p>
 <h2 id="total-commander-批量重命名"><a href="#total-commander-批量重命名" class="headerlink" title="total commander 批量重命名"></a>total commander 批量重命名</h2><p>选中，ctrl+m，[[]Comic[]][[]犬夜叉[]][[]高橋留美子[]][[]青文[]][[]HMM[]]Vol_[C]</p>
 <h2 id="vim中格式化代码"><a href="#vim中格式化代码" class="headerlink" title="vim中格式化代码"></a>vim中格式化代码</h2><p>gg,shift+v,shift+g,&#x3D;</p>
 <h2 id="搜索大文件"><a href="#搜索大文件" class="headerlink" title="搜索大文件"></a>搜索大文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">du -a / | sort -n -r | head -n 20</span><br></pre></td></tr></table></figure>
 <p>archlinux下这个文件夹占用空间大 &#x2F;var&#x2F;cache&#x2F;pacman&#x2F;pkg&#x2F;<br>清理&#x2F;var&#x2F;cache&#x2F;pacman&#x2F;pkg目录下的旧包</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacman -Sc</span><br></pre></td></tr></table></figure>
 
-<h2 id="git代理和取消"><a href="#git代理和取消" class="headerlink" title="git代理和取消"></a>git代理和取消</h2><p>git config –global http.proxy <span class="exturl" data-url="aHR0cDovLzEyNy4wLjAuMTo3ODkwLw==">http://127.0.0.1:7890<i class="fa fa-external-link-alt"></i></span><br>git config –global –unset http.proxy</p>
+<h2 id="git代理和取消"><a href="#git代理和取消" class="headerlink" title="git代理和取消"></a>git代理和取消</h2><p>git config –global http.proxy <a target="_blank" rel="noopener" href="http://127.0.0.1:7890/">http://127.0.0.1:7890</a><br>git config –global –unset http.proxy</p>
 <h2 id="迅雷自动升级"><a href="#迅雷自动升级" class="headerlink" title="迅雷自动升级"></a>迅雷自动升级</h2><p>xlliveud.exe</p>
 <h2 id="compattelrunner"><a href="#compattelrunner" class="headerlink" title="compattelrunner"></a>compattelrunner</h2><p>taskschd.msc里app，禁用Microsoft Compatibility Appraiser</p>
 <h2 id="autohotkey显示鼠标坐标"><a href="#autohotkey显示鼠标坐标" class="headerlink" title="autohotkey显示鼠标坐标"></a>autohotkey显示鼠标坐标</h2><p>space::<br>MouseGetPos, xpos, ypos<br>Msgbox, The cursor is at X%xpos% Y%ypos%.<br>return</p>
@@ -392,7 +313,7 @@
 <h2 id="win10商店打不开"><a href="#win10商店打不开" class="headerlink" title="win10商店打不开"></a>win10商店打不开</h2><p>internet选项，打开tls1.2</p>
 <h2 id="删除hiberfil-sys"><a href="#删除hiberfil-sys" class="headerlink" title="删除hiberfil.sys"></a>删除hiberfil.sys</h2><p>管理员运行cmd<br>powercfg -h off</p>
 <h2 id="迅雷屏蔽"><a href="#迅雷屏蔽" class="headerlink" title="迅雷屏蔽"></a>迅雷屏蔽</h2><p>127.0.0.1 hub5btmain.sandai.net<br>127.0.0.1 hub5emu.sandai.net<br>127.0.0.1 upgrade.xl9.xunlei.com</p>
-<h2 id="关闭腾讯广告"><a href="#关闭腾讯广告" class="headerlink" title="关闭腾讯广告"></a>关闭腾讯广告</h2><p><span class="exturl" data-url="aHR0cHM6Ly9wcml2YWN5LnFxLmNvbS9hZHMvb3B0b3V0Lmh0bWwj">https://privacy.qq.com/ads/optout.html#<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="关闭腾讯广告"><a href="#关闭腾讯广告" class="headerlink" title="关闭腾讯广告"></a>关闭腾讯广告</h2><p><a target="_blank" rel="noopener" href="https://privacy.qq.com/ads/optout.html#">https://privacy.qq.com/ads/optout.html#</a></p>
 <h2 id="u盘转换成ntfs"><a href="#u盘转换成ntfs" class="headerlink" title="u盘转换成ntfs"></a>u盘转换成ntfs</h2><p>convert x: &#x2F;fs:ntfs</p>
 <h2 id="浏览器报Mixed-Content错误的解决"><a href="#浏览器报Mixed-Content错误的解决" class="headerlink" title="浏览器报Mixed Content错误的解决"></a>浏览器报Mixed Content错误的解决</h2><meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
@@ -407,8 +328,8 @@
 <h2 id="chrome快捷键"><a href="#chrome快捷键" class="headerlink" title="chrome快捷键"></a>chrome快捷键</h2><p>ctrl+t新建页面<br>ctrl+w关闭页面<br>alt+d输入地址<br>chrome F12 ctrl+shift+p capture 截全屏
  </p>
 <h2 id="onenote-清除格式"><a href="#onenote-清除格式" class="headerlink" title="onenote 清除格式"></a>onenote 清除格式</h2><p>ctrl+shift+n</p>
-<h2 id="7z"><a href="#7z" class="headerlink" title="7z"></a>7z</h2><p>例如打包根目录下www目录的文件<br>7za a <span class="exturl" data-url="aHR0cDovL3d3dy43ei8=">www.7z<i class="fa fa-external-link-alt"></i></span> &#x2F;www</p>
-<p>解压<br>7za x <span class="exturl" data-url="aHR0cDovL3d3dy43ei8=">www.7z<i class="fa fa-external-link-alt"></i></span> -o&#x2F;home&#x2F;www<br>&#x2F;&#x2F; -o 表示输出目录，其与目录路径之间没有空格哦注意.</p>
+<h2 id="7z"><a href="#7z" class="headerlink" title="7z"></a>7z</h2><p>例如打包根目录下www目录的文件<br>7za a <a target="_blank" rel="noopener" href="http://www.7z/">www.7z</a> &#x2F;www</p>
+<p>解压<br>7za x <a target="_blank" rel="noopener" href="http://www.7z/">www.7z</a> -o&#x2F;home&#x2F;www<br>&#x2F;&#x2F; -o 表示输出目录，其与目录路径之间没有空格哦注意.</p>
 
     </div>
 
@@ -417,40 +338,6 @@
     
 
     <footer class="post-footer">
-          <div class="reward-container">
-  <button>
-    捐赠
-  </button>
-  <div class="post-reward">
-      <div>
-        <img src="/images/weixin.png" alt="Andy 微信">
-        <span>微信</span>
-      </div>
-      <div>
-        <img src="/images/alipay.png" alt="Andy 支付宝">
-        <span>支付宝</span>
-      </div>
-
-  </div>
-</div>
-
-          
-
-<div class="post-copyright">
-<ul>
-  <li class="post-copyright-author">
-      <strong>本文作者： </strong>Andy
-  </li>
-  <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="https://andi.wang/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/" title="电脑手机技巧">https://andi.wang/2021/03/09/电脑手机技巧/</a>
-  </li>
-  <li class="post-copyright-license">
-      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpoLWhhbnM="><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> 许可协议。转载请注明出处！
-  </li>
-</ul>
-</div>
-
           <div class="post-tags">
               <a href="/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/" rel="tag"># 电脑手机技巧</a>
           </div>
@@ -478,7 +365,6 @@
 
 
 
-    <div class="comments gitalk-container"></div>
 </div>
   </main>
 
@@ -486,7 +372,7 @@
     <div class="footer-inner">
 
   <div class="copyright">
-    &copy; 2017 – 
+    &copy; 
     <span itemprop="copyrightYear">2024</span>
     <span class="with-love">
       <i class="fa fa-heart"></i>
@@ -498,36 +384,16 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-      <span>站点总字数：</span>
-    <span title="站点总字数">249533</span>
+    <span title="站点总字数">249884</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-      <span>站点阅读时长 &asymp;</span>
     <span title="站点阅读时长">3:47</span>
   </span>
 </div>
-<div class="busuanzi-count">
-    <span class="post-meta-item" id="busuanzi_container_site_uv">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="总访客量">
-        <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-      </span>
-      <span class="site-pv" title="总访问量">
-        <span id="busuanzi_value_site_pv"></span>
-      </span>
-    </span>
-</div>
-  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9taXN0Lw==">NexT.Mist</span> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
     </div>
@@ -552,11 +418,9 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
-<script src="/js/third-party/search/local-search.js"></script>
-
+  
 
 
 
@@ -564,15 +428,10 @@
 
 
   
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
-
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wangandi520","repo":"wangandi520.github.io","client_id":"4608a30c8bf01d212dc2","client_secret":"1728dfa6fb7625b83daa2e898ab26b0b82d475f2","admin_user":"wangandi520","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":["zh-CN","zh-TW","en"],"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"6321a0a6a41e3d0c73111a1d7faa1f2b"}</script>
-<script src="/js/third-party/comments/gitalk.js"></script>
 
 </body>
 </html>
