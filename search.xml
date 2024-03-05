@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>SciTE文本编辑器配置</title>
-    <url>/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<hr>
-<p>打开Options - Open User Options File，填写下面的代码</p>
-<span id="more"></span>
-
-<p>下载地址：<a href="https://www.scintilla.org/wscite532.zip">https://www.scintilla.org/wscite532.zip</a></p>
-<h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 解决中文文件乱码</span><br><span class="line">code.page=65001</span><br><span class="line">output.code.page=65001</span><br><span class="line"># 标题栏显示完整路径</span><br><span class="line">title.full.path=1 </span><br><span class="line"># 是否显示行号栏</span><br><span class="line">line.margin.visible=1 </span><br><span class="line"># 行号栏宽度</span><br><span class="line">line.margin.width=3+ </span><br><span class="line"># 自动补全xml及html标签</span><br><span class="line">xml.auto.close.tags=1</span><br><span class="line"># 初始窗口位置</span><br><span class="line">#position.left=500</span><br><span class="line">#position.top=300</span><br><span class="line">#position.width=1200</span><br><span class="line">#position.height=800</span><br><span class="line"># 保存上次的标签页，窗口位置，文件</span><br><span class="line">save.position=1</span><br><span class="line">save.recent=1</span><br><span class="line">save.session=1</span><br><span class="line"># 状态栏可见</span><br><span class="line">statusbar.visible=1</span><br><span class="line"># 工具栏可见</span><br><span class="line">#toolbar.visible=1</span><br><span class="line"># tab栏可见</span><br><span class="line">tabbar.visible=1</span><br><span class="line"># tab栏启用多行模式</span><br><span class="line">tabbar.multiline=1</span><br><span class="line"># 默认字体大小</span><br><span class="line">font.base=font:JetBrains Mono NL,size:13</span><br><span class="line">font.comment=size:13</span><br><span class="line">font.locale=size:13</span><br><span class="line">font.monospace=size:13</span><br><span class="line"># 光标所在行的背景色</span><br><span class="line">caret.line.back=#EEEEEE  </span><br><span class="line"># 单词自动补全</span><br><span class="line">autocompleteword.automatic=1</span><br><span class="line"># 高亮当前选中的单词</span><br><span class="line">highlight.current.word=1</span><br><span class="line"># 高亮当前选中的单词的颜色</span><br><span class="line">highlight.current.word.colour=#FF0000</span><br><span class="line"># tab栏启用多行模式</span><br><span class="line">tabbar.multiline=1</span><br><span class="line"># 当前文件被外部修改时自动重新载入</span><br><span class="line">load.on.activate=1</span><br><span class="line"># 重新载入文档时保留还原信息</span><br><span class="line">reload.preserves.undo=1</span><br><span class="line">#启用括号匹配检查</span><br><span class="line">braces.check=1</span><br><span class="line">braces.sloppy=1</span><br><span class="line"># 启用折叠</span><br><span class="line">fold=1</span><br><span class="line"># 编辑区折叠列初始化宽度.</span><br><span class="line">fold.margin.width=12</span><br><span class="line"># 折叠符号,0为三角形，1为展开-收缩+, 2为圆形，3方形。一般选2</span><br><span class="line">fold.symbols=2</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="中文界面："><a href="#中文界面：" class="headerlink" title="中文界面："></a>中文界面：</h2><p>下载<a href="https://github.com/moltenform/scite-files/blob/main/files/translations_list.md">https://github.com/moltenform/scite-files/blob/main/files/translations_list.md</a><br>改名成locale.properties放到程序目录</p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>电脑技巧</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>REAPER6学习笔记</title>
     <url>/2021/03/12/REAPER6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<hr>
@@ -56,15 +37,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows和Android优质软件</title>
-    <url>/2024/01/03/Windows%E5%92%8CAndroid%E4%BC%98%E8%B4%A8%E8%BD%AF%E4%BB%B6/</url>
+    <title>SciTE文本编辑器配置</title>
+    <url>/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<hr>
-<p>建议只从各个软件官网下载。</p>
-<h2 id="两个平台"><a href="#两个平台" class="headerlink" title="两个平台"></a>两个平台</h2><p>microsoft edge：浏览器，同步，从手机发网页到电脑都很方便。<br>microsoft todo：计划清单提醒。<br>microsoft onenote：做笔记，同步时快时慢。<br>joplin：做笔记，可以自己搭建服务器同步，可以导出，可以webdav同步。<br>resilio sync：同步文件用，只有两边都打开软件就自动完成。<br>localsend：跨平台发文件，发文字，简洁高效。</p>
+<p>打开Options - Open User Options File，填写下面的代码</p>
 <span id="more"></span>
 
-<h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>everything：搜索文件。<br>visual studio code：做笔记，写代码，支持预览markdown和别的插件，可以搭配resilio sync做跨平台同步笔记。<br>calibre：看电子书，编辑书，转换格式用。<br>mobaxterm：远程ssh。<br>pdfpatcher：处理pdf，转图片。<br>goodsync：备份文件。<br>酷我音乐：免费下载音乐。<br>foobar2000：离线听歌。可以自定义窗体结构。<br>potplayer：离线看视频，无广告。<br>qbittorrent：下载bt文件，速度慢的话要网上搜一些tracker添加进去。<br>neeview：看漫画，pdf，可以导出设置和历史记录。<br>honeyview：看图片。<br>sumatrapdf：看pdf。<br>autohotkey：自制一些脚本，简化操作，低门槛。<br>python：自制一些脚本，稍有一些门槛。<br>open broadcaster software：录制屏幕，或者直播。<br>total commander：管理文件，批量重命名。<br>goldendict：查词典，支持mdx。<br>reaper：做音乐，录音，练键盘，玩吉他软件效果器。<br>faststone capture：截图。<br>ditto：管理剪贴板。<br>xmind8：做思维导图。<br>http file server 2.3m：电脑临时做服务器，给其他设备传文件。</p>
-<h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><p>静读天下专业版：离线看电子书，可以导出标注，可以多设备同步。<br>xodo：看pdf。<br>poweramp：离线听歌。<br>mx player：离线看视频。<br>feedme：看rss。<br>quickedit：编辑文本文件，可以搭配resilio sync做跨平台同步笔记。<br>x-plore：管理文件，wifi传文件。<br>欧陆词典：查词典，支持mdx。<br>andromoney：记账，可以导出。<br>gboard：输入法，无广告。</p>
+<p>下载地址：<a href="https://www.scintilla.org/wscite532.zip">https://www.scintilla.org/wscite532.zip</a></p>
+<h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 解决中文文件乱码</span><br><span class="line">code.page=65001</span><br><span class="line">output.code.page=65001</span><br><span class="line"># 标题栏显示完整路径</span><br><span class="line">title.full.path=1 </span><br><span class="line"># 是否显示行号栏</span><br><span class="line">line.margin.visible=1 </span><br><span class="line"># 行号栏宽度</span><br><span class="line">line.margin.width=3+ </span><br><span class="line"># 自动补全xml及html标签</span><br><span class="line">xml.auto.close.tags=1</span><br><span class="line"># 初始窗口位置</span><br><span class="line">#position.left=500</span><br><span class="line">#position.top=300</span><br><span class="line">#position.width=1200</span><br><span class="line">#position.height=800</span><br><span class="line"># 保存上次的标签页，窗口位置，文件</span><br><span class="line">save.position=1</span><br><span class="line">save.recent=1</span><br><span class="line">save.session=1</span><br><span class="line"># 状态栏可见</span><br><span class="line">statusbar.visible=1</span><br><span class="line"># 工具栏可见</span><br><span class="line">#toolbar.visible=1</span><br><span class="line"># tab栏可见</span><br><span class="line">tabbar.visible=1</span><br><span class="line"># tab栏启用多行模式</span><br><span class="line">tabbar.multiline=1</span><br><span class="line"># 默认字体大小</span><br><span class="line">font.base=font:JetBrains Mono NL,size:13</span><br><span class="line">font.comment=size:13</span><br><span class="line">font.locale=size:13</span><br><span class="line">font.monospace=size:13</span><br><span class="line"># 光标所在行的背景色</span><br><span class="line">caret.line.back=#EEEEEE  </span><br><span class="line"># 单词自动补全</span><br><span class="line">autocompleteword.automatic=1</span><br><span class="line"># 高亮当前选中的单词</span><br><span class="line">highlight.current.word=1</span><br><span class="line"># 高亮当前选中的单词的颜色</span><br><span class="line">highlight.current.word.colour=#FF0000</span><br><span class="line"># tab栏启用多行模式</span><br><span class="line">tabbar.multiline=1</span><br><span class="line"># 当前文件被外部修改时自动重新载入</span><br><span class="line">load.on.activate=1</span><br><span class="line"># 重新载入文档时保留还原信息</span><br><span class="line">reload.preserves.undo=1</span><br><span class="line">#启用括号匹配检查</span><br><span class="line">braces.check=1</span><br><span class="line">braces.sloppy=1</span><br><span class="line"># 启用折叠</span><br><span class="line">fold=1</span><br><span class="line"># 编辑区折叠列初始化宽度.</span><br><span class="line">fold.margin.width=12</span><br><span class="line"># 折叠符号,0为三角形，1为展开-收缩+, 2为圆形，3方形。一般选2</span><br><span class="line">fold.symbols=2</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="中文界面："><a href="#中文界面：" class="headerlink" title="中文界面："></a>中文界面：</h2><p>下载<a href="https://github.com/moltenform/scite-files/blob/main/files/translations_list.md">https://github.com/moltenform/scite-files/blob/main/files/translations_list.md</a><br>改名成locale.properties放到程序目录</p>
 ]]></content>
       <categories>
         <category>学习笔记</category>
@@ -692,6 +674,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows和Android优质软件</title>
+    <url>/2024/01/03/Windows%E5%92%8CAndroid%E4%BC%98%E8%B4%A8%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<hr>
+<p>建议只从各个软件官网下载。</p>
+<h2 id="两个平台"><a href="#两个平台" class="headerlink" title="两个平台"></a>两个平台</h2><p>microsoft edge：浏览器，同步，从手机发网页到电脑都很方便。<br>microsoft todo：计划清单提醒。<br>microsoft onenote：做笔记，同步时快时慢。<br>joplin：做笔记，可以自己搭建服务器同步，可以导出，可以webdav同步。<br>resilio sync：同步文件用，只有两边都打开软件就自动完成。<br>localsend：跨平台发文件，发文字，简洁高效。</p>
+<span id="more"></span>
+
+<h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>everything：搜索文件。<br>visual studio code：做笔记，写代码，支持预览markdown和别的插件，可以搭配resilio sync做跨平台同步笔记。<br>calibre：看电子书，编辑书，转换格式用。<br>mobaxterm：远程ssh。<br>pdfpatcher：处理pdf，转图片。<br>goodsync：备份文件。<br>酷我音乐：免费下载音乐。<br>foobar2000：离线听歌。可以自定义窗体结构。<br>potplayer：离线看视频，无广告。<br>qbittorrent：下载bt文件，速度慢的话要网上搜一些tracker添加进去。<br>neeview：看漫画，pdf，可以导出设置和历史记录。<br>honeyview：看图片。<br>sumatrapdf：看pdf。<br>autohotkey：自制一些脚本，简化操作，低门槛。<br>python：自制一些脚本，稍有一些门槛。<br>open broadcaster software：录制屏幕，或者直播。<br>total commander：管理文件，批量重命名。<br>goldendict：查词典，支持mdx。<br>reaper：做音乐，录音，练键盘，玩吉他软件效果器。<br>faststone capture：截图。<br>ditto：管理剪贴板。<br>xmind8：做思维导图。<br>http file server 2.3m：电脑临时做服务器，给其他设备传文件。</p>
+<h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><p>静读天下专业版：离线看电子书，可以导出标注，可以多设备同步。<br>xodo：看pdf。<br>poweramp：离线听歌。<br>mx player：离线看视频。<br>feedme：看rss。<br>quickedit：编辑文本文件，可以搭配resilio sync做跨平台同步笔记。<br>x-plore：管理文件，wifi传文件。<br>欧陆词典：查词典，支持mdx。<br>andromoney：记账，可以导出。<br>gboard：输入法，无广告。</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>电脑技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo和next主题的一些配置</title>
     <url>/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<hr>
@@ -702,10 +702,10 @@
 <span id="more"></span>
 
 <p>编辑source\tags\index.md</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line">type: tags</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line"><span class="section">type: tags</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 
 <p>编辑source\categories\index.md</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line">type: categories</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2024-02-29 20:33:12</span><br><span class="line"><span class="section">type: categories</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
 
@@ -721,90 +721,90 @@
 <p>浏览器访问<a href="http://localhost:4000/%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E9%A2%84%E8%A7%88%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%8C%E4%B8%8D%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%9A%84%E8%AF%9D%E4%B8%8D%E9%9C%80%E8%A6%81hexo">http://localhost:4000/，就可以预览你的博客，不本地预览的话不需要hexo</a> s</p>
 <p>public文件夹里的文件复制到你的服务器就可以运行了</p>
 <h2 id="配置next主题"><a href="#配置next主题" class="headerlink" title="配置next主题"></a>配置next主题</h2><h3 id="选择风格"><a href="#选择风格" class="headerlink" title="选择风格"></a>选择风格</h3><p>主题有4个风格，可以搜一下效果，选择哪个就把前面的井号去掉</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="comment">#scheme: Gemini</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="本地搜索"><a href="#本地搜索" class="headerlink" title="本地搜索"></a>本地搜索</h3><p>安装</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
 
 <p>编辑_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">path: search.xml</span><br><span class="line">field: post</span><br><span class="line">format: html</span><br><span class="line">limit: 10000</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line"><span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line"><span class="attr">field:</span> <span class="string">post</span></span><br><span class="line"><span class="attr">format:</span> <span class="string">html</span></span><br><span class="line"><span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure>
 
 <p>下面这里改成true</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="设置网站图标"><a href="#设置网站图标" class="headerlink" title="设置网站图标"></a>设置网站图标</h3><p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: /images/favicon.ico</span><br><span class="line">  medium: /images/favicon.ico</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">favicon:</span></span><br><span class="line">  <span class="attr">small:</span> <span class="string">/images/favicon.ico</span></span><br><span class="line">  <span class="attr">medium:</span> <span class="string">/images/favicon.ico</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
 
 <p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: true</span><br><span class="line">  item_text_total: true</span><br><span class="line">  item_text_post: true</span><br><span class="line">  symbols: true</span><br><span class="line">  time: true</span><br><span class="line">  total_symbols: true</span><br><span class="line">  total_time: true</span><br><span class="line">  exclude_codeblock: false</span><br><span class="line">  awl: 2</span><br><span class="line">  wpm: 300</span><br><span class="line">  suffix: &quot;分钟&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">2</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">300</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">&quot;分钟&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>直接显示字数1000，而不显示1k，修改node_modules\hexo-symbols-count-time\lib\helper.js，删除以下内容，大致在26-30行，站点总字数module.exports.symbolsCountTotal大致一样的改法</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if (symbolsResult &gt; 9999) &#123;</span><br><span class="line">  symbolsResult = Math.round(symbolsResult / 1000) + &#x27;k&#x27;; // &gt; 9999 =&gt; 11k</span><br><span class="line">&#125; else if (symbolsResult &gt; 999) &#123;</span><br><span class="line">  symbolsResult = Math.round(symbolsResult / 100) / 10 + &#x27;k&#x27;; // &gt; 999 =&gt; 1.1k</span><br><span class="line">&#125; // &lt; 999 =&gt; 111</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (symbolsResult &gt; <span class="number">9999</span>) &#123;</span><br><span class="line">  symbolsResult = <span class="title class_">Math</span>.<span class="title function_">round</span>(symbolsResult / <span class="number">1000</span>) + <span class="string">&#x27;k&#x27;</span>; <span class="comment">// &gt; 9999 =&gt; 11k</span></span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> (symbolsResult &gt; <span class="number">999</span>) &#123;</span><br><span class="line">  symbolsResult = <span class="title class_">Math</span>.<span class="title function_">round</span>(symbolsResult / <span class="number">100</span>) / <span class="number">10</span> + <span class="string">&#x27;k&#x27;</span>; <span class="comment">// &gt; 999 =&gt; 1.1k</span></span><br><span class="line">&#125; <span class="comment">// &lt; 999 =&gt; 111</span></span><br></pre></td></tr></table></figure>
 
 <p>修改后要hexo cl再hexo g才生效</p>
 <h3 id="使用github当评论系统的gitalk"><a href="#使用github当评论系统的gitalk" class="headerlink" title="使用github当评论系统的gitalk"></a>使用github当评论系统的gitalk</h3><p>要修改的是以下位置，client_开头的两个，要在<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>，申请后generate a new client secret后得到</p>
 <p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: true</span><br><span class="line">  github_id: 你的github账户名 # GitHub repo owner</span><br><span class="line">  repo: 你的Repository名 # Repository name to store issues</span><br><span class="line">  client_id: 你的id # GitHub Application Client ID</span><br><span class="line">  client_secret: 你的secret  # GitHub Application Client Secret</span><br><span class="line">  admin_user: 你的github账户名 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">github_id:</span> <span class="string">你的github账户名</span> <span class="comment"># GitHub repo owner</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">你的Repository名</span> <span class="comment"># Repository name to store issues</span></span><br><span class="line">  <span class="attr">client_id:</span> <span class="string">你的id</span> <span class="comment"># GitHub Application Client ID</span></span><br><span class="line">  <span class="attr">client_secret:</span> <span class="string">你的secret</span>  <span class="comment"># GitHub Application Client Secret</span></span><br><span class="line">  <span class="attr">admin_user:</span> <span class="string">你的github账户名</span> <span class="comment"># GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span></span><br></pre></td></tr></table></figure>
 
 <p>每篇文章要打开一下初始化，才能使用评论，有点麻烦</p>
 <h3 id="修改一些名词"><a href="#修改一些名词" class="headerlink" title="修改一些名词"></a>修改一些名词</h3><p>修改node_modules\hexo-theme-next\languages\zh-CN.yml</p>
 <p>可以把每页下面的“赞赏”和“请我一杯咖啡吧”换成别的话</p>
 <h3 id="版权信息"><a href="#版权信息" class="headerlink" title="版权信息"></a>版权信息</h3><p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">creative_commons:</span><br><span class="line">  license: by-nc-sa</span><br><span class="line">  size: small</span><br><span class="line">  sidebar: false</span><br><span class="line">  post: true</span><br><span class="line">  language:</span><br><span class="line">  - deed.zh-hans</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">creative_commons:</span></span><br><span class="line">  <span class="attr">license:</span> <span class="string">by-nc-sa</span></span><br><span class="line">  <span class="attr">size:</span> <span class="string">small</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">post:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">language:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">deed.zh-hans</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="网站建立时间"><a href="#网站建立时间" class="headerlink" title="网站建立时间"></a>网站建立时间</h3><p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">footer:</span><br><span class="line">  since: 2017</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">footer:</span></span><br><span class="line">  <span class="attr">since:</span> <span class="number">2017</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="文章目录设置"><a href="#文章目录设置" class="headerlink" title="文章目录设置"></a>文章目录设置</h3><p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">toc:</span><br><span class="line">  enable: true</span><br><span class="line">  number: true</span><br><span class="line">  wrap: true</span><br><span class="line">  expand_all: true</span><br><span class="line">  max_depth: 6</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="生成rss"><a href="#生成rss" class="headerlink" title="生成rss"></a>生成rss</h3><p>安装</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-feed</span><br></pre></td></tr></table></figure>
 
 <p>编辑hexo根目录下的_config.yml，不是主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">  enable: true</span><br><span class="line">  type: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  limit: 40</span><br><span class="line">  hub:</span><br><span class="line">  content:</span><br><span class="line">  content_limit: 140</span><br><span class="line">  content_limit_delim: &#x27; &#x27;</span><br><span class="line">  order_by: -date</span><br><span class="line">  icon: icon.png</span><br><span class="line">  autodiscovery: true</span><br><span class="line">  template:</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">40</span></span><br><span class="line">  <span class="attr">hub:</span></span><br><span class="line">  <span class="attr">content:</span></span><br><span class="line">  <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">icon.png</span></span><br><span class="line">  <span class="attr">autodiscovery:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">template:</span></span><br></pre></td></tr></table></figure>
 
 <p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">follow_me:</span><br><span class="line">  RSS: /atom.xml || fa fa-rss</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">follow_me:</span></span><br><span class="line">  <span class="attr">RSS:</span> <span class="string">/atom.xml</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-rss</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="删除每篇文章的buy-me-a-coffee，只保留按钮"><a href="#删除每篇文章的buy-me-a-coffee，只保留按钮" class="headerlink" title="删除每篇文章的buy me a coffee，只保留按钮"></a>删除每篇文章的buy me a coffee，只保留按钮</h3><p>删掉node_modules\hexo-theme-next\layout\_partials\post\post-reward.njk的第二行</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;&#123;&#123; __(&#x27;reward.comment&#x27;) &#125;&#125;&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="添加友情链接"><a href="#添加友情链接" class="headerlink" title="添加友情链接"></a>添加友情链接</h3><p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">links_settings:</span><br><span class="line">  icon: fa fa-globe</span><br><span class="line">  # Available values: block | inline</span><br><span class="line">  layout: block</span><br><span class="line"></span><br><span class="line">links:</span><br><span class="line">  #Title: https://example.com</span><br><span class="line">  我的项目: https://example.com</span><br><span class="line">  吉他和弦生成: /guitar</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">links_settings:</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">fa</span> <span class="string">fa-globe</span></span><br><span class="line">  <span class="comment"># Available values: block | inline</span></span><br><span class="line">  <span class="attr">layout:</span> <span class="string">block</span></span><br><span class="line"></span><br><span class="line"><span class="attr">links:</span></span><br><span class="line">  <span class="comment">#Title: https://example.com</span></span><br><span class="line">  <span class="string">我的项目:</span> <span class="string">https://example.com</span></span><br><span class="line">  <span class="string">吉他和弦生成:</span> <span class="string">/guitar</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="主页不显示每篇文章最后的阅读全文按钮"><a href="#主页不显示每篇文章最后的阅读全文按钮" class="headerlink" title="主页不显示每篇文章最后的阅读全文按钮"></a>主页不显示每篇文章最后的阅读全文按钮</h3><p>编辑主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">read_more_btn: false</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">read_more_btn:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="生成sitemap"><a href="#生成sitemap" class="headerlink" title="生成sitemap"></a>生成sitemap</h3><p>安装</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
 
 <p>编辑hexo根目录下的_config.yml，不是主题的_config.yml</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="主页的文章标题加粗"><a href="#主页的文章标题加粗" class="headerlink" title="主页的文章标题加粗"></a>主页的文章标题加粗</h3><p>删除node_modules\hexo-theme-next\source\css\_common\components\post\post-header.styl的第9行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">font-weight: normal;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="attribute">font-weight</span>: normal;</span><br></pre></td></tr></table></figure>
 
 <h3 id="mist风格时主页显示每篇文章的分隔线"><a href="#mist风格时主页显示每篇文章的分隔线" class="headerlink" title="mist风格时主页显示每篇文章的分隔线"></a>mist风格时主页显示每篇文章的分隔线</h3><p>node_modules\hexo-theme-next\source\css_schemes\Mist\_posts-expand.styl删除26-28行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.post-eof &#123;</span><br><span class="line">  display: none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.post-eof</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>修改分隔线风格像是其他线一样断续的风格</p>
 <p>node_modules\hexo-theme-next\source\css\_common\components\post\post-footer.styl的第10行.post-eof {下修改成以下内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 4px, transparent 4px, transparent 8px);</span><br><span class="line">border: 0;</span><br><span class="line">height: 3px;</span><br><span class="line">margin: 40px 0;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="attribute">background-image</span>: <span class="built_in">repeating-linear-gradient</span>(-<span class="number">45deg</span>, <span class="number">#ddd</span>, <span class="number">#ddd</span> <span class="number">4px</span>, transparent <span class="number">4px</span>, transparent <span class="number">8px</span>);</span><br><span class="line"><span class="attribute">border</span>: <span class="number">0</span>;</span><br><span class="line"><span class="attribute">height</span>: <span class="number">3px</span>;</span><br><span class="line"><span class="attribute">margin</span>: <span class="number">40px</span> <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
 
 <h3 id="设置图片大小"><a href="#设置图片大小" class="headerlink" title="设置图片大小"></a>设置图片大小</h3><p>直接写html代码，比如原来的写法是</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![支付宝](/images/alipay.png)</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">支付宝</span>](<span class="link">/images/alipay.png</span>)</span><br></pre></td></tr></table></figure>
 
 <p>可以写成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;img src=&quot;/images/alipay.png&quot; alt=&quot;支付宝&quot; width=&quot;200&quot; height=&quot;200&quot;/&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;/images/alipay.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;支付宝&quot;</span> <span class="attr">width</span>=<span class="string">&quot;200&quot;</span> <span class="attr">height</span>=<span class="string">&quot;200&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="创建404界面"><a href="#创建404界面" class="headerlink" title="创建404界面"></a>创建404界面</h3><p>在source文件夹下新建404.md</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404 Not Found</span><br><span class="line">date: 2024-03-04 13:50:11</span><br><span class="line">tags:</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">页面不存在或者已删除</span><br><span class="line">[点击返回首页](https://andi.wang)</span><br><span class="line">[我的github](https://github.com/wangandi520)</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404 Not Found</span><br><span class="line">date: 2024-03-04 13:50:11</span><br><span class="line"><span class="section">tags:</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">页面不存在或者已删除</span><br><span class="line">[<span class="string">点击返回首页</span>](<span class="link">https://andi.wang</span>)</span><br><span class="line">[<span class="string">我的github</span>](<span class="link">https://github.com/wangandi520</span>)</span><br></pre></td></tr></table></figure>
 
 <h3 id="设置description"><a href="#设置description" class="headerlink" title="设置description"></a>设置description</h3><p>编辑hexo根目录下的_config.yml，不是主题的_config.yml，类似签名一样的话</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">description: 如果我会发光，就不必害怕黑暗。</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">description:</span> <span class="string">如果我会发光，就不必害怕黑暗。</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="点击头像能返回首页"><a href="#点击头像能返回首页" class="headerlink" title="点击头像能返回首页"></a>点击头像能返回首页</h3><p>修改node_modules\hexo-theme-next\layout\_partials\sidebar\site-overview.njk</p>
 <p>第3，4行</p>
@@ -812,7 +812,11 @@
 
 <h3 id="文章目录不显示友情链接"><a href="#文章目录不显示友情链接" class="headerlink" title="文章目录不显示友情链接"></a>文章目录不显示友情链接</h3><p>修改node_modules\hexo-theme-next\layout\_macro\sidebar.njk</p>
 <p>把42-59行剪切到第30行的下面，修改后的30-32行是这样</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">       &#123;&#123;- next_inject(&#x27;sidebar&#x27;) &#125;&#125;</span><br><span class="line">     &#123;# Blogroll #&#125;</span><br><span class="line">&#123;%- if theme.links %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;&#123;- next_inject(&#x27;sidebar&#x27;) &#125;&#125;</span><br><span class="line">&#123;# Blogroll #&#125;</span><br><span class="line">&#123;%- if theme.links %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="代码块右边增加复制按钮"><a href="#代码块右边增加复制按钮" class="headerlink" title="代码块右边增加复制按钮"></a>代码块右边增加复制按钮</h3><p>编辑主题的_config.yml</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">copy_button:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
 <h2 id="next主题的bug和不足"><a href="#next主题的bug和不足" class="headerlink" title="next主题的bug和不足"></a>next主题的bug和不足</h2><p>gemini风格，手机端浏览时没法显示文章目录，电脑端窗口缩窄也是一样</p>
 ]]></content>
       <categories>
@@ -820,6 +824,19 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>吉他翻弹.Speak softly love/The Godfather</title>
+    <url>/2017/03/23/speaksoftlylove/</url>
+    <content><![CDATA[<p>拍摄：尼康D610外录<br>吉他：无牌古典吉他<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> ]]></content>
+      <categories>
+        <category>吉他</category>
+      </categories>
+      <tags>
+        <tag>吉他</tag>
+        <tag>指弹</tag>
       </tags>
   </entry>
   <entry>
@@ -928,19 +945,6 @@
       <tags>
         <tag>程序</tag>
         <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>吉他翻弹.Speak softly love/The Godfather</title>
-    <url>/2017/03/23/speaksoftlylove/</url>
-    <content><![CDATA[<p>拍摄：尼康D610外录<br>吉他：无牌古典吉他<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
-<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> ]]></content>
-      <categories>
-        <category>吉他</category>
-      </categories>
-      <tags>
-        <tag>吉他</tag>
-        <tag>指弹</tag>
       </tags>
   </entry>
   <entry>
@@ -1357,6 +1361,42 @@
         <tag>标注</tag>
         <tag>读书笔记</tag>
         <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中文日文注音使用html上标注音格式</title>
+    <url>/2024/02/18/%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87%E6%B3%A8%E9%9F%B3%E4%BD%BF%E7%94%A8html%E4%B8%8A%E6%A0%87%E6%B3%A8%E9%9F%B3%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<hr>
+<h2 id="脚本地址"><a href="#脚本地址" class="headerlink" title="脚本地址"></a>脚本地址</h2><p><a href="https://github.com/wangandi520/andyspythonscript">https://github.com/wangandi520/andyspythonscript</a></p>
+<span id="more"></span>
+
+<h2 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h2><p>需要pip install pypinyin pykakasi</p>
+<p>中文可以设置成仅注音生僻字</p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p><a href="https://andi.wang/2017/01/09/%E6%AD%8C%E8%AF%8D/">https://andi.wang/2017/01/09/歌词/</a></p>
+<h2 id="转换前后对比"><a href="#转换前后对比" class="headerlink" title="转换前后对比"></a>转换前后对比</h2><h3 id="中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py"><a href="#中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py" class="headerlink" title="中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py"></a>中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</h3><blockquote>
+<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。</p>
+</blockquote>
+<blockquote>
+<p><ruby>北<rt>běi</rt>冥<rt>míng</rt>有<rt>yǒu</rt>鱼<rt>yú</rt>，<rt></rt>其<rt>qí</rt>名<rt>míng</rt>为<rt>wèi</rt>鲲<rt>kūn</rt>。<rt></rt>鲲<rt>kūn</rt>之<rt>zhī</rt>大<rt>dà</rt>，<rt></rt>不<rt>bù</rt>知<rt>zhī</rt>其<rt>qí</rt>几<rt>jǐ</rt>千<rt>qiān</rt>里<rt>lǐ</rt>也<rt>yě</rt>；<rt></rt>化<rt>huà</rt>而<rt>ér</rt>为<rt>wèi</rt>鸟<rt>niǎo</rt>，<rt></rt>其<rt>qí</rt>名<rt>míng</rt>为<rt>wèi</rt>鹏<rt>péng</rt>。<rt></rt>鹏<rt>péng</rt>之<rt>zhī</rt>背<rt>bèi</rt>，<rt></rt>不<rt>bù</rt>知<rt>zhī</rt>其<rt>qí</rt>几<rt>jǐ</rt>千<rt>qiān</rt>里<rt>lǐ</rt>也<rt>yě</rt>；<rt></rt>怒<rt>nù</rt>而<rt>ér</rt>飞<rt>fēi</rt>，<rt></rt>其<rt>qí</rt>翼<rt>yì</rt>若<rt>ruò</rt>垂<rt>chuí</rt>天<rt>tiān</rt>之<rt>zhī</rt>云<rt>yún</rt>。</ruby></p>
+</blockquote>
+<h3 id="日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py"><a href="#日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py" class="headerlink" title="日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py"></a>日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</h3><blockquote>
+<p>冷たい雨が降りはじめて<br>街を闇に浸してく<br>ガラスを滑る雫は</p>
+</blockquote>
+<blockquote>
+<p><ruby>冷た<rt>つめ</rt>た<rt></rt>い<rt></rt>雨<rt>あめ</rt>が<rt></rt>は<rt></rt>じ<rt></rt>め<rt></rt>て<rt></rt></ruby><br><ruby>街<rt>まち</rt>を<rt></rt>闇<rt>やみ</rt>に<rt></rt>浸<rt>ひた</rt>し<rt></rt>て<rt></rt>く<rt></rt></ruby><br><ruby>ガ<rt></rt>ラ<rt></rt>ス<rt></rt>を<rt></rt>滑<rt>すべ</rt>る<rt></rt>雫<rt>しずく</rt>は<rt></rt></ruby></p>
+</blockquote>
+<h3 id="日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py"><a href="#日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py" class="headerlink" title="日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py"></a>日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</h3><blockquote>
+<p>まるで流星(りゅうせい)のようね<br>ゆるやかに流(なが)れるひと時(とき)<br>あなたをしのんで</p>
+</blockquote>
+<blockquote>
+<p><ruby>ま<rt></rt>る<rt></rt>で<rt></rt>流星<rt>りゅうせい</rt><rt></rt>の<rt></rt>よ<rt></rt>う<rt></rt>ね<rt></rt></ruby><br><ruby>ゆ<rt></rt>る<rt></rt>や<rt></rt>か<rt></rt>に<rt></rt>流<rt>なが</rt><rt></rt>れ<rt></rt>る<rt></rt>ひ<rt></rt>と<rt></rt>時<rt>とき</rt><rt></rt></ruby><br>あなたをしのんで</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -3417,42 +3457,6 @@
         <tag>标注</tag>
         <tag>读书笔记</tag>
         <tag>钱穆</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中文日文注音使用html上标注音格式</title>
-    <url>/2024/02/18/%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87%E6%B3%A8%E9%9F%B3%E4%BD%BF%E7%94%A8html%E4%B8%8A%E6%A0%87%E6%B3%A8%E9%9F%B3%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<hr>
-<h2 id="脚本地址"><a href="#脚本地址" class="headerlink" title="脚本地址"></a>脚本地址</h2><p><a href="https://github.com/wangandi520/andyspythonscript">https://github.com/wangandi520/andyspythonscript</a></p>
-<span id="more"></span>
-
-<h2 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h2><p>需要pip install pypinyin pykakasi</p>
-<p>中文可以设置成仅注音生僻字</p>
-<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p><a href="https://andi.wang/2017/01/09/%E6%AD%8C%E8%AF%8D/">https://andi.wang/2017/01/09/歌词/</a></p>
-<h2 id="转换前后对比"><a href="#转换前后对比" class="headerlink" title="转换前后对比"></a>转换前后对比</h2><h3 id="中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py"><a href="#中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py" class="headerlink" title="中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py"></a>中文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</h3><blockquote>
-<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。</p>
-</blockquote>
-<blockquote>
-<p><ruby>北<rt>běi</rt>冥<rt>míng</rt>有<rt>yǒu</rt>鱼<rt>yú</rt>，<rt></rt>其<rt>qí</rt>名<rt>míng</rt>为<rt>wèi</rt>鲲<rt>kūn</rt>。<rt></rt>鲲<rt>kūn</rt>之<rt>zhī</rt>大<rt>dà</rt>，<rt></rt>不<rt>bù</rt>知<rt>zhī</rt>其<rt>qí</rt>几<rt>jǐ</rt>千<rt>qiān</rt>里<rt>lǐ</rt>也<rt>yě</rt>；<rt></rt>化<rt>huà</rt>而<rt>ér</rt>为<rt>wèi</rt>鸟<rt>niǎo</rt>，<rt></rt>其<rt>qí</rt>名<rt>míng</rt>为<rt>wèi</rt>鹏<rt>péng</rt>。<rt></rt>鹏<rt>péng</rt>之<rt>zhī</rt>背<rt>bèi</rt>，<rt></rt>不<rt>bù</rt>知<rt>zhī</rt>其<rt>qí</rt>几<rt>jǐ</rt>千<rt>qiān</rt>里<rt>lǐ</rt>也<rt>yě</rt>；<rt></rt>怒<rt>nù</rt>而<rt>ér</rt>飞<rt>fēi</rt>，<rt></rt>其<rt>qí</rt>翼<rt>yì</rt>若<rt>ruò</rt>垂<rt>chuí</rt>天<rt>tiān</rt>之<rt>zhī</rt>云<rt>yún</rt>。</ruby></p>
-</blockquote>
-<h3 id="日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py"><a href="#日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py" class="headerlink" title="日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py"></a>日文注音使用html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</h3><blockquote>
-<p>冷たい雨が降りはじめて<br>街を闇に浸してく<br>ガラスを滑る雫は</p>
-</blockquote>
-<blockquote>
-<p><ruby>冷た<rt>つめ</rt>た<rt></rt>い<rt></rt>雨<rt>あめ</rt>が<rt></rt>は<rt></rt>じ<rt></rt>め<rt></rt>て<rt></rt></ruby><br><ruby>街<rt>まち</rt>を<rt></rt>闇<rt>やみ</rt>に<rt></rt>浸<rt>ひた</rt>し<rt></rt>て<rt></rt>く<rt></rt></ruby><br><ruby>ガ<rt></rt>ラ<rt></rt>ス<rt></rt>を<rt></rt>滑<rt>すべ</rt>る<rt></rt>雫<rt>しずく</rt>は<rt></rt></ruby></p>
-</blockquote>
-<h3 id="日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py"><a href="#日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）-py" class="headerlink" title="日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py"></a>日文平假名括号注音转换成html上标注音格式ruby和rt（拖拽，递归，多个文件或文件夹）.py</h3><blockquote>
-<p>まるで流星(りゅうせい)のようね<br>ゆるやかに流(なが)れるひと時(とき)<br>あなたをしのんで</p>
-</blockquote>
-<blockquote>
-<p><ruby>ま<rt></rt>る<rt></rt>で<rt></rt>流星<rt>りゅうせい</rt><rt></rt>の<rt></rt>よ<rt></rt>う<rt></rt>ね<rt></rt></ruby><br><ruby>ゆ<rt></rt>る<rt></rt>や<rt></rt>か<rt></rt>に<rt></rt>流<rt>なが</rt><rt></rt>れ<rt></rt>る<rt></rt>ひ<rt></rt>と<rt></rt>時<rt>とき</rt><rt></rt></ruby><br>あなたをしのんで</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -15356,33 +15360,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用github的action配合python每天签到</title>
-    <url>/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</url>
-    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
-<span id="more"></span>
-
-<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）</p>
-<p>在github的项目界面，点Actions，Skip this and set up a workflow yourself </p>
-<p>复制下面的代码后，右上角commit changes</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
-
-<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a href="https://crontab.guru/">https://crontab.guru/</a></p>
-<p>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。</p>
-<p>要运行两个以上的脚本，就把9到20行再复制一遍，任务名要改。</p>
-<p>几个python签到脚本例子：</p>
-<p><a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
-<p><a href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
-<p>Actions里没有东西，可能需要push一次才能更新。</p>
-<p>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>几个PyQt程序</title>
     <url>/2022/03/19/%E5%87%A0%E4%B8%AAPyQt%E7%A8%8B%E5%BA%8F/</url>
     <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>源代码：<a href="https://github.com/wangandi520/andyspyqtscript">https://github.com/wangandi520/andyspyqtscript</a></p>
@@ -15438,6 +15415,33 @@
       <tags>
         <tag>python</tag>
         <tag>Qt</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用github的action配合python每天签到</title>
+    <url>/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</url>
+    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
+<span id="more"></span>
+
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）</p>
+<p>在github的项目界面，点Actions，Skip this and set up a workflow yourself </p>
+<p>复制下面的代码后，右上角commit changes</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
+
+<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a href="https://crontab.guru/">https://crontab.guru/</a></p>
+<p>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。</p>
+<p>要运行两个以上的脚本，就把9到20行再复制一遍，任务名要改。</p>
+<p>几个python签到脚本例子：</p>
+<p><a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
+<p><a href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
+<p>Actions里没有东西，可能需要push一次才能更新。</p>
+<p>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -15642,6 +15646,29 @@
       </tags>
   </entry>
   <entry>
+    <title>小米14的一些bug</title>
+    <url>/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</url>
+    <content><![CDATA[<hr>
+<h2 id="小米14的一些bug"><a href="#小米14的一些bug" class="headerlink" title="小米14的一些bug"></a>小米14的一些bug</h2><p>说明：手机没使用手机搬家，app都是在小米商店或google play下载，apk都通过在线杀毒，没安装乱七八糟的app，路由器正常且网络通畅。</p>
+<span id="more"></span>
+
+<p><strong>HyperOS版本1.0.19.0.UNCCNXM</strong></p>
+<p>1.微信的XX小程序里，点击任何地方都没反应，在任务列表里删掉XX小程序再进就能用了。<br>2.微信小程序列表里进XX小程序，闪一下马山切回到小程序列表，进不去小程序，在任务列表里删掉XX小程序再进就能用了。<br>3.没装任何乱七八糟的app的情况下（装的都是些知名的app，都在小米商店或google play下载的），出现过一次安装迅游加速器的提示。<br>4.应用商店偶尔下载速度非常慢，路由和网速都没问题的情况下。<br>5.在任务列表结束app的时候，会有两个app界面叠在一起的情况。</p>
+<p><strong>HyperOS版本1.0.26.0.UNCCNXM</strong></p>
+<p>6.没更新自带浏览器的情况下，关闭了浏览器通知，过几天会自动打开。<br>7.看b站视频偶尔花屏，同视频电脑看没问题。<br>8.自带的应用商店更新app的时候会自动暂停，点继续后马上又暂停。<br>9.连接车载蓝牙的时候，自动播放音乐，会突然很大音量马上又变正常音量，别的手机连接没问题。</p>
+<p><strong>HyperOS版本1.0.28.0.UNCCNXM</strong></p>
+<p>10.点击桌面的app都没反应，重启后可以解决。</p>
+<p><strong>HyperOS版本1.0.31.0.UNCCNXM</strong></p>
+<p>11.上滑多任务界面，小程序的缩略图会和前面一个app的图一样</p>
+]]></content>
+      <categories>
+        <category>评测</category>
+      </categories>
+      <tags>
+        <tag>评测</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>吉他和弦图查询与生成</title>
     <url>/2021/03/15/%E5%90%89%E4%BB%96%E5%92%8C%E5%BC%A6%E5%9B%BE%E6%9F%A5%E8%AF%A2%E4%B8%8E%E7%94%9F%E6%88%90/</url>
     <content><![CDATA[<hr>
@@ -15670,57 +15697,6 @@
       </categories>
       <tags>
         <tag>吉他</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小米14的一些bug</title>
-    <url>/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</url>
-    <content><![CDATA[<hr>
-<h2 id="小米14的一些bug"><a href="#小米14的一些bug" class="headerlink" title="小米14的一些bug"></a>小米14的一些bug</h2><p>说明：手机没使用手机搬家，app都是在小米商店或google play下载，apk都通过在线杀毒，没安装乱七八糟的app，路由器正常且网络通畅。</p>
-<span id="more"></span>
-
-<p><strong>HyperOS版本1.0.19.0.UNCCNXM</strong></p>
-<p>1.微信的XX小程序里，点击任何地方都没反应，在任务列表里删掉XX小程序再进就能用了。<br>2.微信小程序列表里进XX小程序，闪一下马山切回到小程序列表，进不去小程序，在任务列表里删掉XX小程序再进就能用了。<br>3.没装任何乱七八糟的app的情况下（装的都是些知名的app，都在小米商店或google play下载的），出现过一次安装迅游加速器的提示。<br>4.应用商店偶尔下载速度非常慢，路由和网速都没问题的情况下。<br>5.在任务列表结束app的时候，会有两个app界面叠在一起的情况。</p>
-<p><strong>HyperOS版本1.0.26.0.UNCCNXM</strong></p>
-<p>6.没更新自带浏览器的情况下，关闭了浏览器通知，过几天会自动打开。<br>7.看b站视频偶尔花屏，同视频电脑看没问题。<br>8.自带的应用商店更新app的时候会自动暂停，点继续后马上又暂停。<br>9.连接车载蓝牙的时候，自动播放音乐，会突然很大音量马上又变正常音量，别的手机连接没问题。</p>
-<p><strong>HyperOS版本1.0.28.0.UNCCNXM</strong></p>
-<p>10.点击桌面的app都没反应，重启后可以解决。</p>
-<p><strong>HyperOS版本1.0.31.0.UNCCNXM</strong></p>
-<p>11.上滑多任务界面，小程序的缩略图会和前面一个app的图一样</p>
-]]></content>
-      <categories>
-        <category>评测</category>
-      </categories>
-      <tags>
-        <tag>评测</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>快速上手羽毛球弹弓</title>
-    <url>/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/</url>
-    <content><![CDATA[<p>几个关键技巧。</p>
-<hr>
-<span id="more"></span>
-
-
-<h2 id="羽毛球"><a href="#羽毛球" class="headerlink" title="羽毛球"></a>羽毛球</h2><p>几个要点：<br>1.关注手腕的力。<br>2.身体的转动：不是任何时候都适用。高远球是以自己身体中线，右手拿拍，打球的时候身体偏向右侧，打的时候右侧身体向前，形成一个转动。<br>3.球拍的转动：不是任何时候都适用。不用拍的正中间击打球，用左或右，也就是球飞过来时，你的拍面是向左或右，击打时加上旋转的力更容易发力。<br>4.握拍姿势：手心不要完全握紧拍柄，留一定空隙，整个网面的切面对齐到手的虎口的位置，图：</p>
-<p><img src="/images/shengqian08.jpg" alt="握拍姿势"></p>
-<hr>
-<h2 id="弹弓"><a href="#弹弓" class="headerlink" title="弹弓"></a>弹弓</h2><p>使用扁皮筋，瞄准时上下皮筋重合到一条线，可以垂直（下图1）也可以倾斜（下图2）。<br>短拉来说，弓要垂直（就是弓的平板垂直地面，弓与皮筋连接的两个点，到你右手的距离一样），右手拇指顶到颧骨，重点是记住这个位置。<br>确定左手的高度，可以右手固定好位置，左手拿弓靠近右手，看哪个位置右手弹丸在弹弓正中间射出。<br>靶子在你的皮筋的那条线上，距离越远，弓要越往上抬。</p>
-<h3 id="矫正高度"><a href="#矫正高度" class="headerlink" title="矫正高度"></a>矫正高度</h3><p>横握容易理解，泥丸打的高了，你的瞄点就降低点。<br>斜握如果打的高了，降低的瞄点应该在皮筋的斜线，还是垂直地面的线，目前测试应该是垂直地面的线，待确定。<br>如果横卧时瞄点在靶子下方，斜卧是就要在右下方，待确定。</p>
-<h3 id="两种姿势"><a href="#两种姿势" class="headerlink" title="两种姿势"></a>两种姿势</h3><p>横握瞄打，头偏的角度会影响精准度，要找到一个固定的位置。<br>斜握的优势是不用歪着头瞄准。</p>
-<h3 id="弓门和皮筋长度"><a href="#弓门和皮筋长度" class="headerlink" title="弓门和皮筋长度"></a>弓门和皮筋长度</h3><p>正常外弓门（弹弓宽处）80mm，换成75mm的弹弓，瞄点要往下调整。</p>
-<p>换成更短的皮筋，瞄点要往下调整。</p>
-<p><img src="/images/shengqian09.jpg" alt="横握瞄打"></p>
-<p><img src="/images/shengqian10.jpg" alt="斜握瞄打"></p>
-<hr>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>羽毛球</tag>
-        <tag>弹弓</tag>
       </tags>
   </entry>
   <entry>
@@ -15859,6 +15835,34 @@
         <tag>标注</tag>
         <tag>读书笔记</tag>
         <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>快速上手羽毛球弹弓</title>
+    <url>/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/</url>
+    <content><![CDATA[<p>几个关键技巧。</p>
+<hr>
+<span id="more"></span>
+
+
+<h2 id="羽毛球"><a href="#羽毛球" class="headerlink" title="羽毛球"></a>羽毛球</h2><p>几个要点：<br>1.关注手腕的力。<br>2.身体的转动：不是任何时候都适用。高远球是以自己身体中线，右手拿拍，打球的时候身体偏向右侧，打的时候右侧身体向前，形成一个转动。<br>3.球拍的转动：不是任何时候都适用。不用拍的正中间击打球，用左或右，也就是球飞过来时，你的拍面是向左或右，击打时加上旋转的力更容易发力。<br>4.握拍姿势：手心不要完全握紧拍柄，留一定空隙，整个网面的切面对齐到手的虎口的位置，图：</p>
+<p><img src="/images/shengqian08.jpg" alt="握拍姿势"></p>
+<hr>
+<h2 id="弹弓"><a href="#弹弓" class="headerlink" title="弹弓"></a>弹弓</h2><p>使用扁皮筋，瞄准时上下皮筋重合到一条线，可以垂直（下图1）也可以倾斜（下图2）。<br>短拉来说，弓要垂直（就是弓的平板垂直地面，弓与皮筋连接的两个点，到你右手的距离一样），右手拇指顶到颧骨，重点是记住这个位置。<br>确定左手的高度，可以右手固定好位置，左手拿弓靠近右手，看哪个位置右手弹丸在弹弓正中间射出。<br>靶子在你的皮筋的那条线上，距离越远，弓要越往上抬。</p>
+<h3 id="矫正高度"><a href="#矫正高度" class="headerlink" title="矫正高度"></a>矫正高度</h3><p>横握容易理解，泥丸打的高了，你的瞄点就降低点。<br>斜握如果打的高了，降低的瞄点应该在皮筋的斜线，还是垂直地面的线，目前测试应该是垂直地面的线，待确定。<br>如果横卧时瞄点在靶子下方，斜卧是就要在右下方，待确定。</p>
+<h3 id="两种姿势"><a href="#两种姿势" class="headerlink" title="两种姿势"></a>两种姿势</h3><p>横握瞄打，头偏的角度会影响精准度，要找到一个固定的位置。<br>斜握的优势是不用歪着头瞄准。</p>
+<h3 id="弓门和皮筋长度"><a href="#弓门和皮筋长度" class="headerlink" title="弓门和皮筋长度"></a>弓门和皮筋长度</h3><p>正常外弓门（弹弓宽处）80mm，换成75mm的弹弓，瞄点要往下调整。</p>
+<p>换成更短的皮筋，瞄点要往下调整。</p>
+<p><img src="/images/shengqian09.jpg" alt="横握瞄打"></p>
+<p><img src="/images/shengqian10.jpg" alt="斜握瞄打"></p>
+<hr>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>羽毛球</tag>
+        <tag>弹弓</tag>
       </tags>
   </entry>
   <entry>
@@ -16075,6 +16079,56 @@
       </tags>
   </entry>
   <entry>
+    <title>文石boox poke pro评测体验</title>
+    <url>/2019/03/29/%E6%96%87%E7%9F%B3boox%20poke%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
+    <content><![CDATA[<hr>
+<p>更新这篇文章时，有的bug修复的，有的没修复。</p>
+<hr>
+<p>系统问题多多，4个月不更新一次固件，给客服发邮件也不回复。下面写的bug一直没修复。<br>kpw，poke pro都给7分吧。电子书这行业还是不思进取</p>
+<span id="more"></span>
+
+<h2 id="2-1版仍存在的bug，旧的重复的也写了："><a href="#2-1版仍存在的bug，旧的重复的也写了：" class="headerlink" title="2.1版仍存在的bug，旧的重复的也写了："></a>2.1版仍存在的bug，旧的重复的也写了：</h2><p>1.看书时，右上角书签不能隐藏<br>2.每本书右上角的进度图标的最下面，尖头末端被削掉了<br>3.应用界面右上角的三个杠粗细不同<br>4.音乐图标分辨率明显比其他的低<br>5.列表视图行距太大，和封面视图比，没有意义，一般都为了多显示几本书才用列表<br>6.标注的分割是———，不是同样的横杠<br>7.选中的字词没法调用其他自己安装的词典app<br>8.不支持思源宋体，行距极大，<a href="https://github.com/adobe-fonts/source-han-serif">https://github.com/adobe-fonts/source-han-serif</a><br>9.浏览器上传文件，点击内存的文件后浏览器闪退  </p>
+<hr>
+<h2 id="下面都是2-0版的"><a href="#下面都是2-0版的" class="headerlink" title="下面都是2.0版的"></a>下面都是2.0版的</h2><p>新增问题：<br>1.右上角的灯的图标，开灯时图标是黑的，关灯是白的，但是图标还是亮灯的样子（有5条光线），无伤大雅但感觉不用心。<br>2.每条标注的分割是———，不是同样的横杠，感觉不像是故意弄的。标注连日期都没有，就一个毫无意义的页数。<br>3.刚增加列表视图。封面视图显示6本书，列表视图只有5本，觉得用列表视图的就是想多显示几本书吧。<br>4.设置里的显示书名代替文件名，对书库的历史阅读没用。<br>5.自带浏览器的标签栏太大，希望优化。<br>6.sha1不同的几本书，封面，书名，文件名一样，旧的删掉后添加新的，外面的文件夹会显示2个封面，但实际只有一本书。7.标注的句子没法导出。<br>8.选中的字词没法调用其他自己安装的词典app。</p>
+<p>感觉好像文石好像刚做电纸书没多久一样，各种小问题，难道每个机型的自带阅读app差别很大，要分别制作？</p>
+<hr>
+<h2 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h2><p>1.poke pro尺寸比kpw3小一圈，轻20多克，清晰度不相上下。<br>2.安卓6.0，可以装其他阅读app。装了微信阅读，多看阅读和kindle阅读，都正常使用，多看要设置下背景和字体颜色。kindle阅读app的翻页速度比kpw3稍慢点。kindle和微信页边距都很宽，亚马逊客服也说暂时不会又更小边距。<br>3.支持蓝牙翻页，自带阅读器和多看，kindle阅读都可以使用，懒人福利。<br>4.系统还算用心，wifi传书，自带应用市场app丰富（里面还有hipida客户端，可以开启eink模式）。看到可以装谷歌套件，可玩性估计还挺高。<br>5.自带阅读器不错，边距可以调到几乎是0，比kindle多重边框舒服。支持mobi和azw3，感觉基本不用折腾别的app了。<br>6.pdf优化不错，毛边都平滑了。<br>7.应用市场多了个混合调光app，还是在慢慢进步的。</p>
+<h2 id="几个小问题："><a href="#几个小问题：" class="headerlink" title="几个小问题："></a>几个小问题：</h2><p>1.系统有些小bug，像点击复制，删除一个其他文件，粘贴就失效了。<br>2.试过一次电池突然变成0，显示要充电，重启又有电了。再观察下。<br>3.boox商标下的按钮有点丑，干脆做成商标+按键二合一多好。直接贴了贴纸解决。<br>4.不支持同一epub内的多字体。思源宋体用不了，行距极大。自带阅读器的字体好像是每本书不同的，没法全局设置，有好有坏吧。<br>5.kindle阅读有时会翻页失效和死机。<br>6.电源管理里看不到每个app的耗电，一晚掉电30%，没法对症下药。<br>7.电源键突出，很容易误按，几次重启估计就是碰到了。<br>8.用蓝牙手柄翻页，会自动睡眠，估计蓝牙翻页的动作没算成自己的操作。（好像已解决）</p>
+<h2 id="几个建议："><a href="#几个建议：" class="headerlink" title="几个建议："></a>几个建议：</h2><p>增加列表视图（已解决，但只显示5本书，比封面视图还少）<br>标注可以合成一个文件，方便导出增加点击左侧翻下一页的选项（已解决，应用设置里，触控区域设置里可以改）</p>
+]]></content>
+      <categories>
+        <category>评测</category>
+      </categories>
+      <tags>
+        <tag>评测</tag>
+        <tag>文石</tag>
+        <tag>电纸书</tag>
+        <tag>boox</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文石poke pro,nova pro评测体验</title>
+    <url>/2019/03/29/%E6%96%87%E7%9F%B3poke%20pro,nova%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
+    <content><![CDATA[<hr>
+<h2 id="2-2-1的几个bug："><a href="#2-2-1的几个bug：" class="headerlink" title="2.2.1的几个bug："></a>2.2.1的几个bug：</h2><p>1.每次重启都会打开悬浮球。<br>2.单独优化应用要去悬浮球里，dpi设置没法手动输入必须拖动。<br>3.应用冻结里少了很多应用，只有6个。<br>4.导出笔记，只显示最低级的标题，像是第一章这种。这个文件是几本书的合集，没显示出是哪本书的第一章。</p>
+<hr>
+<span id="more"></span>
+
+<h2 id="先说说几点优点："><a href="#先说说几点优点：" class="headerlink" title="先说说几点优点："></a>先说说几点优点：</h2><p>1.自带阅读器看pdf很舒服，裁边智能，打开很快，500多mb的文件大概2，3秒。<br>2.平时读书功能没啥槽点，epub，azw3都能打开，标注导出也还算方便。<br>3.手写笔记可以连接到onenote和印象笔记账号，以pdf格式同步过去。<br>4.bilibili漫画很舒服。</p>
+<h2 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h2><p>1.固件基本好几个月更新一次，上次是4个月，这次5个月还没更新。自带应用市场的app更是从来没更新过。估计文石的策略就是发了新设备就不怎么管旧设备了。<br>2.同步功能不确定好不好用。像是静读天下专业版的webdav方式就很舒服，进度和标注分开，每本书分开，哪本书什么时间同步的一目了然。<br>3.不支持epub的内置字体。<br>4.epub的注释不能弹窗显示，要点击后跳转过去，再自己点跳转回来。<br>5.没装任何新app，没改任何设置，有时候会突然一晚耗完电。<br>6.wifi传书进去还算方便，传标注之类的文件出来费点事得自己装别的app。<br>7.google play每次用都要登录，人的操作应该没问题，其他手机都装了google play正常用。<br>8.只支持pdf的书手写，其他的支持旁注，不能直接写在文字上。<br>9.试了typec接口不支持耳机。<br>10.有人说微信读书时长不增加，确实试过。不过不推荐微信读书，纸质书都没事微信就自带各种和谐**<br>11.手写导出后锯齿感略重，问题也不大。</p>
+<p>建议就是文石的工程师参照静读天下专业版，把功能都抄过来就完美了。或者对应优化下。</p>
+]]></content>
+      <categories>
+        <category>评测</category>
+      </categories>
+      <tags>
+        <tag>评测</tag>
+        <tag>文石</tag>
+        <tag>电纸书</tag>
+        <tag>boox</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>文石boox nova2评测体验</title>
     <url>/2020/06/23/%E6%96%87%E7%9F%B3boox%20nova2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
@@ -16177,56 +16231,6 @@
       </tags>
   </entry>
   <entry>
-    <title>文石boox poke pro评测体验</title>
-    <url>/2019/03/29/%E6%96%87%E7%9F%B3boox%20poke%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
-    <content><![CDATA[<hr>
-<p>更新这篇文章时，有的bug修复的，有的没修复。</p>
-<hr>
-<p>系统问题多多，4个月不更新一次固件，给客服发邮件也不回复。下面写的bug一直没修复。<br>kpw，poke pro都给7分吧。电子书这行业还是不思进取</p>
-<span id="more"></span>
-
-<h2 id="2-1版仍存在的bug，旧的重复的也写了："><a href="#2-1版仍存在的bug，旧的重复的也写了：" class="headerlink" title="2.1版仍存在的bug，旧的重复的也写了："></a>2.1版仍存在的bug，旧的重复的也写了：</h2><p>1.看书时，右上角书签不能隐藏<br>2.每本书右上角的进度图标的最下面，尖头末端被削掉了<br>3.应用界面右上角的三个杠粗细不同<br>4.音乐图标分辨率明显比其他的低<br>5.列表视图行距太大，和封面视图比，没有意义，一般都为了多显示几本书才用列表<br>6.标注的分割是———，不是同样的横杠<br>7.选中的字词没法调用其他自己安装的词典app<br>8.不支持思源宋体，行距极大，<a href="https://github.com/adobe-fonts/source-han-serif">https://github.com/adobe-fonts/source-han-serif</a><br>9.浏览器上传文件，点击内存的文件后浏览器闪退  </p>
-<hr>
-<h2 id="下面都是2-0版的"><a href="#下面都是2-0版的" class="headerlink" title="下面都是2.0版的"></a>下面都是2.0版的</h2><p>新增问题：<br>1.右上角的灯的图标，开灯时图标是黑的，关灯是白的，但是图标还是亮灯的样子（有5条光线），无伤大雅但感觉不用心。<br>2.每条标注的分割是———，不是同样的横杠，感觉不像是故意弄的。标注连日期都没有，就一个毫无意义的页数。<br>3.刚增加列表视图。封面视图显示6本书，列表视图只有5本，觉得用列表视图的就是想多显示几本书吧。<br>4.设置里的显示书名代替文件名，对书库的历史阅读没用。<br>5.自带浏览器的标签栏太大，希望优化。<br>6.sha1不同的几本书，封面，书名，文件名一样，旧的删掉后添加新的，外面的文件夹会显示2个封面，但实际只有一本书。7.标注的句子没法导出。<br>8.选中的字词没法调用其他自己安装的词典app。</p>
-<p>感觉好像文石好像刚做电纸书没多久一样，各种小问题，难道每个机型的自带阅读app差别很大，要分别制作？</p>
-<hr>
-<h2 id="优点："><a href="#优点：" class="headerlink" title="优点："></a>优点：</h2><p>1.poke pro尺寸比kpw3小一圈，轻20多克，清晰度不相上下。<br>2.安卓6.0，可以装其他阅读app。装了微信阅读，多看阅读和kindle阅读，都正常使用，多看要设置下背景和字体颜色。kindle阅读app的翻页速度比kpw3稍慢点。kindle和微信页边距都很宽，亚马逊客服也说暂时不会又更小边距。<br>3.支持蓝牙翻页，自带阅读器和多看，kindle阅读都可以使用，懒人福利。<br>4.系统还算用心，wifi传书，自带应用市场app丰富（里面还有hipida客户端，可以开启eink模式）。看到可以装谷歌套件，可玩性估计还挺高。<br>5.自带阅读器不错，边距可以调到几乎是0，比kindle多重边框舒服。支持mobi和azw3，感觉基本不用折腾别的app了。<br>6.pdf优化不错，毛边都平滑了。<br>7.应用市场多了个混合调光app，还是在慢慢进步的。</p>
-<h2 id="几个小问题："><a href="#几个小问题：" class="headerlink" title="几个小问题："></a>几个小问题：</h2><p>1.系统有些小bug，像点击复制，删除一个其他文件，粘贴就失效了。<br>2.试过一次电池突然变成0，显示要充电，重启又有电了。再观察下。<br>3.boox商标下的按钮有点丑，干脆做成商标+按键二合一多好。直接贴了贴纸解决。<br>4.不支持同一epub内的多字体。思源宋体用不了，行距极大。自带阅读器的字体好像是每本书不同的，没法全局设置，有好有坏吧。<br>5.kindle阅读有时会翻页失效和死机。<br>6.电源管理里看不到每个app的耗电，一晚掉电30%，没法对症下药。<br>7.电源键突出，很容易误按，几次重启估计就是碰到了。<br>8.用蓝牙手柄翻页，会自动睡眠，估计蓝牙翻页的动作没算成自己的操作。（好像已解决）</p>
-<h2 id="几个建议："><a href="#几个建议：" class="headerlink" title="几个建议："></a>几个建议：</h2><p>增加列表视图（已解决，但只显示5本书，比封面视图还少）<br>标注可以合成一个文件，方便导出增加点击左侧翻下一页的选项（已解决，应用设置里，触控区域设置里可以改）</p>
-]]></content>
-      <categories>
-        <category>评测</category>
-      </categories>
-      <tags>
-        <tag>评测</tag>
-        <tag>文石</tag>
-        <tag>电纸书</tag>
-        <tag>boox</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文石poke pro,nova pro评测体验</title>
-    <url>/2019/03/29/%E6%96%87%E7%9F%B3poke%20pro,nova%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
-    <content><![CDATA[<hr>
-<h2 id="2-2-1的几个bug："><a href="#2-2-1的几个bug：" class="headerlink" title="2.2.1的几个bug："></a>2.2.1的几个bug：</h2><p>1.每次重启都会打开悬浮球。<br>2.单独优化应用要去悬浮球里，dpi设置没法手动输入必须拖动。<br>3.应用冻结里少了很多应用，只有6个。<br>4.导出笔记，只显示最低级的标题，像是第一章这种。这个文件是几本书的合集，没显示出是哪本书的第一章。</p>
-<hr>
-<span id="more"></span>
-
-<h2 id="先说说几点优点："><a href="#先说说几点优点：" class="headerlink" title="先说说几点优点："></a>先说说几点优点：</h2><p>1.自带阅读器看pdf很舒服，裁边智能，打开很快，500多mb的文件大概2，3秒。<br>2.平时读书功能没啥槽点，epub，azw3都能打开，标注导出也还算方便。<br>3.手写笔记可以连接到onenote和印象笔记账号，以pdf格式同步过去。<br>4.bilibili漫画很舒服。</p>
-<h2 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h2><p>1.固件基本好几个月更新一次，上次是4个月，这次5个月还没更新。自带应用市场的app更是从来没更新过。估计文石的策略就是发了新设备就不怎么管旧设备了。<br>2.同步功能不确定好不好用。像是静读天下专业版的webdav方式就很舒服，进度和标注分开，每本书分开，哪本书什么时间同步的一目了然。<br>3.不支持epub的内置字体。<br>4.epub的注释不能弹窗显示，要点击后跳转过去，再自己点跳转回来。<br>5.没装任何新app，没改任何设置，有时候会突然一晚耗完电。<br>6.wifi传书进去还算方便，传标注之类的文件出来费点事得自己装别的app。<br>7.google play每次用都要登录，人的操作应该没问题，其他手机都装了google play正常用。<br>8.只支持pdf的书手写，其他的支持旁注，不能直接写在文字上。<br>9.试了typec接口不支持耳机。<br>10.有人说微信读书时长不增加，确实试过。不过不推荐微信读书，纸质书都没事微信就自带各种和谐**<br>11.手写导出后锯齿感略重，问题也不大。</p>
-<p>建议就是文石的工程师参照静读天下专业版，把功能都抄过来就完美了。或者对应优化下。</p>
-]]></content>
-      <categories>
-        <category>评测</category>
-      </categories>
-      <tags>
-        <tag>评测</tag>
-        <tag>文石</tag>
-        <tag>电纸书</tag>
-        <tag>boox</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>树莓派+archlinuxarm做路由</title>
     <url>/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE-archlinuxarm%E5%81%9A%E8%B7%AF%E7%94%B1/</url>
     <content><![CDATA[<hr>
@@ -16281,38 +16285,6 @@
         <tag>Raspberry</tag>
         <tag>树莓派</tag>
         <tag>OpenWrt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>树莓派3(Raspberry pi 3)刷kali+3.5寸微雪屏</title>
-    <url>/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7kali-3-5%E5%AF%B8%E5%BE%AE%E9%9B%AA%E5%B1%8F/</url>
-    <content><![CDATA[<hr>
-<h2 id="1-点亮微雪3-5寸屏幕"><a href="#1-点亮微雪3-5寸屏幕" class="headerlink" title="1.点亮微雪3.5寸屏幕"></a>1.点亮微雪3.5寸屏幕</h2><p>需要的工具1：<a href="https://github.com/swkim01/waveshare-dtoverlays">https://github.com/swkim01/waveshare-dtoverlays</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/swkim01/waveshare-dtoverlays.git waveshare-dtoverlays</span><br><span class="line">cd waveshare-dtoverlays</span><br><span class="line">mount /dev/mmcblk0p1 /boot/</span><br><span class="line">cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<p>编辑&#x2F;boot&#x2F;config.txt添加</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dtoverlay=waveshare35a</span><br></pre></td></tr></table></figure>
-
-<p>需要的工具2：<a href="https://github.com/adafruit/Adafruit-PITFT-Helper">https://github.com/adafruit/Adafruit-PITFT-Helper</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/adafruit/Adafruit-PiTFT-Helper.git</span><br><span class="line">cd Adafruit-PiTFT-Helper</span><br><span class="line">mkdir /etc/kbd</span><br><span class="line">touch /etc/kbd/config</span><br><span class="line">./adafruit-pitft-helper -t 35r -u /root</span><br></pre></td></tr></table></figure>
-
-<p>全选y<br>reboot，屏幕可以用了。</p>
-<h2 id="2-换源"><a href="#2-换源" class="headerlink" title="2.换源"></a>2.换源</h2><p>编辑&#x2F;etc&#x2F;apt&#x2F;sources.list文件<br>对于Kali 2.0，使用ipv4网络添加如下内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deb http://mirrors.ustc.edu.cn/kali sana main non-free contrib</span><br><span class="line">deb-src http://mirrors.ustc.edu.cn/kali sana main non-free contrib</span><br><span class="line">deb http://mirrors.ustc.edu.cn/kali-security sana/updates main contrib non-free</span><br><span class="line">apt-install update</span><br></pre></td></tr></table></figure>
-<h2 id="3-屏幕校准"><a href="#3-屏幕校准" class="headerlink" title="3.屏幕校准"></a>3.屏幕校准</h2><p>apt-get install -y xinput-calibrator<br>DISPLAY&#x3D;:0.0 xinput_calibrator</p>
-<p>终端输出一组4个数字的数据，修改到&#x2F;etc&#x2F;X11&#x2F;xorg.conf.d&#x2F;99-calibration.conf<br>如果触摸不正常请把此文件改成如下</p>
-<p>Section “InputClass”<br>        Identifier      “calibration”<br>        MatchProduct    “ADS7846 Touchscreen”Option  “Calibration”   “3946 229 164 3881”Option  “SwapAxes”      “1”<br>EndSection</p>
-<h2 id="4-安装raspi-config"><a href="#4-安装raspi-config" class="headerlink" title="4.安装raspi-config"></a>4.安装raspi-config</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20160527_all.deb</span><br><span class="line">apt-get install triggerhappy lua5.1  alsa-utils </span><br><span class="line">dpkg -i raspi-config_20160527_all.deb</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>Raspberry</tag>
-        <tag>树莓派</tag>
-        <tag>kali</tag>
       </tags>
   </entry>
   <entry>
@@ -16377,6 +16349,38 @@
         <tag>Raspberry</tag>
         <tag>树莓派</tag>
         <tag>微雪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>树莓派3(Raspberry pi 3)刷kali+3.5寸微雪屏</title>
+    <url>/2017/01/09/%E6%A0%91%E8%8E%93%E6%B4%BE3-Raspberry-pi-3-%E5%88%B7kali-3-5%E5%AF%B8%E5%BE%AE%E9%9B%AA%E5%B1%8F/</url>
+    <content><![CDATA[<hr>
+<h2 id="1-点亮微雪3-5寸屏幕"><a href="#1-点亮微雪3-5寸屏幕" class="headerlink" title="1.点亮微雪3.5寸屏幕"></a>1.点亮微雪3.5寸屏幕</h2><p>需要的工具1：<a href="https://github.com/swkim01/waveshare-dtoverlays">https://github.com/swkim01/waveshare-dtoverlays</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/swkim01/waveshare-dtoverlays.git waveshare-dtoverlays</span><br><span class="line">cd waveshare-dtoverlays</span><br><span class="line">mount /dev/mmcblk0p1 /boot/</span><br><span class="line">cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>编辑&#x2F;boot&#x2F;config.txt添加</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dtoverlay=waveshare35a</span><br></pre></td></tr></table></figure>
+
+<p>需要的工具2：<a href="https://github.com/adafruit/Adafruit-PITFT-Helper">https://github.com/adafruit/Adafruit-PITFT-Helper</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/adafruit/Adafruit-PiTFT-Helper.git</span><br><span class="line">cd Adafruit-PiTFT-Helper</span><br><span class="line">mkdir /etc/kbd</span><br><span class="line">touch /etc/kbd/config</span><br><span class="line">./adafruit-pitft-helper -t 35r -u /root</span><br></pre></td></tr></table></figure>
+
+<p>全选y<br>reboot，屏幕可以用了。</p>
+<h2 id="2-换源"><a href="#2-换源" class="headerlink" title="2.换源"></a>2.换源</h2><p>编辑&#x2F;etc&#x2F;apt&#x2F;sources.list文件<br>对于Kali 2.0，使用ipv4网络添加如下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deb http://mirrors.ustc.edu.cn/kali sana main non-free contrib</span><br><span class="line">deb-src http://mirrors.ustc.edu.cn/kali sana main non-free contrib</span><br><span class="line">deb http://mirrors.ustc.edu.cn/kali-security sana/updates main contrib non-free</span><br><span class="line">apt-install update</span><br></pre></td></tr></table></figure>
+<h2 id="3-屏幕校准"><a href="#3-屏幕校准" class="headerlink" title="3.屏幕校准"></a>3.屏幕校准</h2><p>apt-get install -y xinput-calibrator<br>DISPLAY&#x3D;:0.0 xinput_calibrator</p>
+<p>终端输出一组4个数字的数据，修改到&#x2F;etc&#x2F;X11&#x2F;xorg.conf.d&#x2F;99-calibration.conf<br>如果触摸不正常请把此文件改成如下</p>
+<p>Section “InputClass”<br>        Identifier      “calibration”<br>        MatchProduct    “ADS7846 Touchscreen”Option  “Calibration”   “3946 229 164 3881”Option  “SwapAxes”      “1”<br>EndSection</p>
+<h2 id="4-安装raspi-config"><a href="#4-安装raspi-config" class="headerlink" title="4.安装raspi-config"></a>4.安装raspi-config</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20160527_all.deb</span><br><span class="line">apt-get install triggerhappy lua5.1  alsa-utils </span><br><span class="line">dpkg -i raspi-config_20160527_all.deb</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>Raspberry</tag>
+        <tag>树莓派</tag>
+        <tag>kali</tag>
       </tags>
   </entry>
   <entry>
@@ -16594,6 +16598,82 @@
       </categories>
       <tags>
         <tag>漫画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百年孤独人物关系图（自制）</title>
+    <url>/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
+    <content><![CDATA[<hr>
+<p><img src="/images/bainiangudu01.png" alt="百年孤独人物关系图（自制）"></p>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>百年孤独</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>省钱玩电吉他单车摄影，阅读音乐</title>
+    <url>/2023/12/29/%E7%9C%81%E9%92%B1%E7%8E%A9%E7%94%B5%E5%90%89%E4%BB%96%E5%8D%95%E8%BD%A6%E6%91%84%E5%BD%B1%EF%BC%8C%E9%98%85%E8%AF%BB%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<p><strong>文章内提到的盗版或破解软件都来自互联网，与本文作者无关，也无利益关系。</strong></p>
+<p>省钱玩，推荐的性价比高，性能又好。</p>
+<hr>
+<span id="more"></span>
+
+<h2 id="电吉他"><a href="#电吉他" class="headerlink" title="电吉他"></a>电吉他</h2><p>不要买吉他效果器单块，综合效果器，吉他音箱。</p>
+<p>玩软件效果器，可以调效果器，音箱，麦克风，房间混响等，玩法丰富，延迟低。</p>
+<p>必备设备：支持ASIO的声卡（1000元左右），电吉他，电脑，耳机或音箱，连接线。</p>
+<h3 id="软件："><a href="#软件：" class="headerlink" title="软件："></a>软件：</h3><p>DAW：Digital Audio Workstation，数字音频工作站，可以理解为作曲软件，不是必须的，很多吉他软件效果器可以直接使用，我的选择的是Reaper，主页<a href="http://reaper.fm/">http://reaper.fm/</a>，60美元可以用两个版本，例如7.00到8.99，不买也能用，每次打开软件有个窗口，网上破解版也容易找，资源网站地址见这节的最下面。</p>
+<p>Reaper中文语言包：<a href="https://stash.reaper.fm/v/47896/Chinese-Simplified_v7.06_Universal.ReaperLangPack">https://stash.reaper.fm/v/47896/Chinese-Simplified_v7.06_Universal.ReaperLangPack</a>，下载后放到LangPack文件夹里，Reaper里Options，Preferences（或点击右上角关闭按钮下方的字），General里选择简体中文。</p>
+<p>吉他软件效果器：Neural Dsp，Amplitube，Line 6 Helix Native，TH-U，Guitar rig，Bias FX，Ampbox，网上都有破解版可以使用。</p>
+<p>Reaper里使用软件效果器：新建项目，点击右上角关闭按钮下方的字，Audio system选ASIO，左侧空白处右键，Insert new track，点击FX按钮，选择需要的插件后关闭，这个轨道左边的红色按钮按下（显示为Record Armed），右键这个按钮，Input Mono，你的吉他插在声卡左边的插口，就选择Input 1，右边就选Input 2，然后就可以在软件效果器里玩了，弹的声音能实时从耳机和音箱里听到，极低延迟。</p>
+<p><img src="/images/shengqian01.png" alt="Reaper设置"></p>
+<p>其他音源插件推荐：<a href="https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/">https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</a></p>
+<p>下载软件和插件的几个资源网站：<a href="https://rutracker.net/">https://rutracker.net/</a>，<a href="http://vsthouse.ru/">http://vsthouse.ru/</a>，<a href="https://audioz.download/">https://audioz.download/</a></p>
+<h3 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h3><p>声卡：Focusrite Scarlett 2i2 三代，2019年价格1090元。现在最新款是四代，价格1600，高了。如果选择其他声卡，注意必须要支持ASIO。</p>
+<p>声卡的连接方式：吉他使用6.5mm线连接声卡正面左边的两个接口中的一个，接口右边的INST按钮要按下（红色是生效的意思），耳机连接右下角的接口，如果是3.5mm的线需要一个转接头，音箱左右声道连接背面两个接口，电脑使用typec线连接声卡后面的接口，声卡不用接额外电源，正面右上的小旋钮调整耳机音量，耳机接口左边的大旋钮调整音箱音量。</p>
+<p><img src="/images/shengqian02.jpg" alt="声卡正面图"></p>
+<p><img src="/images/shengqian03.jpg" alt="声卡背面图"></p>
+<hr>
+<h2 id="单车"><a href="#单车" class="headerlink" title="单车"></a>单车</h2><p>大行P8（KBC083），2015年淘宝入手2500元，2023年看3500元左右了，高了。</p>
+<p>一直没怎么保养过，性能稳定，无异响。换过一次前后内胎，做过一些非必要的升级：线管，V刹，刹把，把套，副把，线管。</p>
+<p>新车买来建议换脚踏，刹车胶，对于老款来说，新款不知道有没有升级。</p>
+<p>加装了运动相机，码表，前后灯，后视镜，杯架，车头图：</p>
+<p><img src="/images/shengqian04.jpg" alt="大行P8"></p>
+<hr>
+<h2 id="摄影"><a href="#摄影" class="headerlink" title="摄影"></a>摄影</h2><p>生活摄影，手机加三脚架，或者再加一个外置麦克风，便携。</p>
+<p>塑料小三角架28元，108克：</p>
+<p><img src="/images/shengqian05.jpg" alt="塑料小三角架"></p>
+<p>金属小三脚架200元，372克：</p>
+<p><img src="/images/shengqian06.jpg" alt="金属小三角架"></p>
+<p>麦克风，推荐国产的牌子，这个罗德的很多年前买的，性价比低，3.5mm转typec的线，可以直接连接手机，小米14使用正常：</p>
+<p><img src="/images/shengqian07.jpg" alt="麦克风"></p>
+<hr>
+<h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>不要买各种会员（书，漫画，影视），花钱看阉割版。</p>
+<p>书籍下载，z-library，每天只能下载10本，地址<a href="https://zh.1lib.sk/">https://zh.1lib.sk/</a>，安娜，不限量下载，地址<a href="https://zh.annas-archive.se/">https://zh.annas-archive.se/</a>]，注意分辨钓鱼网站。</p>
+<p>漫画下载，<a href="https://www.manhuabudangbbs.com/">www.manhuabudangbbs.com</a>，建议下载格式是zip或rar的。</p>
+<p>安卓看书使用静读天下专业版，下载地址<a href="https://4pda.to/forum/index.php?showtopic=184358&st=12300">https://4pda.to/forum/index.php?showtopic=184358&st=12300</a>，注册比较麻烦，但更新很快，看漫画用Perfect Viewer或ComicScreen。</p>
+<p>不推荐任何Eink电纸书设备，不推荐微信读书，详情见下方文章。</p>
+<p>相关文章：<a href="https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/">https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/</a></p>
+<hr>
+<h2 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h2><p>远离云音乐，回归离线音乐。</p>
+<p>免费下载歌，使用酷我音乐PC版_v9.2.0.0_W6_去广告豪华VIP绿色版，或者破解你的qq音乐离线资源，能在其他播放器播放，地址<a href="https://git.unlock-music.dev/um/web">https://git.unlock-music.dev/um/web</a>，<a href="https://cwo.cc/musicc">https://cwo.cc/musicc</a></p>
+<p>电脑听歌使用foobar2000，foobar左列表右eslyric歌词布局下载<a href="/files/foobar%E5%B7%A6%E5%88%97%E8%A1%A8%E5%8F%B3eslyric%E6%AD%8C%E8%AF%8D%E5%B8%83%E5%B1%80.fth">&#x2F;files&#x2F;foobar左列表右eslyric歌词布局.fth</a>，导入方法File,Preferencec,Display,Default User Interface,Import Theme。</p>
+<p>安卓听歌使用poweramp，poweramp贴吧有大神分享破解版。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>评测</category>
+      </categories>
+      <tags>
+        <tag>音频</tag>
+        <tag>阅读</tag>
+        <tag>音乐</tag>
+        <tag>电吉他</tag>
+        <tag>单车</tag>
+        <tag>摄影</tag>
       </tags>
   </entry>
   <entry>
@@ -16880,82 +16960,6 @@
       </tags>
   </entry>
   <entry>
-    <title>百年孤独人物关系图（自制）</title>
-    <url>/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
-    <content><![CDATA[<hr>
-<p><img src="/images/bainiangudu01.png" alt="百年孤独人物关系图（自制）"></p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>百年孤独</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>省钱玩电吉他单车摄影，阅读音乐</title>
-    <url>/2023/12/29/%E7%9C%81%E9%92%B1%E7%8E%A9%E7%94%B5%E5%90%89%E4%BB%96%E5%8D%95%E8%BD%A6%E6%91%84%E5%BD%B1%EF%BC%8C%E9%98%85%E8%AF%BB%E9%9F%B3%E4%B9%90/</url>
-    <content><![CDATA[<p><strong>文章内提到的盗版或破解软件都来自互联网，与本文作者无关，也无利益关系。</strong></p>
-<p>省钱玩，推荐的性价比高，性能又好。</p>
-<hr>
-<span id="more"></span>
-
-<h2 id="电吉他"><a href="#电吉他" class="headerlink" title="电吉他"></a>电吉他</h2><p>不要买吉他效果器单块，综合效果器，吉他音箱。</p>
-<p>玩软件效果器，可以调效果器，音箱，麦克风，房间混响等，玩法丰富，延迟低。</p>
-<p>必备设备：支持ASIO的声卡（1000元左右），电吉他，电脑，耳机或音箱，连接线。</p>
-<h3 id="软件："><a href="#软件：" class="headerlink" title="软件："></a>软件：</h3><p>DAW：Digital Audio Workstation，数字音频工作站，可以理解为作曲软件，不是必须的，很多吉他软件效果器可以直接使用，我的选择的是Reaper，主页<a href="http://reaper.fm/">http://reaper.fm/</a>，60美元可以用两个版本，例如7.00到8.99，不买也能用，每次打开软件有个窗口，网上破解版也容易找，资源网站地址见这节的最下面。</p>
-<p>Reaper中文语言包：<a href="https://stash.reaper.fm/v/47896/Chinese-Simplified_v7.06_Universal.ReaperLangPack">https://stash.reaper.fm/v/47896/Chinese-Simplified_v7.06_Universal.ReaperLangPack</a>，下载后放到LangPack文件夹里，Reaper里Options，Preferences（或点击右上角关闭按钮下方的字），General里选择简体中文。</p>
-<p>吉他软件效果器：Neural Dsp，Amplitube，Line 6 Helix Native，TH-U，Guitar rig，Bias FX，Ampbox，网上都有破解版可以使用。</p>
-<p>Reaper里使用软件效果器：新建项目，点击右上角关闭按钮下方的字，Audio system选ASIO，左侧空白处右键，Insert new track，点击FX按钮，选择需要的插件后关闭，这个轨道左边的红色按钮按下（显示为Record Armed），右键这个按钮，Input Mono，你的吉他插在声卡左边的插口，就选择Input 1，右边就选Input 2，然后就可以在软件效果器里玩了，弹的声音能实时从耳机和音箱里听到，极低延迟。</p>
-<p><img src="/images/shengqian01.png" alt="Reaper设置"></p>
-<p>其他音源插件推荐：<a href="https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/">https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</a></p>
-<p>下载软件和插件的几个资源网站：<a href="https://rutracker.net/">https://rutracker.net/</a>，<a href="http://vsthouse.ru/">http://vsthouse.ru/</a>，<a href="https://audioz.download/">https://audioz.download/</a></p>
-<h3 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h3><p>声卡：Focusrite Scarlett 2i2 三代，2019年价格1090元。现在最新款是四代，价格1600，高了。如果选择其他声卡，注意必须要支持ASIO。</p>
-<p>声卡的连接方式：吉他使用6.5mm线连接声卡正面左边的两个接口中的一个，接口右边的INST按钮要按下（红色是生效的意思），耳机连接右下角的接口，如果是3.5mm的线需要一个转接头，音箱左右声道连接背面两个接口，电脑使用typec线连接声卡后面的接口，声卡不用接额外电源，正面右上的小旋钮调整耳机音量，耳机接口左边的大旋钮调整音箱音量。</p>
-<p><img src="/images/shengqian02.jpg" alt="声卡正面图"></p>
-<p><img src="/images/shengqian03.jpg" alt="声卡背面图"></p>
-<hr>
-<h2 id="单车"><a href="#单车" class="headerlink" title="单车"></a>单车</h2><p>大行P8（KBC083），2015年淘宝入手2500元，2023年看3500元左右了，高了。</p>
-<p>一直没怎么保养过，性能稳定，无异响。换过一次前后内胎，做过一些非必要的升级：线管，V刹，刹把，把套，副把，线管。</p>
-<p>新车买来建议换脚踏，刹车胶，对于老款来说，新款不知道有没有升级。</p>
-<p>加装了运动相机，码表，前后灯，后视镜，杯架，车头图：</p>
-<p><img src="/images/shengqian04.jpg" alt="大行P8"></p>
-<hr>
-<h2 id="摄影"><a href="#摄影" class="headerlink" title="摄影"></a>摄影</h2><p>生活摄影，手机加三脚架，或者再加一个外置麦克风，便携。</p>
-<p>塑料小三角架28元，108克：</p>
-<p><img src="/images/shengqian05.jpg" alt="塑料小三角架"></p>
-<p>金属小三脚架200元，372克：</p>
-<p><img src="/images/shengqian06.jpg" alt="金属小三角架"></p>
-<p>麦克风，推荐国产的牌子，这个罗德的很多年前买的，性价比低，3.5mm转typec的线，可以直接连接手机，小米14使用正常：</p>
-<p><img src="/images/shengqian07.jpg" alt="麦克风"></p>
-<hr>
-<h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>不要买各种会员（书，漫画，影视），花钱看阉割版。</p>
-<p>书籍下载，z-library，每天只能下载10本，地址<a href="https://zh.1lib.sk/">https://zh.1lib.sk/</a>，安娜，不限量下载，地址<a href="https://zh.annas-archive.se/">https://zh.annas-archive.se/</a>]，注意分辨钓鱼网站。</p>
-<p>漫画下载，<a href="https://www.manhuabudangbbs.com/">www.manhuabudangbbs.com</a>，建议下载格式是zip或rar的。</p>
-<p>安卓看书使用静读天下专业版，下载地址<a href="https://4pda.to/forum/index.php?showtopic=184358&st=12300">https://4pda.to/forum/index.php?showtopic=184358&st=12300</a>，注册比较麻烦，但更新很快，看漫画用Perfect Viewer或ComicScreen。</p>
-<p>不推荐任何Eink电纸书设备，不推荐微信读书，详情见下方文章。</p>
-<p>相关文章：<a href="https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/">https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/</a></p>
-<hr>
-<h2 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h2><p>远离云音乐，回归离线音乐。</p>
-<p>免费下载歌，使用酷我音乐PC版_v9.2.0.0_W6_去广告豪华VIP绿色版，或者破解你的qq音乐离线资源，能在其他播放器播放，地址<a href="https://git.unlock-music.dev/um/web">https://git.unlock-music.dev/um/web</a>，<a href="https://cwo.cc/musicc">https://cwo.cc/musicc</a></p>
-<p>电脑听歌使用foobar2000，foobar左列表右eslyric歌词布局下载<a href="/files/foobar%E5%B7%A6%E5%88%97%E8%A1%A8%E5%8F%B3eslyric%E6%AD%8C%E8%AF%8D%E5%B8%83%E5%B1%80.fth">&#x2F;files&#x2F;foobar左列表右eslyric歌词布局.fth</a>，导入方法File,Preferencec,Display,Default User Interface,Import Theme。</p>
-<p>安卓听歌使用poweramp，poweramp贴吧有大神分享破解版。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>评测</category>
-      </categories>
-      <tags>
-        <tag>音频</tag>
-        <tag>阅读</tag>
-        <tag>音乐</tag>
-        <tag>电吉他</tag>
-        <tag>单车</tag>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>离线漫画NeeView的使用和与其他软件的对比</title>
     <url>/2021/10/05/%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BBNeeView%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%B9%E6%AF%94/</url>
     <content><![CDATA[<hr>
@@ -17144,6 +17148,20 @@
       </tags>
   </entry>
   <entry>
+    <title>红楼梦人物关系图（自制）</title>
+    <url>/2023/05/25/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
+    <content><![CDATA[<hr>
+<p><img src="/images/hongloumeng01.png" alt="红楼梦人物关系图（自制）"></p>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>红楼梦</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>立直麻将点数计算工具mahjong-calc</title>
     <url>/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/</url>
     <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/livewing/mahjong-calc">https://github.com/livewing/mahjong-calc</a></p>
@@ -17175,20 +17193,6 @@
       </categories>
       <tags>
         <tag>javascript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>红楼梦人物关系图（自制）</title>
-    <url>/2023/05/25/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
-    <content><![CDATA[<hr>
-<p><img src="/images/hongloumeng01.png" alt="红楼梦人物关系图（自制）"></p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>红楼梦</tag>
       </tags>
   </entry>
   <entry>
@@ -17408,6 +17412,30 @@
       </tags>
   </entry>
   <entry>
+    <title>老王随机点名器v1.0</title>
+    <url>/2019/12/04/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v1.0/</url>
+    <content><![CDATA[<hr>
+<p><a href="https://github.com/wangandi520/andiRandomNameChooser/releases/tag/0.42">下载地址1：https://github.com/wangandi520/andiRandomNameChooser/releases/tag/0.42</a><br><a href="https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ">下载地址2：链接：https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ 提取码：6666</a></p>
+<p>PyQt5的1.0版：版本：<a href="https://github.com/wangandi520/andiRandomNameChooserByPyQt5">https://github.com/wangandi520/andiRandomNameChooserByPyQt5</a></p>
+<p>简易说明：<br>选取姓名按钮快捷键：空格，缺席按钮快捷键：B。</p>
+<span id="more"></span>
+
+<p><strong>1.0版更新：</strong><br>改用PyQt5重写<br>暂时不支持xls文件</p>
+<p><strong>0.42版更新：</strong><br>更新捐赠二维码</p>
+<p><strong>0.41版更新：</strong><br>添加速度调节<br>修复bug<br>可快速捐赠</p>
+<p><strong>0.4版更新：</strong><br>支持模板的xls文件</p>
+<p><strong>0.3版更新：</strong><br>支持多文件同时选取<br>增加了重置列表按钮<br>更改了文件切换时重新读取文件的设计<br>修改缺席名单的命名方式<br>添加缺席按钮<br>修正取消打开文件而添加文件的错误</p>
+<p><strong>0.2版更新：</strong><br>修正了时间闪烁的问题<br>修改状态栏显示<br>增加打开文件后自动选择的功能<br>增加了字体大小调节<br>调整了内部设计，修复了剩余数量显示错误<br>修复文件删除后仍能点名的错误<br>添加清空列表按钮</p>
+<p><strong>这是我制作的第一个有用的Qt程序</strong></p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>Qt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>美丽的世界，你在哪里 标注</title>
     <url>/2023/12/25/%E7%BE%8E%E4%B8%BD%E7%9A%84%E4%B8%96%E7%95%8C%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C/</url>
     <content><![CDATA[<hr>
@@ -17531,30 +17559,6 @@
         <tag>标注</tag>
         <tag>读书笔记</tag>
         <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>老王随机点名器v1.0</title>
-    <url>/2019/12/04/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v1.0/</url>
-    <content><![CDATA[<hr>
-<p><a href="https://github.com/wangandi520/andiRandomNameChooser/releases/tag/0.42">下载地址1：https://github.com/wangandi520/andiRandomNameChooser/releases/tag/0.42</a><br><a href="https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ">下载地址2：链接：https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ 提取码：6666</a></p>
-<p>PyQt5的1.0版：版本：<a href="https://github.com/wangandi520/andiRandomNameChooserByPyQt5">https://github.com/wangandi520/andiRandomNameChooserByPyQt5</a></p>
-<p>简易说明：<br>选取姓名按钮快捷键：空格，缺席按钮快捷键：B。</p>
-<span id="more"></span>
-
-<p><strong>1.0版更新：</strong><br>改用PyQt5重写<br>暂时不支持xls文件</p>
-<p><strong>0.42版更新：</strong><br>更新捐赠二维码</p>
-<p><strong>0.41版更新：</strong><br>添加速度调节<br>修复bug<br>可快速捐赠</p>
-<p><strong>0.4版更新：</strong><br>支持模板的xls文件</p>
-<p><strong>0.3版更新：</strong><br>支持多文件同时选取<br>增加了重置列表按钮<br>更改了文件切换时重新读取文件的设计<br>修改缺席名单的命名方式<br>添加缺席按钮<br>修正取消打开文件而添加文件的错误</p>
-<p><strong>0.2版更新：</strong><br>修正了时间闪烁的问题<br>修改状态栏显示<br>增加打开文件后自动选择的功能<br>增加了字体大小调节<br>调整了内部设计，修复了剩余数量显示错误<br>修复文件删除后仍能点名的错误<br>添加清空列表按钮</p>
-<p><strong>这是我制作的第一个有用的Qt程序</strong></p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>Qt</tag>
       </tags>
   </entry>
   <entry>
@@ -18046,26 +18050,6 @@
       </tags>
   </entry>
   <entry>
-    <title>食品用品</title>
-    <url>/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</url>
-    <content><![CDATA[<hr>
-<p>更新日期2023.10.14</p>
-<span id="more"></span>
-
-<h2 id="添加剂"><a href="#添加剂" class="headerlink" title="添加剂"></a>添加剂</h2><p>乙基麦芽酚<br>焦亚硫酸钠<br>特丁基对苯二酚（TBHQ）<br>亚硝酸钠<br>苯甲酸钠<br>六偏磷酸钠<br>三聚磷酸钠<br>阿斯巴甜<br>安赛蜜<br>硼砂<br>三氯生<br>联苯乙烯二苯基二磺酸二钠<br>脱氢乙酸钠<br>氢氧化钠（火碱）<br>甲醛次硫酸氢钠（吊白块）<br>呈味核苷酸二钠<br>双乙酰酒石酸单双甘油酯<br>三氯蔗糖<br>四聚乙醛（蔬菜中的蓝色颗粒）<br>三聚氰胺</p>
-<h2 id="食品"><a href="#食品" class="headerlink" title="食品"></a>食品</h2><h3 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h3><p>韭菜<br>西兰花<br>花菜<br>豇豆<br>包菜<br>豆芽<br>娃娃菜<br>蒜苔<br>西红柿<br>芹菜<br>菠菜<br>莲藕<br>木耳<br>油麦菜<br>芥兰</p>
-<h3 id="水果"><a href="#水果" class="headerlink" title="水果"></a>水果</h3><p>草莓<br>桃<br>葡萄<br>苹果<br>荔枝</p>
-<h3 id="肉豆等其他"><a href="#肉豆等其他" class="headerlink" title="肉豆等其他"></a>肉豆等其他</h3><p>牛蛙<br>豆腐<br>干豆腐<br>虾<br>鱿鱼<br>腊肠<br>腊肉<br>熟食<br>动物内脏<br>凉拌菜<br>凉皮<br>豆腐<br>腐竹</p>
-<h2 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h2><p>舒肤佳（联苯乙烯二苯基二磺酸二钠）<br>粒上皇（特丁基对苯二酚）</p>
-]]></content>
-      <categories>
-        <category>评测</category>
-      </categories>
-      <tags>
-        <tag>食品用品</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>魔方笔记</title>
     <url>/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<hr>
@@ -18122,6 +18106,26 @@
       </tags>
   </entry>
   <entry>
+    <title>食品用品</title>
+    <url>/2023/06/07/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</url>
+    <content><![CDATA[<hr>
+<p>更新日期2023.10.14</p>
+<span id="more"></span>
+
+<h2 id="添加剂"><a href="#添加剂" class="headerlink" title="添加剂"></a>添加剂</h2><p>乙基麦芽酚<br>焦亚硫酸钠<br>特丁基对苯二酚（TBHQ）<br>亚硝酸钠<br>苯甲酸钠<br>六偏磷酸钠<br>三聚磷酸钠<br>阿斯巴甜<br>安赛蜜<br>硼砂<br>三氯生<br>联苯乙烯二苯基二磺酸二钠<br>脱氢乙酸钠<br>氢氧化钠（火碱）<br>甲醛次硫酸氢钠（吊白块）<br>呈味核苷酸二钠<br>双乙酰酒石酸单双甘油酯<br>三氯蔗糖<br>四聚乙醛（蔬菜中的蓝色颗粒）<br>三聚氰胺</p>
+<h2 id="食品"><a href="#食品" class="headerlink" title="食品"></a>食品</h2><h3 id="蔬菜"><a href="#蔬菜" class="headerlink" title="蔬菜"></a>蔬菜</h3><p>韭菜<br>西兰花<br>花菜<br>豇豆<br>包菜<br>豆芽<br>娃娃菜<br>蒜苔<br>西红柿<br>芹菜<br>菠菜<br>莲藕<br>木耳<br>油麦菜<br>芥兰</p>
+<h3 id="水果"><a href="#水果" class="headerlink" title="水果"></a>水果</h3><p>草莓<br>桃<br>葡萄<br>苹果<br>荔枝</p>
+<h3 id="肉豆等其他"><a href="#肉豆等其他" class="headerlink" title="肉豆等其他"></a>肉豆等其他</h3><p>牛蛙<br>豆腐<br>干豆腐<br>虾<br>鱿鱼<br>腊肠<br>腊肉<br>熟食<br>动物内脏<br>凉拌菜<br>凉皮<br>豆腐<br>腐竹</p>
+<h2 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h2><p>舒肤佳（联苯乙烯二苯基二磺酸二钠）<br>粒上皇（特丁基对苯二酚）</p>
+]]></content>
+      <categories>
+        <category>评测</category>
+      </categories>
+      <tags>
+        <tag>食品用品</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>404 Not Found</title>
     <url>/404.html</url>
     <content><![CDATA[<hr>
@@ -18142,11 +18146,6 @@
 <img src="/images/weixin.png" alt="微信" width="200" height="200"/>]]></content>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>我的作品</title>
     <url>/links/index.html</url>
     <content><![CDATA[<h2 id="吉他和弦图生成"><a href="#吉他和弦图生成" class="headerlink" title="吉他和弦图生成]"></a>吉他和弦图生成]</h2><p><a href="/guitar">演示</a><br><a href="https://github.com/wangandi520/guitar-chord-search-and-generate">Github</a></p>
@@ -18156,6 +18155,11 @@
   <entry>
     <title>标签</title>
     <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
