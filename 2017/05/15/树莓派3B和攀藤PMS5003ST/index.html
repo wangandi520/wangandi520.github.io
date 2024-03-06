@@ -143,44 +143,10 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+		  <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
       src="/images/avatar.png"></a>
-  <p class="site-author-name" itemprop="name">Andy</p>
-  <div class="site-description" itemprop="description">如果我会发光，就不必害怕黑暗。</div>
 </div>
-<div class="site-state-wrap animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">57</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-          <a href="/categories/">
-        <span class="site-state-item-count">6</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">71</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author animated">
-      <span class="links-of-author-item">
-        <a href="https://github.com/wangandi520" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>github</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://space.bilibili.com/1952945" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">bilibili</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
-      </span>
-  </div>
-
             <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0-%E6%95%B0%E6%8D%AE%E4%BB%85%E4%BE%9B%E5%AD%A6%E4%B9%A0%E5%8F%82%E8%80%83%EF%BC%8C%E4%B8%80%E5%88%87%E4%BB%A5%E5%AE%98%E6%96%B9%E6%95%B0%E6%8D%AE%E4%B8%BA%E5%87%86%E3%80%82"><span class="nav-number">1.</span> <span class="nav-text">0.数据仅供学习参考，一切以官方数据为准。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#archlinuxarm%E4%B8%8B%E7%9A%84%E5%91%BD%E4%BB%A4"><span class="nav-number">2.</span> <span class="nav-text">archlinuxarm下的命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E9%9C%80%E8%A6%81%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%9A%E6%94%80%E8%97%A4PMS5003ST%EF%BC%8C%E6%A0%91%E8%8E%93%E6%B4%BE3B%E3%80%82%E5%A6%82%E6%9E%9C%E7%9B%B4%E6%8E%A5%E8%BF%9E%E6%8E%A5%E7%94%B5%E8%84%91%E4%B9%9F%E5%8F%AF%E4%BB%A5%EF%BC%8C%E9%9C%80%E8%A6%81%E7%9A%84%E8%BD%AF%E4%BB%B6http-on8vei0g9-bkt-clouddn-com-PM2-5Collector-zip%E3%80%82%E4%B8%8B%E9%9D%A2%E6%89%80%E6%9C%89%E4%BB%A3%E7%A0%81%E4%B8%8B%E8%BD%BDhttp-on8vei0g9-bkt-clouddn-com-PM25-rar"><span class="nav-number">3.</span> <span class="nav-text">1.需要的设备：攀藤PMS5003ST，树莓派3B。如果直接连接电脑也可以，需要的软件http:&#x2F;&#x2F;on8vei0g9.bkt.clouddn.com&#x2F;PM2.5Collector.zip。下面所有代码下载http:&#x2F;&#x2F;on8vei0g9.bkt.clouddn.com&#x2F;PM25.rar</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E4%BD%BF%E7%94%A8RS232USB%E8%BD%AC%E4%B8%B2%E5%8F%A3%E7%BA%BF%E8%BF%9E%E6%8E%A5%E6%94%80%E8%97%A4%EF%BC%8C%E5%8F%82%E7%85%A7%E6%96%87%E6%A1%A3%EF%BC%8C%E6%8E%A5VCC%EF%BC%8CGND%E5%92%8CTXD%E5%8D%B3%E5%8F%AF%EF%BC%8CPIN3%E5%8F%AF%E8%AE%BE%E7%BD%AE%E4%BC%91%E7%9C%A0%E3%80%82"><span class="nav-number">4.</span> <span class="nav-text">2.使用RS232USB转串口线连接攀藤，参照文档，接VCC，GND和TXD即可，PIN3可设置休眠。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E4%BD%BF%E7%94%A8python%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9B%B4%E6%8E%A5%E6%98%BE%E7%A4%BA%E6%95%B0%E6%8D%AE%EF%BC%8C%E7%BD%91%E9%A1%B5%E7%9A%84%E8%AF%9D%E4%B8%8D%E9%9C%80%E8%A6%81%E8%BF%99%E4%B8%AA%E6%96%87%E4%BB%B6"><span class="nav-number">5.</span> <span class="nav-text">3.使用python读取数据，在命令行直接显示数据，网页的话不需要这个文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E7%BD%91%E7%AB%99%E4%B8%BB%E9%A1%B5%EF%BC%8C%E5%8D%95%E5%87%BB%E5%BD%93%E5%89%8D%E6%95%B0%E5%80%BC%E6%98%BE%E7%A4%BA%E5%AE%8C%E6%95%B4%E6%95%B0%E6%8D%AE"><span class="nav-number">6.</span> <span class="nav-text">4.网站主页，单击当前数值显示完整数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-getData-php%EF%BC%8C%E4%B8%8A%E9%9D%A2%E7%9A%84index-html%E9%9C%80%E8%A6%81"><span class="nav-number">7.</span> <span class="nav-text">5.getData.php，上面的index.html需要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-sendPM2-5-py"><span class="nav-number">8.</span> <span class="nav-text">6.sendPM2.5.py</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-%E5%AE%9A%E6%97%B6%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE"><span class="nav-number">9.</span> <span class="nav-text">7.定时发送数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-sql%E8%A1%A8%E7%BB%93%E6%9E%84"><span class="nav-number">10.</span> <span class="nav-text">8.sql表结构</span></a></li></ol></div>
         </div>
         <!--/noindex-->
@@ -224,7 +190,7 @@
       </span>
   </div>
 
-		  
+		      
     <div class="sidebar-inner sidebar-blogroll">
       <div class="links-of-blogroll animated">
         <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
@@ -470,7 +436,7 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">250522</span>
+    <span title="站点总字数">250980</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
