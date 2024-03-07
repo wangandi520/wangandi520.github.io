@@ -2382,13 +2382,14 @@
 <span id="more"></span>
 
 <h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><p>在脚本文件夹新建文件neeview一键保存当前图片命名为文件名加页数.nvjs，或者在<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E9%A1%B5%E6%95%B0.nvjs">github下载</a></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// @name neeview保存当前图片命名为文件名加页数</span></span><br><span class="line"><span class="comment">// @description neeview保存当前图片命名为文件名加页数</span></span><br><span class="line"></span><br><span class="line">param = &#123;</span><br><span class="line">    <span class="string">&quot;FileNameMode&quot;</span>: <span class="string">&quot;BookPageNumber&quot;</span>, </span><br><span class="line">	<span class="string">&quot;ExportFolder&quot;</span>: <span class="string">&quot;D:\漫画截图&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">ExportImage</span>.<span class="title class_">Patch</span>(param).<span class="title class_">Execute</span>()</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// @name neeview保存当前图片命名为文件名加页数</span></span><br><span class="line"><span class="comment">// @description neeview保存当前图片命名为文件名加页数</span></span><br><span class="line"><span class="comment">// @shortCutKey Ctrl+S</span></span><br><span class="line"></span><br><span class="line">param = &#123;</span><br><span class="line">    <span class="string">&quot;FileNameMode&quot;</span>: <span class="string">&quot;BookPageNumber&quot;</span>, </span><br><span class="line">	<span class="string">&quot;ExportFolder&quot;</span>: <span class="string">&quot;D:\\漫画截图&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">ExportImage</span>.<span class="title class_">Patch</span>(param).<span class="title class_">Execute</span>()</span><br></pre></td></tr></table></figure>
 
 <p>这里的图片页数和图片名一般不对应，还不够完美</p>
 <p>要保存成原来的文件名，把BookPageNumber改成Original</p>
 <p>ExportFolder里设置成保存截图的文件夹路径</p>
-<h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键下边的框点击后按快捷键，我设置成ctrl+s，加入，确定</p>
-<p>之后ctrl+s，neeview右下角会显示XX已存储</p>
+<h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>默认快捷键Ctrl+S</p>
+<p>选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名</p>
+<p>之后Ctrl+S，neeview右下角会显示XX已存储</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>neeview，帮助，脚本说明</p>
 ]]></content>
       <categories>
@@ -16940,7 +16941,7 @@
     <url>/2021/10/05/%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BBNeeView%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%B9%E6%AF%94/</url>
     <content><![CDATA[<hr>
 <h2 id="我的NeeView常用快捷键建议"><a href="#我的NeeView常用快捷键建议" class="headerlink" title="我的NeeView常用快捷键建议"></a>我的NeeView常用快捷键建议</h2><p>选项，设置，指令设置。因为看日版漫画多，所以一般把左当作下一页。</p>
-<p>切换全屏幕，回车<br>启用&#x2F;停用放大镜，F5，鼠标侧键<br>返回到前一个页面（上一页），方向右，方向上，pageup<br>前进到下一个页面（下一页），方向左，方向下，空格，pagedown<br>返回单页（双页显示时，只向下翻一单页），&#x3D;<br>前进单页（双页显示时，只向上翻一单页），-<br>滚动+返回到前一个页面，鼠标滚轮上<br>滚动+前进到下一个页面，鼠标滚轮下<br>移动到开始页面（移动到第一页），Home<br>移动到最后的页面（移动到最后一页），End<br>移动到前一本书（打开上一个文件），]<br>移动到下一本本（打开下一个文件），[<br>单页显示，1<br>双页显示，2<br>结束应用程序，Esc</p>
+<p>切换全屏幕，回车<br>启用&#x2F;停用放大镜，F5，鼠标侧键<br>返回到前一个页面（上一页），方向右，方向上，pageup<br>前进到下一个页面（下一页），方向左，方向下，空格，pagedown<br>返回单页（双页显示时，只向下翻一单页），&#x3D;<br>前进单页（双页显示时，只向上翻一单页），-<br>滚动+返回到前一个页面，鼠标滚轮上<br>滚动+前进到下一个页面，鼠标滚轮下<br>移动到开始页面（移动到第一页），Home<br>移动到最后的页面（移动到最后一页），End<br>移动到前一本书（打开上一个文件），]<br>移动到下一本本（打开下一个文件），[<br>单页显示，1<br>双页显示，2<br>结束应用程序，Esc<br>保存截图，ctrl+s，见<a href="https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E9%A1%B5%E6%95%B0/">neeview一键保存当前图片命名为文件名加页数</a></p>
 <p>选项，汇入设定可直接导入，设定文件下载<a href="/files/NeeView40.5-20240204.nvzip">&#x2F;files&#x2F;NeeView40.5-20240204.nvzip</a></p>
 <span id="more"></span>
 
