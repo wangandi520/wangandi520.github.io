@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2024-03-03T04:32:10.592Z</updated>
+  <updated>2024-03-07T07:45:38.383Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>neeview一键保存当前图片命名为文件名加页数</title>
+    <link href="https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E9%A1%B5%E6%95%B0/"/>
+    <id>https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E9%A1%B5%E6%95%B0/</id>
+    <published>2024-03-07T07:20:21.000Z</published>
+    <updated>2024-03-07T07:45:38.383Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;neeview开启脚本功能&quot;&gt;&lt;a href=&quot;#neeview开启脚本功能&quot; class=&quot;headerlink&quot; title=&quot;neeview开启脚本功能&quot;&gt;&lt;/a&gt;neeview开启脚本功能&lt;/h2&gt;&lt;p&gt;选项，设置，指令，脚本，使用脚本开，打开脚本文件夹&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>立直麻将点数计算工具mahjong-calc</title>
@@ -43,7 +65,7 @@
     <link href="https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/"/>
     <id>https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</id>
     <published>2024-02-29T12:33:12.000Z</published>
-    <updated>2024-03-06T08:24:33.508Z</updated>
+    <updated>2024-03-06T12:31:04.941Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -676,9 +698,9 @@
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
     
     
-    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
-    
     <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
   </entry>
   
@@ -772,9 +794,9 @@
     
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     
-    <category term="python" scheme="https://andi.wang/tags/python/"/>
-    
     <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+    <category term="python" scheme="https://andi.wang/tags/python/"/>
     
   </entry>
   
@@ -1031,28 +1053,6 @@
     <category term="REAPER" scheme="https://andi.wang/tags/REAPER/"/>
     
     <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>魔方笔记</title>
-    <link href="https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/"/>
-    <id>https://andi.wang/2021/03/11/%E9%AD%94%E6%96%B9%E7%AC%94%E8%AE%B0/</id>
-    <published>2021-03-11T06:11:27.000Z</published>
-    <updated>2022-08-18T03:54:08.941Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;cross&quot;&gt;&lt;a href=&quot;#cross&quot; class=&quot;headerlink&quot; title=&quot;cross&quot;&gt;&lt;/a&gt;cross&lt;/h2&gt;&lt;p&gt;底层对好白色十字&lt;br&gt;红橙，蓝绿，绿橙蓝红&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="魔方" scheme="https://andi.wang/tags/%E9%AD%94%E6%96%B9/"/>
-    
-    <category term="学习笔记" scheme="https://andi.wang/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
