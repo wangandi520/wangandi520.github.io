@@ -2381,14 +2381,14 @@
 <h2 id="neeview开启脚本功能"><a href="#neeview开启脚本功能" class="headerlink" title="neeview开启脚本功能"></a>neeview开启脚本功能</h2><p>选项，设置，指令，脚本，使用脚本开，打开脚本文件夹</p>
 <span id="more"></span>
 
-<h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><p>在脚本文件夹新建文件neeview保存当前图片命名为文件名加页数.nvjs，或者在<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E9%A1%B5%E6%95%B0.nvjs">github下载</a></p>
+<h2 id="脚本代码"><a href="#脚本代码" class="headerlink" title="脚本代码"></a>脚本代码</h2><p>在脚本文件夹新建文件neeview一键保存当前图片命名为文件名加页数.nvjs，或者在<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E9%A1%B5%E6%95%B0.nvjs">github下载</a></p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// @name neeview保存当前图片命名为文件名加页数</span></span><br><span class="line"><span class="comment">// @description neeview保存当前图片命名为文件名加页数</span></span><br><span class="line"></span><br><span class="line">param = &#123;</span><br><span class="line">    <span class="string">&quot;FileNameMode&quot;</span>: <span class="string">&quot;BookPageNumber&quot;</span>, </span><br><span class="line">	<span class="string">&quot;ExportFolder&quot;</span>: <span class="string">&quot;D:\漫画截图&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">ExportImage</span>.<span class="title class_">Patch</span>(param).<span class="title class_">Execute</span>()</span><br></pre></td></tr></table></figure>
 
 <p>这里的图片页数和图片名一般不对应，还不够完美</p>
 <p>要保存成原来的文件名，把BookPageNumber改成Original</p>
 <p>ExportFolder里设置成保存截图的文件夹路径</p>
-<h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>选项，设置，指令，指令设置，拉到最下面，neeview保存当前图片命名为文件名加页数，双击，快捷键下边的框点击后按快捷键，我设置成ctrl+s，加入，确定</p>
-<p>完成后ctrl+s，neeview右下角会有“xxx已存储”的提示</p>
+<h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键下边的框点击后按快捷键，我设置成ctrl+s，加入，确定</p>
+<p>之后ctrl+s，neeview右下角会有“xxx已存储”的提示</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>neeview，帮助，脚本说明</p>
 ]]></content>
       <categories>
