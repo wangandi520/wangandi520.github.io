@@ -41,7 +41,7 @@
     <link href="https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87/"/>
     <id>https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87/</id>
     <published>2024-03-07T07:20:21.000Z</published>
-    <updated>2024-03-13T08:29:45.117Z</updated>
+    <updated>2024-03-14T02:36:16.527Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -64,13 +64,10 @@
     <link href="https://andi.wang/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/"/>
     <id>https://andi.wang/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/</id>
     <published>2024-03-03T02:11:04.000Z</published>
-    <updated>2024-03-09T15:07:23.482Z</updated>
+    <updated>2024-03-14T02:37:42.523Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;原项目地址：&lt;a href=&quot;https://github.com/livewing/mahjong-calc&quot;&gt;https://github.com/livewing/mahjong-calc&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;原作者演示地址：&lt;a href=&quot;https://mahjong-calc.livewing.net/&quot;&gt;https://mahjong-calc.livewing.net/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;原作者使用方法（日文）：&lt;a href=&quot;https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md&quot;&gt;https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;能计算麻将的进张面，向听数，听什么牌，和牌点数，很好的工具&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;原项目地址：&lt;a href=&quot;https://github.com/livewing/mahjong-calc&quot;&gt;https://github.com/livewing/mahjong-calc&lt;/a&gt;&lt;br&gt;原作者演示地址：&lt;a href=&quot;https://mahjong-calc.livewing.net/&quot;&gt;https://mahjong-calc.livewing.net/&lt;/a&gt;&lt;br&gt;原作者使用方法（日文）：&lt;a href=&quot;https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md&quot;&gt;https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md&lt;/a&gt;&lt;br&gt;能计算麻将的进张面，向听数，听什么牌，和牌点数，很好的工具&lt;/p&gt;</summary>
     
     
     
@@ -86,7 +83,7 @@
     <link href="https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/"/>
     <id>https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</id>
     <published>2024-02-29T12:33:12.000Z</published>
-    <updated>2024-03-08T07:36:07.259Z</updated>
+    <updated>2024-03-14T02:38:32.495Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -128,7 +125,7 @@
     <link href="https://andi.wang/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/"/>
     <id>https://andi.wang/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</id>
     <published>2024-02-11T02:32:08.000Z</published>
-    <updated>2024-02-12T00:30:34.815Z</updated>
+    <updated>2024-03-14T02:40:24.305Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。&lt;/p&gt;</summary>
@@ -216,14 +213,11 @@
     <link href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
     <id>https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</id>
     <published>2024-01-13T09:11:23.000Z</published>
-    <updated>2024-03-13T15:43:05.805Z</updated>
+    <updated>2024-03-14T02:37:00.284Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;分为第三方ROM和官方ROM两部分。&lt;/p&gt;
-&lt;p&gt;操作有风险，注意安全。&lt;/p&gt;
-&lt;p&gt;zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。&lt;/p&gt;
-&lt;p&gt;刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前zui14.0.286使用没问题。&lt;/p&gt;</summary>
+&lt;p&gt;分为第三方ROM和官方ROM两部分。&lt;br&gt;操作有风险，注意安全。&lt;br&gt;zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。&lt;br&gt;刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前zui14.0.286使用没问题。&lt;/p&gt;</summary>
     
     
     
@@ -343,13 +337,11 @@
     <link href="https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/"/>
     <id>https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</id>
     <published>2023-12-15T11:37:05.000Z</published>
-    <updated>2024-03-04T14:05:42.322Z</updated>
+    <updated>2024-03-14T02:39:08.097Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;宿主DAW&quot;&gt;&lt;a href=&quot;#宿主DAW&quot; class=&quot;headerlink&quot; title=&quot;宿主DAW&quot;&gt;&lt;/a&gt;宿主DAW&lt;/h2&gt;&lt;h3 id=&quot;Reaper&quot;&gt;&lt;a href=&quot;#Reaper&quot; class=&quot;headerlink&quot; title=&quot;Reaper&quot;&gt;&lt;/a&gt;Reaper&lt;/h3&gt;&lt;p&gt;版本v7.07&lt;/p&gt;
-&lt;p&gt;60美元买，可以升级两个整数版本，或者免费试用，但是每次进去要等几秒，网上破解版也很容易找。&lt;/p&gt;
-&lt;p&gt;优点：体积小，很多自制脚本（官网reaper.fm里），快捷操作很多（菜单Actions里），社区活跃&lt;/p&gt;</summary>
+&lt;h2 id=&quot;宿主DAW&quot;&gt;&lt;a href=&quot;#宿主DAW&quot; class=&quot;headerlink&quot; title=&quot;宿主DAW&quot;&gt;&lt;/a&gt;宿主DAW&lt;/h2&gt;&lt;h3 id=&quot;Reaper&quot;&gt;&lt;a href=&quot;#Reaper&quot; class=&quot;headerlink&quot; title=&quot;Reaper&quot;&gt;&lt;/a&gt;Reaper&lt;/h3&gt;&lt;p&gt;版本v7.07&lt;br&gt;60美元买，可以升级两个整数版本，或者免费试用，但是每次进去要等几秒，网上破解版也很容易找。&lt;br&gt;优点：体积小，很多自制脚本（官网reaper.fm里），快捷操作很多（菜单Actions里），社区活跃&lt;/p&gt;</summary>
     
     
     
@@ -904,7 +896,7 @@
     <link href="https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/"/>
     <id>https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/</id>
     <published>2021-03-16T15:13:01.000Z</published>
-    <updated>2024-03-04T08:32:31.130Z</updated>
+    <updated>2024-03-14T02:39:54.932Z</updated>
     
     
     <summary type="html">&lt;hr&gt;

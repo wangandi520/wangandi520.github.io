@@ -709,8 +709,7 @@
 
 <h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
 
-<p>主题会下载到node_modules\hexo-theme-next，打开配置文件node_modules\hexo-theme-next\_config.yml</p>
-<p>升级主题，升级前记得先备份_config.yml，之前修改的layout之类的也会重置</p>
+<p>主题会下载到node_modules\hexo-theme-next，打开配置文件node_modules\hexo-theme-next\_config.yml<br>升级主题，升级前记得先备份_config.yml，之前修改的layout之类的也会重置</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next@latest</span><br></pre></td></tr></table></figure>
 
 <h2 id="预览和部署"><a href="#预览和部署" class="headerlink" title="预览和部署"></a>预览和部署</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
@@ -718,8 +717,7 @@
 <p>如果频繁调试，也可以输入</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
-<p>浏览器访问<a href="http://localhost:4000/%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E9%A2%84%E8%A7%88%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%8C%E4%B8%8D%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%9A%84%E8%AF%9D%E4%B8%8D%E9%9C%80%E8%A6%81hexo">http://localhost:4000/，就可以预览你的博客，不本地预览的话不需要hexo</a> s</p>
-<p>public文件夹里的文件复制到你的服务器就可以运行了</p>
+<p>浏览器访问<a href="http://localhost:4000/%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E9%A2%84%E8%A7%88%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%8C%E4%B8%8D%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%9A%84%E8%AF%9D%E4%B8%8D%E9%9C%80%E8%A6%81hexo">http://localhost:4000/，就可以预览你的博客，不本地预览的话不需要hexo</a> s<br>public文件夹里的文件复制到你的服务器就可以运行了</p>
 <h2 id="配置next主题"><a href="#配置next主题" class="headerlink" title="配置next主题"></a>配置next主题</h2><h3 id="选择风格"><a href="#选择风格" class="headerlink" title="选择风格"></a>选择风格</h3><p>主题有4个风格，可以搜一下效果，选择哪个就把前面的井号去掉</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="comment">#scheme: Gemini</span></span><br></pre></td></tr></table></figure>
 
@@ -744,13 +742,11 @@
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (symbolsResult &gt; <span class="number">9999</span>) &#123;</span><br><span class="line">  symbolsResult = <span class="title class_">Math</span>.<span class="title function_">round</span>(symbolsResult / <span class="number">1000</span>) + <span class="string">&#x27;k&#x27;</span>; <span class="comment">// &gt; 9999 =&gt; 11k</span></span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> (symbolsResult &gt; <span class="number">999</span>) &#123;</span><br><span class="line">  symbolsResult = <span class="title class_">Math</span>.<span class="title function_">round</span>(symbolsResult / <span class="number">100</span>) / <span class="number">10</span> + <span class="string">&#x27;k&#x27;</span>; <span class="comment">// &gt; 999 =&gt; 1.1k</span></span><br><span class="line">&#125; <span class="comment">// &lt; 999 =&gt; 111</span></span><br></pre></td></tr></table></figure>
 
 <p>修改后要hexo cl再hexo g才生效</p>
-<h3 id="使用github当评论系统的gitalk"><a href="#使用github当评论系统的gitalk" class="headerlink" title="使用github当评论系统的gitalk"></a>使用github当评论系统的gitalk</h3><p>要修改的是以下位置，client_开头的两个，要在<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>，申请后generate a new client secret后得到</p>
-<p>编辑主题的_config.yml</p>
+<h3 id="使用github当评论系统的gitalk"><a href="#使用github当评论系统的gitalk" class="headerlink" title="使用github当评论系统的gitalk"></a>使用github当评论系统的gitalk</h3><p>要修改的是以下位置，client_开头的两个，要在<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a>，申请后generate a new client secret后得到<br>编辑主题的_config.yml</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">github_id:</span> <span class="string">你的github账户名</span> <span class="comment"># GitHub repo owner</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">你的Repository名</span> <span class="comment"># Repository name to store issues</span></span><br><span class="line">  <span class="attr">client_id:</span> <span class="string">你的id</span> <span class="comment"># GitHub Application Client ID</span></span><br><span class="line">  <span class="attr">client_secret:</span> <span class="string">你的secret</span>  <span class="comment"># GitHub Application Client Secret</span></span><br><span class="line">  <span class="attr">admin_user:</span> <span class="string">你的github账户名</span> <span class="comment"># GitHub repo owner and collaborators, only these guys can initialize gitHub issues</span></span><br></pre></td></tr></table></figure>
 
 <p>每篇文章要打开一下初始化，才能使用评论，有点麻烦</p>
-<h3 id="修改一些名词"><a href="#修改一些名词" class="headerlink" title="修改一些名词"></a>修改一些名词</h3><p>修改node_modules\hexo-theme-next\languages\zh-CN.yml</p>
-<p>可以把每页下面的“赞赏”和“请我一杯咖啡吧”换成别的话</p>
+<h3 id="修改一些名词"><a href="#修改一些名词" class="headerlink" title="修改一些名词"></a>修改一些名词</h3><p>修改node_modules\hexo-theme-next\languages\zh-CN.yml<br>可以把每页下面的“赞赏”和“请我一杯咖啡吧”换成别的话</p>
 <h3 id="版权信息"><a href="#版权信息" class="headerlink" title="版权信息"></a>版权信息</h3><p>编辑主题的_config.yml</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">creative_commons:</span></span><br><span class="line">  <span class="attr">license:</span> <span class="string">by-nc-sa</span></span><br><span class="line">  <span class="attr">size:</span> <span class="string">small</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">post:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">language:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">deed.zh-hans</span></span><br></pre></td></tr></table></figure>
 
@@ -790,8 +786,7 @@
 <h3 id="mist风格时主页显示每篇文章的分隔线"><a href="#mist风格时主页显示每篇文章的分隔线" class="headerlink" title="mist风格时主页显示每篇文章的分隔线"></a>mist风格时主页显示每篇文章的分隔线</h3><p>node_modules\hexo-theme-next\source\css_schemes\Mist\_posts-expand.styl删除26-28行</p>
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.post-eof</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>修改分隔线风格像是其他线一样断续的风格</p>
-<p>node_modules\hexo-theme-next\source\css\_common\components\post\post-footer.styl的第10行.post-eof {下修改成以下内容</p>
+<p>修改分隔线风格像是其他线一样断续的风格<br>node_modules\hexo-theme-next\source\css\_common\components\post\post-footer.styl的第10行.post-eof {下修改成以下内容</p>
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="attribute">background-image</span>: <span class="built_in">repeating-linear-gradient</span>(-<span class="number">45deg</span>, <span class="number">#ddd</span>, <span class="number">#ddd</span> <span class="number">4px</span>, transparent <span class="number">4px</span>, transparent <span class="number">8px</span>);</span><br><span class="line"><span class="attribute">border</span>: <span class="number">0</span>;</span><br><span class="line"><span class="attribute">height</span>: <span class="number">3px</span>;</span><br><span class="line"><span class="attribute">margin</span>: <span class="number">40px</span> <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
 
 <h3 id="设置图片大小"><a href="#设置图片大小" class="headerlink" title="设置图片大小"></a>设置图片大小</h3><p>直接写html代码，比如原来的写法是</p>
@@ -806,16 +801,13 @@
 <h3 id="设置description"><a href="#设置description" class="headerlink" title="设置description"></a>设置description</h3><p>编辑hexo根目录下的_config.yml，不是主题的_config.yml，类似签名一样的话</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">description:</span> <span class="string">如果我会发光，就不必害怕黑暗。</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="点击头像能返回首页"><a href="#点击头像能返回首页" class="headerlink" title="点击头像能返回首页"></a>点击头像能返回首页</h3><p>修改node_modules\hexo-theme-next\layout\_partials\sidebar\site-overview.njk</p>
-<p>第3，4行</p>
+<h3 id="点击头像能返回首页"><a href="#点击头像能返回首页" class="headerlink" title="点击头像能返回首页"></a>点击头像能返回首页</h3><p>修改node_modules\hexo-theme-next\layout\_partials\sidebar\site-overview.njk<br>第3，4行</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;/&quot;&gt;&lt;img class=&quot;site-author-image&quot; itemprop=&quot;image&quot; alt=&quot;&#123;&#123; author &#125;&#125;&quot;</span><br><span class="line">  src=&quot;&#123;&#123; url_for(theme.avatar.url) &#125;&#125;&quot;&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 
-<h3 id="侧栏文章目录不显示友情链接"><a href="#侧栏文章目录不显示友情链接" class="headerlink" title="侧栏文章目录不显示友情链接"></a>侧栏文章目录不显示友情链接</h3><p>修改node_modules\hexo-theme-next\layout\_macro\sidebar.njk</p>
-<p>把42-59行剪切到第30行的下面，修改后的30-32行是这样</p>
+<h3 id="侧栏文章目录不显示友情链接"><a href="#侧栏文章目录不显示友情链接" class="headerlink" title="侧栏文章目录不显示友情链接"></a>侧栏文章目录不显示友情链接</h3><p>修改node_modules\hexo-theme-next\layout\_macro\sidebar.njk<br>把42-59行剪切到第30行的下面，修改后的30-32行是这样</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;&#123;- next_inject(&#x27;sidebar&#x27;) &#125;&#125;</span><br><span class="line">&#123;# Blogroll #&#125;</span><br><span class="line">&#123;%- if theme.links %&#125;</span><br></pre></td></tr></table></figure>
 
-<h3 id="侧栏文章目录也显示头像"><a href="#侧栏文章目录也显示头像" class="headerlink" title="侧栏文章目录也显示头像"></a>侧栏文章目录也显示头像</h3><p>修改node_modules\hexo-theme-next\layout\_macro\sidebar.njk</p>
-<p>在第21行后</p>
+<h3 id="侧栏文章目录也显示头像"><a href="#侧栏文章目录也显示头像" class="headerlink" title="侧栏文章目录也显示头像"></a>侧栏文章目录也显示头像</h3><p>修改node_modules\hexo-theme-next\layout\_macro\sidebar.njk<br>在第21行后</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;%- if display_toc %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>添加内容</p>
@@ -827,10 +819,7 @@
 <h3 id="代码块右边增加复制按钮"><a href="#代码块右边增加复制按钮" class="headerlink" title="代码块右边增加复制按钮"></a>代码块右边增加复制按钮</h3><p>编辑主题的_config.yml</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">copy_button:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="next主题的bug和不足"><a href="#next主题的bug和不足" class="headerlink" title="next主题的bug和不足"></a>next主题的bug和不足</h2><p>gemini风格，手机端浏览时没法显示文章目录，电脑端窗口缩窄也是一样</p>
-<p>代码高亮改不了风格</p>
-<p>侧栏显示的信息要自己改</p>
-<p>动画没法完全取消</p>
+<h2 id="next主题的bug和不足"><a href="#next主题的bug和不足" class="headerlink" title="next主题的bug和不足"></a>next主题的bug和不足</h2><p>gemini风格，手机端浏览时没法显示文章目录，电脑端窗口缩窄也是一样<br>代码高亮改不了风格<br>侧栏显示的信息要自己改<br>动画没法完全取消</p>
 ]]></content>
       <categories>
         <category>程序</category>
@@ -2292,13 +2281,10 @@
 <h2 id="neeview开启脚本功能"><a href="#neeview开启脚本功能" class="headerlink" title="neeview开启脚本功能"></a>neeview开启脚本功能</h2><p>选项，设置，指令，脚本，使用脚本（开），打开脚本文件夹</p>
 <span id="more"></span>
 
-<h2 id="neeview一键保存当前图片命名为文件名加图片名"><a href="#neeview一键保存当前图片命名为文件名加图片名" class="headerlink" title="neeview一键保存当前图片命名为文件名加图片名"></a>neeview一键保存当前图片命名为文件名加图片名</h2><p>在脚本文件夹新建文件：<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E4%B9%A6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D.nvjs">neeview一键保存当前图片命名为书名加图片名.nvjs</a></p>
-<p>第6行修改成要保存图片的目录，斜杠要写两遍</p>
+<h2 id="neeview一键保存当前图片命名为文件名加图片名"><a href="#neeview一键保存当前图片命名为文件名加图片名" class="headerlink" title="neeview一键保存当前图片命名为文件名加图片名"></a>neeview一键保存当前图片命名为文件名加图片名</h2><p>在脚本文件夹新建文件：<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E4%B9%A6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D.nvjs">neeview一键保存当前图片命名为书名加图片名.nvjs</a><br>第6行修改成要保存图片的目录，斜杠要写两遍</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// @name neeview一键保存当前图片命名为书名加图片名</span></span><br><span class="line"><span class="comment">// @description neeview一键保存当前图片命名为书名加图片名</span></span><br><span class="line"><span class="comment">// @shortCutKey Ctrl+S</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//保存截图的文件夹路径，例如var saveImagePath = &quot;D:\\漫画截图&quot;</span></span><br><span class="line"><span class="keyword">var</span> saveImagePath = <span class="string">&quot;H:\\ecomic截图&quot;</span></span><br><span class="line">param = &#123;</span><br><span class="line">    <span class="string">&quot;FileNameMode&quot;</span>: <span class="string">&quot;BookPageNumber&quot;</span>,</span><br><span class="line">    <span class="string">&quot;ExportFolder&quot;</span>: saveImagePath</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//导出图片</span></span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">ExportImage</span>.<span class="title class_">Patch</span>(param).<span class="title class_">Execute</span>()</span><br><span class="line"><span class="comment">//获取页数</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageIndex = -<span class="number">1</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> pageIndex = <span class="number">0</span>; pageIndex &lt; nv.<span class="property">book</span>.<span class="property">pages</span>.<span class="property">length</span>; pageIndex++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span> == nv.<span class="property">book</span>.<span class="property">pages</span>[pageIndex].<span class="property">Path</span>) &#123;</span><br><span class="line">        getCurrentPageIndex = (<span class="title class_">Array</span>(<span class="number">3</span>).<span class="title function_">join</span>(<span class="string">&#x27;0&#x27;</span>) + pageIndex).<span class="title function_">slice</span>(-<span class="number">3</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//获取保存的文件路径</span></span><br><span class="line">currentImagePath = nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span></span><br><span class="line"><span class="comment">//获取当前图片扩展名</span></span><br><span class="line">currentImageSuffix = currentImagePath.<span class="title function_">slice</span>((currentImagePath.<span class="title function_">lastIndexOf</span>(<span class="string">&#x27;.&#x27;</span>) - <span class="number">1</span> &gt;&gt;&gt; <span class="number">0</span>) + <span class="number">2</span>)</span><br><span class="line"><span class="comment">//获取当前图片名</span></span><br><span class="line">tmpBookName = nv.<span class="property">Book</span>.<span class="property">Path</span>.<span class="title function_">split</span>(<span class="string">&#x27;\\&#x27;</span>)</span><br><span class="line">tmpBookName = tmpBookName[tmpBookName.<span class="property">length</span> - <span class="number">1</span>]</span><br><span class="line">getBookName = tmpBookName.<span class="title function_">substring</span>(<span class="number">0</span>, tmpBookName.<span class="title function_">lastIndexOf</span>(<span class="string">&#x27;.&#x27;</span>))</span><br><span class="line"><span class="comment">//程序导出的图片的路径</span></span><br><span class="line">oldFileName = saveImagePath + <span class="string">&#x27;\\&#x27;</span> + getBookName + <span class="string">&#x27;_&#x27;</span> + getCurrentPageIndex + <span class="string">&#x27;.&#x27;</span> + currentImageSuffix</span><br><span class="line"><span class="comment">//新文件名</span></span><br><span class="line">newFileName = getBookName + <span class="string">&#x27;_&#x27;</span> + nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="title class_">GetMetaValue</span>(<span class="string">&quot;FileName&quot;</span>)</span><br><span class="line"><span class="comment">//改名</span></span><br><span class="line">cmdPara = <span class="string">&#x27; /c ren &quot;&#x27;</span> + oldFileName + <span class="string">&#x27;&quot; &quot;&#x27;</span> + newFileName + <span class="string">&#x27;&quot; &amp;&amp; echo &#x27;</span></span><br><span class="line"><span class="comment">//cmdPara = nv.Config.Script.ScriptFolder + &#x27;\\neeview一键保存当前图片命名为文件名加图片名.py &#x27; + oldFileName + &#x27; &#x27; + newFileName</span></span><br><span class="line">param = &#123;</span><br><span class="line">    <span class="string">&quot;Command&quot;</span>: <span class="string">&quot;cmd.exe&quot;</span>,</span><br><span class="line">    <span class="comment">//&quot;Command&quot;: &quot;python.exe&quot;,</span></span><br><span class="line">    <span class="string">&quot;Parameter&quot;</span>: cmdPara</span><br><span class="line">&#125;</span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">OpenExternalApp</span>.<span class="title class_">Patch</span>(param).<span class="title class_">Execute</span>()</span><br></pre></td></tr></table></figure>
 
-<h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>默认快捷键是Ctrl+S，修改在</p>
-<p>选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名</p>
-<p>之后Ctrl+S，neeview右下角会显示XX已存储</p>
+<h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>默认快捷键是Ctrl+S，修改在<br>选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名<br>之后Ctrl+S，neeview右下角会显示XX已存储</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>neeview，帮助，脚本说明</p>
 ]]></content>
       <categories>
@@ -15593,19 +15579,13 @@
     <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
 <span id="more"></span>
 
-<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）</p>
-<p>在github的项目界面，点Actions，Skip this and set up a workflow yourself </p>
-<p>复制下面的代码后，右上角commit changes</p>
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）<br>在github的项目界面，点Actions，Skip this and set up a workflow yourself<br>复制下面的代码后，右上角commit changes</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
 
-<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a href="https://crontab.guru/">https://crontab.guru/</a></p>
-<p>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。</p>
-<p>要运行两个以上的脚本，就把9到20行再复制一遍，任务名要改。</p>
-<p>几个python签到脚本例子：</p>
+<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a href="https://crontab.guru/">https://crontab.guru/</a><br>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。<br>要运行两个以上的脚本，就把9到20行再复制一遍，第9行任务名要改。<br>几个python签到脚本例子：</p>
 <p><a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
 <p><a href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
-<p>Actions里没有东西，可能需要push一次才能更新。</p>
-<p>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
+<p>Actions里没有东西，可能需要push一次才能更新。<br>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
 ]]></content>
       <categories>
         <category>程序</category>
@@ -17018,29 +16998,21 @@
   <entry>
     <title>立直麻将点数计算工具mahjong-calc</title>
     <url>/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/</url>
-    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/livewing/mahjong-calc">https://github.com/livewing/mahjong-calc</a></p>
-<p>原作者演示地址：<a href="https://mahjong-calc.livewing.net/">https://mahjong-calc.livewing.net/</a></p>
-<p>原作者使用方法（日文）：<a href="https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md">https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md</a></p>
-<p>能计算麻将的进张面，向听数，听什么牌，和牌点数，很好的工具</p>
+    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/livewing/mahjong-calc">https://github.com/livewing/mahjong-calc</a><br>原作者演示地址：<a href="https://mahjong-calc.livewing.net/">https://mahjong-calc.livewing.net/</a><br>原作者使用方法（日文）：<a href="https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md">https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md</a><br>能计算麻将的进张面，向听数，听什么牌，和牌点数，很好的工具</p>
 <span id="more"></span>
 
 <h2 id="自己编译出成品"><a href="#自己编译出成品" class="headerlink" title="自己编译出成品"></a>自己编译出成品</h2><p>使用git clone复制一份到自己的硬盘，不能下载zip包解压缩</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/livewing/mahjong-calc.git</span><br></pre></td></tr></table></figure>
 
 <p>下载并安装下面3个软件</p>
-<p>rust<br><a href="https://www.rust-lang.org/zh-CN/tools/install">https://www.rust-lang.org/zh-CN/tools/install</a></p>
-<p>wasm-pack<br><a href="https://github.com/rustwasm/wasm-pack/releases">https://github.com/rustwasm/wasm-pack/releases</a></p>
-<p>msys2<br><a href="https://github.com/msys2/msys2-installer/releases">https://github.com/msys2/msys2-installer/releases</a></p>
+<p>rust<br><a href="https://www.rust-lang.org/zh-CN/tools/install">https://www.rust-lang.org/zh-CN/tools/install</a><br>wasm-pack<br><a href="https://github.com/rustwasm/wasm-pack/releases">https://github.com/rustwasm/wasm-pack/releases</a><br>msys2<br><a href="https://github.com/msys2/msys2-installer/releases">https://github.com/msys2/msys2-installer/releases</a></p>
 <p>命令行运行</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rustup toolchain install stable-x86_64-pc-windows-gnu</span><br><span class="line">rustup default stable-x86_64-pc-windows-gnu</span><br></pre></td></tr></table></figure>
 
 <p>生成成品，命令行运行</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i</span><br><span class="line">npm run build:wasm</span><br><span class="line">npm run dev</span><br></pre></td></tr></table></figure>
 
-<p>把dist文件夹里面的文件复制到你的服务器就可以了</p>
-<p>成品演示：<a href="https://andi.wang/mahjong-calc/">https://andi.wang/mahjong-calc/</a></p>
-<p>成品源码：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc">https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc</a></p>
-<p>79博客麻将教程和源码下载：<a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd&#x3D;aw4m</a></p>
+<p>把dist文件夹里面的文件复制到你的服务器就可以了<br>成品演示：<a href="https://andi.wang/mahjong-calc/">https://andi.wang/mahjong-calc/</a><br>成品源码：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc">https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc</a><br>79博客麻将教程和源码下载：<a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd&#x3D;aw4m</a></p>
 ]]></content>
       <categories>
         <category>程序</category>
@@ -17793,41 +17765,16 @@
     <title>联想拯救者y700一代（2022）平板刷机过程</title>
     <url>/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<hr>
-<p>分为第三方ROM和官方ROM两部分。</p>
-<p>操作有风险，注意安全。</p>
-<p>zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。</p>
-<p>刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前zui14.0.286使用没问题。</p>
+<p>分为第三方ROM和官方ROM两部分。<br>操作有风险，注意安全。<br>zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。<br>刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前zui14.0.286使用没问题。</p>
 <span id="more"></span>
 
-<h2 id="第三方ROM"><a href="#第三方ROM" class="headerlink" title="第三方ROM"></a>第三方ROM</h2><h3 id="打开开发者模式"><a href="#打开开发者模式" class="headerlink" title="打开开发者模式"></a>打开开发者模式</h3><p>在y700，关于，连续点击zui版本，直到提示启用了开发者模式。</p>
-<p>其他设置里，进入开发者模式，启用usb调试。</p>
-<p>使用usb线连接电脑和y700，在y700出现的弹窗上点击允许。</p>
-<h3 id="解锁bootloader"><a href="#解锁bootloader" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h3><p>不需要去联想官网申请</p>
-<p><a href="https://developer.android.com/tools/releases/platform-tools?hl=zh-cn">https://developer.android.com/tools/releases/platform-tools?hl=zh-cn</a>， 下载适用于 Windows 的 SDK Platform-Tools</p>
-<p>解压缩进入文件夹，右键空白处，open in terminal，出现了command prompt窗口，窗口里输入adb reboot bootloader，y700会重启进入一个黑白的界面，界面最下一行会显示locked</p>
-<p>输入fastboot devices，显示一串序列号的设备，就可以进行下一步，如果没显示就下载<a href="https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip">https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip</a>， 右键点击此电脑，属性，设备管理器，通用串行总线设备，Android，更新驱动程序，浏览我的电脑以查找驱动程序，选择文件夹MiFlash20220507，更新后重启电脑。</p>
-<p>注意完成这步后，平板里的所有东西都会清空。电脑输入fastboot flashing unlock，平板上出现新界面，按音量下确定，平板重启，启动时一个最上面是叹号的界面要按两下电源键，一般就是成功了。</p>
-<p>下载rom：<a href="https://github.com/ponces/treble_aosp/releases">https://github.com/ponces/treble_aosp&#x2F;releases</a></p>
-<p>另一个可用的crdroid：<a href="https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz/download">https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz&#x2F;download</a></p>
-<p>（v&#x3D;vanilla没有谷歌套件，需要谷歌的下载bgN），下载完解压缩后得到一个.img的文件。</p>
-<h3 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h3><p>以后每次刷机只从这开始做就行。</p>
-<p>电脑再用同样的过程adb reboot bootloader，平板重启后最下一行显示unlocked。按平板音量下两下，最上显示Recovery mode，按电源键进入，选择enter fastboot，按电源键进去，最上面显示fastbootd，电脑输入fastboot devices正常显示设备后。</p>
-<p>输入fastboot erase system清空系统分区。</p>
-<p>输入fastboot flash system .\aosp-arm64-ab-vanilla-14.0-20240105.img，开始刷机，显示下图的界面就是正在刷机了。</p>
-<p><img src="/images/y700-01.png" alt="刷机过程"></p>
-<p>完成后进入enter recovery，选择wipe date&#x2F;factory reset，factory date reset清空数据，或者电脑上输入fastboot -w</p>
-<p>重启reboot system now，就进入新系统了。</p>
-<p>如果一直重启，在屏幕黑的时候同时按住电源键和音量加，就能进入fastboot刷机。</p>
+<h2 id="第三方ROM"><a href="#第三方ROM" class="headerlink" title="第三方ROM"></a>第三方ROM</h2><h3 id="打开开发者模式"><a href="#打开开发者模式" class="headerlink" title="打开开发者模式"></a>打开开发者模式</h3><p>在y700，关于，连续点击zui版本，直到提示启用了开发者模式。<br>其他设置里，进入开发者模式，启用usb调试。<br>使用usb线连接电脑和y700，在y700出现的弹窗上点击允许。</p>
+<h3 id="解锁bootloader"><a href="#解锁bootloader" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h3><p>不需要去联想官网申请<br><a href="https://developer.android.com/tools/releases/platform-tools?hl=zh-cn">https://developer.android.com/tools/releases/platform-tools?hl=zh-cn</a>， 下载适用于 Windows 的 SDK Platform-Tools<br>解压缩进入文件夹，右键空白处，open in terminal，出现了command prompt窗口，窗口里输入adb reboot bootloader，y700会重启进入一个黑白的界面，界面最下一行会显示locked<br>输入fastboot devices，显示一串序列号的设备，就可以进行下一步，如果没显示就下载<a href="https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip">https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip</a>， 右键点击此电脑，属性，设备管理器，通用串行总线设备，Android，更新驱动程序，浏览我的电脑以查找驱动程序，选择文件夹MiFlash20220507，更新后重启电脑。<br>注意完成这步后，平板里的所有东西都会清空。电脑输入fastboot flashing unlock，平板上出现新界面，按音量下确定，平板重启，启动时一个最上面是叹号的界面要按两下电源键，一般就是成功了。<br>下载rom：<a href="https://github.com/ponces/treble_aosp/releases">https://github.com/ponces/treble_aosp&#x2F;releases</a><br>另一个可用的crdroid：<a href="https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz/download">https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz&#x2F;download</a><br>（v&#x3D;vanilla没有谷歌套件，需要谷歌的下载bgN），下载完解压缩后得到一个.img的文件。</p>
+<h3 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h3><p>以后每次刷机只从这开始做就行。<br>电脑再用同样的过程adb reboot bootloader，平板重启后最下一行显示unlocked。按平板音量下两下，最上显示Recovery mode，按电源键进入，选择enter fastboot，按电源键进去，最上面显示fastbootd，电脑输入fastboot devices正常显示设备后。<br>输入fastboot erase system清空系统分区。<br>输入fastboot flash system .\aosp-arm64-ab-vanilla-14.0-20240105.img，开始刷机，显示下图的界面就是正在刷机了。<br><img src="/images/y700-01.png" alt="刷机过程"><br>完成后进入enter recovery，选择wipe date&#x2F;factory reset，factory date reset清空数据，或者电脑上输入fastboot -w<br>重启reboot system now，就进入新系统了。<br>如果一直重启，在屏幕黑的时候同时按住电源键和音量加，就能进入fastboot刷机。</p>
 <h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><p><a href="https://xdaforums.com/t/y700-roms.4454585">https://xdaforums.com/t/y700-roms.4454585</a></p>
 <h2 id="官方ROM"><a href="#官方ROM" class="headerlink" title="官方ROM"></a>官方ROM</h2><h3 id="解锁bootloader-1"><a href="#解锁bootloader-1" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h3><p>和上面的方法一样，解锁过的可以跳过。</p>
-<h3 id="下载ROM"><a href="#下载ROM" class="headerlink" title="下载ROM"></a>下载ROM</h3><p><a href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#</a></p>
-<p>同一个文件<a href="https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333">https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333</a>， 提取码：3333</p>
-<h3 id="刷机-1"><a href="#刷机-1" class="headerlink" title="刷机"></a>刷机</h3><p>下载安装QPST，<a href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0</a></p>
-<p>安装完成后运行QFIL.exe，点上方Configuration，FireHose Configuration，Device Type选ufs，勾选Reset After Download，点OK。</p>
-<p>主界面点击Load Content，刚才下载的ROM解压缩后，选择contents.xml。</p>
-<p>Y700平板关机。只按住音量上键的同时插入usb线，软件主界面上方Select Port，里面选9008，如果没有选项，在参考文章里有几个方法可以试试。</p>
-<p>点Download Content等待刷机完成就行了。</p>
-<p>新系统是zui13，会更新几次到14.0.286，就可以停了，下一个版本是15，不要更新，系统更新的通知取消不了，按住系统更新app，应用信息里停用+强行停止就看不见通知了。</p>
+<h3 id="下载ROM"><a href="#下载ROM" class="headerlink" title="下载ROM"></a>下载ROM</h3><p><a href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#</a><br>同一个文件<a href="https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333">https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333</a>， 提取码：3333</p>
+<h3 id="刷机-1"><a href="#刷机-1" class="headerlink" title="刷机"></a>刷机</h3><p>下载安装QPST，<a href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0</a><br>安装完成后运行QFIL.exe，点上方Configuration，FireHose Configuration，Device Type选ufs，勾选Reset After Download，点OK。<br>主界面点击Load Content，刚才下载的ROM解压缩后，选择contents.xml。<br>Y700平板关机。只按住音量上键的同时插入usb线，软件主界面上方Select Port，里面选9008，如果没有选项，在参考文章里有几个方法可以试试。<br>点Download Content等待刷机完成就行了。<br>新系统是zui13，会更新几次到14.0.286，就可以停了，下一个版本是15，不要更新，系统更新的通知取消不了，按住系统更新app，应用信息里停用+强行停止就看不见通知了。</p>
 <h3 id="参考文章-1"><a href="#参考文章-1" class="headerlink" title="参考文章"></a>参考文章</h3><p><a href="https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode=AOoATwelAA8lI8l6V2Af0Alwb2ADI">https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode&#x3D;AOoATwelAA8lI8l6V2Af0Alwb2ADI</a></p>
 ]]></content>
       <categories>
@@ -17851,8 +17798,7 @@
 </ul>
 <span id="more"></span>
 
-<p>看纯文字书，可以选择国产安卓电纸书，开放安卓系统，看漫画至少8寸。但是很多残影问题处理不好，彩屏分辨率低，屏幕暗。购买任何电纸书前都要降低期望。</p>
-<p>eink设备建议满足这些条件：</p>
+<p>看纯文字书，可以选择国产安卓电纸书，开放安卓系统，看漫画至少8寸。但是很多残影问题处理不好，彩屏分辨率低，屏幕暗。购买任何电纸书前都要降低期望。<br>eink设备建议满足这些条件：</p>
 <ul>
 <li>300ppi</li>
 <li>开放系统</li>
@@ -17894,14 +17840,12 @@
 <li>sigil：编辑epub文件。下载地址<a href="https://sigil-ebook.com/">https://sigil-ebook.com/</a></li>
 <li>goodsync：文件夹同步，一般是移动硬盘备份的时候用</li>
 <li>整理标注的个人python脚本：<a href="https://github.com/wangandi520/ClippingsToMarkdown">ClippingsToMarkdown</a>，可以把文石Boox,Kindle,静读天下专业版的标注转换为Markdown格式，方便展示收藏，例子：<a href="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a>。</li>
-<li>整理漫画的个人python脚本：<a href="https://github.com/wangandi520/andyspythonscript">andyspythonscript</a>, 用于改名，清理，整理漫画等。</li>
+<li>整理漫画的个人python脚本：<a href="https://github.com/wangandi520/andyspythonscript">andyspythonscript</a>, 用于改名，清理，整理漫画等。<br>下载windows软件，<a href="https://lrepacks.net/">https://lrepacks.net/</a>，<a href="https://rutracker.net/">https://rutracker.net/</a></li>
 </ul>
-<p>下载windows软件，<a href="https://lrepacks.net/">https://lrepacks.net/</a>，<a href="https://rutracker.net/">https://rutracker.net/</a></p>
 <h4 id="跨平台同步"><a href="#跨平台同步" class="headerlink" title="跨平台同步"></a>跨平台同步</h4><ul>
 <li>resilio sync：电脑和手机间同步或分享，功能强，推荐。</li>
-<li>syncthing：同步或分享，开源，功能少操作复杂，有一些bug。</li>
+<li>syncthing：同步或分享，开源，功能少操作复杂，有一些bug。<br>搭建linux服务器，可以给手机电脑同步用。参照<a href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/#Resilio-Sync%EF%BC%88BitTorrent-Sync%EF%BC%89%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5">使用archlinux搭建家庭数据服务中心</a></li>
 </ul>
-<p>搭建linux服务器，可以给手机电脑同步用。参照<a href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/#Resilio-Sync%EF%BC%88BitTorrent-Sync%EF%BC%89%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5">使用archlinux搭建家庭数据服务中心</a></p>
 <h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="文档格式"><a href="#文档格式" class="headerlink" title="文档格式"></a>文档格式</h3><p>建议保存收藏的格式：电子书epub, azw3。漫画zip，rar。</p>
 <h3 id="搜索资源"><a href="#搜索资源" class="headerlink" title="搜索资源"></a>搜索资源</h3><ul>
 <li>zlibrary，大量书，，每天能下10本书，警惕百度搜到的是一些钓鱼网站，暂时能用的网址zh.1lib.sk</li>
@@ -17910,18 +17854,11 @@
 <li><a href="https://zbook.lol/">https://zbook.lol/</a>，部分zlib书。</li>
 <li><a href="https://www.manhuabudangbbs.com/">www.manhuabudangbbs.com</a>，大量高质量漫画，建议下载格式是zip或rar的</li>
 </ul>
-<h3 id="确定版本、译本、删减情况"><a href="#确定版本、译本、删减情况" class="headerlink" title="确定版本、译本、删减情况"></a>确定版本、译本、删减情况</h3><p>先确定各个版本、删减、排版、插图清晰度情况等，可以在亚马逊每本书下面的评论、知乎、豆瓣、搜索引擎上找各种资料。</p>
-<p>比如早期的白夜行（黑白大桥封面）有大量删减。新版(白色封面）少一些，无法确实是不是100%未删减。</p>
-<p>外文书、古籍最首要看的<strong>译者</strong>的好坏</p>
+<h3 id="确定版本、译本、删减情况"><a href="#确定版本、译本、删减情况" class="headerlink" title="确定版本、译本、删减情况"></a>确定版本、译本、删减情况</h3><p>先确定各个版本、删减、排版、插图清晰度情况等，可以在亚马逊每本书下面的评论、知乎、豆瓣、搜索引擎上找各种资料。<br>比如早期的白夜行（黑白大桥封面）有大量删减。新版(白色封面）少一些，无法确实是不是100%未删减。<br>外文书、古籍最首要看的<strong>译者</strong>的好坏</p>
 <h3 id="不要读非作者写的序"><a href="#不要读非作者写的序" class="headerlink" title="不要读非作者写的序"></a>不要读非作者写的序</h3><p>容易被误导，会有些人画蛇添足总结什么思想什么表达的，像是小学语文课一样无趣。</p>
-<h3 id="电子版还是纸质书"><a href="#电子版还是纸质书" class="headerlink" title="电子版还是纸质书"></a>电子版还是纸质书</h3><p>有些纸质书存在印刷质量差、翻译差、删减等问题，建议先看一遍电子版，觉得真是好书的话，再买纸质书收藏。</p>
-<p>一些电子书平台会在纸质书正常出版的情况下，在电子版中额外删减一些内容。</p>
-<h3 id="读与记"><a href="#读与记" class="headerlink" title="读与记"></a>读与记</h3><p>可以同时读2，3本书，不至于枯燥一般也不会搞混。</p>
-<p>好书只看一遍没看懂很正常，需要重复阅读。</p>
-<h2 id="总结整理"><a href="#总结整理" class="headerlink" title="总结整理"></a>总结整理</h2><h3 id="整理目录"><a href="#整理目录" class="headerlink" title="整理目录"></a>整理目录</h3><p>windows下的书籍搜索：<a href="https://www.voidtools.com/zh-cn/downloads/">everything</a></p>
-<p>把文件目录生成一个html文件：<a href="https://rlvision.com/snap2html/about.php">Snap2HTML</a></p>
-<p>或<a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95.html%EF%BC%8C%E6%94%AF%E6%8C%81%E6%90%9C%E7%B4%A2%EF%BC%8C%E7%AE%80%E7%B9%81%E8%BD%AC%E6%8D%A2%EF%BC%88%E6%8B%96%E6%8B%BD%EF%BC%8C%E4%BB%85%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%89.py">我自制的python脚本</a></p>
-<p>我写的一些改名，生成文件信息用的脚本<a href="https://github.com/wangandi520/andyspyqtscript">pyqt脚本</a></p>
+<h3 id="电子版还是纸质书"><a href="#电子版还是纸质书" class="headerlink" title="电子版还是纸质书"></a>电子版还是纸质书</h3><p>有些纸质书存在印刷质量差、翻译差、删减等问题，建议先看一遍电子版，觉得真是好书的话，再买纸质书收藏。<br>一些电子书平台会在纸质书正常出版的情况下，在电子版中额外删减一些内容。</p>
+<h3 id="读与记"><a href="#读与记" class="headerlink" title="读与记"></a>读与记</h3><p>可以同时读2，3本书，不至于枯燥一般也不会搞混。<br>好书只看一遍没看懂很正常，需要重复阅读。</p>
+<h2 id="总结整理"><a href="#总结整理" class="headerlink" title="总结整理"></a>总结整理</h2><h3 id="整理目录"><a href="#整理目录" class="headerlink" title="整理目录"></a>整理目录</h3><p>windows下的书籍搜索：<a href="https://www.voidtools.com/zh-cn/downloads/">everything</a><br>把文件目录生成一个html文件：<a href="https://rlvision.com/snap2html/about.php">Snap2HTML</a><br>或<a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95.html%EF%BC%8C%E6%94%AF%E6%8C%81%E6%90%9C%E7%B4%A2%EF%BC%8C%E7%AE%80%E7%B9%81%E8%BD%AC%E6%8D%A2%EF%BC%88%E6%8B%96%E6%8B%BD%EF%BC%8C%E4%BB%85%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%89.py">我自制的python脚本</a><br>我写的一些改名，生成文件信息用的脚本<a href="https://github.com/wangandi520/andyspyqtscript">pyqt脚本</a></p>
 <h3 id="读书笔记"><a href="#读书笔记" class="headerlink" title="读书笔记"></a>读书笔记</h3><p>读完一本书，建议在一个笔记中记录：书名、备注、阅读日期、评分。感想或是书评写在另一个笔记中。划线标注则每本书单独一个文件保存。设置成markdown格式，用微软的Visual Studio Code配合markdown插件，可以实时预览。也可以配合各种静态博客（像是hexo），方便发布到个人网站上或github pages。</p>
 <p>格式：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|书名|备注|阅读时间|分数|</span><br><span class="line">| --- | --- | --- | --- |</span><br><span class="line">|绿毛水怪|新经典文化|2022.02.25|8|</span><br></pre></td></tr></table></figure>
@@ -18129,19 +18066,12 @@
     <title>音频软件插件简评</title>
     <url>/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</url>
     <content><![CDATA[<hr>
-<h2 id="宿主DAW"><a href="#宿主DAW" class="headerlink" title="宿主DAW"></a>宿主DAW</h2><h3 id="Reaper"><a href="#Reaper" class="headerlink" title="Reaper"></a>Reaper</h3><p>版本v7.07</p>
-<p>60美元买，可以升级两个整数版本，或者免费试用，但是每次进去要等几秒，网上破解版也很容易找。</p>
-<p>优点：体积小，很多自制脚本（官网reaper.fm里），快捷操作很多（菜单Actions里），社区活跃</p>
+<h2 id="宿主DAW"><a href="#宿主DAW" class="headerlink" title="宿主DAW"></a>宿主DAW</h2><h3 id="Reaper"><a href="#Reaper" class="headerlink" title="Reaper"></a>Reaper</h3><p>版本v7.07<br>60美元买，可以升级两个整数版本，或者免费试用，但是每次进去要等几秒，网上破解版也很容易找。<br>优点：体积小，很多自制脚本（官网reaper.fm里），快捷操作很多（菜单Actions里），社区活跃</p>
 <span id="more"></span>
 
 <hr>
-<h2 id="去人声"><a href="#去人声" class="headerlink" title="去人声"></a>去人声</h2><h3 id="iZotope-RX-10-Audio-Editor-Advanced"><a href="#iZotope-RX-10-Audio-Editor-Advanced" class="headerlink" title="iZotope RX 10 Audio Editor Advanced"></a>iZotope RX 10 Audio Editor Advanced</h3><p>版本10.2.0</p>
-<p>有处理过程</p>
-<h3 id="Ultimate-Vocal-Remover"><a href="#Ultimate-Vocal-Remover" class="headerlink" title="Ultimate Vocal Remover"></a>Ultimate Vocal Remover</h3><p>版本5.6</p>
-<p>有处理过程</p>
-<p>UVR_v5.6.0_setup.exe，使用自带模型UVR-MDX-NET Inst HQ 3</p>
-<p>测试了一个文件去人声，谁明浪子心（王杰 赵学而），效果比RX10好</p>
-<p>下载地址：<a href="https://github.com/Anjok07/ultimatevocalremovergui/releases">https://github.com/Anjok07/ultimatevocalremovergui/releases</a></p>
+<h2 id="去人声"><a href="#去人声" class="headerlink" title="去人声"></a>去人声</h2><h3 id="iZotope-RX-10-Audio-Editor-Advanced"><a href="#iZotope-RX-10-Audio-Editor-Advanced" class="headerlink" title="iZotope RX 10 Audio Editor Advanced"></a>iZotope RX 10 Audio Editor Advanced</h3><p>版本10.2.0<br>有处理过程</p>
+<h3 id="Ultimate-Vocal-Remover"><a href="#Ultimate-Vocal-Remover" class="headerlink" title="Ultimate Vocal Remover"></a>Ultimate Vocal Remover</h3><p>版本5.6<br>有处理过程<br>UVR_v5.6.0_setup.exe，使用自带模型UVR-MDX-NET Inst HQ 3<br>测试了一个文件去人声，谁明浪子心（王杰 赵学而），效果比RX10好<br>下载地址：<a href="https://github.com/Anjok07/ultimatevocalremovergui/releases">https://github.com/Anjok07/ultimatevocalremovergui/releases</a></p>
 <h3 id="Acon-Digital-Remix"><a href="#Acon-Digital-Remix" class="headerlink" title="Acon Digital Remix"></a>Acon Digital Remix</h3><p>可以在DAW实时计算使用，方便，效果一般</p>
 <h3 id="SUPERTONE-Clear-Voice-Separator"><a href="#SUPERTONE-Clear-Voice-Separator" class="headerlink" title="SUPERTONE Clear Voice Separator"></a>SUPERTONE Clear Voice Separator</h3><hr>
 <h2 id="吉他效果器"><a href="#吉他效果器" class="headerlink" title="吉他效果器"></a>吉他效果器</h2><h3 id="Helix-Native"><a href="#Helix-Native" class="headerlink" title="Helix Native"></a>Helix Native</h3><p>版本3.60.0</p>
@@ -18155,8 +18085,7 @@
 <h3 id="Superior-Drummer"><a href="#Superior-Drummer" class="headerlink" title="Superior Drummer"></a>Superior Drummer</h3><p>版本</p>
 <h3 id="EZdrummer"><a href="#EZdrummer" class="headerlink" title="EZdrummer"></a>EZdrummer</h3><p>版本3.0.6</p>
 <h3 id="Addictive-Keys"><a href="#Addictive-Keys" class="headerlink" title="Addictive Keys"></a>Addictive Keys</h3><p>版本1.6.3.2</p>
-<h3 id="EZkeys"><a href="#EZkeys" class="headerlink" title="EZkeys"></a>EZkeys</h3><p>版本2.0.3</p>
-<p>弹奏的时候会在界面显示和弦和你按的按键，对初学者很友好</p>
+<h3 id="EZkeys"><a href="#EZkeys" class="headerlink" title="EZkeys"></a>EZkeys</h3><p>版本2.0.3<br>弹奏的时候会在界面显示和弦和你按的按键，对初学者很友好</p>
 <hr>
 <h2 id="合成器"><a href="#合成器" class="headerlink" title="合成器"></a>合成器</h2><h3 id="Serum"><a href="#Serum" class="headerlink" title="Serum"></a>Serum</h3><p>版本v1.363</p>
 <h3 id="Sylenth1"><a href="#Sylenth1" class="headerlink" title="Sylenth1"></a>Sylenth1</h3><p>版本v3.073</p>
@@ -18167,11 +18096,7 @@
 <h3 id="Chordie-for-Windows"><a href="#Chordie-for-Windows" class="headerlink" title="Chordie for Windows"></a>Chordie for Windows</h3><p>实时显示键盘和弦，学习用</p>
 <h3 id="MIDI-Jar"><a href="#MIDI-Jar" class="headerlink" title="MIDI Jar"></a>MIDI Jar</h3><p>实时显示键盘和弦，学习用，项目地址<a href="https://github.com/la-jarre-a-son/midi-jar">https://github.com/la-jarre-a-son/midi-jar</a></p>
 <h3 id="ripchord"><a href="#ripchord" class="headerlink" title="ripchord"></a>ripchord</h3><p>免费插件，显示和弦</p>
-<h3 id="loopmidi"><a href="#loopmidi" class="headerlink" title="loopmidi"></a>loopmidi</h3><p>项目地址<a href="https://www.tobias-erichsen.de/software/loopmidi.html">https://www.tobias-erichsen.de/software/loopmidi.html</a></p>
-<p>让midi设备在多个软件里同时使用，例如同时使用midi jar的chord-display和reaper，既能学习键盘、五线谱又能换音色调音效</p>
-<p>midi jar里routing，左边你的键盘型号小箭头拉出来到右边的loopmidi port和chord-display</p>
-<p>loopmini里左下新建一个port</p>
-<p>reaper里options，preferences，midi devices，add virtual midi，add loopback midi devices，双击loopmini port，前三个都打勾enable，include，enable</p>
+<h3 id="loopmidi"><a href="#loopmidi" class="headerlink" title="loopmidi"></a>loopmidi</h3><p>项目地址<a href="https://www.tobias-erichsen.de/software/loopmidi.html">https://www.tobias-erichsen.de/software/loopmidi.html</a><br>让midi设备在多个软件里同时使用，例如同时使用midi jar的chord-display和reaper，既能学习键盘、五线谱又能换音色调音效<br>midi jar里routing，左边你的键盘型号小箭头拉出来到右边的loopmidi port和chord-display<br>loopmini里左下新建一个port<br>reaper里options，preferences，midi devices，add virtual midi，add loopback midi devices，双击loopmini port，前三个都打勾enable，include，enable</p>
 ]]></content>
       <categories>
         <category>评测</category>

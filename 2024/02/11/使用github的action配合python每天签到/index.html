@@ -25,7 +25,7 @@
 <meta property="og:description" content="说明使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-02-11T02:32:08.000Z">
-<meta property="article:modified_time" content="2024-02-12T00:30:34.815Z">
+<meta property="article:modified_time" content="2024-03-14T02:40:24.305Z">
 <meta property="article:author" content="Andy">
 <meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
@@ -269,7 +269,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-02-12 08:30:34" itemprop="dateModified" datetime="2024-02-12T08:30:34+08:00">2024-02-12</time>
+      <time title="修改时间：2024-03-14 10:40:24" itemprop="dateModified" datetime="2024-03-14T10:40:24+08:00">2024-03-14</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -295,7 +295,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>940</span>
+      <span>943</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -315,19 +315,13 @@
     <div class="post-body" itemprop="articleBody"><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
 <span id="more"></span>
 
-<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）</p>
-<p>在github的项目界面，点Actions，Skip this and set up a workflow yourself </p>
-<p>复制下面的代码后，右上角commit changes</p>
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）<br>在github的项目界面，点Actions，Skip this and set up a workflow yourself<br>复制下面的代码后，右上角commit changes</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
 
-<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a target="_blank" rel="noopener" href="https://crontab.guru/">https://crontab.guru/</a></p>
-<p>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。</p>
-<p>要运行两个以上的脚本，就把9到20行再复制一遍，任务名要改。</p>
-<p>几个python签到脚本例子：</p>
+<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a target="_blank" rel="noopener" href="https://crontab.guru/">https://crontab.guru/</a><br>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。<br>要运行两个以上的脚本，就把9到20行再复制一遍，第9行任务名要改。<br>几个python签到脚本例子：</p>
 <p><a target="_blank" rel="noopener" href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
 <p><a target="_blank" rel="noopener" href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
-<p>Actions里没有东西，可能需要push一次才能更新。</p>
-<p>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
+<p>Actions里没有东西，可能需要push一次才能更新。<br>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
 
     </div>
 
@@ -418,7 +412,7 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">254686</span>
+    <span title="站点总字数">254689</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
