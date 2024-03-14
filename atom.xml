@@ -256,7 +256,7 @@
     <link href="https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/"/>
     <id>https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/</id>
     <published>2023-12-29T07:20:25.000Z</published>
-    <updated>2024-01-24T02:00:47.027Z</updated>
+    <updated>2024-03-14T09:37:55.421Z</updated>
     
     
     <summary type="html">&lt;p&gt;几个关键技巧。&lt;/p&gt;
@@ -278,7 +278,7 @@
     <link href="https://andi.wang/2023/12/29/%E7%9C%81%E9%92%B1%E7%8E%A9%E7%94%B5%E5%90%89%E4%BB%96%E5%8D%95%E8%BD%A6%E6%91%84%E5%BD%B1%EF%BC%8C%E9%98%85%E8%AF%BB%E9%9F%B3%E4%B9%90/"/>
     <id>https://andi.wang/2023/12/29/%E7%9C%81%E9%92%B1%E7%8E%A9%E7%94%B5%E5%90%89%E4%BB%96%E5%8D%95%E8%BD%A6%E6%91%84%E5%BD%B1%EF%BC%8C%E9%98%85%E8%AF%BB%E9%9F%B3%E4%B9%90/</id>
     <published>2023-12-29T07:20:25.000Z</published>
-    <updated>2024-03-13T15:43:50.080Z</updated>
+    <updated>2024-03-14T09:35:49.449Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;文章内提到的盗版或破解软件都来自互联网，与本文作者无关，也无利益关系。&lt;/strong&gt;&lt;/p&gt;
@@ -425,7 +425,7 @@
     <link href="https://andi.wang/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/"/>
     <id>https://andi.wang/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/</id>
     <published>2023-06-06T08:11:56.000Z</published>
-    <updated>2024-03-10T07:06:37.371Z</updated>
+    <updated>2024-03-14T09:37:26.542Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -539,13 +539,12 @@
     <link href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"/>
     <id>https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/</id>
     <published>2022-01-26T10:12:42.000Z</published>
-    <updated>2023-12-23T07:09:43.605Z</updated>
+    <updated>2024-03-14T09:39:36.229Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
 &lt;h2 id=&quot;更新时间：2023年11月21日&quot;&gt;&lt;a href=&quot;#更新时间：2023年11月21日&quot; class=&quot;headerlink&quot; title=&quot;更新时间：2023年11月21日&quot;&gt;&lt;/a&gt;更新时间：2023年11月21日&lt;/h2&gt;&lt;h2 id=&quot;平台&quot;&gt;&lt;a href=&quot;#平台&quot; class=&quot;headerlink&quot; title=&quot;平台&quot;&gt;&lt;/a&gt;平台&lt;/h2&gt;&lt;h3 id=&quot;树莓派&quot;&gt;&lt;a href=&quot;#树莓派&quot; class=&quot;headerlink&quot; title=&quot;树莓派&quot;&gt;&lt;/a&gt;树莓派&lt;/h3&gt;&lt;p&gt;型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统&lt;a href=&quot;https://archlinuxarm.org/&quot;&gt;archlinuxarm&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;nuc&quot;&gt;&lt;a href=&quot;#nuc&quot; class=&quot;headerlink&quot; title=&quot;nuc&quot;&gt;&lt;/a&gt;nuc&lt;/h3&gt;&lt;p&gt;型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版&lt;a href=&quot;https://archlinux.org/&quot;&gt;archlinux&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本文的内容几乎适用于两种平台的archlinux配置&lt;/p&gt;</summary>
+&lt;h3 id=&quot;nuc&quot;&gt;&lt;a href=&quot;#nuc&quot; class=&quot;headerlink&quot; title=&quot;nuc&quot;&gt;&lt;/a&gt;nuc&lt;/h3&gt;&lt;p&gt;型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版&lt;a href=&quot;https://archlinux.org/&quot;&gt;archlinux&lt;/a&gt;&lt;br&gt;本文的内容几乎适用于两种平台的archlinux配置&lt;/p&gt;</summary>
     
     
     
@@ -698,7 +697,7 @@
     <link href="https://andi.wang/2021/10/05/%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BBNeeView%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%B9%E6%AF%94/"/>
     <id>https://andi.wang/2021/10/05/%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BBNeeView%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%B9%E6%AF%94/</id>
     <published>2021-10-05T01:53:55.000Z</published>
-    <updated>2024-03-07T09:25:49.140Z</updated>
+    <updated>2024-03-14T09:36:23.922Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -818,7 +817,7 @@
     <link href="https://andi.wang/2021/06/07/%E7%BA%A2%E7%B1%B3ac2100%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7padavan%E7%B3%BB%E7%BB%9F/"/>
     <id>https://andi.wang/2021/06/07/%E7%BA%A2%E7%B1%B3ac2100%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7padavan%E7%B3%BB%E7%BB%9F/</id>
     <published>2021-06-07T05:11:42.000Z</published>
-    <updated>2021-07-15T12:38:36.158Z</updated>
+    <updated>2024-03-14T09:41:31.823Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
