@@ -2622,8 +2622,11 @@
 <h2 id="我的方案（无云服务）"><a href="#我的方案（无云服务）" class="headerlink" title="我的方案（无云服务）"></a>我的方案（无云服务）</h2><p>笔记格式使用markdown，文件后缀.md<br>PC：Visual Studio Code（VSCode），或其他文本编辑器<br>安卓：QuickEdit<br>设备间同步：Resilio sync</p>
 <span id="more"></span>
 
-<h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><p>1.隐私保护较好<br>2.方便备份导出<br>3.配合VSCode，有历史记录功能（TIMELINE）<br>4.搭配hexo，可以直接发布成博客</p>
-<h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>1.没法保存图片<br>2.可能需要一台中转电脑同步，或者是树莓派这种低功耗型的，需要一些技术折腾，当电脑和树莓派都在家里的局域网时，电脑上打开Resilio sync同步到树莓派，之后电脑关机，手机使用移动网络打开Resilio sync也能同步。没有的话只能两个设备同时打开Resilio sync才能同步</p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>more之前的内容是显示在主页的</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 个人笔记跨平台解决方案</span><br><span class="line">toc: true</span><br><span class="line">tags:</span><br><span class="line">  - 笔记</span><br><span class="line">categories:</span><br><span class="line">  - 极客</span><br><span class="line">date: 2024-03-13 19:28:29</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">## 我的方案（无云服务）</span><br><span class="line"></span><br><span class="line">笔记格式使用markdown，文件后缀.md</span><br><span class="line">PC：Visual Studio Code（VSCode），或其他文本编辑器</span><br><span class="line">安卓：QuickEdit</span><br><span class="line">设备间同步：Resilio sync</span><br><span class="line"></span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line"></span><br><span class="line">## 例子</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><p>1.隐私保护较好<br>2.方便备份导出<br>3.配合VSCode，有历史记录功能（TIMELINE），打开时选择笔记的文件夹，file，open folder<br>4.搭配hexo，可以直接发布成博客，参考<a href="https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/">hexo和next主题的一些配置&#x2F;</a></p>
+<h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>1.没法保存图片<br>2.可能需要一台中转电脑同步，或者是树莓派这种低功耗型的，需要一些技术折腾，当电脑和树莓派都在家里的局域网时，电脑上打开Resilio sync同步到树莓派，之后电脑关机，手机使用移动网络打开Resilio sync也能同步。没有的话只能两个设备同时打开Resilio sync才能同步，参考<a href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83">使用archlinux搭建家庭数据服务中心</a>，<a href="https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5">搭建webdav服务器实现静读天下同步</a></p>
 <h2 id="其他跨平台方案："><a href="#其他跨平台方案：" class="headerlink" title="其他跨平台方案："></a>其他跨平台方案：</h2><p>joplin：使用webdav同步，导出也方便<br>onenote：自带同步功能，偶尔无法同步</p>
 ]]></content>
       <categories>
