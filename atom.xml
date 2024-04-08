@@ -53,9 +53,9 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
-    
     <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
   </entry>
   
@@ -357,7 +357,7 @@
     <link href="https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/"/>
     <id>https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</id>
     <published>2023-11-20T06:48:55.000Z</published>
-    <updated>2024-03-22T07:39:16.412Z</updated>
+    <updated>2024-04-08T04:30:15.045Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -405,7 +405,7 @@
     <link href="https://andi.wang/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
     <id>https://andi.wang/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</id>
     <published>2023-06-07T02:41:57.000Z</published>
-    <updated>2024-04-04T15:49:39.872Z</updated>
+    <updated>2024-04-04T16:00:58.545Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -417,7 +417,7 @@
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
     
     
-    <category term="食品用品" scheme="https://andi.wang/tags/%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
+    <category term="食品" scheme="https://andi.wang/tags/%E9%A3%9F%E5%93%81/"/>
     
   </entry>
   
@@ -711,9 +711,9 @@
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
     
     
-    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
-    
     <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
   </entry>
   
@@ -990,9 +990,9 @@
     
     <category term="kindle" scheme="https://andi.wang/tags/kindle/"/>
     
-    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
-    
     <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
+    
+    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
     
     <category term="markdown" scheme="https://andi.wang/tags/markdown/"/>
     
