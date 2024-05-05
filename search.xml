@@ -695,7 +695,7 @@
     <title>hexo和next主题的一些配置</title>
     <url>/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<hr>
-<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><p>hexo主题hexo-theme-next，scheme: Mist，<a href="https://andi.wang/">https://andi.wang/</a></p>
+<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><p>hexo主题hexo-theme-next，scheme: Gemini，<a href="https://andi.wang/">https://andi.wang/</a></p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>任意一个空文件夹右键open in terminal</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init</span><br><span class="line">hexo new page tags</span><br><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
 
@@ -17218,7 +17218,7 @@
 <h2 id="浪客剑心-全彩"><a href="#浪客剑心-全彩" class="headerlink" title="浪客剑心 全彩"></a>浪客剑心 全彩</h2><p>LKKS-DFC-03-018-剑心组反击-10.jpg 左下彦字缺一半</p>
 <h2 id="桂図録extended-version"><a href="#桂図録extended-version" class="headerlink" title="桂図録extended version"></a>桂図録extended version</h2><p>Katsura-Zuroku.exver_130.jpg 150页，中间一条竖着的白线</p>
 <h2 id="无实之花"><a href="#无实之花" class="headerlink" title="无实之花"></a>无实之花</h2><p>Adabana_01_005.png 右页左下图 对话框有毛<br>Adabana_01_010.png 左页中间图 黑点、白点、毛<br>Adabana_02_020.png 右下图左边字 黑点 两页中间 黑点</p>
-<h2 id="新世纪福音战士完全版-角川"><a href="#新世纪福音战士完全版-角川" class="headerlink" title="新世纪福音战士完全版 角川"></a>新世纪福音战士完全版 角川</h2><p>第一册197页 贞嗣应该是真嗣<br>02_173后应该少一页，左边nerv标志右边neon genesis evagelion [collector’s edition]<br>03_183左边to be continued颜色浅<br>05_173和05_174重复to be continued，174右边可能是neon genesis evagelion [collector’s edition]<br>06_173左边to be continued颜色浅<br>06_173和05_174重复to be continued，174右边可能是neon genesis evagelion [collector’s edition]</p>
+<h2 id="新世纪福音战士完全版-角川"><a href="#新世纪福音战士完全版-角川" class="headerlink" title="新世纪福音战士完全版 角川"></a>新世纪福音战士完全版 角川</h2><p>第一册197页 贞嗣应该是真嗣<br>02_173后应该少一页，左边nerv标志右边neon genesis evagelion [collector’s edition]<br>03_183左边to be continued颜色浅<br>05_173和05_174重复to be continued，174右边可能是neon genesis evagelion [collector’s edition]<br>06_173左边to be continued颜色浅<br>06_173和06_174重复to be continued，174右边可能是neon genesis evagelion [collector’s edition]</p>
 <h2 id="相聚一刻-典藏版"><a href="#相聚一刻-典藏版" class="headerlink" title="相聚一刻 典藏版"></a>相聚一刻 典藏版</h2><p>第五册114页 “堂止” “表哥”和“堂兄妹”<br>第八册220页 右上一条横着的白线</p>
 <h2 id="IS-完全版-玉皇朝"><a href="#IS-完全版-玉皇朝" class="headerlink" title="IS 完全版 玉皇朝"></a>IS 完全版 玉皇朝</h2><p>11册221页右下图“我去…”应该是“请你吃饭”</p>
 <h2 id="古书堂事件手帖"><a href="#古书堂事件手帖" class="headerlink" title="古书堂事件手帖"></a>古书堂事件手帖</h2><p>白线：<br>Biblia Koshodou_01_038.png 左上白线<br>Biblia Koshodou_01_041.png 左上白线<br>Biblia Koshodou_01_042.png 左下白线<br>Biblia Koshodou_01_081.png 左下白线<br>Biblia Koshodou_01_082.png 左三白线<br>Biblia Koshodou_02_086.png 左中白线<br>Biblia Koshodou_05_016.png 右中白线<br>Biblia Koshodou_05_017.png 右中白线<br>Biblia Koshodou_05_018.png 右中白线<br>Biblia Koshodou_05_021.png 右中白线<br>Biblia Koshodou_05_022.png 右中白线<br>Biblia Koshodou_05_031.png 右上白线<br>Biblia Koshodou_05_032.png 右上白线<br>Biblia Koshodou_05_068.png 左中白线<br>Biblia Koshodou_06_050.png 右下白线</p>
@@ -17239,6 +17239,10 @@
     <title>电脑手机技巧</title>
     <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<hr>
+<h2 id="电信获取光猫管理员密码并开启ipv6"><a href="#电信获取光猫管理员密码并开启ipv6" class="headerlink" title="电信获取光猫管理员密码并开启ipv6"></a>电信获取光猫管理员密码并开启ipv6</h2><p>电脑直接网线连接光猫，浏览器访问地址<a href="http://192.168.1.1,填写光猫下面贴纸上的账号密码/">http://192.168.1.1，填写光猫下面贴纸上的账号密码</a><br>登陆后访问<a href="http://192.168.1.1/dumpcfg.conf">http://192.168.1.1/dumpcfg.conf</a><br>打开这个文件，这一行就是密码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;X_CT-COM_TeleComAccount&gt;</span><br><span class="line">        &lt;Password&gt;&amp;#37;abcde&amp;#37;f&lt;/Password&gt;</span><br></pre></td></tr></table></figure>
+
+<p>正常来说密码是8位，这里除了abcdef，还有两位，搜ascii码表，&#37;这里代表百分号%，所以真正的密码就是%abcde%f<br>在<a href="http://192.168.1.1/%E9%87%8C%E7%99%BB%E5%BD%95%EF%BC%8C%E8%B4%A6%E5%8F%B7telecomadmin%EF%BC%8C%E6%88%96%E8%80%85useradmin%E5%A5%BD%E5%83%8F%E4%B9%9F%E5%8F%AF%E4%BB%A5%EF%BC%8C%E5%AF%86%E7%A0%81%E5%A1%AB%E5%A5%BD">http://192.168.1.1/里登录，账号telecomadmin，或者useradmin好像也可以，密码填好</a><br>这里我的edge浏览器看不到设置按钮，切到chrome就可以了，点击网络，宽带设置，名称选择3_INTERNET_B_VID_41，ip模式选择IPv4&amp;IPv6<br>路由器里设置好就可以获取ipv6地址了，我的路由器设置Native DHCPv6，StatelessRA，Stateless，地址都自动获取<br>测试<a href="https://test-ipv6.com/">https://test-ipv6.com/</a></p>
 <h2 id="QQNT版占用内存高"><a href="#QQNT版占用内存高" class="headerlink" title="QQNT版占用内存高"></a>QQNT版占用内存高</h2><p>点一下左边的#（QQ频道），再关掉就可以了</p>
 <span id="more"></span>
 

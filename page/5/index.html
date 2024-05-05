@@ -684,7 +684,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-04-01 19:28:52" itemprop="dateModified" datetime="2024-04-01T19:28:52+08:00">2024-04-01</time>
+      <time title="修改时间：2024-05-05 10:38:45" itemprop="dateModified" datetime="2024-05-05T10:38:45+08:00">2024-05-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -703,7 +703,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>5299</span>
+      <span>5812</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -722,6 +722,10 @@
     
     <div class="post-body" itemprop="articleBody">
           <hr>
+<h2 id="电信获取光猫管理员密码并开启ipv6"><a href="#电信获取光猫管理员密码并开启ipv6" class="headerlink" title="电信获取光猫管理员密码并开启ipv6"></a>电信获取光猫管理员密码并开启ipv6</h2><p>电脑直接网线连接光猫，浏览器访问地址<a target="_blank" rel="noopener" href="http://192.168.1.1,填写光猫下面贴纸上的账号密码/">http://192.168.1.1，填写光猫下面贴纸上的账号密码</a><br>登陆后访问<a target="_blank" rel="noopener" href="http://192.168.1.1/dumpcfg.conf">http://192.168.1.1/dumpcfg.conf</a><br>打开这个文件，这一行就是密码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;X_CT-COM_TeleComAccount&gt;</span><br><span class="line">        &lt;Password&gt;&amp;#37;abcde&amp;#37;f&lt;/Password&gt;</span><br></pre></td></tr></table></figure>
+
+<p>正常来说密码是8位，这里除了abcdef，还有两位，搜ascii码表，&#37;这里代表百分号%，所以真正的密码就是%abcde%f<br>在<a target="_blank" rel="noopener" href="http://192.168.1.1/%E9%87%8C%E7%99%BB%E5%BD%95%EF%BC%8C%E8%B4%A6%E5%8F%B7telecomadmin%EF%BC%8C%E6%88%96%E8%80%85useradmin%E5%A5%BD%E5%83%8F%E4%B9%9F%E5%8F%AF%E4%BB%A5%EF%BC%8C%E5%AF%86%E7%A0%81%E5%A1%AB%E5%A5%BD">http://192.168.1.1/里登录，账号telecomadmin，或者useradmin好像也可以，密码填好</a><br>这里我的edge浏览器看不到设置按钮，切到chrome就可以了，点击网络，宽带设置，名称选择3_INTERNET_B_VID_41，ip模式选择IPv4&amp;IPv6<br>路由器里设置好就可以获取ipv6地址了，我的路由器设置Native DHCPv6，StatelessRA，Stateless，地址都自动获取<br>测试<a target="_blank" rel="noopener" href="https://test-ipv6.com/">https://test-ipv6.com/</a></p>
 <h2 id="QQNT版占用内存高"><a href="#QQNT版占用内存高" class="headerlink" title="QQNT版占用内存高"></a>QQNT版占用内存高</h2><p>点一下左边的#（QQ频道），再关掉就可以了</p>
           <!--noindex-->
           <!--/noindex-->
@@ -1288,7 +1292,7 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">257960</span>
+    <span title="站点总字数">258475</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
