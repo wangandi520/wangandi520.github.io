@@ -3541,12 +3541,12 @@
 <th>剧名</th>
 <th>备注</th>
 <th>日期</th>
-<th>空</th>
+<th>评分</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>atlanta</td>
-<td>3.6</td>
+<td>3.7</td>
 <td>2024.5.9</td>
 <td>7.3</td>
 </tr>
@@ -4043,7 +4043,7 @@
 <tr>
 <th>书名</th>
 <th>备注</th>
-<th>分数</th>
+<th>评分</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -4099,7 +4099,7 @@
 <th>书名</th>
 <th>备注</th>
 <th>阅读时间</th>
-<th>分数</th>
+<th>评分</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -11122,6 +11122,24 @@
 <td>2024.5.10</td>
 <td>7.5</td>
 </tr>
+<tr>
+<td>水流向大海</td>
+<td>vol01 田岛列岛 东立 电子版 坐</td>
+<td>2025.5.11</td>
+<td></td>
+</tr>
+<tr>
+<td>水流向大海</td>
+<td>vol02</td>
+<td>2025.5.11</td>
+<td></td>
+</tr>
+<tr>
+<td>水流向大海</td>
+<td>vol03end</td>
+<td>2025.5.11</td>
+<td>7</td>
+</tr>
 </tbody></table>
 <hr>
 <h2 id="看过的电影-电视剧"><a href="#看过的电影-电视剧" class="headerlink" title="看过的电影&#x2F;电视剧"></a>看过的电影&#x2F;电视剧</h2><table>
@@ -11130,7 +11148,7 @@
 <th>剧名</th>
 <th>备注</th>
 <th>观看时间</th>
-<th>分数</th>
+<th>评分</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -15449,13 +15467,13 @@
 </tr>
 <tr>
 <td>atlanta</td>
-<td>s1 10end 下载</td>
+<td>s1 10end fx 下载</td>
 <td>2024.4.22</td>
 <td>7</td>
 </tr>
 <tr>
 <td>atlanta</td>
-<td>s2 11end 下载</td>
+<td>s2 11end fx 下载</td>
 <td>2024.4.25</td>
 <td></td>
 </tr>
@@ -15564,7 +15582,7 @@
 </blockquote>
 <hr>
 <h3 id="海奥华"><a href="#海奥华" class="headerlink" title="海奥华"></a>海奥华</h3><blockquote>
-<p>几个不严谨的地方：1.涛来地球是做了防护病毒细菌的措施，而我（米歇）到海奥华的时候没做防护措施，还直接吃了海奥华的食物。2.thiaoouba.com&#x2F;faq&#x2F;里说恐龙灭绝在500万年前，搜了下6500万年灭绝的说法是在90年代后提出的，书是在1989年写的。3.月球会在195000年后撞击地球，网上搜的结论是月亮正在远离地球，可能有其他意外状况。</p>
+<p>几个不严谨的地方：1.整个故事是小说而不是真实的，应该没什么疑问了，因为第一章有提到时间静止，但是时间根本不存在，只是人类创造出来的概念。说是以超高速飞行，超光速时看其他星球的光是什么样子呢。2.涛来地球是做了防护病毒细菌的措施，而我（米歇）到海奥华的时候没做防护措施，还直接吃了海奥华的食物，也可能是海奥华完全没病毒。3.thiaoouba.com&#x2F;faq&#x2F;里说恐龙灭绝在500万年前，搜了下6500万年灭绝的说法是在90年代后提出的，书是在1989年写的。4.月球会在195000年后撞击地球，网上搜的结论是月亮正在远离地球，可能有其他意外状况。看完想起来看到哪里说书里会回答一些常见的谜团，但是好像没找到。</p>
 </blockquote>
 <hr>
 <h2 id="漫画"><a href="#漫画" class="headerlink" title="漫画"></a>漫画</h2><hr>
@@ -18253,9 +18271,10 @@
     <title>联想拯救者y700一代（2022）平板刷机过程</title>
     <url>/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<hr>
-<p>分为第三方ROM和官方ROM两部分。<br>操作有风险，注意安全。<br>zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。<br>刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前zui14.0.286使用没问题。</p>
+<p>操作有风险，注意安全。<br>分为第三方ROM和官方ROM两部分。推荐官方ROM，可以更新14.0.286。<br>zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。<br>刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前ZUI14.0.286使用没问题。</p>
 <span id="more"></span>
 
+<hr>
 <h2 id="第三方ROM"><a href="#第三方ROM" class="headerlink" title="第三方ROM"></a>第三方ROM</h2><h3 id="打开开发者模式"><a href="#打开开发者模式" class="headerlink" title="打开开发者模式"></a>打开开发者模式</h3><ol>
 <li>在y700，关于，连续点击zui版本，直到提示启用了开发者模式。</li>
 <li>其他设置里，进入开发者模式，启用usb调试。</li>
@@ -18283,6 +18302,7 @@
 </ol>
 <p><strong>如果一直重启，在屏幕黑的时候同时按住电源键和音量加，就能进入fastboot刷机。</strong></p>
 <h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><p><a href="https://xdaforums.com/t/y700-roms.4454585">https://xdaforums.com/t/y700-roms.4454585</a></p>
+<hr>
 <h2 id="官方ROM"><a href="#官方ROM" class="headerlink" title="官方ROM"></a>官方ROM</h2><h3 id="解锁bootloader-1"><a href="#解锁bootloader-1" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h3><p>和上面的方法一样，解锁过的可以跳过。</p>
 <h3 id="下载ROM"><a href="#下载ROM" class="headerlink" title="下载ROM"></a>下载ROM</h3><p><a href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#</a><br>同一个文件<a href="https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333">https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333</a>， 提取码：3333</p>
 <h3 id="刷机-1"><a href="#刷机-1" class="headerlink" title="刷机"></a>刷机</h3><ol>
@@ -18292,7 +18312,7 @@
 <li>Y700平板关机。只按住音量上键的同时插入usb线，软件主界面上方Select Port，里面选9008，如果没有选项，在参考文章里有几个方法可以试试。</li>
 <li>点Download Content等待刷机完成就行了。</li>
 </ol>
-<p><em>新系统是zui13，会更新几次到14.0.286，就可以停了，下一个版本是15，不要更新，系统更新的通知取消不了，按住系统更新app，应用信息里停用+强行停止就看不见通知了。</em></p>
+<p><em>新系统是zui13，会更新几次到14.0.286，就可以停了，下一个版本是15，不要更新。</em><br><em>系统更新的通知取消不了，按住系统更新app，应用信息里停用+强行停止就看不见通知了。</em></p>
 <h3 id="参考文章-1"><a href="#参考文章-1" class="headerlink" title="参考文章"></a>参考文章</h3><p><a href="https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode=AOoATwelAA8lI8l6V2Af0Alwb2ADI">https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode&#x3D;AOoATwelAA8lI8l6V2Af0Alwb2ADI</a></p>
 ]]></content>
       <categories>
