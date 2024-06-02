@@ -717,9 +717,9 @@
 <p>如果频繁调试，也可以输入</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
-<p>浏览器访问<a href="http://localhost:4000/%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E9%A2%84%E8%A7%88%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%8C%E4%B8%8D%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%9A%84%E8%AF%9D%E4%B8%8D%E9%9C%80%E8%A6%81hexo">http://localhost:4000/，就可以预览你的博客，不本地预览的话不需要hexo</a> s<br>public文件夹里的文件复制到你的服务器就可以运行了</p>
+<p>浏览器访问<a href="http://localhost:4000/%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E9%A2%84%E8%A7%88%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%8C%E4%B8%8D%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%9A%84%E8%AF%9D%E4%B8%8D%E9%9C%80%E8%A6%81hexo">http://localhost:4000/，就可以预览你的博客，不本地预览的话不需要hexo</a> s<br>public文件夹里的文件复制到你的服务器就可以了</p>
 <h2 id="配置next主题"><a href="#配置next主题" class="headerlink" title="配置next主题"></a>配置next主题</h2><h3 id="选择风格"><a href="#选择风格" class="headerlink" title="选择风格"></a>选择风格</h3><p>主题有4个风格，可以搜一下效果，选择哪个就把前面的井号去掉</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="comment">#scheme: Gemini</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Schemes</span></span><br><span class="line"><span class="comment">#scheme: Muse</span></span><br><span class="line"><span class="comment">#scheme: Mist</span></span><br><span class="line"><span class="comment">#scheme: Pisces</span></span><br><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="本地搜索"><a href="#本地搜索" class="headerlink" title="本地搜索"></a>本地搜索</h3><p>安装</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
@@ -3545,8 +3545,20 @@
 </tr>
 </thead>
 <tbody><tr>
+<td>荒原狼</td>
+<td>20 赫尔曼黑塞 姜乙 浙江文艺 纸质版</td>
+<td>2024.5.31</td>
+<td></td>
+</tr>
+<tr>
+<td>新概念乐理教程</td>
+<td>50</td>
+<td>2024.2.23</td>
+<td>7</td>
+</tr>
+<tr>
 <td>atlanta</td>
-<td>3.8</td>
+<td>3.9</td>
 <td>2024.5.13</td>
 <td>7.3</td>
 </tr>
@@ -3558,7 +3570,7 @@
 </tr>
 <tr>
 <td>大亨小传</td>
-<td>118页 汪芃译 远流出版 电子版</td>
+<td>146页 汪芃译 远流出版 电子版</td>
 <td>2024.5.22</td>
 <td></td>
 </tr>
@@ -3576,7 +3588,7 @@
 </tr>
 <tr>
 <td>喻世明言</td>
-<td>第一卷 作家榜经典文库 浙江文艺出版社</td>
+<td>第一卷 作家榜经典文库 浙江文艺</td>
 <td>2024.3.10</td>
 <td></td>
 </tr>
@@ -3584,12 +3596,6 @@
 <td>红楼梦 桂冠版</td>
 <td>第八章</td>
 <td>2024.2.25</td>
-<td>7</td>
-</tr>
-<tr>
-<td>新概念乐理教程</td>
-<td>第四章50页</td>
-<td>2024.2.23</td>
 <td>7</td>
 </tr>
 <tr>
@@ -4041,29 +4047,29 @@
 <h2 id="高分电影电视书漫画"><a href="#高分电影电视书漫画" class="headerlink" title="高分电影电视书漫画"></a>高分电影电视书漫画</h2><table>
 <thead>
 <tr>
-<th>8分以上</th>
+<th>漫画</th>
 <th>备注</th>
 <th>评分</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>电影少女 完全版</td>
-<td>桂正和 东立 n</td>
+<td>桂正和</td>
 <td>7</td>
 </tr>
 <tr>
 <td>偷窥孔</td>
-<td>本名和幸 东立 n</td>
+<td>本名和幸</td>
 <td>8.5</td>
 </tr>
 <tr>
 <td>炎拳</td>
-<td>藤本树 东立 fun</td>
+<td>藤本树</td>
 <td>7.9</td>
 </tr>
 <tr>
 <td>欢迎加入NHK!</td>
-<td>滝本竜彦×大岩ケンジ 角川 C</td>
+<td>滝本竜彦×大岩ケンジ</td>
 <td>8</td>
 </tr>
 <tr>
@@ -4076,16 +4082,12 @@
 <td>峰浪了 水印版</td>
 <td>8</td>
 </tr>
-</tbody></table>
-<table>
-<thead>
 <tr>
-<th>7-8分</th>
-<th>备注</th>
-<th>评分</th>
+<td>变调的旋律</td>
+<td>秋山春</td>
+<td></td>
 </tr>
-</thead>
-<tbody><tr>
+<tr>
 <td>思春期少女（春よ、来い）</td>
 <td>咲香里 尖端 h4 修</td>
 <td>7</td>
@@ -4118,6 +4120,60 @@
 <tr>
 <td>櫻桃症候群 丘比特的恶作剧II</td>
 <td></td>
+<td></td>
+</tr>
+<tr>
+<td>以一年一万元的价格，卖掉我剩余的性命</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>恶之华</td>
+<td>押见修造</td>
+<td></td>
+</tr>
+<tr>
+<td>我在麻理体内</td>
+<td>押见修造</td>
+<td></td>
+</tr>
+<tr>
+<td>人间失格</td>
+<td>伊藤润二</td>
+<td></td>
+</tr>
+<tr>
+<td>蓦然回首</td>
+<td>藤本树</td>
+<td></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>小说</th>
+<th>备注</th>
+<th>评分</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>黄金时代</td>
+<td>王小波</td>
+<td></td>
+</tr>
+<tr>
+<td>海伯利安</td>
+<td>丹西蒙斯</td>
+<td></td>
+</tr>
+<tr>
+<td>不能承受的生命之轻</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>挪威的森林</td>
+<td>村上春树 赖明珠译</td>
 <td></td>
 </tr>
 </tbody></table>
@@ -5189,7 +5245,7 @@
 </tr>
 <tr>
 <td>王小波全集第八卷短篇小说</td>
-<td>王小波 云南出版社</td>
+<td>王小波 云南</td>
 <td>2016.02.12</td>
 <td></td>
 </tr>
@@ -5201,7 +5257,7 @@
 </tr>
 <tr>
 <td>王小波全集第四卷中篇小说黄金时代</td>
-<td>译林出版社</td>
+<td>译林</td>
 <td>2016.03.25</td>
 <td>9.5</td>
 </tr>
@@ -5213,7 +5269,7 @@
 </tr>
 <tr>
 <td>中国历代政治得失</td>
-<td>九州出版社</td>
+<td>九州</td>
 <td>2016.04.28</td>
 <td>9</td>
 </tr>
@@ -5225,13 +5281,13 @@
 </tr>
 <tr>
 <td>王小波全集第九卷书信</td>
-<td>王小波 云南出版社</td>
+<td>王小波 云南</td>
 <td>2016.05.03</td>
 <td></td>
 </tr>
 <tr>
 <td>王小波全集第十卷未竟稿</td>
-<td>王小波 云南出版社</td>
+<td>王小波 云南</td>
 <td>2016.05.09</td>
 <td></td>
 </tr>
@@ -5543,7 +5599,7 @@
 </tr>
 <tr>
 <td>王小波全集第五卷长篇小说剧本</td>
-<td>王小波 云南出版社</td>
+<td>王小波 云南</td>
 <td>2018.6.20</td>
 <td></td>
 </tr>
@@ -5555,7 +5611,7 @@
 </tr>
 <tr>
 <td>红拂夜奔</td>
-<td>北京十月文艺出版社</td>
+<td>北京十月文艺</td>
 <td>2018.7.4</td>
 <td></td>
 </tr>
@@ -5675,7 +5731,7 @@
 </tr>
 <tr>
 <td>万水千山走遍</td>
-<td>三毛 哈尔滨出版社</td>
+<td>三毛 哈尔滨</td>
 <td>2018.11.6</td>
 <td></td>
 </tr>
@@ -5693,7 +5749,7 @@
 </tr>
 <tr>
 <td>送你一匹马</td>
-<td>三毛 哈尔滨出版社</td>
+<td>三毛 哈尔滨</td>
 <td>2018.11.20</td>
 <td></td>
 </tr>
@@ -5705,25 +5761,25 @@
 </tr>
 <tr>
 <td>倾城</td>
-<td>三毛 哈尔滨出版社</td>
+<td>三毛 哈尔滨</td>
 <td>2018.11.28</td>
 <td></td>
 </tr>
 <tr>
 <td>谈心</td>
-<td>三毛 哈尔滨出版社</td>
+<td>三毛 哈尔滨</td>
 <td>2018.12.15</td>
 <td></td>
 </tr>
 <tr>
 <td>随想</td>
-<td>三毛 哈尔滨出版社</td>
+<td>三毛 哈尔滨</td>
 <td>2018.12.15</td>
 <td></td>
 </tr>
 <tr>
 <td>红楼梦校注本程乙本120回</td>
-<td>中央编译出版社</td>
+<td>中央编译</td>
 <td>2018.12.22</td>
 <td>8</td>
 </tr>
@@ -5753,7 +5809,7 @@
 </tr>
 <tr>
 <td>西游记 校注本</td>
-<td>中央编译出版社第1版</td>
+<td>中央编译第1版</td>
 <td>2019.4.7</td>
 <td>4</td>
 </tr>
@@ -5807,13 +5863,13 @@
 </tr>
 <tr>
 <td>棋王树王孩子王</td>
-<td>阿城 江苏凤凰文艺出版社</td>
+<td>阿城 江苏凤凰文艺</td>
 <td>2019.5.12</td>
 <td></td>
 </tr>
 <tr>
 <td>我的宝贝</td>
-<td>三毛 哈尔滨出版社</td>
+<td>三毛 哈尔滨</td>
 <td>2019.5.13</td>
 <td></td>
 </tr>
@@ -6071,7 +6127,7 @@
 </tr>
 <tr>
 <td>乡土中国</td>
-<td>北京大学出版社</td>
+<td>北京大学</td>
 <td>2021.4.7</td>
 <td></td>
 </tr>
@@ -7127,31 +7183,31 @@
 </tr>
 <tr>
 <td>黑暗坡食人树</td>
-<td>岛田庄司 新星出版社 陈涤译 电子版</td>
+<td>岛田庄司 新星 陈涤译 电子版</td>
 <td>2021.11.11</td>
 <td>7</td>
 </tr>
 <tr>
 <td>占星术杀人魔法</td>
-<td>岛田庄司 王鹏帆译 新星出版社 电子版</td>
+<td>岛田庄司 王鹏帆译 新星 电子版</td>
 <td>2021.11.17</td>
 <td>7.5</td>
 </tr>
 <tr>
 <td>斜屋犯罪</td>
-<td>岛田庄司 新星出版社 王鹏帆译 电子版</td>
+<td>岛田庄司 新星 王鹏帆译 电子版</td>
 <td>2021.12.14</td>
 <td>7</td>
 </tr>
 <tr>
 <td>异邦骑士</td>
-<td>岛田庄司 新星出版社 王鹏帆译 电子版</td>
+<td>岛田庄司 新星 王鹏帆译 电子版</td>
 <td>2021.12.18</td>
 <td>7</td>
 </tr>
 <tr>
 <td>螺丝人</td>
-<td>岛田庄司 新星出版社 林新生译 电子版</td>
+<td>岛田庄司 新星 林新生译 电子版</td>
 <td>2021.12.23</td>
 <td>7.3</td>
 </tr>
@@ -9893,13 +9949,13 @@
 </tr>
 <tr>
 <td>异位</td>
-<td>岛田庄司 林新生译 新星出版社</td>
+<td>岛田庄司 林新生译 新星</td>
 <td>2023.10.25</td>
 <td></td>
 </tr>
 <tr>
 <td>索拉里斯星</td>
-<td>斯坦尼斯瓦夫·莱姆 译林出版社 靖振忠译 电子版</td>
+<td>斯坦尼斯瓦夫·莱姆 译林 靖振忠译 电子版</td>
 <td>2023.11.8</td>
 <td>7</td>
 </tr>
@@ -10145,7 +10201,7 @@
 </tr>
 <tr>
 <td>一座城池</td>
-<td>韩寒 天津人民出版社 纸质版</td>
+<td>韩寒 天津人民 纸质版</td>
 <td>2024.1.31</td>
 <td></td>
 </tr>
@@ -11141,7 +11197,7 @@
 </tr>
 <tr>
 <td>鲁迅全集第一卷 坟</td>
-<td>前4篇文言文未读 共20卷 鲁迅 读客 同心出版社</td>
+<td>前4篇文言文未读 共20卷 鲁迅 读客 同心</td>
 <td>2024.5.5</td>
 <td></td>
 </tr>
@@ -11383,6 +11439,102 @@
 <td>朝姊</td>
 <td>vol07end</td>
 <td>2024.5.24</td>
+<td></td>
+</tr>
+<tr>
+<td>恋爱得分</td>
+<td>vol01 LEN[Aー7] 东立电子版</td>
+<td>2024.5.25</td>
+<td></td>
+</tr>
+<tr>
+<td>恋爱得分</td>
+<td>vol02end</td>
+<td>2024.5.25</td>
+<td></td>
+</tr>
+<tr>
+<td>以一年一万元的价格，卖掉我剩余的性命</td>
+<td>vol01 田口囁一 三秋缒 漫画 东立电子版</td>
+<td>2024.5.25</td>
+<td></td>
+</tr>
+<tr>
+<td>以一年一万元的价格，卖掉我剩余的性命</td>
+<td>vol02</td>
+<td>2024.5.25</td>
+<td></td>
+</tr>
+<tr>
+<td>以一年一万元的价格，卖掉我剩余的性命</td>
+<td>vol03end</td>
+<td>2024.5.25</td>
+<td>7</td>
+</tr>
+<tr>
+<td>恋爱寄生虫</td>
+<td>vol01 ホタテユウキ 三秋缒 漫画 角川电子版</td>
+<td>2024.5.25</td>
+<td></td>
+</tr>
+<tr>
+<td>恋爱寄生虫</td>
+<td>vol02</td>
+<td>2024.5.25</td>
+<td></td>
+</tr>
+<tr>
+<td>恋爱寄生虫</td>
+<td>vol03end</td>
+<td>2024.5.25</td>
+<td></td>
+</tr>
+<tr>
+<td>变调的旋律</td>
+<td>vol01 秋山春 东立 梦</td>
+<td>2024.5.26</td>
+<td>7</td>
+</tr>
+<tr>
+<td>变调的旋律</td>
+<td>vol02</td>
+<td>2024.5.26</td>
+<td>7</td>
+</tr>
+<tr>
+<td>变调的旋律</td>
+<td>vol03</td>
+<td>2024.5.26</td>
+<td></td>
+</tr>
+<tr>
+<td>变调的旋律</td>
+<td>vol04</td>
+<td>2024.5.26</td>
+<td></td>
+</tr>
+<tr>
+<td>变调的旋律</td>
+<td>vol05</td>
+<td>2024.5.27</td>
+<td>7.9</td>
+</tr>
+<tr>
+<td>变调的旋律</td>
+<td>vol06</td>
+<td>2024.5.27</td>
+<td></td>
+</tr>
+<tr>
+<td>德米安</td>
+<td>赫尔曼黑塞 姜乙 天津人民 纸质版</td>
+<td>2024.5.29</td>
+<td></td>
+</tr>
+<tr>
+<td>寻羊冒险记</td>
+<td>村上春树 赖明珠译 上海译文 纸质版</td>
+<td>2024.5.31</td>
 <td></td>
 </tr>
 </tbody></table>
@@ -15728,6 +15880,30 @@
 <td>2024.5.7</td>
 <td></td>
 </tr>
+<tr>
+<td>圣诞之吻ss</td>
+<td>26end 下载</td>
+<td>2024.5.29</td>
+<td></td>
+</tr>
+<tr>
+<td>格莱普尼尔</td>
+<td>13end 下载</td>
+<td>2024.5.30</td>
+<td></td>
+</tr>
+<tr>
+<td>atlanta</td>
+<td>s3 10end fx 下载</td>
+<td>2024.6.1</td>
+<td></td>
+</tr>
+<tr>
+<td>飞驰人生2</td>
+<td>下载</td>
+<td>2024.6.2</td>
+<td></td>
+</tr>
 </tbody></table>
 <h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2>]]></content>
       <categories>
@@ -15828,6 +16004,11 @@
 <hr>
 <h3 id="海奥华"><a href="#海奥华" class="headerlink" title="海奥华"></a>海奥华</h3><blockquote>
 <p>几个不严谨的地方：1.整个故事是小说而不是真实的，应该没什么疑问了，因为第一章有提到时间静止，但是时间根本不存在，只是人类创造出来的概念。说是以超高速飞行，超光速时看其他星球的光是什么样子呢。2.涛来地球是做了防护病毒细菌的措施，而我（米歇）到海奥华的时候没做防护措施，还直接吃了海奥华的食物，也可能是海奥华完全没病毒。3.thiaoouba.com&#x2F;faq&#x2F;里说恐龙灭绝在500万年前，搜了下6500万年灭绝的说法是在90年代后提出的，书是在1989年写的。4.月球会在195000年后撞击地球，网上搜的结论是月亮正在远离地球，可能有其他意外状况。看完想起来看到哪里说书里会回答一些常见的谜团，但是好像没找到。</p>
+</blockquote>
+<hr>
+<h3 id="德米安"><a href="#德米安" class="headerlink" title="德米安"></a>德米安</h3><h3 id="荒原狼"><a href="#荒原狼" class="headerlink" title="荒原狼"></a>荒原狼</h3><p>赫尔曼黑塞，姜乙译</p>
+<blockquote>
+<p>一般，宗教味浓。不属于那种有趣的书，挺无聊的，也可能是翻译的不好，看着有点困。</p>
 </blockquote>
 <hr>
 <h2 id="漫画"><a href="#漫画" class="headerlink" title="漫画"></a>漫画</h2><hr>
