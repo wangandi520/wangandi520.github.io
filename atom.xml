@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2024-05-10T15:58:00.599Z</updated>
+  <updated>2024-06-06T10:54:48.966Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>三日间的幸福 标注</title>
+    <link href="https://andi.wang/2024/06/06/%E4%B8%89%E6%97%A5%E9%97%B4%E7%9A%84%E5%B9%B8%E7%A6%8F%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2024/06/06/%E4%B8%89%E6%97%A5%E9%97%B4%E7%9A%84%E5%B9%B8%E7%A6%8F%E6%A0%87%E6%B3%A8/</id>
+    <published>2024-06-06T10:54:48.000Z</published>
+    <updated>2024-06-06T10:54:48.966Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;共12条标注&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「原來如此！」撐著臉頰聽導師說話的我，心中突然有所領悟，有種賣掉一半也無妨的感覺。人生與其枯燥漫長，還不如短暫燦爛來得精采。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;2024.06.04 11:43:12&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;對我們而言，最困難的就是裝出笑臉。明明是該跟著大笑的時候，我們卻一絲笑容也擠不出來；即便勉強抽動臉部的肌肉，卻只聽到內心某塊重要部分剝落的聲音。我想，姬野跟我有一樣的感覺。在一片哄堂大笑的氣氛中，我們連眉毛也不願挑動一下，不，或許說是無法挑動還更精準一些。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;2024.06.04 11:46:45&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>海奥华金色的星球 标注</title>
@@ -654,7 +688,7 @@
     <link href="https://andi.wang/2022/01/06/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E7%AE%80%E8%AF%84/"/>
     <id>https://andi.wang/2022/01/06/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E7%AE%80%E8%AF%84/</id>
     <published>2022-01-06T03:48:55.000Z</published>
-    <updated>2024-06-04T13:59:58.493Z</updated>
+    <updated>2024-06-06T08:32:44.148Z</updated>
     
     
     <summary type="html">&lt;div class=&quot;notification is-danger&quot;&gt;
@@ -679,7 +713,7 @@
     <link href="https://andi.wang/2021/12/31/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E8%AE%B0%E5%BD%95/"/>
     <id>https://andi.wang/2021/12/31/%E4%B9%A6%E7%94%B5%E5%BD%B1%E7%94%B5%E8%A7%86%E5%89%A7%E8%AE%B0%E5%BD%95/</id>
     <published>2021-12-31T08:48:55.000Z</published>
-    <updated>2024-06-04T14:55:29.698Z</updated>
+    <updated>2024-06-06T10:44:29.612Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;重复的是看过很多遍的&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;数字为评分，满分10分，最低0分&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;电子版页数都是指软件显示的页数，不是原书页数&lt;/strong&gt;&lt;/p&gt;
@@ -1001,42 +1035,6 @@
     
     
     <category term="吉他" scheme="https://andi.wang/tags/%E5%90%89%E4%BB%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</title>
-    <link href="https://andi.wang/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/"/>
-    <id>https://andi.wang/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/</id>
-    <published>2021-03-14T23:57:06.000Z</published>
-    <updated>2024-05-03T06:02:23.927Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;博客原文&quot;&gt;&lt;a href=&quot;#博客原文&quot; class=&quot;headerlink&quot; title=&quot;博客原文&quot;&gt;&lt;/a&gt;博客原文&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-    <category term="kindle" scheme="https://andi.wang/tags/kindle/"/>
-    
-    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
-    
-    <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
-    
-    <category term="markdown" scheme="https://andi.wang/tags/markdown/"/>
-    
-    <category term="koreader" scheme="https://andi.wang/tags/koreader/"/>
-    
-    <category term="微信读书" scheme="https://andi.wang/tags/%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
