@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="操作有风险，注意安全。分为第三方ROM和官方ROM两部分。推荐官方ROM，可以更新14.0.286。zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前ZUI14.0.286使用没问题。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="联想拯救者y700一代（2022）平板刷机过程">
+<meta property="og:url" content="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/index.html">
+<meta property="og:site_name" content="Andy&#39;s word">
+<meta property="og:description" content="操作有风险，注意安全。分为第三方ROM和官方ROM两部分。推荐官方ROM，可以更新14.0.286。zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前ZUI14.0.286使用没问题。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://andi.wang/images/y700-01.png">
+<meta property="article:published_time" content="2024-01-13T09:11:23.000Z">
+<meta property="article:modified_time" content="2024-05-12T12:20:01.733Z">
+<meta property="article:author" content="Andy">
+<meta property="article:tag" content="y700">
+<meta property="article:tag" content="刷机">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://andi.wang/images/y700-01.png">
+
+
+<link rel="canonical" href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/","path":"2024/01/13/联想拯救者y700一代（2022）平板刷机过程/","title":"联想拯救者y700一代（2022）平板刷机过程"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>联想拯救者y700一代（2022）平板刷机过程 | Andy's word</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Andy's word</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">阅读音乐运动程序</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+		  <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
+      src="/images/avatar.png"></a>
+</div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%96%B9ROM"><span class="nav-number">1.</span> <span class="nav-text">第三方ROM</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%93%E5%BC%80%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.1.</span> <span class="nav-text">打开开发者模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%A3%E9%94%81bootloader"><span class="nav-number">1.2.</span> <span class="nav-text">解锁bootloader</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%B7%E6%9C%BA"><span class="nav-number">1.3.</span> <span class="nav-text">刷机</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0"><span class="nav-number">1.4.</span> <span class="nav-text">参考文章</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%98%E6%96%B9ROM"><span class="nav-number">2.</span> <span class="nav-text">官方ROM</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%A3%E9%94%81bootloader-1"><span class="nav-number">2.1.</span> <span class="nav-text">解锁bootloader</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDROM"><span class="nav-number">2.2.</span> <span class="nav-text">下载ROM</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%B7%E6%9C%BA-1"><span class="nav-number">2.3.</span> <span class="nav-text">刷机</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0-1"><span class="nav-number">2.4.</span> <span class="nav-text">参考文章</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+	<a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
+	  src="/images/avatar.png"></a>
+  <p class="site-author-name" itemprop="name">Andy</p>
+  <div class="site-description" itemprop="description">如果我会发光，就不必害怕黑暗。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">59</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">71</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wangandi520" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>github</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1952945" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
+      </span>
+  </div>
+
+		   
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="/guitar" title="&#x2F;guitar">吉他和弦生成</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/mahjongtab" title="&#x2F;mahjongtab">麻将牌谱生成</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/mahjong-calc" title="&#x2F;mahjong-calc">麻将点数计算</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528" title="https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;11eu_MVZZZR-gP_lTDOICUA?pwd&#x3D;p528" rel="noopener" target="_blank">漫画补页下载</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://github.com/wangandi520/andyspythonscript" title="https:&#x2F;&#x2F;github.com&#x2F;wangandi520&#x2F;andyspythonscript" rel="noopener" target="_blank">漫画整理脚本</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://jq.qq.com/?_wv=1027&k=AqqQIfm7" title="https:&#x2F;&#x2F;jq.qq.com&#x2F;?_wv&#x3D;1027&amp;k&#x3D;AqqQIfm7" rel="noopener" target="_blank">QQ群1321993</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Andy">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Andy's word">
+      <meta itemprop="description" content="如果我会发光，就不必害怕黑暗。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="联想拯救者y700一代（2022）平板刷机过程 | Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          联想拯救者y700一代（2022）平板刷机过程
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-01-13 17:11:23" itemprop="dateCreated datePublished" datetime="2024-01-13T17:11:23+08:00">2024-01-13</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-05-12 20:20:01" itemprop="dateModified" datetime="2024-05-12T20:20:01+08:00">2024-05-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9E%81%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">极客</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>2173</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><hr>
+<p>操作有风险，注意安全。<br>分为第三方ROM和官方ROM两部分。推荐官方ROM，可以更新14.0.286。<br>zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。<br>刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前ZUI14.0.286使用没问题。</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="第三方ROM"><a href="#第三方ROM" class="headerlink" title="第三方ROM"></a>第三方ROM</h2><h3 id="打开开发者模式"><a href="#打开开发者模式" class="headerlink" title="打开开发者模式"></a>打开开发者模式</h3><ol>
+<li>在y700，关于，连续点击zui版本，直到提示启用了开发者模式。</li>
+<li>其他设置里，进入开发者模式，启用usb调试。</li>
+<li>使用usb线连接电脑和y700，在y700出现的弹窗上点击允许。</li>
+</ol>
+<h3 id="解锁bootloader"><a href="#解锁bootloader" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h3><p><strong>不需要去联想官网申请</strong></p>
+<ol>
+<li>下载适用于 Windows 的 SDK Platform-Tools，<a target="_blank" rel="noopener" href="https://developer.android.com/tools/releases/platform-tools?hl=zh-cn">https://developer.android.com/tools/releases/platform-tools?hl=zh-cn</a></li>
+<li>解压缩进入文件夹，右键空白处，open in terminal，出现了command prompt窗口，窗口里输入adb reboot bootloader，y700会重启进入一个黑白的界面，界面最下一行会显示locked</li>
+<li>输入fastboot devices，显示一串序列号的设备，就可以进行下一步，如果没显示就下载<a target="_blank" rel="noopener" href="https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip">https://xiaomiflashtool.com/wp-content/uploads/MiFlash20220507.zip</a>， 右键点击此电脑，属性，设备管理器，通用串行总线设备，Android，更新驱动程序，浏览我的电脑以查找驱动程序，选择文件夹MiFlash20220507，更新后重启电脑。</li>
+<li>注意完成这步后，平板里的所有东西都会清空。电脑输入fastboot flashing unlock，平板上出现新界面，按音量下确定，平板重启，启动时一个最上面是叹号的界面要按两下电源键，一般就是成功了。</li>
+<li>下载rom：<a target="_blank" rel="noopener" href="https://github.com/ponces/treble_aosp/releases">https://github.com/ponces/treble_aosp&#x2F;releases</a></li>
+</ol>
+<p>另一个可用的crdroid：<a target="_blank" rel="noopener" href="https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz/download">https://sourceforge.net/projects/gsi-projects/files/A13/crDroid/15012023/crDroid-9.1-arm64_bvN-Unofficial.img.xz&#x2F;download</a><br>（v&#x3D;vanilla没有谷歌套件，需要谷歌的下载bgN），下载完解压缩后得到一个.img的文件。</p>
+<h3 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h3><p><strong>以后每次刷机只从这开始做就行。</strong></p>
+<ol>
+<li>电脑再用同样的过程adb reboot bootloader，平板重启后最下一行显示unlocked。按平板音量下两下，最上显示Recovery mode，按电源键进入，选择enter fastboot，按电源键进去，最上面显示fastbootd，电脑输入fastboot devices正常显示设备后。</li>
+<li>输入fastboot erase system清空系统分区。</li>
+<li>输入fastboot flash system .\aosp-arm64-ab-vanilla-14.0-20240105.img，开始刷机，显示下图的界面就是正在刷机了。</li>
+</ol>
+<p><img src="/images/y700-01.png" alt="刷机过程"></p>
+<ol start="4">
+<li>完成后进入enter recovery，选择wipe date&#x2F;factory reset，factory date reset清空数据，或者电脑上输入fastboot -w</li>
+<li>重启reboot system now，就进入新系统了。</li>
+</ol>
+<p><strong>如果一直重启，在屏幕黑的时候同时按住电源键和音量加，就能进入fastboot刷机。</strong></p>
+<h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><p><a target="_blank" rel="noopener" href="https://xdaforums.com/t/y700-roms.4454585">https://xdaforums.com/t/y700-roms.4454585</a></p>
+<hr>
+<h2 id="官方ROM"><a href="#官方ROM" class="headerlink" title="官方ROM"></a>官方ROM</h2><h3 id="解锁bootloader-1"><a href="#解锁bootloader-1" class="headerlink" title="解锁bootloader"></a>解锁bootloader</h3><p>和上面的方法一样，解锁过的可以跳过。</p>
+<h3 id="下载ROM"><a href="#下载ROM" class="headerlink" title="下载ROM"></a>下载ROM</h3><p><a target="_blank" rel="noopener" href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQEUyqBSPAXIAMAawAP0#</a><br>同一个文件<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333">https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333</a>， 提取码：3333</p>
+<h3 id="刷机-1"><a href="#刷机-1" class="headerlink" title="刷机"></a>刷机</h3><ol>
+<li>下载安装QPST，<a target="_blank" rel="noopener" href="https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0">https://drive.weixin.qq.com/s?k=ADcA0AeLAEQ4umpMNdAXIAMAawAP0</a></li>
+<li>安装完成后运行QFIL.exe，点上方Configuration，FireHose Configuration，Device Type选ufs，勾选Reset After Download，点OK。</li>
+<li>主界面点击Load Content，刚才下载的ROM解压缩后，选择contents.xml。</li>
+<li>Y700平板关机。只按住音量上键的同时插入usb线，软件主界面上方Select Port，里面选9008，如果没有选项，在参考文章里有几个方法可以试试。</li>
+<li>点Download Content等待刷机完成就行了。</li>
+</ol>
+<p><em>新系统是zui13，会更新几次到14.0.286，就可以停了，下一个版本是15，不要更新。</em><br><em>系统更新的通知取消不了，按住系统更新app，应用信息里停用+强行停止就看不见通知了。</em></p>
+<h3 id="参考文章-1"><a href="#参考文章-1" class="headerlink" title="参考文章"></a>参考文章</h3><p><a target="_blank" rel="noopener" href="https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode=AOoATwelAA8lI8l6V2Af0Alwb2ADI">https://doc.weixin.qq.com/doc/w3_Af0Alwb2ADI50A6nyXXTlyjrhQezT?scode&#x3D;AOoATwelAA8lI8l6V2Af0Alwb2ADI</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/weixin.png" alt="Andy 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="Andy 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Andy
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/" title="联想拯救者y700一代（2022）平板刷机过程">https://andi.wang/2024/01/13/联想拯救者y700一代（2022）平板刷机过程/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/y700/" rel="tag"># y700</a>
+              <a href="/tags/%E5%88%B7%E6%9C%BA/" rel="tag"># 刷机</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/01/03/Windows%E5%92%8CAndroid%E4%BC%98%E8%B4%A8%E8%BD%AF%E4%BB%B6/" rel="prev" title="Windows和Android优质软件">
+                  <i class="fa fa-angle-left"></i> Windows和Android优质软件
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/02/05/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E8%B5%96%E6%98%8E%E7%8F%A0%E8%AF%91%E6%A0%87%E6%B3%A8/" rel="next" title="挪威的森林赖明珠译 标注">
+                  挪威的森林赖明珠译 标注 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2017 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Andy</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">262646</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">3:59</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wangandi520","repo":"wangandi520.github.io","client_id":"4608a30c8bf01d212dc2","client_secret":"1728dfa6fb7625b83daa2e898ab26b0b82d475f2","admin_user":"wangandi520","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":["zh-CN","zh-TW","en"],"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"420f72685b50f960ba6dcd035a813ecc"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>
