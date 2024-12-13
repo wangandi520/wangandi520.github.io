@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2024-11-09T03:26:15.165Z</updated>
+  <updated>2024-12-13T03:00:14.044Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>单页面投资行情</title>
+    <link href="https://andi.wang/2024/12/13/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/"/>
+    <id>https://andi.wang/2024/12/13/%E5%8D%95%E9%A1%B5%E9%9D%A2%E6%8A%95%E8%B5%84%E8%A1%8C%E6%83%85/</id>
+    <published>2024-12-13T02:59:22.000Z</published>
+    <updated>2024-12-13T03:00:14.044Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;20241213更新pyqt版&quot;&gt;&lt;a href=&quot;#20241213更新pyqt版&quot; class=&quot;headerlink&quot; title=&quot;20241213更新pyqt版&quot;&gt;&lt;/a&gt;20241213更新pyqt版&lt;/h2&gt;&lt;p&gt;需要pip install pyqt6 pyqt6-tools requests pillow&lt;/p&gt;
+&lt;p&gt;项目地址&lt;a href=&quot;https://github.com/wangandi520/andyspyqtscript&quot;&gt;https://github.com/wangandi520/andyspyqtscript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;单个python程序就可以运行，支持名称缩写或股票数字代码&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/onepagestock.png&quot; alt=&quot;界面&quot;&gt;&lt;/p&gt;
+&lt;p&gt;目前问题：&lt;br&gt;1.没法看指数&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="html" scheme="https://andi.wang/tags/html/"/>
+    
+    <category term="投资" scheme="https://andi.wang/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>文石poke6黑色评测体验</title>
     <link href="https://andi.wang/2024/11/09/%E6%96%87%E7%9F%B3poke6%E9%BB%91%E8%89%B2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/"/>
     <id>https://andi.wang/2024/11/09/%E6%96%87%E7%9F%B3poke6%E9%BB%91%E8%89%B2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</id>
     <published>2024-11-09T03:20:01.000Z</published>
-    <updated>2024-11-09T03:26:15.165Z</updated>
+    <updated>2024-11-16T08:48:44.570Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -37,9 +65,9 @@
     
     <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
     
-    <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
-    
     <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
+    
+    <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
     
     <category term="boox" scheme="https://andi.wang/tags/boox/"/>
     
@@ -911,11 +939,11 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
-    
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     
     <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+    <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
   </entry>
   
@@ -1013,46 +1041,11 @@
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
     
     
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
     <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
     
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
-    
     <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>西游记校注本 标注</title>
-    <link href="https://andi.wang/2021/03/16/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E6%A0%A1%E6%B3%A8%E6%9C%AC%E6%A0%87%E6%B3%A8/"/>
-    <id>https://andi.wang/2021/03/16/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E6%A0%A1%E6%B3%A8%E6%9C%AC%E6%A0%87%E6%B3%A8/</id>
-    <published>2021-03-16T04:15:10.000Z</published>
-    <updated>2022-03-19T08:25:51.484Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;（明）吴承恩&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;第二十七回　尸魔三戏唐三藏 圣僧恨逐美猴王&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;2018-12-23 23:25&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;[原文]&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;行者笑道：“师父，你那里认得。老孙在水帘洞里做妖魔时，若想人肉吃，便是这等：或变金银，或变庄台，或变醉人，或变女色。有那等痴心的爱上我，我就迷他到洞里，尽意随心，或蒸或煮受用；吃不了，还要晒干了防天阴哩！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;em&gt;[批注]&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;</summary>
-    
-    
-    
-    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
-    
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="西游记" scheme="https://andi.wang/tags/%E8%A5%BF%E6%B8%B8%E8%AE%B0/"/>
     
   </entry>
   
