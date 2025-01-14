@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-01-10T14:11:40.369Z</updated>
+  <updated>2025-01-14T02:08:18.888Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://andi.wang/2025/01/10/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/"/>
     <id>https://andi.wang/2025/01/10/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/</id>
     <published>2025-01-10T01:12:31.000Z</published>
-    <updated>2025-01-10T14:11:40.369Z</updated>
+    <updated>2025-01-14T02:08:18.888Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -31,6 +31,7 @@
 &lt;li&gt;跟随人物，按住shift鼠标右键点要跟随的人。&lt;/li&gt;
 &lt;li&gt;win11窗口不堆叠起来，win11任务栏右键，任务栏设置，任务栏行为，合并任务栏按钮并隐藏标签：从不。&lt;/li&gt;
 &lt;li&gt;快速加属性点，聊天框&amp;#x2F;int+ 50，加号后有空格，就是int加50，注意不是加到50，最开始所有属性是1，所以是1+50，会加到51。&lt;/li&gt;
+&lt;li&gt;幻影调查团任务尽量在0%经验的时候去做，一般升到下一级的92%左右。&lt;/li&gt;
 &lt;/ul&gt;</summary>
     
     
@@ -967,9 +968,9 @@
     
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     
-    <category term="python" scheme="https://andi.wang/tags/python/"/>
-    
     <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+    <category term="python" scheme="https://andi.wang/tags/python/"/>
     
   </entry>
   
