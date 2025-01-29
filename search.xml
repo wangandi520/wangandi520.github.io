@@ -20110,23 +20110,28 @@
     <url>/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<hr>
 <h2 id="安装运行Ollama"><a href="#安装运行Ollama" class="headerlink" title="安装运行Ollama"></a>安装运行Ollama</h2><p>在<a href="https://ollama.com/%E4%B8%8B%E8%BD%BD%E8%BF%90%E8%A1%8COllamaSetup.exe">https://ollama.com/下载运行OllamaSetup.exe</a></p>
-<h2 id="修改Ollama模型下载路径"><a href="#修改Ollama模型下载路径" class="headerlink" title="修改Ollama模型下载路径"></a>修改Ollama模型下载路径</h2><p>右键此电脑，属性，高级系统设置，环境变量，系统变量，新建:<br>变量名：OLLAMA_MODELS<br>变量值（保存模型的路径）：D:\Ollama</p>
+<h2 id="修改Ollama模型下载路径"><a href="#修改Ollama模型下载路径" class="headerlink" title="修改Ollama模型下载路径"></a>修改Ollama模型下载路径</h2><p>右键此电脑，属性，高级系统设置，环境变量，系统变量，新建，格式：变量名&#x3D;变量值:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">OLLAMA_MODELS=D:\ollama</span><br></pre></td></tr></table></figure>
+
 <h2 id="允许网页访问"><a href="#允许网页访问" class="headerlink" title="允许网页访问"></a>允许网页访问</h2><p>系统变量添加两个：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">OLLAMA_HOST=0.0.0.0</span><br><span class="line">OLLAMA_ORIGINS=*</span><br></pre></td></tr></table></figure>
 
 <span id="more"></span>
 
-<h2 id="下载deepseek-r1模型"><a href="#下载deepseek-r1模型" class="headerlink" title="下载deepseek r1模型"></a>下载deepseek r1模型</h2><p>进入ollama安装路径，默认是C:\Users\你的用户名\AppData\Local\Programs\Ollama，你的用户名要看每台电脑不同，右键文件夹空白位置，在终端中打开，输入ollama.exe pull deepseek-r1:8b，开始下载deepseek，一共4.9GB</p>
+<h2 id="下载deepseek-r1模型"><a href="#下载deepseek-r1模型" class="headerlink" title="下载deepseek r1模型"></a>下载deepseek r1模型</h2><p>进入ollama安装路径，默认是C:\Users\你的用户名\AppData\Local\Programs\Ollama，你的用户名要看每台电脑不同，右键文件夹空白位置，在终端中打开，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ollama.exe pull deepseek-r1:8b</span><br></pre></td></tr></table></figure>
+
+<p>开始下载deepseek，一共4.9GB</p>
 <p>根据内存大小和显卡型号，需要下载其他模型参考<a href="https://ollama.com/library/deepseek-r1">https://ollama.com/library/deepseek-r1</a></p>
-<p>经常前面1&#x2F;2能跑满宽带，后面只有100-500KB&#x2F;s的速度，ctrl+c中断后再运行一次命令好像可以满速</p>
+<p>经常前面1&#x2F;2能跑满宽带，后面只有100-500KB&#x2F;s的速度，ctrl+c中断后再运行一次命令可以满速，可以正常下载结束</p>
 <h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><h3 id="命令行界面"><a href="#命令行界面" class="headerlink" title="命令行界面"></a>命令行界面</h3><p>一键运行，可以新建个ollama.bat，里面填写</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\你的用户名\AppData\Local\Programs\Ollama\ollama.exe run deepseek-r1:8b</span><br></pre></td></tr></table></figure>
 
-<p>可以在命令行输入你的问题，如果在网页操作，右下角有ollama的图标后，命令行窗口可以关闭</p>
+<p>可以在命令行里输入你的问题，如果要在网页操作，运行bat右下角有ollama的图标后，命令行窗口可以关闭</p>
 <h2 id="网页界面"><a href="#网页界面" class="headerlink" title="网页界面"></a>网页界面</h2><h3 id="浏览器插件page-assist"><a href="#浏览器插件page-assist" class="headerlink" title="浏览器插件page assist"></a>浏览器插件page assist</h3><p><a href="https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo">https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo</a></p>
-<p>安装后选择模型就可以了</p>
+<p>安装后选择模型就可以</p>
 <h3 id="chatbox"><a href="#chatbox" class="headerlink" title="chatbox"></a>chatbox</h3><p><a href="https://web.chatboxai.app/">https://web.chatboxai.app/</a></p>
-<p>不用登陆，选择模型就可以了</p>
+<p>不用登陆，选择模型就可以</p>
 <h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>尝试open-webui，使用pip install open-webui后，出现wheel错误，以前解决过一次，用同样的方法没法解决，放弃了</p>
 ]]></content>
       <categories>

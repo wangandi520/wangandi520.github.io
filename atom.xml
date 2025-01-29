@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-01-29T06:07:34.998Z</updated>
+  <updated>2025-01-29T07:42:18.774Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,12 +21,14 @@
     <link href="https://andi.wang/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/"/>
     <id>https://andi.wang/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/</id>
     <published>2025-01-26T12:18:51.000Z</published>
-    <updated>2025-01-29T06:07:34.998Z</updated>
+    <updated>2025-01-29T07:42:18.774Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
 &lt;h2 id=&quot;安装运行Ollama&quot;&gt;&lt;a href=&quot;#安装运行Ollama&quot; class=&quot;headerlink&quot; title=&quot;安装运行Ollama&quot;&gt;&lt;/a&gt;安装运行Ollama&lt;/h2&gt;&lt;p&gt;在&lt;a href=&quot;https://ollama.com/%E4%B8%8B%E8%BD%BD%E8%BF%90%E8%A1%8COllamaSetup.exe&quot;&gt;https://ollama.com/下载运行OllamaSetup.exe&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;修改Ollama模型下载路径&quot;&gt;&lt;a href=&quot;#修改Ollama模型下载路径&quot; class=&quot;headerlink&quot; title=&quot;修改Ollama模型下载路径&quot;&gt;&lt;/a&gt;修改Ollama模型下载路径&lt;/h2&gt;&lt;p&gt;右键此电脑，属性，高级系统设置，环境变量，系统变量，新建:&lt;br&gt;变量名：OLLAMA_MODELS&lt;br&gt;变量值（保存模型的路径）：D:&#92;Ollama&lt;/p&gt;
+&lt;h2 id=&quot;修改Ollama模型下载路径&quot;&gt;&lt;a href=&quot;#修改Ollama模型下载路径&quot; class=&quot;headerlink&quot; title=&quot;修改Ollama模型下载路径&quot;&gt;&lt;/a&gt;修改Ollama模型下载路径&lt;/h2&gt;&lt;p&gt;右键此电脑，属性，高级系统设置，环境变量，系统变量，新建，格式：变量名&amp;#x3D;变量值:&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;OLLAMA_MODELS=D:&#92;ollama&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;h2 id=&quot;允许网页访问&quot;&gt;&lt;a href=&quot;#允许网页访问&quot; class=&quot;headerlink&quot; title=&quot;允许网页访问&quot;&gt;&lt;/a&gt;允许网页访问&lt;/h2&gt;&lt;p&gt;系统变量添加两个：&lt;/p&gt;
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;OLLAMA_HOST=0.0.0.0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;OLLAMA_ORIGINS=*&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
