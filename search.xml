@@ -18354,7 +18354,7 @@
 <span id="more"></span>
 
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>看漫画还是挺费眼睛，感觉最平衡的还是8寸。<br>充电慢，大概1分钟1%。<br>app启动都比较慢，1-3秒。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>谨慎推荐，7分（7分及格）。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果每天看书3小时以上的话，谨慎推荐，7分（7分及格）。</p>
 ]]></content>
       <categories>
         <category>评测</category>
@@ -20168,6 +20168,8 @@
 <p>可以在命令行里输入你的问题，如果要在网页操作，运行bat右下角有ollama的图标后，命令行窗口可以关闭</p>
 <h2 id="网页界面"><a href="#网页界面" class="headerlink" title="网页界面"></a>网页界面</h2><h3 id="浏览器插件page-assist"><a href="#浏览器插件page-assist" class="headerlink" title="浏览器插件page assist"></a>浏览器插件page assist</h3><p><a href="https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo">https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo</a></p>
 <p>安装后选择模型就可以</p>
+<h3 id="cherry-studio"><a href="#cherry-studio" class="headerlink" title="cherry-studio"></a>cherry-studio</h3><p><a href="https://github.com/CherryHQ/cherry-studio">https://github.com/CherryHQ/cherry-studio</a></p>
+<p>有便携版不用安装</p>
 <h3 id="chatbox"><a href="#chatbox" class="headerlink" title="chatbox"></a>chatbox</h3><p><a href="https://web.chatboxai.app/">https://web.chatboxai.app/</a></p>
 <p>不用登陆，选择模型就可以</p>
 <h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>尝试open-webui，使用pip install open-webui后，出现wheel错误，以前解决过一次，用同样的方法没法解决，放弃了</p>
