@@ -17804,6 +17804,7 @@
 <li>桌面左滑快捷功能，4个图标的第3个会变成别的再变回来。</li>
 <li>上滑多任务界面，app界面和名字不匹配</li>
 <li>上滑多任务界面，上滑结束任务，实际上没结束</li>
+<li>桌面图标点不了，出现过2次，重启才恢复</li>
 </ol>
 ]]></content>
       <categories>
@@ -18777,6 +18778,9 @@
     <title>电脑手机技巧</title>
     <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<hr>
+<h2 id="potplayer播放4k视频卡"><a href="#potplayer播放4k视频卡" class="headerlink" title="potplayer播放4k视频卡"></a>potplayer播放4k视频卡</h2><p>选项，滤镜，视频解码器，内置解码器&#x2F;DXVA设置，使用视频加速(DXVA)</p>
+<span id="more"></span>
+
 <h2 id="vscode设置中文界面，自动换行"><a href="#vscode设置中文界面，自动换行" class="headerlink" title="vscode设置中文界面，自动换行"></a>vscode设置中文界面，自动换行</h2><p>VSCode，按Ctrl+Shift+P，输入Configure Display Language，选择zh-CN<br>自动换行，alt+z<br>python自动格式化代码，扩展里安装autopep8</p>
 <h2 id="小狼毫输入法使用小鹤双拼"><a href="#小狼毫输入法使用小鹤双拼" class="headerlink" title="小狼毫输入法使用小鹤双拼"></a>小狼毫输入法使用小鹤双拼</h2><p>下载<a href="https://github.com/rime/rime-double-pinyin%EF%BC%8C%E5%A4%8D%E5%88%B6double_pinyin_flypy.schema.yaml%E5%88%B0C:/Users/%E4%BD%A0%E5%88%B0%E7%94%A8%E6%88%B7%E5%90%8D/AppData/Roaming/Rime%EF%BC%8C%E5%8F%B3%E4%B8%8B%E8%A7%92%E7%8A%B6%E6%80%81%E6%A0%8F%E5%88%87%E6%8D%A2%E5%88%B0%E5%B0%8F%E7%8B%BC%E6%AF%AB%E8%BE%93%E5%85%A5%E6%B3%95%EF%BC%8C%E5%8F%B3%E9%94%AE%E8%BE%93%E5%85%A5%E6%B3%95%E8%AE%BE%E5%AE%9A%EF%BC%8C%E9%80%89%E6%8B%A9%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%8Cf4%E5%8F%AF%E4%BB%A5%E8%AE%BE%E7%BD%AE%E6%88%90%E7%AE%80%E4%BD%93%E3%80%82">https://github.com/rime/rime-double-pinyin，复制double_pinyin_flypy.schema.yaml到C:\Users\你到用户名\AppData\Roaming\Rime，右下角状态栏切换到小狼毫输入法，右键输入法设定，选择小鹤双拼，f4可以设置成简体。</a></p>
 <p>修改候选字数量，default.custom.yaml里patch:后添加一行</p>
@@ -18785,8 +18789,6 @@
 <p>添加词库太麻烦，已弃用</p>
 <h2 id="python3-13使用kindleunpack时提示No-module-named-‘imghdr’"><a href="#python3-13使用kindleunpack时提示No-module-named-‘imghdr’" class="headerlink" title="python3.13使用kindleunpack时提示No module named ‘imghdr’"></a>python3.13使用kindleunpack时提示No module named ‘imghdr’</h2><p>复制imghdr.py到KindleUnpack-083\lib文件夹</p>
 <h2 id="python运行提示找不到libzbar-64-dll"><a href="#python运行提示找不到libzbar-64-dll" class="headerlink" title="python运行提示找不到libzbar-64.dll"></a>python运行提示找不到libzbar-64.dll</h2><p>安装Visual C++ Redistributable Packages for Visual Studio 2013</p>
-<span id="more"></span>
-
 <h2 id="水星摄像头使用rtsp，可用播放器播放"><a href="#水星摄像头使用rtsp，可用播放器播放" class="headerlink" title="水星摄像头使用rtsp，可用播放器播放"></a>水星摄像头使用rtsp，可用播放器播放</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#EXTM3U8</span><br><span class="line">#EXTINF:-1,名字</span><br><span class="line">rtsp://admin:123456@192.168.1.111:554/stream1</span><br></pre></td></tr></table></figure>
 
 <h2 id="静读天下看书点击标注会出现一个白窗再显示标注"><a href="#静读天下看书点击标注会出现一个白窗再显示标注" class="headerlink" title="静读天下看书点击标注会出现一个白窗再显示标注"></a>静读天下看书点击标注会出现一个白窗再显示标注</h2><p>删除epub文件，各个html正文中epub:type&#x3D;”noteref”</p>
@@ -18907,18 +18909,26 @@
     <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/livewing/mahjong-calc">https://github.com/livewing/mahjong-calc</a><br>原作者演示地址：<a href="https://mahjong-calc.livewing.net/">https://mahjong-calc.livewing.net/</a><br>原作者使用方法（日文）：<a href="https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md">https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md</a><br>能计算麻将的进张面，向听数，听什么牌，和牌点数，很好的工具</p>
 <span id="more"></span>
 
-<h2 id="自己编译出成品"><a href="#自己编译出成品" class="headerlink" title="自己编译出成品"></a>自己编译出成品</h2><p>使用git clone复制一份到自己的硬盘，不能下载zip包解压缩</p>
+<h2 id="自己编译出成品"><a href="#自己编译出成品" class="headerlink" title="自己编译出成品"></a>自己编译出成品</h2><p>下载并安装下面3个软件</p>
+<p>rust<br><a href="https://www.rust-lang.org/zh-CN/tools/install">https://www.rust-lang.org/zh-CN/tools/install</a><br>wasm-pack<br><a href="https://github.com/rustwasm/wasm-pack/releases">https://github.com/rustwasm/wasm-pack/releases</a><br>msys2<br><a href="https://github.com/msys2/msys2-installer/releases">https://github.com/msys2/msys2-installer/releases</a><br>git<br><a href="https://git-scm.com/downloads/win">https://git-scm.com/downloads/win</a></p>
+<p>使用git clone复制一份到自己的硬盘，不能下载zip包解压缩</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/livewing/mahjong-calc.git</span><br></pre></td></tr></table></figure>
 
-<p>下载并安装下面3个软件</p>
-<p>rust<br><a href="https://www.rust-lang.org/zh-CN/tools/install">https://www.rust-lang.org/zh-CN/tools/install</a><br>wasm-pack<br><a href="https://github.com/rustwasm/wasm-pack/releases">https://github.com/rustwasm/wasm-pack/releases</a><br>msys2<br><a href="https://github.com/msys2/msys2-installer/releases">https://github.com/msys2/msys2-installer/releases</a></p>
-<p>命令行运行</p>
+<p>rust下载速度慢，右键此电脑，属性，高级系统设置，环境变量，系统变量，新建，格式：变量名&#x3D;变量值，添加下面两个变量</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">RUSTUP_DIST_SERVER=https://mirrors.aliyun.com/rustup/rustup</span><br><span class="line">RUSTUP_UPDATE_ROOT=https://mirrors.aliyun.com/rustup</span><br></pre></td></tr></table></figure>
+
+<p>命令行运行，这两行可能不需要运行，待测试</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rustup toolchain install stable-x86_64-pc-windows-gnu</span><br><span class="line">rustup default stable-x86_64-pc-windows-gnu</span><br></pre></td></tr></table></figure>
 
 <p>生成成品，命令行运行</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i</span><br><span class="line">npm run build:wasm</span><br><span class="line">npm run dev</span><br></pre></td></tr></table></figure>
 
-<p>把dist文件夹里面的文件复制到你的服务器就可以了<br>成品演示：<a href="https://andi.wang/mahjong-calc/">https://andi.wang/mahjong-calc/</a><br>成品源码：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc">https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc</a><br>79博客麻将教程和源码下载：<a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd&#x3D;aw4m</a></p>
+<p>把dist文件夹里面的文件复制到你的服务器就可以了</p>
+<p>如果没有dist文件夹，尝试输入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure>
+
+<p>成品演示：<a href="https://andi.wang/mahjong-calc/">https://andi.wang/mahjong-calc/</a><br>成品源码：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc">https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc</a><br>79博客麻将教程和源码下载：<a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd&#x3D;aw4m</a></p>
+<h2 id="其他问题"><a href="#其他问题" class="headerlink" title="其他问题"></a>其他问题</h2><p>提示错误binaryen-version_117-x86_64-windows.tar.gz下载失败，就手动下载这个文件，解压的bin文件的路径添加到：右键此电脑，属性，高级系统设置，环境变量，系统变量，Path，新建</p>
 ]]></content>
       <categories>
         <category>程序</category>
