@@ -269,8 +269,8 @@
   <entry>
     <title>吉他翻弹.Speak softly love/The Godfather</title>
     <url>/2017/03/23/speaksoftlylove/</url>
-    <content><![CDATA[<p>拍摄：尼康D610外录<br>吉他：无牌古典吉他<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
-<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> ]]></content>
+    <content><![CDATA[<p>拍摄：尼康D610外录<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false"> </iframe> ]]></content>
       <categories>
         <category>吉他</category>
       </categories>
@@ -17686,75 +17686,6 @@
       </tags>
   </entry>
   <entry>
-    <title>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</title>
-    <url>/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<hr>
-<h2 id="博客原文"><a href="#博客原文" class="headerlink" title="博客原文"></a>博客原文</h2><p><a href="https://andi.wang/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F">静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式</a></p>
-<p><a href="https://jq.qq.com/?_wv=1027&k=AqqQIfm7">电子书漫画制作闲聊群1321993</a></p>
-<h2 id="静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式"><a href="#静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式" class="headerlink" title="静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式"></a>静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式</h2><p><strong>基本用法(win10)</strong></p>
-<p>安装python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>，复制你的标注到文件夹，运行对应的py文件或者拖拽标注文件的py上</p>
-<p><strong>静读天下专业版</strong></p>
-<p>书签导出时选导出到文件(.mrexpt):MoonReaderProToMrexpt.py</p>
-<p>静读天下专业版中，书签，导出到文件，复制.mrexpt文件，拖拽文件夹或.mrexpt到MoonReaderProToMrexpt.py</p>
-<p>新版支持拖拽，支持标注添加的评论</p>
-<p>通样的方法拖拽到MoonReaderProToMrexptForHexo.py，生成的文件可以直接在Hexo博客里使用，可以设置按照标注添加的时间顺序，还是按住标注所在书中的先后顺序，默认后者</p>
-<p>书签导出时选分享高亮与备注(TXT), 后选total commander，保存成txt文件:MoonReaderProToTXT.py, MoonReaderPro7.0ToTXT.py</p>
-<p>含章节信息，使用方法相同</p>
-<p><strong>Kindle</strong></p>
-<p>自动检测到My Clippings.txt</p>
-<p><em>如果你想保留原来的标注顺序，KindleSorted.py 改成 Kindle.py</em></p>
-<p>标注文件测试成功在2020.03.13(My Clippings.txt 文件在 2018.10.14 生成)</p>
-<p>复制My Clippings.txt，运行KindleSorted.py</p>
-<p><strong>微信读书</strong></p>
-<p>我，笔记，书名，右上角，复制到剪贴板，复制到.txt文件中后运行WereadClippingsToMarkdown.py</p>
-<p><strong>KOReader</strong></p>
-<p>菜单，印象笔记，选中导出到本地json文件，点到处所有笔记，复制KOReaderClipping.json，拖拽json或文件夹到KOReaderJsonALL.py。如果想每本书一个文件，请运行KOReaderJsonALLtoEachBook.py</p>
-<p>新版支持拖拽</p>
-<p><strong>文石设备</strong></p>
-<p><strong>文石设备的脚本可能失效，设备已经二手出了，后续更新未知</strong></p>
-<p>如果没有参数，就转换当前文件夹下的所有.txt文件为.md，不删除源文件。</p>
-<p>如果有参数，就只转换那个文件</p>
-<p>只支持本地到处的标注，导出到印象笔记、onenote的暂不支持</p>
-<p>标注文件格式，在2020.03.13测试成功</p>
-<hr>
-<h2 id="Kindle-Moon-Reader-pro-KOReader-Weread-Clippings-To-Markdown"><a href="#Kindle-Moon-Reader-pro-KOReader-Weread-Clippings-To-Markdown" class="headerlink" title="Kindle,Moon Reader pro,KOReader,Weread Clippings To Markdown"></a>Kindle,Moon Reader pro,KOReader,Weread Clippings To Markdown</h2><p><em><a href="https://andi.wang/">https://andi.wang/</a></em></p>
-<p><strong>Basic usage(win10)</strong></p>
-<p>install python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>,copy your clipping file to folder,run .py or drag your file onto .py</p>
-<p><strong>Moon Reader pro</strong><br>in bookmark, chose output to file(.mrexpt):MoonReaderProToMrexpt.py</p>
-<p>In moon reader pro,bookmark, output to file, copy .mrexpt, drag .mrexpt or folder onto MoonReaderProToMrexpt.py</p>
-<p>For Hexo blog, use MoonReaderProToMrexptForHexo.py</p>
-<p>in bookmark, chose share clipping(TXT):MoonReaderProToTXT.py</p>
-<p>copy contents to TXT file, same</p>
-<p><strong>Kindle</strong></p>
-<p>Auto detect kindle My Clippings.txt</p>
-<p>if you dont’s want the clippings sorted as book. Change KindleSorted.py to Kindle.py</p>
-<p>origin clippings file tested in 2020.03.13(My Clippings.txt created in 2018.10.14)</p>
-<p>copy My Clippings.txt,run KindleSorted.py</p>
-<p><strong>weread</strong></p>
-<p>my,note,book,top right corner,copy to clipboard,copy contents to .txt and run WereadClippingsToMarkdown.py</p>
-<p><strong>KOReader</strong></p>
-<p>menu,Evernote,Export to local json files,Export all notes in your library，copy KOReaderClipping.json，drag .json or folder to KOReaderJsonALL.py. If you want each book a .md file,please run KOReaderJsonALLtoEachBook.py</p>
-<p><strong>Boox eink reader</strong></p>
-<p><strong>boox script maybe not work, device is sold, update not sure</strong></p>
-<p>if with no arguments, it convert all .txt file in the folder(include subs)，origin .txt not deleted</p>
-<p>if with arguments, it only convert the file to .md</p>
-<p>origin clippings file tested succeed in 2020.03.13</p>
-<p>BooxLocalInternational.py for <a href="https://github.com/wangandi520/ClippingsToMarkdown/issues/1">https://github.com/wangandi520/ClippingsToMarkdown/issues/1</a></p>
-<p>BooxLocalInternational_anotherVersion.py <a href="https://github.com/wangandi520/ClippingsToMarkdown/issues/2">https://github.com/wangandi520/ClippingsToMarkdown/issues/2</a></p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>kindle</tag>
-        <tag>静读天下专业版</tag>
-        <tag>文石</tag>
-        <tag>markdown</tag>
-        <tag>koreader</tag>
-        <tag>微信读书</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>文石boox poke pro评测体验</title>
     <url>/2019/03/29/%E6%96%87%E7%9F%B3boox%20poke%20pro%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
@@ -19009,132 +18940,6 @@
       </tags>
   </entry>
   <entry>
-    <title>美丽的世界，你在哪里 标注</title>
-    <url>/2023/12/25/%E7%BE%8E%E4%B8%BD%E7%9A%84%E4%B8%96%E7%95%8C%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C/</url>
-    <content><![CDATA[<hr>
-<blockquote>
-<p>她问：艾丽丝，我是不是总有一天要在现实里生活？艾丽丝头也没抬，嗤之以鼻道：老天，当然不会了。你听谁说的？</p>
-</blockquote>
-<p><em>2023.12.02 00:22:53</em></p>
-<hr>
-<span id="more"></span>
-
-<blockquote>
-<p>她会告诉他们，我姐姐六月就要结婚了。他们会说，好让人激动啊，你一定很为她开心吧。艾琳会说，嗯，奇怪的很，并没有。</p>
-</blockquote>
-<p><em>2023.12.02 11:19:50</em></p>
-<hr>
-<blockquote>
-<p>当然，我在脑海里知道我们为自己编织的人类文明是一个谎言。但是在现实生活中发现这点就不同了。</p>
-</blockquote>
-<p><em>2023.12.02 19:53:14</em></p>
-<hr>
-<blockquote>
-<p>你觉得他或我是失败的吗？嗯。好吧，现在想来，或许我们三个都是。但即便如此，我宁愿失败也不要成功。</p>
-</blockquote>
-<p><em>2023.12.04 10:53:54</em></p>
-<hr>
-<blockquote>
-<p>我觉得我的生育能力大概再过个十年还会阴魂不散——我母亲是四十二岁时怀上的基思。但我并不是很想要小孩。我之前不知道你想要。哪怕世界是这副德性？你只要想，找个人让你怀孕应该不成问题。正如西蒙所说，你看起来就很能生。男人喜欢这点。</p>
-</blockquote>
-<p><em>2023.12.04 19:55:11</em></p>
-<hr>
-<blockquote>
-<p>反正你太太绝不会这么跟你说话。<BR>为什么，因为她崇拜我吗？<BR>没错，艾琳说，你就像她父亲。</p>
-</blockquote>
-<p><em>2023.12.05 15:22:22</em></p>
-<hr>
-<blockquote>
-<p>我的理论是，一九七六年，当塑料成为应用最广泛的材料时，人类就失去了对美的直觉。</p>
-</blockquote>
-<p><em>2023.12.05 16:19:05</em></p>
-<hr>
-<blockquote>
-<p>老实说，如果为了人类福祉我们不得不去死，我会毫无怨言地接受，因为我不配拥有我的生命，甚至并不享受它。但我希望能以某种方式对这份事业作出贡献，无论是什么贡献，无论它有多渺小，我都不介意，因为我反正也是为了自己好才这么做的——因为我们折磨的其实是我们自己，虽然是以另一种方式。没人希望这样活着。至少我不希望。我想要另一种生活，或者我死了能让别人将来过上这种生活，我也愿意。但我在网上没有看到什么值得为之赴死的思想。</p>
-</blockquote>
-<p><em>2023.12.05 16:19:40</em></p>
-<hr>
-<blockquote>
-<p>我觉得这有点像我和费利克斯。我们之间没有明显的路径通向任何可以前进的关系。我不觉得他会拿我当朋友，因为他有朋友，而且他们之间的关系和他与我之间的关系不同。比起和他们，他和我距离更远，但同时，在某种意义上，我们又更接近，因为我们的关系不受任何边界或习俗的制约。</p>
-</blockquote>
-<p><em>2023.12.05 20:28:43</em></p>
-<hr>
-<blockquote>
-<p>教堂里每个人都整齐地低声应和：“我们举心向主。”几小时前，我真的在都柏林的中心见证了这样一个场景吗？在一个你我都生活其中的真实世界里，这样的事真的在发生吗？当牧师说“举起你的心”时，每个人，包括西蒙在内，都不带一丝犹豫和讽刺地答道：“我们举心向主。”他们觉得自己在说真话吗，暂且不论这句话究竟是什么意思，在那一刻，他们真的举心向主了吗？</p>
-</blockquote>
-<p><em>2023.12.06 15:36:26</em></p>
-<hr>
-<blockquote>
-<p>对，那句话莫名的性感。很有意思，我觉得我很享受听你指挥。有一个我像在说，没错，求求你，告诉我该如何生活。</p>
-</blockquote>
-<p><em>2023.12.06 22:29:18</em></p>
-<hr>
-<blockquote>
-<p>那时，我发现我再也无法想象对雨水或花朵产生曾经那样的感受。不仅仅是感官体验再也无法打动我——而且我似乎失去了感官体验。我会走路上班或出门买菜或干别的事，而当我回到家后，我不记得自己见到或听到任何独特的东西。我想我是在看而不是观看——我的视觉世界是扁平的，像信息目录。我再也无法像从前那样观看事物了。</p>
-</blockquote>
-<p><em>2023.12.07 10:47:04</em></p>
-<hr>
-<blockquote>
-<p>我很累了，夜色已深，我半睡半醒地坐在出租车后座，莫名地想到，无论我去哪里，你都在我身边，他也是，只要你们都活着，这世界对我而言就是美丽的。</p>
-</blockquote>
-<p><em>2023.12.07 11:59:34</em></p>
-<hr>
-<blockquote>
-<p>从前我们这个年纪的人已经结婚生子偷情了，而如今大家到了三十岁仍然单身，和从来见不着面的室友合租。</p>
-</blockquote>
-<p><em>2023.12.09 11:56:50</em></p>
-<hr>
-<blockquote>
-<p>我们憎恨别人犯错远胜过爱慕他人行善，于是乎活着最轻松的方式就是什么也不做，什么也不说，谁也不爱。</p>
-</blockquote>
-<p><em>2023.12.09 16:19:37</em></p>
-<hr>
-<blockquote>
-<p>我用精致的文化在我和父母之间挖出一道鸿沟，他们已经摸不到我，甚至够都够不到。而当我站在鸿沟这头回望，我感到的不是歉疚或失落，而是解脱和满足。我比他们更好吗？当然不是，我或许比他们幸运。但我和他们不一样，我不了解他们，没法和他们一起生活，无法将他们引入我的内心世界——同样，也无法书写他们。我的尽孝无非就是一系列仪式，让我不至于被谴责，但我同时什么也没付出。</p>
-</blockquote>
-<p><em>2023.12.09 16:41:15</em></p>
-<hr>
-<blockquote>
-<p>艾琳，你想要什么？如果你真的想我们在一起，我随时都可以和卡罗琳分手。我愿意，非常愿意。但如果你不想那样，如果你只想和我随便搞搞，找点乐子，那，你懂的。我没法因为你乐意这样就这么打一辈子光棍。到时候我不得不离开你。你明白我意思吗？我只是想弄清楚你想要什么。</p>
-</blockquote>
-<p><em>2023.12.10 16:50:46</em></p>
-<hr>
-<blockquote>
-<p>车很丑，楼很丑，大规模生产的一次性消费品简直丑得难以言表。我们呼吸的空气有毒，我们喝的饮料里都是塑料微粒，我们的食物被致癌的聚四氟乙烯化学成分污染。我们的生活质量在下降，与此同时，我们的审美水平也在下降。当代小说（除了少数例外）已经无关紧要，主流电影就是汽车公司和美国国防部赞助的合家欢噩梦色情片。视觉艺术基本成为面向寡头富豪的期货市场。</p>
-</blockquote>
-<p><em>2023.12.10 22:49:36</em></p>
-<hr>
-<blockquote>
-<p>如今我们能做的只有尽量不让我们爱的人失望，不要使用太多塑料，而你则要努力每隔几年出一本有意思的书。目前你在这方面干得不错。顺带一问，你开始写新书了吗？</p>
-</blockquote>
-<p><em>2023.12.10 22:50:23</em></p>
-<hr>
-<blockquote>
-<p>某种意义上来说，我们明知无法得到回馈，仍然爱着虚构人物，难道不是在缩小的维度上践行耶稣所呼吁的无私的爱吗？</p>
-</blockquote>
-<p><em>2023.12.11 16:47:04</em></p>
-<hr>
-<blockquote>
-<p>艾琳说：我只是希望一切都能像从前一样。希望我们还是那么年轻，住得很近，一切都没有变。艾丽丝悲哀地微笑着。她问：要是发生了变化，我们还能继续做朋友吗？艾琳用手臂揽过艾丽丝的肩膀。她说：你如果不是我的朋友，我都不知道我是谁了。艾丽丝把脸放在艾琳的手臂上，闭上双眼。的确，她说：我也会不知道我是谁。其实有段时间我真的不知道。艾琳低头看着艾丽丝小小的披着金发的脑袋，栖在她睡袍的袖口上。她说：我也是。</p>
-</blockquote>
-<p><em>2023.12.24 22:21:47</em></p>
-<hr>
-<blockquote>
-<p>我的意思是，我无法想象我们在一起能幸福。我以为它会和我生命中其他一切人事一样艰难而可悲，因为我是一个艰难而可悲的人。但哪怕我曾经真的如此，我现在也不是了。人生比我想的要容易改变。我的意思是，人生可以在痛苦很久之后变得快乐。</p>
-</blockquote>
-<p><em>2023.12.25 00:13:17</em></p>
-<hr>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>标注</tag>
-        <tag>读书笔记</tag>
-        <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>老王随机点名器v1.0</title>
     <url>/2019/12/04/%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8v1.0/</url>
     <content><![CDATA[<hr>
@@ -20202,6 +20007,132 @@
       </tags>
   </entry>
   <entry>
+    <title>美丽的世界，你在哪里 标注</title>
+    <url>/2023/12/25/%E7%BE%8E%E4%B8%BD%E7%9A%84%E4%B8%96%E7%95%8C%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C%20%E6%A0%87%E6%B3%A8/</url>
+    <content><![CDATA[<hr>
+<blockquote>
+<p>她问：艾丽丝，我是不是总有一天要在现实里生活？艾丽丝头也没抬，嗤之以鼻道：老天，当然不会了。你听谁说的？</p>
+</blockquote>
+<p><em>2023.12.02 00:22:53</em></p>
+<hr>
+<span id="more"></span>
+
+<blockquote>
+<p>她会告诉他们，我姐姐六月就要结婚了。他们会说，好让人激动啊，你一定很为她开心吧。艾琳会说，嗯，奇怪的很，并没有。</p>
+</blockquote>
+<p><em>2023.12.02 11:19:50</em></p>
+<hr>
+<blockquote>
+<p>当然，我在脑海里知道我们为自己编织的人类文明是一个谎言。但是在现实生活中发现这点就不同了。</p>
+</blockquote>
+<p><em>2023.12.02 19:53:14</em></p>
+<hr>
+<blockquote>
+<p>你觉得他或我是失败的吗？嗯。好吧，现在想来，或许我们三个都是。但即便如此，我宁愿失败也不要成功。</p>
+</blockquote>
+<p><em>2023.12.04 10:53:54</em></p>
+<hr>
+<blockquote>
+<p>我觉得我的生育能力大概再过个十年还会阴魂不散——我母亲是四十二岁时怀上的基思。但我并不是很想要小孩。我之前不知道你想要。哪怕世界是这副德性？你只要想，找个人让你怀孕应该不成问题。正如西蒙所说，你看起来就很能生。男人喜欢这点。</p>
+</blockquote>
+<p><em>2023.12.04 19:55:11</em></p>
+<hr>
+<blockquote>
+<p>反正你太太绝不会这么跟你说话。<BR>为什么，因为她崇拜我吗？<BR>没错，艾琳说，你就像她父亲。</p>
+</blockquote>
+<p><em>2023.12.05 15:22:22</em></p>
+<hr>
+<blockquote>
+<p>我的理论是，一九七六年，当塑料成为应用最广泛的材料时，人类就失去了对美的直觉。</p>
+</blockquote>
+<p><em>2023.12.05 16:19:05</em></p>
+<hr>
+<blockquote>
+<p>老实说，如果为了人类福祉我们不得不去死，我会毫无怨言地接受，因为我不配拥有我的生命，甚至并不享受它。但我希望能以某种方式对这份事业作出贡献，无论是什么贡献，无论它有多渺小，我都不介意，因为我反正也是为了自己好才这么做的——因为我们折磨的其实是我们自己，虽然是以另一种方式。没人希望这样活着。至少我不希望。我想要另一种生活，或者我死了能让别人将来过上这种生活，我也愿意。但我在网上没有看到什么值得为之赴死的思想。</p>
+</blockquote>
+<p><em>2023.12.05 16:19:40</em></p>
+<hr>
+<blockquote>
+<p>我觉得这有点像我和费利克斯。我们之间没有明显的路径通向任何可以前进的关系。我不觉得他会拿我当朋友，因为他有朋友，而且他们之间的关系和他与我之间的关系不同。比起和他们，他和我距离更远，但同时，在某种意义上，我们又更接近，因为我们的关系不受任何边界或习俗的制约。</p>
+</blockquote>
+<p><em>2023.12.05 20:28:43</em></p>
+<hr>
+<blockquote>
+<p>教堂里每个人都整齐地低声应和：“我们举心向主。”几小时前，我真的在都柏林的中心见证了这样一个场景吗？在一个你我都生活其中的真实世界里，这样的事真的在发生吗？当牧师说“举起你的心”时，每个人，包括西蒙在内，都不带一丝犹豫和讽刺地答道：“我们举心向主。”他们觉得自己在说真话吗，暂且不论这句话究竟是什么意思，在那一刻，他们真的举心向主了吗？</p>
+</blockquote>
+<p><em>2023.12.06 15:36:26</em></p>
+<hr>
+<blockquote>
+<p>对，那句话莫名的性感。很有意思，我觉得我很享受听你指挥。有一个我像在说，没错，求求你，告诉我该如何生活。</p>
+</blockquote>
+<p><em>2023.12.06 22:29:18</em></p>
+<hr>
+<blockquote>
+<p>那时，我发现我再也无法想象对雨水或花朵产生曾经那样的感受。不仅仅是感官体验再也无法打动我——而且我似乎失去了感官体验。我会走路上班或出门买菜或干别的事，而当我回到家后，我不记得自己见到或听到任何独特的东西。我想我是在看而不是观看——我的视觉世界是扁平的，像信息目录。我再也无法像从前那样观看事物了。</p>
+</blockquote>
+<p><em>2023.12.07 10:47:04</em></p>
+<hr>
+<blockquote>
+<p>我很累了，夜色已深，我半睡半醒地坐在出租车后座，莫名地想到，无论我去哪里，你都在我身边，他也是，只要你们都活着，这世界对我而言就是美丽的。</p>
+</blockquote>
+<p><em>2023.12.07 11:59:34</em></p>
+<hr>
+<blockquote>
+<p>从前我们这个年纪的人已经结婚生子偷情了，而如今大家到了三十岁仍然单身，和从来见不着面的室友合租。</p>
+</blockquote>
+<p><em>2023.12.09 11:56:50</em></p>
+<hr>
+<blockquote>
+<p>我们憎恨别人犯错远胜过爱慕他人行善，于是乎活着最轻松的方式就是什么也不做，什么也不说，谁也不爱。</p>
+</blockquote>
+<p><em>2023.12.09 16:19:37</em></p>
+<hr>
+<blockquote>
+<p>我用精致的文化在我和父母之间挖出一道鸿沟，他们已经摸不到我，甚至够都够不到。而当我站在鸿沟这头回望，我感到的不是歉疚或失落，而是解脱和满足。我比他们更好吗？当然不是，我或许比他们幸运。但我和他们不一样，我不了解他们，没法和他们一起生活，无法将他们引入我的内心世界——同样，也无法书写他们。我的尽孝无非就是一系列仪式，让我不至于被谴责，但我同时什么也没付出。</p>
+</blockquote>
+<p><em>2023.12.09 16:41:15</em></p>
+<hr>
+<blockquote>
+<p>艾琳，你想要什么？如果你真的想我们在一起，我随时都可以和卡罗琳分手。我愿意，非常愿意。但如果你不想那样，如果你只想和我随便搞搞，找点乐子，那，你懂的。我没法因为你乐意这样就这么打一辈子光棍。到时候我不得不离开你。你明白我意思吗？我只是想弄清楚你想要什么。</p>
+</blockquote>
+<p><em>2023.12.10 16:50:46</em></p>
+<hr>
+<blockquote>
+<p>车很丑，楼很丑，大规模生产的一次性消费品简直丑得难以言表。我们呼吸的空气有毒，我们喝的饮料里都是塑料微粒，我们的食物被致癌的聚四氟乙烯化学成分污染。我们的生活质量在下降，与此同时，我们的审美水平也在下降。当代小说（除了少数例外）已经无关紧要，主流电影就是汽车公司和美国国防部赞助的合家欢噩梦色情片。视觉艺术基本成为面向寡头富豪的期货市场。</p>
+</blockquote>
+<p><em>2023.12.10 22:49:36</em></p>
+<hr>
+<blockquote>
+<p>如今我们能做的只有尽量不让我们爱的人失望，不要使用太多塑料，而你则要努力每隔几年出一本有意思的书。目前你在这方面干得不错。顺带一问，你开始写新书了吗？</p>
+</blockquote>
+<p><em>2023.12.10 22:50:23</em></p>
+<hr>
+<blockquote>
+<p>某种意义上来说，我们明知无法得到回馈，仍然爱着虚构人物，难道不是在缩小的维度上践行耶稣所呼吁的无私的爱吗？</p>
+</blockquote>
+<p><em>2023.12.11 16:47:04</em></p>
+<hr>
+<blockquote>
+<p>艾琳说：我只是希望一切都能像从前一样。希望我们还是那么年轻，住得很近，一切都没有变。艾丽丝悲哀地微笑着。她问：要是发生了变化，我们还能继续做朋友吗？艾琳用手臂揽过艾丽丝的肩膀。她说：你如果不是我的朋友，我都不知道我是谁了。艾丽丝把脸放在艾琳的手臂上，闭上双眼。的确，她说：我也会不知道我是谁。其实有段时间我真的不知道。艾琳低头看着艾丽丝小小的披着金发的脑袋，栖在她睡袍的袖口上。她说：我也是。</p>
+</blockquote>
+<p><em>2023.12.24 22:21:47</em></p>
+<hr>
+<blockquote>
+<p>我的意思是，我无法想象我们在一起能幸福。我以为它会和我生命中其他一切人事一样艰难而可悲，因为我是一个艰难而可悲的人。但哪怕我曾经真的如此，我现在也不是了。人生比我想的要容易改变。我的意思是，人生可以在痛苦很久之后变得快乐。</p>
+</blockquote>
+<p><em>2023.12.25 00:13:17</em></p>
+<hr>
+<!-- flag of hidden posts -->]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>标注</tag>
+        <tag>读书笔记</tag>
+        <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>404 Not Found</title>
     <url>/404.html</url>
     <content><![CDATA[<hr>
@@ -20236,6 +20167,66 @@
     <url>/links/index.html</url>
     <content><![CDATA[<h2 id="吉他和弦图生成"><a href="#吉他和弦图生成" class="headerlink" title="吉他和弦图生成]"></a>吉他和弦图生成]</h2><p><a href="/guitar">演示</a><br><a href="https://github.com/wangandi520/guitar-chord-search-and-generate">Github</a></p>
 <h2 id="单页面股票行情查询"><a href="#单页面股票行情查询" class="headerlink" title="单页面股票行情查询"></a>单页面股票行情查询</h2><p><a href="/stock">演示</a><br><a href="https://github.com/wangandi520/allinonestock">Github</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>文石Boox,Kindle,静读天下专业版,微信读书,KOReader的标注转换为Markdown格式</title>
+    <url>/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F.html</url>
+    <content><![CDATA[<hr>
+<h2 id="博客原文"><a href="#博客原文" class="headerlink" title="博客原文"></a>博客原文</h2><p><a href="https://andi.wang/2021/03/15/%E6%96%87%E7%9F%B3Boox,Kindle,%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88,%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6,KOReader%E7%9A%84%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F">静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式</a></p>
+<p><a href="https://jq.qq.com/?_wv=1027&k=AqqQIfm7">电子书漫画制作闲聊群1321993</a></p>
+<h2 id="静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式"><a href="#静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式" class="headerlink" title="静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式"></a>静读天下MoonReaderPro，Kindle，KOReader，微信读书Weread标注转换为Markdown格式</h2><p><strong>基本用法(win10)</strong></p>
+<p>安装python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>，复制你的标注到文件夹，运行对应的py文件或者拖拽标注文件的py上</p>
+<span id="more"></span>
+
+<p><strong>静读天下专业版</strong></p>
+<p>书签导出时选导出到文件(.mrexpt):MoonReaderProToMrexpt.py</p>
+<p>静读天下专业版中，书签，导出到文件，复制.mrexpt文件，拖拽文件夹或.mrexpt到MoonReaderProToMrexpt.py</p>
+<p>新版支持拖拽，支持标注添加的评论</p>
+<p>通样的方法拖拽到MoonReaderProToMrexptForHexo.py，生成的文件可以直接在Hexo博客里使用，可以设置按照标注添加的时间顺序，还是按住标注所在书中的先后顺序，默认后者</p>
+<p>书签导出时选分享高亮与备注(TXT), 后选total commander，保存成txt文件:MoonReaderProToTXT.py, MoonReaderPro7.0ToTXT.py</p>
+<p>含章节信息，使用方法相同</p>
+<p><strong>Kindle</strong></p>
+<p>自动检测到My Clippings.txt</p>
+<p><em>如果你想保留原来的标注顺序，KindleSorted.py 改成 Kindle.py</em></p>
+<p>标注文件测试成功在2020.03.13(My Clippings.txt 文件在 2018.10.14 生成)</p>
+<p>复制My Clippings.txt，运行KindleSorted.py</p>
+<p><strong>微信读书</strong></p>
+<p>我，笔记，书名，右上角，复制到剪贴板，复制到.txt文件中后运行WereadClippingsToMarkdown.py</p>
+<p><strong>KOReader</strong></p>
+<p>菜单，印象笔记，选中导出到本地json文件，点到处所有笔记，复制KOReaderClipping.json，拖拽json或文件夹到KOReaderJsonALL.py。如果想每本书一个文件，请运行KOReaderJsonALLtoEachBook.py</p>
+<p>新版支持拖拽</p>
+<p><strong>文石设备</strong></p>
+<p><strong>文石设备的脚本可能失效，设备已经二手出了，后续更新未知</strong></p>
+<p>如果没有参数，就转换当前文件夹下的所有.txt文件为.md，不删除源文件。</p>
+<p>如果有参数，就只转换那个文件</p>
+<p>只支持本地到处的标注，导出到印象笔记、onenote的暂不支持</p>
+<p>标注文件格式，在2020.03.13测试成功</p>
+<hr>
+<h2 id="Kindle-Moon-Reader-pro-KOReader-Weread-Clippings-To-Markdown"><a href="#Kindle-Moon-Reader-pro-KOReader-Weread-Clippings-To-Markdown" class="headerlink" title="Kindle,Moon Reader pro,KOReader,Weread Clippings To Markdown"></a>Kindle,Moon Reader pro,KOReader,Weread Clippings To Markdown</h2><p><em><a href="https://andi.wang/">https://andi.wang/</a></em></p>
+<p><strong>Basic usage(win10)</strong></p>
+<p>install python:<a href="https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe">https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe</a>,copy your clipping file to folder,run .py or drag your file onto .py</p>
+<p><strong>Moon Reader pro</strong><br>in bookmark, chose output to file(.mrexpt):MoonReaderProToMrexpt.py</p>
+<p>In moon reader pro,bookmark, output to file, copy .mrexpt, drag .mrexpt or folder onto MoonReaderProToMrexpt.py</p>
+<p>For Hexo blog, use MoonReaderProToMrexptForHexo.py</p>
+<p>in bookmark, chose share clipping(TXT):MoonReaderProToTXT.py</p>
+<p>copy contents to TXT file, same</p>
+<p><strong>Kindle</strong></p>
+<p>Auto detect kindle My Clippings.txt</p>
+<p>if you dont’s want the clippings sorted as book. Change KindleSorted.py to Kindle.py</p>
+<p>origin clippings file tested in 2020.03.13(My Clippings.txt created in 2018.10.14)</p>
+<p>copy My Clippings.txt,run KindleSorted.py</p>
+<p><strong>weread</strong></p>
+<p>my,note,book,top right corner,copy to clipboard,copy contents to .txt and run WereadClippingsToMarkdown.py</p>
+<p><strong>KOReader</strong></p>
+<p>menu,Evernote,Export to local json files,Export all notes in your library，copy KOReaderClipping.json，drag .json or folder to KOReaderJsonALL.py. If you want each book a .md file,please run KOReaderJsonALLtoEachBook.py</p>
+<p><strong>Boox eink reader</strong></p>
+<p><strong>boox script maybe not work, device is sold, update not sure</strong></p>
+<p>if with no arguments, it convert all .txt file in the folder(include subs)，origin .txt not deleted</p>
+<p>if with arguments, it only convert the file to .md</p>
+<p>origin clippings file tested succeed in 2020.03.13</p>
+<p>BooxLocalInternational.py for <a href="https://github.com/wangandi520/ClippingsToMarkdown/issues/1">https://github.com/wangandi520/ClippingsToMarkdown/issues/1</a></p>
+<p>BooxLocalInternational_anotherVersion.py <a href="https://github.com/wangandi520/ClippingsToMarkdown/issues/2">https://github.com/wangandi520/ClippingsToMarkdown/issues/2</a></p>
 ]]></content>
   </entry>
 </search>
