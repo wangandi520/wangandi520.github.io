@@ -18914,21 +18914,21 @@
 <p>使用git clone复制一份到自己的硬盘，不能下载zip包解压缩</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/livewing/mahjong-calc.git</span><br></pre></td></tr></table></figure>
 
-<p>rust下载速度慢，右键此电脑，属性，高级系统设置，环境变量，系统变量，新建，格式：变量名&#x3D;变量值，添加下面两个变量</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">RUSTUP_DIST_SERVER=https://mirrors.aliyun.com/rustup/rustup</span><br><span class="line">RUSTUP_UPDATE_ROOT=https://mirrors.aliyun.com/rustup</span><br></pre></td></tr></table></figure>
-
 <p>命令行运行，这两行可能不需要运行，待测试</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rustup toolchain install stable-x86_64-pc-windows-gnu</span><br><span class="line">rustup default stable-x86_64-pc-windows-gnu</span><br></pre></td></tr></table></figure>
 
 <p>生成成品，命令行运行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i</span><br><span class="line">npm run build:wasm</span><br><span class="line">npm run dev</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i</span><br><span class="line">npm run build:wasm</span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure>
 
-<p>把dist文件夹里面的文件复制到你的服务器就可以了</p>
-<p>如果没有dist文件夹，尝试输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure>
-
+<p>把dist文件夹里面的文件复制到你的服务器就可以了，下面的成品只能放在网站目录下的mahjong-calc文件夹运行</p>
 <p>成品演示：<a href="https://andi.wang/mahjong-calc/">https://andi.wang/mahjong-calc/</a><br>成品源码：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc">https://github.com/wangandi520/wangandi520.github.io/tree/master/mahjong-calc</a><br>79博客麻将教程和源码下载：<a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd&#x3D;aw4m</a></p>
-<h2 id="其他问题"><a href="#其他问题" class="headerlink" title="其他问题"></a>其他问题</h2><p>提示错误binaryen-version_117-x86_64-windows.tar.gz下载失败，就手动下载这个文件，解压的bin文件的路径添加到：右键此电脑，属性，高级系统设置，环境变量，系统变量，Path，新建</p>
+<h2 id="其他问题"><a href="#其他问题" class="headerlink" title="其他问题"></a>其他问题</h2><h3 id="提示错误binaryen-version-117-x86-64-windows-tar-gz下载失败"><a href="#提示错误binaryen-version-117-x86-64-windows-tar-gz下载失败" class="headerlink" title="提示错误binaryen-version_117-x86_64-windows.tar.gz下载失败"></a>提示错误binaryen-version_117-x86_64-windows.tar.gz下载失败</h3><p>手动下载这个文件，解压的bin文件的路径添加到：右键此电脑，属性，高级系统设置，环境变量，系统变量，Path，新建</p>
+<h3 id="rust下载速度慢"><a href="#rust下载速度慢" class="headerlink" title="rust下载速度慢"></a>rust下载速度慢</h3><p>右键此电脑，属性，高级系统设置，环境变量，系统变量，新建，格式：变量名&#x3D;变量值，添加下面两个变量</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">RUSTUP_DIST_SERVER=https://mirrors.aliyun.com/rustup/rustup</span><br><span class="line">RUSTUP_UPDATE_ROOT=https://mirrors.aliyun.com/rustup</span><br></pre></td></tr></table></figure>
+
+<h3 id="项目路径不在网站的根目录"><a href="#项目路径不在网站的根目录" class="headerlink" title="项目路径不在网站的根目录"></a>项目路径不在网站的根目录</h3><p>像是我的位置是<a href="https://andi.wang/mahjong-calc/%EF%BC%8C%E4%BF%AE%E6%94%B9vite.config.ts%EF%BC%8C%E5%9C%A8export">https://andi.wang/mahjong-calc/，修改vite.config.ts，在export</a> default {之后添加一行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">base: &quot;/mahjong-calc/&quot;,</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>程序</category>
