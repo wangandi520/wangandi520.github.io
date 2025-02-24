@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-02-11T04:01:44.691Z</updated>
+  <updated>2025-02-24T08:16:28.433Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>王小波真正大全集15册 标注</title>
+    <link href="https://andi.wang/2025/02/24/%E7%8E%8B%E5%B0%8F%E6%B3%A2%E7%9C%9F%E6%AD%A3%E5%A4%A7%E5%85%A8%E9%9B%8615%E5%86%8C%E6%A0%87%E6%B3%A8/"/>
+    <id>https://andi.wang/2025/02/24/%E7%8E%8B%E5%B0%8F%E6%B3%A2%E7%9C%9F%E6%AD%A3%E5%A4%A7%E5%85%A8%E9%9B%8615%E5%86%8C%E6%A0%87%E6%B3%A8/</id>
+    <published>2025-02-24T08:15:50.000Z</published>
+    <updated>2025-02-24T08:16:28.433Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;共86条标注&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我以写小说为主业，但有时也写些杂文，来表明自己对世事的态度。作为一个寻常人，我的看法也许不值得别人重视，但对自己却很重要。这说明我有自己的好恶、爱憎等等。假如没有这些，做人也没什么味道。这些看法常常是在伦理的论域之内，所以对它们，我倒有一种平常心，罗素先生曾说，对伦理的问题无法做科学的辩护。我同意这个观点。举例来说，我认为，思维可以给人带来很大的乐趣，我看不出有什么理由可以剥夺这种乐趣。这个看法也在伦理的论域之内。所以，我举不出科学上的理由来说明自己是对的。假如有人说不思维才快乐，我只有摇头，却无话可说。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;2021.09.04 20:34:19&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不管什么书，我都不希望它太严肃，这一本也不例外。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;2021.09.04 20:34:03&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
+    
+    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>本地运行deepseek r1模型</title>
@@ -286,7 +320,7 @@
     <link href="https://andi.wang/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/"/>
     <id>https://andi.wang/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/</id>
     <published>2024-03-03T02:11:04.000Z</published>
-    <updated>2025-02-23T01:03:57.867Z</updated>
+    <updated>2025-02-23T10:21:31.948Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;原项目地址：&lt;a href=&quot;https://github.com/livewing/mahjong-calc&quot;&gt;https://github.com/livewing/mahjong-calc&lt;/a&gt;&lt;br&gt;原作者演示地址：&lt;a href=&quot;https://mahjong-calc.livewing.net/&quot;&gt;https://mahjong-calc.livewing.net/&lt;/a&gt;&lt;br&gt;原作者使用方法（日文）：&lt;a href=&quot;https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md&quot;&gt;https://github.com/livewing/mahjong-calc/blob/main/doc/how-to-use.md&lt;/a&gt;&lt;br&gt;能计算麻将的进张面，向听数，听什么牌，和牌点数，很好的工具&lt;/p&gt;</summary>
@@ -1023,30 +1057,6 @@
     <category term="路由器" scheme="https://andi.wang/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
     <category term="padavan" scheme="https://andi.wang/tags/padavan/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建webdav服务器实现静读天下同步</title>
-    <link href="https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/"/>
-    <id>https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/</id>
-    <published>2021-03-22T02:31:55.000Z</published>
-    <updated>2024-03-14T11:41:30.206Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;下载webdav程序&quot;&gt;&lt;a href=&quot;#下载webdav程序&quot; class=&quot;headerlink&quot; title=&quot;下载webdav程序&quot;&gt;&lt;/a&gt;下载webdav程序&lt;/h2&gt;&lt;p&gt;Github地址&lt;a href=&quot;https://github.com/hacdias/webdav/releases&quot;&gt;https://github.com/hacdias/webdav/releases&lt;/a&gt;&lt;br&gt;我的是树莓派3b，所以下载linux-armv7-webdav.tar.gz。&lt;br&gt;windows的话下载windows-amd64-webdav.zip。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-    <category term="树莓派" scheme="https://andi.wang/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
-    
-    <category term="静读天下专业版" scheme="https://andi.wang/tags/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88/"/>
-    
-    <category term="webdav" scheme="https://andi.wang/tags/webdav/"/>
     
   </entry>
   
