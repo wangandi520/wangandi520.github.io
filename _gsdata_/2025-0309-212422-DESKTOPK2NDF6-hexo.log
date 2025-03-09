@@ -1,0 +1,49 @@
+2025-03-09 21:24:25: == Sync Started by User Command
+2025-03-09 21:24:25: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-09 21:24:25: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-09 21:24:25: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-09 21:24:25: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-09 21:24:25: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-09 21:24:25: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-09 21:24:25: Create Folder G:/Work/Github/wangandi520.github.io/2021/12/20
+2025-03-09 21:24:25: Create Folder G:/Work/Github/wangandi520.github.io/2021/12/20/其他读书标注
+2025-03-09 21:24:25: Copy New 'G:/Andy/hexo/public/2021/12/20/其他读书标注/index.html' -> 'G:/Work/Github/wangandi520.github.io/2021/12/20/其他读书标注/index.html' (25,898)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/archives/2021/12/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/2021/12/index.html' (14,157)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/2025/03/07/贝壳省心租个人体验/index.html' -> 'G:/Work/Github/wangandi520.github.io/2025/03/07/贝壳省心租个人体验/index.html' (23,670)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/archives/2021/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/2021/index.html' (19,814)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/archives/2021/page/2/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/2021/page/2/index.html' (18,623)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/archives/page/4/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/page/4/index.html' (19,963)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/archives/page/6/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/page/6/index.html' (20,005)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/archives/page/5/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/page/5/index.html' (19,966)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/archives/page/7/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/page/7/index.html' (16,896)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/atom.xml' -> 'G:/Work/Github/wangandi520.github.io/atom.xml' (66,673)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/categories/index.html' -> 'G:/Work/Github/wangandi520.github.io/categories/index.html' (14,569)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/categories/读书笔记/page/2/index.html' -> 'G:/Work/Github/wangandi520.github.io/categories/读书笔记/page/2/index.html' (18,227)
+2025-03-09 21:24:25: > Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (1,201,498)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/index.html' -> 'G:/Work/Github/wangandi520.github.io/index.html' (55,397)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/sitemap.xml' -> 'G:/Work/Github/wangandi520.github.io/sitemap.xml' (32,921)
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/tags/标注/index.html' -> 'G:/Work/Github/wangandi520.github.io/tags/标注/index.html' (19,786)
+2025-03-09 21:24:25: < Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (1,201,498)
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /2021/12/20/其他读书标注
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /archives/2021/12
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/tags/标注/page/2/index.html' -> 'G:/Work/Github/wangandi520.github.io/tags/标注/page/2/index.html' (16,273)
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /2025/03/07/贝壳省心租个人体验
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /archives/2021/page/2
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/tags/读书笔记/index.html' -> 'G:/Work/Github/wangandi520.github.io/tags/读书笔记/index.html' (19,949)
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /archives/page/4
+2025-03-09 21:24:25: Copy Over 'G:/Andy/hexo/public/tags/读书笔记/page/2/index.html' -> 'G:/Work/Github/wangandi520.github.io/tags/读书笔记/page/2/index.html' (15,085)
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /archives/page/6
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /archives/page/5
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /archives/page/7
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /categories/读书笔记/page/2
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /2021/12/20
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /tags/标注/page/2
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /tags/读书笔记/page/2
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /2021/12
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /archives/2021
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /tags/标注
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /tags/读书笔记
+2025-03-09 21:24:25: Close Modified Folder (mod-time, acl): /categories
+2025-03-09 21:24:25: Save State File G:/Andy/hexo/public/_gsdata_/_file_state_v4._gs
+2025-03-09 21:24:25: Save State File G:/Work/Github/wangandi520.github.io/_gsdata_/_file_state_v4._gs
+2025-03-09 21:24:26: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, OK: 715, Errors: 0
