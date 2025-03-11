@@ -20783,11 +20783,15 @@
   <entry>
     <title>potplayer+whisper+ollama自动生成字幕并翻译</title>
     <url>/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/</url>
-    <content><![CDATA[<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译。字幕显示双语。</p>
-<h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>有时翻译出的字幕会解释很多，待解决</p>
+    <content><![CDATA[<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。</p>
+<h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>暂无</p>
 <p>更新日期2025.03.11</p>
 <span id="more"></span>
 
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>命令行运行，或者新建个ollama.bat里面填写运行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\你的用户名\AppData\Local\Programs\Ollama\ollama.exe run qwen2.5:0.5b</span><br></pre></td></tr></table></figure>
+
+<p>打开potplayer播放后自动生成原文字幕和翻译字幕</p>
 <h2 id="下载potplayer"><a href="#下载potplayer" class="headerlink" title="下载potplayer"></a>下载potplayer</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://potplayer.daum.net/</span><br></pre></td></tr></table></figure>
 
 <p>不要去别的网站下载，有风险。</p>
@@ -20813,6 +20817,9 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">string selected_model = &quot;qwen2.5:0.5b&quot;; // 默认使用第一个模型</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">selected_model = &quot;qwen2.5:0.5b&quot;; // 使用默认模型</span><br></pre></td></tr></table></figure>
+
+<p>修改136，测试可以只翻译的结果，不显示每句的详细解释</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">prompt += &quot;3. 只要给出译文，不要给出详细的解释\n\n&quot;;</span><br></pre></td></tr></table></figure>
 
 <h2 id="potplayer设置"><a href="#potplayer设置" class="headerlink" title="potplayer设置"></a>potplayer设置</h2><p>potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">转换引擎：Faster-Whisper-XXL</span><br><span class="line">型号：small</span><br><span class="line">尽可能将字幕保存在视频同目录中：勾选</span><br><span class="line">自动生成：选择自己需要的情况</span><br></pre></td></tr></table></figure>

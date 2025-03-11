@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-03-11T07:52:26.746Z</updated>
+  <updated>2025-03-11T08:32:10.682Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://andi.wang/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/"/>
     <id>https://andi.wang/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/</id>
     <published>2025-03-11T06:45:58.000Z</published>
-    <updated>2025-03-11T07:52:26.746Z</updated>
+    <updated>2025-03-11T08:32:10.682Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;打开视频后自动生成对应语言的字幕，并翻译。字幕显示双语。&lt;/p&gt;
-&lt;h2 id=&quot;存在的问题&quot;&gt;&lt;a href=&quot;#存在的问题&quot; class=&quot;headerlink&quot; title=&quot;存在的问题&quot;&gt;&lt;/a&gt;存在的问题&lt;/h2&gt;&lt;p&gt;有时翻译出的字幕会解释很多，待解决&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。&lt;/p&gt;
+&lt;h2 id=&quot;存在的问题&quot;&gt;&lt;a href=&quot;#存在的问题&quot; class=&quot;headerlink&quot; title=&quot;存在的问题&quot;&gt;&lt;/a&gt;存在的问题&lt;/h2&gt;&lt;p&gt;暂无&lt;/p&gt;
 &lt;p&gt;更新日期2025.03.11&lt;/p&gt;</summary>
     
     

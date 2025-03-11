@@ -17,15 +17,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="完成的功能打开视频后自动生成对应语言的字幕，并翻译。字幕显示双语。 存在的问题有时翻译出的字幕会解释很多，待解决 更新日期2025.03.11">
+    <meta name="description" content="完成的功能打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。 存在的问题暂无 更新日期2025.03.11">
 <meta property="og:type" content="article">
 <meta property="og:title" content="potplayer+whisper+ollama自动生成字幕并翻译">
 <meta property="og:url" content="https://andi.wang/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/index.html">
 <meta property="og:site_name" content="Andy&#39;s word">
-<meta property="og:description" content="完成的功能打开视频后自动生成对应语言的字幕，并翻译。字幕显示双语。 存在的问题有时翻译出的字幕会解释很多，待解决 更新日期2025.03.11">
+<meta property="og:description" content="完成的功能打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。 存在的问题暂无 更新日期2025.03.11">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-03-11T06:45:58.000Z">
-<meta property="article:modified_time" content="2025-03-11T07:52:26.746Z">
+<meta property="article:modified_time" content="2025-03-11T08:32:10.682Z">
 <meta property="article:author" content="Andy">
 <meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
@@ -143,7 +143,7 @@
     <a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
       src="/images/avatar.png"></a>
 </div>
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8C%E6%88%90%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="nav-number">1.</span> <span class="nav-text">完成的功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">存在的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDpotplayer"><span class="nav-number">3.</span> <span class="nav-text">下载potplayer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDFaster-Whisper-XXL"><span class="nav-number">4.</span> <span class="nav-text">下载Faster-Whisper-XXL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDfaster-whisper-small%E6%A8%A1%E5%9E%8B"><span class="nav-number">5.</span> <span class="nav-text">下载faster-whisper-small模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDollama%E5%92%8Cqwen%E6%A8%A1%E5%9E%8B"><span class="nav-number">6.</span> <span class="nav-text">下载ollama和qwen模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDpotplayer%E7%9A%84%E6%8F%92%E4%BB%B6"><span class="nav-number">7.</span> <span class="nav-text">下载potplayer的插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#potplayer%E8%AE%BE%E7%BD%AE"><span class="nav-number">8.</span> <span class="nav-text">potplayer设置</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8C%E6%88%90%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="nav-number">1.</span> <span class="nav-text">完成的功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">存在的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">使用方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDpotplayer"><span class="nav-number">4.</span> <span class="nav-text">下载potplayer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDFaster-Whisper-XXL"><span class="nav-number">5.</span> <span class="nav-text">下载Faster-Whisper-XXL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDfaster-whisper-small%E6%A8%A1%E5%9E%8B"><span class="nav-number">6.</span> <span class="nav-text">下载faster-whisper-small模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDollama%E5%92%8Cqwen%E6%A8%A1%E5%9E%8B"><span class="nav-number">7.</span> <span class="nav-text">下载ollama和qwen模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDpotplayer%E7%9A%84%E6%8F%92%E4%BB%B6"><span class="nav-number">8.</span> <span class="nav-text">下载potplayer的插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#potplayer%E8%AE%BE%E7%BD%AE"><span class="nav-number">9.</span> <span class="nav-text">potplayer设置</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -263,7 +263,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2025-03-11 14:45:58 / 修改时间：15:52:26" itemprop="dateCreated datePublished" datetime="2025-03-11T14:45:58+08:00">2025-03-11</time>
+      <time title="创建时间：2025-03-11 14:45:58 / 修改时间：16:32:10" itemprop="dateCreated datePublished" datetime="2025-03-11T14:45:58+08:00">2025-03-11</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -289,7 +289,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1446</span>
+      <span>1636</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -306,11 +306,15 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译。字幕显示双语。</p>
-<h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>有时翻译出的字幕会解释很多，待解决</p>
+    <div class="post-body" itemprop="articleBody"><h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。</p>
+<h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>暂无</p>
 <p>更新日期2025.03.11</p>
 <span id="more"></span>
 
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>命令行运行，或者新建个ollama.bat里面填写运行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\你的用户名\AppData\Local\Programs\Ollama\ollama.exe run qwen2.5:0.5b</span><br></pre></td></tr></table></figure>
+
+<p>打开potplayer播放后自动生成原文字幕和翻译字幕</p>
 <h2 id="下载potplayer"><a href="#下载potplayer" class="headerlink" title="下载potplayer"></a>下载potplayer</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://potplayer.daum.net/</span><br></pre></td></tr></table></figure>
 
 <p>不要去别的网站下载，有风险。</p>
@@ -336,6 +340,9 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string selected_model = &quot;qwen2.5:0.5b&quot;; // 默认使用第一个模型</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">selected_model = &quot;qwen2.5:0.5b&quot;; // 使用默认模型</span><br></pre></td></tr></table></figure>
+
+<p>修改136，测试可以只翻译的结果，不显示每句的详细解释</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">prompt += &quot;3. 只要给出译文，不要给出详细的解释\n\n&quot;;</span><br></pre></td></tr></table></figure>
 
 <h2 id="potplayer设置"><a href="#potplayer设置" class="headerlink" title="potplayer设置"></a>potplayer设置</h2><p>potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">转换引擎：Faster-Whisper-XXL</span><br><span class="line">型号：small</span><br><span class="line">尽可能将字幕保存在视频同目录中：勾选</span><br><span class="line">自动生成：选择自己需要的情况</span><br></pre></td></tr></table></figure>
