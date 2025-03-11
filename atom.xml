@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-03-10T09:44:13.308Z</updated>
+  <updated>2025-03-11T07:52:26.746Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>potplayer+whisper+ollama自动生成字幕并翻译</title>
+    <link href="https://andi.wang/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/"/>
+    <id>https://andi.wang/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/</id>
+    <published>2025-03-11T06:45:58.000Z</published>
+    <updated>2025-03-11T07:52:26.746Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;打开视频后自动生成对应语言的字幕，并翻译。字幕显示双语。&lt;/p&gt;
+&lt;h2 id=&quot;存在的问题&quot;&gt;&lt;a href=&quot;#存在的问题&quot; class=&quot;headerlink&quot; title=&quot;存在的问题&quot;&gt;&lt;/a&gt;存在的问题&lt;/h2&gt;&lt;p&gt;有时翻译出的字幕会解释很多，待解决&lt;/p&gt;
+&lt;p&gt;更新日期2025.03.11&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="python" scheme="https://andi.wang/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>贝壳省心租个人体验</title>
@@ -1024,39 +1045,6 @@
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     <category term="钱穆" scheme="https://andi.wang/tags/%E9%92%B1%E7%A9%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一只特立独行的猪 标注</title>
-    <link href="https://andi.wang/2021/09/25/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA%E6%A0%87%E6%B3%A8/"/>
-    <id>https://andi.wang/2021/09/25/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA%E6%A0%87%E6%B3%A8/</id>
-    <published>2021-09-25T14:47:10.000Z</published>
-    <updated>2025-02-23T03:37:57.827Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;王小波&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;(高亮: 57; 标注: 0)&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;自序&quot;&gt;&lt;a href=&quot;#自序&quot; class=&quot;headerlink&quot; title=&quot;自序&quot;&gt;&lt;/a&gt;自序&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;我以写小说为主业，但有时也写些杂文，来表明自己对世事的态度。作为一个寻常人，我的看法也许不值得别人重视，但对自己却很重要。这说明我有自己的好恶、爱憎等等。假如没有这些，做人也没什么味道。这些看法常常是在伦理的论域之内，所以对它们，我倒有一种平常心，罗素先生曾说，对伦理的问题无法做科学的辩护。我同意这个观点。举例来说，我认为，思维可以给人带来很大的乐趣，我看不出有什么理由可以剥夺这种乐趣。这个看法也在伦理的论域之内。所以，我举不出科学上的理由来说明自己是对的。假如有人说不思维才快乐，我只有摇头，却无话可说。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不管什么书，我都不希望它太严肃，这一本也不例外。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;</summary>
-    
-    
-    
-    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
-    
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
     
   </entry>
   

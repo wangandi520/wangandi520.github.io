@@ -20781,6 +20781,58 @@
       </tags>
   </entry>
   <entry>
+    <title>potplayer+whisper+ollama自动生成字幕并翻译</title>
+    <url>/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/</url>
+    <content><![CDATA[<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译。字幕显示双语。</p>
+<h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>有时翻译出的字幕会解释很多，待解决</p>
+<p>更新日期2025.03.11</p>
+<span id="more"></span>
+
+<h2 id="下载potplayer"><a href="#下载potplayer" class="headerlink" title="下载potplayer"></a>下载potplayer</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://potplayer.daum.net/</span><br></pre></td></tr></table></figure>
+
+<p>不要去别的网站下载，有风险。</p>
+<h2 id="下载Faster-Whisper-XXL"><a href="#下载Faster-Whisper-XXL" class="headerlink" title="下载Faster-Whisper-XXL"></a>下载Faster-Whisper-XXL</h2><p><a href="https://github.com/Purfview/whisper-standalone-win/releases/tag/Faster-Whisper-XXL">https://github.com/Purfview/whisper-standalone-win/releases/tag/Faster-Whisper-XXL</a></p>
+<p>文件选择Faster-Whisper-XXL_r245.2_windows.7z，或更新的版本。</p>
+<p>下载好后，在potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕，点击转换引擎，我的是在。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\DAUM\PotPlayer\Module\Whisper</span><br></pre></td></tr></table></figure>
+
+<p>解压缩Faster-Whisper-XXL_r245.2_windows.7z的Faster-Whisper-XXL文件夹到这里。</p>
+<h2 id="下载faster-whisper-small模型"><a href="#下载faster-whisper-small模型" class="headerlink" title="下载faster-whisper-small模型"></a>下载faster-whisper-small模型</h2><p><a href="https://www.modelscope.cn/models/angelala00/faster-whisper-small/files">https://www.modelscope.cn/models/angelala00/faster-whisper-small/files</a></p>
+<p>下载好后，在potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕，点击型号，我的是在</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\30204\AppData\Roaming\PotPlayerMini64\Model</span><br></pre></td></tr></table></figure>
+
+<p>新建一个faster-whisper-small文件夹，把下载的文件放进去。</p>
+<h2 id="下载ollama和qwen模型"><a href="#下载ollama和qwen模型" class="headerlink" title="下载ollama和qwen模型"></a>下载ollama和qwen模型</h2><p>可以参照之前的博客文章<a href="https://andi.wang/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/">本地运行deepseekr1模型</a></p>
+<p>可以下载最小的模型qwen2.5:0.5b </p>
+<h2 id="下载potplayer的插件"><a href="#下载potplayer的插件" class="headerlink" title="下载potplayer的插件"></a>下载potplayer的插件</h2><p><a href="https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt">https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt</a></p>
+<p>下载好后，在potplayer，鼠标右键，字幕，实时字幕翻译，实时字幕翻译设置，点击打开文件夹，我的是在</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\DAUM\PotPlayer\Extension\Subtitle\Translate</span><br></pre></td></tr></table></figure>
+
+<p>把SubtitleTranslate - ollama_general.as和SubtitleTranslate - ollama_general.ico两个文件放在这</p>
+<p>要使用别的模型的话，36行和76行可以都需要修改</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">string selected_model = &quot;qwen2.5:0.5b&quot;; // 默认使用第一个模型</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">selected_model = &quot;qwen2.5:0.5b&quot;; // 使用默认模型</span><br></pre></td></tr></table></figure>
+
+<h2 id="potplayer设置"><a href="#potplayer设置" class="headerlink" title="potplayer设置"></a>potplayer设置</h2><p>potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">转换引擎：Faster-Whisper-XXL</span><br><span class="line">型号：small</span><br><span class="line">尽可能将字幕保存在视频同目录中：勾选</span><br><span class="line">自动生成：选择自己需要的情况</span><br></pre></td></tr></table></figure>
+
+<p>potplayer，鼠标右键，字幕，实时字幕翻译，实时字幕翻译设置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用条件：总是使用</span><br><span class="line">翻译位置：上面显示翻译</span><br><span class="line">翻译引擎：Ollama translate(General)</span><br></pre></td></tr></table></figure>
+
+<p>命令提示符下运行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\30204\AppData\Local\Programs\Ollama\ollama.exe run qwen2.5:0.5b</span><br></pre></td></tr></table></figure>
+
+<p>实时字幕翻译设置，点击测试，如果显示了翻译就是成功了，以后打开视频自动生成字幕+翻译了，速度看各自显卡</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>404 Not Found</title>
     <url>/404.html</url>
     <content><![CDATA[<hr>
