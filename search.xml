@@ -20860,7 +20860,7 @@
 <h2 id="下载retroarch"><a href="#下载retroarch" class="headerlink" title="下载retroarch"></a>下载retroarch</h2><p><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch.7z">主程序下载</a></p>
 <p><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch_cores.7z">core下载</a></p>
 <p><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">或是使用我分享的网盘</a></p>
-<p>下载完成后core压缩包的dll文件要放到RetroArch-Win64\cores文件夹里。</p>
+<p>下载完成后core压缩包的dll文件要放到RetroArch-Win64\cores文件夹里，system压缩包解压到RetroArch-Win64\system文件夹内。</p>
 <p>或者自己下载需要的核心：菜单，加载核心，下载核心，要看网络状况，经常无法下载。</p>
 <h2 id="下载游戏rom"><a href="#下载游戏rom" class="headerlink" title="下载游戏rom"></a>下载游戏rom</h2><p>有很多网站，上面的网盘里也有，再推荐一个网站推荐<a href="https://9ioldgame.com/">午后少年</a>， 没各种套路直接能下载。</p>
 <h2 id="设置游戏目录"><a href="#设置游戏目录" class="headerlink" title="设置游戏目录"></a>设置游戏目录</h2><p>设置一个游戏目录：菜单，文件夹，下载，选择你的目录</p>
