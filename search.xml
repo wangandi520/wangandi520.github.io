@@ -17814,9 +17814,15 @@
 <ol start="25">
 <li>上滑多任务界面，结束某个任务后其他任务排列会错位，记得很久以前就有这问题了。</li>
 <li>桌面左滑快捷功能，4个图标的第3个会变成别的再变回来。</li>
-<li>上滑多任务界面，app界面和名字不匹配</li>
-<li>上滑多任务界面，上滑结束任务，实际上没结束</li>
-<li>桌面图标点不了，出现过2次，重启才恢复</li>
+<li>上滑多任务界面，app界面和名字不匹配。</li>
+<li>上滑多任务界面，上滑结束任务，实际上没结束。</li>
+<li>桌面图标点不了，出现过2次，重启才恢复。</li>
+</ol>
+<p>**HyperOS版本2.0.104.0</p>
+<ol start="30">
+<li>多任务界面错位，老问题。</li>
+<li>手机卡住，屏幕无法操作，老问题。</li>
+<li>1%点的时候进入超级续航模式，再插上线充电，全面屏手势自动变成了导航键。</li>
 </ol>
 ]]></content>
       <categories>
@@ -18362,13 +18368,15 @@
     <title>文石poke6黑色评测体验</title>
     <url>/2024/11/09/%E6%96%87%E7%9F%B3poke6%E9%BB%91%E8%89%B2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.11.09<br>黑色纯平版本</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.03.13</p>
+<p>黑色纯平版本</p>
 <h2 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h2><p>用过过4，5台几个文石设备了，第一次感觉到精致，磁吸保护套手感可以，没异味。<br>重量还凑合，贴了包书膜当背膜，机器145克，带磁吸套229克。<br>可以单手掌握，高度基本和小米14一样，宽度是小米14的1.5倍。<br>能插tf卡，闪迪256g的正常使用。<br>用的静读天下专业版，清晰度感觉和自带阅读器没区别，睡眠唤醒app也都在。<br>支持5Gwifi，传书快了很多，之前的设备忘了支不支持了。<br>看网上评论说白色凹屏版会更清晰，体验下来黑色版清晰度满意了（没体验过白色）。<br>开了冷光灯用手机调快门看了下，应该是没频闪。</p>
 <p>装的app：x-plore传书，resilio sync同步书，comicscreen看漫画，静读天下专业版看书webdav云同步进度</p>
 <p>使用的app和其他评测参考之前的文章<a href="https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB">https://andi.wang/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB</a></p>
 <span id="more"></span>
 
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>看漫画还是挺费眼睛，感觉最平衡的还是8寸。<br>充电慢，大概1分钟1%。<br>app启动都比较慢，1-3秒。</p>
+<h2 id="bug"><a href="#bug" class="headerlink" title="bug"></a>bug</h2><p>使用自带的可以自动熄屏的套，有几率在熄屏的时候触发屏幕点击，就是有时候唤醒后发现不是原来那一页</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果每天看书3小时以上的话，谨慎推荐，7分（7分及格）。</p>
 ]]></content>
       <categories>
@@ -18452,6 +18460,9 @@
 <p>开始下载deepseek，一共4.9GB</p>
 <p>根据内存大小和显卡型号，需要下载其他模型参考<a href="https://ollama.com/library/deepseek-r1">https://ollama.com/library/deepseek-r1</a></p>
 <p>经常前面1&#x2F;2能跑满宽带，后面只有100-500KB&#x2F;s的速度，ctrl+c中断后再运行一次命令可以满速，可以正常下载结束</p>
+<h2 id="部署huggingface-co上的大模型"><a href="#部署huggingface-co上的大模型" class="headerlink" title="部署huggingface.co上的大模型"></a>部署huggingface.co上的大模型</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ollama.exe pull hf.co/SakuraLLM/Sakura-1.5B-Qwen2.5-v1.0-GGUF </span><br></pre></td></tr></table></figure>
+
+<p>如果卡住，尝试把hf.co改成hf-mirror.com</p>
 <h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><h3 id="命令行界面"><a href="#命令行界面" class="headerlink" title="命令行界面"></a>命令行界面</h3><p>一键运行，可以新建个ollama.bat，里面填写</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\你的用户名\AppData\Local\Programs\Ollama\ollama.exe run deepseek-r1:8b</span><br></pre></td></tr></table></figure>
 
@@ -20837,6 +20848,34 @@
       </categories>
       <tags>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用RetroArch玩街机游戏</title>
+    <url>/2025/03/26/%E4%BD%BF%E7%94%A8RetroArch%E7%8E%A9%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/</url>
+    <content><![CDATA[<hr>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>电脑上，用蓝牙手柄玩各类型街机掌机游戏。</p>
+<span id="more"></span>
+
+<h2 id="下载retroarch"><a href="#下载retroarch" class="headerlink" title="下载retroarch"></a>下载retroarch</h2><p><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch.7z">主程序下载</a></p>
+<p><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch_cores.7z">core下载</a></p>
+<p><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">或是使用我分享的网盘</a></p>
+<p>下载完成后core压缩包的dll文件要放到RetroArch-Win64\cores文件夹里。</p>
+<p>或者自己下载需要的核心：菜单，加载核心，下载核心，要看网络状况，经常无法下载。</p>
+<h2 id="下载游戏rom"><a href="#下载游戏rom" class="headerlink" title="下载游戏rom"></a>下载游戏rom</h2><p>有很多网站，上面的网盘里也有，再推荐一个网站推荐<a href="https://9ioldgame.com/">午后少年</a>， 没各种套路直接能下载。</p>
+<h2 id="设置游戏目录"><a href="#设置游戏目录" class="headerlink" title="设置游戏目录"></a>设置游戏目录</h2><p>设置一个游戏目录：菜单，文件夹，下载，选择你的目录</p>
+<h2 id="开始游戏"><a href="#开始游戏" class="headerlink" title="开始游戏"></a>开始游戏</h2><p>菜单，加载游戏，下载，选择游戏，或者直接选择其他目录的游戏也可以。</p>
+<p>选择游戏后还有选择核心，需要一定程度了解游戏才行。</p>
+<p>比如我选择一个gba游戏，核心就选择nintendo - game boy advance(beetle gba)，能使用的核心不只一个。</p>
+<h2 id="部分游戏无法使用摇杆控制方向"><a href="#部分游戏无法使用摇杆控制方向" class="headerlink" title="部分游戏无法使用摇杆控制方向"></a>部分游戏无法使用摇杆控制方向</h2><p>修改设置：</p>
+<p>菜单，设置，输入，全能手柄按键绑定，端口1控制，模拟转数字类型，左摇杆</p>
+]]></content>
+      <categories>
+        <category>极客</category>
+      </categories>
+      <tags>
+        <tag>极客</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
