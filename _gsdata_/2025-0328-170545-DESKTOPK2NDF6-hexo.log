@@ -1,0 +1,39 @@
+2025-03-28 17:05:47: == Sync Started by User Command
+2025-03-28 17:05:47: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-28 17:05:47: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-28 17:05:47: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-28 17:05:47: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-28 17:05:47: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-28 17:05:47: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-28 17:05:47: Delete File G:/Work/Github/wangandi520.github.io/2025/03/26/vscode插件将当前行中的日期更新为今天的日期/index.html
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/atom.xml' -> 'G:/Work/Github/wangandi520.github.io/atom.xml' (62,942)
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/2025/03/11/potplayer+whisper+ollama自动生成字幕并翻译/index.html' -> 'G:/Work/Github/wangandi520.github.io/2025/03/11/potplayer+whisper+ollama自动生成字幕并翻译/index.html' (27,971)
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/2025/03/26/使用RetroArch玩街机游戏/index.html' -> 'G:/Work/Github/wangandi520.github.io/2025/03/26/使用RetroArch玩街机游戏/index.html' (22,452)
+2025-03-28 17:05:47: Create Folder G:/Work/Github/wangandi520.github.io/2025/03/28
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/archives/2025/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/2025/index.html' (17,482)
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/archives/2025/03/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/2025/03/index.html' (15,602)
+2025-03-28 17:05:47: Create Folder G:/Work/Github/wangandi520.github.io/2025/03/28/vscode插件将当前行中的日期更新为今天的日期
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/categories/极客/index.html' -> 'G:/Work/Github/wangandi520.github.io/categories/极客/index.html' (17,126)
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/archives/index.html' -> 'G:/Work/Github/wangandi520.github.io/archives/index.html' (19,794)
+2025-03-28 17:05:47: > Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (1,213,865)
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/index.html' -> 'G:/Work/Github/wangandi520.github.io/index.html' (54,008)
+2025-03-28 17:05:47: Copy New 'G:/Andy/hexo/public/2025/03/28/vscode插件将当前行中的日期更新为今天的日期/index.html' -> 'G:/Work/Github/wangandi520.github.io/2025/03/28/vscode插件将当前行中的日期更新为今天的日期/index.html' (21,570)
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /2025/03/26/vscode插件将当前行中的日期更新为今天的日期
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/tags/vscode/index.html' -> 'G:/Work/Github/wangandi520.github.io/tags/vscode/index.html' (13,621)
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /2025/03/11/potplayer+whisper+ollama自动生成字幕并翻译
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /2025/03/26/使用RetroArch玩街机游戏
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /archives/2025/03
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /categories/极客
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /2025/03/28/vscode插件将当前行中的日期更新为今天的日期
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /tags/vscode
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /archives/2025
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /2025/03/28
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /archives
+2025-03-28 17:05:47: Close Modified Folder (mod-time, acl): /2025/03
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/sitemap.xml' -> 'G:/Work/Github/wangandi520.github.io/sitemap.xml' (34,136)
+2025-03-28 17:05:47: < Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (1,213,865)
+2025-03-28 17:05:47: Copy Over 'G:/Andy/hexo/public/tags/极客/index.html' -> 'G:/Work/Github/wangandi520.github.io/tags/极客/index.html' (14,866)
+2025-03-28 17:05:48: Close Modified Folder (mod-time, acl): /tags/极客
+2025-03-28 17:05:48: Save State File G:/Andy/hexo/public/_gsdata_/_file_state_v4._gs
+2025-03-28 17:05:48: Save State File G:/Work/Github/wangandi520.github.io/_gsdata_/_file_state_v4._gs
+2025-03-28 17:05:48: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, OK: 16, Errors: 0

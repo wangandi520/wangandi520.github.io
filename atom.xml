@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-03-26T12:39:46.429Z</updated>
+  <updated>2025-03-28T09:05:32.818Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vscode插件将当前行中的日期更新为今天的日期</title>
+    <link href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/"/>
+    <id>https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/</id>
+    <published>2025-03-28T09:01:22.000Z</published>
+    <updated>2025-03-28T09:05:32.818Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期&lt;/p&gt;
+&lt;p&gt;下载地址&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9Fupdate-date-to-today.zip&quot;&gt;github&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
+    
+    
+    <category term="极客" scheme="https://andi.wang/tags/%E6%9E%81%E5%AE%A2/"/>
+    
+    <category term="vscode" scheme="https://andi.wang/tags/vscode/"/>
+    
+  </entry>
   
   <entry>
     <title>使用RetroArch玩街机游戏</title>
@@ -35,29 +58,6 @@
     <category term="极客" scheme="https://andi.wang/tags/%E6%9E%81%E5%AE%A2/"/>
     
     <category term="游戏" scheme="https://andi.wang/tags/%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vscode插件将当前行中的日期更新为今天的日期</title>
-    <link href="https://andi.wang/2025/03/26/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/"/>
-    <id>https://andi.wang/2025/03/26/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/</id>
-    <published>2025-03-26T10:12:11.000Z</published>
-    <updated>2025-03-28T09:01:06.855Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期&lt;/p&gt;
-&lt;p&gt;下载地址&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9Fupdate-date-to-today.zip&quot;&gt;github&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
-    
-    
-    <category term="极客" scheme="https://andi.wang/tags/%E6%9E%81%E5%AE%A2/"/>
-    
-    <category term="vscode" scheme="https://andi.wang/tags/vscode/"/>
     
   </entry>
   
