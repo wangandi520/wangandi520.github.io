@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-03-28T09:05:32.818Z</updated>
+  <updated>2025-03-28T15:39:59.784Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,12 +21,35 @@
     <link href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/"/>
     <id>https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/</id>
     <published>2025-03-28T09:01:22.000Z</published>
-    <updated>2025-03-28T09:05:32.818Z</updated>
+    <updated>2025-03-28T15:39:59.784Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
 &lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期&lt;/p&gt;
 &lt;p&gt;下载地址&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9Fupdate-date-to-today.zip&quot;&gt;github&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
+    
+    
+    <category term="极客" scheme="https://andi.wang/tags/%E6%9E%81%E5%AE%A2/"/>
+    
+    <category term="vscode" scheme="https://andi.wang/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode插件修改第二栏的数字加1</title>
+    <link href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/"/>
+    <id>https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/</id>
+    <published>2025-03-28T09:01:22.000Z</published>
+    <updated>2025-03-28T15:41:38.613Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;在vscode中，按下Ctrl+Shift+I快捷键，识别当前光标所在行中第二个和第三个竖线（&lt;code&gt;|&lt;/code&gt;）之间的数字，并将其加1。&lt;/p&gt;
+&lt;p&gt;下载地址&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01number-incrementer.zip&quot;&gt;github&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -679,7 +702,7 @@
     <link href="https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/"/>
     <id>https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</id>
     <published>2023-11-20T06:48:55.000Z</published>
-    <updated>2025-03-20T05:27:31.442Z</updated>
+    <updated>2025-03-28T09:28:06.206Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -1005,35 +1028,6 @@
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>沉默的大多数 标注</title>
-    <link href="https://andi.wang/2021/10/22/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0%E6%A0%87%E6%B3%A8/"/>
-    <id>https://andi.wang/2021/10/22/%E6%B2%89%E9%BB%98%E7%9A%84%E5%A4%A7%E5%A4%9A%E6%95%B0%E6%A0%87%E6%B3%A8/</id>
-    <published>2021-10-22T06:41:10.000Z</published>
-    <updated>2025-02-23T03:37:47.419Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;王小波&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;(高亮: 85; 标注: 0)&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;自序&quot;&gt;&lt;a href=&quot;#自序&quot; class=&quot;headerlink&quot; title=&quot;自序&quot;&gt;&lt;/a&gt;自序&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;我反对愚蠢，不是反对天生就笨的人，这种人只是极少数，而且这种人还盼着变聪明。在这个世界上，大多数愚蠢里含有假装和弄假成真的成分。但这一点并不是我的发现，是萧伯纳告诉我的。在他的《匹克梅梁》里，息金斯教授遇上了一个假痴不癫的杜特立尔先生。息教授问：你是恶棍还是傻瓜？这就是问：你假傻真傻？杜先生答：两样都有点，先生，凡人两样都得有点呀。在我身上，后者的成分多，前者的成分少。而且我讨厌装傻，渴望变聪明。所以我才会写这本书。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
-    
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="王小波" scheme="https://andi.wang/tags/%E7%8E%8B%E5%B0%8F%E6%B3%A2/"/>
     
   </entry>
   
