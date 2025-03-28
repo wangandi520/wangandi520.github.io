@@ -20879,6 +20879,33 @@
       </tags>
   </entry>
   <entry>
+    <title>vscode插件将当前行中的日期更新为今天的日期</title>
+    <url>/2025/03/26/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/</url>
+    <content><![CDATA[<hr>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期</p>
+<p>下载地址<a href="https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9Fupdate-date-to-today.zip">github</a></p>
+<span id="more"></span>
+
+<h2 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h2><p>解压缩update-date-to-today.zip</p>
+<p>文件夹右键，在终端中打开，运行命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install</span><br><span class="line">npm run compile</span><br><span class="line">vsce package</span><br></pre></td></tr></table></figure>
+
+<p>如果有错误，尝试</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g yo generator-code</span><br><span class="line">npm install -g typescript</span><br></pre></td></tr></table></figure>
+
+<p>会得到update-date-to-today-0.0.1.vsix，压缩包已包含这个文件。</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>在vscode中，点击左侧扩展按钮Ctrl+Shift+X，扩展窗口右上角三个点，从vsix安装，选择update-date-to-today-0.0.1.vsix</p>
+<p>重启vscode，把光标放到需要修改的行，按下Ctrl+Shift+D快捷键，日期就会被修改了。</p>
+]]></content>
+      <categories>
+        <category>极客</category>
+      </categories>
+      <tags>
+        <tag>极客</tag>
+        <tag>vscode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>404 Not Found</title>
     <url>/404.html</url>
     <content><![CDATA[<hr>
