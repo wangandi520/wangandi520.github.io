@@ -1,0 +1,17 @@
+2025-03-30 00:28:54: == Sync Started by User Command
+2025-03-30 00:28:54: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-30 00:28:54: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-30 00:28:54: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-03-30 00:28:54: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-30 00:28:54: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-30 00:28:54: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-03-30 00:28:54: Copy Over 'G:/Andy/hexo/public/2025/03/26/使用RetroArch玩街机游戏/index.html' -> 'G:/Work/Github/wangandi520.github.io/2025/03/26/使用RetroArch玩街机游戏/index.html' (23,854)
+2025-03-30 00:28:54: Copy Over 'G:/Andy/hexo/public/atom.xml' -> 'G:/Work/Github/wangandi520.github.io/atom.xml' (64,525)
+2025-03-30 00:28:54: > Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (1,219,805)
+2025-03-30 00:28:54: Copy Over 'G:/Andy/hexo/public/index.html' -> 'G:/Work/Github/wangandi520.github.io/index.html' (55,807)
+2025-03-30 00:28:54: Close Modified Folder (mod-time, acl): /2025/03/26/使用RetroArch玩街机游戏
+2025-03-30 00:28:54: < Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (1,219,805)
+2025-03-30 00:28:54: Copy Over 'G:/Andy/hexo/public/sitemap.xml' -> 'G:/Work/Github/wangandi520.github.io/sitemap.xml' (34,418)
+2025-03-30 00:28:54: Save State File G:/Andy/hexo/public/_gsdata_/_file_state_v4._gs
+2025-03-30 00:28:54: Save State File G:/Work/Github/wangandi520.github.io/_gsdata_/_file_state_v4._gs
+2025-03-30 00:28:54: == Sync Complete. Time: 00:00:00, Speed: 0.00/s, OK: 732, Errors: 0
