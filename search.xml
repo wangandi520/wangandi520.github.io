@@ -21048,7 +21048,7 @@
 <h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>安伯尼克rg35xxplus使用技巧，和电脑版RetroArch使用技巧，ra设置一般适用于各个平台。</p>
 <span id="more"></span>
 
-<h2 id="安伯尼克rg35xxplus"><a href="#安伯尼克rg35xxplus" class="headerlink" title="安伯尼克rg35xxplus"></a>安伯尼克rg35xxplus</h2><h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，连接成功后，tf卡2的目录在&#x2F;mnt&#x2F;sdcard<br>注意可能要保持掌机屏幕一直在亮屏状态</p>
+<h2 id="安伯尼克rg35xxplus"><a href="#安伯尼克rg35xxplus" class="headerlink" title="安伯尼克rg35xxplus"></a>安伯尼克rg35xxplus</h2><h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，高级-默认本地目录默认远程目录也可以设置好<br>连接成功后，tf卡2的目录在&#x2F;mnt&#x2F;sdcard<br>注意可能要保持掌机屏幕一直在亮屏状态</p>
 <h3 id="在线下载更新核心"><a href="#在线下载更新核心" class="headerlink" title="在线下载更新核心"></a>在线下载更新核心</h3><p>默认无法在线下载更新核心</p>
 <p>&#x2F;.config&#x2F;retroarch&#x2F;retroarch.cfg，使用上面远程传输文件的方法，下载到桌面，修改好再上传，在大约第2923行，把false改成true</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu_show_core_updater = &quot;true&quot;</span><br></pre></td></tr></table></figure>
@@ -21072,6 +21072,7 @@
 <h3 id="全屏显示并去掉遮罩（gba图标边框等）"><a href="#全屏显示并去掉遮罩（gba图标边框等）" class="headerlink" title="全屏显示并去掉遮罩（gba图标边框等）"></a>全屏显示并去掉遮罩（gba图标边框等）</h3><p>游戏中，按menu，后退，左边点击设置，界面，遮罩，两个都关<br>设置，视频，缩放，宽高比，全屏<br>菜单，快捷菜单，独立配置，保存核心独立配置<br>这个只对同一个核心的游戏有效，暂时没找到全局通用设置的办法</p>
 <h3 id="安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键"><a href="#安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键" class="headerlink" title="安伯尼克rg35xx plus的RetroArch设置更方便的快捷键"></a>安伯尼克rg35xx plus的RetroArch设置更方便的快捷键</h3><p>rg35xx plus中，系统，设置RetroArch设置，启动RetroArch，是<br>RetroArch中，设置，输入，快捷键<br>设置快捷键，按a后再按自己需要设置的键，不设置快捷键，按y，显示—就是没有的快捷键意思<br>启用快捷键：menu或—，相当于组合键，按住menu再按对应的快捷键才会生效<br>快进（保持）或快进（开关）：R2<br>慢放（保持）或慢放（开关）或回溯：L2<br>加载状态（快速读取）：L1<br>保存状态（快速存档）：R1<br>其他没用的都按y取消对应的键，避免冲突<br>设置，存档，自动增加状态存储编号，开，作用是每次快速存档，就切换到下一个存档位置，避免错误覆盖<br>增量状态存储的最大数量：10，或者按自己需要设置<br>菜单，配置文件，保存当前配置</p>
 <h3 id="RetroArch的mgba核心玩究极绿宝石一开始就卡住"><a href="#RetroArch的mgba核心玩究极绿宝石一开始就卡住" class="headerlink" title="RetroArch的mgba核心玩究极绿宝石一开始就卡住"></a>RetroArch的mgba核心玩究极绿宝石一开始就卡住</h3><p>rg35xxplus上，开始游戏前按y选择gpsp核心，就可以玩了。<br>fix header只对电脑版的RetroArch有效，rg35xx plus上无效，也不确定对正常游戏有没有坏处<br>下载工具gba tool advance 0.7a，打开究极绿宝石 V-5.gba<br>header viewer选项卡中，点击fix header，新保存一个xxx.gba的文件就可以玩了</p>
+<h3 id="同一个游戏但是不同核心间的存档通用"><a href="#同一个游戏但是不同核心间的存档通用" class="headerlink" title="同一个游戏但是不同核心间的存档通用"></a>同一个游戏但是不同核心间的存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件，要换成mgba核心，就把这个文件复制到mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
 ]]></content>
       <categories>
         <category>极客</category>
