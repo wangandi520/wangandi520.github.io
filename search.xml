@@ -21045,19 +21045,50 @@
     <title>安伯尼克rg35xxplus个人体验</title>
     <url>/2025/03/26/%E5%AE%89%E4%BC%AF%E5%B0%BC%E5%85%8Brg35xxplus%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>安伯尼克rg35xxplus使用技巧，和电脑版RetroArch使用技巧，ra设置一般适用于各个平台。</p>
+<p>更新日期：2025.4.8</p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价一下安伯尼克rg35xxplus，rg34xx，miyoo mini v4这三台掌机。</p>
+<h3 id="安伯尼克rg35xxplus简评"><a href="#安伯尼克rg35xxplus简评" class="headerlink" title="安伯尼克rg35xxplus简评"></a>安伯尼克rg35xxplus简评</h3><h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ol>
+<li>手感舒服，勉强能单手操作，menu键容易按，位置也方便。</li>
+<li>双tf卡，掌机多的，卡2换个机器就能继续玩，方便。</li>
+</ol>
+<h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><ol>
+<li>关机再开机，系统时间总会差几分钟，没关机待机的时候也会差，测试大概每2小时会快1分钟。rg34xx没这个问题。</li>
+<li>背面4个按键松松垮垮的。</li>
+<li>每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。</li>
+<li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
+<li>快充的typec线没法充电，只能用低端的线。</li>
+</ol>
+<h3 id="安伯尼克rg34xx简评"><a href="#安伯尼克rg34xx简评" class="headerlink" title="安伯尼克rg34xx简评"></a>安伯尼克rg34xx简评</h3><h4 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h4><ol>
+<li>外形比较像gba吸引眼球。</li>
+<li>双tf卡。</li>
+</ol>
+<h4 id="缺点-1"><a href="#缺点-1" class="headerlink" title="缺点"></a>缺点</h4><ol>
+<li>对gba原装没有执念，感觉方向键太小了</li>
+<li>menu键在顶端按的姿势不太舒服，设置在掌机正面会方便很多。</li>
+<li>买的冰川蓝，玩的时间长有点汗的时候，感觉外壳黏糊糊的。</li>
+<li>每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。</li>
+<li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
+<li>快充的typec线没法充电，只能用低端的线。</li>
+</ol>
+<h3 id="miyoo-mini-v4存在的问题"><a href="#miyoo-mini-v4存在的问题" class="headerlink" title="miyoo mini v4存在的问题"></a>miyoo mini v4存在的问题</h3><h4 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h4><ol>
+<li>手感好，很小，放裤兜随时能拿出来玩。</li>
+</ol>
+<h4 id="缺点-2"><a href="#缺点-2" class="headerlink" title="缺点"></a>缺点</h4><ol>
+<li>电源灯一直亮，熄屏也亮，不太舒服。</li>
+<li>按键松松垮垮的，可能也是故意设置的手感。</li>
+<li>买的复古灰，外壳有点类肤质的感觉，又不太像，有点别扭。</li>
+<li>其他小问题：没双tf卡。没wifi传游戏麻烦，快充的typec线没法充电，只能用低端的线。</li>
+<li>官方系统最新的好像是20240806，8个月没更新固件了，RetroArch还是1.10版，最新的1.20版。</li>
+</ol>
 <span id="more"></span>
 
+<hr>
 <h2 id="安伯尼克rg35xxplus"><a href="#安伯尼克rg35xxplus" class="headerlink" title="安伯尼克rg35xxplus"></a>安伯尼克rg35xxplus</h2><h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，高级-默认本地目录默认远程目录也可以设置好<br>连接成功后，tf卡2的目录在&#x2F;mnt&#x2F;sdcard<br>注意可能要保持掌机屏幕一直在亮屏状态</p>
 <h3 id="在线下载更新核心"><a href="#在线下载更新核心" class="headerlink" title="在线下载更新核心"></a>在线下载更新核心</h3><p>默认无法在线下载更新核心</p>
 <p>&#x2F;.config&#x2F;retroarch&#x2F;retroarch.cfg，使用上面远程传输文件的方法，下载到桌面，修改好再上传，在大约第2923行，把false改成true</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu_show_core_updater = &quot;true&quot;</span><br></pre></td></tr></table></figure>
 
 <p>之后在RetroArch菜单，加载核心，最下面下载核心</p>
-<h3 id="rg35xxplus存在的问题"><a href="#rg35xxplus存在的问题" class="headerlink" title="rg35xxplus存在的问题"></a>rg35xxplus存在的问题</h3><ol>
-<li>关机再开机，系统时间总会差几分钟，没关机待机的时候也会差，测试大概每2小时会快1分钟。rg34xx没这个问题。</li>
-<li>玩游戏的时候电池盖轻微松动，不是很舒服</li>
-</ol>
 <hr>
 <h2 id="RetroArch"><a href="#RetroArch" class="headerlink" title="RetroArch"></a>RetroArch</h2><p>设置在电脑端和rg35xxplus一般通用。</p>
 <h3 id="电脑端下载retroarch"><a href="#电脑端下载retroarch" class="headerlink" title="电脑端下载retroarch"></a>电脑端下载retroarch</h3><p><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch.7z">主程序下载</a><br><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch_cores.7z">core下载</a><br><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">或是使用我分享的网盘</a><br>下载完成后core压缩包的dll文件要放到RetroArch-Win64\cores文件夹里，system压缩包解压到RetroArch-Win64\system文件夹内。<br>或者自己下载需要的核心：菜单，加载核心，下载核心，要看网络状况，经常无法下载。</p>
@@ -21070,7 +21101,8 @@
 <h3 id="关闭点阵风格着色器（类似gba效果）"><a href="#关闭点阵风格着色器（类似gba效果）" class="headerlink" title="关闭点阵风格着色器（类似gba效果）"></a>关闭点阵风格着色器（类似gba效果）</h3><p>游戏机按菜单，着色器，视频着色器，关<br>菜单，独立配置，保存核心独立配置</p>
 <h3 id="部分游戏无法使用摇杆控制方向"><a href="#部分游戏无法使用摇杆控制方向" class="headerlink" title="部分游戏无法使用摇杆控制方向"></a>部分游戏无法使用摇杆控制方向</h3><p>修改设置：<br>菜单，设置，输入，全能手柄按键绑定，端口1控制，模拟转数字类型，左摇杆</p>
 <h3 id="全屏显示并去掉遮罩（gba图标边框等）"><a href="#全屏显示并去掉遮罩（gba图标边框等）" class="headerlink" title="全屏显示并去掉遮罩（gba图标边框等）"></a>全屏显示并去掉遮罩（gba图标边框等）</h3><p>游戏中，按menu，后退，左边点击设置，界面，遮罩，两个都关<br>设置，视频，缩放，宽高比，全屏<br>菜单，快捷菜单，独立配置，保存核心独立配置<br>这个只对同一个核心的游戏有效，暂时没找到全局通用设置的办法</p>
-<h3 id="安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键"><a href="#安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键" class="headerlink" title="安伯尼克rg35xx plus的RetroArch设置更方便的快捷键"></a>安伯尼克rg35xx plus的RetroArch设置更方便的快捷键</h3><p>rg35xx plus中，系统，设置RetroArch设置，启动RetroArch，是<br>RetroArch中，设置，输入，快捷键<br>设置快捷键，按a后再按自己需要设置的键，不设置快捷键，按y，显示—就是没有的快捷键意思<br>启用快捷键：menu或—，相当于组合键，按住menu再按对应的快捷键才会生效<br>快进（保持）或快进（开关）：R2<br>慢放（保持）或慢放（开关）或回溯：L2<br>加载状态（快速读取）：L1<br>保存状态（快速存档）：R1<br>其他没用的都按y取消对应的键，避免冲突<br>设置，存档，自动增加状态存储编号，开，作用是每次快速存档，就切换到下一个存档位置，避免错误覆盖<br>增量状态存储的最大数量：10，或者按自己需要设置<br>菜单，配置文件，保存当前配置</p>
+<h3 id="安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键"><a href="#安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键" class="headerlink" title="安伯尼克rg35xx plus的RetroArch设置更方便的快捷键"></a>安伯尼克rg35xx plus的RetroArch设置更方便的快捷键</h3><p>rg35xx plus中，系统，设置RetroArch设置，启动RetroArch，是<br>RetroArch中，设置，输入，快捷键<br>设置快捷键，按a后再按自己需要设置的键，不设置快捷键，按y，显示—就是没有的快捷键意思<br>启用快捷键：menu或—，相当于组合键，按住menu再按对应的快捷键才会生效<br>快进（保持）或快进（开关）：R2<br>慢放（保持）或慢放（开关）或回溯：L2<br>加载状态（快速读取）：L1<br>保存状态（快速存档）：R1<br>其他没用的都按y取消对应的键，避免冲突<br>菜单，配置文件，保存当前配置</p>
+<h3 id="存档设置"><a href="#存档设置" class="headerlink" title="存档设置"></a>存档设置</h3><p>菜单，设置，存档<br>自动增加状态存储编号，开，作用是每次快速存档，就切换到下一个存档位置，避免错误覆盖<br>增量状态存储的最大数量：10，或者按自己需要设置，扩展名是.state1-10<br>自动保存状态：开，扩展名是.state.auto<br>自动加载存档：开，作用是下次打开游戏，直接载入上次退出游戏的状态（不是自动手动保存的状态）<br>菜单，配置文件，保存当前配置</p>
 <h3 id="RetroArch的mgba核心玩究极绿宝石一开始就卡住"><a href="#RetroArch的mgba核心玩究极绿宝石一开始就卡住" class="headerlink" title="RetroArch的mgba核心玩究极绿宝石一开始就卡住"></a>RetroArch的mgba核心玩究极绿宝石一开始就卡住</h3><p>rg35xxplus上，开始游戏前按y选择gpsp核心，就可以玩了。<br>fix header只对电脑版的RetroArch有效，rg35xx plus上无效，也不确定对正常游戏有没有坏处<br>下载工具gba tool advance 0.7a，打开究极绿宝石 V-5.gba<br>header viewer选项卡中，点击fix header，新保存一个xxx.gba的文件就可以玩了</p>
 <h3 id="同一个游戏但是不同核心间的存档通用"><a href="#同一个游戏但是不同核心间的存档通用" class="headerlink" title="同一个游戏但是不同核心间的存档通用"></a>同一个游戏但是不同核心间的存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件，要换成mgba核心，就把这个文件复制到mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
 ]]></content>
