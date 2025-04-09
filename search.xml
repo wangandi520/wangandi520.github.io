@@ -19620,6 +19620,9 @@
     <title>电脑手机技巧</title>
     <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<hr>
+<h2 id="git排除文件夹和文件"><a href="#git排除文件夹和文件" class="headerlink" title="git排除文件夹和文件"></a>git排除文件夹和文件</h2><p>新建.gitignore文件，填写</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.gitignore</span><br><span class="line">/新建文件夹</span><br></pre></td></tr></table></figure>
+
 <h2 id="potplayer播放4k视频卡"><a href="#potplayer播放4k视频卡" class="headerlink" title="potplayer播放4k视频卡"></a>potplayer播放4k视频卡</h2><p>选项，滤镜，视频解码器，内置解码器&#x2F;DXVA设置，使用视频加速(DXVA)</p>
 <span id="more"></span>
 
@@ -21057,6 +21060,7 @@
 <li>每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。</li>
 <li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
 <li>快充的typec线没法充电，只能用低端的线。</li>
+<li>wifi性能差，隔了两面墙，连上wifi几乎要20秒。</li>
 </ol>
 <h3 id="安伯尼克rg34xx简评"><a href="#安伯尼克rg34xx简评" class="headerlink" title="安伯尼克rg34xx简评"></a>安伯尼克rg34xx简评</h3><h4 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h4><ol>
 <li>外形比较像gba吸引眼球。</li>
@@ -21069,9 +21073,11 @@
 <li>每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。</li>
 <li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
 <li>快充的typec线没法充电，只能用低端的线。</li>
+<li>wifi性能差，隔了两面墙，连上wifi几乎要20秒。</li>
 </ol>
-<h3 id="miyoo-mini-v4存在的问题"><a href="#miyoo-mini-v4存在的问题" class="headerlink" title="miyoo mini v4存在的问题"></a>miyoo mini v4存在的问题</h3><h4 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h4><ol>
-<li>手感好，很小，放裤兜随时能拿出来玩。</li>
+<h3 id="miyoo-mini-v4简评"><a href="#miyoo-mini-v4简评" class="headerlink" title="miyoo mini v4简评"></a>miyoo mini v4简评</h3><h4 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h4><ol>
+<li>手感好，很小，放裤兜随时能拿出来玩，适合文字类操作比较少的游戏，像是逆转裁判。</li>
+<li>性能比安伯尼克强，进入退出游戏基本在2秒左右。</li>
 </ol>
 <h4 id="缺点-2"><a href="#缺点-2" class="headerlink" title="缺点"></a>缺点</h4><ol>
 <li>电源灯一直亮，熄屏也亮，不太舒服。</li>
@@ -21104,7 +21110,8 @@
 <h3 id="安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键"><a href="#安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键" class="headerlink" title="安伯尼克rg35xx plus的RetroArch设置更方便的快捷键"></a>安伯尼克rg35xx plus的RetroArch设置更方便的快捷键</h3><p>rg35xx plus中，系统，设置RetroArch设置，启动RetroArch，是<br>RetroArch中，设置，输入，快捷键<br>设置快捷键，按a后再按自己需要设置的键，不设置快捷键，按y，显示—就是没有的快捷键意思<br>启用快捷键：menu或—，相当于组合键，按住menu再按对应的快捷键才会生效<br>快进（保持）或快进（开关）：R2<br>慢放（保持）或慢放（开关）或回溯：L2<br>加载状态（快速读取）：L1<br>保存状态（快速存档）：R1<br>其他没用的都按y取消对应的键，避免冲突<br>菜单，配置文件，保存当前配置</p>
 <h3 id="存档设置"><a href="#存档设置" class="headerlink" title="存档设置"></a>存档设置</h3><p>菜单，设置，存档<br>自动增加状态存储编号，开，作用是每次快速存档，就切换到下一个存档位置，避免错误覆盖<br>增量状态存储的最大数量：10，或者按自己需要设置，扩展名是.state1-10<br>自动保存状态：开，扩展名是.state.auto<br>自动加载存档：开，作用是下次打开游戏，直接载入上次退出游戏的状态（不是自动手动保存的状态）<br>菜单，配置文件，保存当前配置</p>
 <h3 id="RetroArch的mgba核心玩究极绿宝石一开始就卡住"><a href="#RetroArch的mgba核心玩究极绿宝石一开始就卡住" class="headerlink" title="RetroArch的mgba核心玩究极绿宝石一开始就卡住"></a>RetroArch的mgba核心玩究极绿宝石一开始就卡住</h3><p>rg35xxplus上，开始游戏前按y选择gpsp核心，就可以玩了。<br>fix header只对电脑版的RetroArch有效，rg35xx plus上无效，也不确定对正常游戏有没有坏处<br>下载工具gba tool advance 0.7a，打开究极绿宝石 V-5.gba<br>header viewer选项卡中，点击fix header，新保存一个xxx.gba的文件就可以玩了</p>
-<h3 id="同一个游戏但是不同核心间的存档通用"><a href="#同一个游戏但是不同核心间的存档通用" class="headerlink" title="同一个游戏但是不同核心间的存档通用"></a>同一个游戏但是不同核心间的存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件，要换成mgba核心，就把这个文件复制到mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
+<h3 id="同一个游戏但是不同核心间的存档通用"><a href="#同一个游戏但是不同核心间的存档通用" class="headerlink" title="同一个游戏但是不同核心间的存档通用"></a>同一个游戏但是不同核心间的存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件<br>要换成mgba核心，就把这个文件复制到RetroArch\saves\mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
+<h3 id="绿宝石使用gba的gpsp核心，时间固定无法前进的问题"><a href="#绿宝石使用gba的gpsp核心，时间固定无法前进的问题" class="headerlink" title="绿宝石使用gba的gpsp核心，时间固定无法前进的问题"></a>绿宝石使用gba的gpsp核心，时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了</p>
 ]]></content>
       <categories>
         <category>极客</category>
