@@ -1,0 +1,22 @@
+2025-04-13 13:42:20: == Sync Started by User Command
+2025-04-13 13:42:20: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-04-13 13:42:20: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-04-13 13:42:20: ConnectCloned connected to file:///G:/Andy/hexo/public
+2025-04-13 13:42:20: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-04-13 13:42:20: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-04-13 13:42:20: ConnectCloned connected to file:///G:/Work/Github/wangandi520.github.io
+2025-04-13 13:42:20: Delete File G:/Work/Github/wangandi520.github.io/.gitignore
+2025-04-13 13:42:21: Copy Over 'G:/Andy/hexo/public/2023/06/07/店铺食品用品/index.html' -> 'G:/Work/Github/wangandi520.github.io/2023/06/07/店铺食品用品/index.html' (25,587)
+2025-04-13 13:42:21: Copy Over 'G:/Andy/hexo/public/2025/03/26/安伯尼克rg35xxplus个人体验/index.html' -> 'G:/Work/Github/wangandi520.github.io/2025/03/26/安伯尼克rg35xxplus个人体验/index.html' (41,184)
+2025-04-13 13:42:21: > Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (1,231,107)
+2025-04-13 13:42:21: Copy Over 'G:/Andy/hexo/public/atom.xml' -> 'G:/Work/Github/wangandi520.github.io/atom.xml' (70,169)
+2025-04-13 13:42:21: Copy Over 'G:/Andy/hexo/public/index.html' -> 'G:/Work/Github/wangandi520.github.io/index.html' (59,961)
+2025-04-13 13:42:21: Close Modified Folder (mod-time, acl): /2023/06/07/店铺食品用品
+2025-04-13 13:42:21: Close Modified Folder (mod-time, acl): /2025/03/26/安伯尼克rg35xxplus个人体验
+2025-04-13 13:42:21: < Copy Over 'G:/Andy/hexo/public/search.xml' -> 'G:/Work/Github/wangandi520.github.io/search.xml' (1,231,107)
+2025-04-13 13:42:21: Copy Over 'G:/Andy/hexo/public/sitemap.xml' -> 'G:/Work/Github/wangandi520.github.io/sitemap.xml' (34,942)
+2025-04-13 13:42:21: Copy Over 'G:/Andy/hexo/public/page/3/index.html' -> 'G:/Work/Github/wangandi520.github.io/page/3/index.html' (49,030)
+2025-04-13 13:42:21: Close Modified Folder (mod-time, acl): /page/3
+2025-04-13 13:42:21: Save State File G:/Andy/hexo/public/_gsdata_/_file_state_v4._gs
+2025-04-13 13:42:21: Save State File G:/Work/Github/wangandi520.github.io/_gsdata_/_file_state_v4._gs
+2025-04-13 13:42:21: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, OK: 8, Errors: 0
