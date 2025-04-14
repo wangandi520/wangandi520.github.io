@@ -73,15 +73,15 @@
   </entry>
   
   <entry>
-    <title>安伯尼克rg35xxplus个人体验</title>
-    <link href="https://andi.wang/2025/03/26/%E5%AE%89%E4%BC%AF%E5%B0%BC%E5%85%8Brg35xxplus%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
-    <id>https://andi.wang/2025/03/26/%E5%AE%89%E4%BC%AF%E5%B0%BC%E5%85%8Brg35xxplus%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
+    <title>开源掌机和RetroArch个人体验</title>
+    <link href="https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
+    <id>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <published>2025-03-26T10:12:11.000Z</published>
-    <updated>2025-04-13T13:11:35.140Z</updated>
+    <updated>2025-04-14T02:11:23.966Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;更新日期：2025.4.13&lt;/p&gt;
+&lt;p&gt;更新日期：2025.4.14&lt;/p&gt;
 &lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。&lt;br&gt;简单评价一下安伯尼克rg35xxplus，rg34xx，miyoo mini v4这三台掌机。&lt;/p&gt;
 &lt;h3 id=&quot;安伯尼克rg35xxplus简评&quot;&gt;&lt;a href=&quot;#安伯尼克rg35xxplus简评&quot; class=&quot;headerlink&quot; title=&quot;安伯尼克rg35xxplus简评&quot;&gt;&lt;/a&gt;安伯尼克rg35xxplus简评&lt;/h3&gt;&lt;h4 id=&quot;优点&quot;&gt;&lt;a href=&quot;#优点&quot; class=&quot;headerlink&quot; title=&quot;优点&quot;&gt;&lt;/a&gt;优点&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;手感舒服，勉强能单手操作，menu键容易按，位置也方便。&lt;/li&gt;
@@ -101,7 +101,7 @@
 &lt;/ol&gt;
 &lt;h4 id=&quot;缺点或bug-1&quot;&gt;&lt;a href=&quot;#缺点或bug-1&quot; class=&quot;headerlink&quot; title=&quot;缺点或bug&quot;&gt;&lt;/a&gt;缺点或bug&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;对gba原装没有执念，感觉方向键太小了&lt;/li&gt;
-&lt;li&gt;menu键在顶端按的姿势不太舒服，设置在掌机正面会方便很多。&lt;/li&gt;
+&lt;li&gt;menu键在顶端按的姿势不太舒服，设置在掌机正面会方便很多。app里有把select设置成menu的功能，勉强能用。如果把menu放在电源灯的位置就合适了。&lt;/li&gt;
 &lt;li&gt;买的冰川蓝，玩的时间长有点汗的时候，感觉外壳黏糊糊的。&lt;/li&gt;
 &lt;li&gt;每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。&lt;/li&gt;
 &lt;li&gt;玩游戏的时候电池盖轻微松动，不是很舒服。&lt;/li&gt;
@@ -138,9 +138,15 @@
     
     <category term="游戏" scheme="https://andi.wang/tags/%E6%B8%B8%E6%88%8F/"/>
     
-    <category term="掌机" scheme="https://andi.wang/tags/%E6%8E%8C%E6%9C%BA/"/>
-    
     <category term="rg35xxplus" scheme="https://andi.wang/tags/rg35xxplus/"/>
+    
+    <category term="rg34xx" scheme="https://andi.wang/tags/rg34xx/"/>
+    
+    <category term="rg35xxsp" scheme="https://andi.wang/tags/rg35xxsp/"/>
+    
+    <category term="miyoomini" scheme="https://andi.wang/tags/miyoomini/"/>
+    
+    <category term="掌机" scheme="https://andi.wang/tags/%E6%8E%8C%E6%9C%BA/"/>
     
     <category term="RetroArch" scheme="https://andi.wang/tags/RetroArch/"/>
     
@@ -248,9 +254,9 @@
     <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
     
     
-    <category term="AI" scheme="https://andi.wang/tags/AI/"/>
-    
     <category term="极客" scheme="https://andi.wang/tags/%E6%9E%81%E5%AE%A2/"/>
+    
+    <category term="AI" scheme="https://andi.wang/tags/AI/"/>
     
   </entry>
   
@@ -331,9 +337,9 @@
     
     <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
     
-    <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
-    
     <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
+    
+    <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
     
     <category term="boox" scheme="https://andi.wang/tags/boox/"/>
     
@@ -471,14 +477,15 @@
   </entry>
   
   <entry>
-    <title>neeview一键保存当前图片</title>
-    <link href="https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87/"/>
-    <id>https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87/</id>
+    <title>neeview一键保存当前图片命名为文件名加图片名</title>
+    <link href="https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/"/>
+    <id>https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/</id>
     <published>2024-03-07T07:20:21.000Z</published>
-    <updated>2024-03-14T02:36:16.527Z</updated>
+    <updated>2025-04-14T02:12:12.735Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;p&gt;更新日期：2025.4.14&lt;br&gt;neeview43.2版测试通过&lt;/p&gt;
 &lt;h2 id=&quot;neeview下载&quot;&gt;&lt;a href=&quot;#neeview下载&quot; class=&quot;headerlink&quot; title=&quot;neeview下载&quot;&gt;&lt;/a&gt;neeview下载&lt;/h2&gt;&lt;p&gt;电脑上已经安装了.NET运行库可以下载fd版本，地址：&lt;a href=&quot;https://bitbucket.org/neelabo/neeview/downloads/&quot;&gt;https://bitbucket.org/neelabo/neeview/downloads/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;neeview开启脚本功能&quot;&gt;&lt;a href=&quot;#neeview开启脚本功能&quot; class=&quot;headerlink&quot; title=&quot;neeview开启脚本功能&quot;&gt;&lt;/a&gt;neeview开启脚本功能&lt;/h2&gt;&lt;p&gt;选项，设置，指令，脚本，使用脚本（开），打开脚本文件夹&lt;/p&gt;</summary>
     
