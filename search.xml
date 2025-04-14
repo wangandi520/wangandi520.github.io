@@ -2294,7 +2294,7 @@
 <h2 id="neeview开启脚本功能"><a href="#neeview开启脚本功能" class="headerlink" title="neeview开启脚本功能"></a>neeview开启脚本功能</h2><p>选项，设置，指令，脚本，使用脚本（开），打开脚本文件夹</p>
 <span id="more"></span>
 
-<h2 id="neeview一键保存当前图片命名为文件名加图片名"><a href="#neeview一键保存当前图片命名为文件名加图片名" class="headerlink" title="neeview一键保存当前图片命名为文件名加图片名"></a>neeview一键保存当前图片命名为文件名加图片名</h2><p>在脚本文件夹新建文件：<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D.nvjs">neeview一键保存当前图片命名为文件名加图片名.nvjs</a><br>第6行修改成要保存图片的目录，斜杠要写两遍</p>
+<h2 id="neeview一键保存当前图片命名为文件名加图片名"><a href="#neeview一键保存当前图片命名为文件名加图片名" class="headerlink" title="neeview一键保存当前图片命名为文件名加图片名"></a>neeview一键保存当前图片命名为文件名加图片名</h2><p>在脚本文件夹新建文件：<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D.nvjs">neeview一键保存当前图片命名为文件名加图片名.nvjs</a><br>第15行修改成要保存图片的目录，斜杠要写两遍</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// @name neeview一键保存当前图片命名为文件名加图片名</span></span><br><span class="line"><span class="comment">// @description neeview一键保存当前图片命名为文件名加图片名</span></span><br><span class="line"><span class="comment">// @shortCutKey Ctrl+S</span></span><br><span class="line"><span class="comment">// https://github.com/wangandi520/andyspythonscript</span></span><br><span class="line"><span class="comment">// 版本1.2</span></span><br><span class="line"><span class="comment">// log()函数可以在neeview console中输出信息。在选项，打开脚本控制台</span></span><br><span class="line"><span class="comment">// 脚本用于保存漫画压缩包内的图片到某个位置，保存成功后neeview右下角会弹出提示</span></span><br><span class="line"><span class="comment">// 快捷键默认是Ctrl+S，可以自己修改，在选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名</span></span><br><span class="line"><span class="comment">// 保存图片是原压缩包内的文件，未经过其他处理</span></span><br><span class="line"><span class="comment">// 弹出的命令提示符窗口是修改文件名用的</span></span><br><span class="line"><span class="comment">// 保存图片名不是原图片名，文件名格式：zip文件名_图片相对于zip的相对路径_图片名.扩展名</span></span><br><span class="line"><span class="comment">// 例如压缩包1.zip内包含文件夹2，文件夹2内包含图片3.jpg，保存的文件名就是1_2_3.jpg</span></span><br><span class="line"><span class="comment">// 保存图片的文件夹路径：saveImagePath，注意要双斜杠，文件夹最后不加斜杠</span></span><br><span class="line"><span class="comment">// 例如var saveImagePath = &quot;D:\\漫画截图&quot;</span></span><br><span class="line"><span class="keyword">var</span> saveImagePath = <span class="string">&quot;H:\\ecomic截图&quot;</span></span><br><span class="line">param = &#123;</span><br><span class="line">    <span class="string">&quot;Mode&quot;</span>: <span class="string">&quot;Original&quot;</span>, </span><br><span class="line">    <span class="string">&quot;IsOriginalSize&quot;</span>: <span class="string">&quot;True&quot;</span>, </span><br><span class="line">    <span class="string">&quot;IsShowToast&quot;</span>: <span class="string">&quot;False&quot;</span>, </span><br><span class="line">    <span class="string">&quot;OverwriteMode&quot;</span>: <span class="string">&quot;AddNumber&quot;</span>, </span><br><span class="line">    <span class="string">&quot;FileNameMode&quot;</span>: <span class="string">&quot;BookPageNumber&quot;</span>, </span><br><span class="line">    <span class="string">&quot;ExportFolder&quot;</span>: saveImagePath</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从文件名和扩展名，获取文件名，不包括扩展名</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileNameWithoutExt</span>(<span class="params">fileName</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> lastDotIndex = fileName.<span class="title function_">lastIndexOf</span>(<span class="string">&#x27;.&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> lastDotIndex === -<span class="number">1</span> ? fileName : fileName.<span class="title function_">substring</span>(<span class="number">0</span>, lastDotIndex);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从文件名和扩展名，获取扩展名，包括点号</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileExtension</span>(<span class="params">fileName</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> lastDotIndex = fileName.<span class="title function_">lastIndexOf</span>(<span class="string">&#x27;.&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> lastDotIndex === -<span class="number">1</span> ? <span class="string">&#x27;&#x27;</span> : fileName.<span class="title function_">substring</span>(lastDotIndex);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从完整路径，获取文件名和扩展名</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileNameFromPath</span>(<span class="params">filePath</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> pathParts = filePath.<span class="title function_">split</span>(<span class="string">&#x27;\\&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> pathParts[pathParts.<span class="property">length</span> - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取图片在压缩包内的相对路径，文件名，扩展名，并使用下划线代替斜杠</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getRelativeFilePath</span>(<span class="params">zipFilePath, imageFilePath</span>) &#123;</span><br><span class="line">	<span class="keyword">if</span> (imageFilePath.<span class="title function_">startsWith</span>(zipFilePath)) &#123;</span><br><span class="line">		<span class="keyword">return</span> imageFilePath.<span class="title function_">substring</span>(zipFilePath.<span class="property">length</span>).<span class="title function_">replace</span>(<span class="regexp">/\\/g</span>, <span class="string">&#x27;_&#x27;</span>);</span><br><span class="line">        <span class="comment">//return filePath.substring(folderPath.length);</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 执行导出图片</span></span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">ExportImage</span>.<span class="title class_">Patch</span>(param).<span class="title class_">Execute</span>()</span><br><span class="line"><span class="comment">// 当前书籍路径，文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getBookPath = nv.<span class="property">Book</span>.<span class="property">Path</span></span><br><span class="line"><span class="comment">// 当前书籍文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getBookFileName = <span class="title function_">getFileNameFromPath</span>(nv.<span class="property">Book</span>.<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前书籍文件名</span></span><br><span class="line"><span class="keyword">var</span> getBookFileNameWithoutSuffix = <span class="title function_">getFileNameWithoutExt</span>(getBookFileName)</span><br><span class="line"><span class="comment">// 当前图片序号，从0开始</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageIndex = nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Index</span></span><br><span class="line"><span class="comment">// 当前图片路径，文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPagePath = nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span></span><br><span class="line"><span class="comment">// 当前图片文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageFileName = <span class="title function_">getFileNameFromPath</span>(nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前图片扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageFileSuffix = <span class="title function_">getFileExtension</span>(nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前图片在压缩包内的相对路径</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageRelativePath = <span class="title function_">getRelativeFilePath</span>(getBookPath, getCurrentPagePath)</span><br><span class="line"><span class="comment">// 程序导出的图片的路径</span></span><br><span class="line">oldFileName = saveImagePath + <span class="string">&#x27;\\&#x27;</span> + getBookFileNameWithoutSuffix + <span class="string">&#x27;_&#x27;</span> + getCurrentPageIndex + getCurrentPageFileSuffix</span><br><span class="line"><span class="comment">// 要修改成新的文件名，ren命令不加路径，move命令加路径</span></span><br><span class="line"><span class="comment">//newFileName = getBookFileNameWithoutSuffix + getCurrentPageRelativePath</span></span><br><span class="line">newFileName = saveImagePath + <span class="string">&#x27;\\&#x27;</span> + getBookFileNameWithoutSuffix + getCurrentPageRelativePath</span><br><span class="line"><span class="comment">// 改名，如果有重名的，就覆盖</span></span><br><span class="line"><span class="comment">//cmdPara = &#x27; /c ren &quot;&#x27; + oldFileName + &#x27;&quot; &quot;&#x27; + newFileName + &#x27;&quot;&#x27;</span></span><br><span class="line">cmdPara = <span class="string">&#x27; /c SET &quot;COPYCMD=/Y&quot; &amp;&amp; move &quot;&#x27;</span> + oldFileName + <span class="string">&#x27;&quot; &quot;&#x27;</span> + newFileName + <span class="string">&#x27;&quot; &amp;&amp; echo &#x27;</span></span><br><span class="line"><span class="comment">//cmdPara = nv.Config.Script.ScriptFolder + &#x27;\\neeview一键保存当前图片命名为文件名加图片名.py &#x27; + oldFileName + &#x27; &#x27; + newFileName</span></span><br><span class="line">param = &#123;</span><br><span class="line">    <span class="string">&quot;Command&quot;</span>: <span class="string">&quot;cmd.exe&quot;</span>,</span><br><span class="line">    <span class="comment">//&quot;Command&quot;: &quot;python.exe&quot;,</span></span><br><span class="line">    <span class="string">&quot;Parameter&quot;</span>: cmdPara</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 两个命令效果相同</span></span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">OpenExternalApp</span>.<span class="title class_">Patch</span>(param).<span class="title class_">Execute</span>()</span><br><span class="line"><span class="comment">//system(&quot;cmd.exe&quot;, cmdPara)</span></span><br><span class="line">nv.<span class="title class_">ShowToast</span>(newFileName + <span class="string">&#x27;文件已保存。&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
 <h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>默认快捷键是Ctrl+S，修改在<br>选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名<br>之后Ctrl+S，neeview右下角会显示XX已存储</p>
@@ -3429,6 +3429,16 @@
 <p>不错的故事，又真又假的感觉。看网上一堆人批判什么的，太认真。</p>
 </blockquote>
 <hr>
+<h3 id="热点"><a href="#热点" class="headerlink" title="热点"></a>热点</h3><p>2025.4.2</p>
+<blockquote>
+<p>和重启人生编剧导演一样，演员也基本一样，题材都挺常见的，但拍出来就挺好看。</p>
+</blockquote>
+<hr>
+<h3 id="青之箱"><a href="#青之箱" class="headerlink" title="青之箱"></a>青之箱</h3><p>2025.4.9</p>
+<blockquote>
+<p>这动画感觉还挺多了，画风不错，剧情还是老一套，总有种浮于表面的感觉，可能是配音，可能是台词，就是有点虚伪，现在看日本这种前辈后辈的关系挺无聊的，大一岁好像就差了一个辈分一样。看他们比赛也挺震惊的，比分都是用英文说的，8：4要说成eight four。</p>
+</blockquote>
+<hr>
 ]]></content>
       <categories>
         <category>个人</category>
@@ -4129,7 +4139,7 @@
 </thead>
 </table>
 <hr>
-<h2 id="正在看的"><a href="#正在看的" class="headerlink" title="正在看的"></a>正在看的</h2><p>|作品|备注|日期|评分|<br>| — | — | — | — ||<br>|幸福伽菜子的快乐杀手生活|6 低端影视|2025.03.28||<br>|青之箱|24 动画 下载|2025.03.28||<br>|伊藤润二的漫画术|p10 伊藤润二 友谊出版|2025.3.7||、<br>|重版出来|vol02 17话 松田奈绪子 b外电子版|2024.12.31||<br>|芭芭雅嘎下了个蛋|83页 杜布拉夫卡乌格雷西奇著 李云骞译 78页|2024.11.22||<br>|the bear|1.6 下载|2025.3.21||<br>|文学少女6怀抱花月的水妖|102页 野村美月著 哈娜译 上海文艺 电子版|2024.6.26||<br>|新概念乐理教程|50|2024.2.23|7|<br>|atlanta|3.9|2024.5.13|7.3|<br>|金瓶梅|云中书社2022年8月第6版 第16回|2025.3.17|7|<br>|红楼梦 桂冠版|第八章|2024.2.25|7|</p>
+<h2 id="正在看的"><a href="#正在看的" class="headerlink" title="正在看的"></a>正在看的</h2><p>|作品|备注|日期|评分|<br>| — | — | — | — ||<br>|幸福伽菜子的快乐杀手生活|7 日剧 10end 低端影视|2025.03.29||<br>|atlanta|4.3|2025.03.30|7.3|<br>|文学少女6怀抱花月的水妖|159 野村美月著 哈娜译 上海文艺 电子版|2025.03.29||<br>|伊藤润二的漫画术|p10 伊藤润二 友谊出版|2025.3.7||、<br>|重版出来|vol02 17话 松田奈绪子 b外电子版|2024.12.31||<br>|芭芭雅嘎下了个蛋|83页 杜布拉夫卡乌格雷西奇著 李云骞译 78页|2024.11.22||<br>|the bear|1.6 下载|2025.3.21||<br>|新概念乐理教程|50|2024.2.23|7|<br>|金瓶梅|云中书社2022年8月第6版 第16回|2025.3.17|7|<br>|红楼梦 桂冠版|第八章|2024.2.25|7|</p>
 <h2 id="看不下去的-等待更新的"><a href="#看不下去的-等待更新的" class="headerlink" title="看不下去的&#x2F;等待更新的"></a>看不下去的&#x2F;等待更新的</h2><table>
 <thead>
 <tr>
@@ -12549,13 +12559,13 @@
 <td></td>
 </tr>
 <tr>
-<td>心跳特區<del>秘❤蜜</del> Blush-DC</td>
+<td>心跳特区<del>秘❤蜜</del> Blush-DC</td>
 <td>vol01 宮崎摩耶 东立电子版</td>
 <td>2024.12.29</td>
 <td>7</td>
 </tr>
 <tr>
-<td>心跳特區<del>秘❤蜜</del> Blush-DC</td>
+<td>心跳特区<del>秘❤蜜</del> Blush-DC</td>
 <td>vol02</td>
 <td>2024.12.29</td>
 <td>7.5</td>
@@ -14678,7 +14688,7 @@
 <td>7</td>
 </tr>
 <tr>
-<td>Black Mirror S4</td>
+<td>Black Mirror 黑镜 S4</td>
 <td></td>
 <td>2018.1.1</td>
 <td>8.5</td>
@@ -15020,7 +15030,7 @@
 <td></td>
 </tr>
 <tr>
-<td>Black Mirror S5</td>
+<td>Black Mirror 黑镜 S5</td>
 <td></td>
 <td>2019.6.6</td>
 <td></td>
@@ -17113,6 +17123,30 @@
 <td>2025.2.20</td>
 <td>7</td>
 </tr>
+<tr>
+<td>我是大哥大 今日から俺は</td>
+<td>低端影视</td>
+<td>2025.3.31</td>
+<td></td>
+</tr>
+<tr>
+<td>热点</td>
+<td>日剧 10end 下载</td>
+<td>2025.4.2</td>
+<td>7.7</td>
+</tr>
+<tr>
+<td>青之箱</td>
+<td>25end 动画 下载</td>
+<td>2025.4.9</td>
+<td></td>
+</tr>
+<tr>
+<td>继母的拖油瓶是我的女友</td>
+<td>动画 下载 12end</td>
+<td>2025.04.13</td>
+<td></td>
+</tr>
 </tbody></table>
 <h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><table>
 <thead>
@@ -17128,6 +17162,35 @@
 <td></td>
 <td></td>
 <td></td>
+</tr>
+</tbody></table>
+<h2 id="完成的游戏"><a href="#完成的游戏" class="headerlink" title="完成的游戏"></a>完成的游戏</h2><p>|游戏名|备注|完成时间|评分|<br>|2025以前|2025以前|2025以前|2025以前|<br>|雨中冒险||||<br>|枪火重生||||<br>|starbound||||<br>|terraria|||8|<br>|求生之路2|||7|<br>|无主之地3|||7|<br>|vampire survivors|||7|</p>
+<table>
+<thead>
+<tr>
+<th>2025</th>
+<th>2025</th>
+<th>2025</th>
+<th>2025</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>精灵宝可梦绿宝石</td>
+<td>一周目 官译八代版 gba</td>
+<td>2025.4.6</td>
+<td>7</td>
+</tr>
+<tr>
+<td>究极绿宝石v5.5</td>
+<td>一周目 gba</td>
+<td>2025.4.10</td>
+<td>7</td>
+</tr>
+<tr>
+<td>逆转裁判1</td>
+<td>gba</td>
+<td>2025.4.12</td>
+<td>7</td>
 </tr>
 </tbody></table>
 <h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2>]]></content>
@@ -18239,6 +18302,7 @@
 </ol>
 <h4 id="缺点或bug-2"><a href="#缺点或bug-2" class="headerlink" title="缺点或bug"></a>缺点或bug</h4><ol>
 <li>应用中心，apps，电源灯开关，设置关闭后，开屏状态充电，电源灯又会变成常亮状态。</li>
+<li>买的绿透色，说是改进过手感，感觉还是偏硬。</li>
 </ol>
 <h3 id="miyoo-mini-v4简评"><a href="#miyoo-mini-v4简评" class="headerlink" title="miyoo mini v4简评"></a>miyoo mini v4简评</h3><h4 id="优点-3"><a href="#优点-3" class="headerlink" title="优点"></a>优点</h4><ol>
 <li>手感好，很小，放裤兜随时能拿出来玩，适合文字类操作比较少的游戏，像是逆转裁判。</li>
@@ -21001,6 +21065,7 @@
 <h2 id="贝壳"><a href="#贝壳" class="headerlink" title="贝壳"></a>贝壳</h2><p>贝壳省心租：<a href="https://www.ke.com/">https://www.ke.com/</a><br>安卓app：贝壳找房<br>营业执照名称：天津小屋信息科技有限公司<br>租房方式：省心租，贝壳收取服务费，发票项目名称：现代服务管理服务费<br>更新日期：2025.03.05，待续</p>
 <h2 id="清洁跟没清洁一样"><a href="#清洁跟没清洁一样" class="headerlink" title="清洁跟没清洁一样"></a>清洁跟没清洁一样</h2><p>租房前送一次清洁，来的人扫把拖把什么都没有，做完之后还非要给好评，窗户地面还是一层灰。</p>
 <h2 id="发霉的家具还要给下一个租客用"><a href="#发霉的家具还要给下一个租客用" class="headerlink" title="发霉的家具还要给下一个租客用"></a>发霉的家具还要给下一个租客用</h2><p>本来房间一股霉味，床柜子都长毛了，我说扔掉，贝壳联系房东，房东说尽量留下，还要给下一个租客用，中介也说尽量留下。<br>最后只扔了发霉最严重的床，还说退租后要我把自己的床留下来。<br>发霉的空调自己花钱找人清洁了。</p>
+<h2 id="其他安全隐患"><a href="#其他安全隐患" class="headerlink" title="其他安全隐患"></a>其他安全隐患</h2><p>最离谱的是液化气热水器的排气管，在室内的一节是漏的。<br>有个净水器，不知道几年没换滤芯了，应该变成污水器了。</p>
 <h2 id="交了房租后被发律师函"><a href="#交了房租后被发律师函" class="headerlink" title="交了房租后被发律师函"></a>交了房租后被发律师函</h2><p>某次晚了几天交房租，交了之后一个律师事务所发律师函说欠房租，下面的日期写的是交房租后的5天，5天还没更新付款信息。<br>之后一次付款后要发票，4天了暂时还没发过来，看网上有种话费慢充说是洗钱套路，类似？<br>交费后一定要要发票。</p>
 <h2 id="租约期内房东要卖房要求配合看房"><a href="#租约期内房东要卖房要求配合看房" class="headerlink" title="租约期内房东要卖房要求配合看房"></a>租约期内房东要卖房要求配合看房</h2><p>房东说了3，4次。贝壳的管家说不用配合。后来说拍vr，一开始不答应，一个贝壳中介问我是不是在干违法的事。晚点和管家说，只能拍vr，不能看房，都同意了。<br>过了几天同一个中介带人来看房，之前就跟他说不配合看房，这素质。这个中介的联系人是房东的亲戚，还不是房东本人，他好像不懂合同关系。</p>
 <span id="more"></span>
