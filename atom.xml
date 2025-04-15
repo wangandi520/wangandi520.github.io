@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-03-29T07:42:19.039Z</updated>
+  <updated>2025-04-15T15:55:14.894Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,10 +21,11 @@
     <link href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/"/>
     <id>https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/</id>
     <published>2025-03-28T15:11:43.000Z</published>
-    <updated>2025-03-29T07:42:19.039Z</updated>
+    <updated>2025-04-15T15:55:14.894Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.03.29&lt;/p&gt;
 &lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;在vscode中，按下Ctrl+Shift+I快捷键，识别当前光标所在行中第二个和第三个竖线（&lt;code&gt;|&lt;/code&gt;）之间的数字，并将其加1。&lt;/p&gt;
 &lt;p&gt;下载地址&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01number-incrementer.zip&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;原数据&lt;/p&gt;
@@ -49,10 +50,11 @@
     <link href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/"/>
     <id>https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/</id>
     <published>2025-03-28T09:01:22.000Z</published>
-    <updated>2025-03-29T02:02:34.025Z</updated>
+    <updated>2025-04-15T15:55:09.338Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.03.29&lt;/p&gt;
 &lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期&lt;/p&gt;
 &lt;p&gt;下载地址&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9Fupdate-date-to-today.zip&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;原数据&lt;/p&gt;
@@ -77,11 +79,11 @@
     <link href="https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
     <id>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <published>2025-03-26T10:12:11.000Z</published>
-    <updated>2025-04-15T09:21:56.399Z</updated>
+    <updated>2025-04-15T15:58:43.292Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;更新日期：2025.4.14&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.4.15&lt;/p&gt;
 &lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。&lt;br&gt;简单评价一下安伯尼克rg35xxplus，rg34xx，miyoo mini v4这三台掌机。&lt;/p&gt;
 &lt;h3 id=&quot;安伯尼克rg35xxplus简评&quot;&gt;&lt;a href=&quot;#安伯尼克rg35xxplus简评&quot; class=&quot;headerlink&quot; title=&quot;安伯尼克rg35xxplus简评&quot;&gt;&lt;/a&gt;安伯尼克rg35xxplus简评&lt;/h3&gt;&lt;h4 id=&quot;优点&quot;&gt;&lt;a href=&quot;#优点&quot; class=&quot;headerlink&quot; title=&quot;优点&quot;&gt;&lt;/a&gt;优点&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;手感舒服，勉强能单手操作，menu键容易按，位置也方便。&lt;/li&gt;
@@ -159,10 +161,11 @@
     <link href="https://andi.wang/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/"/>
     <id>https://andi.wang/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/</id>
     <published>2025-03-11T06:45:58.000Z</published>
-    <updated>2025-03-11T08:34:44.258Z</updated>
+    <updated>2025-04-15T15:53:57.784Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.03.11&lt;/p&gt;
+&lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。&lt;/p&gt;
 &lt;h2 id=&quot;存在的问题&quot;&gt;&lt;a href=&quot;#存在的问题&quot; class=&quot;headerlink&quot; title=&quot;存在的问题&quot;&gt;&lt;/a&gt;存在的问题&lt;/h2&gt;&lt;p&gt;有时翻译的字幕会显示详细的解释&lt;/p&gt;
 &lt;p&gt;更新日期2025.03.11&lt;/p&gt;</summary>
     
@@ -180,11 +183,12 @@
     <link href="https://andi.wang/2025/03/07/%E8%B4%9D%E5%A3%B3%E7%9C%81%E5%BF%83%E7%A7%9F%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
     <id>https://andi.wang/2025/03/07/%E8%B4%9D%E5%A3%B3%E7%9C%81%E5%BF%83%E7%A7%9F%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <published>2025-03-07T07:22:12.000Z</published>
-    <updated>2025-04-14T06:31:01.937Z</updated>
+    <updated>2025-04-15T15:56:35.248Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;贝壳&quot;&gt;&lt;a href=&quot;#贝壳&quot; class=&quot;headerlink&quot; title=&quot;贝壳&quot;&gt;&lt;/a&gt;贝壳&lt;/h2&gt;&lt;p&gt;贝壳省心租：&lt;a href=&quot;https://www.ke.com/&quot;&gt;https://www.ke.com/&lt;/a&gt;&lt;br&gt;安卓app：贝壳找房&lt;br&gt;营业执照名称：天津小屋信息科技有限公司&lt;br&gt;租房方式：省心租，贝壳收取服务费，发票项目名称：现代服务管理服务费&lt;br&gt;更新日期：2025.03.05，待续&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.03.05&lt;/p&gt;
+&lt;h2 id=&quot;贝壳&quot;&gt;&lt;a href=&quot;#贝壳&quot; class=&quot;headerlink&quot; title=&quot;贝壳&quot;&gt;&lt;/a&gt;贝壳&lt;/h2&gt;&lt;p&gt;贝壳省心租：&lt;a href=&quot;https://www.ke.com/&quot;&gt;https://www.ke.com/&lt;/a&gt;&lt;br&gt;安卓app：贝壳找房&lt;br&gt;营业执照名称：天津小屋信息科技有限公司&lt;br&gt;租房方式：省心租，贝壳收取服务费，发票项目名称：现代服务管理服务费&lt;/p&gt;
 &lt;h2 id=&quot;清洁跟没清洁一样&quot;&gt;&lt;a href=&quot;#清洁跟没清洁一样&quot; class=&quot;headerlink&quot; title=&quot;清洁跟没清洁一样&quot;&gt;&lt;/a&gt;清洁跟没清洁一样&lt;/h2&gt;&lt;p&gt;租房前送一次清洁，来的人扫把拖把什么都没有，做完之后还非要给好评，窗户地面还是一层灰。&lt;/p&gt;
 &lt;h2 id=&quot;发霉的家具还要给下一个租客用&quot;&gt;&lt;a href=&quot;#发霉的家具还要给下一个租客用&quot; class=&quot;headerlink&quot; title=&quot;发霉的家具还要给下一个租客用&quot;&gt;&lt;/a&gt;发霉的家具还要给下一个租客用&lt;/h2&gt;&lt;p&gt;本来房间一股霉味，床柜子都长毛了，我说扔掉，贝壳联系房东，房东说尽量留下，还要给下一个租客用，中介也说尽量留下。&lt;br&gt;最后只扔了发霉最严重的床，还说退租后要我把自己的床留下来。&lt;br&gt;发霉的空调自己花钱找人清洁了。&lt;/p&gt;
 &lt;h2 id=&quot;其他安全隐患&quot;&gt;&lt;a href=&quot;#其他安全隐患&quot; class=&quot;headerlink&quot; title=&quot;其他安全隐患&quot;&gt;&lt;/a&gt;其他安全隐患&lt;/h2&gt;&lt;p&gt;最离谱的是液化气热水器的排气管，在室内的一节是漏的。&lt;br&gt;有个净水器，不知道几年没换滤芯了，应该变成污水器了。&lt;/p&gt;
@@ -241,10 +245,11 @@
     <link href="https://andi.wang/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/"/>
     <id>https://andi.wang/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/</id>
     <published>2025-01-26T12:18:51.000Z</published>
-    <updated>2025-03-11T09:54:26.794Z</updated>
+    <updated>2025-04-15T15:57:02.186Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.03.11&lt;/p&gt;
 &lt;h2 id=&quot;安装运行Ollama&quot;&gt;&lt;a href=&quot;#安装运行Ollama&quot; class=&quot;headerlink&quot; title=&quot;安装运行Ollama&quot;&gt;&lt;/a&gt;安装运行Ollama&lt;/h2&gt;&lt;p&gt;在&lt;a href=&quot;https://ollama.com,下载运行ollamasetup.exe/&quot;&gt;https://ollama.com，下载运行OllamaSetup.exe&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;修改Ollama模型下载路径&quot;&gt;&lt;a href=&quot;#修改Ollama模型下载路径&quot; class=&quot;headerlink&quot; title=&quot;修改Ollama模型下载路径&quot;&gt;&lt;/a&gt;修改Ollama模型下载路径&lt;/h2&gt;&lt;p&gt;右键此电脑，属性，高级系统设置，环境变量，系统变量，新建，格式：变量名&amp;#x3D;变量值:&lt;/p&gt;
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;OLLAMA_MODELS=D:&#92;ollama&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -464,10 +469,11 @@
     <link href="https://andi.wang/2024/03/13/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%B7%A8%E5%B9%B3%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
     <id>https://andi.wang/2024/03/13/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%B7%A8%E5%B9%B3%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
     <published>2024-03-13T11:28:29.000Z</published>
-    <updated>2025-02-08T11:07:36.512Z</updated>
+    <updated>2025-04-15T15:58:12.715Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.02.08&lt;/p&gt;
 &lt;h2 id=&quot;我的方案（无云服务）&quot;&gt;&lt;a href=&quot;#我的方案（无云服务）&quot; class=&quot;headerlink&quot; title=&quot;我的方案（无云服务）&quot;&gt;&lt;/a&gt;我的方案（无云服务）&lt;/h2&gt;&lt;p&gt;笔记格式使用markdown，文件后缀.md&lt;br&gt;PC：Visual Studio Code（VSCode），有历史记录功能，可以查看哪天做了什么修改&lt;br&gt;安卓：QuickEdit&lt;br&gt;设备间同步：Resilio sync&lt;/p&gt;</summary>
     
     
@@ -484,11 +490,11 @@
     <link href="https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/"/>
     <id>https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/</id>
     <published>2024-03-07T07:20:21.000Z</published>
-    <updated>2025-04-14T14:33:34.490Z</updated>
+    <updated>2025-04-15T15:53:39.299Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;更新日期：2025.4.14&lt;br&gt;neeview43.2版测试通过&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.04.14&lt;br&gt;neeview43.2版测试通过&lt;/p&gt;
 &lt;h2 id=&quot;neeview下载&quot;&gt;&lt;a href=&quot;#neeview下载&quot; class=&quot;headerlink&quot; title=&quot;neeview下载&quot;&gt;&lt;/a&gt;neeview下载&lt;/h2&gt;&lt;p&gt;电脑上已经安装了.NET运行库可以下载fd版本，地址：&lt;a href=&quot;https://github.com/neelabo/NeeView/releases/&quot;&gt;https://github.com/neelabo/NeeView/releases/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;neeview开启脚本功能&quot;&gt;&lt;a href=&quot;#neeview开启脚本功能&quot; class=&quot;headerlink&quot; title=&quot;neeview开启脚本功能&quot;&gt;&lt;/a&gt;neeview开启脚本功能&lt;/h2&gt;&lt;p&gt;选项，设置，指令，脚本，使用脚本（开），打开脚本文件夹&lt;/p&gt;</summary>
     
@@ -527,10 +533,11 @@
     <link href="https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/"/>
     <id>https://andi.wang/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</id>
     <published>2024-02-29T12:33:12.000Z</published>
-    <updated>2025-02-24T09:32:04.059Z</updated>
+    <updated>2025-04-15T15:52:57.141Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.02.24&lt;/p&gt;
 &lt;h2 id=&quot;演示&quot;&gt;&lt;a href=&quot;#演示&quot; class=&quot;headerlink&quot; title=&quot;演示&quot;&gt;&lt;/a&gt;演示&lt;/h2&gt;&lt;p&gt;hexo主题hexo-theme-next，scheme: Gemini，&lt;a href=&quot;https://andi.wang/&quot;&gt;https://andi.wang/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h2&gt;&lt;p&gt;任意一个空文件夹右键open in terminal&lt;/p&gt;
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-cli -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo init&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo new page tags&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo new page categories&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
@@ -569,10 +576,11 @@
     <link href="https://andi.wang/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/"/>
     <id>https://andi.wang/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</id>
     <published>2024-02-11T02:32:08.000Z</published>
-    <updated>2024-03-14T02:40:24.305Z</updated>
+    <updated>2025-04-15T16:01:01.159Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2024.03.14&lt;/p&gt;
+&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。&lt;/p&gt;</summary>
     
     
     
@@ -622,11 +630,12 @@
     <link href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
     <id>https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</id>
     <published>2024-01-13T09:11:23.000Z</published>
-    <updated>2024-05-12T12:20:01.733Z</updated>
+    <updated>2025-04-15T15:59:55.319Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;操作有风险，注意安全。&lt;br&gt;分为第三方ROM和官方ROM两部分。推荐官方ROM，可以更新14.0.286。&lt;br&gt;zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。&lt;br&gt;刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前ZUI14.0.286使用没问题。&lt;/p&gt;</summary>
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2024.05.12&lt;/p&gt;
+&lt;h2 id=&quot;注意&quot;&gt;&lt;a href=&quot;#注意&quot; class=&quot;headerlink&quot; title=&quot;注意&quot;&gt;&lt;/a&gt;注意&lt;/h2&gt;&lt;p&gt;操作有风险，注意安全，重要数据先备份到电脑。&lt;br&gt;分为第三方ROM和官方ROM两部分。推荐官方ROM，可以更新14.0.286。&lt;br&gt;zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。&lt;br&gt;刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前ZUI14.0.286使用没问题。&lt;/p&gt;</summary>
     
     
     
@@ -644,10 +653,11 @@
     <link href="https://andi.wang/2024/01/03/Windows%E5%92%8CAndroid%E4%BC%98%E8%B4%A8%E8%BD%AF%E4%BB%B6/"/>
     <id>https://andi.wang/2024/01/03/Windows%E5%92%8CAndroid%E4%BC%98%E8%B4%A8%E8%BD%AF%E4%BB%B6/</id>
     <published>2024-01-03T06:55:41.000Z</published>
-    <updated>2024-03-04T08:35:19.546Z</updated>
+    <updated>2025-04-15T15:56:04.950Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2024.03.04&lt;/p&gt;
 &lt;p&gt;建议只从各个软件官网下载。&lt;/p&gt;
 &lt;h2 id=&quot;两个平台&quot;&gt;&lt;a href=&quot;#两个平台&quot; class=&quot;headerlink&quot; title=&quot;两个平台&quot;&gt;&lt;/a&gt;两个平台&lt;/h2&gt;&lt;p&gt;microsoft edge：浏览器，同步，从手机发网页到电脑都很方便。&lt;br&gt;microsoft todo：计划清单提醒。&lt;br&gt;microsoft onenote：做笔记，同步时快时慢。&lt;br&gt;joplin：做笔记，可以自己搭建服务器同步，可以导出，可以webdav同步。&lt;br&gt;resilio sync：同步文件用，只有两边都打开软件就自动完成。&lt;br&gt;localsend：跨平台发文件，发文字，简洁高效。&lt;/p&gt;</summary>
     
@@ -746,10 +756,11 @@
     <link href="https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/"/>
     <id>https://andi.wang/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</id>
     <published>2023-12-15T11:37:05.000Z</published>
-    <updated>2024-03-14T02:39:08.097Z</updated>
+    <updated>2025-04-15T16:09:33.444Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2024.03.14&lt;/p&gt;
 &lt;h2 id=&quot;宿主DAW&quot;&gt;&lt;a href=&quot;#宿主DAW&quot; class=&quot;headerlink&quot; title=&quot;宿主DAW&quot;&gt;&lt;/a&gt;宿主DAW&lt;/h2&gt;&lt;h3 id=&quot;Reaper&quot;&gt;&lt;a href=&quot;#Reaper&quot; class=&quot;headerlink&quot; title=&quot;Reaper&quot;&gt;&lt;/a&gt;Reaper&lt;/h3&gt;&lt;p&gt;版本v7.07&lt;br&gt;60美元买，可以升级两个整数版本，或者免费试用，但是每次进去要等几秒，网上破解版也很容易找。&lt;br&gt;优点：体积小，很多自制脚本（官网reaper.fm里），快捷操作很多（菜单Actions里），社区活跃&lt;/p&gt;</summary>
     
     
@@ -766,10 +777,11 @@
     <link href="https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/"/>
     <id>https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</id>
     <published>2023-11-20T06:48:55.000Z</published>
-    <updated>2025-03-28T09:28:06.206Z</updated>
+    <updated>2025-04-15T16:09:20.583Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.03.28&lt;/p&gt;
 &lt;h2 id=&quot;小米14的一些bug&quot;&gt;&lt;a href=&quot;#小米14的一些bug&quot; class=&quot;headerlink&quot; title=&quot;小米14的一些bug&quot;&gt;&lt;/a&gt;小米14的一些bug&lt;/h2&gt;&lt;p&gt;说明：手机没使用手机搬家，app都是在小米商店或google play下载，apk都通过在线杀毒，没安装乱七八糟的app，路由器正常且网络通畅。&lt;/p&gt;</summary>
     
     
@@ -814,12 +826,12 @@
     <link href="https://andi.wang/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
     <id>https://andi.wang/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</id>
     <published>2023-06-07T02:41:57.000Z</published>
-    <updated>2025-04-11T07:27:33.302Z</updated>
+    <updated>2025-04-15T15:57:51.122Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;p&gt;如果是连锁店的话，可能只是其中一家有问题。&lt;br&gt;如果是品牌的话，可能只是其中一个产品有问题。&lt;/p&gt;
-&lt;p&gt;更新日期2024.06.12&lt;/p&gt;</summary>
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.04.11&lt;/p&gt;
+&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;如果是连锁店的话，可能只是其中一家有问题。&lt;br&gt;如果是品牌的话，可能只是其中一个产品有问题。&lt;/p&gt;</summary>
     
     
     
@@ -883,10 +895,11 @@
     <link href="https://andi.wang/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/"/>
     <id>https://andi.wang/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/</id>
     <published>2023-01-29T12:55:01.000Z</published>
-    <updated>2024-09-25T09:02:44.249Z</updated>
+    <updated>2025-04-15T15:54:49.233Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2024.09.20&lt;/p&gt;
 &lt;p&gt;打开Options - Open User Options File，填写下面的代码&lt;/p&gt;</summary>
     
     
@@ -949,11 +962,12 @@
     <link href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/"/>
     <id>https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/</id>
     <published>2022-01-26T10:12:42.000Z</published>
-    <updated>2024-03-14T09:39:36.229Z</updated>
+    <updated>2025-04-15T16:00:31.691Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新时间：2023年11月21日&quot;&gt;&lt;a href=&quot;#更新时间：2023年11月21日&quot; class=&quot;headerlink&quot; title=&quot;更新时间：2023年11月21日&quot;&gt;&lt;/a&gt;更新时间：2023年11月21日&lt;/h2&gt;&lt;h2 id=&quot;平台&quot;&gt;&lt;a href=&quot;#平台&quot; class=&quot;headerlink&quot; title=&quot;平台&quot;&gt;&lt;/a&gt;平台&lt;/h2&gt;&lt;h3 id=&quot;树莓派&quot;&gt;&lt;a href=&quot;#树莓派&quot; class=&quot;headerlink&quot; title=&quot;树莓派&quot;&gt;&lt;/a&gt;树莓派&lt;/h3&gt;&lt;p&gt;型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统&lt;a href=&quot;https://archlinuxarm.org/&quot;&gt;archlinuxarm&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2023.11.21&lt;/p&gt;
+&lt;h2 id=&quot;平台&quot;&gt;&lt;a href=&quot;#平台&quot; class=&quot;headerlink&quot; title=&quot;平台&quot;&gt;&lt;/a&gt;平台&lt;/h2&gt;&lt;h3 id=&quot;树莓派&quot;&gt;&lt;a href=&quot;#树莓派&quot; class=&quot;headerlink&quot; title=&quot;树莓派&quot;&gt;&lt;/a&gt;树莓派&lt;/h3&gt;&lt;p&gt;型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统&lt;a href=&quot;https://archlinuxarm.org/&quot;&gt;archlinuxarm&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;nuc&quot;&gt;&lt;a href=&quot;#nuc&quot; class=&quot;headerlink&quot; title=&quot;nuc&quot;&gt;&lt;/a&gt;nuc&lt;/h3&gt;&lt;p&gt;型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版&lt;a href=&quot;https://archlinux.org/&quot;&gt;archlinux&lt;/a&gt;&lt;br&gt;本文的内容几乎适用于两种平台的archlinux配置&lt;/p&gt;</summary>
     
     

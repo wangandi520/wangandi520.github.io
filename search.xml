@@ -4,7 +4,7 @@
     <title>REAPER6学习笔记</title>
     <url>/2021/03/12/REAPER6%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<hr>
-<p>更新日期2023.12.16</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2023.12.16</p>
 <h2 id="1-写在前面"><a href="#1-写在前面" class="headerlink" title="1.写在前面"></a>1.写在前面</h2><p><strong>作者</strong>：andi.wang<br><strong>使用的版本</strong>：v6.25，系统WIN10，设备建议使用支持ASIO的外置USB声卡<br><strong>教程来源</strong>：<a href="https://www.bilibili.com/video/BV1L7411r7Rr">[精校][人工翻译]REAPER 6音乐制作入门教程全21集</a><br><a href="https://www.reaper.fm/">软件下载</a><br><a href="https://stash.reaper.fm/tag/Themes">主题</a><br><a href="https://stash.reaper.fm/tag/Language-Packs">语言包</a><br><strong>修改快捷键</strong>：Actions，Show action list(?)，左下角Add添加，Key map导出。<br>括号内是英文或键盘快捷键</p>
 <span id="more"></span>
 
@@ -611,6 +611,7 @@
     <title>SciTE文本编辑器配置</title>
     <url>/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.09.20</p>
 <p>打开Options - Open User Options File，填写下面的代码</p>
 <span id="more"></span>
 
@@ -630,6 +631,7 @@
     <title>hexo主题icarus的一些玩法</title>
     <url>/2021/03/17/hexo%E4%B8%BB%E9%A2%98icarus%E7%9A%84%E4%B8%80%E4%BA%9B%E7%8E%A9%E6%B3%95/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2021.03.21</p>
 <h2 id="设置文章封面图"><a href="#设置文章封面图" class="headerlink" title="设置文章封面图"></a>设置文章封面图</h2><p>在文章的front-matter中添加cover选项：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cover: /gallery/covers/cover.jpg</span><br></pre></td></tr></table></figure>
 
@@ -677,12 +679,13 @@
     <title>Windows和Android优质软件</title>
     <url>/2024/01/03/Windows%E5%92%8CAndroid%E4%BC%98%E8%B4%A8%E8%BD%AF%E4%BB%B6/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.03.04</p>
 <p>建议只从各个软件官网下载。</p>
 <h2 id="两个平台"><a href="#两个平台" class="headerlink" title="两个平台"></a>两个平台</h2><p>microsoft edge：浏览器，同步，从手机发网页到电脑都很方便。<br>microsoft todo：计划清单提醒。<br>microsoft onenote：做笔记，同步时快时慢。<br>joplin：做笔记，可以自己搭建服务器同步，可以导出，可以webdav同步。<br>resilio sync：同步文件用，只有两边都打开软件就自动完成。<br>localsend：跨平台发文件，发文字，简洁高效。</p>
 <span id="more"></span>
 
 <h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>everything：搜索文件。<br>visual studio code：做笔记，写代码，支持预览markdown和别的插件，可以搭配resilio sync做跨平台同步笔记。<br>calibre：看电子书，编辑书，转换格式用。<br>mobaxterm：远程ssh。<br>pdfpatcher：处理pdf，转图片。<br>goodsync：备份文件。<br>酷我音乐：免费下载音乐。<br>foobar2000：离线听歌。可以自定义窗体结构。<br>potplayer：离线看视频，无广告。<br>qbittorrent：下载bt文件，速度慢的话要网上搜一些tracker添加进去。<br>neeview：看漫画，pdf，可以导出设置和历史记录。<br>honeyview：看图片。<br>sumatrapdf：看pdf。<br>autohotkey：自制一些脚本，简化操作，低门槛。<br>python：自制一些脚本，稍有一些门槛。<br>open broadcaster software：录制屏幕，或者直播。<br>total commander：管理文件，批量重命名。<br>goldendict：查词典，支持mdx。<br>reaper：做音乐，录音，练键盘，玩吉他软件效果器。<br>faststone capture：截图。<br>ditto：管理剪贴板。<br>xmind8：做思维导图。<br>http file server 2.3m：电脑临时做服务器，给其他设备传文件。</p>
-<h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><p>静读天下专业版：离线看电子书，可以导出标注，可以多设备同步。<br>xodo：看pdf。<br>poweramp：离线听歌。<br>mx player：离线看视频。<br>feedme：看rss。<br>quickedit：编辑文本文件，可以搭配resilio sync做跨平台同步笔记。<br>x-plore：管理文件，wifi传文件。<br>欧陆词典：查词典，支持mdx。<br>andromoney：记账，可以导出。<br>gboard：输入法，无广告。</p>
+<h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><p>静读天下专业版：离线看电子书，可以导出标注，可以多设备同步。<br>xodo：看pdf。<br>poweramp：离线听歌。<br>mx player：离线看视频。<br>feedme：看rss。<br>quickedit：编辑文本文件，可以搭配resilio sync做跨平台同步笔记。<br>x-plore：管理文件，wifi传文件。<br>andromoney：记账，可以导出。<br>gboard：输入法，无广告。<br>comicscreen：看pdf，漫画</p>
 ]]></content>
       <categories>
         <category>学习笔记</category>
@@ -695,6 +698,7 @@
     <title>hexo和next主题的一些配置</title>
     <url>/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.02.24</p>
 <h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><p>hexo主题hexo-theme-next，scheme: Gemini，<a href="https://andi.wang/">https://andi.wang/</a></p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>任意一个空文件夹右键open in terminal</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init</span><br><span class="line">hexo new page tags</span><br><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
@@ -2289,7 +2293,7 @@
     <title>neeview一键保存当前图片命名为文件名加图片名</title>
     <url>/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/</url>
     <content><![CDATA[<hr>
-<p>更新日期：2025.4.14<br>neeview43.2版测试通过</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.14<br>neeview43.2版测试通过</p>
 <h2 id="neeview下载"><a href="#neeview下载" class="headerlink" title="neeview下载"></a>neeview下载</h2><p>电脑上已经安装了.NET运行库可以下载fd版本，地址：<a href="https://github.com/neelabo/NeeView/releases/">https://github.com/neelabo/NeeView/releases/</a></p>
 <h2 id="neeview开启脚本功能"><a href="#neeview开启脚本功能" class="headerlink" title="neeview开启脚本功能"></a>neeview开启脚本功能</h2><p>选项，设置，指令，脚本，使用脚本（开），打开脚本文件夹</p>
 <span id="more"></span>
@@ -2311,7 +2315,8 @@
   <entry>
     <title>potplayer+whisper+ollama自动生成字幕并翻译</title>
     <url>/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/</url>
-    <content><![CDATA[<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。</p>
+    <content><![CDATA[<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.03.11</p>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。</p>
 <h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>有时翻译的字幕会显示详细的解释</p>
 <p>更新日期2025.03.11</p>
 <span id="more"></span>
@@ -2492,6 +2497,7 @@
     <title>vscode插件修改第二栏的数字加1</title>
     <url>/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.03.29</p>
 <h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>在vscode中，按下Ctrl+Shift+I快捷键，识别当前光标所在行中第二个和第三个竖线（<code>|</code>）之间的数字，并将其加1。</p>
 <p>下载地址<a href="https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01number-incrementer.zip">github</a></p>
 <p>原数据</p>
@@ -2525,6 +2531,7 @@
     <title>vscode插件将当前行中的日期更新为今天的日期</title>
     <url>/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.03.29</p>
 <h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期</p>
 <p>下载地址<a href="https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9Fupdate-date-to-today.zip">github</a></p>
 <p>原数据</p>
@@ -3052,6 +3059,7 @@
     <title>个人笔记跨平台解决方案</title>
     <url>/2024/03/13/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%E8%B7%A8%E5%B9%B3%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.02.08</p>
 <h2 id="我的方案（无云服务）"><a href="#我的方案（无云服务）" class="headerlink" title="我的方案（无云服务）"></a>我的方案（无云服务）</h2><p>笔记格式使用markdown，文件后缀.md<br>PC：Visual Studio Code（VSCode），有历史记录功能，可以查看哪天做了什么修改<br>安卓：QuickEdit<br>设备间同步：Resilio sync</p>
 <span id="more"></span>
 
@@ -17338,7 +17346,8 @@
     <title>使用archlinux搭建家庭数据服务中心</title>
     <url>/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/</url>
     <content><![CDATA[<hr>
-<h2 id="更新时间：2023年11月21日"><a href="#更新时间：2023年11月21日" class="headerlink" title="更新时间：2023年11月21日"></a>更新时间：2023年11月21日</h2><h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="树莓派"><a href="#树莓派" class="headerlink" title="树莓派"></a>树莓派</h3><p>型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统<a href="https://archlinuxarm.org/">archlinuxarm</a></p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2023.11.21</p>
+<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><h3 id="树莓派"><a href="#树莓派" class="headerlink" title="树莓派"></a>树莓派</h3><p>型号3B，功耗约0.5w，2016年价格219元，型号4B299元。稳定，24小时开机，已经正常运行5年左右。系统<a href="https://archlinuxarm.org/">archlinuxarm</a></p>
 <h3 id="nuc"><a href="#nuc" class="headerlink" title="nuc"></a>nuc</h3><p>型号5CPYH，功耗约8W，速度比树莓派快很多，2016年价格940。系统原版<a href="https://archlinux.org/">archlinux</a><br>本文的内容几乎适用于两种平台的archlinux配置</p>
 <span id="more"></span>
 
@@ -17540,7 +17549,8 @@
   <entry>
     <title>使用github的action配合python每天签到</title>
     <url>/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</url>
-    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
+    <content><![CDATA[<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.03.14</p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
 <span id="more"></span>
 
 <h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）<br>在github的项目界面，点Actions，Skip this and set up a workflow yourself<br>复制下面的代码后，右上角commit changes</p>
@@ -18166,6 +18176,7 @@
     <title>小米14的一些bug</title>
     <url>/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.03.28</p>
 <h2 id="小米14的一些bug"><a href="#小米14的一些bug" class="headerlink" title="小米14的一些bug"></a>小米14的一些bug</h2><p>说明：手机没使用手机搬家，app都是在小米商店或google play下载，apk都通过在线杀毒，没安装乱七八糟的app，路由器正常且网络通畅。</p>
 <span id="more"></span>
 
@@ -18247,8 +18258,8 @@
     <title>店铺食品用品</title>
     <url>/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</url>
     <content><![CDATA[<hr>
-<p>如果是连锁店的话，可能只是其中一家有问题。<br>如果是品牌的话，可能只是其中一个产品有问题。</p>
-<p>更新日期2024.06.12</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.11</p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>如果是连锁店的话，可能只是其中一家有问题。<br>如果是品牌的话，可能只是其中一个产品有问题。</p>
 <span id="more"></span>
 
 <h2 id="实体店"><a href="#实体店" class="headerlink" title="实体店"></a>实体店</h2><p><strong>大家乐 钟村</strong>：吃了海南鸡饭后，上吐下泻，去医院查是急性肠胃炎。<br><strong>许个愿吧蛋糕 钟村</strong>：面包上的标签只写了15.9，付款时店员故意把价格说的很小声，看了发现是16.9，问了她才说说15.9是会员价。<br><strong>秦云老太婆摊摊面 钟村</strong>：使用的三聚氰胺碗没洗干净，用筷子轻轻刮就有黑黑的东西刮下来。<br><strong>杨国富麻辣烫 钟村</strong>：偶尔看见厨房的大垃圾桶距离煮锅只有1米左右。<br><strong>食其家 番禺广场</strong>：点餐程序，某个套餐写的价格点进去，还有一项必选的没有算到价格里。<br><strong>KFC</strong>：点餐程序，某个套餐写的价格点进去，还有一项必选的没有算到价格里。<br><strong>汉泰丰热干面 钟村</strong>：猪肉的颜色特别鲜红。<br><strong>粒上皇 钟村</strong>：多数产品含特丁基对苯二酚，甜蜜素，安赛蜜，三氯蔗糖。<br><strong>茉莉奶白 钟村</strong>：杯子只装了3&#x2F;4左右，剩下的是泡沫。<br><strong>一点点 钟村</strong>：站在店外面使用小程序点餐后，店员5分钟后才开始做。<br>**绿源联动(中山绿源联动科技有限公司)**：垃圾回收，有3次都是0积分（1000积分&#x3D;1元），1次10几个塑料矿泉水瓶，1次一小袋金属和电器（至少1斤）。<br><strong>通力路手拉面 恒大名都</strong>：12块钱的炸酱面，黄豆上面有白色的点点，跟老板说是坏了吧，老板说没坏。<br><strong>西秦面道 番禺广场</strong>：面里有白色塑料泡沫，伪装成蒜的样子。<br><strong>袁记云饺 钟村</strong>：云吞面的生菜，朝上的一面很清楚的看到已经发黑了，想看不见都很难啊。<br><strong>柳一勺 番禺广场</strong>：碗上面的字都磨掉了，让人吃颜料呢。<br><strong>京东养车 钟韵路</strong>：进店必须下载app，微信小程序不行。事先说好更换配件，第二天看，和实现说好的牌子不一样。自带了防冻液，说好用我的，但是还换了他们店里的。<br><strong>裕禧拉面</strong>：叉烧面里有一坨黏糊糊的像是鼻涕一样的东西，可能是没化开的汤底，这个面都很咸，座位很高桌子很矮，要弯着腰吃。<br><strong>哈佬超市</strong>：生鲜的盒子也算在重量里，买的10块多的猪肉，算了下盒子要1块2。<br><strong>你我他便利店</strong>：同上，估计同一个老板。</p>
@@ -18270,7 +18281,7 @@
     <title>开源掌机和RetroArch个人体验</title>
     <url>/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<p>更新日期：2025.4.14</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.4.15</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价一下安伯尼克rg35xxplus，rg34xx，miyoo mini v4这三台掌机。</p>
 <h3 id="安伯尼克rg35xxplus简评"><a href="#安伯尼克rg35xxplus简评" class="headerlink" title="安伯尼克rg35xxplus简评"></a>安伯尼克rg35xxplus简评</h3><h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ol>
 <li>手感舒服，勉强能单手操作，menu键容易按，位置也方便。</li>
@@ -18529,6 +18540,7 @@
     <title>搭建webdav服务器实现静读天下同步</title>
     <url>/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.03.14</p>
 <h2 id="下载webdav程序"><a href="#下载webdav程序" class="headerlink" title="下载webdav程序"></a>下载webdav程序</h2><p>Github地址<a href="https://github.com/hacdias/webdav/releases">https://github.com/hacdias/webdav/releases</a><br>我的是树莓派3b，所以下载linux-armv7-webdav.tar.gz。<br>windows的话下载windows-amd64-webdav.zip。</p>
 <span id="more"></span>
 
@@ -18920,6 +18932,7 @@
     <title>本地运行deepseek r1模型</title>
     <url>/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.03.11</p>
 <h2 id="安装运行Ollama"><a href="#安装运行Ollama" class="headerlink" title="安装运行Ollama"></a>安装运行Ollama</h2><p>在<a href="https://ollama.com,下载运行ollamasetup.exe/">https://ollama.com，下载运行OllamaSetup.exe</a></p>
 <h2 id="修改Ollama模型下载路径"><a href="#修改Ollama模型下载路径" class="headerlink" title="修改Ollama模型下载路径"></a>修改Ollama模型下载路径</h2><p>右键此电脑，属性，高级系统设置，环境变量，系统变量，新建，格式：变量名&#x3D;变量值:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">OLLAMA_MODELS=D:\ollama</span><br></pre></td></tr></table></figure>
@@ -20167,6 +20180,7 @@
     <title>离线漫画NeeView的使用和与其他软件的对比</title>
     <url>/2021/10/05/%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BBNeeView%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E4%B8%8E%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AF%B9%E6%AF%94/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.03.14</p>
 <h2 id="我的NeeView常用快捷键建议"><a href="#我的NeeView常用快捷键建议" class="headerlink" title="我的NeeView常用快捷键建议"></a>我的NeeView常用快捷键建议</h2><p>选项，设置，指令设置。因为看日版漫画多，所以一般把左当作下一页。</p>
 <p>切换全屏幕，回车<br>启用&#x2F;停用放大镜，F5，鼠标侧键<br>返回到前一个页面（上一页），方向右，方向上，pageup<br>前进到下一个页面（下一页），方向左，方向下，空格，pagedown<br>返回单页（双页显示时，只向下翻一单页），&#x3D;<br>前进单页（双页显示时，只向上翻一单页），-<br>滚动+返回到前一个页面，鼠标滚轮上<br>滚动+前进到下一个页面，鼠标滚轮下<br>移动到开始页面（移动到第一页），Home<br>移动到最后的页面（移动到最后一页），End<br>移动到前一本书（打开上一个文件），]<br>移动到下一本本（打开下一个文件），[<br>单页显示，1<br>双页显示，2<br>结束应用程序，Esc<br>保存截图，ctrl+s，见<a href="https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E9%A1%B5%E6%95%B0/">neeview一键保存当前图片命名为文件名加页数</a></p>
 <p>选项，汇入设定可直接导入，设定文件下载<a href="/files/NeeView40.5-20240204.nvzip">&#x2F;files&#x2F;NeeView40.5-20240204.nvzip</a></p>
@@ -20572,6 +20586,7 @@
     <title>红米ac2100路由器刷padavan系统</title>
     <url>/2021/06/07/%E7%BA%A2%E7%B1%B3ac2100%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7padavan%E7%B3%BB%E7%BB%9F/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.03.14</p>
 <h2 id="更新2-0-7固件并获取root权限"><a href="#更新2-0-7固件并获取root权限" class="headerlink" title="更新2.0.7固件并获取root权限"></a>更新2.0.7固件并获取root权限</h2><p>ac2100通电连网线（右3个孔）或wifi后，打开本地浏览器输入192.168.31.1，右上角选择固件升级，选择2.0.7固件，下载地址</p>
 <p><a href="http://openwrt.ink:8666/%E5%AE%98%E6%96%B9%E5%B7%A5%E5%85%B7%E5%8C%85/%E7%BA%A2%E7%B1%B3AC2100/%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6/miwifi_rm2100_firmware_d6234_2.0.7.bin">http://openwrt.ink:8666/%E5%AE%98%E6%96%B9%E5%B7%A5%E5%85%B7%E5%8C%85/%E7%BA%A2%E7%B1%B3AC2100/%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6/miwifi_rm2100_firmware_d6234_2.0.7.bin</a></p>
 <span id="more"></span>
@@ -20752,7 +20767,8 @@
     <title>联想拯救者y700一代（2022）平板刷机过程</title>
     <url>/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<hr>
-<p>操作有风险，注意安全。<br>分为第三方ROM和官方ROM两部分。推荐官方ROM，可以更新14.0.286。<br>zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。<br>刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前ZUI14.0.286使用没问题。</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.05.12</p>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>操作有风险，注意安全，重要数据先备份到电脑。<br>分为第三方ROM和官方ROM两部分。推荐官方ROM，可以更新14.0.286。<br>zui15存在的问题，底部栏隐藏不了，全屏应用，例如静读天下专业版，需要侧滑2次才能返回。<br>刷的第三方的2个rom都没解决侧滑2次的问题，看来是安卓新系统的问题，目前ZUI14.0.286使用没问题。</p>
 <span id="more"></span>
 
 <hr>
@@ -20808,7 +20824,7 @@
     <title>舒适阅读电子书和漫画</title>
     <url>/2021/03/16/%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.3.1</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.15</p>
 <h2 id="设备"><a href="#设备" class="headerlink" title="设备"></a>设备</h2><h3 id="电纸书"><a href="#电纸书" class="headerlink" title="电纸书"></a>电纸书</h3><p>不推荐任何电纸书设备，部分lcd屏的安卓平板可以选择。</p>
 <ul>
 <li>kindle：封闭系统，边框宽，只适合看亚马逊的书，没其他需求的朋友。</li>
@@ -20832,15 +20848,14 @@
 <h3 id="我的设备"><a href="#我的设备" class="headerlink" title="我的设备"></a>我的设备</h3><p>安卓平板+tf卡。之前联想y700最新系统zui15很垃圾，任务栏关不了，有些app后退要滑两下，很影响使用，不推荐购买使用，可以线刷退回到zui14使用，参照<a href="https://andi.wang/2024/01/13/%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/">https://andi.wang/2024/01/13/%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</a>。<br>看漫画：用X-plore，无线文件共享，通过电脑传漫画到tf卡里，perfect viewer阅读<br>看书：使用resilio sync同步传书，静读天下专业版阅读，自建webdav同步进度、标注，标注导出成txt后使用python脚本转换，用hexo发布到自己的博客上<br>看pdf：perfect viewer或者xodo<br>看rss：feedme</p>
 <h3 id="软件："><a href="#软件：" class="headerlink" title="软件："></a>软件：</h3><h4 id="安卓"><a href="#安卓" class="headerlink" title="安卓"></a>安卓</h4><ul>
 <li>静读天下专业版：看本地电子书首选，支持格式多，azw3、epub、pdf都可以，排版也不错，部分划线方框格式不支持，多字体、弹出注释支持。8.4（804003）版设置里支持了电子墨水屏模式，去掉了动画，初步使用还不错。整理批注笔记，见下方个人小项目。多设备同步进度和批注，见<a href="https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5/">搭建webdav服务器实现静读天下同步</a>，可以使用蓝牙手柄翻页。总体推荐使用。Google play下载，推荐购买。</li>
-<li>Perfect Viewer：看离线漫画首选，zip\rar\pdf都支持，支持分页，合页，功能多但偶尔有bug。可以在windows里设置共享，再在app右上角，书柜文件夹管理，添加局域网，填写电脑ip，就可以在设备上看电脑里的漫画。可以使用蓝牙手柄翻页，自定义每个按键。Google play下载。Bugs:perfect viewer，把正在读的书的压缩包里添加一个文件，新的文件显示不出来。samba联机阅读时，左上角转圈的时候退出来，程序会崩溃。主界面箭头下来，有的文件夹显示不出来。</li>
-<li>ComicScreen：看离线漫画用，和Perfect Viewer比功能稍弱，速度快，自动裁切快且精准。</li>
-<li>koreader：主要在电纸书上运行，功能多。操作稍微复杂、不人性化，不支持azw3。可以把每章结尾的脚注分到每一页下面，这一点很惊喜。下载地址<a href="https://github.com/koreader/koreader/releases">https://github.com/koreader/koreader/releases</a></li>
-<li>xodo：看pdf用，可以做笔记保存。</li>
-<li>joplin：从浏览器收集文章，做笔记，可以自己搭建webdav同步，可加密。</li>
+<li>ComicScreen：看离线漫画，pdf首选，最新的去广告版是2261，和Perfect Viewer比功能稍弱，速度快，自动裁切快且精准。</li>
+<li>Perfect Viewer：看离线漫画次选，2025年已停止更新。zip\rar\pdf都支持，支持分页，合页，功能多但偶尔有bug。可以在windows里设置共享，再在app右上角，书柜文件夹管理，添加局域网，填写电脑ip，就可以在设备上看电脑里的漫画。可以使用蓝牙手柄翻页，自定义每个按键。Google play下载。Bugs:perfect viewer，把正在读的书的压缩包里添加一个文件，新的文件显示不出来。samba联机阅读时，左上角转圈的时候退出来，程序会崩溃。主界面箭头下来，有的文件夹显示不出来。</li>
 <li>X-plore：文件管理器，捐赠版可以通过wifi传输，电脑网页里上传，方便速度快。</li>
-<li>欧陆词典：查各种资料，支持mdx离线词典，网上很多资源。</li>
+<li>mdict：查各种资料，支持mdx离线词典，网上很多资源。</li>
 <li>QuickEdit：文本编辑器，查看个人笔记。</li>
-<li>instapaper：从浏览器收集文章，稍后阅读。Google play下载。</li>
+<li>joplin：从浏览器收集文章，做笔记，可以自己搭建webdav同步，可加密。</li>
+<li>koreader：主要在电纸书上运行，不太推荐。操作稍微复杂、不人性化，不支持azw3。可以把每章结尾的脚注分到每一页下面，这一点很惊喜。下载地址<a href="https://github.com/koreader/koreader/releases">https://github.com/koreader/koreader/releases</a></li>
+<li>xodo：看pdf用，可以做笔记保存。</li>
 <li>阅读3.0(legado)：主要在线追网文，本地epub排版不好。下载地址<a href="https://github.com/gedoor/legado/releases">https://github.com/gedoor/legado/releases</a></li>
 <li>微信读书：不推荐。在线看书，书多，排版还行。和纸质书比有删减篡改。</li>
 <li>kindle阅读：不推荐。功能少，边距大。</li>
@@ -20852,27 +20867,26 @@
 </ul>
 <h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><ul>
 <li>Neeview：电脑看离线漫画首选，支持压缩包、图片、pdf，支持分页，合页。查看历史记录、收藏夹很方便。可以一个功能绑定多个快捷键。可设备鼠标侧键开关放大镜后，离显示器稍远看。下载地址<a href="https://bitbucket.org/neelabo/neeview/downloads/">https://bitbucket.org/neelabo/neeview/downloads/</a>，其他看漫画软件具体评测见<a href="https://andi.wang/2021/10/05/%E5%AF%B9%E6%AF%94%E5%87%A0%E4%B8%AA%E7%A6%BB%E7%BA%BF%E6%BC%AB%E7%94%BB%E8%BD%AF%E4%BB%B6Honeyview,MangaMeeya,ComicsViewer,NeeView/">对比几个离线漫画软件Honeyview,MangaMeeya,ComicsViewer,NeeView</a></li>
-<li>HoneyView：看图看漫画，支持压缩包。</li>
+<li>Bandiview：看图看漫画，支持压缩包。</li>
 <li>SumatraPDF：看pdf用，轻便。</li>
-<li>Koodo-Reader：看epub电子书。</li>
 <li>calibre：看epub电子书，转格式。下载地址<a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a>。calibre直接阅读epub文件，每次会修改文件导致sha1变更，打开一本书，右键单机右侧，首选项，杂项，保存一份标注&#x2F;书签在电子书文件中便于共享，去掉勾。</li>
 <li>sigil：编辑epub文件。下载地址<a href="https://sigil-ebook.com/">https://sigil-ebook.com/</a></li>
 <li>goodsync：文件夹同步，一般是移动硬盘备份的时候用。</li>
-<li>kiwix：离线维基百科，有安卓版，电脑版，电脑浏览器插件版，离线库下载：<a href="https://library.kiwix.org/#lang=zho">https://library.kiwix.org/#lang=zho</a>，20多G较大。</li>
+<li>kiwix：离线维基百科，中文搜索有问题，一直没修复。有安卓版，电脑版，电脑浏览器插件版，离线库下载：<a href="https://library.kiwix.org/#lang=zho">https://library.kiwix.org/#lang=zho</a>，20多G较大。</li>
 <li>整理标注的个人python脚本：<a href="https://github.com/wangandi520/ClippingsToMarkdown">ClippingsToMarkdown</a>，可以把文石Boox,Kindle,静读天下专业版的标注转换为Markdown格式，方便展示收藏，例子：<a href="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a>。</li>
 <li>整理漫画的个人python脚本：<a href="https://github.com/wangandi520/andyspythonscript">andyspythonscript</a>, 用于改名，清理，整理漫画等。<br>下载windows软件，<a href="https://lrepacks.net/">https://lrepacks.net/</a>，<a href="https://rutracker.net/">https://rutracker.net/</a></li>
 </ul>
 <h4 id="跨平台同步"><a href="#跨平台同步" class="headerlink" title="跨平台同步"></a>跨平台同步</h4><ul>
-<li>resilio sync：电脑和手机间同步或分享，功能强，推荐。</li>
-<li>syncthing：同步或分享，开源，功能少操作复杂，有一些bug。<br>搭建linux服务器，可以给手机电脑同步用。参照<a href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/#Resilio-Sync%EF%BC%88BitTorrent-Sync%EF%BC%89%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5">使用archlinux搭建家庭数据服务中心</a></li>
+<li>resilio sync：电脑和手机间同步或分享，功能强，推荐。<br>搭建linux服务器，可以给手机电脑同步用。参照<a href="https://andi.wang/2022/01/26/%E4%BD%BF%E7%94%A8archlinux%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/#Resilio-Sync%EF%BC%88BitTorrent-Sync%EF%BC%89%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5">使用archlinux搭建家庭数据服务中心</a></li>
 </ul>
-<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="文档格式"><a href="#文档格式" class="headerlink" title="文档格式"></a>文档格式</h3><p>建议保存收藏的格式：电子书epub, azw3。漫画zip，rar。</p>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="文档格式"><a href="#文档格式" class="headerlink" title="文档格式"></a>文档格式</h3><p>建议保存收藏的格式：电子书epub, 次选azw3。漫画zip，次选rar。</p>
 <h3 id="搜索资源"><a href="#搜索资源" class="headerlink" title="搜索资源"></a>搜索资源</h3><ul>
 <li>zlibrary，大量书，，每天能下10本书，警惕百度搜到的是一些钓鱼网站，暂时能用的网址zh.1lib.sk</li>
 <li>anna，zlibrary的镜像站，还有别的资源，不限量下载，但是速度很慢，网址zh.annas-archive.se</li>
 <li><a href="https://tool.yibook.org/">https://tool.yibook.org/</a>，部分zlib书。superlib很多扫描版书，格式是zip的话解压缩（压缩包常见密码52gv，julian），转成图片或pdf用Pdg2Pic，图片文字锐化用ComicEnhancerPro，转成pdf用FreePic2Pdf。</li>
 <li><a href="https://zbook.lol/">https://zbook.lol/</a>，部分zlib书。</li>
 <li><a href="https://www.manhuabudangbbs.com/">www.manhuabudangbbs.com</a>，大量高质量漫画，建议下载格式是zip或rar的</li>
+<li><a href="www.moeshare.cc">www.moeshare.cc</a>，大量漫画。</li>
 </ul>
 <h3 id="确定版本、译本、删减情况"><a href="#确定版本、译本、删减情况" class="headerlink" title="确定版本、译本、删减情况"></a>确定版本、译本、删减情况</h3><p>先确定各个版本、删减、排版、插图清晰度情况等，可以在亚马逊每本书下面的评论、知乎、豆瓣、搜索引擎上找各种资料。<br>比如早期的白夜行（黑白大桥封面）有大量删减。新版(白色封面）少一些，无法确实是不是100%未删减。<br>外文书、古籍最首要看的<strong>译者</strong>的好坏</p>
 <h3 id="不要读非作者写的序"><a href="#不要读非作者写的序" class="headerlink" title="不要读非作者写的序"></a>不要读非作者写的序</h3><p>容易被误导，会有些人画蛇添足总结什么思想什么表达的，像是小学语文课一样无趣。</p>
@@ -20900,6 +20914,7 @@
 <td>8</td>
 </tr>
 </tbody></table>
+<p>两个vscode插件，<a href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/">第一个</a>是备注栏的数字加1，用于记录追剧时当前看到第几集。<br><a href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/">第二个</a>是日期栏更新到今天的日期，用于记录追剧的日期。</p>
 <h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="/images/comfortreading03.png" alt="Neeview设置快捷键"></p>
 <p><img src="/images/comfortreading04.jpg" alt="usb脚踩翻页键"></p>
 ]]></content>
@@ -21063,7 +21078,8 @@
     <title>贝壳省心租个人体验</title>
     <url>/2025/03/07/%E8%B4%9D%E5%A3%B3%E7%9C%81%E5%BF%83%E7%A7%9F%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="贝壳"><a href="#贝壳" class="headerlink" title="贝壳"></a>贝壳</h2><p>贝壳省心租：<a href="https://www.ke.com/">https://www.ke.com/</a><br>安卓app：贝壳找房<br>营业执照名称：天津小屋信息科技有限公司<br>租房方式：省心租，贝壳收取服务费，发票项目名称：现代服务管理服务费<br>更新日期：2025.03.05，待续</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.03.05</p>
+<h2 id="贝壳"><a href="#贝壳" class="headerlink" title="贝壳"></a>贝壳</h2><p>贝壳省心租：<a href="https://www.ke.com/">https://www.ke.com/</a><br>安卓app：贝壳找房<br>营业执照名称：天津小屋信息科技有限公司<br>租房方式：省心租，贝壳收取服务费，发票项目名称：现代服务管理服务费</p>
 <h2 id="清洁跟没清洁一样"><a href="#清洁跟没清洁一样" class="headerlink" title="清洁跟没清洁一样"></a>清洁跟没清洁一样</h2><p>租房前送一次清洁，来的人扫把拖把什么都没有，做完之后还非要给好评，窗户地面还是一层灰。</p>
 <h2 id="发霉的家具还要给下一个租客用"><a href="#发霉的家具还要给下一个租客用" class="headerlink" title="发霉的家具还要给下一个租客用"></a>发霉的家具还要给下一个租客用</h2><p>本来房间一股霉味，床柜子都长毛了，我说扔掉，贝壳联系房东，房东说尽量留下，还要给下一个租客用，中介也说尽量留下。<br>最后只扔了发霉最严重的床，还说退租后要我把自己的床留下来。<br>发霉的空调自己花钱找人清洁了。</p>
 <h2 id="其他安全隐患"><a href="#其他安全隐患" class="headerlink" title="其他安全隐患"></a>其他安全隐患</h2><p>最离谱的是液化气热水器的排气管，在室内的一节是漏的。<br>有个净水器，不知道几年没换滤芯了，应该变成污水器了。</p>
@@ -21108,6 +21124,7 @@
     <title>音频软件插件简评</title>
     <url>/2023/12/15/%E9%9F%B3%E9%A2%91%E8%BD%AF%E4%BB%B6%E6%8F%92%E4%BB%B6%E7%AE%80%E8%AF%84/</url>
     <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.03.14</p>
 <h2 id="宿主DAW"><a href="#宿主DAW" class="headerlink" title="宿主DAW"></a>宿主DAW</h2><h3 id="Reaper"><a href="#Reaper" class="headerlink" title="Reaper"></a>Reaper</h3><p>版本v7.07<br>60美元买，可以升级两个整数版本，或者免费试用，但是每次进去要等几秒，网上破解版也很容易找。<br>优点：体积小，很多自制脚本（官网reaper.fm里），快捷操作很多（菜单Actions里），社区活跃</p>
 <span id="more"></span>
 
