@@ -18333,7 +18333,8 @@
 <span id="more"></span>
 
 <hr>
-<h2 id="安伯尼克rg35xxplus"><a href="#安伯尼克rg35xxplus" class="headerlink" title="安伯尼克rg35xxplus"></a>安伯尼克rg35xxplus</h2><h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，高级-默认本地目录默认远程目录也可以设置好<br>连接成功后，tf卡2的目录在&#x2F;mnt&#x2F;sdcard<br>注意可能要保持掌机屏幕一直在亮屏状态</p>
+<h2 id="安伯尼克rg35xxplus"><a href="#安伯尼克rg35xxplus" class="headerlink" title="安伯尼克rg35xxplus"></a>安伯尼克rg35xxplus</h2><h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，高级-默认本地目录默认远程目录也可以设置好<br>连接成功后，<br>注意可能要保持掌机屏幕一直在亮屏状态<br>相关目录：<br>nds模拟器drastic：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic<br>retroarch核心：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;retro&#x2F;cores<br>tf卡1：&#x2F;mnt&#x2F;mmc<br>tf卡2：&#x2F;mnt&#x2F;sdcard</p>
+<h3 id="nds模拟器drastic恢复默认设置"><a href="#nds模拟器drastic恢复默认设置" class="headerlink" title="nds模拟器drastic恢复默认设置"></a>nds模拟器drastic恢复默认设置</h3><p>仅用于安伯尼克，远程连接，进入&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic&#x2F;config<br>删除drastic.cfg，把drastic-back.cfg复制一份并改名成drastic.cfg</p>
 <h3 id="在线下载更新核心"><a href="#在线下载更新核心" class="headerlink" title="在线下载更新核心"></a>在线下载更新核心</h3><p>默认无法在线下载更新核心</p>
 <p>&#x2F;.config&#x2F;retroarch&#x2F;retroarch.cfg，使用上面远程传输文件的方法，下载到桌面，修改好再上传，在大约第2923行，把false改成true</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu_show_core_updater = &quot;true&quot;</span><br></pre></td></tr></table></figure>
