@@ -21227,7 +21227,7 @@
   <entry>
     <title>单机网页麻将游戏电脑麻将</title>
     <url>/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86/</url>
-    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/kobalab/Majiang">https://github.com/kobalab/Majiang</a><br>原作者演示地址：<a href="https://kobalab.net/majiang/">https://kobalab.net/majiang/</a><br>别人推荐，试了下很方便，随时随地开一局不用等。<br>电脑有点智力，立直了几次电脑都没点炮。<br>喇叭图标旁边的加减号是调整出牌速度的，减小就出牌更快。<br>不想吃碰，点屏幕任意地方就可以跳过，不用点叉。</p>
+    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/kobalab/Majiang">https://github.com/kobalab/Majiang</a><br>原作者演示地址：<a href="https://kobalab.net/majiang/">https://kobalab.net/majiang/</a><br>别人推荐，试了下很方便，随时随地开一局不用等。<br>键盘左右方向选牌，回车键摸切。<br>喇叭图标旁边的加减号是调整出牌速度的，减小就出牌更快。<br>不想吃碰，点屏幕任意地方就可以跳过，不用点叉。<br>打完可以下载牌谱，可以复盘，复盘按灯泡（快捷键I）能显示牌理。</p>
 <span id="more"></span>
 
 <h2 id="自己编译出成品"><a href="#自己编译出成品" class="headerlink" title="自己编译出成品"></a>自己编译出成品</h2><p>github下载整个项目压缩包，解压，右键在终端中打开，输入命令</p>
@@ -21235,6 +21235,14 @@
 
 <p>把dist文件夹里面的文件复制到你的服务器就可以了，或者网盘里下载majiang 2.4.16.zip</p>
 <p>成品演示：<a href="https://andi.wang/majiang/">https://andi.wang/majiang/</a><br>成品源码：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/majiang">https://github.com/wangandi520/wangandi520.github.io/tree/master/majiang</a><br>79博客麻将教程和源码下载：<a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd&#x3D;aw4m</a></p>
+<h2 id="几个功能建议"><a href="#几个功能建议" class="headerlink" title="几个功能建议"></a>几个功能建议</h2><ol>
+<li>玩的时候直接能显示当前手牌的牌谱，或者发送到牌谱。</li>
+<li>不鸣牌，直接胡牌的开关。</li>
+<li>界面缩放。</li>
+<li>显示牌山。</li>
+<li>和了后显示符数的计算，像是任天堂的役满游戏里一样。</li>
+<li>增加一些快捷键，像是鼠标右键摸切之类的。</li>
+</ol>
 ]]></content>
       <categories>
         <category>程序</category>
