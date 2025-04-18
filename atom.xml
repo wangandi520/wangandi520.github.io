@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-04-15T15:55:14.894Z</updated>
+  <updated>2025-04-18T03:14:51.880Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单机网页麻将游戏电脑麻将</title>
+    <link href="https://andi.wang/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86/"/>
+    <id>https://andi.wang/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86/</id>
+    <published>2025-04-18T03:11:33.000Z</published>
+    <updated>2025-04-18T03:14:51.880Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;原项目地址：&lt;a href=&quot;https://github.com/kobalab/Majiang&quot;&gt;https://github.com/kobalab/Majiang&lt;/a&gt;&lt;br&gt;原作者演示地址：&lt;a href=&quot;https://kobalab.net/majiang/&quot;&gt;https://kobalab.net/majiang/&lt;/a&gt;&lt;br&gt;别人推荐，试了下很方便，随时随地开盘不用等&lt;br&gt;电脑有点智力，立直了几次电脑都没点炮。&lt;br&gt;喇叭图标旁边的加减号是调整出牌速度的，减小就出牌更快。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>vscode插件修改第二栏的数字加1</title>
@@ -79,7 +98,7 @@
     <link href="https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
     <id>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <published>2025-03-26T10:12:11.000Z</published>
-    <updated>2025-04-16T16:28:08.868Z</updated>
+    <updated>2025-04-18T01:52:33.776Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -117,6 +136,7 @@
 &lt;h4 id=&quot;缺点或bug-2&quot;&gt;&lt;a href=&quot;#缺点或bug-2&quot; class=&quot;headerlink&quot; title=&quot;缺点或bug&quot;&gt;&lt;/a&gt;缺点或bug&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;应用中心，apps，电源灯开关，设置关闭后，开屏状态充电，电源灯又会变成常亮状态。&lt;/li&gt;
 &lt;li&gt;买的绿透色，说是改进过手感，感觉还是偏硬。&lt;/li&gt;
+&lt;li&gt;设计问题，熄屏的时候开着盖，再合上盖，会变成唤醒状态。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;miyoo-mini-v4简评&quot;&gt;&lt;a href=&quot;#miyoo-mini-v4简评&quot; class=&quot;headerlink&quot; title=&quot;miyoo mini v4简评&quot;&gt;&lt;/a&gt;miyoo mini v4简评&lt;/h3&gt;&lt;h4 id=&quot;优点-3&quot;&gt;&lt;a href=&quot;#优点-3&quot; class=&quot;headerlink&quot; title=&quot;优点&quot;&gt;&lt;/a&gt;优点&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;手感好，很小，放裤兜随时能拿出来玩，适合文字类操作比较少的游戏，像是逆转裁判。&lt;/li&gt;
@@ -129,6 +149,7 @@
 &lt;li&gt;其他小问题：没双tf卡。没wifi很致命，传游戏麻烦，快充的typec线没法充电，只能用低端的线。&lt;/li&gt;
 &lt;li&gt;官方系统最新的好像是20240806，8个月没更新固件了，RetroArch还是1.10版，最新的1.20版。&lt;/li&gt;
 &lt;li&gt;亮度在1-9的时候，屏幕频闪严重。&lt;/li&gt;
+&lt;li&gt;自带的tf卡写的64G，没牌子。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&quot;洋葱系统onion-os问题&quot;&gt;&lt;a href=&quot;#洋葱系统onion-os问题&quot; class=&quot;headerlink&quot; title=&quot;洋葱系统onion os问题&quot;&gt;&lt;/a&gt;洋葱系统onion os问题&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;4.3和4.4一样，耗电很快，纯待机1小时10%左右，电量图标有时不更新，要进游戏再退出才会变。&lt;/li&gt;
@@ -991,11 +1012,11 @@
     <link href="https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/"/>
     <id>https://andi.wang/2022/01/26/linux%E7%AC%94%E8%AE%B0/</id>
     <published>2022-01-26T10:11:42.000Z</published>
-    <updated>2022-09-23T08:30:07.493Z</updated>
+    <updated>2025-04-17T12:16:08.028Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;pip下载速度慢&quot;&gt;&lt;a href=&quot;#pip下载速度慢&quot; class=&quot;headerlink&quot; title=&quot;pip下载速度慢&quot;&gt;&lt;/a&gt;pip下载速度慢&lt;/h2&gt;&lt;p&gt;运行的时候添加参数 -i &lt;a href=&quot;https://pypi.tuna.tsinghua.edu.cn/simple&quot;&gt;https://pypi.tuna.tsinghua.edu.cn/simple&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;pip下载速度慢&quot;&gt;&lt;a href=&quot;#pip下载速度慢&quot; class=&quot;headerlink&quot; title=&quot;pip下载速度慢&quot;&gt;&lt;/a&gt;pip下载速度慢&lt;/h2&gt;&lt;p&gt;运行的时候添加参数 -i &lt;a href=&quot;https://mirrors.aliyun.com/pypi/simple/&quot;&gt;https://mirrors.aliyun.com/pypi/simple/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;永久修改，linux下新建或修改~&amp;#x2F;.pip&amp;#x2F;pip.conf&lt;/p&gt;
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[global]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;index-url = https://pypi.tuna.tsinghua.edu.cn/simple&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[install]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;trusted-host = https://pypi.tuna.tsinghua.edu.cn&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
@@ -1086,27 +1107,6 @@
     <category term="电影" scheme="https://andi.wang/tags/%E7%94%B5%E5%BD%B1/"/>
     
     <category term="电视剧" scheme="https://andi.wang/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>其他读书标注</title>
-    <link href="https://andi.wang/2021/12/20/%E5%85%B6%E4%BB%96%E8%AF%BB%E4%B9%A6%E6%A0%87%E6%B3%A8/"/>
-    <id>https://andi.wang/2021/12/20/%E5%85%B6%E4%BB%96%E8%AF%BB%E4%B9%A6%E6%A0%87%E6%B3%A8/</id>
-    <published>2021-12-20T03:11:10.000Z</published>
-    <updated>2025-03-10T08:40:16.783Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;</summary>
-    
-    
-    
-    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
-    
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   

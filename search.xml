@@ -2376,7 +2376,7 @@
     <title>linux笔记</title>
     <url>/2022/01/26/linux%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<hr>
-<h2 id="pip下载速度慢"><a href="#pip下载速度慢" class="headerlink" title="pip下载速度慢"></a>pip下载速度慢</h2><p>运行的时候添加参数 -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a></p>
+<h2 id="pip下载速度慢"><a href="#pip下载速度慢" class="headerlink" title="pip下载速度慢"></a>pip下载速度慢</h2><p>运行的时候添加参数 -i <a href="https://mirrors.aliyun.com/pypi/simple/">https://mirrors.aliyun.com/pypi/simple/</a></p>
 <p>永久修改，linux下新建或修改~&#x2F;.pip&#x2F;pip.conf</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[global]</span><br><span class="line">index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">[install]</span><br><span class="line">trusted-host = https://pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure>
 
@@ -18315,6 +18315,7 @@
 <h4 id="缺点或bug-2"><a href="#缺点或bug-2" class="headerlink" title="缺点或bug"></a>缺点或bug</h4><ol>
 <li>应用中心，apps，电源灯开关，设置关闭后，开屏状态充电，电源灯又会变成常亮状态。</li>
 <li>买的绿透色，说是改进过手感，感觉还是偏硬。</li>
+<li>设计问题，熄屏的时候开着盖，再合上盖，会变成唤醒状态。</li>
 </ol>
 <h3 id="miyoo-mini-v4简评"><a href="#miyoo-mini-v4简评" class="headerlink" title="miyoo mini v4简评"></a>miyoo mini v4简评</h3><h4 id="优点-3"><a href="#优点-3" class="headerlink" title="优点"></a>优点</h4><ol>
 <li>手感好，很小，放裤兜随时能拿出来玩，适合文字类操作比较少的游戏，像是逆转裁判。</li>
@@ -18327,6 +18328,7 @@
 <li>其他小问题：没双tf卡。没wifi很致命，传游戏麻烦，快充的typec线没法充电，只能用低端的线。</li>
 <li>官方系统最新的好像是20240806，8个月没更新固件了，RetroArch还是1.10版，最新的1.20版。</li>
 <li>亮度在1-9的时候，屏幕频闪严重。</li>
+<li>自带的tf卡写的64G，没牌子。</li>
 </ol>
 <h4 id="洋葱系统onion-os问题"><a href="#洋葱系统onion-os问题" class="headerlink" title="洋葱系统onion os问题"></a>洋葱系统onion os问题</h4><ol>
 <li>4.3和4.4一样，耗电很快，纯待机1小时10%左右，电量图标有时不更新，要进游戏再退出才会变。</li>
@@ -21220,6 +21222,25 @@
       <tags>
         <tag>魔方</tag>
         <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>单机网页麻将游戏电脑麻将</title>
+    <url>/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86/</url>
+    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/kobalab/Majiang">https://github.com/kobalab/Majiang</a><br>原作者演示地址：<a href="https://kobalab.net/majiang/">https://kobalab.net/majiang/</a><br>别人推荐，试了下很方便，随时随地开盘不用等<br>电脑有点智力，立直了几次电脑都没点炮。<br>喇叭图标旁边的加减号是调整出牌速度的，减小就出牌更快。</p>
+<span id="more"></span>
+
+<h2 id="自己编译出成品"><a href="#自己编译出成品" class="headerlink" title="自己编译出成品"></a>自己编译出成品</h2><p>github下载整个项目压缩包，解压，右键在终端中打开，输入命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install</span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure>
+
+<p>把dist文件夹里面的文件复制到你的服务器就可以了，或者网盘里下载majiang 2.4.16.zip</p>
+<p>成品演示：<a href="https://andi.wang/majiang/">https://andi.wang/majiang/</a><br>成品源码：<a href="https://github.com/wangandi520/wangandi520.github.io/tree/master/majiang">https://github.com/wangandi520/wangandi520.github.io/tree/master/majiang</a><br>79博客麻将教程和源码下载：<a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd&#x3D;aw4m</a></p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>javascript</tag>
       </tags>
   </entry>
   <entry>
