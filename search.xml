@@ -18284,17 +18284,19 @@
 <h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.4.15</p>
 <h2 id="总体评分"><a href="#总体评分" class="headerlink" title="总体评分"></a>总体评分</h2><p>及格分数7分<br>安伯尼克rg35xxsp，7.8分<br>安伯尼克rg35xxplus，7分<br>安伯尼克rg34xx，5分<br>miyoo mini v4，4分</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价一下安伯尼克rg35xxplus，rg34xx，miyoo mini v4这三台掌机。</p>
-<h3 id="安伯尼克rg35xxplus简评"><a href="#安伯尼克rg35xxplus简评" class="headerlink" title="安伯尼克rg35xxplus简评"></a>安伯尼克rg35xxplus简评</h3><h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ol>
+<h3 id="安伯尼克rg35xxplus简评"><a href="#安伯尼克rg35xxplus简评" class="headerlink" title="安伯尼克rg35xxplus简评"></a>安伯尼克rg35xxplus简评</h3><h4 id="三台安伯尼克共同的缺点问题"><a href="#三台安伯尼克共同的缺点问题" class="headerlink" title="三台安伯尼克共同的缺点问题"></a>三台安伯尼克共同的缺点问题</h4><ol>
+<li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
+<li>快充的typec to typec线没法充电，只能用低端的线。</li>
+<li>wifi性能差，隔了两面墙，连上wifi几乎要20秒。</li>
+<li>每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。</li>
+</ol>
+<h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ol>
 <li>手感舒服，勉强能单手操作，menu键容易按，位置也方便。</li>
 <li>双tf卡，掌机多的，卡2换个机器就能继续玩，方便。</li>
 </ol>
 <h4 id="缺点或bug"><a href="#缺点或bug" class="headerlink" title="缺点或bug"></a>缺点或bug</h4><ol>
 <li>关机再开机，系统时间总会差几分钟，没关机待机的时候也会差，测试大概每2小时会快1分钟。rg34xx没这个问题。</li>
 <li>背面4个按键松松垮垮的。</li>
-<li>每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。</li>
-<li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
-<li>快充的typec线没法充电，只能用低端的线。</li>
-<li>wifi性能差，隔了两面墙，连上wifi几乎要20秒。</li>
 </ol>
 <h3 id="安伯尼克rg34xx简评"><a href="#安伯尼克rg34xx简评" class="headerlink" title="安伯尼克rg34xx简评"></a>安伯尼克rg34xx简评</h3><h4 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h4><ol>
 <li>外形比较像gba吸引眼球。</li>
@@ -18303,11 +18305,7 @@
 <h4 id="缺点或bug-1"><a href="#缺点或bug-1" class="headerlink" title="缺点或bug"></a>缺点或bug</h4><ol>
 <li>对gba原装没有执念，感觉方向键太小了</li>
 <li>menu键在顶端按的姿势不太舒服，设置在掌机正面会方便很多。app里有把select设置成menu的功能，勉强能用。如果把menu放在电源灯的位置就合适了。</li>
-<li>买的冰川蓝，玩的时间长有点汗的时候，感觉外壳黏糊糊的。</li>
-<li>每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。</li>
-<li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
-<li>快充的typec线没法充电，只能用低端的线。</li>
-<li>wifi性能差，隔了两面墙，连上wifi几乎要20秒。</li>
+<li>买的冰川蓝，平时很少手汗，玩的时间长稍微有点汗的时候，感觉外壳黏糊糊的。</li>
 </ol>
 <h3 id="安伯尼克rg34xxsp简评"><a href="#安伯尼克rg34xxsp简评" class="headerlink" title="安伯尼克rg34xxsp简评"></a>安伯尼克rg34xxsp简评</h3><h4 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h4><ol>
 <li>躺着单手玩，可以在转轴位置撑住机器。</li>
@@ -18360,6 +18358,7 @@
 <h3 id="RetroArch的mgba核心玩究极绿宝石一开始就卡住"><a href="#RetroArch的mgba核心玩究极绿宝石一开始就卡住" class="headerlink" title="RetroArch的mgba核心玩究极绿宝石一开始就卡住"></a>RetroArch的mgba核心玩究极绿宝石一开始就卡住</h3><p>rg35xxplus上，开始游戏前按y选择gpsp核心，就可以玩了。<br>fix header不知道对正常游戏有没有影响，不建议使用。<br>fix header只对电脑版的RetroArch有效，rg35xx plus上无效。<br>下载工具gba tool advance 0.7a，打开究极绿宝石 V-5.gba<br>header viewer选项卡中，点击fix header，新保存一个xxx.gba的文件就可以玩了</p>
 <h3 id="同一个游戏但是不同核心间的存档通用"><a href="#同一个游戏但是不同核心间的存档通用" class="headerlink" title="同一个游戏但是不同核心间的存档通用"></a>同一个游戏但是不同核心间的存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件<br>要换成mgba核心，就把这个文件复制到RetroArch\saves\mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
 <h3 id="绿宝石使用gba的gpsp核心，时间固定无法前进的问题"><a href="#绿宝石使用gba的gpsp核心，时间固定无法前进的问题" class="headerlink" title="绿宝石使用gba的gpsp核心，时间固定无法前进的问题"></a>绿宝石使用gba的gpsp核心，时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了</p>
+<h3 id="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"><a href="#pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏" class="headerlink" title="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"></a>pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏</h3><p>进入游戏后按menu，核心选项，video，Renderer，选择D3D12，或者其他<br>修改后要在menu菜单里，关闭游戏，再运行</p>
 ]]></content>
       <categories>
         <category>极客</category>
@@ -19809,6 +19808,7 @@
 <h2 id="git排除文件夹和文件"><a href="#git排除文件夹和文件" class="headerlink" title="git排除文件夹和文件"></a>git排除文件夹和文件</h2><p>新建.gitignore文件，填写</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.gitignore</span><br><span class="line">/新建文件夹</span><br></pre></td></tr></table></figure>
 
+
 <h2 id="potplayer播放4k视频卡"><a href="#potplayer播放4k视频卡" class="headerlink" title="potplayer播放4k视频卡"></a>potplayer播放4k视频卡</h2><p>选项，滤镜，视频解码器，内置解码器&#x2F;DXVA设置，使用视频加速(DXVA)</p>
 <span id="more"></span>
 
@@ -19828,8 +19828,7 @@
 
 <p>正常来说密码是8位，这里除了abcdef，还有两位，搜ascii码表，与井37冒号就代表百分号%，所以真正的密码就是%abcde%f<br>在<a href="http://192.168.1.1/%E9%87%8C%E7%99%BB%E5%BD%95%EF%BC%8C%E8%B4%A6%E5%8F%B7telecomadmin%EF%BC%8C%E6%88%96%E8%80%85useradmin%E5%A5%BD%E5%83%8F%E4%B9%9F%E5%8F%AF%E4%BB%A5%EF%BC%8C%E5%AF%86%E7%A0%81%E5%A1%AB%E5%A5%BD">http://192.168.1.1/里登录，账号telecomadmin，或者useradmin好像也可以，密码填好</a><br>这里我的edge浏览器看不到设置按钮，切到chrome就可以了，点击网络，宽带设置，名称选择3_INTERNET_B_VID_41，ip模式选择IPv4&amp;IPv6<br>路由器里设置好就可以获取ipv6地址了，我的路由器设置Native DHCPv6，StatelessRA，Stateless，地址都自动获取<br>测试<a href="https://test-ipv6.com/">https://test-ipv6.com/</a></p>
 <h2 id="QQNT版占用内存高"><a href="#QQNT版占用内存高" class="headerlink" title="QQNT版占用内存高"></a>QQNT版占用内存高</h2><p>点一下左边的#（QQ频道），再关掉就可以了</p>
-<h2 id="pip安装pyqt5提示wheels错误"><a href="#pip安装pyqt5提示wheels错误" class="headerlink" title="pip安装pyqt5提示wheels错误"></a>pip安装pyqt5提示wheels错误</h2><p>下载<a href="https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/%EF%BC%8C%E5%AE%89%E8%A3%85c++%E6%A1%8C%E9%9D%A2%E5%BC%80%E5%8F%91">https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/，安装c++桌面开发</a></p>
-<p>最开始解决问题了，重装后又不行了，待解决</p>
+<h2 id="pip安装pyqt5提示wheel错误"><a href="#pip安装pyqt5提示wheel错误" class="headerlink" title="pip安装pyqt5提示wheel错误"></a>pip安装pyqt5提示wheel错误</h2><p>下载<a href="https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/%EF%BC%8C%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8c++%E7%9A%84%E6%A1%8C%E9%9D%A2%E5%BC%80%E5%8F%91%EF%BC%8C%E5%8F%B3%E8%BE%B9%E5%8F%AF%E9%80%89%E9%80%89%E5%89%8D%E4%B8%89%E4%B8%AA">https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/，安装使用c++的桌面开发，右边可选选前三个</a></p>
 <h2 id="npm下载速度慢"><a href="#npm下载速度慢" class="headerlink" title="npm下载速度慢"></a>npm下载速度慢</h2><p>命令行输入npm config set registry <a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>
 <h2 id="删除文件夹是提示0x80070091目录不是空的"><a href="#删除文件夹是提示0x80070091目录不是空的" class="headerlink" title="删除文件夹是提示0x80070091目录不是空的"></a>删除文件夹是提示0x80070091目录不是空的</h2><p>复制一个文件进去后再删除</p>
 <h2 id="下载优酷视频"><a href="#下载优酷视频" class="headerlink" title="下载优酷视频"></a>下载优酷视频</h2><p>安装python后pip3 install you-get<br>you-get 视频地址</p>
@@ -21227,7 +21226,7 @@
   <entry>
     <title>单机网页麻将游戏电脑麻将</title>
     <url>/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86/</url>
-    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/kobalab/Majiang">https://github.com/kobalab/Majiang</a><br>原作者演示地址：<a href="https://kobalab.net/majiang/">https://kobalab.net/majiang/</a><br>别人推荐，试了下很方便，随时随地开一局不用等。<br>键盘左右方向选牌，回车键摸切。<br>喇叭图标旁边的加减号是调整出牌速度的，减小就出牌更快。<br>不想吃碰，点屏幕任意地方就可以跳过，不用点叉。<br>打完可以下载牌谱，可以复盘，复盘按灯泡（快捷键I）能显示牌理。</p>
+    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/kobalab/Majiang">https://github.com/kobalab/Majiang</a><br>原作者演示地址：<a href="https://kobalab.net/majiang/">https://kobalab.net/majiang/</a><br>别人推荐，试了下很方便，随时随地开一局不用等。<br>键盘左右方向选牌，回车键摸切。<br>喇叭图标旁边的加减号是调整出牌速度的，减小就出牌更快。<br>不想吃碰，点屏幕任意地方就可以跳过，不用点叉。<br>打完可以下载牌谱，可以复盘，复盘按灯泡（快捷键I）能显示牌理，上下出牌，左右跳到牌局开头结束，空格自动播放。</p>
 <span id="more"></span>
 
 <h2 id="自己编译出成品"><a href="#自己编译出成品" class="headerlink" title="自己编译出成品"></a>自己编译出成品</h2><p>github下载整个项目压缩包，解压，右键在终端中打开，输入命令</p>
@@ -21239,7 +21238,7 @@
 <li>玩的时候直接能显示当前手牌的牌谱，或者发送到牌谱。</li>
 <li>不鸣牌，直接胡牌的开关。</li>
 <li>界面缩放。</li>
-<li>显示牌山。</li>
+<li>更接近真实麻将的情况，显示牌山和骰子。</li>
 <li>和了后显示符数的计算，像是任天堂的役满游戏里一样。</li>
 <li>增加一些快捷键，像是鼠标右键摸切之类的。</li>
 </ol>
@@ -21249,6 +21248,21 @@
       </categories>
       <tags>
         <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo生成go页面作为短链接，不修改原结构</title>
+    <url>/2024/04/22/hexo%E7%94%9F%E6%88%90go%E9%A1%B5%E9%9D%A2%E4%BD%9C%E4%B8%BA%E7%9F%AD%E9%93%BE%E6%8E%A5%E4%B8%8D%E4%BF%AE%E6%94%B9%E5%8E%9F%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.22<br>hexo主题hexo-theme-next</p>
+<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>hexo的网页结构比较复杂，文章多又不想使用插件来改变结构<br>原页面<a href="https://andi.wang/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86">https://andi.wang/2025/04/18/单机网页麻将游戏电脑麻将</a><br>生成后的短链接<a href="https://andi.wang/go?id=071">https://andi.wang/go?id=071</a></p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>仅修改go.html文件，对博客原来的结构没有影响<br>python程序源码[<a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E5%A4%84%E7%90%86hexo%E7%9A%84_post%E6%96%87%E4%BB%B6%E5%A4%B9%E6%8C%89%E6%97%B6%E9%97%B4%E6%8E%92%E5%BA%8F001%E5%BC%80%E5%A7%8B%E4%BD%9C%E4%B8%BA%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC%E7%94%9F%E6%88%90go.html%EF%BC%88%E6%8B%96%E6%8B%BD%EF%BC%8C_post%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%89.py]">https://github.com/wangandi520/andyspythonscript/blob/main/处理hexo的_post文件夹按时间排序001开始作为短链接跳转生成go.html（拖拽，_post文件夹）.py]</a><br>拖拽hexo博客内的_post文件夹到python程序，会生成go.html<br>在网页根目录新建go文件夹，把go.html改名成index.html放进去<br>注意文章排序是每个文章内的date最旧的是001开始排序的，新的文章date要是在其他文章中间的话，排序序号会变化</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
