@@ -67,11 +67,11 @@
     <link href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/"/>
     <id>https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/</id>
     <published>2025-03-28T15:11:43.000Z</published>
-    <updated>2025-04-15T15:55:14.894Z</updated>
+    <updated>2025-04-24T06:01:49.879Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.03.29&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.04.24&lt;/p&gt;
 &lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;在vscode中，按下Ctrl+Shift+I快捷键，识别当前光标所在行中第二个和第三个竖线（&lt;code&gt;|&lt;/code&gt;）之间的数字，并将其加1。&lt;/p&gt;
 &lt;p&gt;下载地址&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01number-incrementer.zip&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;原数据&lt;/p&gt;
@@ -96,11 +96,11 @@
     <link href="https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/"/>
     <id>https://andi.wang/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/</id>
     <published>2025-03-28T09:01:22.000Z</published>
-    <updated>2025-04-15T15:55:09.338Z</updated>
+    <updated>2025-04-24T06:01:46.119Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.03.29&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.04.24&lt;/p&gt;
 &lt;h2 id=&quot;完成的功能&quot;&gt;&lt;a href=&quot;#完成的功能&quot; class=&quot;headerlink&quot; title=&quot;完成的功能&quot;&gt;&lt;/a&gt;完成的功能&lt;/h2&gt;&lt;p&gt;在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期&lt;/p&gt;
 &lt;p&gt;下载地址&lt;a href=&quot;https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9Fupdate-date-to-today.zip&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;原数据&lt;/p&gt;
@@ -125,18 +125,19 @@
     <link href="https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
     <id>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <published>2025-03-26T10:12:11.000Z</published>
-    <updated>2025-04-22T01:30:51.137Z</updated>
+    <updated>2025-04-24T05:00:15.055Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.4.15&lt;/p&gt;
-&lt;h2 id=&quot;总体评分&quot;&gt;&lt;a href=&quot;#总体评分&quot; class=&quot;headerlink&quot; title=&quot;总体评分&quot;&gt;&lt;/a&gt;总体评分&lt;/h2&gt;&lt;p&gt;及格分数7分&lt;br&gt;安伯尼克rg35xxsp，7.8分&lt;br&gt;安伯尼克rg35xxplus，7分&lt;br&gt;安伯尼克rg34xx，5分&lt;br&gt;miyoo mini v4，4分&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.04.24&lt;/p&gt;
+&lt;h2 id=&quot;总体评分&quot;&gt;&lt;a href=&quot;#总体评分&quot; class=&quot;headerlink&quot; title=&quot;总体评分&quot;&gt;&lt;/a&gt;总体评分&lt;/h2&gt;&lt;p&gt;及格分数7分&lt;br&gt;安伯尼克rg35xxsp，7.5分&lt;br&gt;安伯尼克rg35xxplus，6分&lt;br&gt;安伯尼克rg34xx，5分&lt;br&gt;miyoo mini v4，3分&lt;/p&gt;
 &lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。&lt;br&gt;简单评价一下安伯尼克rg35xxplus，rg34xx，miyoo mini v4这三台掌机。&lt;/p&gt;
 &lt;h3 id=&quot;安伯尼克rg35xxplus简评&quot;&gt;&lt;a href=&quot;#安伯尼克rg35xxplus简评&quot; class=&quot;headerlink&quot; title=&quot;安伯尼克rg35xxplus简评&quot;&gt;&lt;/a&gt;安伯尼克rg35xxplus简评&lt;/h3&gt;&lt;h4 id=&quot;三台安伯尼克共同的缺点问题&quot;&gt;&lt;a href=&quot;#三台安伯尼克共同的缺点问题&quot; class=&quot;headerlink&quot; title=&quot;三台安伯尼克共同的缺点问题&quot;&gt;&lt;/a&gt;三台安伯尼克共同的缺点问题&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;玩游戏的时候电池盖轻微松动，不是很舒服。&lt;/li&gt;
-&lt;li&gt;快充的typec to typec线没法充电，只能用低端的线。&lt;/li&gt;
+&lt;li&gt;快充的typec to typec线没法充电，只能用低端的线，从10%到充满大概3-5小时，没仔细算。&lt;/li&gt;
 &lt;li&gt;wifi性能差，隔了两面墙，连上wifi几乎要20秒。&lt;/li&gt;
 &lt;li&gt;每次退出游戏很慢，测试了下大概10秒，有点离谱了，进游戏才6秒。&lt;/li&gt;
+&lt;li&gt;在主界面待机，一晚8小时耗电35%。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&quot;优点&quot;&gt;&lt;a href=&quot;#优点&quot; class=&quot;headerlink&quot; title=&quot;优点&quot;&gt;&lt;/a&gt;优点&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;手感舒服，勉强能单手操作，menu键容易按，位置也方便。&lt;/li&gt;
@@ -159,7 +160,7 @@
 &lt;li&gt;躺着单手玩，可以在转轴位置撑住机器。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&quot;缺点或bug-2&quot;&gt;&lt;a href=&quot;#缺点或bug-2&quot; class=&quot;headerlink&quot; title=&quot;缺点或bug&quot;&gt;&lt;/a&gt;缺点或bug&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;应用中心，apps，电源灯开关，设置关闭后，开屏状态充电，电源灯又会变成常亮状态。&lt;/li&gt;
+&lt;li&gt;应用中心，apps，电源灯开关，设置关闭后，开屏状态充电，电源灯又会变成常亮状态。重启后&lt;/li&gt;
 &lt;li&gt;买的绿透色，说是改进过手感，感觉还是偏硬。&lt;/li&gt;
 &lt;li&gt;设计问题，熄屏的时候开着盖，再合上盖，会变成唤醒状态。&lt;/li&gt;
 &lt;/ol&gt;
