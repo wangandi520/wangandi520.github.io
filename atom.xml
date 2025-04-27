@@ -125,7 +125,7 @@
     <link href="https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
     <id>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <published>2025-03-26T10:12:11.000Z</published>
-    <updated>2025-04-27T13:38:57.279Z</updated>
+    <updated>2025-04-27T15:04:35.441Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -183,7 +183,8 @@
 &lt;h4 id=&quot;洋葱系统onion-os问题&quot;&gt;&lt;a href=&quot;#洋葱系统onion-os问题&quot; class=&quot;headerlink&quot; title=&quot;洋葱系统onion os问题&quot;&gt;&lt;/a&gt;洋葱系统onion os问题&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;4.3和4.4一样，耗电很快，纯待机1小时10%左右，电量图标有时不更新，要进游戏再退出才会变。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&quot;更新官方系统的retroarch到最新版1-20-0&quot;&gt;&lt;a href=&quot;#更新官方系统的retroarch到最新版1-20-0&quot; class=&quot;headerlink&quot; title=&quot;更新官方系统的retroarch到最新版1.20.0&quot;&gt;&lt;/a&gt;更新官方系统的retroarch到最新版1.20.0&lt;/h4&gt;&lt;p&gt;下载洋葱系统&lt;a href=&quot;https://github.com/OnionUI/Onion/releases%E7%9A%84Onion&quot;&gt;https://github.com/OnionUI/Onion/releases的Onion&lt;/a&gt; V4.4.0-beta2，已经存在网盘&lt;br&gt;解压Onion-v4.4.0-beta2-f11f7a0d.zip里RetroArch&#92;retroarch.pak文件&lt;br&gt;用winrar打开retroarch.pak文件，解压到tf卡的RetroArch，覆盖&lt;/p&gt;</summary>
+&lt;h4 id=&quot;更新官方系统的retroarch到最新版1-20-0&quot;&gt;&lt;a href=&quot;#更新官方系统的retroarch到最新版1-20-0&quot; class=&quot;headerlink&quot; title=&quot;更新官方系统的retroarch到最新版1.20.0&quot;&gt;&lt;/a&gt;更新官方系统的retroarch到最新版1.20.0&lt;/h4&gt;&lt;p&gt;下载洋葱系统&lt;a href=&quot;https://github.com/OnionUI/Onion/releases%E7%9A%84Onion&quot;&gt;https://github.com/OnionUI/Onion/releases的Onion&lt;/a&gt; V4.4.0-beta2，已经存在网盘&lt;br&gt;解压Onion-v4.4.0-beta2-f11f7a0d.zip里RetroArch&#92;retroarch.pak文件&lt;br&gt;用winrar打开retroarch.pak文件，解压到tf卡的RetroArch，覆盖&lt;/p&gt;
+&lt;h4 id=&quot;玩nds游戏&quot;&gt;&lt;a href=&quot;#玩nds游戏&quot; class=&quot;headerlink&quot; title=&quot;玩nds游戏&quot;&gt;&lt;/a&gt;玩nds游戏&lt;/h4&gt;&lt;p&gt;官方系统本来不支持nds游戏，下载网盘的drastic-v1.9_miyoo_修正聲音問題_測試版.zip&lt;br&gt;解压缩，drastic文件夹放到tf卡的emu文件夹里，系统，模拟器，drastic，就可以玩了&lt;/p&gt;</summary>
     
     
     

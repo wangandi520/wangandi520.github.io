@@ -18410,6 +18410,7 @@
 <li>4.3和4.4一样，耗电很快，纯待机1小时10%左右，电量图标有时不更新，要进游戏再退出才会变。</li>
 </ol>
 <h4 id="更新官方系统的retroarch到最新版1-20-0"><a href="#更新官方系统的retroarch到最新版1-20-0" class="headerlink" title="更新官方系统的retroarch到最新版1.20.0"></a>更新官方系统的retroarch到最新版1.20.0</h4><p>下载洋葱系统<a href="https://github.com/OnionUI/Onion/releases%E7%9A%84Onion">https://github.com/OnionUI/Onion/releases的Onion</a> V4.4.0-beta2，已经存在网盘<br>解压Onion-v4.4.0-beta2-f11f7a0d.zip里RetroArch\retroarch.pak文件<br>用winrar打开retroarch.pak文件，解压到tf卡的RetroArch，覆盖</p>
+<h4 id="玩nds游戏"><a href="#玩nds游戏" class="headerlink" title="玩nds游戏"></a>玩nds游戏</h4><p>官方系统本来不支持nds游戏，下载网盘的drastic-v1.9_miyoo_修正聲音問題_測試版.zip<br>解压缩，drastic文件夹放到tf卡的emu文件夹里，系统，模拟器，drastic，就可以玩了</p>
 <span id="more"></span>
 
 <hr>
@@ -18438,7 +18439,7 @@
 <h3 id="同一个游戏但是不同核心间的存档通用"><a href="#同一个游戏但是不同核心间的存档通用" class="headerlink" title="同一个游戏但是不同核心间的存档通用"></a>同一个游戏但是不同核心间的存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件<br>要换成mgba核心，就把这个文件复制到RetroArch\saves\mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
 <h3 id="绿宝石使用gba的gpsp核心，时间固定无法前进的问题"><a href="#绿宝石使用gba的gpsp核心，时间固定无法前进的问题" class="headerlink" title="绿宝石使用gba的gpsp核心，时间固定无法前进的问题"></a>绿宝石使用gba的gpsp核心，时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了</p>
 <h3 id="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"><a href="#pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏" class="headerlink" title="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"></a>pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏</h3><p>进入游戏后按menu，核心选项，video，Renderer，选择D3D12，或者其他<br>修改后要在menu菜单里，关闭游戏，再运行</p>
-<h3 id="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"><a href="#存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内" class="headerlink" title="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"></a>存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内</h3><p>比如使用gpsp核心的gba游戏状态存在states\xxx.state，如果希望存在states\gpSP\xxx.state<br>retroarch，settings，user interface，show advanced settings<br>之后进入setting，saving，sort saves states into folders by core name<br>configuration file，save current configuration</p>
+<h3 id="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"><a href="#存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内" class="headerlink" title="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"></a>存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内</h3><p>比如使用gpsp核心的gba游戏状态存在states\xxx.state，如果希望存在states\gpSP\xxx.state<br>retroarch，设置，界面，显示高级设置<br>之后进入setting，存档，按核心名称分文件夹排序状态存储<br>配置文件，保存当前配置</p>
 <h3 id="部分中文乱码"><a href="#部分中文乱码" class="headerlink" title="部分中文乱码"></a>部分中文乱码</h3><p>如果使用的是ozone主题，就在\assets\ozone，找一个粗体覆盖bold.ttf，普通字体覆盖regular.ttf</p>
 ]]></content>
       <categories>
