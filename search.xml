@@ -18355,9 +18355,11 @@
     <title>开源掌机和RetroArch个人体验</title>
     <url>/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.24</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.28</p>
 <h2 id="总体评分"><a href="#总体评分" class="headerlink" title="总体评分"></a>总体评分</h2><p>及格分数7分<br>安伯尼克rg35xxsp，7分<br>安伯尼克rg35xxplus，6分<br>安伯尼克rg34xx，5分<br>miyoo mini v4，3分</p>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价一下安伯尼克rg35xxplus，rg34xx，miyoo mini v4这三台掌机。</p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价安伯尼克rg35xxplus，rg35xxsp，rg34xx，miyoo mini v4。</p>
+<span id="more"></span>
+
 <h3 id="安伯尼克rg35xxplus简评"><a href="#安伯尼克rg35xxplus简评" class="headerlink" title="安伯尼克rg35xxplus简评"></a>安伯尼克rg35xxplus简评</h3><h4 id="三台安伯尼克共同的缺点问题"><a href="#三台安伯尼克共同的缺点问题" class="headerlink" title="三台安伯尼克共同的缺点问题"></a>三台安伯尼克共同的缺点问题</h4><ol>
 <li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
 <li>快充的typec to typec线没法充电，只能用低端的线，从10%到充满大概3-5小时，没仔细算。</li>
@@ -18412,8 +18414,6 @@
 </ol>
 <h4 id="更新官方系统的retroarch到最新版1-20-0"><a href="#更新官方系统的retroarch到最新版1-20-0" class="headerlink" title="更新官方系统的retroarch到最新版1.20.0"></a>更新官方系统的retroarch到最新版1.20.0</h4><p>下载洋葱系统<a href="https://github.com/OnionUI/Onion/releases%E7%9A%84Onion">https://github.com/OnionUI/Onion/releases的Onion</a> V4.4.0-beta2，已经存在网盘<br>解压Onion-v4.4.0-beta2-f11f7a0d.zip里RetroArch\retroarch.pak文件<br>用winrar打开retroarch.pak文件，解压到tf卡的RetroArch，覆盖</p>
 <h4 id="玩nds游戏"><a href="#玩nds游戏" class="headerlink" title="玩nds游戏"></a>玩nds游戏</h4><p>官方系统本来不支持nds游戏，下载网盘的drastic-v1.9_miyoo_修正聲音問題_測試版.zip<br>解压缩，drastic文件夹放到tf卡的emu文件夹里，系统，模拟器，drastic，就可以玩了</p>
-<span id="more"></span>
-
 <hr>
 <h2 id="安伯尼克rg35xxplus"><a href="#安伯尼克rg35xxplus" class="headerlink" title="安伯尼克rg35xxplus"></a>安伯尼克rg35xxplus</h2><h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，高级-默认本地目录默认远程目录也可以设置好<br>连接成功后，<br>注意可能要保持掌机屏幕一直在亮屏状态<br>相关目录：<br>nds模拟器drastic：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic<br>retroarch核心：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;retro&#x2F;cores<br>tf卡1：&#x2F;mnt&#x2F;mmc<br>tf卡2：&#x2F;mnt&#x2F;sdcard</p>
 <h3 id="nds模拟器drastic恢复默认设置"><a href="#nds模拟器drastic恢复默认设置" class="headerlink" title="nds模拟器drastic恢复默认设置"></a>nds模拟器drastic恢复默认设置</h3><p>仅用于安伯尼克，远程连接，进入&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic&#x2F;config<br>删除drastic.cfg，把drastic-back.cfg复制一份并改名成drastic.cfg</p>
@@ -18422,27 +18422,27 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu_show_core_updater = &quot;true&quot;</span><br></pre></td></tr></table></figure>
 
 <p>之后在RetroArch菜单，加载核心，最下面下载核心</p>
+<p>或者设置，界面，显示高级设置，开<br>设置，界面，菜单项可见性，打开需要的</p>
+<h3 id="关闭点阵风格着色器（类似gba效果）"><a href="#关闭点阵风格着色器（类似gba效果）" class="headerlink" title="关闭点阵风格着色器（类似gba效果）"></a>关闭点阵风格着色器（类似gba效果）</h3><p>游戏机按菜单，着色器，视频着色器，关<br>菜单，独立配置，保存核心独立配置</p>
+<h3 id="全屏显示并去掉遮罩（gba图标边框等）"><a href="#全屏显示并去掉遮罩（gba图标边框等）" class="headerlink" title="全屏显示并去掉遮罩（gba图标边框等）"></a>全屏显示并去掉遮罩（gba图标边框等）</h3><p>游戏中，按menu，后退，左边点击设置，界面，遮罩，两个都关<br>设置，视频，缩放，宽高比，全屏<br>菜单，快捷菜单，独立配置，保存核心独立配置<br>这个只对同一个核心的游戏有效，暂时没找到全局通用设置的办法</p>
+<h3 id="安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键"><a href="#安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键" class="headerlink" title="安伯尼克rg35xx plus的RetroArch设置更方便的快捷键"></a>安伯尼克rg35xx plus的RetroArch设置更方便的快捷键</h3><p>rg35xx plus中，系统，设置RetroArch设置，启动RetroArch，是<br>RetroArch中，设置，输入，快捷键<br>设置快捷键，按a后再按自己需要设置的键，不设置快捷键，按y，显示—就是没有的快捷键意思<br>启用快捷键：menu或—，相当于组合键，按住menu再按对应的快捷键才会生效<br>快进（保持）或快进（开关）：R2<br>慢放（保持）或慢放（开关）或回溯：L2<br>加载状态（快速读取）：L1<br>保存状态（快速存档）：R1<br>其他没用的都按y取消对应的键，避免冲突<br>菜单，配置文件，保存当前配置</p>
 <hr>
 <h2 id="RetroArch"><a href="#RetroArch" class="headerlink" title="RetroArch"></a>RetroArch</h2><p>设置在电脑端和rg35xxplus一般通用。</p>
 <h3 id="电脑端下载retroarch"><a href="#电脑端下载retroarch" class="headerlink" title="电脑端下载retroarch"></a>电脑端下载retroarch</h3><p><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch.7z">主程序下载</a><br><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch_cores.7z">core下载</a><br><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">或是使用我分享的网盘</a><br>下载完成后core压缩包的dll文件要放到RetroArch-Win64\cores文件夹里，system压缩包解压到RetroArch-Win64\system文件夹内。<br>或者自己下载需要的核心：菜单，加载核心，下载核心，要看网络状况，经常无法下载。</p>
-<h3 id="下载游戏rom"><a href="#下载游戏rom" class="headerlink" title="下载游戏rom"></a>下载游戏rom</h3><p>有很多网站，上面的网盘里也有。</p>
 <h3 id="设置游戏目录"><a href="#设置游戏目录" class="headerlink" title="设置游戏目录"></a>设置游戏目录</h3><p>设置一个游戏目录：菜单，文件夹，下载，选择你的目录</p>
 <h3 id="开始游戏"><a href="#开始游戏" class="headerlink" title="开始游戏"></a>开始游戏</h3><p>菜单，加载游戏，下载，选择游戏，或者直接选择其他目录的游戏也可以。<br>选择游戏后还有选择核心，需要一定程度了解游戏才行。<br>比如我要玩西游释厄传orlegend.zip，核心就选择arcade(finalburn neo)，能使用的核心不只一个。</p>
 <h3 id="使用webdav同步各个设备的RetroArch设置和存档"><a href="#使用webdav同步各个设备的RetroArch设置和存档" class="headerlink" title="使用webdav同步各个设备的RetroArch设置和存档"></a>使用webdav同步各个设备的RetroArch设置和存档</h3><p><strong>测试了一下，跨设备同步不是很智能，经常同步不了，暂时不建议使用</strong></p>
 <p>RetroArch中，设置，存档，云同步<br>云同步后端：webdav<br>云存储url（改成自己的ip地址和端口）：192.168.1.123:51234<br>用户名：ra<br>密码：ra<br>服务器端设置，config.yaml里的用户名密码要一样，参考<a href="https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5">https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5</a></p>
 <p>如果ra出现闪退，就把掌机的wifi关闭，或者服务器端的webdav服务暂停，再停止云同步就行</p>
-<h3 id="关闭点阵风格着色器（类似gba效果）"><a href="#关闭点阵风格着色器（类似gba效果）" class="headerlink" title="关闭点阵风格着色器（类似gba效果）"></a>关闭点阵风格着色器（类似gba效果）</h3><p>游戏机按菜单，着色器，视频着色器，关<br>菜单，独立配置，保存核心独立配置</p>
 <h3 id="部分游戏无法使用摇杆控制方向"><a href="#部分游戏无法使用摇杆控制方向" class="headerlink" title="部分游戏无法使用摇杆控制方向"></a>部分游戏无法使用摇杆控制方向</h3><p>修改设置：<br>菜单，设置，输入，全能手柄按键绑定，端口1控制，模拟转数字类型，左摇杆</p>
-<h3 id="全屏显示并去掉遮罩（gba图标边框等）"><a href="#全屏显示并去掉遮罩（gba图标边框等）" class="headerlink" title="全屏显示并去掉遮罩（gba图标边框等）"></a>全屏显示并去掉遮罩（gba图标边框等）</h3><p>游戏中，按menu，后退，左边点击设置，界面，遮罩，两个都关<br>设置，视频，缩放，宽高比，全屏<br>菜单，快捷菜单，独立配置，保存核心独立配置<br>这个只对同一个核心的游戏有效，暂时没找到全局通用设置的办法</p>
-<h3 id="安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键"><a href="#安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键" class="headerlink" title="安伯尼克rg35xx plus的RetroArch设置更方便的快捷键"></a>安伯尼克rg35xx plus的RetroArch设置更方便的快捷键</h3><p>rg35xx plus中，系统，设置RetroArch设置，启动RetroArch，是<br>RetroArch中，设置，输入，快捷键<br>设置快捷键，按a后再按自己需要设置的键，不设置快捷键，按y，显示—就是没有的快捷键意思<br>启用快捷键：menu或—，相当于组合键，按住menu再按对应的快捷键才会生效<br>快进（保持）或快进（开关）：R2<br>慢放（保持）或慢放（开关）或回溯：L2<br>加载状态（快速读取）：L1<br>保存状态（快速存档）：R1<br>其他没用的都按y取消对应的键，避免冲突<br>菜单，配置文件，保存当前配置</p>
 <h3 id="存档设置"><a href="#存档设置" class="headerlink" title="存档设置"></a>存档设置</h3><p>菜单，设置，存档<br>自动增加状态存储编号，开，作用是每次快速存档，就切换到下一个存档位置，避免错误覆盖<br>增量状态存储的最大数量：10，或者按自己需要设置，扩展名是.state1-10<br>自动保存状态：开，扩展名是.state.auto<br>自动加载存档：开，作用是下次打开游戏，直接载入上次退出游戏的状态（不是自动手动保存的状态）<br>菜单，配置文件，保存当前配置</p>
-<h3 id="RetroArch的mgba核心玩究极绿宝石一开始就卡住"><a href="#RetroArch的mgba核心玩究极绿宝石一开始就卡住" class="headerlink" title="RetroArch的mgba核心玩究极绿宝石一开始就卡住"></a>RetroArch的mgba核心玩究极绿宝石一开始就卡住</h3><p>rg35xxplus上，开始游戏前按y选择gpsp核心，就可以玩了。<br>fix header不知道对正常游戏有没有影响，不建议使用。<br>fix header只对电脑版的RetroArch有效，rg35xx plus上无效。<br>下载工具gba tool advance 0.7a，打开究极绿宝石 V-5.gba<br>header viewer选项卡中，点击fix header，新保存一个xxx.gba的文件就可以玩了</p>
-<h3 id="同一个游戏但是不同核心间的存档通用"><a href="#同一个游戏但是不同核心间的存档通用" class="headerlink" title="同一个游戏但是不同核心间的存档通用"></a>同一个游戏但是不同核心间的存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件<br>要换成mgba核心，就把这个文件复制到RetroArch\saves\mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
-<h3 id="绿宝石使用gba的gpsp核心，时间固定无法前进的问题"><a href="#绿宝石使用gba的gpsp核心，时间固定无法前进的问题" class="headerlink" title="绿宝石使用gba的gpsp核心，时间固定无法前进的问题"></a>绿宝石使用gba的gpsp核心，时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了</p>
-<h3 id="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"><a href="#pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏" class="headerlink" title="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"></a>pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏</h3><p>进入游戏后按menu，核心选项，video，Renderer，选择D3D12，或者其他<br>修改后要在menu菜单里，关闭游戏，再运行</p>
 <h3 id="存档位置"><a href="#存档位置" class="headerlink" title="存档位置"></a>存档位置</h3><p>设置，文件夹，存档里能看到<br>一般文件夹内是按核心分开存档的</p>
 <h3 id="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"><a href="#存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内" class="headerlink" title="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"></a>存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内</h3><p>比如使用gpsp核心的gba游戏状态存在states\xxx.state，如果希望存在states\gpSP\xxx.state<br>retroarch内，设置，界面，显示高级设置<br>设置，存档，按核心名称分文件夹排序状态存储<br>配置文件，保存当前配置</p>
+<h3 id="同一个游戏但是不同核心间的存档通用"><a href="#同一个游戏但是不同核心间的存档通用" class="headerlink" title="同一个游戏但是不同核心间的存档通用"></a>同一个游戏但是不同核心间的存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件<br>要换成mgba核心，就把这个文件复制到RetroArch\saves\mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
 <h3 id="部分中文乱码"><a href="#部分中文乱码" class="headerlink" title="部分中文乱码"></a>部分中文乱码</h3><p>如果使用的是ozone主题，就在\assets\ozone，找一个粗体覆盖bold.ttf，普通字体覆盖regular.ttf</p>
+<h3 id="mgba核心，究极绿宝石一开始就卡住"><a href="#mgba核心，究极绿宝石一开始就卡住" class="headerlink" title="mgba核心，究极绿宝石一开始就卡住"></a>mgba核心，究极绿宝石一开始就卡住</h3><p>选择gpsp核心可以正常游戏。</p>
+<h3 id="gpsp核心，绿宝石时间固定无法前进的问题"><a href="#gpsp核心，绿宝石时间固定无法前进的问题" class="headerlink" title="gpsp核心，绿宝石时间固定无法前进的问题"></a>gpsp核心，绿宝石时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了，可以把.srm复制回gpsp使用。</p>
+<h3 id="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"><a href="#pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏" class="headerlink" title="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"></a>pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏</h3><p>进入游戏后按menu，核心选项，video，Renderer，选择D3D12，或者其他<br>修改后要在menu菜单里，关闭游戏，再运行</p>
 ]]></content>
       <categories>
         <category>极客</category>
