@@ -125,7 +125,7 @@
     <link href="https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
     <id>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <published>2025-03-26T10:12:11.000Z</published>
-    <updated>2025-04-27T15:04:35.441Z</updated>
+    <updated>2025-04-28T07:40:15.414Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -179,6 +179,7 @@
 &lt;li&gt;官方系统最新的好像是20240806，8个月没更新固件了，RetroArch还是1.10版，最新的1.20版。&lt;/li&gt;
 &lt;li&gt;亮度在1-9的时候，屏幕频闪严重。&lt;/li&gt;
 &lt;li&gt;自带的tf卡写的64G，没牌子。&lt;/li&gt;
+&lt;li&gt;耗电很快，8小时从60%到无法开机。第二天测试，大约每小时在主界面纯待机耗电8%。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&quot;洋葱系统onion-os问题&quot;&gt;&lt;a href=&quot;#洋葱系统onion-os问题&quot; class=&quot;headerlink&quot; title=&quot;洋葱系统onion os问题&quot;&gt;&lt;/a&gt;洋葱系统onion os问题&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;4.3和4.4一样，耗电很快，纯待机1小时10%左右，电量图标有时不更新，要进游戏再退出才会变。&lt;/li&gt;
