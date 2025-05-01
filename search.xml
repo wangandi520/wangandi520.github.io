@@ -18355,7 +18355,7 @@
     <title>开源掌机和RetroArch个人体验</title>
     <url>/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.28</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.30</p>
 <h2 id="总体评分"><a href="#总体评分" class="headerlink" title="总体评分"></a>总体评分</h2><p>及格分数7分<br>安伯尼克rg35xxsp，7分<br>安伯尼克rg35xxplus，6分<br>安伯尼克rg34xx，5分<br>miyoo mini v4，3分</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价安伯尼克rg35xxplus，rg35xxsp，rg34xx，miyoo mini v4。</p>
 <span id="more"></span>
@@ -18405,7 +18405,7 @@
 <li>买的复古灰，外壳有点类肤质的感觉，又不太像，有点别扭。</li>
 <li>其他小问题：没双tf卡。没wifi很致命，传游戏麻烦，快充的typec线没法充电，只能用低端的线。</li>
 <li>官方系统最新的好像是20240806，8个月没更新固件了，RetroArch还是1.10版，最新的1.20版。</li>
-<li>亮度在1-9的时候，屏幕频闪严重。</li>
+<li>亮度在1-9的时候，屏幕频闪严重。只有在最高亮度10的时候没频闪。</li>
 <li>自带的tf卡写的64G，没牌子。</li>
 <li>耗电很快，8小时从60%到无法开机。第二天测试，大约每小时在主界面纯待机耗电8%。</li>
 </ol>
@@ -18423,8 +18423,8 @@
 
 <p>之后在RetroArch菜单，加载核心，最下面下载核心</p>
 <p>或者设置，界面，显示高级设置，开<br>设置，界面，菜单项可见性，打开需要的</p>
-<h3 id="关闭点阵风格着色器（类似gba效果）"><a href="#关闭点阵风格着色器（类似gba效果）" class="headerlink" title="关闭点阵风格着色器（类似gba效果）"></a>关闭点阵风格着色器（类似gba效果）</h3><p>游戏机按菜单，着色器，视频着色器，关<br>菜单，独立配置，保存核心独立配置</p>
-<h3 id="全屏显示并去掉遮罩（gba图标边框等）"><a href="#全屏显示并去掉遮罩（gba图标边框等）" class="headerlink" title="全屏显示并去掉遮罩（gba图标边框等）"></a>全屏显示并去掉遮罩（gba图标边框等）</h3><p>游戏中，按menu，后退，左边点击设置，界面，遮罩，两个都关<br>设置，视频，缩放，宽高比，全屏<br>菜单，快捷菜单，独立配置，保存核心独立配置<br>这个只对同一个核心的游戏有效，暂时没找到全局通用设置的办法</p>
+<h3 id="关闭点阵风格着色器（类似gba效果）"><a href="#关闭点阵风格着色器（类似gba效果）" class="headerlink" title="关闭点阵风格着色器（类似gba效果）"></a>关闭点阵风格着色器（类似gba效果）</h3><p>应用中心，apps，tf-1，着色器功能，关闭<br>或者在retroarch游戏中：<br>menu，后退，左边点击设置，，着色器，视频着色器，关<br>菜单，独立配置，保存核心独立配置</p>
+<h3 id="全屏显示并去掉遮罩（gba图标边框等）"><a href="#全屏显示并去掉遮罩（gba图标边框等）" class="headerlink" title="全屏显示并去掉遮罩（gba图标边框等）"></a>全屏显示并去掉遮罩（gba图标边框等）</h3><p>应用中心，apps，tf-1，遮罩功能，关闭<br>或者在retroarch游戏中：<br>menu，后退，左边点击设置，界面，遮罩，两个都关<br>设置，视频，缩放，宽高比，全屏<br>菜单，快捷菜单，独立配置，保存核心独立配置<br>这个只对同一个核心的游戏有效，暂时没找到全局通用设置的办法</p>
 <h3 id="安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键"><a href="#安伯尼克rg35xx-plus的RetroArch设置更方便的快捷键" class="headerlink" title="安伯尼克rg35xx plus的RetroArch设置更方便的快捷键"></a>安伯尼克rg35xx plus的RetroArch设置更方便的快捷键</h3><p>rg35xx plus中，系统，设置RetroArch设置，启动RetroArch，是<br>RetroArch中，设置，输入，快捷键<br>设置快捷键，按a后再按自己需要设置的键，不设置快捷键，按y，显示—就是没有的快捷键意思<br>启用快捷键：menu或—，相当于组合键，按住menu再按对应的快捷键才会生效<br>快进（保持）或快进（开关）：R2<br>慢放（保持）或慢放（开关）或回溯：L2<br>加载状态（快速读取）：L1<br>保存状态（快速存档）：R1<br>其他没用的都按y取消对应的键，避免冲突<br>菜单，配置文件，保存当前配置</p>
 <hr>
 <h2 id="RetroArch"><a href="#RetroArch" class="headerlink" title="RetroArch"></a>RetroArch</h2><p>设置在电脑端和rg35xxplus一般通用。</p>
@@ -19890,6 +19890,7 @@
     <title>电脑手机技巧</title>
     <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<hr>
+<h2 id="windows下打开类似linux镜像的-img文件"><a href="#windows下打开类似linux镜像的-img文件" class="headerlink" title="windows下打开类似linux镜像的.img文件"></a>windows下打开类似linux镜像的.img文件</h2><p>使用diskgenius，菜单，disk，open virtual disk file</p>
 <h2 id="git排除文件夹和文件"><a href="#git排除文件夹和文件" class="headerlink" title="git排除文件夹和文件"></a>git排除文件夹和文件</h2><p>新建.gitignore文件，填写</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.gitignore</span><br><span class="line">/新建文件夹</span><br></pre></td></tr></table></figure>
 
