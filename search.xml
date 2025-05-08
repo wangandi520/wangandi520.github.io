@@ -18423,6 +18423,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Roms</span><br><span class="line">├── A2600</span><br><span class="line">├── A5200</span><br><span class="line">├── A7800</span><br><span class="line">├── A800</span><br><span class="line">├── AMIGA</span><br><span class="line">├── APPS</span><br><span class="line">├── ATARI</span><br><span class="line">├── ATARIST</span><br><span class="line">├── ATOMISWAVE</span><br><span class="line">├── C64</span><br><span class="line">├── CPS1</span><br><span class="line">├── CPS2</span><br><span class="line">├── CPS3</span><br><span class="line">├── DOS</span><br><span class="line">├── DREAMCAST</span><br><span class="line">├── EASYRPG</span><br><span class="line">├── FBNEO</span><br><span class="line">├── FC</span><br><span class="line">├── FDS</span><br><span class="line">├── GB</span><br><span class="line">├── GBA</span><br><span class="line">├── GBC</span><br><span class="line">├── GG</span><br><span class="line">├── GW</span><br><span class="line">├── HBMAME</span><br><span class="line">├── LYNX</span><br><span class="line">├── MAME</span><br><span class="line">├── MD</span><br><span class="line">├── MDCD</span><br><span class="line">├── MSX</span><br><span class="line">├── N64</span><br><span class="line">├── NAOMI</span><br><span class="line">├── NDS</span><br><span class="line">├── NEOCD</span><br><span class="line">├── NEOGEO</span><br><span class="line">├── NGP</span><br><span class="line">├── ONS</span><br><span class="line">├── OPENBOR</span><br><span class="line">├── PCE</span><br><span class="line">├── PCECD</span><br><span class="line">├── PGM2</span><br><span class="line">├── PICO</span><br><span class="line">├── POKE</span><br><span class="line">├── PORTS</span><br><span class="line">├── PS</span><br><span class="line">├── PSP</span><br><span class="line">├── SATURN</span><br><span class="line">├── SCUMMVM</span><br><span class="line">├── SEGA32X</span><br><span class="line">├── SFC</span><br><span class="line">├── SMS</span><br><span class="line">├── VARCADE</span><br><span class="line">├── VB</span><br><span class="line">├── VIC20</span><br><span class="line">└── WS</span><br></pre></td></tr></table></figure>
 
 <h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，高级-默认本地目录默认远程目录也可以设置好<br>连接成功后，<br>注意可能要保持掌机屏幕一直在亮屏状态<br>相关目录：<br>nds模拟器drastic：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic<br>retroarch核心：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;retro&#x2F;cores<br>tf卡1：&#x2F;mnt&#x2F;mmc<br>tf卡2：&#x2F;mnt&#x2F;sdcard</p>
+<h3 id="ssh连接"><a href="#ssh连接" class="headerlink" title="ssh连接"></a>ssh连接</h3><p>ip地址，账号密码是root，需要一些linux基础<br>自己电脑传文件，使用hfs2.4.0rc7</p>
 <h3 id="nds模拟器drastic恢复默认设置"><a href="#nds模拟器drastic恢复默认设置" class="headerlink" title="nds模拟器drastic恢复默认设置"></a>nds模拟器drastic恢复默认设置</h3><p>设置，清除记录，恢复nds默认配置<br>另一种方法：<br>仅用于安伯尼克，远程连接，进入&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic&#x2F;config<br>删除drastic.cfg，把drastic-back.cfg复制一份并改名成drastic.cfg</p>
 <h3 id="关闭点阵风格着色器（类似gba效果）"><a href="#关闭点阵风格着色器（类似gba效果）" class="headerlink" title="关闭点阵风格着色器（类似gba效果）"></a>关闭点阵风格着色器（类似gba效果）</h3><p>应用中心，apps，tf-1，着色器功能，关闭<br>或者在retroarch游戏中：<br>menu，后退，左边点击设置，，着色器，视频着色器，关<br>菜单，独立配置，保存核心独立配置</p>
 <h3 id="全屏显示并去掉遮罩（gba图标边框等）"><a href="#全屏显示并去掉遮罩（gba图标边框等）" class="headerlink" title="全屏显示并去掉遮罩（gba图标边框等）"></a>全屏显示并去掉遮罩（gba图标边框等）</h3><p>应用中心，apps，tf-1，遮罩功能，关闭<br>或者在retroarch游戏中：<br>menu，后退，左边点击设置，界面，遮罩，两个都关<br>设置，视频，缩放，宽高比，全屏<br>菜单，快捷菜单，独立配置，保存核心独立配置<br>这个只对同一个核心的游戏有效，暂时没找到全局通用设置的办法</p>
@@ -21325,6 +21326,63 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ndsi无卡破解刷机过程</title>
+    <url>/2025/05/08/ndsi%E6%97%A0%E5%8D%A1%E7%A0%B4%E8%A7%A3%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.08</p>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用烧录卡，只用sd卡（tf+卡套，或sd卡，后面简写成sd卡）玩游戏</p>
+<h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，1.0J日版系统。其他机型或系统版本适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
+<span id="more"></span>
+
+<h2 id="第一步-下载文件"><a href="#第一步-下载文件" class="headerlink" title="第一步 下载文件"></a>第一步 下载文件</h2><ol>
+<li><p>下载pit.bin<br>ndsi插入sd卡，打开相机（第一次进入可能有个小教程），打开–，上方星星、梅花、红心右边有没有facebook的蓝色图标。<br>如果有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin</a><br>如果没有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin</a></p>
+</li>
+<li><p>下载其他<br><a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z">https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z</a><br><a href="https://problemkaputt.de/unlaunch.zip">https://problemkaputt.de/unlaunch.zip</a><br>或者我的网盘分享 <a href="https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez">https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez</a> 提取码: cdez</p>
+</li>
+<li><p>复制文件到sd卡根目录<br>ndsi拔出sd卡<br>解压TWiLightMenu-DSi.7z，复制BOOT.NDS，_nds<br>解压unlaunch.zip，复制UNLAUNCH.DSI</p>
+</li>
+<li><p>复制文件到sd卡的private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;<br>把这里原来的pit.bin重命名成oldpit.bin，把下载的pit.bin复制过来</p>
+</li>
+<li><p>ndsi插入sd卡</p>
+</li>
+</ol>
+<h2 id="第二步-安装TWiLightMenu，使用Memory-Pit方法"><a href="#第二步-安装TWiLightMenu，使用Memory-Pit方法" class="headerlink" title="第二步 安装TWiLightMenu，使用Memory Pit方法"></a>第二步 安装TWiLightMenu，使用Memory Pit方法</h2><ol>
+<li><p>运行相机<br>进入相机（第一次进入可能有个小教程），点击右上图标进入sd卡，点击右边橙色相册，如果成功破解会闪过红色</p>
+</li>
+<li><p>设置<br>按左右选择语言，中文，按a确定，第二项跟随系统<br>如果下屏出现红色界面，写的guru meditation，不用怕，关机再开机选择english，最后能改成中文（见下方其他设置）。</p>
+</li>
+</ol>
+<h2 id="第三步-安装unlaunch"><a href="#第三步-安装unlaunch" class="headerlink" title="第三步 安装unlaunch"></a>第三步 安装unlaunch</h2><ol>
+<li><p>下载文件<br><a href="https://problemkaputt.de/unlaunch.zip">https://problemkaputt.de/unlaunch.zip</a><br>解压缩UNLAUNCH.DSI放到sd卡根目录</p>
+</li>
+<li><p>安装unlaunch<br>TWiLightMenu界面，点击unlaunch dsi installer（黑白人像图标），进入诡异图片界面<br>点击install now，大概2秒，最下面显示installation complete就可以了<br>按a后退，选择power down，再开机，进入诡异图片界面</p>
+</li>
+<li><p>设置开机自动进入TWiLightMenu<br>options，no button，twilight menu++，save &amp; exit，关机再开机，自动进入TWiLightMenu</p>
+</li>
+</ol>
+<h2 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h2><ol>
+<li><p>清理sd卡<br>进入sd卡<br>删除UNLAUNCH.DSI<br>文件夹private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;，删除pit.bin，把这里的oldpit.bin重命名改回pit.bin</p>
+</li>
+<li><p>复制游戏rom<br>复制游戏rom到sd卡任何文件夹，根目录也可以<br>如果按平台分类，可以参照TWiLightMenu-DSi.7z中的roms文件夹<br>注意gba平台文件名不能有中文，nds可以中文</p>
+</li>
+</ol>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><p>第一次进游戏会比较慢，第二次就好了<br>退出游戏：L+R+方向下+B四个键一起按住2秒，或者L+方向下+select</p>
+<h3 id="其他设置"><a href="#其他设置" class="headerlink" title="其他设置"></a>其他设置</h3><h4 id="修改用户名生日等"><a href="#修改用户名生日等" class="headerlink" title="修改用户名生日等"></a>修改用户名生日等</h4><p>按住a键开机，进入诡异图片界面，选择system settings，按a进入<br>第二页，第一项（用户名，签名，颜色，生日），中间两项修改日期时间<br>第三页，第二项校准手写笔，第三项测试麦克风，第四项连接wifi（接续设定，上级者设定，接续先4未设定，检索，选择wifi后输入密码，ok，ok，ok）<br>最下面按钮退出</p>
+<h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键退出设置</p>
+<h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://dsi.cfw.guide/">https://dsi.cfw.guide/</a></p>
+]]></content>
+      <categories>
+        <category>极客</category>
+      </categories>
+      <tags>
+        <tag>极客</tag>
+        <tag>游戏</tag>
+        <tag>掌机</tag>
+        <tag>ndsi</tag>
       </tags>
   </entry>
   <entry>
