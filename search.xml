@@ -21334,23 +21334,23 @@
     <content><![CDATA[<hr>
 <h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.08</p>
 <h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用烧录卡，只用sd卡（tf+卡套，或sd卡，后面简写成sd卡）玩游戏</p>
-<h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，1.0J日版系统。其他机型或系统版本适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
+<h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，其他机型适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
 <span id="more"></span>
 
 <h2 id="第一步-下载文件"><a href="#第一步-下载文件" class="headerlink" title="第一步 下载文件"></a>第一步 下载文件</h2><ol>
-<li><p>下载pit.bin<br>ndsi插入sd卡，打开相机（第一次进入可能有个小教程），打开–，上方星星、梅花、红心右边有没有facebook的蓝色图标。<br>如果有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin</a><br>如果没有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin</a></p>
+<li><p>下载pit.bin<br>ndsi插入sd卡，打开相机（第一次进入可能有个小教程），点击右上图标进入sd卡，点击右边橙色相册<br>看上方星星、梅花、红心右边有没有facebook的蓝色图标。<br>如果有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin</a><br>如果没有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin</a></p>
 </li>
 <li><p>下载其他<br><a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z">https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z</a><br><a href="https://problemkaputt.de/unlaunch.zip">https://problemkaputt.de/unlaunch.zip</a><br>或者我的网盘分享 <a href="https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez">https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez</a> 提取码: cdez</p>
 </li>
 <li><p>复制文件到sd卡根目录<br>ndsi拔出sd卡<br>解压TWiLightMenu-DSi.7z，复制BOOT.NDS，_nds<br>解压unlaunch.zip，复制UNLAUNCH.DSI</p>
 </li>
-<li><p>复制文件到sd卡的private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;<br>把这里原来的pit.bin重命名成oldpit.bin，把下载的pit.bin复制过来</p>
+<li><p>复制文件到sd卡的private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;<br>把这里原来的pit.bin重命名成oldpit.bin，把下载的pit.bin复制过来<br>如果没这个文件夹，可能是没进入过相机</p>
 </li>
 <li><p>ndsi插入sd卡</p>
 </li>
 </ol>
 <h2 id="第二步-安装TWiLightMenu，使用Memory-Pit方法"><a href="#第二步-安装TWiLightMenu，使用Memory-Pit方法" class="headerlink" title="第二步 安装TWiLightMenu，使用Memory Pit方法"></a>第二步 安装TWiLightMenu，使用Memory Pit方法</h2><ol>
-<li><p>运行相机<br>进入相机（第一次进入可能有个小教程），点击右上图标进入sd卡，点击右边橙色相册，如果成功破解会闪过红色</p>
+<li><p>运行相机<br>进入相机，点击右上图标进入sd卡，点击右边橙色相册，如果成功破解会闪过红色</p>
 </li>
 <li><p>设置<br>按左右选择语言，中文，按a确定，第二项跟随系统<br>如果下屏出现红色界面，写的guru meditation，不用怕，关机再开机选择english，最后能改成中文（见下方其他设置）。</p>
 </li>
@@ -21364,9 +21364,9 @@
 </li>
 </ol>
 <h2 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h2><ol>
-<li><p>清理sd卡<br>进入sd卡<br>删除UNLAUNCH.DSI<br>文件夹private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;，删除pit.bin，把这里的oldpit.bin重命名改回pit.bin</p>
+<li><p>清理sd卡<br>进入sd卡<br>删除UNLAUNCH.DSI<br>文件夹private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;，删除pit.bin，把这里的oldpit.bin改回pit.bin</p>
 </li>
-<li><p>复制游戏rom<br>复制游戏rom到sd卡任何文件夹，根目录也可以<br>如果按平台分类，可以参照TWiLightMenu-DSi.7z中的roms文件夹<br>注意gba平台文件名不能有中文，nds可以中文</p>
+<li><p>复制游戏rom<br>复制游戏rom到sd卡任何文件夹，根目录也可以<br>如果按平台分类，可以参照TWiLightMenu-DSi.7z中的roms文件夹<br>注意gba和其他一些平台（未全部测试）文件名不能有中文，nds可以中文</p>
 </li>
 </ol>
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><p>第一次进游戏会比较慢，第二次就好了<br>退出游戏：L+R+方向下+B四个键一起按住2秒，或者L+方向下+select</p>
