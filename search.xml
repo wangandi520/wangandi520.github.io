@@ -21369,7 +21369,7 @@
 <li><p>复制游戏rom<br>复制游戏rom到sd卡任何文件夹，根目录也可以<br>如果按平台分类，可以参照TWiLightMenu-DSi.7z中的roms文件夹<br>注意gba和其他一些平台（未全部测试）文件名不能有中文，nds可以中文</p>
 </li>
 </ol>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="操作方法（切换菜单，退出游戏）"><a href="#操作方法（切换菜单，退出游戏）" class="headerlink" title="操作方法（切换菜单，退出游戏）"></a>操作方法（切换菜单，退出游戏）</h3><p>第一次进游戏会比较慢，第二次就好了<br>唤出菜单：L+方向下+select<br>退出游戏：L+R+方向下+B四个键一起按住2秒<br>gba退出游戏：点击下屏（好像没有退出选项），或者轻按关机</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="操作方法（切换菜单，退出游戏）"><a href="#操作方法（切换菜单，退出游戏）" class="headerlink" title="操作方法（切换菜单，退出游戏）"></a>操作方法（切换菜单，退出游戏）</h3><p>第一次进游戏会比较慢，第二次就好了<br>调节背光亮度：按住select，音量加减<br>唤出菜单：L+方向下+select<br>退出游戏：L+R+方向下+B四个键一起按住2秒<br>gba退出游戏：点击下屏（好像没有退出选项），或者轻按关机</p>
 <h3 id="其他设置"><a href="#其他设置" class="headerlink" title="其他设置"></a>其他设置</h3><h4 id="修改用户名生日等"><a href="#修改用户名生日等" class="headerlink" title="修改用户名生日等"></a>修改用户名生日等</h4><p>按住a键开机，进入诡异图片界面，选择system settings，按a进入<br>第二页，第一项（用户名，签名，颜色，生日），中间两项修改日期时间<br>第三页，第二项校准手写笔，第三项测试麦克风，第四项连接wifi（接续设定，上级者设定，接续先4未设定，检索，选择wifi后输入密码，ok，ok，ok）<br>最下面按钮退出</p>
 <h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键退出设置</p>
 <h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
