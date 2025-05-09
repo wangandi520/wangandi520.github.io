@@ -18422,7 +18422,7 @@
 <h3 id="tf卡2一般结构"><a href="#tf卡2一般结构" class="headerlink" title="tf卡2一般结构"></a>tf卡2一般结构</h3><p>nds存档在save_nds<br>psp存档在.config\ppsspp<br>其他retroarch存档在saves_RA，states_RA<br>游戏存在Roms文件夹，文件夹内容：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Roms</span><br><span class="line">├── A2600</span><br><span class="line">├── A5200</span><br><span class="line">├── A7800</span><br><span class="line">├── A800</span><br><span class="line">├── AMIGA</span><br><span class="line">├── APPS</span><br><span class="line">├── ATARI</span><br><span class="line">├── ATARIST</span><br><span class="line">├── ATOMISWAVE</span><br><span class="line">├── C64</span><br><span class="line">├── CPS1</span><br><span class="line">├── CPS2</span><br><span class="line">├── CPS3</span><br><span class="line">├── DOS</span><br><span class="line">├── DREAMCAST</span><br><span class="line">├── EASYRPG</span><br><span class="line">├── FBNEO</span><br><span class="line">├── FC</span><br><span class="line">├── FDS</span><br><span class="line">├── GB</span><br><span class="line">├── GBA</span><br><span class="line">├── GBC</span><br><span class="line">├── GG</span><br><span class="line">├── GW</span><br><span class="line">├── HBMAME</span><br><span class="line">├── LYNX</span><br><span class="line">├── MAME</span><br><span class="line">├── MD</span><br><span class="line">├── MDCD</span><br><span class="line">├── MSX</span><br><span class="line">├── N64</span><br><span class="line">├── NAOMI</span><br><span class="line">├── NDS</span><br><span class="line">├── NEOCD</span><br><span class="line">├── NEOGEO</span><br><span class="line">├── NGP</span><br><span class="line">├── ONS</span><br><span class="line">├── OPENBOR</span><br><span class="line">├── PCE</span><br><span class="line">├── PCECD</span><br><span class="line">├── PGM2</span><br><span class="line">├── PICO</span><br><span class="line">├── POKE</span><br><span class="line">├── PORTS</span><br><span class="line">├── PS</span><br><span class="line">├── PSP</span><br><span class="line">├── SATURN</span><br><span class="line">├── SCUMMVM</span><br><span class="line">├── SEGA32X</span><br><span class="line">├── SFC</span><br><span class="line">├── SMS</span><br><span class="line">├── VARCADE</span><br><span class="line">├── VB</span><br><span class="line">├── VIC20</span><br><span class="line">└── WS</span><br></pre></td></tr></table></figure>
 
-<h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，高级-默认本地目录默认远程目录也可以设置好<br>连接成功后，<br>注意可能要保持掌机屏幕一直在亮屏状态<br>相关目录：<br>nds模拟器drastic：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic<br>retroarch核心：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;retro&#x2F;cores<br>tf卡1：&#x2F;mnt&#x2F;mmc<br>tf卡2：&#x2F;mnt&#x2F;sdcard</p>
+<h3 id="远程传输文件"><a href="#远程传输文件" class="headerlink" title="远程传输文件"></a>远程传输文件</h3><p>rg35xxplus连接wifi，记住ip地址。电脑打开ftp软件，例如FileZilla，连接主机填rg35xxplus的ip，例如192.168.1.118<br>协议sftp（注意不是ftp），端口22，用户名root，密码root，高级-默认本地目录默认远程目录也可以设置好<br>连接成功后，<br>注意可能要保持掌机屏幕一直在亮屏状态<br>相关目录：<br>nds模拟器drastic：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic<br>retroarch核心：&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;retro&#x2F;cores<br>retroarch配置文件：&#x2F;.config&#x2F;retroarch&#x2F;retroarch.cfg<br>tf卡1：&#x2F;mnt&#x2F;mmc<br>tf卡2：&#x2F;mnt&#x2F;sdcard</p>
 <h3 id="ssh连接"><a href="#ssh连接" class="headerlink" title="ssh连接"></a>ssh连接</h3><p>ip地址，账号密码是root，需要一些linux基础<br>自己电脑传文件，使用hfs2.4.0rc7</p>
 <h3 id="nds模拟器drastic恢复默认设置"><a href="#nds模拟器drastic恢复默认设置" class="headerlink" title="nds模拟器drastic恢复默认设置"></a>nds模拟器drastic恢复默认设置</h3><p>设置，清除记录，恢复nds默认配置<br>另一种方法：<br>仅用于安伯尼克，远程连接，进入&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic&#x2F;config<br>删除drastic.cfg，把drastic-back.cfg复制一份并改名成drastic.cfg</p>
 <h3 id="关闭点阵风格着色器（类似gba效果）"><a href="#关闭点阵风格着色器（类似gba效果）" class="headerlink" title="关闭点阵风格着色器（类似gba效果）"></a>关闭点阵风格着色器（类似gba效果）</h3><p>应用中心，apps，tf-1，着色器功能，关闭<br>或者在retroarch游戏中：<br>menu，后退，左边点击设置，，着色器，视频着色器，关<br>菜单，独立配置，保存核心独立配置</p>
@@ -18446,6 +18446,9 @@
 <h3 id="mgba核心，究极绿宝石一开始就卡住"><a href="#mgba核心，究极绿宝石一开始就卡住" class="headerlink" title="mgba核心，究极绿宝石一开始就卡住"></a>mgba核心，究极绿宝石一开始就卡住</h3><p>选择gpsp核心可以正常游戏。</p>
 <h3 id="gpsp核心，绿宝石时间固定无法前进的问题"><a href="#gpsp核心，绿宝石时间固定无法前进的问题" class="headerlink" title="gpsp核心，绿宝石时间固定无法前进的问题"></a>gpsp核心，绿宝石时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了，可以把.srm复制回gpsp使用。</p>
 <h3 id="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"><a href="#pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏" class="headerlink" title="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"></a>pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏</h3><p>进入游戏后按menu，核心选项，video，Renderer，选择D3D12，或者其他<br>修改后要在menu菜单里，关闭游戏，再运行</p>
+<h3 id="melondsds核心设置单屏显示R2切换上下屏"><a href="#melondsds核心设置单屏显示R2切换上下屏" class="headerlink" title="melondsds核心设置单屏显示R2切换上下屏"></a>melondsds核心设置单屏显示R2切换上下屏</h3><p>游戏中，菜单，核心选项，screen，layout#1:top only，layout#2:bottom only</p>
+<h3 id="citra核心设置单屏显示"><a href="#citra核心设置单屏显示" class="headerlink" title="citra核心设置单屏显示"></a>citra核心设置单屏显示</h3><p>游戏中，菜单，核心选项，screen layout positioning：single screen only<br>切换屏幕快捷键L3：左摇杆按下，或者左侧背键</p>
+<h3 id="设置retroarch菜单内右方a键确定下方b键取消（日式）"><a href="#设置retroarch菜单内右方a键确定下方b键取消（日式）" class="headerlink" title="设置retroarch菜单内右方a键确定下方b键取消（日式）"></a>设置retroarch菜单内右方a键确定下方b键取消（日式）</h3><p>菜单，设置，输入，菜单控制，对调菜单中的确定和取消键：关<br>开的话，就是下方按键确定，右方按键取消</p>
 ]]></content>
       <categories>
         <category>极客</category>
@@ -19892,6 +19895,7 @@
     <title>电脑手机技巧</title>
     <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<hr>
+<h2 id="ttc字体转成ttf"><a href="#ttc字体转成ttf" class="headerlink" title="ttc字体转成ttf"></a>ttc字体转成ttf</h2><p>搜索下载运行FontCreator，tools，extract from collection</p>
 <h2 id="查看linux发行版内核等"><a href="#查看linux发行版内核等" class="headerlink" title="查看linux发行版内核等"></a>查看linux发行版内核等</h2><p>lsb_release -a<br>uname -a</p>
 <h2 id="windows下打开类似linux镜像的-img文件"><a href="#windows下打开类似linux镜像的-img文件" class="headerlink" title="windows下打开类似linux镜像的.img文件"></a>windows下打开类似linux镜像的.img文件</h2><p>使用diskgenius，菜单，disk，open virtual disk file</p>
 <h2 id="git排除文件夹和文件"><a href="#git排除文件夹和文件" class="headerlink" title="git排除文件夹和文件"></a>git排除文件夹和文件</h2><p>新建.gitignore文件，填写</p>
@@ -21335,6 +21339,7 @@
 <h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.08</p>
 <h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用烧录卡，只用sd卡（tf+卡套，或sd卡，后面简写成sd卡）玩游戏<br>游戏roms通过网上下载，存到sd卡上<br>支持的平台参照TWiLightMenu-DSi.7z中的roms文件夹</p>
 <h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，其他机型适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
+<h2 id="闲鱼收的机器情况"><a href="#闲鱼收的机器情况" class="headerlink" title="闲鱼收的机器情况"></a>闲鱼收的机器情况</h2><p>350元白色，外壳没划痕没污渍，也没发黄<br>a面有液体擦试过的痕迹<br>下屏轻微发黄，贴膜撕掉后全是划痕<br>上屏撕掉贴膜，有5粒很大的灰尘在屏幕里，清理不了</p>
 <span id="more"></span>
 
 <h2 id="第一步-下载文件"><a href="#第一步-下载文件" class="headerlink" title="第一步 下载文件"></a>第一步 下载文件</h2><ol>
@@ -21342,7 +21347,7 @@
 </li>
 <li><p>下载其他<br><a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z">https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z</a><br><a href="https://problemkaputt.de/unlaunch.zip">https://problemkaputt.de/unlaunch.zip</a><br>或者我的网盘分享 <a href="https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez">https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez</a> 提取码: cdez</p>
 </li>
-<li><p>复制文件到sd卡根目录<br>ndsi拔出sd卡<br>解压TWiLightMenu-DSi.7z，复制BOOT.NDS，_nds<br>解压unlaunch.zip，复制UNLAUNCH.DSI</p>
+<li><p>复制文件到sd卡根目录<br>ndsi拔出sd卡<br>解压TWiLightMenu-DSi.7z，复制BOOT.NDS，_nds。升级TWiLightMenu的话覆盖复制<br>解压unlaunch.zip，复制UNLAUNCH.DSI</p>
 </li>
 <li><p>复制文件到sd卡的private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;<br>把这里原来的pit.bin重命名成oldpit.bin，把下载的pit.bin复制过来<br>如果没这个文件夹，可能是没进入过相机</p>
 </li>
