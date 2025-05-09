@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-05-09T01:44:46.437Z</updated>
+  <updated>2025-05-09T14:04:40.282Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>ndsi无卡破解刷机过程</title>
-    <link href="https://andi.wang/2025/05/08/ndsi%E6%97%A0%E5%8D%A1%E7%A0%B4%E8%A7%A3%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
-    <id>https://andi.wang/2025/05/08/ndsi%E6%97%A0%E5%8D%A1%E7%A0%B4%E8%A7%A3%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</id>
+    <title>ndsi无烧录卡刷TWiLightMenu过程</title>
+    <link href="https://andi.wang/2025/05/08/ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B/"/>
+    <id>https://andi.wang/2025/05/08/ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B/</id>
     <published>2025-05-08T03:15:44.000Z</published>
-    <updated>2025-05-09T01:44:46.437Z</updated>
+    <updated>2025-05-09T14:04:40.282Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -171,6 +171,8 @@
     
     <category term="游戏" scheme="https://andi.wang/tags/%E6%B8%B8%E6%88%8F/"/>
     
+    <category term="掌机" scheme="https://andi.wang/tags/%E6%8E%8C%E6%9C%BA/"/>
+    
     <category term="rg35xxplus" scheme="https://andi.wang/tags/rg35xxplus/"/>
     
     <category term="rg34xx" scheme="https://andi.wang/tags/rg34xx/"/>
@@ -178,8 +180,6 @@
     <category term="rg35xxsp" scheme="https://andi.wang/tags/rg35xxsp/"/>
     
     <category term="miyoomini" scheme="https://andi.wang/tags/miyoomini/"/>
-    
-    <category term="掌机" scheme="https://andi.wang/tags/%E6%8E%8C%E6%9C%BA/"/>
     
     <category term="RetroArch" scheme="https://andi.wang/tags/RetroArch/"/>
     
@@ -375,9 +375,9 @@
     
     <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
     
-    <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
-    
     <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
+    
+    <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
     
     <category term="boox" scheme="https://andi.wang/tags/boox/"/>
     
