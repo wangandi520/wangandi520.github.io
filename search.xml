@@ -830,7 +830,7 @@
 <h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键保存并退出</p>
 <h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
 <h4 id="gba-bios"><a href="#gba-bios" class="headerlink" title="gba bios"></a>gba bios</h4><p>网盘下载bios.bin，复制到sd卡_gba文件夹内</p>
-<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
+<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展名是.srm，在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://dsi.cfw.guide/">https://dsi.cfw.guide/</a></p>
 ]]></content>
       <categories>
@@ -21403,12 +21403,12 @@
 <p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>dolphin（任天堂Wii）<br>暂无（任天堂3DS）<br>Citron（任天堂Switch）</p>
 <span id="more"></span>
 
-<h2 id="AetherSX2（索尼PS2）"><a href="#AetherSX2（索尼PS2）" class="headerlink" title="AetherSX2（索尼PS2）"></a>AetherSX2（索尼PS2）</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><h2 id="PPSSPP（索尼PSP）"><a href="#PPSSPP（索尼PSP）" class="headerlink" title="PPSSPP（索尼PSP）"></a>PPSSPP（索尼PSP）</h2><h3 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h3><h3 id="更换gpu驱动，可能仅限高通"><a href="#更换gpu驱动，可能仅限高通" class="headerlink" title="更换gpu驱动，可能仅限高通"></a>更换gpu驱动，可能仅限高通</h3><p>游戏设置，工具，开发者工具，adreno driver manager，安装第三方驱动程序，选择文件，点击下面驱动的选择，重启</p>
-<h2 id="DraStic（任天堂DS）"><a href="#DraStic（任天堂DS）" class="headerlink" title="DraStic（任天堂DS）"></a>DraStic（任天堂DS）</h2><h3 id="配置选项"><a href="#配置选项" class="headerlink" title="配置选项"></a>配置选项</h3><p>虚拟按键：<br>菜单键位置：右。看着舒服点。</p>
+<h2 id="AetherSX2（索尼PS2）"><a href="#AetherSX2（索尼PS2）" class="headerlink" title="AetherSX2（索尼PS2）"></a>AetherSX2（索尼PS2）</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><h2 id="PPSSPP（索尼PSP）"><a href="#PPSSPP（索尼PSP）" class="headerlink" title="PPSSPP（索尼PSP）"></a>PPSSPP（索尼PSP）</h2><h3 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h3><h2 id="DraStic（任天堂DS）"><a href="#DraStic（任天堂DS）" class="headerlink" title="DraStic（任天堂DS）"></a>DraStic（任天堂DS）</h2><h3 id="配置选项"><a href="#配置选项" class="headerlink" title="配置选项"></a>配置选项</h3><p>虚拟按键：<br>菜单键位置：右。看着舒服点。</p>
 <p>外接控制器：<br>禁用已映射的虚拟按键：开。已经映射的按键就不会显示在屏幕上了</p>
 <h3 id="修改按键映射"><a href="#修改按键映射" class="headerlink" title="修改按键映射"></a>修改按键映射</h3><p>更改设置，外接控制器，选择按键映射方案，无映射<br>控制键映射，屏幕上出现一个键，想把这个键映射到哪个键上，就按一下，如果显示的按键没变，就再按一下<br>特殊键映射，同样的过程，不希望使用的，就点下面跳过<br>我的设置：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">screen-swap切换上下屏：R3，右摇杆按下</span><br><span class="line">quick-save快速保存：R2</span><br><span class="line">quick-load快速读取：L2</span><br><span class="line">1/2 screen swap切换单屏或双屏布局：L3，左摇杆按下</span><br><span class="line">其他跳过</span><br></pre></td></tr></table></figure>
 
+<h3 id="修改drastic存档文件夹"><a href="#修改drastic存档文件夹" class="headerlink" title="修改drastic存档文件夹"></a>修改drastic存档文件夹</h3><p>配置选项，常规，system directory，scoped storage folder，选择文件夹<br>然后回到首页，退出，再进入程序，自动复制旧数据到新文件夹，yes<br>存档在backup文件夹，扩展名是.dsv，游戏内存档，在开始游戏后在游戏界面读取，不在模拟器界面<br>retroarch等其他的模拟器存档扩展名是.sav，手动改一下名字就能相互使用了</p>
 <h3 id="横屏模式单屏画面比例不对"><a href="#横屏模式单屏画面比例不对" class="headerlink" title="横屏模式单屏画面比例不对"></a>横屏模式单屏画面比例不对</h3><p>游戏中按菜单键，菜单，编辑屏幕布局和虚拟按键，横屏模式单屏，调整屏幕大小，拉右下角蓝色方框调整，返回，菜单，保存为全局布局</p>
 <h2 id="dolphin（任天堂Wii）"><a href="#dolphin（任天堂Wii）" class="headerlink" title="dolphin（任天堂Wii）"></a>dolphin（任天堂Wii）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><h2 id="暂无（任天堂3DS）"><a href="#暂无（任天堂3DS）" class="headerlink" title="暂无（任天堂3DS）"></a>暂无（任天堂3DS）</h2><h3 id="设置-3"><a href="#设置-3" class="headerlink" title="设置"></a>设置</h3><h2 id="Citron（任天堂Switch）"><a href="#Citron（任天堂Switch）" class="headerlink" title="Citron（任天堂Switch）"></a>Citron（任天堂Switch）</h2><h3 id="设置-4"><a href="#设置-4" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
 <p>系统：</p>
@@ -21424,7 +21424,7 @@
 <li>使用异步着色器：开</li>
 </ul>
 <h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
-<h3 id="更换gpu驱动，可能仅限高通-1"><a href="#更换gpu驱动，可能仅限高通-1" class="headerlink" title="更换gpu驱动，可能仅限高通"></a>更换gpu驱动，可能仅限高通</h3><p><a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/</a><br>turnip_v25.2.0_R4_auto_fix.zip<br>vulkan-819.1-adpkg.zip<br>暂时不清楚两个的区别，可以都尝试下<br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
+<h3 id="更换gpu驱动"><a href="#更换gpu驱动" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
 ]]></content>
       <categories>
         <category>极客</category>
