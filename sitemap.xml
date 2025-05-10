@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://andi.wang/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</loc>
-    
-    <lastmod>2025-05-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</loc>
     
     <lastmod>2025-05-10</lastmod>
@@ -22,7 +13,16 @@
   <url>
     <loc>https://andi.wang/2025/05/08/ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B/</loc>
     
-    <lastmod>2025-05-09</lastmod>
+    <lastmod>2025-05-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://andi.wang/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</loc>
+    
+    <lastmod>2025-05-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

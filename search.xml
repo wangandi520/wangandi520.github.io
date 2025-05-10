@@ -830,6 +830,7 @@
 <h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键保存并退出</p>
 <h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
 <h4 id="gba-bios"><a href="#gba-bios" class="headerlink" title="gba bios"></a>gba bios</h4><p>网盘下载bios.bin，复制到sd卡_gba文件夹内</p>
+<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://dsi.cfw.guide/">https://dsi.cfw.guide/</a></p>
 ]]></content>
       <categories>
@@ -18527,6 +18528,7 @@
 <h3 id="melondsds核心设置单屏显示R2切换上下屏"><a href="#melondsds核心设置单屏显示R2切换上下屏" class="headerlink" title="melondsds核心设置单屏显示R2切换上下屏"></a>melondsds核心设置单屏显示R2切换上下屏</h3><p>游戏中，菜单，核心选项，screen，layout#1:top only，layout#2:bottom only</p>
 <h3 id="citra核心设置单屏显示"><a href="#citra核心设置单屏显示" class="headerlink" title="citra核心设置单屏显示"></a>citra核心设置单屏显示</h3><p>游戏中，菜单，核心选项，screen layout positioning：single screen only<br>切换屏幕快捷键L3：左摇杆按下，或者左侧背键</p>
 <h3 id="设置retroarch菜单内右方a键确定下方b键取消（日式）"><a href="#设置retroarch菜单内右方a键确定下方b键取消（日式）" class="headerlink" title="设置retroarch菜单内右方a键确定下方b键取消（日式）"></a>设置retroarch菜单内右方a键确定下方b键取消（日式）</h3><p>菜单，设置，输入，菜单控制，对调菜单中的确定和取消键：关<br>开的话，就是下方按键确定，右方按键取消</p>
+<h3 id="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩</h3><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
 ]]></content>
       <categories>
         <category>极客</category>
