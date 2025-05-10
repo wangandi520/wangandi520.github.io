@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-05-09T14:04:40.282Z</updated>
+  <updated>2025-05-10T12:24:46.004Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安卓掌机模拟器经验</title>
+    <link href="https://andi.wang/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/"/>
+    <id>https://andi.wang/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</id>
+    <published>2025-05-10T01:44:25.000Z</published>
+    <updated>2025-05-10T12:24:46.004Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.05.10&lt;/p&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;简单记录下安卓的一些模拟器配置使用经验&lt;br&gt;retroarch的经验见另一篇文章&lt;a href=&quot;https://andi.wang/go?id=68&quot;&gt;https://andi.wang/go?id=68&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;模拟器（平台）&lt;br&gt;AetherSX2（索尼PS2）&lt;br&gt;PPSSPP（索尼PSP）&lt;br&gt;DraStic（任天堂DS）&lt;br&gt;dolphin（任天堂Wii）&lt;br&gt;暂无（任天堂3DS）&lt;br&gt;Citron（任天堂Switch）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
+    
+    
+    <category term="极客" scheme="https://andi.wang/tags/%E6%9E%81%E5%AE%A2/"/>
+    
+    <category term="游戏" scheme="https://andi.wang/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="掌机" scheme="https://andi.wang/tags/%E6%8E%8C%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>ndsi无烧录卡刷TWiLightMenu过程</title>
@@ -1036,35 +1062,6 @@
     <category term="程序" scheme="https://andi.wang/tags/%E7%A8%8B%E5%BA%8F/"/>
     
     <category term="linux" scheme="https://andi.wang/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Seventh9日麻教程 标注</title>
-    <link href="https://andi.wang/2022/01/08/Seventh9%E6%97%A5%E9%BA%BB%E6%95%99%E7%A8%8B%20%E6%A0%87%E6%B3%A8/"/>
-    <id>https://andi.wang/2022/01/08/Seventh9%E6%97%A5%E9%BA%BB%E6%95%99%E7%A8%8B%20%E6%A0%87%E6%B3%A8/</id>
-    <published>2022-01-08T03:35:01.000Z</published>
-    <updated>2025-02-23T03:39:10.753Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;炽魂&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;(高亮: 70; 标注: 0)&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;麻雀的基础1-麻雀是？&quot;&gt;&lt;a href=&quot;#麻雀的基础1-麻雀是？&quot; class=&quot;headerlink&quot; title=&quot;麻雀的基础1 麻雀是？&quot;&gt;&lt;/a&gt;麻雀的基础1 麻雀是？&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;麻将是大体被运气支配的赌博游戏，不能很明显反应自身的实力。即使通过很多努力提高了自身的水平，但你运气不好的时候依旧有可能惨败给水平不如你的对手。这就是麻将了。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="麻将" scheme="https://andi.wang/tags/%E9%BA%BB%E5%B0%86/"/>
-    
-    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
-    
-    <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   

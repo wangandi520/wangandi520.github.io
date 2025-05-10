@@ -21393,6 +21393,45 @@
       </tags>
   </entry>
   <entry>
+    <title>安卓掌机模拟器经验</title>
+    <url>/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.10</p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a></p>
+<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>dolphin（任天堂Wii）<br>暂无（任天堂3DS）<br>Citron（任天堂Switch）</p>
+<span id="more"></span>
+
+<h2 id="AetherSX2（索尼PS2）"><a href="#AetherSX2（索尼PS2）" class="headerlink" title="AetherSX2（索尼PS2）"></a>AetherSX2（索尼PS2）</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><h2 id="PPSSPP（索尼PSP）"><a href="#PPSSPP（索尼PSP）" class="headerlink" title="PPSSPP（索尼PSP）"></a>PPSSPP（索尼PSP）</h2><h3 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h3><h2 id="DraStic（任天堂DS）"><a href="#DraStic（任天堂DS）" class="headerlink" title="DraStic（任天堂DS）"></a>DraStic（任天堂DS）</h2><h3 id="配置选项"><a href="#配置选项" class="headerlink" title="配置选项"></a>配置选项</h3><p>虚拟按键：<br>菜单键位置：右。看着舒服点。</p>
+<p>外接控制器：<br>禁用已映射的虚拟按键：开。已经映射的按键就不会显示在屏幕上了</p>
+<h3 id="修改按键映射"><a href="#修改按键映射" class="headerlink" title="修改按键映射"></a>修改按键映射</h3><p>更改设置，外接控制器，选择按键映射方案，无映射<br>控制键映射，屏幕上出现一个键，想把这个键映射到哪个键上，就按一下，如果显示的按键没变，就再按一下<br>特殊键映射，同样的过程，不希望使用的，就点下面跳过<br>我的设置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">screen-swap切换上下屏：R3，右摇杆按下</span><br><span class="line">quick-save快速保存：R2</span><br><span class="line">quick-load快速读取：L2</span><br><span class="line">1/2 screen swap切换单屏或双屏布局：L3，左摇杆按下</span><br><span class="line">其他跳过</span><br></pre></td></tr></table></figure>
+
+<h3 id="横屏模式单屏画面比例不对"><a href="#横屏模式单屏画面比例不对" class="headerlink" title="横屏模式单屏画面比例不对"></a>横屏模式单屏画面比例不对</h3><p>游戏中按菜单键，菜单，编辑屏幕布局和虚拟按键，横屏模式单屏，调整屏幕大小，拉右下角蓝色方框调整，返回，菜单，保存为全局布局</p>
+<h2 id="dolphin（任天堂Wii）"><a href="#dolphin（任天堂Wii）" class="headerlink" title="dolphin（任天堂Wii）"></a>dolphin（任天堂Wii）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><h2 id="暂无（任天堂3DS）"><a href="#暂无（任天堂3DS）" class="headerlink" title="暂无（任天堂3DS）"></a>暂无（任天堂3DS）</h2><h3 id="设置-3"><a href="#设置-3" class="headerlink" title="设置"></a>设置</h3><h2 id="Citron（任天堂Switch）"><a href="#Citron（任天堂Switch）" class="headerlink" title="Citron（任天堂Switch）"></a>Citron（任天堂Switch）</h2><h3 id="设置-4"><a href="#设置-4" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
+<p>系统：</p>
+<ul>
+<li>模拟区域：中国</li>
+<li>模拟语言：简体中文</li>
+</ul>
+<p>图形：</p>
+<ul>
+<li>垂直同步模式：即时（关闭）</li>
+<li>抗锯齿方式：无</li>
+<li>磁盘着色器缓存：开</li>
+<li>使用异步着色器：开</li>
+</ul>
+<h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
+]]></content>
+      <categories>
+        <category>极客</category>
+      </categories>
+      <tags>
+        <tag>极客</tag>
+        <tag>游戏</tag>
+        <tag>掌机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>404 Not Found</title>
     <url>/404.html</url>
     <content><![CDATA[<hr>
