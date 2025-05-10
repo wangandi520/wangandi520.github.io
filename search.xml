@@ -21397,7 +21397,7 @@
     <url>/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</url>
     <content><![CDATA[<hr>
 <h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.10</p>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a></p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>一些需要的文件分享通过网盘分享的文件：<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
 <p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>dolphin（任天堂Wii）<br>暂无（任天堂3DS）<br>Citron（任天堂Switch）</p>
 <span id="more"></span>
 
@@ -21421,6 +21421,7 @@
 <li>使用异步着色器：开</li>
 </ul>
 <h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
+<h3 id="更换gpu驱动"><a href="#更换gpu驱动" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
 ]]></content>
       <categories>
         <category>极客</category>
