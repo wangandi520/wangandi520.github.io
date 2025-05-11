@@ -830,7 +830,7 @@
 <h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键保存并退出</p>
 <h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
 <h4 id="gba-bios"><a href="#gba-bios" class="headerlink" title="gba bios"></a>gba bios</h4><p>网盘下载bios.bin，复制到sd卡_gba文件夹内</p>
-<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展名是.srm，在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
+<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://dsi.cfw.guide/">https://dsi.cfw.guide/</a></p>
 ]]></content>
       <categories>
@@ -18520,7 +18520,7 @@
 <h3 id="存档位置"><a href="#存档位置" class="headerlink" title="存档位置"></a>存档位置</h3><p>菜单，设置，文件夹，存档里能看到<br>存档文件是游戏内存档<br>状态存储是状态存档<br>一般文件夹内是按核心分开存档的</p>
 <h3 id="建议的存档设置"><a href="#建议的存档设置" class="headerlink" title="建议的存档设置"></a>建议的存档设置</h3><p>菜单，设置，存档：<br>自动增加状态存储编号，开，作用是每次快速存档，就切换到下一个存档位置，避免错误覆盖<br>增量状态存储的最大数量：10，或者按自己需要设置，扩展名是.state1-10<br>自动保存状态：开，扩展名是.state.auto<br>自动加载存档：开，作用是下次打开游戏，直接载入上次退出游戏的状态（不是自动手动保存的状态）<br>菜单，配置文件，保存当前配置</p>
 <h3 id="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"><a href="#存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内" class="headerlink" title="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"></a>存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内</h3><p>比如使用gpsp核心的gba游戏状态存在states\xxx.state，如果希望存在states\gpSP\xxx.state<br>retroarch内，设置，界面，显示高级设置<br>设置，存档，按核心名称分文件夹排序状态存储<br>配置文件，保存当前配置</p>
-<h3 id="同一个游戏但是不同核心间的游戏内存档通用"><a href="#同一个游戏但是不同核心间的游戏内存档通用" class="headerlink" title="同一个游戏但是不同核心间的游戏内存档通用"></a>同一个游戏但是不同核心间的游戏内存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件<br>要换成mgba核心，就把这个文件复制到RetroArch\saves\mgba文件夹<br>如果有的是sav格式的文件，在这个网站选srm-sav转换，<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
+<h3 id="同一个游戏但是不同核心间的游戏内存档通用"><a href="#同一个游戏但是不同核心间的游戏内存档通用" class="headerlink" title="同一个游戏但是不同核心间的游戏内存档通用"></a>同一个游戏但是不同核心间的游戏内存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件<br>要换成mgba核心，就把这个文件复制到RetroArch\saves\mgba文件夹<br>如果有的是sav格式的文件，手动改一下名字就能相互使用了<br>如果不行，尝试在这个网站选srm-sav转换<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
 <h3 id="部分中文乱码"><a href="#部分中文乱码" class="headerlink" title="部分中文乱码"></a>部分中文乱码</h3><p>如果使用的是ozone主题，就在\assets\ozone，找一个粗体覆盖bold.ttf，普通字体覆盖regular.ttf</p>
 <h3 id="mgba核心，究极绿宝石一开始就卡住"><a href="#mgba核心，究极绿宝石一开始就卡住" class="headerlink" title="mgba核心，究极绿宝石一开始就卡住"></a>mgba核心，究极绿宝石一开始就卡住</h3><p>选择gpsp核心可以正常游戏。</p>
 <h3 id="gpsp核心，绿宝石时间固定无法前进的问题"><a href="#gpsp核心，绿宝石时间固定无法前进的问题" class="headerlink" title="gpsp核心，绿宝石时间固定无法前进的问题"></a>gpsp核心，绿宝石时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了，可以把.srm复制回gpsp使用。</p>
@@ -18528,7 +18528,8 @@
 <h3 id="melondsds核心设置单屏显示R2切换上下屏"><a href="#melondsds核心设置单屏显示R2切换上下屏" class="headerlink" title="melondsds核心设置单屏显示R2切换上下屏"></a>melondsds核心设置单屏显示R2切换上下屏</h3><p>游戏中，菜单，核心选项，screen，layout#1:top only，layout#2:bottom only</p>
 <h3 id="citra核心设置单屏显示"><a href="#citra核心设置单屏显示" class="headerlink" title="citra核心设置单屏显示"></a>citra核心设置单屏显示</h3><p>游戏中，菜单，核心选项，screen layout positioning：single screen only<br>切换屏幕快捷键L3：左摇杆按下，或者左侧背键</p>
 <h3 id="设置retroarch菜单内右方a键确定下方b键取消（日式）"><a href="#设置retroarch菜单内右方a键确定下方b键取消（日式）" class="headerlink" title="设置retroarch菜单内右方a键确定下方b键取消（日式）"></a>设置retroarch菜单内右方a键确定下方b键取消（日式）</h3><p>菜单，设置，输入，菜单控制，对调菜单中的确定和取消键：关<br>开的话，就是下方按键确定，右方按键取消</p>
-<h3 id="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩</h3><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
+<h3 id="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩</h3><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
+<h3 id="设置退出游戏时，退出retroarch程序"><a href="#设置退出游戏时，退出retroarch程序" class="headerlink" title="设置退出游戏时，退出retroarch程序"></a>设置退出游戏时，退出retroarch程序</h3><p>菜单，设置，界面，关闭游戏后退出：开</p>
 ]]></content>
       <categories>
         <category>极客</category>
@@ -19880,6 +19881,8 @@
     <title>电脑手机技巧</title>
     <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<hr>
+<h2 id="reddit自带翻译"><a href="#reddit自带翻译" class="headerlink" title="reddit自带翻译"></a>reddit自带翻译</h2><p>网址后面添加&#x2F;?tl&#x3D;zh-hans</p>
+<h2 id="安卓apk工具"><a href="#安卓apk工具" class="headerlink" title="安卓apk工具"></a>安卓apk工具</h2><p>安卓使用apktool m签名，<a href="https://maximoff.su/apktool/?lang=en">https://maximoff.su/apktool/?lang=en</a></p>
 <h2 id="ttc字体转成ttf"><a href="#ttc字体转成ttf" class="headerlink" title="ttc字体转成ttf"></a>ttc字体转成ttf</h2><p>搜索下载运行FontCreator，tools，extract from collection</p>
 <h2 id="查看linux发行版内核等"><a href="#查看linux发行版内核等" class="headerlink" title="查看linux发行版内核等"></a>查看linux发行版内核等</h2><p>lsb_release -a<br>uname -a</p>
 <h2 id="windows下打开类似linux镜像的-img文件"><a href="#windows下打开类似linux镜像的-img文件" class="headerlink" title="windows下打开类似linux镜像的.img文件"></a>windows下打开类似linux镜像的.img文件</h2><p>使用diskgenius，菜单，disk，open virtual disk file</p>
@@ -19974,7 +19977,7 @@
 <p>archlinux下这个文件夹占用空间大 &#x2F;var&#x2F;cache&#x2F;pacman&#x2F;pkg&#x2F;<br>清理&#x2F;var&#x2F;cache&#x2F;pacman&#x2F;pkg目录下的旧包</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pacman -Sc</span><br></pre></td></tr></table></figure>
 
-<h2 id="git代理和取消"><a href="#git代理和取消" class="headerlink" title="git代理和取消"></a>git代理和取消</h2><p>git config –global http.proxy <a href="http://127.0.0.1:7890/">http://127.0.0.1:7890</a><br>git config –global –unset http.proxy</p>
+<h2 id="git代理和取消"><a href="#git代理和取消" class="headerlink" title="git代理和取消"></a>git代理和取消</h2><p>git config –global https.proxy <a href="https://127.0.0.1:10808/">https://127.0.0.1:10808</a><br>git config –global http.proxy <a href="https://127.0.0.1:10808/">https://127.0.0.1:10808</a><br>或者<br>git config –global https.proxy socks5:&#x2F;&#x2F;127.0.0.1:10808<br>git config –global http.proxy socks5:&#x2F;&#x2F;127.0.0.1:10808<br>取消<br>git config –global –unset https.proxy<br>git config –global –unset http.proxy</p>
 <h2 id="迅雷自动升级"><a href="#迅雷自动升级" class="headerlink" title="迅雷自动升级"></a>迅雷自动升级</h2><p>xlliveud.exe</p>
 <h2 id="compattelrunner"><a href="#compattelrunner" class="headerlink" title="compattelrunner"></a>compattelrunner</h2><p>taskschd.msc里app，禁用Microsoft Compatibility Appraiser</p>
 <h2 id="autohotkey显示鼠标坐标"><a href="#autohotkey显示鼠标坐标" class="headerlink" title="autohotkey显示鼠标坐标"></a>autohotkey显示鼠标坐标</h2><p>space::<br>MouseGetPos, xpos, ypos<br>Msgbox, The cursor is at X%xpos% Y%ypos%.<br>return</p>
@@ -21425,6 +21428,7 @@
 </ul>
 <h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
 <h3 id="更换gpu驱动"><a href="#更换gpu驱动" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
+<h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
 ]]></content>
       <categories>
         <category>极客</category>
