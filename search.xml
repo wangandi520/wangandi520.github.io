@@ -18515,21 +18515,22 @@
 <h3 id="使用webdav同步各个设备的RetroArch设置和存档"><a href="#使用webdav同步各个设备的RetroArch设置和存档" class="headerlink" title="使用webdav同步各个设备的RetroArch设置和存档"></a>使用webdav同步各个设备的RetroArch设置和存档</h3><p><strong>测试了一下，跨设备同步不是很智能，经常同步不了，暂时不建议使用</strong></p>
 <p>RetroArch中，设置，存档，云同步<br>云同步后端：webdav<br>云存储url（改成自己的ip地址和端口）：192.168.1.123:51234<br>用户名：ra<br>密码：ra<br>服务器端设置，config.yaml里的用户名密码要一样，参考<a href="https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5">https://andi.wang/2021/03/22/%E6%90%AD%E5%BB%BAwebdav%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E7%8E%B0%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E5%90%8C%E6%AD%A5</a></p>
 <p>如果ra出现闪退，就把掌机的wifi关闭，或者服务器端的webdav服务暂停，再停止云同步就行</p>
-<h3 id="部分游戏无法使用摇杆控制方向"><a href="#部分游戏无法使用摇杆控制方向" class="headerlink" title="部分游戏无法使用摇杆控制方向"></a>部分游戏无法使用摇杆控制方向</h3><p>修改设置：<br>菜单，设置，输入，全能手柄按键绑定，端口1控制，模拟转数字类型，左摇杆</p>
+<h3 id="部分游戏无法使用摇杆控制方向"><a href="#部分游戏无法使用摇杆控制方向" class="headerlink" title="部分游戏无法使用摇杆控制方向"></a>部分游戏无法使用摇杆控制方向</h3><p>修改设置：<br>设置，输入，全能手柄按键绑定，端口1控制，模拟转数字类型，左摇杆</p>
 <h3 id="存档分类"><a href="#存档分类" class="headerlink" title="存档分类"></a>存档分类</h3><p>存档分两种：游戏内存档，状态存档<br>游戏内存档，在游戏内界面保存读取，一般在saves文件夹，后缀名.srm<br>状态存档，可以随时按菜单保存读取，一般在states文件夹，后缀名.state<br>不同核心，一般游戏内存档通用，状态存档不通用<br>不同版本的RetroArch，即使核心相当，状态存档可能也不通用<br>把存档转移到其他机器，最后saves和states文件夹一起备份</p>
-<h3 id="存档位置"><a href="#存档位置" class="headerlink" title="存档位置"></a>存档位置</h3><p>菜单，设置，文件夹，存档里能看到<br>存档文件是游戏内存档<br>状态存储是状态存档<br>一般文件夹内是按核心分开存档的</p>
-<h3 id="建议的存档设置"><a href="#建议的存档设置" class="headerlink" title="建议的存档设置"></a>建议的存档设置</h3><p>菜单，设置，存档：<br>自动增加状态存储编号，开，作用是每次快速存档，就切换到下一个存档位置，避免错误覆盖<br>增量状态存储的最大数量：10，或者按自己需要设置，扩展名是.state1-10<br>自动保存状态：开，扩展名是.state.auto<br>自动加载存档：开，作用是下次打开游戏，直接载入上次退出游戏的状态（不是自动手动保存的状态）<br>菜单，配置文件，保存当前配置</p>
+<h3 id="存档位置"><a href="#存档位置" class="headerlink" title="存档位置"></a>存档位置</h3><p>设置，文件夹，存档里能看到<br>存档文件是游戏内存档<br>状态存储是状态存档<br>一般文件夹内是按核心分开存档的</p>
+<h3 id="建议的存档设置"><a href="#建议的存档设置" class="headerlink" title="建议的存档设置"></a>建议的存档设置</h3><p>设置，存档：<br>自动增加状态存储编号，开，作用是每次快速存档，就切换到下一个存档位置，避免错误覆盖<br>增量状态存储的最大数量：10，或者按自己需要设置，扩展名是.state1-10<br>自动保存状态：开，扩展名是.state.auto<br>自动加载存档：开，作用是下次打开游戏，直接载入上次退出游戏的状态（不是自动手动保存的状态）<br>菜单，配置文件，保存当前配置</p>
 <h3 id="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"><a href="#存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内" class="headerlink" title="存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内"></a>存档saves和状态states文件夹内，游戏存档没按放在核心文件夹内</h3><p>比如使用gpsp核心的gba游戏状态存在states\xxx.state，如果希望存在states\gpSP\xxx.state<br>retroarch内，设置，界面，显示高级设置<br>设置，存档，按核心名称分文件夹排序状态存储<br>配置文件，保存当前配置</p>
 <h3 id="同一个游戏但是不同核心间的游戏内存档通用"><a href="#同一个游戏但是不同核心间的游戏内存档通用" class="headerlink" title="同一个游戏但是不同核心间的游戏内存档通用"></a>同一个游戏但是不同核心间的游戏内存档通用</h3><p>也适用于高版本转低版本RetroArch<br>不同核心，即时存档（RetroArch\states）不能通用，要在游戏里存档（RetroArch\saves）<br>比如精灵宝可梦绿宝石，游戏中，按start，保存，是<br>如果现在是gba的gpsp核心，那么位置在RetroArch\saves\gpSP的.srm文件<br>要换成mgba核心，就把这个文件复制到RetroArch\saves\mgba文件夹<br>如果有的是sav格式的文件，手动改一下名字就能相互使用了<br>如果不行，尝试在这个网站选srm-sav转换<a href="https://savefileconverter.com/#/mister">https://savefileconverter.com/#/mister</a></p>
-<h3 id="部分中文乱码"><a href="#部分中文乱码" class="headerlink" title="部分中文乱码"></a>部分中文乱码</h3><p>如果使用的是ozone主题，就在\assets\ozone，找一个粗体覆盖bold.ttf，普通字体覆盖regular.ttf</p>
+<h3 id="部分中文乱码"><a href="#部分中文乱码" class="headerlink" title="部分中文乱码"></a>部分中文乱码</h3><p>如果使用的是ozone主题，就在\assets\ozone，找一个粗体覆盖bold.ttf，普通字体覆盖regular.ttf<br>网盘里的是微软雅黑</p>
 <h3 id="mgba核心，究极绿宝石一开始就卡住"><a href="#mgba核心，究极绿宝石一开始就卡住" class="headerlink" title="mgba核心，究极绿宝石一开始就卡住"></a>mgba核心，究极绿宝石一开始就卡住</h3><p>选择gpsp核心可以正常游戏。</p>
 <h3 id="gpsp核心，绿宝石时间固定无法前进的问题"><a href="#gpsp核心，绿宝石时间固定无法前进的问题" class="headerlink" title="gpsp核心，绿宝石时间固定无法前进的问题"></a>gpsp核心，绿宝石时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了，可以把.srm复制回gpsp使用。</p>
 <h3 id="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"><a href="#pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏" class="headerlink" title="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"></a>pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏</h3><p>进入游戏后按menu，核心选项，video，Renderer，选择D3D12，或者其他<br>修改后要在menu菜单里，关闭游戏，再运行</p>
 <h3 id="melondsds核心设置单屏显示R2切换上下屏"><a href="#melondsds核心设置单屏显示R2切换上下屏" class="headerlink" title="melondsds核心设置单屏显示R2切换上下屏"></a>melondsds核心设置单屏显示R2切换上下屏</h3><p>游戏中，菜单，核心选项，screen，layout#1:top only，layout#2:bottom only</p>
 <h3 id="citra核心设置单屏显示"><a href="#citra核心设置单屏显示" class="headerlink" title="citra核心设置单屏显示"></a>citra核心设置单屏显示</h3><p>游戏中，菜单，核心选项，screen layout positioning：single screen only<br>切换屏幕快捷键L3：左摇杆按下，或者左侧背键</p>
-<h3 id="设置retroarch菜单内右方a键确定下方b键取消（日式）"><a href="#设置retroarch菜单内右方a键确定下方b键取消（日式）" class="headerlink" title="设置retroarch菜单内右方a键确定下方b键取消（日式）"></a>设置retroarch菜单内右方a键确定下方b键取消（日式）</h3><p>菜单，设置，输入，菜单控制，对调菜单中的确定和取消键：关<br>开的话，就是下方按键确定，右方按键取消</p>
+<h3 id="设置retroarch菜单内右方a键确定下方b键取消（日式）"><a href="#设置retroarch菜单内右方a键确定下方b键取消（日式）" class="headerlink" title="设置retroarch菜单内右方a键确定下方b键取消（日式）"></a>设置retroarch菜单内右方a键确定下方b键取消（日式）</h3><p>设置，输入，菜单控制，对调菜单中的确定和取消键：关<br>开的话，就是下方按键确定，右方按键取消</p>
 <h3 id="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩</h3><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
 <h3 id="设置退出游戏时，退出retroarch程序"><a href="#设置退出游戏时，退出retroarch程序" class="headerlink" title="设置退出游戏时，退出retroarch程序"></a>设置退出游戏时，退出retroarch程序</h3><p>菜单，设置，界面，关闭游戏后退出：开</p>
+<h3 id="设置时间格式"><a href="#设置时间格式" class="headerlink" title="设置时间格式"></a>设置时间格式</h3><p>设置，界面，菜单可见性，日期时间格式：YYYY.MM.DD HH:MM<br>日期分隔符：’.’</p>
 ]]></content>
       <categories>
         <category>极客</category>
@@ -18549,12 +18550,12 @@
     <title>店铺食品用品</title>
     <url>/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.26</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.11</p>
 <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>如果是连锁店的话，可能只是其中一家有问题。<br>如果是品牌的话，可能只是其中一个产品有问题。</p>
 <span id="more"></span>
 
 <h2 id="实体店"><a href="#实体店" class="headerlink" title="实体店"></a>实体店</h2><p><strong>大家乐</strong>：吃了海南鸡饭后，上吐下泻，去医院查是急性肠胃炎。<br><strong>许个愿吧蛋糕</strong>：面包上的标签只写了15.9，付款时店员故意把价格说的很小声，看了发现是16.9，问了她才说说15.9是会员价。<br><strong>秦云老太婆摊摊面</strong>：使用的三聚氰胺碗没洗干净，用筷子轻轻刮就有黑黑的东西刮下来。<br><strong>杨国富麻辣烫</strong>：偶尔看见厨房的大垃圾桶距离煮锅只有1米左右。<br><strong>食其家</strong>：点餐程序，某个套餐写的价格点进去，还有一项必选的没有算到价格里。<br><strong>KFC</strong>：点餐程序，某个套餐写的价格点进去，还有一项必选的没有算到价格里。<br><strong>汉泰丰热干面</strong>：猪肉的颜色特别鲜红。<br><strong>粒上皇</strong>：多数产品含特丁基对苯二酚，甜蜜素，安赛蜜，三氯蔗糖。<br><strong>茉莉奶白</strong>：杯子只装了3&#x2F;4左右，剩下的是泡沫。<br><strong>一点点</strong>：站在店外面使用小程序点餐后，店员5分钟后才开始做。<br>**绿源联动(中山绿源联动科技有限公司)**：垃圾回收，有3次都是0积分（1000积分&#x3D;1元），1次10几个塑料矿泉水瓶，1次一小袋金属和电器（至少1斤）。<br><strong>通力路手拉面</strong>：12块钱的炸酱面，黄豆上面有白色的点点，跟老板说是坏了吧，老板说没坏。门口贴着纸上写使用转基因油。<br><strong>西秦面道</strong>：面里有白色塑料泡沫，伪装成蒜的样子。<br><strong>袁记云饺</strong>：云吞面的生菜，朝上的一面很清楚的看到已经发黑了，想看不见都很难啊。<br><strong>柳一勺</strong>：碗上面的字都磨掉了，让人吃颜料呢。<br><strong>京东养车</strong>：进店必须下载app，微信小程序不行。事先说好更换配件，第二天看，和实现说好的牌子不一样。自带了防冻液，说好用我的，但是还用了他们店里的。<br><strong>裕禧拉面</strong>：叉烧面里有一坨黏糊糊的像是鼻涕一样的东西，可能是没化开的汤底，这个面都很咸，座位很高桌子很矮，要弯着腰吃。<br><strong>哈佬超市</strong>：生鲜的盒子也算在重量里，买的10块多的猪肉，算了下盒子要1块2。<br><strong>你我他便利店</strong>：同上，估计同一个老板。</p>
-<h2 id="淘宝"><a href="#淘宝" class="headerlink" title="淘宝"></a>淘宝</h2><p><strong>天卓五金旗舰店</strong>：螺丝。付款后一直显示快递揽收中，结果2.5天没变化。<br><strong>东莞新森达五金有限公司</strong>：螺丝。提前和客服沟通，确认了当天能发货才付款，结果当天没发货。<br><strong>黑贝壳旗舰店</strong>：手机壳。快递卡了4，5天没变化，客服说补发，结果查到是发到别的地方的，根本不是我的快递。<br><strong>弓途体育</strong>：弹弓。提前和客服沟通，确认了当天能发货才付款，结果当天没发货。<br><strong>原兴旗舰店</strong>：篷布。1个多月就碎了，地上全是细碎的塑料渣渣。<br><strong>荣启旗舰店</strong>：magsafe指环，掉漆，金属环上还是突出的点，接触的地方有擦不掉的污渍，直接扔了，14块钱没了。</p>
+<h2 id="淘宝"><a href="#淘宝" class="headerlink" title="淘宝"></a>淘宝</h2><p><strong>天卓五金旗舰店</strong>：螺丝。付款后一直显示快递揽收中，结果2.5天没变化。<br><strong>东莞新森达五金有限公司</strong>：螺丝。提前和客服沟通，确认了当天能发货才付款，结果当天没发货。<br><strong>黑贝壳旗舰店</strong>：手机壳。快递卡了4，5天没变化，客服说补发，结果查到是发到别的地方的，根本不是我的快递。<br><strong>弓途体育</strong>：弹弓。提前和客服沟通，确认了当天能发货才付款，结果当天没发货。<br><strong>原兴旗舰店</strong>：篷布。1个多月就碎了，地上全是细碎的塑料渣渣。<br><strong>荣启旗舰店</strong>：magsafe指环，掉漆，金属环上还是突出的点，接触的地方有擦不掉的污渍，直接扔了，14块钱没了。<br><strong>鼎丰电玩游戏配件</strong><br><strong>风火轮数码电玩城</strong></p>
 <h2 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h2><p><strong>舒肤佳肥皂</strong>：联苯乙烯二苯基二磺酸二钠<br><strong>乐事薯片</strong>：特丁基对苯二酚</p>
 <h2 id="物品"><a href="#物品" class="headerlink" title="物品"></a>物品</h2><p><strong>漫步者W830NB耳机</strong>：头轻微动作，耳机的塑料会发出吱吱声。右侧耳机间断出现哒哒声。</p>
 <h2 id="添加剂"><a href="#添加剂" class="headerlink" title="添加剂"></a>添加剂</h2><p>乙基麦芽酚<br>焦亚硫酸钠<br>特丁基对苯二酚（TBHQ）<br>亚硝酸钠<br>苯甲酸钠<br>六偏磷酸钠<br>三聚磷酸钠<br>阿斯巴甜<br>甜蜜素<br>安赛蜜<br>三氯蔗糖<br>果葡糖浆<br>硼砂<br>三氯生<br>联苯乙烯二苯基二磺酸二钠<br>脱氢乙酸钠<br>氢氧化钠（火碱）<br>甲醛次硫酸氢钠（吊白块）<br>呈味核苷酸二钠<br>双乙酰酒石酸单双甘油酯<br>三氯蔗糖<br>四聚乙醛（蔬菜中的蓝色颗粒）<br>三聚氰胺<br>红曲<br>羟丙基二淀粉磷酸酯<br>呈味核苷酸二钠</p>
@@ -21401,19 +21402,24 @@
     <title>安卓掌机模拟器经验</title>
     <url>/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.10</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.11<br>测试机型：骁龙865，骁龙870</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>一些需要的文件分享<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
-<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>dolphin（任天堂Wii）<br>暂无（任天堂3DS）<br>Citron（任天堂Switch）</p>
+<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>Citron（任天堂Switch）<br>winlator（微软windows）</p>
 <span id="more"></span>
 
-<h2 id="AetherSX2（索尼PS2）"><a href="#AetherSX2（索尼PS2）" class="headerlink" title="AetherSX2（索尼PS2）"></a>AetherSX2（索尼PS2）</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><h2 id="PPSSPP（索尼PSP）"><a href="#PPSSPP（索尼PSP）" class="headerlink" title="PPSSPP（索尼PSP）"></a>PPSSPP（索尼PSP）</h2><h3 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h3><h2 id="DraStic（任天堂DS）"><a href="#DraStic（任天堂DS）" class="headerlink" title="DraStic（任天堂DS）"></a>DraStic（任天堂DS）</h2><h3 id="配置选项"><a href="#配置选项" class="headerlink" title="配置选项"></a>配置选项</h3><p>虚拟按键：<br>菜单键位置：右。看着舒服点。</p>
+<h2 id="AetherSX2（索尼PS2）"><a href="#AetherSX2（索尼PS2）" class="headerlink" title="AetherSX2（索尼PS2）"></a>AetherSX2（索尼PS2）</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>无</p>
+<h3 id="测试游戏"><a href="#测试游戏" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行"><a href="#流畅运行" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
+<h2 id="PPSSPP（索尼PSP）"><a href="#PPSSPP（索尼PSP）" class="headerlink" title="PPSSPP（索尼PSP）"></a>PPSSPP（索尼PSP）</h2><h3 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h3><h3 id="更换gpu驱动"><a href="#更换gpu驱动" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>游戏设置，工具，开发者工具，adreno driver manager，安卓第三方驱动程序，完成后在下方选择</p>
+<h3 id="测试游戏-1"><a href="#测试游戏-1" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-1"><a href="#流畅运行-1" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
+<h2 id="DraStic（任天堂DS）"><a href="#DraStic（任天堂DS）" class="headerlink" title="DraStic（任天堂DS）"></a>DraStic（任天堂DS）</h2><h3 id="配置选项"><a href="#配置选项" class="headerlink" title="配置选项"></a>配置选项</h3><p>虚拟按键：<br>菜单键位置：右。看着舒服点。</p>
 <p>外接控制器：<br>禁用已映射的虚拟按键：开。已经映射的按键就不会显示在屏幕上了</p>
 <h3 id="修改按键映射"><a href="#修改按键映射" class="headerlink" title="修改按键映射"></a>修改按键映射</h3><p>更改设置，外接控制器，选择按键映射方案，无映射<br>控制键映射，屏幕上出现一个键，想把这个键映射到哪个键上，就按一下，如果显示的按键没变，就再按一下<br>特殊键映射，同样的过程，不希望使用的，就点下面跳过<br>我的设置：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">screen-swap切换上下屏：R3，右摇杆按下</span><br><span class="line">quick-save快速保存：R2</span><br><span class="line">quick-load快速读取：L2</span><br><span class="line">1/2 screen swap切换单屏或双屏布局：L3，左摇杆按下</span><br><span class="line">其他跳过</span><br></pre></td></tr></table></figure>
 
 <h3 id="修改drastic存档文件夹"><a href="#修改drastic存档文件夹" class="headerlink" title="修改drastic存档文件夹"></a>修改drastic存档文件夹</h3><p>配置选项，常规，system directory，scoped storage folder，选择文件夹<br>然后回到首页，退出，再进入程序，自动复制旧数据到新文件夹，yes<br>存档在backup文件夹，扩展名是.dsv，游戏内存档，在开始游戏后在游戏界面读取，不在模拟器界面<br>retroarch等其他的模拟器存档扩展名是.sav，手动改一下名字就能相互使用了<br>或者更改选项，高级设置，use raw .sav format：开，就能直接保存成.sav格式了</p>
 <h3 id="横屏模式单屏画面比例不对"><a href="#横屏模式单屏画面比例不对" class="headerlink" title="横屏模式单屏画面比例不对"></a>横屏模式单屏画面比例不对</h3><p>游戏中按菜单键，菜单，编辑屏幕布局和虚拟按键，横屏模式单屏，调整屏幕大小，拉右下角蓝色方框调整，返回，菜单，保存为全局布局</p>
-<h2 id="dolphin（任天堂Wii）"><a href="#dolphin（任天堂Wii）" class="headerlink" title="dolphin（任天堂Wii）"></a>dolphin（任天堂Wii）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><h2 id="暂无（任天堂3DS）"><a href="#暂无（任天堂3DS）" class="headerlink" title="暂无（任天堂3DS）"></a>暂无（任天堂3DS）</h2><h3 id="设置-3"><a href="#设置-3" class="headerlink" title="设置"></a>设置</h3><h2 id="Citron（任天堂Switch）"><a href="#Citron（任天堂Switch）" class="headerlink" title="Citron（任天堂Switch）"></a>Citron（任天堂Switch）</h2><h3 id="设置-4"><a href="#设置-4" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
+<h3 id="测试游戏-2"><a href="#测试游戏-2" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-2"><a href="#流畅运行-2" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
+<h2 id="Citron（任天堂Switch）"><a href="#Citron（任天堂Switch）" class="headerlink" title="Citron（任天堂Switch）"></a>Citron（任天堂Switch）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
 <p>系统：</p>
 <ul>
 <li>模拟区域：中国</li>
@@ -21427,8 +21433,18 @@
 <li>使用异步着色器：开</li>
 </ul>
 <h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
-<h3 id="更换gpu驱动"><a href="#更换gpu驱动" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
+<h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
 <h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
+<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-3"><a href="#流畅运行-3" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>茶杯头cuphead<br>银星围棋</p>
+<h4 id="不流畅或无法运行"><a href="#不流畅或无法运行" class="headerlink" title="不流畅或无法运行"></a>不流畅或无法运行</h4><p>世界游戏大全51<br>银星麻雀DX</p>
+<h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="版本"><a href="#版本" class="headerlink" title="版本"></a>版本</h3><p>测试了2个游戏，WinlatorGlibc-7.1.5版本好一点</p>
+<h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
+<h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
+<h3 id="添加手柄"><a href="#添加手柄" class="headerlink" title="添加手柄"></a>添加手柄</h3><p>添加了但测试使用不了</p>
+<p>输入控件，加号，点击最下面的手柄名称，按手柄上的键，再修改右边的值</p>
+<h3 id="测试游戏-4"><a href="#测试游戏-4" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-4"><a href="#流畅运行-4" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>白色相簿2 EXTENDED EDITION</p>
+<h4 id="问题运行"><a href="#问题运行" class="headerlink" title="问题运行"></a>问题运行</h4><p>蔚蓝，无法识别手柄，映射成键盘可以识别<br>吸血鬼幸存者，能识别手柄，帧数低40左右</p>
+<h4 id="无法运行"><a href="#无法运行" class="headerlink" title="无法运行"></a>无法运行</h4><p>土豆兄弟</p>
 ]]></content>
       <categories>
         <category>极客</category>
