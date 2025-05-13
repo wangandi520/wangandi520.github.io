@@ -830,7 +830,8 @@
 <h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键保存并退出</p>
 <h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
 <h4 id="gba-bios"><a href="#gba-bios" class="headerlink" title="gba bios"></a>gba bios</h4><p>网盘下载bios.bin，复制到sd卡_gba文件夹内</p>
-<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
+<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹<br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
+<h4 id="玩游戏时出现红屏错误界面"><a href="#玩游戏时出现红屏错误界面" class="headerlink" title="玩游戏时出现红屏错误界面"></a>玩游戏时出现红屏错误界面</h4><p>进游戏前，按y，向下卡带读取DMA：关闭<br>不行的话或者尝试进入TWiLightMenu设置，游戏使用语言改成english</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://dsi.cfw.guide/">https://dsi.cfw.guide/</a></p>
 ]]></content>
       <categories>
@@ -18550,12 +18551,15 @@
     <title>店铺食品用品</title>
     <url>/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.11</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.13</p>
 <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>如果是连锁店的话，可能只是其中一家有问题。<br>如果是品牌的话，可能只是其中一个产品有问题。</p>
 <span id="more"></span>
 
 <h2 id="实体店"><a href="#实体店" class="headerlink" title="实体店"></a>实体店</h2><p><strong>大家乐</strong>：吃了海南鸡饭后，上吐下泻，去医院查是急性肠胃炎。<br><strong>许个愿吧蛋糕</strong>：面包上的标签只写了15.9，付款时店员故意把价格说的很小声，看了发现是16.9，问了她才说说15.9是会员价。<br><strong>秦云老太婆摊摊面</strong>：使用的三聚氰胺碗没洗干净，用筷子轻轻刮就有黑黑的东西刮下来。<br><strong>杨国富麻辣烫</strong>：偶尔看见厨房的大垃圾桶距离煮锅只有1米左右。<br><strong>食其家</strong>：点餐程序，某个套餐写的价格点进去，还有一项必选的没有算到价格里。<br><strong>KFC</strong>：点餐程序，某个套餐写的价格点进去，还有一项必选的没有算到价格里。<br><strong>汉泰丰热干面</strong>：猪肉的颜色特别鲜红。<br><strong>粒上皇</strong>：多数产品含特丁基对苯二酚，甜蜜素，安赛蜜，三氯蔗糖。<br><strong>茉莉奶白</strong>：杯子只装了3&#x2F;4左右，剩下的是泡沫。<br><strong>一点点</strong>：站在店外面使用小程序点餐后，店员5分钟后才开始做。<br>**绿源联动(中山绿源联动科技有限公司)**：垃圾回收，有3次都是0积分（1000积分&#x3D;1元），1次10几个塑料矿泉水瓶，1次一小袋金属和电器（至少1斤）。<br><strong>通力路手拉面</strong>：12块钱的炸酱面，黄豆上面有白色的点点，跟老板说是坏了吧，老板说没坏。门口贴着纸上写使用转基因油。<br><strong>西秦面道</strong>：面里有白色塑料泡沫，伪装成蒜的样子。<br><strong>袁记云饺</strong>：云吞面的生菜，朝上的一面很清楚的看到已经发黑了，想看不见都很难啊。<br><strong>柳一勺</strong>：碗上面的字都磨掉了，让人吃颜料呢。<br><strong>京东养车</strong>：进店必须下载app，微信小程序不行。事先说好更换配件，第二天看，和实现说好的牌子不一样。自带了防冻液，说好用我的，但是还用了他们店里的。<br><strong>裕禧拉面</strong>：叉烧面里有一坨黏糊糊的像是鼻涕一样的东西，可能是没化开的汤底，这个面都很咸，座位很高桌子很矮，要弯着腰吃。<br><strong>哈佬超市</strong>：生鲜的盒子也算在重量里，买的10块多的猪肉，算了下盒子要1块2。<br><strong>你我他便利店</strong>：同上，估计同一个老板。</p>
-<h2 id="淘宝"><a href="#淘宝" class="headerlink" title="淘宝"></a>淘宝</h2><p><strong>天卓五金旗舰店</strong>：螺丝。付款后一直显示快递揽收中，结果2.5天没变化。<br><strong>东莞新森达五金有限公司</strong>：螺丝。提前和客服沟通，确认了当天能发货才付款，结果当天没发货。<br><strong>黑贝壳旗舰店</strong>：手机壳。快递卡了4，5天没变化，客服说补发，结果查到是发到别的地方的，根本不是我的快递。<br><strong>弓途体育</strong>：弹弓。提前和客服沟通，确认了当天能发货才付款，结果当天没发货。<br><strong>原兴旗舰店</strong>：篷布。1个多月就碎了，地上全是细碎的塑料渣渣。<br><strong>荣启旗舰店</strong>：magsafe指环，掉漆，金属环上还是突出的点，接触的地方有擦不掉的污渍，直接扔了，14块钱没了。<br><strong>鼎丰电玩游戏配件</strong><br><strong>风火轮数码电玩城</strong></p>
+<h2 id="淘宝"><a href="#淘宝" class="headerlink" title="淘宝"></a>淘宝</h2><p><strong>黑贝壳旗舰店</strong>：手机壳。快递卡了4，5天没变化，客服说补发，结果查到是发到别的地方的，根本不是我的快递。<br><strong>原兴旗舰店</strong>：篷布。1个多月就碎了，地上全是细碎的塑料渣渣。<br><strong>荣启旗舰店</strong>：magsafe指环，掉漆，金属环上还是突出的点，接触的地方有擦不掉的污渍，直接扔了，14块钱没了。<br><strong>南京创新电玩数码店</strong>：nds外壳，事先和客服沟通过外壳孔位位置，确认了，收到货发现和图片不一样，多了两个孔，肩键卡住按不了，外壳毛刺多扎手。</p>
+<p>事先说好当天发货但没发的：<br><strong>风火轮数码电玩城</strong><br><strong>弓途体育</strong><br><strong>东莞新森达五金有限公司</strong><br><strong>天卓五金旗舰店</strong></p>
+<p>客服不回复消息的：</p>
+<p><strong>鼎丰电玩游戏配件</strong></p>
 <h2 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h2><p><strong>舒肤佳肥皂</strong>：联苯乙烯二苯基二磺酸二钠<br><strong>乐事薯片</strong>：特丁基对苯二酚</p>
 <h2 id="物品"><a href="#物品" class="headerlink" title="物品"></a>物品</h2><p><strong>漫步者W830NB耳机</strong>：头轻微动作，耳机的塑料会发出吱吱声。右侧耳机间断出现哒哒声。</p>
 <h2 id="添加剂"><a href="#添加剂" class="headerlink" title="添加剂"></a>添加剂</h2><p>乙基麦芽酚<br>焦亚硫酸钠<br>特丁基对苯二酚（TBHQ）<br>亚硝酸钠<br>苯甲酸钠<br>六偏磷酸钠<br>三聚磷酸钠<br>阿斯巴甜<br>甜蜜素<br>安赛蜜<br>三氯蔗糖<br>果葡糖浆<br>硼砂<br>三氯生<br>联苯乙烯二苯基二磺酸二钠<br>脱氢乙酸钠<br>氢氧化钠（火碱）<br>甲醛次硫酸氢钠（吊白块）<br>呈味核苷酸二钠<br>双乙酰酒石酸单双甘油酯<br>三氯蔗糖<br>四聚乙醛（蔬菜中的蓝色颗粒）<br>三聚氰胺<br>红曲<br>羟丙基二淀粉磷酸酯<br>呈味核苷酸二钠</p>
@@ -21445,7 +21449,7 @@
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
 <h3 id="添加手柄"><a href="#添加手柄" class="headerlink" title="添加手柄"></a>添加手柄</h3><p>添加了但测试使用不了</p>
 <p>输入控件，加号，点击最下面的手柄名称，按手柄上的键，再修改右边的值</p>
-<h3 id="测试游戏-4"><a href="#测试游戏-4" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-4"><a href="#流畅运行-4" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>白色相簿2 EXTENDED EDITION</p>
+<h3 id="测试游戏-4"><a href="#测试游戏-4" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="正常运行"><a href="#正常运行" class="headerlink" title="正常运行"></a>正常运行</h4><p>白色相簿2 EXTENDED EDITION</p>
 <h4 id="问题运行"><a href="#问题运行" class="headerlink" title="问题运行"></a>问题运行</h4><p>蔚蓝，无法识别手柄，映射成键盘可以识别<br>吸血鬼幸存者，能识别手柄，帧数低40左右</p>
 <h4 id="无法运行"><a href="#无法运行" class="headerlink" title="无法运行"></a>无法运行</h4><p>土豆兄弟</p>
 ]]></content>
