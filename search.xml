@@ -18532,6 +18532,7 @@
 <h3 id="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩</h3><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
 <h3 id="设置退出游戏时，退出retroarch程序"><a href="#设置退出游戏时，退出retroarch程序" class="headerlink" title="设置退出游戏时，退出retroarch程序"></a>设置退出游戏时，退出retroarch程序</h3><p>菜单，设置，界面，关闭游戏后退出：开</p>
 <h3 id="设置时间格式"><a href="#设置时间格式" class="headerlink" title="设置时间格式"></a>设置时间格式</h3><p>设置，界面，菜单可见性，日期时间格式：YYYY.MM.DD HH:MM<br>日期分隔符：’.’</p>
+<h3 id="隐藏某些菜单项"><a href="#隐藏某些菜单项" class="headerlink" title="隐藏某些菜单项"></a>隐藏某些菜单项</h3><p>设置，界面，菜单项可见性<br>比如显示加载核心：关，这样加载游戏就在菜单第一项了</p>
 ]]></content>
       <categories>
         <category>极客</category>
@@ -21406,7 +21407,7 @@
     <title>安卓掌机模拟器经验</title>
     <url>/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.11<br>测试机型：骁龙865，骁龙870</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.14<br>测试机型：骁龙865，骁龙870</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>一些需要的文件分享<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
 <p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>Citron（任天堂Switch）<br>winlator（微软windows）</p>
 <span id="more"></span>
@@ -21442,8 +21443,9 @@
 <h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
 <h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
 <h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
-<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-3"><a href="#流畅运行-3" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>茶杯头cuphead<br>银星围棋</p>
-<h4 id="不流畅或无法运行"><a href="#不流畅或无法运行" class="headerlink" title="不流畅或无法运行"></a>不流畅或无法运行</h4><p>世界游戏大全51<br>银星麻雀DX</p>
+<h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
+<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-3"><a href="#流畅运行-3" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>茶杯头cuphead<br>银星围棋<br>土豆兄弟</p>
+<h4 id="不流畅或无法运行"><a href="#不流畅或无法运行" class="headerlink" title="不流畅或无法运行"></a>不流畅或无法运行</h4><p>世界游戏大全51<br>银星麻雀DX<br>八方旅人<br>俄罗斯方块效应链接</p>
 <h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="版本"><a href="#版本" class="headerlink" title="版本"></a>版本</h3><p>测试了2个游戏，WinlatorGlibc-7.1.5版本好一点</p>
 <h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
