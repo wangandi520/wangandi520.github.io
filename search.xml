@@ -19887,18 +19887,18 @@
     <title>电脑手机技巧</title>
     <url>/2021/03/09/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<hr>
+<h2 id="不安装软件，安卓手机投屏到windows11"><a href="#不安装软件，安卓手机投屏到windows11" class="headerlink" title="不安装软件，安卓手机投屏到windows11"></a>不安装软件，安卓手机投屏到windows11</h2><p>打开wifi<br>win11，左下角开始键，搜索设置，进入设置，设置中左上角搜索可选功能点击，右边点击查看功能，搜索无线显示器，打勾，下一步，添加<br>设置中左上角搜索投影设置，第一项选所有位置都可用<br>点击上方的启动无线显示应用以投影到这台电脑，进入一个应用，就可以投屏了</p>
 <h2 id="reddit自带翻译"><a href="#reddit自带翻译" class="headerlink" title="reddit自带翻译"></a>reddit自带翻译</h2><p>网址后面添加&#x2F;?tl&#x3D;zh-hans</p>
 <h2 id="安卓apk工具"><a href="#安卓apk工具" class="headerlink" title="安卓apk工具"></a>安卓apk工具</h2><p>安卓使用apktool m签名，<a href="https://maximoff.su/apktool/?lang=en">https://maximoff.su/apktool/?lang=en</a></p>
 <h2 id="ttc字体转成ttf"><a href="#ttc字体转成ttf" class="headerlink" title="ttc字体转成ttf"></a>ttc字体转成ttf</h2><p>搜索下载运行FontCreator，tools，extract from collection</p>
+<span id="more"></span>
+
 <h2 id="查看linux发行版内核等"><a href="#查看linux发行版内核等" class="headerlink" title="查看linux发行版内核等"></a>查看linux发行版内核等</h2><p>lsb_release -a<br>uname -a</p>
 <h2 id="windows下打开类似linux镜像的-img文件"><a href="#windows下打开类似linux镜像的-img文件" class="headerlink" title="windows下打开类似linux镜像的.img文件"></a>windows下打开类似linux镜像的.img文件</h2><p>使用diskgenius，菜单，disk，open virtual disk file</p>
 <h2 id="git排除文件夹和文件"><a href="#git排除文件夹和文件" class="headerlink" title="git排除文件夹和文件"></a>git排除文件夹和文件</h2><p>新建.gitignore文件，填写</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.gitignore</span><br><span class="line">/新建文件夹</span><br></pre></td></tr></table></figure>
 
-
 <h2 id="potplayer播放4k视频卡"><a href="#potplayer播放4k视频卡" class="headerlink" title="potplayer播放4k视频卡"></a>potplayer播放4k视频卡</h2><p>选项，滤镜，视频解码器，内置解码器&#x2F;DXVA设置，使用视频加速(DXVA)</p>
-<span id="more"></span>
-
 <h2 id="vscode设置中文界面，自动换行"><a href="#vscode设置中文界面，自动换行" class="headerlink" title="vscode设置中文界面，自动换行"></a>vscode设置中文界面，自动换行</h2><p>VSCode，按Ctrl+Shift+P，输入Configure Display Language，选择zh-CN<br>自动换行，alt+z<br>python自动格式化代码，扩展里安装autopep8</p>
 <h2 id="小狼毫输入法使用小鹤双拼"><a href="#小狼毫输入法使用小鹤双拼" class="headerlink" title="小狼毫输入法使用小鹤双拼"></a>小狼毫输入法使用小鹤双拼</h2><p>下载<a href="https://github.com/rime/rime-double-pinyin%EF%BC%8C%E5%A4%8D%E5%88%B6double_pinyin_flypy.schema.yaml%E5%88%B0C:/Users/%E4%BD%A0%E5%88%B0%E7%94%A8%E6%88%B7%E5%90%8D/AppData/Roaming/Rime%EF%BC%8C%E5%8F%B3%E4%B8%8B%E8%A7%92%E7%8A%B6%E6%80%81%E6%A0%8F%E5%88%87%E6%8D%A2%E5%88%B0%E5%B0%8F%E7%8B%BC%E6%AF%AB%E8%BE%93%E5%85%A5%E6%B3%95%EF%BC%8C%E5%8F%B3%E9%94%AE%E8%BE%93%E5%85%A5%E6%B3%95%E8%AE%BE%E5%AE%9A%EF%BC%8C%E9%80%89%E6%8B%A9%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%8Cf4%E5%8F%AF%E4%BB%A5%E8%AE%BE%E7%BD%AE%E6%88%90%E7%AE%80%E4%BD%93%E3%80%82">https://github.com/rime/rime-double-pinyin，复制double_pinyin_flypy.schema.yaml到C:\Users\你到用户名\AppData\Roaming\Rime，右下角状态栏切换到小狼毫输入法，右键输入法设定，选择小鹤双拼，f4可以设置成简体。</a></p>
 <p>修改候选字数量，default.custom.yaml里patch:后添加一行</p>
@@ -21427,25 +21427,21 @@
 <h3 id="双屏游戏时屏幕瞬间切换再切回来"><a href="#双屏游戏时屏幕瞬间切换再切回来" class="headerlink" title="双屏游戏时屏幕瞬间切换再切回来"></a>双屏游戏时屏幕瞬间切换再切回来</h3><p>配置选项，视频，多线程3D渲染：关</p>
 <h3 id="测试游戏-2"><a href="#测试游戏-2" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-2"><a href="#流畅运行-2" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
 <h2 id="Citron（任天堂Switch）"><a href="#Citron（任天堂Switch）" class="headerlink" title="Citron（任天堂Switch）"></a>Citron（任天堂Switch）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
-<p>系统：</p>
-<ul>
-<li>模拟区域：中国</li>
-<li>模拟语言：简体中文</li>
-</ul>
 <p>图形：</p>
 <ul>
-<li>垂直同步模式：即时（关闭）</li>
-<li>抗锯齿方式：无</li>
+<li>分辨率：0.75x</li>
+<li>垂直同步模式：mailbox</li>
 <li>磁盘着色器缓存：开</li>
+<li>强制最大始终（仅限adreno）：开</li>
 <li>使用异步着色器：开</li>
 </ul>
 <h3 id="存档可能的位置"><a href="#存档可能的位置" class="headerlink" title="存档可能的位置"></a>存档可能的位置</h3><p>&#x2F;Android&#x2F;data&#x2F;org.citron.citron_emu&#x2F;files&#x2F;nand&#x2F;user</p>
 <h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
 <h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
 <h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
-<h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
-<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-3"><a href="#流畅运行-3" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>茶杯头cuphead<br>银星围棋<br>土豆兄弟</p>
-<h4 id="不流畅或无法运行"><a href="#不流畅或无法运行" class="headerlink" title="不流畅或无法运行"></a>不流畅或无法运行</h4><p>世界游戏大全51<br>银星麻雀DX<br>八方旅人<br>俄罗斯方块效应链接</p>
+<h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>注意文件路径不能用中文<br>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
+<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="能运行"><a href="#能运行" class="headerlink" title="能运行"></a>能运行</h4><p>茶杯头cuphead<br>银星围棋<br>土豆兄弟<br>Hades<br>八方旅人<br>俄罗斯方块效应链接<br>潜水员戴夫</p>
+<h4 id="不流畅或无法运行"><a href="#不流畅或无法运行" class="headerlink" title="不流畅或无法运行"></a>不流畅或无法运行</h4><p>世界游戏大全51<br>银星麻雀DX</p>
 <h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="版本"><a href="#版本" class="headerlink" title="版本"></a>版本</h3><p>测试了2个游戏，WinlatorGlibc-7.1.5版本好一点</p>
 <h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
