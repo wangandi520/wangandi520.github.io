@@ -21445,8 +21445,7 @@
 <h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="60帧运行"><a href="#60帧运行" class="headerlink" title="60帧运行"></a>60帧运行</h4><p>空洞骑士<br>银星围棋<br>土豆兄弟<br>Hades<br>蔚蓝</p>
 <h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版</p>
 <h4 id="30帧运行以下，或者无法运行"><a href="#30帧运行以下，或者无法运行" class="headerlink" title="30帧运行以下，或者无法运行"></a>30帧运行以下，或者无法运行</h4><p>八方旅人<br>俄罗斯方块效应链接<br>世界游戏大全51<br>银星麻雀DX</p>
-<h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="版本"><a href="#版本" class="headerlink" title="版本"></a>版本</h3><p>测试了2个游戏，WinlatorGlibc-7.1.5版本好一点</p>
-<h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
+<h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
 <h3 id="添加手柄"><a href="#添加手柄" class="headerlink" title="添加手柄"></a>添加手柄</h3><p>添加了但测试使用不了</p>
 <p>输入控件，加号，点击最下面的手柄名称，按手柄上的键，再修改右边的值</p>
