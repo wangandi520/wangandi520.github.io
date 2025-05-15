@@ -21410,7 +21410,7 @@
     <content><![CDATA[<hr>
 <h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.14<br>测试机型：骁龙865，骁龙870</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>一些需要的文件分享<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
-<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>Citron（任天堂Switch）<br>winlator（微软windows）</p>
+<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>Sudachi（任天堂Switch）<br>winlator（微软windows）</p>
 <span id="more"></span>
 
 <h2 id="AetherSX2（索尼PS2）"><a href="#AetherSX2（索尼PS2）" class="headerlink" title="AetherSX2（索尼PS2）"></a>AetherSX2（索尼PS2）</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>无</p>
@@ -21427,7 +21427,7 @@
 <h3 id="横屏模式单屏画面比例不对"><a href="#横屏模式单屏画面比例不对" class="headerlink" title="横屏模式单屏画面比例不对"></a>横屏模式单屏画面比例不对</h3><p>游戏中按菜单键，菜单，编辑屏幕布局和虚拟按键，横屏模式单屏，调整屏幕大小，拉右下角蓝色方框调整，返回，菜单，保存为全局布局</p>
 <h3 id="双屏游戏时屏幕瞬间切换再切回来"><a href="#双屏游戏时屏幕瞬间切换再切回来" class="headerlink" title="双屏游戏时屏幕瞬间切换再切回来"></a>双屏游戏时屏幕瞬间切换再切回来</h3><p>配置选项，视频，多线程3D渲染：关</p>
 <h3 id="测试游戏-2"><a href="#测试游戏-2" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-2"><a href="#流畅运行-2" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
-<h2 id="Citron（任天堂Switch）"><a href="#Citron（任天堂Switch）" class="headerlink" title="Citron（任天堂Switch）"></a>Citron（任天堂Switch）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
+<h2 id="Sudachi（任天堂Switch）"><a href="#Sudachi（任天堂Switch）" class="headerlink" title="Sudachi（任天堂Switch）"></a>Sudachi（任天堂Switch）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
 <p>图形：</p>
 <ul>
 <li>分辨率：0.75x</li>
