@@ -18533,6 +18533,7 @@
 <h3 id="设置退出游戏时，退出retroarch程序"><a href="#设置退出游戏时，退出retroarch程序" class="headerlink" title="设置退出游戏时，退出retroarch程序"></a>设置退出游戏时，退出retroarch程序</h3><p>菜单，设置，界面，关闭游戏后退出：开</p>
 <h3 id="设置时间格式"><a href="#设置时间格式" class="headerlink" title="设置时间格式"></a>设置时间格式</h3><p>设置，界面，菜单可见性，日期时间格式：YYYY.MM.DD HH:MM<br>日期分隔符：’.’</p>
 <h3 id="隐藏某些菜单项"><a href="#隐藏某些菜单项" class="headerlink" title="隐藏某些菜单项"></a>隐藏某些菜单项</h3><p>设置，界面，菜单项可见性<br>比如显示加载核心：关，这样加载游戏就在菜单第一项了</p>
+<h3 id="玩pico8游戏"><a href="#玩pico8游戏" class="headerlink" title="玩pico8游戏"></a>玩pico8游戏</h3><p>装好pico8核心<br>设置，界面，文件浏览器，使用内建图像查看器：关</p>
 ]]></content>
       <categories>
         <category>极客</category>
@@ -21435,13 +21436,15 @@
 <li>强制最大始终（仅限adreno）：开</li>
 <li>使用异步着色器：开</li>
 </ul>
+<h3 id="自动映射手柄"><a href="#自动映射手柄" class="headerlink" title="自动映射手柄"></a>自动映射手柄</h3><p>设置，控制，玩家1，控制器自动映射，选择自己的手柄型号</p>
 <h3 id="存档可能的位置"><a href="#存档可能的位置" class="headerlink" title="存档可能的位置"></a>存档可能的位置</h3><p>&#x2F;Android&#x2F;data&#x2F;org.citron.citron_emu&#x2F;files&#x2F;nand&#x2F;user</p>
 <h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
 <h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
 <h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
 <h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>注意文件路径不能用中文<br>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
-<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="能运行"><a href="#能运行" class="headerlink" title="能运行"></a>能运行</h4><p>茶杯头cuphead<br>银星围棋<br>土豆兄弟<br>Hades<br>八方旅人<br>俄罗斯方块效应链接<br>潜水员戴夫</p>
-<h4 id="不流畅或无法运行"><a href="#不流畅或无法运行" class="headerlink" title="不流畅或无法运行"></a>不流畅或无法运行</h4><p>世界游戏大全51<br>银星麻雀DX</p>
+<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="60帧运行"><a href="#60帧运行" class="headerlink" title="60帧运行"></a>60帧运行</h4><p>空洞骑士<br>银星围棋<br>土豆兄弟<br>Hades<br>蔚蓝</p>
+<h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版</p>
+<h4 id="30帧运行以下，或者无法运行"><a href="#30帧运行以下，或者无法运行" class="headerlink" title="30帧运行以下，或者无法运行"></a>30帧运行以下，或者无法运行</h4><p>八方旅人<br>俄罗斯方块效应链接<br>世界游戏大全51<br>银星麻雀DX</p>
 <h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="版本"><a href="#版本" class="headerlink" title="版本"></a>版本</h3><p>测试了2个游戏，WinlatorGlibc-7.1.5版本好一点</p>
 <h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
