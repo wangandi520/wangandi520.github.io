@@ -21408,9 +21408,9 @@
     <title>安卓掌机模拟器经验</title>
     <url>/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.14<br>测试机型：骁龙865，骁龙870</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.16<br>测试机型：骁龙865，骁龙870</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>一些需要的文件分享<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
-<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>Sudachi（任天堂Switch）<br>winlator（微软windows）</p>
+<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>eden（任天堂Switch）<br>winlator（微软windows）</p>
 <span id="more"></span>
 
 <h2 id="AetherSX2（索尼PS2）"><a href="#AetherSX2（索尼PS2）" class="headerlink" title="AetherSX2（索尼PS2）"></a>AetherSX2（索尼PS2）</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>无</p>
@@ -21427,7 +21427,7 @@
 <h3 id="横屏模式单屏画面比例不对"><a href="#横屏模式单屏画面比例不对" class="headerlink" title="横屏模式单屏画面比例不对"></a>横屏模式单屏画面比例不对</h3><p>游戏中按菜单键，菜单，编辑屏幕布局和虚拟按键，横屏模式单屏，调整屏幕大小，拉右下角蓝色方框调整，返回，菜单，保存为全局布局</p>
 <h3 id="双屏游戏时屏幕瞬间切换再切回来"><a href="#双屏游戏时屏幕瞬间切换再切回来" class="headerlink" title="双屏游戏时屏幕瞬间切换再切回来"></a>双屏游戏时屏幕瞬间切换再切回来</h3><p>配置选项，视频，多线程3D渲染：关</p>
 <h3 id="测试游戏-2"><a href="#测试游戏-2" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-2"><a href="#流畅运行-2" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
-<h2 id="Sudachi（任天堂Switch）"><a href="#Sudachi（任天堂Switch）" class="headerlink" title="Sudachi（任天堂Switch）"></a>Sudachi（任天堂Switch）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
+<h2 id="eden（任天堂Switch）"><a href="#eden（任天堂Switch）" class="headerlink" title="eden（任天堂Switch）"></a>eden（任天堂Switch）</h2><h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
 <p>图形：</p>
 <ul>
 <li>分辨率：0.75x</li>
@@ -21437,8 +21437,13 @@
 <li>使用异步着色器：开</li>
 </ul>
 <h3 id="自动映射手柄"><a href="#自动映射手柄" class="headerlink" title="自动映射手柄"></a>自动映射手柄</h3><p>设置，控制，玩家1，控制器自动映射，选择自己的手柄型号</p>
-<h3 id="存档可能的位置"><a href="#存档可能的位置" class="headerlink" title="存档可能的位置"></a>存档可能的位置</h3><p>&#x2F;Android&#x2F;data&#x2F;org.citron.citron_emu&#x2F;files&#x2F;nand&#x2F;user</p>
-<h3 id="添加某游戏补丁或DLC"><a href="#添加某游戏补丁或DLC" class="headerlink" title="添加某游戏补丁或DLC"></a>添加某游戏补丁或DLC</h3><p>长按游戏，附加项，右下角安装</p>
+<h3 id="存档可能的位置"><a href="#存档可能的位置" class="headerlink" title="存档可能的位置"></a>存档可能的位置</h3><p>&#x2F;Android&#x2F;data&#x2F;org.citron.citron_emu&#x2F;files&#x2F;nand&#x2F;user<br>导出全部存档：设置，管理eden数据，管理存档，上箭头，保存</p>
+<h3 id="添加补丁或DLC"><a href="#添加补丁或DLC" class="headerlink" title="添加补丁或DLC"></a>添加补丁或DLC</h3><p>长按游戏，附加项，右下角安装，选择游戏更新和DLC</p>
+<h3 id="添加mod或金手指"><a href="#添加mod或金手指" class="headerlink" title="添加mod或金手指"></a>添加mod或金手指</h3><p>查看游戏ID，长按游戏，信息，游戏ID<br>金手指位置：XXX（或其他游戏ID）\cheats\YYY.txt（金手指文件）<br>mod位置：可能txt的上级文件夹叫exefs，暂未测试<br>长按游戏，附加项，右下角安装，选择mod和金手指，进入游戏ID这个文件夹，这时候窗口显示的是cheats文件夹，不要进去，下方点击使用此文件夹<br>完成后，附加项里增加了一项XXX，Cheats<br>一些改60帧的金手指<a href="https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/GAMES.md">https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/GAMES.md</a></p>
+<h3 id="女神异闻录5皇家版改60帧"><a href="#女神异闻录5皇家版改60帧" class="headerlink" title="女神异闻录5皇家版改60帧"></a>女神异闻录5皇家版改60帧</h3><p>我的版本是Persona 5 Royal (HK)，如果是其他的，就搜索后点击第三列build id<br>下载<a href="https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/titles/01004B10157F2000/cheats/D4B150B29A931CD3.txt">https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/titles/01004B10157F2000/cheats/D4B150B29A931CD3.txt</a><br>在电脑或手机上保存好01004B10157F2000\cheats\D4B150B29A931CD3.txt<br>txt内原来有2项，30fps和60fps，把30fps删除，之后txt是这样的</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[60fps]</span><br><span class="line">580F0000 02327B90 </span><br><span class="line">580F1000 00000010 </span><br><span class="line">580F1000 00000060 </span><br><span class="line">580F1000 00000008 </span><br><span class="line">780F0000 00000F14 </span><br><span class="line">640F0000 00000000 00000001</span><br></pre></td></tr></table></figure>
+
+<p>完成后，附加项里增加了一项01004B10157F2000，Cheats<br>按照上面的教程添加到游戏，进入游戏就变成60帧了</p>
 <h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
 <h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
 <h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>注意文件路径不能用中文<br>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
@@ -21449,6 +21454,7 @@
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
 <h3 id="添加手柄"><a href="#添加手柄" class="headerlink" title="添加手柄"></a>添加手柄</h3><p>添加了但测试使用不了</p>
 <p>输入控件，加号，点击最下面的手柄名称，按手柄上的键，再修改右边的值</p>
+<h3 id="关闭容器左上角显示的信息"><a href="#关闭容器左上角显示的信息" class="headerlink" title="关闭容器左上角显示的信息"></a>关闭容器左上角显示的信息</h3><p>编辑容器，环境变量，DXVK_HUB，点击右侧下拉框编辑</p>
 <h3 id="测试游戏-4"><a href="#测试游戏-4" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="正常运行"><a href="#正常运行" class="headerlink" title="正常运行"></a>正常运行</h4><p>白色相簿2 EXTENDED EDITION</p>
 <h4 id="问题运行"><a href="#问题运行" class="headerlink" title="问题运行"></a>问题运行</h4><p>蔚蓝，无法识别手柄，映射成键盘可以识别<br>吸血鬼幸存者，能识别手柄，帧数低40左右</p>
 <h4 id="无法运行"><a href="#无法运行" class="headerlink" title="无法运行"></a>无法运行</h4><p>土豆兄弟</p>
