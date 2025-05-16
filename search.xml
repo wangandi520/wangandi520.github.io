@@ -21457,6 +21457,7 @@
 <h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>下载<a href="https://github.com/K11MCH1/AdrenoToolsDrivers/releases/%EF%BC%8Cturnip_v25.2.0_R4_auto_fix.zip">https://github.com/K11MCH1/AdrenoToolsDrivers/releases/，turnip_v25.2.0_R4_auto_fix.zip</a><br>不用解压缩，设置，gpu驱动管理器，右下安装，选择文件，选择新的驱动<br>测试原驱动玩世界游戏大全51，一开始的地球仪显示不了，换了驱动后可以显示了</p>
 <h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
 <h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>注意文件路径不能用中文<br>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
+<h3 id="马里奥赛车8豪华版卡在一开始请选择您的mii"><a href="#马里奥赛车8豪华版卡在一开始请选择您的mii" class="headerlink" title="马里奥赛车8豪华版卡在一开始请选择您的mii"></a>马里奥赛车8豪华版卡在一开始请选择您的mii</h3><p>设置，管理eden数据，安装固件，Firmware.19.0.1.zip</p>
 <h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="60帧运行"><a href="#60帧运行" class="headerlink" title="60帧运行"></a>60帧运行</h4><p>空洞骑士<br>银星围棋<br>土豆兄弟<br>Hades<br>蔚蓝</p>
 <h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版</p>
 <h4 id="30帧运行以下，或者无法运行"><a href="#30帧运行以下，或者无法运行" class="headerlink" title="30帧运行以下，或者无法运行"></a>30帧运行以下，或者无法运行</h4><p>八方旅人<br>俄罗斯方块效应链接<br>世界游戏大全51<br>银星麻雀DX</p>
