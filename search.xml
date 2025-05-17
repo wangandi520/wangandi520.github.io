@@ -21438,7 +21438,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">screen-swap切换上下屏：R3，右摇杆按下</span><br><span class="line">quick-save快速保存：R2</span><br><span class="line">quick-load快速读取：L2</span><br><span class="line">1/2 screen swap切换单屏或双屏布局：L3，左摇杆按下</span><br><span class="line">其他跳过</span><br></pre></td></tr></table></figure>
 
 <h3 id="修改drastic存档文件夹"><a href="#修改drastic存档文件夹" class="headerlink" title="修改drastic存档文件夹"></a>修改drastic存档文件夹</h3><p>配置选项，常规，system directory，scoped storage folder，选择文件夹<br>然后回到首页，退出，再进入程序，自动复制旧数据到新文件夹，yes<br>存档在backup文件夹，扩展名是.dsv，游戏内存档，在开始游戏后在游戏界面读取，不在模拟器界面<br>retroarch等其他的模拟器存档扩展名是.sav，手动改一下名字就能相互使用了<br>或者更改选项，高级设置，use raw .sav format：开，就能直接保存成.sav格式了</p>
-<h3 id="设置屏幕布局上屏大下屏小和遮罩"><a href="#设置屏幕布局上屏大下屏小和遮罩" class="headerlink" title="设置屏幕布局上屏大下屏小和遮罩"></a>设置屏幕布局上屏大下屏小和遮罩</h3><p>复制nds02.png到drastic文件夹的backgrounds文件夹<br>drastic，进一个游戏，返回键，菜单，编辑屏幕布局和虚拟按键<br>随便选一个布局，左下菜单按钮，设置背景图，选择nds02.png<br>点击一个屏幕，右下调整屏幕大小按钮，可以拖动变换位置<br>右下角按住，调整屏幕大小，左上角保持单屏是保持屏幕比例的意思<br>调整好屏幕位置后，左下菜单按钮，保存为全局布局<br>更改选项，常规，默认布局，选择之前修改的布局</p>
+<h3 id="设置屏幕布局上屏大下屏小和遮罩"><a href="#设置屏幕布局上屏大下屏小和遮罩" class="headerlink" title="设置屏幕布局上屏大下屏小和遮罩"></a>设置屏幕布局上屏大下屏小和遮罩</h3><p>nds上下屏幕分辨率256x192，比例4：3<br>复制nds02.png到drastic文件夹的backgrounds文件夹<br>drastic，进一个游戏，返回键，菜单，编辑屏幕布局和虚拟按键<br>随便选一个布局，左下菜单按钮，设置背景图，选择nds02.png<br>点击一个屏幕，右下调整屏幕大小按钮，可以拖动变换位置<br>右下角按住，调整屏幕大小，左上角保持单屏是保持屏幕比例的意思<br>调整好屏幕位置后，左下菜单按钮，保存为全局布局<br>更改选项，常规，默认布局，选择之前修改的布局</p>
 <h3 id="横屏模式单屏画面比例不对"><a href="#横屏模式单屏画面比例不对" class="headerlink" title="横屏模式单屏画面比例不对"></a>横屏模式单屏画面比例不对</h3><p>游戏中按菜单键，菜单，编辑屏幕布局和虚拟按键，横屏模式单屏，调整屏幕大小，拉右下角蓝色方框调整，返回，菜单，保存为全局布局</p>
 <h3 id="双屏游戏时屏幕瞬间切换再切回来"><a href="#双屏游戏时屏幕瞬间切换再切回来" class="headerlink" title="双屏游戏时屏幕瞬间切换再切回来"></a>双屏游戏时屏幕瞬间切换再切回来</h3><p>配置选项，视频，多线程3D渲染：关</p>
 <h3 id="测试游戏-2"><a href="#测试游戏-2" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-2"><a href="#流畅运行-2" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
@@ -21448,6 +21448,7 @@
 <h3 id="图形设置"><a href="#图形设置" class="headerlink" title="图形设置"></a>图形设置</h3><p>选项，设置，图形<br>图形API：Vulkan<br>启用异步着色器编译：开<br>内部分辨率：2倍或看自己需要<br>禁用右眼渲染：开<br>异步加载自定义纹理：关</p>
 <h3 id="自定义GPU驱动"><a href="#自定义GPU驱动" class="headerlink" title="自定义GPU驱动"></a>自定义GPU驱动</h3><p>选项，GPU驱动管理器，安装，选择zip文件</p>
 <h3 id="显示fps"><a href="#显示fps" class="headerlink" title="显示fps"></a>显示fps</h3><p>游戏中，返回键调出菜单，虚拟按键选项，显示ftp</p>
+<h3 id="设置屏幕布局上屏大下屏小和遮罩-1"><a href="#设置屏幕布局上屏大下屏小和遮罩-1" class="headerlink" title="设置屏幕布局上屏大下屏小和遮罩"></a>设置屏幕布局上屏大下屏小和遮罩</h3><p>3ds上屏分辨率400x240，比例5：3，下屏分辨率320x240，比例4：3<br>设置，布局，横向自定义布局<br>按着3ds屏幕比例和自己屏幕比例计算，自己屏幕横向宽度a，竖向高度b<br>上屏幕：x位置0，y位置0，宽度a，高度3a&#x2F;5<br>下屏幕：x位置(a-(4b&#x2F;3-12a&#x2F;15)&#x2F;2，y位置3a&#x2F;5，宽度4b&#x2F;3-12a&#x2F;15，高度b-3a&#x2F;5<br>1240x1080屏幕：<br>上屏幕：x位置0，y位置0，宽度1240，高度744<br>下屏幕：x位置396，y位置744，宽度448，高度336</p>
 <h2 id="eden（任天堂Switch）"><a href="#eden（任天堂Switch）" class="headerlink" title="eden（任天堂Switch）"></a>eden（任天堂Switch）</h2><h3 id="下载-4"><a href="#下载-4" class="headerlink" title="下载"></a>下载</h3><p><a href="https://git.eden-emu.dev/eden-emu/eden">https://git.eden-emu.dev/eden-emu/eden</a></p>
 <h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
 <p>图形：</p>
