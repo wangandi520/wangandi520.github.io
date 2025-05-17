@@ -18522,7 +18522,7 @@
 <hr>
 <h2 id="RetroArch"><a href="#RetroArch" class="headerlink" title="RetroArch"></a>RetroArch</h2><p>设置在电脑端和rg35xxplus一般通用。</p>
 <h3 id="电脑端下载retroarch"><a href="#电脑端下载retroarch" class="headerlink" title="电脑端下载retroarch"></a>电脑端下载retroarch</h3><p><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch.7z">主程序下载</a><br><a href="https://buildbot.libretro.com/stable/1.20.0/windows/x86_64/RetroArch_cores.7z">core下载</a><br><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">或是使用我分享的网盘</a><br>下载完成后core压缩包的dll文件要放到RetroArch-Win64\cores文件夹里，system压缩包解压到RetroArch-Win64\system文件夹内。<br>或者自己下载需要的核心：菜单，加载核心，下载核心，要看网络状况，经常无法下载。</p>
-<h3 id="设置游戏目录"><a href="#设置游戏目录" class="headerlink" title="设置游戏目录"></a>设置游戏目录</h3><p>设置一个游戏目录：菜单，文件夹，下载，选择你的目录</p>
+<h3 id="设置游戏目录"><a href="#设置游戏目录" class="headerlink" title="设置游戏目录"></a>设置游戏目录</h3><p>设置一个游戏目录：菜单，文件夹，下载，选择你的目录<br>掌机一般不用改</p>
 <h3 id="开始游戏"><a href="#开始游戏" class="headerlink" title="开始游戏"></a>开始游戏</h3><p>菜单，加载游戏，下载，选择游戏，或者直接选择其他目录的游戏也可以。<br>选择游戏后还有选择核心，需要一定程度了解游戏才行。<br>比如我要玩西游释厄传orlegend.zip，核心就选择arcade(finalburn neo)，能使用的核心不只一个。</p>
 <h3 id="配置修改不起效果"><a href="#配置修改不起效果" class="headerlink" title="配置修改不起效果"></a>配置修改不起效果</h3><p>一般要在没进游戏的情况下修改，才是全局修改。菜单，配置文件，保存当前配置，就可以了<br>如果进游戏后修改，要在菜单，独立配置，保存核心独立配置，只对这个核心的游戏有效</p>
 <h3 id="使用webdav同步各个设备的RetroArch设置和存档"><a href="#使用webdav同步各个设备的RetroArch设置和存档" class="headerlink" title="使用webdav同步各个设备的RetroArch设置和存档"></a>使用webdav同步各个设备的RetroArch设置和存档</h3><p><strong>测试了一下，跨设备同步不是很智能，经常同步不了，暂时不建议使用</strong></p>
@@ -21438,6 +21438,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">screen-swap切换上下屏：R3，右摇杆按下</span><br><span class="line">quick-save快速保存：R2</span><br><span class="line">quick-load快速读取：L2</span><br><span class="line">1/2 screen swap切换单屏或双屏布局：L3，左摇杆按下</span><br><span class="line">其他跳过</span><br></pre></td></tr></table></figure>
 
 <h3 id="修改drastic存档文件夹"><a href="#修改drastic存档文件夹" class="headerlink" title="修改drastic存档文件夹"></a>修改drastic存档文件夹</h3><p>配置选项，常规，system directory，scoped storage folder，选择文件夹<br>然后回到首页，退出，再进入程序，自动复制旧数据到新文件夹，yes<br>存档在backup文件夹，扩展名是.dsv，游戏内存档，在开始游戏后在游戏界面读取，不在模拟器界面<br>retroarch等其他的模拟器存档扩展名是.sav，手动改一下名字就能相互使用了<br>或者更改选项，高级设置，use raw .sav format：开，就能直接保存成.sav格式了</p>
+<h3 id="设置屏幕布局上屏大下屏小和遮罩"><a href="#设置屏幕布局上屏大下屏小和遮罩" class="headerlink" title="设置屏幕布局上屏大下屏小和遮罩"></a>设置屏幕布局上屏大下屏小和遮罩</h3><p>复制nds02.png到drastic文件夹的backgrounds文件夹<br>drastic，进一个游戏，返回键，菜单，编辑屏幕布局和虚拟按键<br>随便选一个布局，左下菜单按钮，设置背景图，选择nds02.png<br>点击一个屏幕，右下调整屏幕大小按钮，可以拖动变换位置<br>右下角按住，调整屏幕大小，左上角保持单屏是保持屏幕比例的意思<br>调整好屏幕位置后，左下菜单按钮，保存为全局布局<br>更改选项，常规，默认布局，选择之前修改的布局</p>
 <h3 id="横屏模式单屏画面比例不对"><a href="#横屏模式单屏画面比例不对" class="headerlink" title="横屏模式单屏画面比例不对"></a>横屏模式单屏画面比例不对</h3><p>游戏中按菜单键，菜单，编辑屏幕布局和虚拟按键，横屏模式单屏，调整屏幕大小，拉右下角蓝色方框调整，返回，菜单，保存为全局布局</p>
 <h3 id="双屏游戏时屏幕瞬间切换再切回来"><a href="#双屏游戏时屏幕瞬间切换再切回来" class="headerlink" title="双屏游戏时屏幕瞬间切换再切回来"></a>双屏游戏时屏幕瞬间切换再切回来</h3><p>配置选项，视频，多线程3D渲染：关</p>
 <h3 id="测试游戏-2"><a href="#测试游戏-2" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-2"><a href="#流畅运行-2" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
@@ -21468,7 +21469,7 @@
 <h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
 <h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>注意文件路径不能用中文<br>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
 <h3 id="马里奥赛车8豪华版卡在一开始请选择您的mii"><a href="#马里奥赛车8豪华版卡在一开始请选择您的mii" class="headerlink" title="马里奥赛车8豪华版卡在一开始请选择您的mii"></a>马里奥赛车8豪华版卡在一开始请选择您的mii</h3><p>设置，管理eden数据，安装固件，Firmware.19.0.1.zip</p>
-<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="60帧运行"><a href="#60帧运行" class="headerlink" title="60帧运行"></a>60帧运行</h4><p>空洞骑士<br>银星围棋<br>土豆兄弟<br>Hades<br>蔚蓝<br>新超级马力欧兄弟U豪华版</p>
+<h3 id="测试游戏-3"><a href="#测试游戏-3" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="60帧运行"><a href="#60帧运行" class="headerlink" title="60帧运行"></a>60帧运行</h4><p>空洞骑士<br>银星围棋<br>土豆兄弟<br>Hades<br>蔚蓝<br>马里奥赛车8<br>新超级马力欧兄弟U豪华版</p>
 <h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版</p>
 <h4 id="30帧运行以下，或者无法运行"><a href="#30帧运行以下，或者无法运行" class="headerlink" title="30帧运行以下，或者无法运行"></a>30帧运行以下，或者无法运行</h4><p>八方旅人<br>俄罗斯方块效应链接<br>世界游戏大全51<br>银星麻雀DX</p>
 <h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="下载-5"><a href="#下载-5" class="headerlink" title="下载"></a>下载</h3><p><a href="https://github.com/brunodev85/winlator">https://github.com/brunodev85/winlator</a></p>
