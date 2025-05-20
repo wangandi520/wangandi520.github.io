@@ -21438,7 +21438,7 @@
 <h3 id="测试游戏-1"><a href="#测试游戏-1" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-1"><a href="#流畅运行-1" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
 <hr>
 <h2 id="Dophin（任天堂Wii）"><a href="#Dophin（任天堂Wii）" class="headerlink" title="Dophin（任天堂Wii）"></a>Dophin（任天堂Wii）</h2><h3 id="手柄映射"><a href="#手柄映射" class="headerlink" title="手柄映射"></a>手柄映射</h3><p>设置，wii input，，wii remote 1，点名字选择设置，点右边齿轮进入设置映射按键<br>device一般是第一个<br>wii remote，button，ab12映射abyx，dpad映射上下左右<br>extension nunchuk，c映射l1，z映射r1，stick映射左摇杆</p>
-<h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>设置，graphics settings，，gpu driver</p>
+<h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>设置，graphics settings，gpu driver</p>
 <hr>
 <h2 id="DraStic（任天堂DS）"><a href="#DraStic（任天堂DS）" class="headerlink" title="DraStic（任天堂DS）"></a>DraStic（任天堂DS）</h2><h3 id="更换gpu驱动-2"><a href="#更换gpu驱动-2" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><h3 id="推荐用法"><a href="#推荐用法" class="headerlink" title="推荐用法"></a>推荐用法</h3><p>玩nds游戏，retroarch的melondsds在pc和安卓上都很流畅，单屏玩没问题，好像没有一大一小的屏幕布局。<br>drastic可以手动调整布局，上屏宽度占满屏幕，下屏缩到很小，适合方屏，空的地方可以加上遮罩，参考下面设置屏幕布局上屏大下屏小和遮罩。</p>
 <h3 id="下载-2"><a href="#下载-2" class="headerlink" title="下载"></a>下载</h3><p>不确定是不是官网，好像很久没更新了，<a href="https://drasticds.com/download/">https://drasticds.com/download/</a></p>
