@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-05-20T04:06:21.224Z</updated>
+  <updated>2025-05-20T13:59:17.272Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://andi.wang/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/"/>
     <id>https://andi.wang/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</id>
     <published>2025-05-10T01:44:25.000Z</published>
-    <updated>2025-05-20T04:06:21.224Z</updated>
+    <updated>2025-05-20T13:59:17.272Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.05.16&lt;br&gt;测试机型：骁龙865，骁龙870&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.05.20&lt;br&gt;测试机型：骁龙865，骁龙870&lt;/p&gt;
 &lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;简单记录下安卓的一些模拟器配置使用经验&lt;br&gt;retroarch的经验见另一篇文章&lt;a href=&quot;https://andi.wang/go?id=68&quot;&gt;https://andi.wang/go?id=68&lt;/a&gt;&lt;br&gt;一些需要的文件分享&lt;a href=&quot;https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw&quot;&gt;https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;模拟器（平台）&lt;br&gt;AetherSX2（索尼PS2）&lt;br&gt;PPSSPP（索尼PSP）&lt;br&gt;Dophin（任天堂Wii）&lt;br&gt;DraStic（任天堂DS）&lt;br&gt;AzaharPlus（任天堂3DS）&lt;br&gt;eden（任天堂Switch）&lt;br&gt;winlator（微软windows）&lt;/p&gt;</summary>
     
@@ -180,7 +180,7 @@
     <link href="https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
     <id>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <published>2025-03-26T10:12:11.000Z</published>
-    <updated>2025-05-18T05:08:32.491Z</updated>
+    <updated>2025-05-20T13:25:56.773Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
