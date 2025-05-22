@@ -18434,7 +18434,7 @@
     <title>开源掌机和RetroArch个人体验</title>
     <url>/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.18</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.22</p>
 <h2 id="总体评分"><a href="#总体评分" class="headerlink" title="总体评分"></a>总体评分</h2><p>及格分数7分<br>安伯尼克rg34xxsp，7分<br>安伯尼克rg35xxsp，7分<br>安伯尼克rg35xxplus，6分<br>安伯尼克rg34xx，5分<br>miyoo mini v4，3分</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价安伯尼克rg35xxplus，rg35xxsp，rg34xx，miyoo mini v4。<br><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">相关资源下载</a></p>
 <span id="more"></span>
@@ -21435,7 +21435,7 @@
     <title>安卓掌机模拟器经验</title>
     <url>/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.20<br>测试机型：骁龙865，骁龙870</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.22<br>测试机型：骁龙865，骁龙870</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>一些需要的文件分享<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
 <p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>Dophin（任天堂Wii）<br>DraStic（任天堂DS）<br>AzaharPlus（任天堂3DS）<br>eden（任天堂Switch）<br>winlator（微软windows）</p>
 <span id="more"></span>
@@ -21506,12 +21506,12 @@
 <h4 id="30帧运行以下，或者无法运行"><a href="#30帧运行以下，或者无法运行" class="headerlink" title="30帧运行以下，或者无法运行"></a>30帧运行以下，或者无法运行</h4><p>俄罗斯方块效应链接，低帧率<br>银星麻雀DX，低帧率<br>八方旅人，无法运行，偶尔能运行时画面发紫<br>世界游戏大全51，无法运行<br>逆转裁判123成步堂精选集，切换到证据界面，会有杂色</p>
 <hr>
 <h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="下载-5"><a href="#下载-5" class="headerlink" title="下载"></a>下载</h3><p><a href="https://github.com/brunodev85/winlator">https://github.com/brunodev85/winlator</a></p>
-<h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
+<h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>屏幕大小，custom，可以自己输入机器的宽高分辨率，就能满屏幕运行了<br>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
-<h3 id="添加手柄"><a href="#添加手柄" class="headerlink" title="添加手柄"></a>添加手柄</h3><p>添加了但测试使用不了</p>
-<p>输入控件，加号，点击最下面的手柄名称，按手柄上的键，再修改右边的值</p>
+<h3 id="按键映射"><a href="#按键映射" class="headerlink" title="按键映射"></a>按键映射</h3><p>输入控件，加号，点击最下面的手柄名称，按手柄上的键，再修改右边的值<br>鼠标类的游戏：<br>左摇杆鼠标，abxy鼠标左右键空格回车，方向键上下左右<br>手柄类的游戏：<br>左摇杆left thumb，右摇杆right thumb，方向键dpad，按键button<br>导出配置文件可以备份</p>
 <h3 id="关闭容器左上角显示的信息"><a href="#关闭容器左上角显示的信息" class="headerlink" title="关闭容器左上角显示的信息"></a>关闭容器左上角显示的信息</h3><p>编辑容器，环境变量，DXVK_HUB，点击右侧下拉框编辑</p>
-<h3 id="测试游戏-5"><a href="#测试游戏-5" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="正常运行"><a href="#正常运行" class="headerlink" title="正常运行"></a>正常运行</h4><p>白色相簿2 EXTENDED EDITION</p>
+<h3 id="绑定已配置好的按键映射"><a href="#绑定已配置好的按键映射" class="headerlink" title="绑定已配置好的按键映射"></a>绑定已配置好的按键映射</h3><p>好像没法针对一个容器绑定，只能单个游戏<br>进入一个容器，双指点击（鼠标右键）一个游戏的exe，创建快捷方式<br>退出容器，左上角三杠，快捷方式，右边三点，高级设置，高级设置，输入控件，确定<br>从快捷方式进入，就直接可以使用映射好的键盘鼠标了</p>
+<h3 id="测试游戏-5"><a href="#测试游戏-5" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="正常运行"><a href="#正常运行" class="headerlink" title="正常运行"></a>正常运行</h4><p>白色相簿2 EXTENDED EDITION<br>CLANNAD</p>
 <h4 id="问题运行"><a href="#问题运行" class="headerlink" title="问题运行"></a>问题运行</h4><p>蔚蓝，无法识别手柄，映射成键盘可以识别<br>吸血鬼幸存者，能识别手柄，帧数低40左右</p>
 <h4 id="无法运行"><a href="#无法运行" class="headerlink" title="无法运行"></a>无法运行</h4><p>土豆兄弟</p>
 ]]></content>
