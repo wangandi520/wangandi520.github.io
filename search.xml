@@ -18559,6 +18559,8 @@
 <h3 id="设置时间格式"><a href="#设置时间格式" class="headerlink" title="设置时间格式"></a>设置时间格式</h3><p>设置，界面，菜单可见性，日期时间格式：YYYY.MM.DD HH:MM<br>日期分隔符：’.’</p>
 <h3 id="隐藏某些菜单项"><a href="#隐藏某些菜单项" class="headerlink" title="隐藏某些菜单项"></a>隐藏某些菜单项</h3><p>设置，界面，菜单项可见性<br>比如显示加载核心：关，这样加载游戏就在菜单第一项了</p>
 <h3 id="显示帧数"><a href="#显示帧数" class="headerlink" title="显示帧数"></a>显示帧数</h3><p>设置，界面，通知，通知可见性，显示帧数</p>
+<h3 id="玩ons游戏"><a href="#玩ons游戏" class="headerlink" title="玩ons游戏"></a>玩ons游戏</h3><p>选择nscript.dat<br>windows玩，下载<a href="https://github.com/YuriSizuku/OnscripterYuri/releases">https://github.com/YuriSizuku/OnscripterYuri/releases</a><br>把exe放到nscript.dat同级目录</p>
+<h3 id="手动更新核心"><a href="#手动更新核心" class="headerlink" title="手动更新核心"></a>手动更新核心</h3><h4 id="ons"><a href="#ons" class="headerlink" title="ons"></a>ons</h4><p>下载<a href="https://github.com/weimingtom/onscripter-libretro_fork/releases">https://github.com/weimingtom/onscripter-libretro_fork/releases</a><br>注意改名<br>安伯尼克掌机用onsyuri_libretro_arm.so<br>windows用onsyuri_libretro_win64.dll，虽然windows没啥必要。</p>
 ]]></content>
       <categories>
         <category>极客</category>
@@ -21450,6 +21452,7 @@
 <h3 id="测试游戏-1"><a href="#测试游戏-1" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-1"><a href="#流畅运行-1" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
 <hr>
 <h2 id="Dophin（任天堂Wii）"><a href="#Dophin（任天堂Wii）" class="headerlink" title="Dophin（任天堂Wii）"></a>Dophin（任天堂Wii）</h2><h3 id="手柄映射"><a href="#手柄映射" class="headerlink" title="手柄映射"></a>手柄映射</h3><p>设置，wii input，，wii remote 1，点名字选择设置，点右边齿轮进入设置映射按键<br>device一般是第一个<br>wii remote，button，ab12映射abyx，dpad映射上下左右<br>extension nunchuk，c映射l1，z映射r1，stick映射左摇杆</p>
+<h3 id="游戏中提示请断开wii控制器"><a href="#游戏中提示请断开wii控制器" class="headerlink" title="游戏中提示请断开wii控制器"></a>游戏中提示请断开wii控制器</h3><p>设置，wii input，点名字选none</p>
 <h3 id="更换gpu驱动-1"><a href="#更换gpu驱动-1" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>设置，graphics settings，gpu driver</p>
 <hr>
 <h2 id="DraStic（任天堂DS）"><a href="#DraStic（任天堂DS）" class="headerlink" title="DraStic（任天堂DS）"></a>DraStic（任天堂DS）</h2><h3 id="更换gpu驱动-2"><a href="#更换gpu驱动-2" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><h3 id="推荐用法"><a href="#推荐用法" class="headerlink" title="推荐用法"></a>推荐用法</h3><p>玩nds游戏，retroarch的melondsds在pc和安卓上都很流畅，单屏玩没问题，好像没有一大一小的屏幕布局。<br>drastic可以手动调整布局，上屏宽度占满屏幕，下屏缩到很小，适合方屏，空的地方可以加上遮罩，参考下面设置屏幕布局上屏大下屏小和遮罩。</p>
