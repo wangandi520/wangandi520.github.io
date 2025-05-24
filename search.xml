@@ -21446,13 +21446,13 @@
 
 <hr>
 <h2 id="AetherSX2（索尼PS2）"><a href="#AetherSX2（索尼PS2）" class="headerlink" title="AetherSX2（索尼PS2）"></a>AetherSX2（索尼PS2）</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="https://aethersx2.net/">https://aethersx2.net/</a></p>
-<h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>无</p>
-<h3 id="游戏内存档和即时存档的位置"><a href="#游戏内存档和即时存档的位置" class="headerlink" title="游戏内存档和即时存档的位置"></a>游戏内存档和即时存档的位置</h3><p>游戏内存档：<br>&#x2F;Android&#x2F;data&#x2F;xyz.aethersx2.android&#x2F;files&#x2F;memcards<br>即时存档：<br>&#x2F;Android&#x2F;data&#x2F;xyz.aethersx2.android&#x2F;files&#x2F;sstates</p>
+<h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>控制器设置，controller port 1，自动映射</p>
+<h3 id="存档文件夹"><a href="#存档文件夹" class="headerlink" title="存档文件夹"></a>存档文件夹</h3><p>游戏内存档：<br>&#x2F;Android&#x2F;data&#x2F;xyz.aethersx2.android&#x2F;files&#x2F;memcards<br>即时存档：<br>&#x2F;Android&#x2F;data&#x2F;xyz.aethersx2.android&#x2F;files&#x2F;sstates</p>
 <h3 id="测试游戏"><a href="#测试游戏" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行"><a href="#流畅运行" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
 <hr>
 <h2 id="PPSSPP（索尼PSP）"><a href="#PPSSPP（索尼PSP）" class="headerlink" title="PPSSPP（索尼PSP）"></a>PPSSPP（索尼PSP）</h2><h3 id="下载-1"><a href="#下载-1" class="headerlink" title="下载"></a>下载</h3><p><a href="https://www.ppsspp.org/">https://www.ppsspp.org/</a></p>
 <h3 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h3><h3 id="更换gpu驱动"><a href="#更换gpu驱动" class="headerlink" title="更换gpu驱动"></a>更换gpu驱动</h3><p>游戏设置，工具，开发者工具，adreno driver manager，安卓第三方驱动程序，完成后在下方选择</p>
-<h3 id="游戏内存档和即时存档的位置-1"><a href="#游戏内存档和即时存档的位置-1" class="headerlink" title="游戏内存档和即时存档的位置"></a>游戏内存档和即时存档的位置</h3><p>游戏内存档：<br>游戏rom文件夹\PSP\SAVEDATA<br>即时存档：<br>游戏rom文件夹\PSP\PPSSPP_STATE</p>
+<h3 id="存档文件夹-1"><a href="#存档文件夹-1" class="headerlink" title="存档文件夹"></a>存档文件夹</h3><p>游戏内存档：<br>游戏rom文件夹\PSP\SAVEDATA<br>即时存档：<br>游戏rom文件夹\PSP\PPSSPP_STATE</p>
 <h3 id="测试游戏-1"><a href="#测试游戏-1" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-1"><a href="#流畅运行-1" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>全部</p>
 <hr>
 <h2 id="Dophin（任天堂Wii）"><a href="#Dophin（任天堂Wii）" class="headerlink" title="Dophin（任天堂Wii）"></a>Dophin（任天堂Wii）</h2><h3 id="手柄映射"><a href="#手柄映射" class="headerlink" title="手柄映射"></a>手柄映射</h3><p>设置，wii input，，wii remote 1，点名字选择设置，点右边齿轮进入设置映射按键<br>device一般是第一个<br>wii remote，button，ab12映射abyx，dpad映射上下左右<br>extension nunchuk，c映射l1，z映射r1，stick映射左摇杆</p>
@@ -21466,7 +21466,7 @@
 <h3 id="修改按键映射"><a href="#修改按键映射" class="headerlink" title="修改按键映射"></a>修改按键映射</h3><p>更改设置，外接控制器，选择按键映射方案，无映射<br>控制键映射，屏幕上出现一个键，想把这个键映射到哪个键上，就按一下，如果显示的按键没变，就再按一下<br>特殊键映射，同样的过程，不希望使用的，就点下面跳过<br>我的设置：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">screen-swap切换上下屏：R3，右摇杆按下</span><br><span class="line">quick-save快速保存：R2</span><br><span class="line">quick-load快速读取：L2</span><br><span class="line">1/2 screen swap切换单屏或双屏布局：L3，左摇杆按下</span><br><span class="line">其他跳过</span><br></pre></td></tr></table></figure>
 
-<h3 id="修改drastic存档文件夹"><a href="#修改drastic存档文件夹" class="headerlink" title="修改drastic存档文件夹"></a>修改drastic存档文件夹</h3><p>配置选项，常规，system directory，scoped storage folder，选择文件夹<br>然后回到首页，退出，再进入程序，自动复制旧数据到新文件夹，yes<br>存档在backup文件夹，扩展名是.dsv，游戏内存档，在开始游戏后在游戏界面读取，不在模拟器界面<br>retroarch等其他的模拟器存档扩展名是.sav，手动改一下名字就能相互使用了<br>或者更改选项，高级设置，use raw .sav format：开，就能直接保存成.sav格式了</p>
+<h3 id="存档文件夹-2"><a href="#存档文件夹-2" class="headerlink" title="存档文件夹"></a>存档文件夹</h3><p>配置选项，常规，system directory，scoped storage folder，选择文件夹<br>然后回到首页，退出，再进入程序，自动复制旧数据到新文件夹，yes<br>游戏内存档：backup文件夹，扩展名是.dsv，游戏内存档，在开始游戏后在游戏界面读取，不在模拟器界面<br>即时存档：savestates文件夹<br>retroarch等其他的模拟器存档扩展名是.sav，手动改一下名字就能相互使用了<br>或者更改选项，高级设置，use raw .sav format：开，就能直接保存成.sav格式了</p>
 <h3 id="设置屏幕布局上屏大下屏小和遮罩"><a href="#设置屏幕布局上屏大下屏小和遮罩" class="headerlink" title="设置屏幕布局上屏大下屏小和遮罩"></a>设置屏幕布局上屏大下屏小和遮罩</h3><p>nds上下屏幕分辨率256x192，比例4：3<br>复制nds02.png到drastic文件夹的backgrounds文件夹<br>drastic，进一个游戏，返回键，菜单，编辑屏幕布局和虚拟按键<br>随便选一个布局，左下菜单按钮，设置背景图，选择nds02.png<br>点击一个屏幕，右下调整屏幕大小按钮，可以拖动变换位置<br>右下角按住，调整屏幕大小，左上角保持单屏是保持屏幕比例的意思<br>调整好屏幕位置后，左下菜单按钮，保存为全局布局<br>更改选项，常规，默认布局，选择之前修改的布局</p>
 <h3 id="横屏模式单屏画面比例不对"><a href="#横屏模式单屏画面比例不对" class="headerlink" title="横屏模式单屏画面比例不对"></a>横屏模式单屏画面比例不对</h3><p>游戏中按菜单键，菜单，编辑屏幕布局和虚拟按键，横屏模式单屏，调整屏幕大小，拉右下角蓝色方框调整，返回，菜单，保存为全局布局</p>
 <h3 id="双屏游戏时屏幕瞬间切换再切回来"><a href="#双屏游戏时屏幕瞬间切换再切回来" class="headerlink" title="双屏游戏时屏幕瞬间切换再切回来"></a>双屏游戏时屏幕瞬间切换再切回来</h3><p>配置选项，视频，多线程3D渲染：关</p>
@@ -21474,7 +21474,7 @@
 <hr>
 <h2 id="AzaharPlus（任天堂3DS）"><a href="#AzaharPlus（任天堂3DS）" class="headerlink" title="AzaharPlus（任天堂3DS）"></a>AzaharPlus（任天堂3DS）</h2><h3 id="推荐用法-1"><a href="#推荐用法-1" class="headerlink" title="推荐用法"></a>推荐用法</h3><p>方屏的话，上屏宽度满，下屏缩小，参照设置屏幕布局上屏大下屏小。</p>
 <h3 id="下载-3"><a href="#下载-3" class="headerlink" title="下载"></a>下载</h3><p><a href="https://github.com/AzaharPlus/AzaharPlus">https://github.com/AzaharPlus/AzaharPlus</a></p>
-<h3 id="文件夹"><a href="#文件夹" class="headerlink" title="文件夹"></a>文件夹</h3><p>用户文件夹：存放程序数据，存档<br>应用文件夹：存放游戏rom</p>
+<h3 id="存档文件夹-3"><a href="#存档文件夹-3" class="headerlink" title="存档文件夹"></a>存档文件夹</h3><p>用户文件夹：存放程序数据，存档<br>应用文件夹：存放游戏rom</p>
 <h3 id="手柄映射-1"><a href="#手柄映射-1" class="headerlink" title="手柄映射"></a>手柄映射</h3><p>默认游戏手柄没映射，选项，设置，游戏手柄<br>按键：ABXY<br>方向摇杆：左摇杆<br>c摇杆：右摇杆<br>十字键（摇杆轴）：左方向键<br>十字键（按键），左方向键，只设置十字键（按键）时，方向键无法使用<br>交换上下屏：L3<br>环形布局：R3</p>
 <h3 id="图形设置"><a href="#图形设置" class="headerlink" title="图形设置"></a>图形设置</h3><p>选项，设置，图形<br>图形API：Vulkan<br>启用异步着色器编译：开<br>内部分辨率：2倍或看自己需要<br>禁用右眼渲染：开<br>异步加载自定义纹理：关</p>
 <h3 id="自定义GPU驱动"><a href="#自定义GPU驱动" class="headerlink" title="自定义GPU驱动"></a>自定义GPU驱动</h3><p>选项，GPU驱动管理器，安装，选择zip文件</p>
@@ -21491,7 +21491,8 @@
 <li>分辨率：1x或0.75x</li>
 <li>磁盘着色器缓存：开</li>
 <li>强制最大始终（仅限adreno）：开</li>
-<li>使用异步着色器：开</li>
+<li>使用异步着色器：开<br>伊甸之幕：</li>
+<li>扩展动态状态：0</li>
 </ul>
 <h3 id="自动映射手柄"><a href="#自动映射手柄" class="headerlink" title="自动映射手柄"></a>自动映射手柄</h3><p>设置，控制，玩家1，控制器自动映射，选择自己的手柄型号</p>
 <h3 id="存档可能的位置"><a href="#存档可能的位置" class="headerlink" title="存档可能的位置"></a>存档可能的位置</h3><p>&#x2F;Android&#x2F;data&#x2F;org.citron.citron_emu&#x2F;files&#x2F;nand&#x2F;user<br>导出全部存档：设置，管理eden数据，管理存档，上箭头，保存</p>
@@ -21506,7 +21507,7 @@
 <h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>注意文件路径不能用中文<br>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
 <h3 id="马里奥赛车8豪华版卡在一开始请选择您的mii"><a href="#马里奥赛车8豪华版卡在一开始请选择您的mii" class="headerlink" title="马里奥赛车8豪华版卡在一开始请选择您的mii"></a>马里奥赛车8豪华版卡在一开始请选择您的mii</h3><p>设置，管理eden数据，安装固件，Firmware.19.0.1.zip</p>
 <h3 id="测试游戏-4"><a href="#测试游戏-4" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="60帧运行"><a href="#60帧运行" class="headerlink" title="60帧运行"></a>60帧运行</h4><p>空洞骑士<br>银星围棋<br>土豆兄弟<br>Hades<br>蔚蓝<br>马里奥赛车8<br>新超级马力欧兄弟U豪华版</p>
-<h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版</p>
+<h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版<br>勇者斗恶龙3HD2D重制版</p>
 <h4 id="30帧运行以下，或者无法运行"><a href="#30帧运行以下，或者无法运行" class="headerlink" title="30帧运行以下，或者无法运行"></a>30帧运行以下，或者无法运行</h4><p>俄罗斯方块效应链接，低帧率<br>银星麻雀DX，低帧率<br>八方旅人，无法运行，偶尔能运行时画面发紫<br>世界游戏大全51，无法运行<br>逆转裁判123成步堂精选集，切换到证据界面，会有杂色</p>
 <hr>
 <h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="下载-5"><a href="#下载-5" class="headerlink" title="下载"></a>下载</h3><p><a href="https://github.com/brunodev85/winlator">https://github.com/brunodev85/winlator</a></p>
