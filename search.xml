@@ -787,7 +787,7 @@
     <title>ndsi无烧录卡刷TWiLightMenu过程</title>
     <url>/2025/05/08/ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.08</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.25</p>
 <h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用烧录卡，只用sd卡（tf+卡套，或sd卡，后面简写成sd卡）玩游戏<br>游戏roms通过网上下载，存到sd卡上<br>支持的平台参照TWiLightMenu-DSi.7z中的roms文件夹</p>
 <h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，其他机型适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
 <h2 id="闲鱼收的机器情况"><a href="#闲鱼收的机器情况" class="headerlink" title="闲鱼收的机器情况"></a>闲鱼收的机器情况</h2><p>350元白色，外壳没划痕没污渍，也没发黄<br>a面有液体擦试过的痕迹<br>下屏轻微发黄，贴膜撕掉后全是划痕<br>上屏撕掉贴膜，有5粒很大的灰尘在屏幕里，清理不了</p>
@@ -830,8 +830,9 @@
 <h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键保存并退出</p>
 <h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
 <h4 id="gba-bios"><a href="#gba-bios" class="headerlink" title="gba bios"></a>gba bios</h4><p>网盘下载bios.bin，复制到sd卡_gba文件夹内</p>
-<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹<br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
+<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
 <h4 id="玩游戏时出现红屏错误界面"><a href="#玩游戏时出现红屏错误界面" class="headerlink" title="玩游戏时出现红屏错误界面"></a>玩游戏时出现红屏错误界面</h4><p>进游戏前，按y，向下卡带读取DMA：关闭<br>不行的话或者尝试进入TWiLightMenu设置，游戏使用语言改成english</p>
+<h4 id="进入unlaunch界面"><a href="#进入unlaunch界面" class="headerlink" title="进入unlaunch界面"></a>进入unlaunch界面</h4><p>关机的时候，同时按住a和b，再开机</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://dsi.cfw.guide/">https://dsi.cfw.guide/</a></p>
 ]]></content>
       <categories>
@@ -3461,7 +3462,32 @@
 <p>第二集有意思，有一个问题就是，切换平行世界的时候，怎么保持另一个人没变化的。第三集仔细想想，拍电影的时候应该还有工作人员之类的在旁边，静止的时候应该能看到吧，可能算是不同维度。</p>
 </blockquote>
 <hr>
-]]></content>
+<h3 id="我的青春恋爱物语果然有问题"><a href="#我的青春恋爱物语果然有问题" class="headerlink" title="我的青春恋爱物语果然有问题"></a>我的青春恋爱物语果然有问题</h3><blockquote>
+<p>第一季还行，第二季第7集左右突然看不懂了，以为少看了几集，后面几集都不知道在说什么了，人人都像是谜语人一样。</p>
+</blockquote>
+<hr>
+<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><hr>
+<h3 id="塞尔达传说缩小帽"><a href="#塞尔达传说缩小帽" class="headerlink" title="塞尔达传说缩小帽"></a>塞尔达传说缩小帽</h3><p>2025.05.03</p>
+<blockquote>
+<p>很无聊，逛迷宫拿幸福碎片，再拿碎片和npc拼图，npc给一个新地点的宝箱，拿的还是碎片。</p>
+</blockquote>
+<hr>
+<h3 id="逆转裁判1，2"><a href="#逆转裁判1，2" class="headerlink" title="逆转裁判1，2"></a>逆转裁判1，2</h3><p>2025.04</p>
+<blockquote>
+<p>都挺勉强的案件，逼到嫌疑人自首也是没啥意思。</p>
+</blockquote>
+<hr>
+<h3 id="恶魔城晓月圆舞曲"><a href="#恶魔城晓月圆舞曲" class="headerlink" title="恶魔城晓月圆舞曲"></a>恶魔城晓月圆舞曲</h3><p>2025.05.06</p>
+<blockquote>
+<p>算是这么多老gba游戏里有点意思的，道具丰富。</p>
+</blockquote>
+<hr>
+<h3 id="白色相簿2-1"><a href="#白色相簿2-1" class="headerlink" title="白色相簿2"></a>白色相簿2</h3><p>2025.05.26，ic cc code 一周目 雪菜线，8.2分</p>
+<blockquote>
+<p>有惊喜也有失望，总体是很好的，让我重新思考人生。看视频说什么雪菜胜利，冬马胜利，就很低端的言论，雪菜都说了要三个人都幸福，完美的结局在对话中已经能看到了，可惜在世俗勉强没有写出来。二周目到给雪菜打电话还是发短信哪里卡住了，不忍心再伤害雪菜了，缓缓再玩吧。最喜欢的歌あなたを想いたい还没听到。</p>
+</blockquote>
+<hr>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2>]]></content>
       <categories>
         <category>个人</category>
       </categories>
@@ -5272,7 +5298,7 @@
 </thead>
 </table>
 <hr>
-<h2 id="正在看的"><a href="#正在看的" class="headerlink" title="正在看的"></a>正在看的</h2><p>|作品|备注|日期|评分|<br>| — | — | — | — ||<br>|银星围棋DS|3.1 模拟器|2025.04.26||<br>|我喜欢的女孩忘记戴眼镜|5 下载 13end|2025.04.20|7|<br>|幸福伽菜子的快乐杀手生活|7 日剧 10end 低端影视|2025.03.29||<br>|atlanta|4.3|2025.03.30|7.3|<br>|文学少女6怀抱花月的水妖|159 野村美月著 哈娜译 上海文艺 电子版|2025.03.29||<br>|伊藤润二的漫画术|p10 伊藤润二 友谊出版|2025.3.7||<br>|重版出来|vol02 17话 松田奈绪子 b外电子版|2024.12.31||<br>|芭芭雅嘎下了个蛋|103页 杜布拉夫卡乌格雷西奇著 李云骞译|2024.11.22||<br>|the bear|1.6 下载|2025.3.21||<br>|新概念乐理教程|50|2024.2.23|7|<br>|金瓶梅|云中书社2022年8月第6版 第16回|2025.3.17|7|<br>|红楼梦 桂冠版|第八章|2024.2.25|7|</p>
+<h2 id="正在看的"><a href="#正在看的" class="headerlink" title="正在看的"></a>正在看的</h2><p>|作品|备注|日期|评分|<br>| — | — | — | — ||<br>|WHITE ALBUM2 EXTENDED EDITION||2025.05.26||<br>|我的青春恋爱物语果然有问题 完|9 12end+ova VCB-Studio|2025.05.22||<br>|我们的阅读理解出错了|水镜月圣著 没得吃就会饿死译 轻之国度|2025.05.07||<br>|凉宫春日的愤慨|57% 谷川流著 王敏贞译|2025.05.03||<br>|寒蝉鸣泣之时|1.12 VCB-Studio 26end|2025.05.02||<br>|围棋入门修订版|13 翟燕生徐莹编著 金盾出版社|2025.05.05||<br>|我当备胎女友也没关系|2 西条阳著 九十九夜译 角川电子版|2025.05.05||<br>|摇滚乃是淑女的爱好|9 下载 xend|2025.05.24||<br>|银星围棋DS|初级3.1 初1-3起未做题 nds模拟器|2025.05.15||<br>|我喜欢的女孩忘记戴眼镜|9 下载 13end|2025.04.29|7|<br>|幸福伽菜子的快乐杀手生活|7 日剧 10end 低端影视|2025.03.29||<br>|atlanta|4.6 10end|2025.05.01|7.3|<br>|文学少女6怀抱花月的水妖|159 野村美月著 哈娜译 上海文艺 电子版|2025.03.29||<br>|重版出来|vol02 17话 松田奈绪子 b外电子版|2024.12.31||<br>|芭芭雅嘎下了个蛋|120页 杜布拉夫卡乌格雷西奇著 李云骞译|2025.04.28||<br>|the bear|1.6 下载|2025.3.21||<br>|新概念乐理教程|50|2024.2.23|7|<br>|金瓶梅|云中书社2022年8月第6版 第16回|2025.3.17|7|<br>|红楼梦 桂冠版|第八章|2024.2.25|7|</p>
 <h2 id="看不下去的-等待更新的"><a href="#看不下去的-等待更新的" class="headerlink" title="看不下去的&#x2F;等待更新的"></a>看不下去的&#x2F;等待更新的</h2><table>
 <thead>
 <tr>
@@ -13811,6 +13837,24 @@
 <td>2025.3.23</td>
 <td></td>
 </tr>
+<tr>
+<td>伊藤润二的漫画术</td>
+<td>伊藤润二 友谊出版</td>
+<td>2025.4.20</td>
+<td>7</td>
+</tr>
+<tr>
+<td>聂卫平围棋教程从入门到十五级</td>
+<td>未做题 聂卫平主编 人民邮电出版社</td>
+<td>2025.05.01</td>
+<td></td>
+</tr>
+<tr>
+<td>我当备胎女友也没关系</td>
+<td>1 西条阳著 九十九夜译 角川电子版</td>
+<td>2025.05.05</td>
+<td>7.5</td>
+</tr>
 </tbody></table>
 <hr>
 <h2 id="看过的电影-电视剧-动画"><a href="#看过的电影-电视剧-动画" class="headerlink" title="看过的电影&#x2F;电视剧&#x2F;动画"></a>看过的电影&#x2F;电视剧&#x2F;动画</h2><table>
@@ -18272,7 +18316,7 @@
 <td>青之箱</td>
 <td>25end 动画 下载</td>
 <td>2025.4.9</td>
-<td></td>
+<td>5</td>
 </tr>
 <tr>
 <td>继母的拖油瓶是我的女友</td>
@@ -18310,56 +18354,171 @@
 <td>2025.04.26</td>
 <td>7.5</td>
 </tr>
+<tr>
+<td>小智是女孩子啦</td>
+<td>VCB-Studio 13end</td>
+<td>2025.05.05</td>
+<td></td>
+</tr>
+<tr>
+<td>梅泽由香里围棋教室</td>
+<td>64分钟</td>
+<td>2025.05.05</td>
+<td></td>
+</tr>
+<tr>
+<td>我的青春恋爱物语果然有问题</td>
+<td>13end+ova VCB-Studio</td>
+<td>2025.05.08</td>
+<td>7</td>
+</tr>
+<tr>
+<td>我的青春恋爱物语果然有问题 续</td>
+<td>13end+ova VCB-Studio</td>
+<td>2025.05.12</td>
+<td>4</td>
+</tr>
+<tr>
+<td>我的事说来话长2025春季篇</td>
+<td>在线</td>
+<td>2025.05.17</td>
+<td></td>
+</tr>
 </tbody></table>
-<h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><table>
+<h2 id="完成的游戏"><a href="#完成的游戏" class="headerlink" title="完成的游戏"></a>完成的游戏</h2><table>
 <thead>
 <tr>
-<th>文章名</th>
+<th>游戏名</th>
 <th>备注</th>
-<th>观看时间</th>
+<th>完成时间</th>
 <th>评分</th>
 </tr>
 </thead>
 <tbody><tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>2025以前</td>
+<td>2025以前</td>
+<td>2025以前</td>
+<td>2025以前</td>
 </tr>
-</tbody></table>
-<h2 id="完成的游戏"><a href="#完成的游戏" class="headerlink" title="完成的游戏"></a>完成的游戏</h2><p>|游戏名|备注|完成时间|评分|<br>|2025以前|2025以前|2025以前|2025以前|<br>|雨中冒险||||<br>|枪火重生||||<br>|starbound||||<br>|terraria|||8|<br>|求生之路2|||7|<br>|无主之地3|||7|<br>|vampire survivors|||7|</p>
-<table>
-<thead>
 <tr>
-<th>2025</th>
-<th>2025</th>
-<th>2025</th>
-<th>2025</th>
+<td>雨中冒险</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
-</thead>
-<tbody><tr>
+<tr>
+<td>枪火重生</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>starbound</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>terraria</td>
+<td></td>
+<td></td>
+<td>8</td>
+</tr>
+<tr>
+<td>求生之路2</td>
+<td></td>
+<td></td>
+<td>7</td>
+</tr>
+<tr>
+<td>无主之地3</td>
+<td></td>
+<td></td>
+<td>7</td>
+</tr>
+<tr>
+<td>vampire survivors</td>
+<td></td>
+<td></td>
+<td>7</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>2025</td>
+<td>2025</td>
+<td>2025</td>
+</tr>
+<tr>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
 <td>精灵宝可梦绿宝石</td>
 <td>一周目 官译八代版 gba模拟器</td>
-<td>2025.4.6</td>
-<td>7</td>
+<td>2025.04.06</td>
+<td>5</td>
 </tr>
 <tr>
 <td>究极绿宝石v5.5</td>
 <td>一周目 gba模拟器</td>
-<td>2025.4.10</td>
+<td>2025.04.10</td>
 <td>7</td>
 </tr>
 <tr>
 <td>逆转裁判1</td>
 <td>gba模拟器</td>
-<td>2025.4.12</td>
-<td>7</td>
+<td>2025.04.12</td>
+<td>5</td>
 </tr>
 <tr>
 <td>洛克人zero3</td>
 <td>gba模拟器</td>
-<td>2025.4.15</td>
-<td>7.5</td>
+<td>2025.04.15</td>
+<td>7</td>
+</tr>
+<tr>
+<td>逆转裁判2</td>
+<td>gba模拟器</td>
+<td>2025.04.30</td>
+<td>6</td>
+</tr>
+<tr>
+<td>瓦里奥制造</td>
+<td>gba模拟器</td>
+<td>2025.05.01</td>
+<td>7</td>
+</tr>
+<tr>
+<td>塞尔达传说缩小帽</td>
+<td>gba模拟器</td>
+<td>2025.05.03</td>
+<td>4</td>
+</tr>
+<tr>
+<td>恶魔城晓月圆舞曲</td>
+<td>一周目 gba模拟器</td>
+<td>2025.05.06</td>
+<td>6</td>
+</tr>
+<tr>
+<td>恶魔城被夺走的刻印</td>
+<td>一周目 nds模拟器</td>
+<td>2025.05.14</td>
+<td>7</td>
+</tr>
+<tr>
+<td>新超级马力欧兄弟</td>
+<td>一周目 美版 nds模拟器</td>
+<td>2025.05.21</td>
+<td></td>
+</tr>
+<tr>
+<td>WHITE ALBUM2 EXTENDED EDITION</td>
+<td>ic cc code 一周目 雪菜线</td>
+<td>2025.05.26</td>
+<td>8.3</td>
 </tr>
 </tbody></table>
 <h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2>]]></content>
@@ -21486,14 +21645,17 @@
 <hr>
 <h2 id="eden（任天堂Switch）"><a href="#eden（任天堂Switch）" class="headerlink" title="eden（任天堂Switch）"></a>eden（任天堂Switch）</h2><h3 id="下载-4"><a href="#下载-4" class="headerlink" title="下载"></a>下载</h3><p><a href="https://git.eden-emu.dev/eden-emu/eden">https://git.eden-emu.dev/eden-emu/eden</a></p>
 <h3 id="设置-2"><a href="#设置-2" class="headerlink" title="设置"></a>设置</h3><p>设置，高级选项</p>
-<p>图形：</p>
+<p>系统：</p>
 <ul>
+<li>模拟区域：选合适的</li>
+<li>模拟语言：选合适的<br>图形：</li>
 <li>分辨率：1x或0.75x</li>
 <li>磁盘着色器缓存：开</li>
 <li>强制最大始终（仅限adreno）：开</li>
 <li>使用异步着色器：开<br>伊甸之幕：</li>
 <li>扩展动态状态：0</li>
 </ul>
+<h3 id="进游戏黑屏"><a href="#进游戏黑屏" class="headerlink" title="进游戏黑屏"></a>进游戏黑屏</h3><p>设置，管理eden数据，安装固件，选择Firmware.19.0.1.zip，最新固件20.0.1，不确定key能不能用</p>
 <h3 id="自动映射手柄"><a href="#自动映射手柄" class="headerlink" title="自动映射手柄"></a>自动映射手柄</h3><p>设置，控制，玩家1，控制器自动映射，选择自己的手柄型号</p>
 <h3 id="存档可能的位置"><a href="#存档可能的位置" class="headerlink" title="存档可能的位置"></a>存档可能的位置</h3><p>&#x2F;Android&#x2F;data&#x2F;org.citron.citron_emu&#x2F;files&#x2F;nand&#x2F;user<br>导出全部存档：设置，管理eden数据，管理存档，上箭头，保存</p>
 <h3 id="添加补丁或DLC"><a href="#添加补丁或DLC" class="headerlink" title="添加补丁或DLC"></a>添加补丁或DLC</h3><p>长按游戏，附加项，右下角安装，选择游戏更新和DLC</p>
@@ -21511,11 +21673,12 @@
 <h4 id="30帧运行以下，或者无法运行"><a href="#30帧运行以下，或者无法运行" class="headerlink" title="30帧运行以下，或者无法运行"></a>30帧运行以下，或者无法运行</h4><p>俄罗斯方块效应链接，低帧率<br>银星麻雀DX，低帧率<br>八方旅人，无法运行，偶尔能运行时画面发紫<br>世界游戏大全51，无法运行<br>逆转裁判123成步堂精选集，切换到证据界面，会有杂色</p>
 <hr>
 <h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="下载-5"><a href="#下载-5" class="headerlink" title="下载"></a>下载</h3><p><a href="https://github.com/brunodev85/winlator">https://github.com/brunodev85/winlator</a></p>
-<h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>屏幕大小，custom，可以自己输入机器的宽高分辨率，就能满屏幕运行了<br>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。注意有的机器可能tf卡内的文件夹无法添加</p>
+<h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>屏幕大小，custom，可以自己输入机器的宽高分辨率，就能满屏幕运行了<br>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。<br>注意有的机器可能tf卡内的文件夹无法添加，可以手动输入<br>使用x-plore查看tf卡路径，一般是8位数字，例如1234-5678，如果游戏在tf卡的winlator文件夹<br>驱动器就填&#x2F;storage&#x2F;1234-5678&#x2F;winlator</p>
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>手指滑动控制鼠标，双击点击是鼠标右键</p>
 <h3 id="按键映射"><a href="#按键映射" class="headerlink" title="按键映射"></a>按键映射</h3><p>输入控件，加号，点击最下面的手柄名称，按手柄上的键，再修改右边的值<br>鼠标类的游戏：<br>左摇杆鼠标，abxy鼠标左右键空格回车，方向键上下左右<br>手柄类的游戏：<br>左摇杆left thumb，右摇杆right thumb，方向键dpad，按键button<br>导出配置文件可以备份</p>
 <h3 id="关闭容器左上角显示的信息"><a href="#关闭容器左上角显示的信息" class="headerlink" title="关闭容器左上角显示的信息"></a>关闭容器左上角显示的信息</h3><p>编辑容器，环境变量，DXVK_HUB，点击右侧下拉框编辑</p>
 <h3 id="绑定已配置好的按键映射"><a href="#绑定已配置好的按键映射" class="headerlink" title="绑定已配置好的按键映射"></a>绑定已配置好的按键映射</h3><p>好像没法针对一个容器绑定，只能单个游戏<br>进入一个容器，双指点击（鼠标右键）一个游戏的exe，创建快捷方式<br>退出容器，左上角三杠，快捷方式，右边三点，高级设置，高级设置，输入控件，确定<br>从快捷方式进入，就直接可以使用映射好的键盘鼠标了</p>
+<h3 id="玩白色相簿2播放动画失败"><a href="#玩白色相簿2播放动画失败" class="headerlink" title="玩白色相簿2播放动画失败"></a>玩白色相簿2播放动画失败</h3><p>编辑容器</p>
 <h3 id="测试游戏-5"><a href="#测试游戏-5" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="正常运行"><a href="#正常运行" class="headerlink" title="正常运行"></a>正常运行</h4><p>白色相簿2 EXTENDED EDITION<br>CLANNAD</p>
 <h4 id="问题运行"><a href="#问题运行" class="headerlink" title="问题运行"></a>问题运行</h4><p>蔚蓝，无法识别手柄，映射成键盘可以识别<br>吸血鬼幸存者，能识别手柄，帧数低40左右</p>
 <h4 id="无法运行"><a href="#无法运行" class="headerlink" title="无法运行"></a>无法运行</h4><p>土豆兄弟</p>
