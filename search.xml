@@ -3484,7 +3484,7 @@
 <hr>
 <h3 id="白色相簿2-1"><a href="#白色相簿2-1" class="headerlink" title="白色相簿2"></a>白色相簿2</h3><p>2025.05.26，ic cc code 一周目 雪菜线，8.2分</p>
 <blockquote>
-<p>有惊喜也有失望，总体是很好的，让我重新思考人生。看视频说什么雪菜胜利，冬马胜利，就很低端的言论，雪菜都说了要三个人都幸福，完美的结局在对话中已经能看到了，可惜在世俗勉强没有写出来。二周目到给雪菜打电话还是发短信哪里卡住了，不忍心再伤害雪菜了，缓缓再玩吧。最喜欢的歌あなたを想いたい还没听到。</p>
+<p>有惊喜也有失望，总体是很好的，让人重新思考人生。看视频说什么雪菜胜利，冬马胜利，就很低端的言论，雪菜都说了要三个人都幸福，完美的结局在对话中已经能看到了，可惜在世俗勉强没有写出来，最后结局是结婚，也是落入俗套了。二周目到给雪菜打电话还是发短信那里卡住了，不忍心再伤害雪菜了，缓缓再玩吧，也没法做到昨天刚和雪菜结婚，今天就去找其他人了。最喜欢的歌あなたを想いたい还没听到。</p>
 </blockquote>
 <hr>
 <h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2>]]></content>
@@ -18593,20 +18593,23 @@
     <title>开源掌机和RetroArch个人体验</title>
     <url>/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.22</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.27</p>
 <h2 id="总体评分"><a href="#总体评分" class="headerlink" title="总体评分"></a>总体评分</h2><p>及格分数7分<br>安伯尼克rg34xxsp，7分<br>安伯尼克rg35xxsp，7分<br>安伯尼克rg35xxplus，6分<br>安伯尼克rg34xx，5分<br>miyoo mini v4，3分</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价安伯尼克rg35xxplus，rg35xxsp，rg34xx，miyoo mini v4。<br><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">相关资源下载</a></p>
 <span id="more"></span>
 
 <h2 id="安伯尼克rg34xxsp简评"><a href="#安伯尼克rg34xxsp简评" class="headerlink" title="安伯尼克rg34xxsp简评"></a>安伯尼克rg34xxsp简评</h2><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ol>
-<li>比rg35xxsp小了点，手感不错。</li>
-<li>v3.5魔改系统不错。</li>
+<li>比rg35xxsp小了点，整体手感不错，按键舒服。</li>
+<li>塑料质感还可以，至少不廉价。</li>
 </ol>
 <h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ol>
-<li>做工一般，塑料有条毛没切干净，转轴塑料和下面版不贴合。</li>
-<li>装配有问题，屏幕左边黑边窄，右边宽。</li>
-<li>额头太大。</li>
+<li>做工一般，塑料有条毛没切干净，转轴塑料和下面版不贴合，机身缝隙大，像是螺丝没拧紧，估计和下面3号问题有关。</li>
+<li>装配问题1，屏幕左边黑边窄，右边宽。</li>
+<li>装配问题2，下面板4个塑料螺丝柱，2个拧过头了有塑料渣，1个已经拧爆了，螺丝拧不紧，拿胶水滴进去固化了勉强固定住螺丝。</li>
+<li>装配问题3，合盖时上下盖没有完全对齐，不是有缝隙，是左边对齐了，右边上盖往右凸出一小块，拆机把转轴拆下来，又装回去，正常了。</li>
+<li>额头太大，难看。</li>
 <li>充电疑似有问题，2小时从20%到55%，可能是ra里显示不准。</li>
+<li>v3.5魔改系统，设置，ra设置进去后，退出时黑屏。</li>
 </ol>
 <h2 id="安伯尼克rg35xxplus简评"><a href="#安伯尼克rg35xxplus简评" class="headerlink" title="安伯尼克rg35xxplus简评"></a>安伯尼克rg35xxplus简评</h2><h3 id="下面三台安伯尼克共同的缺点问题"><a href="#下面三台安伯尼克共同的缺点问题" class="headerlink" title="下面三台安伯尼克共同的缺点问题"></a>下面三台安伯尼克共同的缺点问题</h3><ol>
 <li>玩游戏的时候电池盖轻微松动，不是很舒服。</li>
@@ -18678,7 +18681,7 @@
 <h3 id="通过ssh设置时间"><a href="#通过ssh设置时间" class="headerlink" title="通过ssh设置时间"></a>通过ssh设置时间</h3><p>出厂时时区设置的好像不对，wifi连接后有8小时时差，ssh命令</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">timedatectl set-timezone Asia/Shanghai</span><br><span class="line">date -s &quot;2025-05-21 11:43:30&quot;</span><br></pre></td></tr></table></figure>
 
-<h3 id="一些ssh命令"><a href="#一些ssh命令" class="headerlink" title="一些ssh命令"></a>一些ssh命令</h3><p>电量百分比 cat &#x2F;sys&#x2F;class&#x2F;power_supply&#x2F;axp2202-battery&#x2F;capacity<br>是否在充电 cat &#x2F;sys&#x2F;class&#x2F;power_supply&#x2F;axp2202-battery&#x2F;status</p>
+<h3 id="一些ssh命令"><a href="#一些ssh命令" class="headerlink" title="一些ssh命令"></a>一些ssh命令</h3><p>电量百分比 cat &#x2F;sys&#x2F;class&#x2F;power_supply&#x2F;axp2202-battery&#x2F;capacity<br>是否在充电 cat &#x2F;sys&#x2F;class&#x2F;power_supply&#x2F;axp2202-battery&#x2F;status<br>电压 cat &#x2F;sys&#x2F;class&#x2F;power_supply&#x2F;axp2202-battery&#x2F;voltage_now</p>
 <h3 id="给安伯尼克掌机添加filebrowser服务（通过浏览器上传下载文件）"><a href="#给安伯尼克掌机添加filebrowser服务（通过浏览器上传下载文件）" class="headerlink" title="给安伯尼克掌机添加filebrowser服务（通过浏览器上传下载文件）"></a>给安伯尼克掌机添加filebrowser服务（通过浏览器上传下载文件）</h3><h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p>修改自rg34xxsp系统自带ssh脚本，感谢原作者<br>修改者<a href="https://github.com/wangandi520">https://github.com/wangandi520</a><br>连接ssh的方法参照<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>filebrowser来源<a href="https://github.com/filebrowser/filebrowser">https://github.com/filebrowser/filebrowser</a><br>版本v2.32.0，linux-armv7-filebrowser.tar.gz</p>
 <h4 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h4><p>1个文件夹和4个文件复制到tf卡Roms\APPS，卡1卡2都可以</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">filebrowser.service</span><br><span class="line">filebrowser临时服务器.sh</span><br><span class="line">setConfig.sh</span><br><span class="line">filebrowser</span><br><span class="line">res</span><br></pre></td></tr></table></figure>
@@ -18714,7 +18717,7 @@
 <h3 id="mgba核心，究极绿宝石一开始就卡住"><a href="#mgba核心，究极绿宝石一开始就卡住" class="headerlink" title="mgba核心，究极绿宝石一开始就卡住"></a>mgba核心，究极绿宝石一开始就卡住</h3><p>选择gpsp核心可以正常游戏。</p>
 <h3 id="gpsp核心，绿宝石时间固定无法前进的问题"><a href="#gpsp核心，绿宝石时间固定无法前进的问题" class="headerlink" title="gpsp核心，绿宝石时间固定无法前进的问题"></a>gpsp核心，绿宝石时间固定无法前进的问题</h3><p>游戏内保存游戏（不是状态存档），参上面一条技巧，复制.srm后使用mgba核心，时间就正常了，可以把.srm复制回gpsp使用。</p>
 <h3 id="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"><a href="#pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏" class="headerlink" title="pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏"></a>pcsx2（ra里叫LRPS2核心）玩PS2游戏黑屏</h3><p>进入游戏后按menu，核心选项，video，Renderer，选择D3D12，或者其他<br>修改后要在menu菜单里，关闭游戏，再运行</p>
-<h3 id="melondsds核心设置单屏显示R2切换上下屏"><a href="#melondsds核心设置单屏显示R2切换上下屏" class="headerlink" title="melondsds核心设置单屏显示R2切换上下屏"></a>melondsds核心设置单屏显示R2切换上下屏</h3><p>游戏中，菜单，核心选项，screen，layout#1:top only，layout#2:bottom only</p>
+<h3 id="melondsds核心设置单屏显示R2切换上下屏"><a href="#melondsds核心设置单屏显示R2切换上下屏" class="headerlink" title="melondsds核心设置单屏显示R2切换上下屏"></a>melondsds核心设置单屏显示R2切换上下屏</h3><p>游戏中，菜单，核心选项，screen，of screen layouts：3，layout#1:top&#x2F;bottom，lyaout#2：top only，layout#2:bottom only</p>
 <h3 id="citra核心设置单屏显示"><a href="#citra核心设置单屏显示" class="headerlink" title="citra核心设置单屏显示"></a>citra核心设置单屏显示</h3><p>游戏中，菜单，核心选项，screen layout positioning：single screen only<br>切换屏幕快捷键L3：左摇杆按下，或者左侧背键</p>
 <h3 id="设置retroarch菜单内右方a键确定下方b键取消（日式）"><a href="#设置retroarch菜单内右方a键确定下方b键取消（日式）" class="headerlink" title="设置retroarch菜单内右方a键确定下方b键取消（日式）"></a>设置retroarch菜单内右方a键确定下方b键取消（日式）</h3><p>设置，输入，菜单控制，对调菜单中的确定和取消键：关<br>开的话，就是下方按键确定，右方按键取消</p>
 <h3 id="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到无烧录卡刷TWiLightMenu的ndsi上继续玩</h3><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
