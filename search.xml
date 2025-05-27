@@ -3484,7 +3484,7 @@
 <hr>
 <h3 id="白色相簿2-1"><a href="#白色相簿2-1" class="headerlink" title="白色相簿2"></a>白色相簿2</h3><p>2025.05.26，ic cc code 一周目 雪菜线，8.2分</p>
 <blockquote>
-<p>有惊喜也有失望，总体是很好的，让人重新思考人生。看视频说什么雪菜胜利，冬马胜利，就很低端的言论，雪菜都说了要三个人都幸福，完美的结局在对话中已经能看到了，可惜在世俗勉强没有写出来，最后结局是结婚，也是落入俗套了。二周目到给雪菜打电话还是发短信那里卡住了，不忍心再伤害雪菜了，缓缓再玩吧，也没法做到昨天刚和雪菜结婚，今天就去找其他人了。最喜欢的歌あなたを想いたい还没听到。</p>
+<p>一周目雪菜线，有惊喜也有失望，总体是很好的，重新思考人生。<br>看b站视频，说什么雪菜胜利，冬马胜利，就很低端的言论，雪菜都说了要三个人都幸福，完美的结局在对话中已经能看到了，就是三个人在一起。最后结局是结婚，也是落入俗套了。<br>第二天想继续玩，在二周目给雪菜打电话还是发短信那里卡住了，不忍心再伤害雪菜了，在缓几天再玩吧。昨天刚和雪菜结婚，今天就去找其他人也是太离谱了。<br>最喜欢的歌あなたを想いたい还没听到，听说在浮气线，感觉有点压力。</p>
 </blockquote>
 <hr>
 <h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2>]]></content>
@@ -18516,7 +18516,7 @@
 </tr>
 <tr>
 <td>WHITE ALBUM2 EXTENDED EDITION</td>
-<td>ic cc code 一周目 雪菜线</td>
+<td>ic cc code 一周目 雪菜线 PC版</td>
 <td>2025.05.26</td>
 <td>8.3</td>
 </tr>
@@ -18605,7 +18605,7 @@
 <h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ol>
 <li>做工一般，塑料有条毛没切干净，转轴塑料和下面版不贴合，机身缝隙大，像是螺丝没拧紧，估计和下面3号问题有关。</li>
 <li>装配问题1，屏幕左边黑边窄，右边宽。</li>
-<li>装配问题2，下面板4个塑料螺丝柱，2个拧过头了有塑料渣，1个已经拧爆了，螺丝拧不紧，拿胶水滴进去固化了勉强固定住螺丝。</li>
+<li>装配问题2，下面板4个塑料螺丝柱，2个拧过头了有塑料渣，1个已经拧爆了，螺丝拧不紧，拿ab胶（环氧树脂）滴进去固化了勉强固定住螺丝。</li>
 <li>装配问题3，合盖时上下盖没有完全对齐，不是有缝隙，是左边对齐了，右边上盖往右凸出一小块，拆机把转轴拆下来，又装回去，正常了。</li>
 <li>额头太大，难看。</li>
 <li>充电疑似有问题，2小时从20%到55%，可能是ra里显示不准。</li>
@@ -21672,8 +21672,8 @@
 <h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>注意文件路径不能用中文<br>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
 <h3 id="马里奥赛车8豪华版卡在一开始请选择您的mii"><a href="#马里奥赛车8豪华版卡在一开始请选择您的mii" class="headerlink" title="马里奥赛车8豪华版卡在一开始请选择您的mii"></a>马里奥赛车8豪华版卡在一开始请选择您的mii</h3><p>设置，管理eden数据，安装固件，Firmware.19.0.1.zip</p>
 <h3 id="测试游戏-4"><a href="#测试游戏-4" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="60帧运行"><a href="#60帧运行" class="headerlink" title="60帧运行"></a>60帧运行</h4><p>空洞骑士<br>银星围棋<br>土豆兄弟<br>Hades<br>蔚蓝<br>马里奥赛车8<br>新超级马力欧兄弟U豪华版</p>
-<h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版<br>勇者斗恶龙3HD2D重制版</p>
-<h4 id="30帧运行以下，或者无法运行"><a href="#30帧运行以下，或者无法运行" class="headerlink" title="30帧运行以下，或者无法运行"></a>30帧运行以下，或者无法运行</h4><p>俄罗斯方块效应链接，低帧率<br>银星麻雀DX，低帧率<br>八方旅人，无法运行，偶尔能运行时画面发紫<br>世界游戏大全51，无法运行<br>逆转裁判123成步堂精选集，切换到证据界面，会有杂色</p>
+<h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版</p>
+<h4 id="30帧以下运行，问题运行，无法运行"><a href="#30帧以下运行，问题运行，无法运行" class="headerlink" title="30帧以下运行，问题运行，无法运行"></a>30帧以下运行，问题运行，无法运行</h4><p>勇者斗恶龙3HD2D重制版，过图大概率出现色彩不正确<br>俄罗斯方块效应链接，低帧率<br>银星麻雀DX，低帧率<br>八方旅人，无法运行，偶尔能运行时画面发紫<br>世界游戏大全51，无法运行<br>逆转裁判123成步堂精选集，切换到证据界面，会有杂色</p>
 <hr>
 <h2 id="winlator（微软windows）"><a href="#winlator（微软windows）" class="headerlink" title="winlator（微软windows）"></a>winlator（微软windows）</h2><h3 id="下载-5"><a href="#下载-5" class="headerlink" title="下载"></a>下载</h3><p><a href="https://github.com/brunodev85/winlator">https://github.com/brunodev85/winlator</a></p>
 <h3 id="新建容器"><a href="#新建容器" class="headerlink" title="新建容器"></a>新建容器</h3><p>屏幕大小，custom，可以自己输入机器的宽高分辨率，就能满屏幕运行了<br>把文件夹映射到windows磁盘：设置文件夹（驱动器），添加，使用此文件夹。<br>注意有的机器可能tf卡内的文件夹无法添加，可以手动输入<br>使用x-plore查看tf卡路径，一般是8位数字，例如1234-5678，如果游戏在tf卡的winlator文件夹<br>驱动器就填&#x2F;storage&#x2F;1234-5678&#x2F;winlator</p>
@@ -21693,6 +21693,22 @@
         <tag>极客</tag>
         <tag>游戏</tag>
         <tag>掌机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>白色相簿2真的很好</title>
+    <url>/2025/05/27/%E7%99%BD%E8%89%B2%E7%9B%B8%E7%B0%BF2%E7%9C%9F%E7%9A%84%E5%BE%88%E5%A5%BD/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025年5月27日<br>本文含剧透，请谨慎阅读。<br>资源：<a href="https://pan.baidu.com/s/1QXgXcSlcaekspa53duKm2A?pwd=j3g6">https://pan.baidu.com/s/1QXgXcSlcaekspa53duKm2A?pwd=j3g6</a></p>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>一共三章ic，cc，code，第一章没有选项。<br>-introductory chapter-<br>-closing chapter-<br>-coda-</p>
+<h2 id="通了一周目"><a href="#通了一周目" class="headerlink" title="通了一周目"></a>通了一周目</h2><p>一周目雪菜线，有惊喜也有失望，总体是很好的，重新思考人生。<br>看b站视频，说什么雪菜胜利，冬马胜利，就很低端的言论，雪菜都说了要三个人都幸福，完美的结局在对话中已经能看到了，就是三个人在一起，可惜好像没有这个结局。最后结婚了，感觉落入俗套。<br>第二天想继续玩，在二周目给雪菜打电话还是发短信那里卡住了，不忍心再伤害雪菜了，再缓几天再玩吧。昨天刚和雪菜结婚，今天就去找其他人也是太离谱了。<br>最喜欢的歌あなたを想いたい还没听到，听说在浮气线，感觉有点压力。</p>
+<h2 id="白色相簿2各资源来源"><a href="#白色相簿2各资源来源" class="headerlink" title="白色相簿2各资源来源"></a>白色相簿2各资源来源</h2><p>游戏：游戏文件夹的torrent文件，建议使用qbittorrent下载，如果速度慢，搜索如何添加tracker。iso和zip都超过4g，只有会员能上传，放弃<br>存档：自己玩的，复制到C:\Users\你的用户名\Documents\Leaf\WHITE ALBUM2，文件名改成save_00.sav的格式<br>游戏汉化：bilibili，贴吧<br>演唱会：天使动漫论坛<br>音乐：天使动漫论坛<br>谱：bilibili。musescore，使用MuseScorePortable.zip，mscz和pdf是同一个谱<br>图标：来自原版exe文件提取，exe改成7z后使用7zip打开<br>截图：游戏截图，使用windows11自带截图工具</p>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>白色相簿2</tag>
       </tags>
   </entry>
   <entry>
