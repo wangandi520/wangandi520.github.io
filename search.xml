@@ -21640,8 +21640,9 @@
 <h2 id="AzaharPlus（任天堂3DS）"><a href="#AzaharPlus（任天堂3DS）" class="headerlink" title="AzaharPlus（任天堂3DS）"></a>AzaharPlus（任天堂3DS）</h2><h3 id="推荐用法-1"><a href="#推荐用法-1" class="headerlink" title="推荐用法"></a>推荐用法</h3><p>方屏的话，上屏宽度满，下屏缩小，参照设置屏幕布局上屏大下屏小。</p>
 <h3 id="下载-3"><a href="#下载-3" class="headerlink" title="下载"></a>下载</h3><p><a href="https://github.com/AzaharPlus/AzaharPlus">https://github.com/AzaharPlus/AzaharPlus</a></p>
 <h3 id="存档文件夹-3"><a href="#存档文件夹-3" class="headerlink" title="存档文件夹"></a>存档文件夹</h3><p>用户文件夹：存放程序数据，存档<br>应用文件夹：存放游戏rom</p>
+<h3 id="中文显示成问号"><a href="#中文显示成问号" class="headerlink" title="中文显示成问号"></a>中文显示成问号</h3><p>下载网盘3ds字库.zip<br>把shared_font.bin，放到模拟器的用户文件夹&#x2F;sysdata下<br>模拟器，选项，安装cia，两个cia文件都要安装</p>
 <h3 id="手柄映射-1"><a href="#手柄映射-1" class="headerlink" title="手柄映射"></a>手柄映射</h3><p>默认游戏手柄没映射，选项，设置，游戏手柄<br>按键：ABXY<br>方向摇杆：左摇杆<br>c摇杆：右摇杆<br>十字键（摇杆轴）：左方向键<br>十字键（按键），左方向键，只设置十字键（按键）时，方向键无法使用<br>交换上下屏：L3<br>环形布局：R3</p>
-<h3 id="图形设置"><a href="#图形设置" class="headerlink" title="图形设置"></a>图形设置</h3><p>选项，设置，图形<br>图形API：Vulkan<br>启用异步着色器编译：开<br>内部分辨率：2倍或看自己需要<br>禁用右眼渲染：开<br>异步加载自定义纹理：关</p>
+<h3 id="图形设置"><a href="#图形设置" class="headerlink" title="图形设置"></a>图形设置</h3><p>选项，设置，图形<br>图形API：Vulkan，如果卡顿闪退就用另一个<br>启用异步着色器编译：开<br>内部分辨率：2倍或看自己需要<br>禁用右眼渲染：开<br>异步加载自定义纹理：关</p>
 <h3 id="自定义GPU驱动"><a href="#自定义GPU驱动" class="headerlink" title="自定义GPU驱动"></a>自定义GPU驱动</h3><p>选项，GPU驱动管理器，安装，选择zip文件</p>
 <h3 id="显示fps"><a href="#显示fps" class="headerlink" title="显示fps"></a>显示fps</h3><p>游戏中，返回键调出菜单，虚拟按键选项，显示ftp</p>
 <h3 id="设置屏幕布局上屏大下屏小"><a href="#设置屏幕布局上屏大下屏小" class="headerlink" title="设置屏幕布局上屏大下屏小"></a>设置屏幕布局上屏大下屏小</h3><p>3ds上屏分辨率400x240，比例5：3，下屏分辨率320x240，比例4：3<br>设置，布局，横向自定义布局<br>按着3ds屏幕比例和自己屏幕比例计算，自己屏幕横向宽度a，竖向高度b<br>上屏幕：x位置0，y位置0，宽度a，高度3a&#x2F;5<br>下屏幕：x位置(a-(4b&#x2F;3-12a&#x2F;15)&#x2F;2，y位置3a&#x2F;5，宽度4b&#x2F;3-12a&#x2F;15，高度b-3a&#x2F;5<br>1240x1080屏幕，比例31:27：<br>上屏幕：x位置0，y位置0，宽度1240，高度744<br>下屏幕：x位置396，y位置744，宽度448，高度336</p>
@@ -21675,6 +21676,7 @@
 <h3 id="nsz转nsp"><a href="#nsz转nsp" class="headerlink" title="nsz转nsp"></a>nsz转nsp</h3><p><a href="https://github.com/dezem/SAK">https://github.com/dezem/SAK</a></p>
 <h3 id="xci转nsp"><a href="#xci转nsp" class="headerlink" title="xci转nsp"></a>xci转nsp</h3><p>注意文件路径不能用中文<br>使用4nxci，找一个prod.keys改名成keys.dat，覆盖这个程序自带的，打开4nxci-GUI.exe，xci选游戏.xci，下面use titlename打勾，keep ncaid作用不知道，点convert完成</p>
 <h3 id="马里奥赛车8豪华版卡在一开始请选择您的mii"><a href="#马里奥赛车8豪华版卡在一开始请选择您的mii" class="headerlink" title="马里奥赛车8豪华版卡在一开始请选择您的mii"></a>马里奥赛车8豪华版卡在一开始请选择您的mii</h3><p>设置，管理eden数据，安装固件，Firmware.19.0.1.zip</p>
+<h3 id="主界面游戏变少"><a href="#主界面游戏变少" class="headerlink" title="主界面游戏变少"></a>主界面游戏变少</h3><p>右上第二个按钮，选字母顺序。选择最近游玩的话，有的游戏显示不出来</p>
 <h3 id="测试游戏-4"><a href="#测试游戏-4" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="60帧运行"><a href="#60帧运行" class="headerlink" title="60帧运行"></a>60帧运行</h4><p>空洞骑士<br>银星围棋<br>土豆兄弟<br>Hades<br>蔚蓝<br>马里奥赛车8<br>新超级马力欧兄弟U豪华版</p>
 <h4 id="30帧运行"><a href="#30帧运行" class="headerlink" title="30帧运行"></a>30帧运行</h4><p>潜水员戴夫<br>女神异闻录5皇家版</p>
 <h4 id="30帧以下运行，问题运行，无法运行"><a href="#30帧以下运行，问题运行，无法运行" class="headerlink" title="30帧以下运行，问题运行，无法运行"></a>30帧以下运行，问题运行，无法运行</h4><p>勇者斗恶龙3HD2D重制版，过图大概率出现色彩不正确<br>俄罗斯方块效应链接，低帧率<br>银星麻雀DX，低帧率<br>八方旅人，无法运行，偶尔能运行时画面发紫<br>世界游戏大全51，无法运行<br>逆转裁判123成步堂精选集，切换到证据界面，会有杂色</p>
