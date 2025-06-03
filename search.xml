@@ -21739,7 +21739,7 @@
 <h3 id="按键映射"><a href="#按键映射" class="headerlink" title="按键映射"></a>按键映射</h3><p>输入控件，加号，点击最下面的手柄名称，按手柄上的键，再修改右边的值<br>鼠标类的游戏：<br>左摇杆鼠标，abxy鼠标左右键空格回车，方向键上下左右<br>手柄类的游戏：<br>左摇杆left thumb，右摇杆right thumb，方向键dpad，按键button<br>导出配置文件可以备份</p>
 <h3 id="关闭容器左上角显示的信息"><a href="#关闭容器左上角显示的信息" class="headerlink" title="关闭容器左上角显示的信息"></a>关闭容器左上角显示的信息</h3><p>编辑容器，环境变量，DXVK_HUB，点击右侧下拉框编辑</p>
 <h3 id="绑定已配置好的按键映射"><a href="#绑定已配置好的按键映射" class="headerlink" title="绑定已配置好的按键映射"></a>绑定已配置好的按键映射</h3><p>好像没法针对一个容器绑定，只能单个游戏<br>进入一个容器，双指点击（鼠标右键）一个游戏的exe，创建快捷方式<br>退出容器，左上角三杠，快捷方式，右边三点，高级设置，高级设置，输入控件，确定<br>从快捷方式进入，就直接可以使用映射好的键盘鼠标了</p>
-<h3 id="玩白色相簿2播放动画失败"><a href="#玩白色相簿2播放动画失败" class="headerlink" title="玩白色相簿2播放动画失败"></a>玩白色相簿2播放动画失败</h3><p>编辑容器</p>
+<h3 id="玩白色相簿2音乐噪音"><a href="#玩白色相簿2音乐噪音" class="headerlink" title="玩白色相簿2音乐噪音"></a>玩白色相簿2音乐噪音</h3><p>编辑容器，音频驱动程序，pulseaudio</p>
 <h3 id="测试游戏-5"><a href="#测试游戏-5" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="正常运行"><a href="#正常运行" class="headerlink" title="正常运行"></a>正常运行</h4><p>白色相簿2 EXTENDED EDITION<br>CLANNAD</p>
 <h4 id="问题运行"><a href="#问题运行" class="headerlink" title="问题运行"></a>问题运行</h4><p>蔚蓝，无法识别手柄，映射成键盘可以识别<br>吸血鬼幸存者，能识别手柄，帧数低40左右</p>
 <h4 id="无法运行"><a href="#无法运行" class="headerlink" title="无法运行"></a>无法运行</h4><p>土豆兄弟</p>
