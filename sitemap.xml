@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://andi.wang/2025/06/06/%E6%89%80%E6%9C%89%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/</loc>
+    
+    <lastmod>2025-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://andi.wang/2021/03/18/%E9%9D%99%E8%AF%BB%E5%A4%A9%E4%B8%8B%E4%B8%93%E4%B8%9A%E7%89%88%E6%A0%87%E6%B3%A8%E8%BD%AC%E6%8D%A2%E4%B8%BAMarkdown%E6%A0%BC%E5%BC%8F/</loc>
     
     <lastmod>2025-06-06</lastmod>
@@ -1327,6 +1336,13 @@
   
   <url>
     <loc>https://andi.wang/tags/%E7%99%BD%E8%89%B2%E7%9B%B8%E7%B0%BF2/</loc>
+    <lastmod>2025-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://andi.wang/tags/%E4%B8%8B%E8%BD%BD/</loc>
     <lastmod>2025-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
