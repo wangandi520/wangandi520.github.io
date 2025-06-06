@@ -137,11 +137,14 @@
     if(idValue){
         if(idValue.length>4){return;}
         const formattedId=idValue.padStart(4,"0");
-        const spanElement = document.querySelector(`span.id:contains("${formattedId}")`);
-        if(spanElement){
-            const aElement=spanElement.closest("a");
-            if(aElement&&aElement.href){
-                window.location.href=aElement.href;
+        const spans = document.querySelectorAll('span.id');
+        for(const span of spans) {
+            if(span.textContent === formattedId) {
+                const aElement = span.closest('a');
+                if(aElement && aElement.href) {
+                    window.location.href = aElement.href;
+                    break;
+                }
             }
         }
     }
