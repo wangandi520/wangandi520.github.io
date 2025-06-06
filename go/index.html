@@ -130,4 +130,33 @@
 <tr><td><a href="/2025/05/08/ndsi无烧录卡刷TWiLightMenu过程"><span class="id">0073</span>&nbsp;<span class="fileName">ndsi无烧录卡刷TWiLightMenu过程</span></a></td><td><input type="text" value="//2025/05/08/ndsi无烧录卡刷TWiLightMenu过程"></td><td>2025-05-08 11:15:44</td></tr>
 <tr><td><a href="/2025/05/10/安卓掌机模拟器经验"><span class="id">0074</span>&nbsp;<span class="fileName">安卓掌机模拟器经验</span></a></td><td><input type="text" value="//2025/05/10/安卓掌机模拟器经验"></td><td>2025-05-10 09:44:25</td></tr>
 <tr><td><a href="/2025/05/27/白色相簿2很好"><span class="id">0075</span>&nbsp;<span class="fileName">白色相簿2很好</span></a></td><td><input type="text" value="//2025/05/27/白色相簿2很好"></td><td>2025-05-27 20:08:01</td></tr>
-</tbody></table></div><script>document.addEventListener("DOMContentLoaded",function(){const queryString=window.location.search;const urlParams=new URLSearchParams(queryString);const idValue=urlParams.get("id");if(idValue){if(idValue.length>4){return;}const formattedId=idValue.padStart(4,"0");const tr=document.querySelector(`tr:has(a span.id:contains("${formattedId}"))`);if(tr){const aElement=tr.querySelector("a");if(aElement&&aElement.href){window.location.href=aElement.href;}}}let currentUrl=window.location.href;if(currentUrl.endsWith("/")){currentUrl=currentUrl.slice(0,-1);}const inputs=document.querySelectorAll("input");inputs.forEach(input=>{const tr=input.closest("tr");const idSpan=tr.querySelector(".id");if(idSpan){const id=idSpan.textContent;const idWithoutLeadingZeros=parseInt(id,10).toString();input.value=currentUrl+"?id="+idWithoutLeadingZeros}});});</script></body></html>
+</tbody></table></div><script>document.addEventListener("DOMContentLoaded",function(){
+    const queryString=window.location.search;
+    const urlParams=new URLSearchParams(queryString);
+    const idValue=urlParams.get("id");
+    if(idValue){
+        if(idValue.length>4){return;}
+        const formattedId=idValue.padStart(4,"0");
+        const spanElement = document.querySelector(`span.id:contains("${formattedId}")`);
+        if(spanElement){
+            const aElement=spanElement.closest("a");
+            if(aElement&&aElement.href){
+                window.location.href=aElement.href;
+            }
+        }
+    }
+    let currentUrl=window.location.href;
+    if(currentUrl.endsWith("/")){
+        currentUrl=currentUrl.slice(0,-1);
+    }
+    const inputs=document.querySelectorAll("td input");
+    inputs.forEach(input=>{
+        const tr=input.closest("tr");
+        const idSpan=tr.querySelector(".id");
+        if(idSpan){
+            const id=idSpan.textContent;
+            const idWithoutLeadingZeros=parseInt(id,10).toString();
+            input.value=currentUrl+"?id="+idWithoutLeadingZeros;
+        }
+    });
+});</script></body></html>
