@@ -130,10 +130,22 @@
 <tr><td><a href="/2025/05/08/ndsi无烧录卡刷TWiLightMenu过程"><span class="id">0073</span>&nbsp;<span class="fileName">ndsi无烧录卡刷TWiLightMenu过程</span></a></td><td><input type="text" value="//2025/05/08/ndsi无烧录卡刷TWiLightMenu过程"></td><td>2025-05-08 11:15:44</td></tr>
 <tr><td><a href="/2025/05/10/安卓掌机模拟器经验"><span class="id">0074</span>&nbsp;<span class="fileName">安卓掌机模拟器经验</span></a></td><td><input type="text" value="//2025/05/10/安卓掌机模拟器经验"></td><td>2025-05-10 09:44:25</td></tr>
 <tr><td><a href="/2025/05/27/白色相簿2很好"><span class="id">0075</span>&nbsp;<span class="fileName">白色相簿2很好</span></a></td><td><input type="text" value="//2025/05/27/白色相簿2很好"></td><td>2025-05-27 20:08:01</td></tr>
+<tr><td><a href="/2025/06/06/所有网盘分享"><span class="id">0076</span>&nbsp;<span class="fileName">所有网盘分享</span></a></td><td><input type="text" value="//2025/06/06/所有网盘分享"></td><td>2025-06-06 15:46:22</td></tr>
 </tbody></table></div><script>document.addEventListener("DOMContentLoaded",function(){
     const queryString=window.location.search;
     const urlParams=new URLSearchParams(queryString);
     const idValue=urlParams.get("id");
+    const searchValue=urlParams.get("search");
+    
+    if(searchValue){
+        const links = document.querySelectorAll('a');
+        for(const link of links) {
+            if(link.href.includes(searchValue)) {
+                window.location.href = link.href;
+                return;
+            }
+        }
+    }
     if(idValue){
         if(idValue.length>4){return;}
         const formattedId=idValue.padStart(4,"0");
