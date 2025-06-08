@@ -136,11 +136,11 @@
     const urlParams=new URLSearchParams(queryString);
     const idValue=urlParams.get("id");
     const searchValue=urlParams.get("search");
-    
     if(searchValue){
         const links = document.querySelectorAll('a');
         for(const link of links) {
-            if(link.href.includes(searchValue)) {
+            const decodedHref = decodeURIComponent(link.href);
+            if(decodedHref.includes(searchValue)) {
                 window.location.href = link.href;
                 return;
             }
