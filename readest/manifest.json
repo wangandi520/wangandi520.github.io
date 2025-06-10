@@ -2,6 +2,7 @@
   "name": "Readest",
   "short_name": "Readest",
   "start_url": "/readest/",
+  "scope": "/readest/",
   "display": "standalone",
   "background_color": "#ffffff",
   "description": "Readest is an open-source eBook reader supporting EPUB, PDF, and sync across devices.",
