@@ -18635,7 +18635,7 @@
     <title>开源掌机和RetroArch个人体验</title>
     <url>/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.27</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.06.10</p>
 <h2 id="总体评分"><a href="#总体评分" class="headerlink" title="总体评分"></a>总体评分</h2><p>及格分数7分<br>安伯尼克rg34xxsp，7分<br>安伯尼克rg35xxsp，7分<br>安伯尼克rg35xxplus，6分<br>安伯尼克rg34xx，5分<br>miyoo mini v4，3分</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价安伯尼克rg35xxplus，rg35xxsp，rg34xx，miyoo mini v4。<br><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">相关资源下载</a></p>
 <span id="more"></span>
@@ -18739,7 +18739,11 @@
 <h3 id="添加pico8模拟器"><a href="#添加pico8模拟器" class="headerlink" title="添加pico8模拟器"></a>添加pico8模拟器</h3><p>下载H700官方系统pico-8模拟器补丁.zip<br>解压缩，exe文件夹放到tf卡1的根目录</p>
 <h3 id="5月魔改系统v3-5的portmaster主程序安装新游戏过程"><a href="#5月魔改系统v3-5的portmaster主程序安装新游戏过程" class="headerlink" title="5月魔改系统v3.5的portmaster主程序安装新游戏过程"></a>5月魔改系统v3.5的portmaster主程序安装新游戏过程</h3><p>需要路由器设置翻墙，需要正版星露谷游戏，部分游戏不需要正版<br>应用中心，apps，tf-1，port_mater，所有移植作品，stardew valley，安装，可能用安装运行库约200mb，安装完退出<br>关机，tf卡2插到电脑上<br>打开steam，星露谷，右键游戏，属性，测试版，参与测试，compatability……等待下载完<br>右键游戏，管理，浏览本地文件，一般在硬盘:\SteamLibrary\steamapps\common\Stardew Valley<br>复制所有文件到tf卡:\Roms\PORTS\stardewvalley\gamedata<br>掌机开机，ra游戏，ports，stardewvalley进入游戏<br>如果屏幕大小不对，按右右上右，再按a</p>
 <p>参考<a href="https://portmaster.games/detail.html?name=stardewvalley%EF%BC%8C%E6%AF%8F%E4%B8%AA%E6%B8%B8%E6%88%8F%E9%83%BD%E6%9C%89%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B">https://portmaster.games/detail.html?name=stardewvalley，每个游戏都有安装教程</a></p>
-<h3 id="使用koreader"><a href="#使用koreader" class="headerlink" title="使用koreader"></a>使用koreader</h3><p>下载<a href="https://portmaster.games/detail.html?name=koreader">https://portmaster.games/detail.html?name=koreader</a><br>解压后放到&#x2F;mnt&#x2F;sdcard&#x2F;Roms&#x2F;PORTS&#x2F;，卡1卡2都可以<br>书放在koreader&#x2F;books里</p>
+<h3 id="portmasters下使用koreader阅读器"><a href="#portmasters下使用koreader阅读器" class="headerlink" title="portmasters下使用koreader阅读器"></a>portmasters下使用koreader阅读器</h3><p>下载<a href="https://portmaster.games/detail.html?name=koreader">https://portmaster.games/detail.html?name=koreader</a><br>解压后放到&#x2F;mnt&#x2F;sdcard&#x2F;Roms&#x2F;PORTS&#x2F;，卡1卡2都可以<br>书放在koreader&#x2F;books里<br>在ra游戏，ports中运行</p>
+<h3 id="portmasters下使用mreader阅读器"><a href="#portmasters下使用mreader阅读器" class="headerlink" title="portmasters下使用mreader阅读器"></a>portmasters下使用mreader阅读器</h3><p>应该就是安伯尼克应用中心的电子书app，自带的设置会闪烁，无法识别摇杆<br><a href="https://portmaster.games/detail.html?name=mreader">https://portmaster.games/detail.html?name=mreader</a><br>如果分辨率不对， 修改mReader.sh中</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">export SCREEN_WIDTH=720</span><br><span class="line">export SCREEN_HEIGHT=480</span><br></pre></td></tr></table></figure>
+
+<p>在ra游戏，ports中运行</p>
 <h3 id="nds模拟器drastic恢复默认设置"><a href="#nds模拟器drastic恢复默认设置" class="headerlink" title="nds模拟器drastic恢复默认设置"></a>nds模拟器drastic恢复默认设置</h3><p>设置，清除记录，恢复nds默认配置<br>另一种方法：<br>仅用于安伯尼克，远程连接，进入&#x2F;mnt&#x2F;vendor&#x2F;deep&#x2F;drastic&#x2F;config<br>删除drastic.cfg，把drastic-back.cfg复制一份并改名成drastic.cfg</p>
 <h3 id="关闭点阵风格着色器（类似gba效果）"><a href="#关闭点阵风格着色器（类似gba效果）" class="headerlink" title="关闭点阵风格着色器（类似gba效果）"></a>关闭点阵风格着色器（类似gba效果）</h3><p>应用中心，apps，tf-1，着色器功能，关闭<br>或者在retroarch游戏中：<br>menu，后退，左边点击设置，，着色器，视频着色器，关<br>菜单，独立配置，保存核心独立配置</p>
 <h3 id="全屏显示并去掉遮罩（gba图标边框等）"><a href="#全屏显示并去掉遮罩（gba图标边框等）" class="headerlink" title="全屏显示并去掉遮罩（gba图标边框等）"></a>全屏显示并去掉遮罩（gba图标边框等）</h3><p>应用中心，apps，tf-1，遮罩功能，关闭<br>或者在retroarch游戏中：<br>menu，后退，左边点击设置，界面，遮罩，两个都关<br>设置，视频，缩放，宽高比，全屏<br>菜单，快捷菜单，独立配置，保存核心独立配置<br>这个只对同一个核心的游戏有效，暂时没找到全局通用设置的办法</p>
