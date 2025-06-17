@@ -21706,7 +21706,7 @@
 <h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.06.09<br>测试机型：骁龙865，骁龙870</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>下面这些模拟器，能日常使用的有retroarch，ppsspp，drastic，ryujinx<br>如果不是为了折腾机器，只为玩游戏，推荐安卓手机平板或者windows平台<br>winodws的ryujinx比所有安卓模拟器都强得多，<a href="https://git.ryujinx.app/ryubing/ryujinx/-/releases">https://git.ryujinx.app/ryubing/ryujinx/-/releases</a><br>游戏流畅度：PC &gt; 安卓手机平板 &gt; 安卓掌机 &gt; linux掌机<br>安卓前端天马，ES-DE不是必须的，只是一个入口</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>一些需要的文件分享<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
-<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>Dophin（任天堂Wii）<br>DraStic（任天堂DS）<br>AzaharPlus（任天堂3DS）<br>eden（任天堂Switch）<br>winlator（微软windows）<br>ryujinx（windows上的switch模拟器）</p>
+<p>模拟器（平台）<br>AetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>Dophin（任天堂Wii）<br>DraStic（任天堂DS）<br>AzaharPlus（任天堂3DS）<br>eden（任天堂Switch）<br>winlator（微软windows）<br>ryujinx（windows上的switch模拟器）<br>cemu（windows上的wiiu模拟器）</p>
 <span id="more"></span>
 
 <hr>
@@ -21767,7 +21767,7 @@
 <h3 id="自动映射手柄"><a href="#自动映射手柄" class="headerlink" title="自动映射手柄"></a>自动映射手柄</h3><p>设置，控制，玩家1，控制器自动映射，选择自己的手柄型号</p>
 <h3 id="存档可能的位置"><a href="#存档可能的位置" class="headerlink" title="存档可能的位置"></a>存档可能的位置</h3><p>&#x2F;Android&#x2F;data&#x2F;org.citron.citron_emu&#x2F;files&#x2F;nand&#x2F;user<br>导出全部存档：设置，管理eden数据，管理存档，上箭头，保存<br>导入存档，压缩包内第一个子文件夹名字是游戏ID，必须全部大写，例如01004D300C5AE000</p>
 <h3 id="添加补丁或DLC"><a href="#添加补丁或DLC" class="headerlink" title="添加补丁或DLC"></a>添加补丁或DLC</h3><p>长按游戏，附加项，右下角安装，选择游戏更新和DLC</p>
-<h3 id="添加mod或金手指"><a href="#添加mod或金手指" class="headerlink" title="添加mod或金手指"></a>添加mod或金手指</h3><p>查看游戏ID，长按游戏，信息，游戏ID<br>金手指位置：XXX（或其他游戏ID）\cheats\YYY.txt（金手指文件）<br>mod位置：可能txt的上级文件夹叫exefs，暂未测试<br>长按游戏，附加项，右下角安装，选择mod和金手指，进入游戏ID这个文件夹，这时候窗口显示的是cheats文件夹，不要进去，下方点击使用此文件夹<br>完成后，附加项里增加了一项XXX，Cheats<br>一些改60帧的金手指<a href="https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/GAMES.md">https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/GAMES.md</a></p>
+<h3 id="添加mod或金手指"><a href="#添加mod或金手指" class="headerlink" title="添加mod或金手指"></a>添加mod或金手指</h3><p>查看游戏ID，长按游戏，信息，游戏ID<br>金手指位置：XXX（或其他游戏ID）\cheats\YYY.txt（金手指文件）<br>mod位置：可能txt的上级文件夹叫exefs，暂未测试<br>长按游戏，附加项，右下角安装，选择mod和金手指，进入游戏ID这个文件夹，这时候窗口显示的是cheats文件夹，不要进去，下方点击使用此文件夹<br>完成后，附加项里增加了一项XXX，Cheats<br>一些改60帧的金手指<a href="https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/GAMES.md">https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/GAMES.md</a><br>ryujinx要右键游戏，管理金手指，打勾</p>
 <h3 id="女神异闻录5皇家版港版1-0-2改60帧"><a href="#女神异闻录5皇家版港版1-0-2改60帧" class="headerlink" title="女神异闻录5皇家版港版1.0.2改60帧"></a>女神异闻录5皇家版港版1.0.2改60帧</h3><p>我的版本是Persona 5 Royal (HK)，如果是其他的，就搜索后点击第三列build id<br>下载<a href="https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/titles/01004B10157F2000/cheats/D4B150B29A931CD3.txt">https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats/blob/main/titles/01004B10157F2000/cheats/D4B150B29A931CD3.txt</a><br>在电脑或手机上保存好01004B10157F2000\cheats\D4B150B29A931CD3.txt<br>txt内原来有2项，30fps和60fps，把30fps删除，之后txt是这样的</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[60fps]</span><br><span class="line">580F0000 02327B90 </span><br><span class="line">580F1000 00000010 </span><br><span class="line">580F1000 00000060 </span><br><span class="line">580F1000 00000008 </span><br><span class="line">780F0000 00000F14 </span><br><span class="line">640F0000 00000000 00000001</span><br></pre></td></tr></table></figure>
 
@@ -21792,8 +21792,14 @@
 <h4 id="问题运行"><a href="#问题运行" class="headerlink" title="问题运行"></a>问题运行</h4><p>蔚蓝，无法识别手柄，映射成键盘可以识别<br>吸血鬼幸存者，能识别手柄，帧数低40左右</p>
 <h4 id="无法运行"><a href="#无法运行" class="headerlink" title="无法运行"></a>无法运行</h4><p>土豆兄弟</p>
 <hr>
-<h2 id="ryujinx（windows上的switch模拟器）"><a href="#ryujinx（windows上的switch模拟器）" class="headerlink" title="ryujinx（windows上的switch模拟器）"></a>ryujinx（windows上的switch模拟器）</h2><h2 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h2><p><a href="https://git.ryujinx.app/ryubing/ryujinx">https://git.ryujinx.app/ryubing/ryujinx</a><br>目前最新版本1.3.75</p>
+<h2 id="ryujinx（windows上的switch模拟器）"><a href="#ryujinx（windows上的switch模拟器）" class="headerlink" title="ryujinx（windows上的switch模拟器）"></a>ryujinx（windows上的switch模拟器）</h2><h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><p><a href="https://git.ryujinx.app/ryubing/ryujinx">https://git.ryujinx.app/ryubing/ryujinx</a><br>目前最新版本1.3.75</p>
 <h3 id="安装固件提示hash-error"><a href="#安装固件提示hash-error" class="headerlink" title="安装固件提示hash error"></a>安装固件提示hash error</h3><p>删除文件夹C:\Users\你的用户名\AppData\Roaming\Ryujinx\bis\system\Contents\registered</p>
+<h3 id="测试游戏-6"><a href="#测试游戏-6" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-3"><a href="#流畅运行-3" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>宝可梦朱<br>马里奥赛车8豪华版<br>星之卡比探索发现<br>星之卡比wii豪华版<br>女神异闻录5皇家版<br>超级马力欧兄弟惊奇<br>超级马力欧兄弟U豪华版</p>
+<hr>
+<h2 id="cemu（windows上的wiiu模拟器）"><a href="#cemu（windows上的wiiu模拟器）" class="headerlink" title="cemu（windows上的wiiu模拟器）"></a>cemu（windows上的wiiu模拟器）</h2><h3 id="第一次进入cemu"><a href="#第一次进入cemu" class="headerlink" title="第一次进入cemu"></a>第一次进入cemu</h3><p>game path：选择存放wux游戏文件的文件夹<br>next<br>configure input设置手柄<br>profile随便起名，我的xbox手柄为例<br>emulated controller：wii u gamepad<br>controller：api选xinput，controller选controller 1<br>add，自动识别按键后，close</p>
+<h3 id="cemu主界面"><a href="#cemu主界面" class="headerlink" title="cemu主界面"></a>cemu主界面</h3><p>file，open cemu folder，一般位置在C:\Users\用户名\AppData\Roaming\Cemu，把keys.txt复制进去<br>关闭cemu，再打开就显示游戏了</p>
+<h3 id="测试游戏-7"><a href="#测试游戏-7" class="headerlink" title="测试游戏"></a>测试游戏</h3><h4 id="流畅运行-4"><a href="#流畅运行-4" class="headerlink" title="流畅运行"></a>流畅运行</h4><p>New Super Mario Bros. U (USA) (En,Fr,Es) (Rev 2)<br>Mario Kart 8 (USA) (En,Fr,Es) (Rev 5)</p>
+<hr>
 ]]></content>
       <categories>
         <category>极客</category>
