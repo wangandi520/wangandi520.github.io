@@ -22040,8 +22040,6 @@
 
 <h3 id="添加l命令，修改ls时间显示格式"><a href="#添加l命令，修改ls时间显示格式" class="headerlink" title="添加l命令，修改ls时间显示格式"></a>添加l命令，修改ls时间显示格式</h3><p>编辑~&#x2F;.bashrc添加</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">alias l=&#x27;ls -ahl&#x27;</span><br><span class="line">alias temp=&#x27;vcgencmd measure_temp&#x27;</span><br><span class="line">export TIME_STYLE=&#x27;+%Y-%m-%d %H:%M:%S&#x27;</span><br></pre></td></tr></table></figure>
-<h3 id="总提示Newer-kernel-available"><a href="#总提示Newer-kernel-available" class="headerlink" title="总提示Newer kernel available"></a>总提示Newer kernel available</h3><p>运行命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rpi-update</span><br><span class="line">apt update</span><br><span class="line">apt full-upgrade</span><br></pre></td></tr></table></figure>
 
 <h3 id="其他常用命令"><a href="#其他常用命令" class="headerlink" title="其他常用命令"></a>其他常用命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 查看cpu温度</span><br><span class="line">vcgencmd measure_temp</span><br><span class="line"># 设置时区</span><br><span class="line">timedatectl set-timezone Asia/Shanghai</span><br></pre></td></tr></table></figure>
 
