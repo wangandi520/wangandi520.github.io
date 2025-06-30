@@ -1091,8 +1091,8 @@
     <title>vscode插件修改第二栏的数字加1</title>
     <url>/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.24</p>
-<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>在vscode中，按下Ctrl+Shift+I快捷键，识别当前光标所在行中第二个和第三个竖线（<code>|</code>）之间的数字，并将其加1。</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.06.30</p>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>在vscode中，按下Ctrl+Shift+I快捷键，识别当前光标所在行中第二个和第三个竖线（<code>|</code>）之间的数字，并将其加1。<br>并把这一行移动到表格的第一行</p>
 <p>下载地址<a href="https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E4%BF%AE%E6%94%B9%E7%AC%AC%E4%BA%8C%E6%A0%8F%E7%9A%84%E6%95%B0%E5%AD%97%E5%8A%A01number-incrementer.zip">github</a></p>
 <p>原数据</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|红楼梦|第1章|2024.5.13||</span><br><span class="line">|the bear|1.1|2024.7.1||</span><br></pre></td></tr></table></figure>
@@ -4121,8 +4121,8 @@
     <title>vscode插件将当前行中的日期更新为今天的日期</title>
     <url>/2025/03/28/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9F/</url>
     <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.24</p>
-<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.06.30</p>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>在vscode中，按下Ctrl+Shift+D快捷键，识别当前行的日期修改成今天的日期<br>并把这一行移动到表格的第一行</p>
 <p>下载地址<a href="https://github.com/wangandi520/andyspythonscript/blob/main/vscode%E6%8F%92%E4%BB%B6%E5%B0%86%E5%BD%93%E5%89%8D%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%9F%E6%9B%B4%E6%96%B0%E4%B8%BA%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%97%A5%E6%9C%9Fupdate-date-to-today.zip">github</a></p>
 <p>原数据</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|atlanta|3.1|2024.5.13||</span><br></pre></td></tr></table></figure>
