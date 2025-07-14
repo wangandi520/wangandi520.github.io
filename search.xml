@@ -22063,11 +22063,12 @@
 <h4 id="添加json数据和命令行数据"><a href="#添加json数据和命令行数据" class="headerlink" title="添加json数据和命令行数据"></a>添加json数据和命令行数据</h4><p>编辑&#x2F;srv&#x2F;homeassistant&#x2F;configuration.yaml<br>cpu温度数据来自linux系统，pm2.5数据来自上面的pm2.5检测系统</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">command_line:</span><br><span class="line">  - sensor:</span><br><span class="line">      name: CPU Temperature</span><br><span class="line">      command: &quot;cat /sys/class/thermal/thermal_zone0/temp&quot;</span><br><span class="line">      scan_interval: 600</span><br><span class="line">      unit_of_measurement: &quot;°C&quot;</span><br><span class="line">      value_template: &#x27;&#123;&#123; value | multiply(0.001) | round(1) &#125;&#125;&#x27;</span><br><span class="line">  - sensor:</span><br><span class="line">      name: MyPM25</span><br><span class="line">      scan_interval: 600</span><br><span class="line">      command: &quot;curl -s http://127.0.0.1/pm25/data.json&quot;</span><br><span class="line">      value_template: &#x27;温度：&#123;&#123; value_json.temperature &#125;&#125;°C, 湿度：&#123;&#123; value_json.humidity &#125;&#125;%, PM2.5：&#123;&#123; value_json.pm25 &#125;&#125;μg/m³&#x27;</span><br><span class="line">      json_attributes:</span><br><span class="line">        - temperature</span><br><span class="line">        - humidity</span><br><span class="line">        - pm25</span><br></pre></td></tr></table></figure>
 
-<p>最后在概览，右上编辑仪表盘，创建部件，添加卡片，按实体，搜索MyPM25</p>
-<h4 id="添加摄像头"><a href="#添加摄像头" class="headerlink" title="添加摄像头"></a>添加摄像头</h4><p>hacs中下载webrtc，重启home assistant，设置，设备与服务，添加集成，搜索webrtc camera，添加，空白的地方不要填写<br>概览，右上编辑仪表盘，创建部件，添加卡片，按卡片，搜索webrtc，url后面填写自己摄像头的地址，像下面一样，密码和ip要改</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">type: custom:webrtc-camera</span><br><span class="line">url: rtsp://admin:客户端设置的密码@192.168.1.100:554/stream1</span><br></pre></td></tr></table></figure>
+<p>概览，右上编辑仪表盘，创建部件，添加卡片，按实体，搜索MyPM25</p>
+<h4 id="添加摄像头"><a href="#添加摄像头" class="headerlink" title="添加摄像头"></a>添加摄像头</h4><h5 id="webrtc"><a href="#webrtc" class="headerlink" title="webrtc"></a>webrtc</h5><p>编辑&#x2F;srv&#x2F;homeassistant&#x2F;configuration.yaml，注意修改密码和ip</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">camera:</span><br><span class="line">  - platform: ffmpeg</span><br><span class="line">    name: 客厅摄像头</span><br><span class="line">    input: -rtsp_transport tcp -i rtsp://admin:密码@192.168.1.100:554/stream1</span><br></pre></td></tr></table></figure>
 
-<p>测试水星摄像头经常无法显示视频，修改设置，在水星电脑客户端，右键设备设置，音视频，视频，主码流，编码方式，h264<br>水星摄像头地址rtsp:&#x2F;&#x2F;admin:客户端设置的密码@192.168.1.100:554&#x2F;stream1<br>萤石摄像头地址rtsp:&#x2F;&#x2F;admin:机器下面贴的6位大写英文@192.168.1.100:554&#x2F;h264&#x2F;ch1&#x2F;main&#x2F;av_stream</p>
+<p>概览，右上编辑仪表盘，创建部件，添加卡片，按卡片，图片预览，摄像头实体：选择自己的，摄像头视图：实时，保存</p>
+<p>水星摄像头地址rtsp:&#x2F;&#x2F;admin:客户端设置的密码@192.168.1.100:554&#x2F;stream1<br>萤石摄像头地址rtsp:&#x2F;&#x2F;admin:机器下面贴的6位大写英文@192.168.1.100:554&#x2F;h264&#x2F;ch1&#x2F;main&#x2F;av_stream<br>其他摄像头地址参考<a href="https://github.com/AlexxIT/WebRTC">https://github.com/AlexxIT/WebRTC</a></p>
 ]]></content>
       <categories>
         <category>程序</category>
