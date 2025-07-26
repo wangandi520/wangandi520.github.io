@@ -4841,6 +4841,7 @@
 <h2 id="常用跑图方法"><a href="#常用跑图方法" class="headerlink" title="常用跑图方法"></a>常用跑图方法</h2><h3 id="萌萌"><a href="#萌萌" class="headerlink" title="萌萌"></a>萌萌</h3><p>道具栏点萌萌-转职场所<br>常用地点：</p>
 <ul>
 <li>一转-弓箭手：斐扬洞，组队任务，100级幻影调查团（在斐扬做前置任务才能来）</li>
+<li>一转-服事：旁边npc能传送到古城，不做他的任务就能一直传</li>
 <li>剑士-符文：首都中间精炼房旁边</li>
 <li>剑士-皇家：首都皇宫，主线任务</li>
 <li>法师-巫师：吉芬中间，130级幻影调查团</li>
@@ -4912,7 +4913,7 @@
 <li>135（0%）-136（92%） 无呆，吉芬幻影调查团，随便刷刷到137</li>
 <li>137-150 一呆，137喵族龙窟3层，能更早来3楼的，忘了。140幻影海1，主教诗人在城里安全，buff没了点萌萌转职一转剑士，一路回车就行，主教集结</li>
 </ul>
-<h2 id="建立公会"><a href="#建立公会" class="headerlink" title="建立公会"></a>建立公会</h2><p>买一个华丽金属，聊天栏输入&#x2F;guild 公会名，制作动态公会图标可以用UleadGIFAnimator，尺寸24*24像素，做好了放在游戏目录的Emblem文件夹里。</p>
+<h2 id="建立公会"><a href="#建立公会" class="headerlink" title="建立公会"></a>建立公会</h2><p>买一个华丽金属，聊天栏输入&#x2F;guild 公会名，制作动态公会图标可以用UleadGIFAnimator，尺寸24*24像素，做好了放在游戏目录的Emblem文件夹里。<br>公会图标背景色设置成255,0,255，就是透明色，保存成gif</p>
 <h2 id="属性加点"><a href="#属性加点" class="headerlink" title="属性加点"></a>属性加点</h2><p>一般职业：72，100，101，130，120，1<br>扩展职业：84，100，102，125，120，1</p>
 <h2 id="其他任务"><a href="#其他任务" class="headerlink" title="其他任务"></a>其他任务</h2><h3 id="幻影调查团"><a href="#幻影调查团" class="headerlink" title="幻影调查团"></a>幻影调查团</h3><p>首都西门偏上的房子里对话开启任务，经验多，各个地图npc的位置参考<a href="https://ro.ginyuki.com/2020/07/26/post_3182.html">https://ro.ginyuki.com/2020/07/26/post_3182.html</a></p>
 <p>部分前置任务<a href="https://rodata.zhaouc.com/index.php?g=Portal&m=list&a=index&id=28">https://rodata.zhaouc.com/index.php?g=Portal&m=list&a=index&id=28</a></p>
