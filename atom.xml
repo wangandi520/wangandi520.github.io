@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-08-29T16:49:03.531Z</updated>
+  <updated>2025-09-12T02:05:57.563Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://andi.wang/2025/07/18/%E8%87%AA%E5%B7%B1%E5%81%9A%E7%AE%80%E5%8D%95%E8%A3%85%E4%BF%AE%E5%92%8C%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/"/>
     <id>https://andi.wang/2025/07/18/%E8%87%AA%E5%B7%B1%E5%81%9A%E7%AE%80%E5%8D%95%E8%A3%85%E4%BF%AE%E5%92%8C%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</id>
     <published>2025-07-18T13:31:43.000Z</published>
-    <updated>2025-08-29T16:49:03.531Z</updated>
+    <updated>2025-09-12T02:05:57.563Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -439,7 +439,7 @@
     <link href="https://andi.wang/2025/01/10/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/"/>
     <id>https://andi.wang/2025/01/10/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/</id>
     <published>2025-01-10T01:12:31.000Z</published>
-    <updated>2025-09-08T07:12:15.346Z</updated>
+    <updated>2025-10-01T05:48:22.230Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -837,28 +837,6 @@
   </entry>
   
   <entry>
-    <title>快速上手羽毛球弹弓</title>
-    <link href="https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/"/>
-    <id>https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/</id>
-    <published>2023-12-29T07:20:25.000Z</published>
-    <updated>2024-03-14T09:37:55.421Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;几个关键技巧。&lt;/p&gt;
-&lt;hr&gt;</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="羽毛球" scheme="https://andi.wang/tags/%E7%BE%BD%E6%AF%9B%E7%90%83/"/>
-    
-    <category term="弹弓" scheme="https://andi.wang/tags/%E5%BC%B9%E5%BC%93/"/>
-    
-  </entry>
-  
-  <entry>
     <title>省钱玩电吉他单车摄影，阅读音乐</title>
     <link href="https://andi.wang/2023/12/29/%E7%9C%81%E9%92%B1%E7%8E%A9%E7%94%B5%E5%90%89%E4%BB%96%E5%8D%95%E8%BD%A6%E6%91%84%E5%BD%B1%EF%BC%8C%E9%98%85%E8%AF%BB%E9%9F%B3%E4%B9%90/"/>
     <id>https://andi.wang/2023/12/29/%E7%9C%81%E9%92%B1%E7%8E%A9%E7%94%B5%E5%90%89%E4%BB%96%E5%8D%95%E8%BD%A6%E6%91%84%E5%BD%B1%EF%BC%8C%E9%98%85%E8%AF%BB%E9%9F%B3%E4%B9%90/</id>
@@ -886,6 +864,28 @@
     <category term="单车" scheme="https://andi.wang/tags/%E5%8D%95%E8%BD%A6/"/>
     
     <category term="摄影" scheme="https://andi.wang/tags/%E6%91%84%E5%BD%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速上手羽毛球弹弓</title>
+    <link href="https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/"/>
+    <id>https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%BE%BD%E6%AF%9B%E7%90%83%E5%BC%B9%E5%BC%93/</id>
+    <published>2023-12-29T07:20:25.000Z</published>
+    <updated>2024-03-14T09:37:55.421Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;几个关键技巧。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="羽毛球" scheme="https://andi.wang/tags/%E7%BE%BD%E6%AF%9B%E7%90%83/"/>
+    
+    <category term="弹弓" scheme="https://andi.wang/tags/%E5%BC%B9%E5%BC%93/"/>
     
   </entry>
   
@@ -992,11 +992,11 @@
     <link href="https://andi.wang/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
     <id>https://andi.wang/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</id>
     <published>2023-06-07T02:41:57.000Z</published>
-    <updated>2025-08-25T14:52:34.215Z</updated>
+    <updated>2025-09-26T02:32:29.096Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.05.13&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.09.26&lt;/p&gt;
 &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;如果是连锁店的话，可能只是其中一家有问题。&lt;br&gt;如果是品牌的话，可能只是其中一个产品有问题。&lt;/p&gt;</summary>
     
     
