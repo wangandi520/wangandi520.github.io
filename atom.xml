@@ -127,11 +127,11 @@
     <link href="https://andi.wang/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/"/>
     <id>https://andi.wang/2025/05/10/%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C/</id>
     <published>2025-05-10T01:44:25.000Z</published>
-    <updated>2025-06-24T10:02:38.981Z</updated>
+    <updated>2025-12-10T06:30:57.219Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.06.09&lt;br&gt;测试机型：骁龙865，骁龙870&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.12.10&lt;br&gt;测试机型：骁龙865，骁龙870，安伯尼克RG DS&lt;/p&gt;
 &lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;下面这些模拟器，能日常使用的有retroarch，ppsspp，drastic，ryujinx&lt;br&gt;如果不是为了折腾机器，只为玩游戏，推荐安卓手机平板或者windows平台&lt;br&gt;winodws的ryujinx比所有安卓模拟器都强得多，&lt;a href=&quot;https://git.ryujinx.app/ryubing/ryujinx/-/releases&quot;&gt;https://git.ryujinx.app/ryubing/ryujinx/-/releases&lt;/a&gt;&lt;br&gt;游戏流畅度：PC &amp;gt; 安卓手机平板 &amp;gt; 安卓掌机 &amp;gt; linux掌机&lt;br&gt;安卓前端天马，ES-DE不是必须的，只是一个入口&lt;/p&gt;
 &lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;简单记录下安卓的一些模拟器配置使用经验&lt;br&gt;retroarch的经验见另一篇文章&lt;a href=&quot;https://andi.wang/go?id=68&quot;&gt;https://andi.wang/go?id=68&lt;/a&gt;&lt;br&gt;一些需要的文件分享&lt;a href=&quot;https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw&quot;&gt;https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;模拟器（平台）&lt;br&gt;AetherSX2（索尼PS2）&lt;br&gt;PPSSPP（索尼PSP）&lt;br&gt;Dophin（任天堂Wii）&lt;br&gt;DraStic（任天堂DS）&lt;br&gt;AzaharPlus（任天堂3DS）&lt;br&gt;eden（任天堂Switch）&lt;br&gt;winlator（微软windows）&lt;br&gt;ryujinx（windows上的switch模拟器）&lt;br&gt;cemu（windows上的wiiu模拟器）&lt;/p&gt;</summary>
@@ -440,11 +440,11 @@
     <link href="https://andi.wang/2025/01/10/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/"/>
     <id>https://andi.wang/2025/01/10/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/</id>
     <published>2025-01-10T01:12:31.000Z</published>
-    <updated>2025-10-11T03:57:44.839Z</updated>
+    <updated>2025-12-31T03:22:26.726Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;适用版本&quot;&gt;&lt;a href=&quot;#适用版本&quot; class=&quot;headerlink&quot; title=&quot;适用版本&quot;&gt;&lt;/a&gt;适用版本&lt;/h2&gt;&lt;p&gt;日期：2025年08月05日&lt;br&gt;运营商：塔人&lt;br&gt;服务器：梦罗克&lt;/p&gt;
+&lt;h2 id=&quot;适用版本&quot;&gt;&lt;a href=&quot;#适用版本&quot; class=&quot;headerlink&quot; title=&quot;适用版本&quot;&gt;&lt;/a&gt;适用版本&lt;/h2&gt;&lt;p&gt;日期：2025年12月31日&lt;br&gt;运营商：塔人&lt;br&gt;服务器：梦罗克&lt;/p&gt;
 &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;基础装备：物品栏萌萌-领取福利，武器是3级的，可以使用神之金属安全+5，爆了或者领错了武器也没事，可以重复领。&lt;br&gt;进阶装备：经验套装6件（俏皮蕾丝小猫发带，蔚蓝蝴蝶结，糖果带背包，卡普拉制服，2个海獭迷你风扇），一把火属性绯红武器70级使用。&lt;br&gt;乐园装备：乐园门口登记，男女npc对话，右上传送门进去，往上走，里面领装备，基础影子不用币，租一次3天。&lt;br&gt;补给物品：物品栏里会送个箱子，每到一定等级打开送一些药水经验书之类的，药水会占很多负重。175级的时候送影子装备，能开到一些值钱的。&lt;br&gt;转职物品：参考最下面资料网站的转职任务。&lt;br&gt;转生花费：物品栏萌萌-领取任务，基本和练级路线重合，95级的熔岩波利完成后，转生就不用花钱了。&lt;br&gt;经验加成：梦罗克中间的npc呆呆领任务，打30只怪，能领取1小时经验加成，下线后不会扣时间，可以领了后第二天再打。周五14点到周日24点是300%经验，平时是250%。&lt;br&gt;操作技巧：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;跟随人物：按住shift鼠标右键点要跟随的人。&lt;/li&gt;
@@ -482,11 +482,11 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
-    
     <category term="html" scheme="https://andi.wang/tags/html/"/>
     
     <category term="投资" scheme="https://andi.wang/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
     
   </entry>
   
@@ -670,9 +670,9 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
-    
     <category term="漫画" scheme="https://andi.wang/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+    <category term="NeeView" scheme="https://andi.wang/tags/NeeView/"/>
     
   </entry>
   
@@ -842,7 +842,7 @@
     <link href="https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8BXXX/"/>
     <id>https://andi.wang/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8BXXX/</id>
     <published>2023-12-29T07:20:25.000Z</published>
-    <updated>2025-11-09T07:55:34.348Z</updated>
+    <updated>2025-11-09T08:01:08.911Z</updated>
     
     
     <summary type="html">&lt;p&gt;几个关键技巧。&lt;/p&gt;
