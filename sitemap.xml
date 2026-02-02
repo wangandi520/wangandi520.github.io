@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://andi.wang/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/</loc>
+    
+    <lastmod>2026-02-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://andi.wang/2025/01/10/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/</loc>
     
     <lastmod>2026-01-30</lastmod>
@@ -410,15 +419,6 @@
     <loc>https://andi.wang/2025/02/24/%E7%8E%8B%E5%B0%8F%E6%B3%A2%E7%9C%9F%E6%AD%A3%E5%A4%A7%E5%85%A8%E9%9B%8615%E5%86%8C%E6%A0%87%E6%B3%A8/</loc>
     
     <lastmod>2025-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://andi.wang/2024/03/03/%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc/</loc>
-    
-    <lastmod>2025-02-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -828,27 +828,6 @@
   </url>
   
   <url>
-    <loc>https://andi.wang/tags/kindle/</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://andi.wang/tags/%E6%91%98%E6%8A%84/</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://andi.wang/tags/%E9%98%85%E8%AF%BB/</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://andi.wang/tags/%E6%9E%81%E5%AE%A2/</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -906,6 +885,27 @@
   
   <url>
     <loc>https://andi.wang/tags/%E6%8C%87%E5%BC%B9/</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://andi.wang/tags/kindle/</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://andi.wang/tags/%E6%91%98%E6%8A%84/</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://andi.wang/tags/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1031,6 +1031,27 @@
   </url>
   
   <url>
+    <loc>https://andi.wang/tags/%E7%BE%BD%E6%AF%9B%E7%90%83/</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://andi.wang/tags/%E5%BC%B9%E5%BC%93/</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://andi.wang/tags/%E4%B8%8B%E8%BD%BD/</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://andi.wang/tags/rg35xxplus/</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1060,27 +1081,6 @@
   
   <url>
     <loc>https://andi.wang/tags/RetroArch/</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://andi.wang/tags/%E7%BE%BD%E6%AF%9B%E7%90%83/</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://andi.wang/tags/%E5%BC%B9%E5%BC%93/</loc>
-    <lastmod>2026-02-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://andi.wang/tags/%E4%B8%8B%E8%BD%BD/</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1220,14 +1220,14 @@
   </url>
   
   <url>
-    <loc>https://andi.wang/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https://andi.wang/tags/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC/</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://andi.wang/tags/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC/</loc>
+    <loc>https://andi.wang/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

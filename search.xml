@@ -695,21 +695,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo生成短链接跳转页面不修改原结构</title>
-    <url>/2025/04/22/hexo%E7%94%9F%E6%88%90%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC%E9%A1%B5%E9%9D%A2%E4%B8%8D%E4%BF%AE%E6%94%B9%E5%8E%9F%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.06.08<br>hexo主题hexo-theme-next</p>
-<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>hexo的网页结构比较复杂，文章多又不想使用插件来改变结构<br>原页面<a href="https://andi.wang/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86">https://andi.wang/2025/04/18/单机网页麻将游戏电脑麻将</a><br>生成后的短链接<a href="https://andi.wang/go?id=71%EF%BC%8C%E6%95%B0%E5%AD%97%E5%89%8D%E9%9D%A2%E6%9C%89%E6%B2%A1%E6%9C%890%E9%83%BD%E5%8F%AF%E4%BB%A5">https://andi.wang/go?id=71，数字前面有没有0都可以</a><br>或者这种链接也可以<a href="https://andi.wang/go/index.html?id=71">https://andi.wang/go/index.html?id=71</a><br>查看每篇文件的短链接id在<a href="https://andi.wang/go">https://andi.wang/go</a><br>搜索的使用方法：<br><a href="https://andi.wang/go?search=%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86">https://andi.wang/go?search=单机网页麻将</a><br>就会直接跳转的匹配的文章，没有匹配的就不跳转，有多个匹配的就跳转到第一个</p>
-<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>python程序源码<a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E5%A4%84%E7%90%86hexo%E7%9A%84_post%E6%96%87%E4%BB%B6%E5%A4%B9%E6%8C%89%E6%97%B6%E9%97%B4%E6%8E%92%E5%BA%8F001%E5%BC%80%E5%A7%8B%E4%BD%9C%E4%B8%BA%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC%E7%94%9F%E6%88%90index.html%EF%BC%88%E6%8B%96%E6%8B%BD%EF%BC%8C_post%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%89.py">https://github.com/wangandi520/andyspythonscript/blob/main/处理hexo的_post文件夹按时间排序001开始作为短链接跳转生成index.html（拖拽，_post文件夹）.py</a><br>拖拽hexo博客内的_post文件夹到python程序，会在python程序同目录生成index.html，如果已经存在就不会生成新的<br>在网页根目录新建go文件夹，把index.html放进去<br>注意文章排序是每个文章内的date最旧的是001开始排序的，新的文章date要是在其他文章中间的话，排序序号会变化</p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo和next主题的一些配置</title>
     <url>/2024/02/29/hexo%E5%92%8Cnext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<hr>
@@ -860,6 +845,21 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo生成短链接跳转页面不修改原结构</title>
+    <url>/2025/04/22/hexo%E7%94%9F%E6%88%90%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC%E9%A1%B5%E9%9D%A2%E4%B8%8D%E4%BF%AE%E6%94%B9%E5%8E%9F%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.06.08<br>hexo主题hexo-theme-next</p>
+<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>hexo的网页结构比较复杂，文章多又不想使用插件来改变结构<br>原页面<a href="https://andi.wang/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86">https://andi.wang/2025/04/18/单机网页麻将游戏电脑麻将</a><br>生成后的短链接<a href="https://andi.wang/go?id=71%EF%BC%8C%E6%95%B0%E5%AD%97%E5%89%8D%E9%9D%A2%E6%9C%89%E6%B2%A1%E6%9C%890%E9%83%BD%E5%8F%AF%E4%BB%A5">https://andi.wang/go?id=71，数字前面有没有0都可以</a><br>或者这种链接也可以<a href="https://andi.wang/go/index.html?id=71">https://andi.wang/go/index.html?id=71</a><br>查看每篇文件的短链接id在<a href="https://andi.wang/go">https://andi.wang/go</a><br>搜索的使用方法：<br><a href="https://andi.wang/go?search=%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86">https://andi.wang/go?search=单机网页麻将</a><br>就会直接跳转的匹配的文章，没有匹配的就不跳转，有多个匹配的就跳转到第一个</p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>python程序源码<a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E5%A4%84%E7%90%86hexo%E7%9A%84_post%E6%96%87%E4%BB%B6%E5%A4%B9%E6%8C%89%E6%97%B6%E9%97%B4%E6%8E%92%E5%BA%8F001%E5%BC%80%E5%A7%8B%E4%BD%9C%E4%B8%BA%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC%E7%94%9F%E6%88%90index.html%EF%BC%88%E6%8B%96%E6%8B%BD%EF%BC%8C_post%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%89.py">https://github.com/wangandi520/andyspythonscript/blob/main/处理hexo的_post文件夹按时间排序001开始作为短链接跳转生成index.html（拖拽，_post文件夹）.py</a><br>拖拽hexo博客内的_post文件夹到python程序，会在python程序同目录生成index.html，如果已经存在就不会生成新的<br>在网页根目录新建go文件夹，把index.html放进去<br>注意文章排序是每个文章内的date最旧的是001开始排序的，新的文章date要是在其他文章中间的话，排序序号会变化</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>linux笔记</title>
     <url>/2022/01/26/linux%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<hr>
@@ -965,6 +965,164 @@
       <tags>
         <tag>程序</tag>
         <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ndsi无烧录卡刷TWiLightMenu过程</title>
+    <url>/2025/05/08/ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.25</p>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用烧录卡，只用sd卡（tf+卡套，或sd卡，后面简写成sd卡）玩游戏<br>游戏roms通过网上下载，存到sd卡上<br>支持的平台参照TWiLightMenu-DSi.7z中的roms文件夹</p>
+<h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，其他机型适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
+<h2 id="闲鱼收的机器情况"><a href="#闲鱼收的机器情况" class="headerlink" title="闲鱼收的机器情况"></a>闲鱼收的机器情况</h2><p>350元白色，外壳没划痕没污渍，也没发黄<br>a面有液体擦试过的痕迹<br>下屏轻微发黄，贴膜撕掉后全是划痕<br>上屏撕掉贴膜，有5粒很大的灰尘在屏幕里，清理不了</p>
+<span id="more"></span>
+
+<h2 id="第一步-下载文件"><a href="#第一步-下载文件" class="headerlink" title="第一步 下载文件"></a>第一步 下载文件</h2><ol>
+<li><p>下载pit.bin<br>ndsi插入sd卡，打开相机（第一次进入可能有个小教程），点击右上图标进入sd卡，点击右边橙色相册<br>看上方星星、梅花、红心右边有没有facebook的蓝色图标。<br>如果有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin</a><br>如果没有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin</a></p>
+</li>
+<li><p>下载其他<br><a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z">https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z</a><br><a href="https://problemkaputt.de/unlaunch.zip">https://problemkaputt.de/unlaunch.zip</a><br>或者我的网盘分享 <a href="https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez">https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez</a> 提取码: cdez</p>
+</li>
+<li><p>复制文件到sd卡根目录<br>ndsi拔出sd卡<br>解压TWiLightMenu-DSi.7z，复制BOOT.NDS，_nds。升级TWiLightMenu的话覆盖复制<br>解压unlaunch.zip，复制UNLAUNCH.DSI</p>
+</li>
+<li><p>复制文件到sd卡的private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;<br>把这里原来的pit.bin重命名成oldpit.bin，把下载的pit.bin复制过来<br>如果没这个文件夹，可能是没进入过相机</p>
+</li>
+<li><p>ndsi插入sd卡</p>
+</li>
+</ol>
+<h2 id="第二步-安装TWiLightMenu，使用Memory-Pit方法"><a href="#第二步-安装TWiLightMenu，使用Memory-Pit方法" class="headerlink" title="第二步 安装TWiLightMenu，使用Memory Pit方法"></a>第二步 安装TWiLightMenu，使用Memory Pit方法</h2><ol>
+<li><p>运行相机<br>进入相机，点击右上图标进入sd卡，点击右边橙色相册，如果成功破解会闪过红色</p>
+</li>
+<li><p>设置<br>按左右选择语言，中文，按a确定，第二项跟随系统<br>如果下屏出现红色界面，写的guru meditation，不用怕，关机再开机选择english，最后能改成中文（见下方其他设置）。</p>
+</li>
+</ol>
+<h2 id="第三步-安装unlaunch"><a href="#第三步-安装unlaunch" class="headerlink" title="第三步 安装unlaunch"></a>第三步 安装unlaunch</h2><ol>
+<li><p>下载文件<br><a href="https://problemkaputt.de/unlaunch.zip">https://problemkaputt.de/unlaunch.zip</a><br>解压缩UNLAUNCH.DSI放到sd卡根目录</p>
+</li>
+<li><p>安装unlaunch<br>TWiLightMenu界面，点击unlaunch dsi installer（黑白人像图标），进入诡异图片界面<br>点击install now，大概2秒，最下面显示installation complete就可以了<br>按a后退，选择power down，再开机，进入诡异图片界面</p>
+</li>
+<li><p>设置开机自动进入TWiLightMenu<br>options，no button，twilight menu++，save &amp; exit，关机再开机，自动进入TWiLightMenu</p>
+</li>
+</ol>
+<h2 id="第四步-完成"><a href="#第四步-完成" class="headerlink" title="第四步 完成"></a>第四步 完成</h2><ol>
+<li><p>清理sd卡<br>进入sd卡<br>删除UNLAUNCH.DSI<br>文件夹private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;，删除pit.bin，把这里的oldpit.bin改回pit.bin</p>
+</li>
+<li><p>复制游戏rom<br>复制游戏rom到sd卡任何文件夹，根目录也可以<br>如果按平台分类，可以参照TWiLightMenu-DSi.7z中的roms文件夹<br>注意gba和其他一些平台（未全部测试）文件名不能有中文，nds可以中文</p>
+</li>
+</ol>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="操作方法（切换菜单，退出游戏）"><a href="#操作方法（切换菜单，退出游戏）" class="headerlink" title="操作方法（切换菜单，退出游戏）"></a>操作方法（切换菜单，退出游戏）</h3><p>第一次进游戏会比较慢，第二次就好了<br>游戏设置子菜单：选择游戏界面按y<br>删除游戏：选择游戏界面按x<br>调节背光亮度：按住select，音量加减<br>唤出菜单：L+方向下+select<br>退出游戏：L+R+方向下+B四个键一起按住2秒<br>gba退出游戏：点击下屏（好像没有退出选项），或者轻按关机<br>进入unlaunch，按住a键开机</p>
+<h3 id="其他设置"><a href="#其他设置" class="headerlink" title="其他设置"></a>其他设置</h3><h4 id="修改用户名生日等"><a href="#修改用户名生日等" class="headerlink" title="修改用户名生日等"></a>修改用户名生日等</h4><p>按住a键开机，进入诡异图片界面，选择system settings，按a进入<br>第二页，第一项（用户名，签名，颜色，生日），中间两项修改日期时间<br>第三页，第二项校准手写笔，第三项测试麦克风，第四项连接wifi（接续设定，上级者设定，接续先4未设定，检索，选择wifi后输入密码，ok，ok，ok）<br>最下面按钮退出</p>
+<h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键保存并退出</p>
+<h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
+<h4 id="gba-bios"><a href="#gba-bios" class="headerlink" title="gba bios"></a>gba bios</h4><p>网盘下载bios.bin，复制到sd卡_gba文件夹内</p>
+<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
+<h4 id="玩游戏时出现红屏错误界面"><a href="#玩游戏时出现红屏错误界面" class="headerlink" title="玩游戏时出现红屏错误界面"></a>玩游戏时出现红屏错误界面</h4><p>进游戏前，按y，向下卡带读取DMA：关闭<br>不行的话或者尝试进入TWiLightMenu设置，游戏使用语言改成english</p>
+<h4 id="进入unlaunch界面"><a href="#进入unlaunch界面" class="headerlink" title="进入unlaunch界面"></a>进入unlaunch界面</h4><p>关机的时候，同时按住a和b，再开机</p>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://dsi.cfw.guide/">https://dsi.cfw.guide/</a></p>
+]]></content>
+      <categories>
+        <category>极客</category>
+      </categories>
+      <tags>
+        <tag>极客</tag>
+        <tag>游戏</tag>
+        <tag>掌机</tag>
+        <tag>ndsi</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>neeview一键保存当前图片命名为文件名加图片名</title>
+    <url>/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.14<br>neeview43.2版测试通过</p>
+<h2 id="neeview下载"><a href="#neeview下载" class="headerlink" title="neeview下载"></a>neeview下载</h2><p>电脑上已经安装了.NET运行库可以下载fd版本，地址：<a href="https://github.com/neelabo/NeeView/releases/">https://github.com/neelabo/NeeView/releases/</a></p>
+<h2 id="neeview开启脚本功能"><a href="#neeview开启脚本功能" class="headerlink" title="neeview开启脚本功能"></a>neeview开启脚本功能</h2><p>选项，设置，指令，脚本，使用脚本（开），打开脚本文件夹</p>
+<span id="more"></span>
+
+<h2 id="neeview一键保存当前图片命名为文件名加图片名"><a href="#neeview一键保存当前图片命名为文件名加图片名" class="headerlink" title="neeview一键保存当前图片命名为文件名加图片名"></a>neeview一键保存当前图片命名为文件名加图片名</h2><p>在脚本文件夹新建文件：<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D.nvjs">neeview一键保存当前图片命名为文件名加图片名.nvjs</a><br>第15行修改成要保存图片的目录，斜杠要写两遍</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// @name neeview一键保存当前图片命名为文件名加图片名</span></span><br><span class="line"><span class="comment">// @description neeview一键保存当前图片命名为文件名加图片名</span></span><br><span class="line"><span class="comment">// @shortCutKey Ctrl+S</span></span><br><span class="line"><span class="comment">// https://github.com/wangandi520/andyspythonscript</span></span><br><span class="line"><span class="comment">// 版本1.2</span></span><br><span class="line"><span class="comment">// log()函数可以在neeview console中输出信息。在选项，打开脚本控制台</span></span><br><span class="line"><span class="comment">// 脚本用于保存漫画压缩包内的图片到某个位置，保存成功后neeview右下角会弹出提示</span></span><br><span class="line"><span class="comment">// 快捷键默认是Ctrl+S，可以自己修改，在选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名</span></span><br><span class="line"><span class="comment">// 保存图片是原压缩包内的文件，未经过其他处理</span></span><br><span class="line"><span class="comment">// 弹出的命令提示符窗口是修改文件名用的</span></span><br><span class="line"><span class="comment">// 保存图片名不是原图片名，文件名格式：zip文件名_图片相对于zip的相对路径_图片名.扩展名</span></span><br><span class="line"><span class="comment">// 例如压缩包1.zip内包含文件夹2，文件夹2内包含图片3.jpg，保存的文件名就是1_2_3.jpg</span></span><br><span class="line"><span class="comment">// 保存图片的文件夹路径：saveImagePath，注意要双斜杠，文件夹最后不加斜杠</span></span><br><span class="line"><span class="comment">// 例如var saveImagePath = &quot;D:\\漫画截图&quot;</span></span><br><span class="line"><span class="keyword">var</span> saveImagePath = <span class="string">&quot;H:\\ecomic截图&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 从文件名和扩展名，获取文件名，不包括扩展名</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileNameWithoutExt</span>(<span class="params">fileName</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> lastDotIndex = fileName.<span class="title function_">lastIndexOf</span>(<span class="string">&#x27;.&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> lastDotIndex === -<span class="number">1</span> ? fileName : fileName.<span class="title function_">substring</span>(<span class="number">0</span>, lastDotIndex);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从文件名和扩展名，获取扩展名，包括点号</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileExtension</span>(<span class="params">fileName</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> lastDotIndex = fileName.<span class="title function_">lastIndexOf</span>(<span class="string">&#x27;.&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> lastDotIndex === -<span class="number">1</span> ? <span class="string">&#x27;&#x27;</span> : fileName.<span class="title function_">substring</span>(lastDotIndex);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从完整路径，获取文件名和扩展名</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileNameFromPath</span>(<span class="params">filePath</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> pathParts = filePath.<span class="title function_">split</span>(<span class="string">&#x27;\\&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> pathParts[pathParts.<span class="property">length</span> - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取图片在压缩包内的相对路径，文件名，扩展名，并使用下划线代替斜杠</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getRelativeFilePath</span>(<span class="params">zipFilePath, imageFilePath</span>) &#123;</span><br><span class="line">	<span class="keyword">if</span> (imageFilePath.<span class="title function_">startsWith</span>(zipFilePath)) &#123;</span><br><span class="line">		<span class="keyword">return</span> imageFilePath.<span class="title function_">substring</span>(zipFilePath.<span class="property">length</span>).<span class="title function_">replace</span>(<span class="regexp">/\\/g</span>, <span class="string">&#x27;_&#x27;</span>);</span><br><span class="line">        <span class="comment">//return filePath.substring(folderPath.length);</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> param01 = &#123;</span><br><span class="line">    <span class="string">&quot;Mode&quot;</span>: <span class="string">&quot;Original&quot;</span>, </span><br><span class="line">    <span class="string">&quot;IsOriginalSize&quot;</span>: <span class="string">&quot;True&quot;</span>, </span><br><span class="line">    <span class="string">&quot;IsShowToast&quot;</span>: <span class="string">&quot;False&quot;</span>, </span><br><span class="line">    <span class="string">&quot;OverwriteMode&quot;</span>: <span class="string">&quot;AddNumber&quot;</span>, </span><br><span class="line">    <span class="string">&quot;FileNameMode&quot;</span>: <span class="string">&quot;BookPageNumber&quot;</span>, </span><br><span class="line">    <span class="string">&quot;ExportFolder&quot;</span>: saveImagePath</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 执行导出图片</span></span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">ExportImage</span>.<span class="title class_">Patch</span>(param01).<span class="title class_">Execute</span>()</span><br><span class="line"><span class="comment">// 当前书籍路径，文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getBookPath = nv.<span class="property">Book</span>.<span class="property">Path</span></span><br><span class="line"><span class="comment">// 当前书籍文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getBookFileName = <span class="title function_">getFileNameFromPath</span>(nv.<span class="property">Book</span>.<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前书籍文件名</span></span><br><span class="line"><span class="keyword">var</span> getBookFileNameWithoutSuffix = <span class="title function_">getFileNameWithoutExt</span>(getBookFileName)</span><br><span class="line"><span class="comment">// 当前图片序号，从0开始</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageIndex = nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Index</span></span><br><span class="line"><span class="comment">// 当前图片路径，文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPagePath = nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span></span><br><span class="line"><span class="comment">// 当前图片文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageFileName = <span class="title function_">getFileNameFromPath</span>(nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前图片扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageFileSuffix = <span class="title function_">getFileExtension</span>(nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前图片在压缩包内的相对路径</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageRelativePath = <span class="title function_">getRelativeFilePath</span>(getBookPath, getCurrentPagePath)</span><br><span class="line"><span class="comment">// 程序导出的图片的路径</span></span><br><span class="line">oldFileName = saveImagePath + <span class="string">&#x27;\\&#x27;</span> + getBookFileNameWithoutSuffix + <span class="string">&#x27;_&#x27;</span> + getCurrentPageIndex + getCurrentPageFileSuffix</span><br><span class="line"><span class="comment">// 要修改成新的文件名，ren命令不加路径，move命令加路径</span></span><br><span class="line"><span class="comment">//newFileName = getBookFileNameWithoutSuffix + getCurrentPageRelativePath</span></span><br><span class="line">newFileName = saveImagePath + <span class="string">&#x27;\\&#x27;</span> + getBookFileNameWithoutSuffix + getCurrentPageRelativePath</span><br><span class="line"><span class="comment">// 改名，如果有重名的，就覆盖</span></span><br><span class="line"><span class="keyword">var</span> cmdPara = <span class="string">&#x27; /c SET &quot;COPYCMD=/Y&quot; &amp;&amp; move &quot;&#x27;</span> + oldFileName + <span class="string">&#x27;&quot; &quot;&#x27;</span> + newFileName + <span class="string">&#x27;&quot; &amp;&amp; echo &#x27;</span></span><br><span class="line"><span class="comment">//var cmdPara = &#x27; /c ren &quot;&#x27; + oldFileName + &#x27;&quot; &quot;&#x27; + newFileName + &#x27;&quot;&#x27;</span></span><br><span class="line"><span class="comment">//var cmdPara = nv.Config.Script.ScriptFolder + &#x27;\\neeview一键保存当前图片命名为文件名加图片名.py &#x27; + oldFileName + &#x27; &#x27; + newFileName</span></span><br><span class="line"><span class="keyword">var</span> param02 = &#123;</span><br><span class="line">    <span class="string">&quot;Command&quot;</span>: <span class="string">&quot;cmd.exe&quot;</span>,</span><br><span class="line">    <span class="comment">//&quot;Command&quot;: &quot;python.exe&quot;,</span></span><br><span class="line">    <span class="string">&quot;Parameter&quot;</span>: cmdPara</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 两个命令效果相同</span></span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">OpenExternalApp</span>.<span class="title class_">Patch</span>(param02).<span class="title class_">Execute</span>()</span><br><span class="line"><span class="comment">//system(&quot;cmd.exe&quot;, cmdPara)</span></span><br><span class="line">nv.<span class="title class_">ShowToast</span>(newFileName + <span class="string">&#x27;文件已保存。&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>默认快捷键是Ctrl+S，修改在<br>选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名<br>之后Ctrl+S，neeview右下角会显示XX已存储</p>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>neeview，帮助，脚本说明</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>NeeView</tag>
+        <tag>漫画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>potplayer+whisper+ollama自动生成字幕并翻译</title>
+    <url>/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/</url>
+    <content><![CDATA[<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.05<br>使用了一段时间，感觉还是无法替代人工字幕，已弃用。</p>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。</p>
+<h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>有时翻译的字幕会显示详细的解释</p>
+<p>更新日期2025.03.11</p>
+<span id="more"></span>
+
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>命令行运行，或者新建个ollama.bat里面填写运行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\你的用户名\AppData\Local\Programs\Ollama\ollama.exe run qwen2.5:0.5b</span><br></pre></td></tr></table></figure>
+
+<p>打开potplayer播放后自动生成原文字幕和翻译字幕</p>
+<h2 id="下载potplayer"><a href="#下载potplayer" class="headerlink" title="下载potplayer"></a>下载potplayer</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://potplayer.daum.net/</span><br></pre></td></tr></table></figure>
+
+<p>不要去别的网站下载，有风险。</p>
+<h2 id="下载Faster-Whisper-XXL"><a href="#下载Faster-Whisper-XXL" class="headerlink" title="下载Faster-Whisper-XXL"></a>下载Faster-Whisper-XXL</h2><p><a href="https://github.com/Purfview/whisper-standalone-win/releases/tag/Faster-Whisper-XXL">https://github.com/Purfview/whisper-standalone-win/releases/tag/Faster-Whisper-XXL</a></p>
+<p>文件选择Faster-Whisper-XXL_r245.2_windows.7z，或更新的版本。</p>
+<p>下载好后，在potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕，点击转换引擎，我的是在。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\DAUM\PotPlayer\Module\Whisper</span><br></pre></td></tr></table></figure>
+
+<p>解压缩Faster-Whisper-XXL_r245.2_windows.7z的Faster-Whisper-XXL文件夹到这里。</p>
+<h2 id="下载faster-whisper-small模型"><a href="#下载faster-whisper-small模型" class="headerlink" title="下载faster-whisper-small模型"></a>下载faster-whisper-small模型</h2><p><a href="https://www.modelscope.cn/models/angelala00/faster-whisper-small/files">https://www.modelscope.cn/models/angelala00/faster-whisper-small/files</a></p>
+<p>下载好后，在potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕，点击型号，我的是在</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\30204\AppData\Roaming\PotPlayerMini64\Model</span><br></pre></td></tr></table></figure>
+
+<p>新建一个faster-whisper-small文件夹，把下载的文件放进去。</p>
+<h2 id="下载ollama和qwen模型"><a href="#下载ollama和qwen模型" class="headerlink" title="下载ollama和qwen模型"></a>下载ollama和qwen模型</h2><p>可以参照之前的博客文章<a href="https://andi.wang/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/">本地运行deepseekr1模型</a></p>
+<p>可以下载最小的模型qwen2.5:0.5b </p>
+<h2 id="下载potplayer的插件"><a href="#下载potplayer的插件" class="headerlink" title="下载potplayer的插件"></a>下载potplayer的插件</h2><p><a href="https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt">https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt</a></p>
+<p>下载好后，在potplayer，鼠标右键，字幕，实时字幕翻译，实时字幕翻译设置，点击打开文件夹，我的是在</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\DAUM\PotPlayer\Extension\Subtitle\Translate</span><br></pre></td></tr></table></figure>
+
+<p>把SubtitleTranslate - ollama_general.as和SubtitleTranslate - ollama_general.ico两个文件放在这</p>
+<p>要使用别的模型的话，36行和76行可以都需要修改</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">string selected_model = &quot;qwen2.5:0.5b&quot;; // 默认使用第一个模型</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">selected_model = &quot;qwen2.5:0.5b&quot;; // 使用默认模型</span><br></pre></td></tr></table></figure>
+
+<p>修改136，测试有时可以只翻译的结果，不显示每句的详细解释</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">prompt += &quot;3. 只要给出译文，不要给出详细的解释\n\n&quot;;</span><br></pre></td></tr></table></figure>
+
+<h2 id="potplayer设置"><a href="#potplayer设置" class="headerlink" title="potplayer设置"></a>potplayer设置</h2><p>potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">转换引擎：Faster-Whisper-XXL</span><br><span class="line">型号：small</span><br><span class="line">尽可能将字幕保存在视频同目录中：勾选</span><br><span class="line">自动生成：选择自己需要的情况</span><br></pre></td></tr></table></figure>
+
+<p>potplayer，鼠标右键，字幕，实时字幕翻译，实时字幕翻译设置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用条件：总是使用</span><br><span class="line">翻译位置：上面显示翻译</span><br><span class="line">翻译引擎：Ollama translate(General)</span><br></pre></td></tr></table></figure>
+
+<p>命令提示符下运行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\30204\AppData\Local\Programs\Ollama\ollama.exe run qwen2.5:0.5b</span><br></pre></td></tr></table></figure>
+
+<p>实时字幕翻译设置，点击测试，如果显示了翻译就是成功了，以后打开视频自动生成字幕+翻译了，速度看各自显卡</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>吉他翻弹.Speak softly love/The Godfather</title>
+    <url>/2017/03/23/speaksoftlylove/</url>
+    <content><![CDATA[<p>拍摄：尼康D610外录<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false"> </iframe> ]]></content>
+      <categories>
+        <category>吉他</category>
+      </categories>
+      <tags>
+        <tag>吉他</tag>
+        <tag>指弹</tag>
       </tags>
   </entry>
   <entry>
@@ -2410,164 +2568,6 @@
         <tag>kindle</tag>
         <tag>摘抄</tag>
         <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ndsi无烧录卡刷TWiLightMenu过程</title>
-    <url>/2025/05/08/ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.25</p>
-<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用烧录卡，只用sd卡（tf+卡套，或sd卡，后面简写成sd卡）玩游戏<br>游戏roms通过网上下载，存到sd卡上<br>支持的平台参照TWiLightMenu-DSi.7z中的roms文件夹</p>
-<h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，其他机型适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
-<h2 id="闲鱼收的机器情况"><a href="#闲鱼收的机器情况" class="headerlink" title="闲鱼收的机器情况"></a>闲鱼收的机器情况</h2><p>350元白色，外壳没划痕没污渍，也没发黄<br>a面有液体擦试过的痕迹<br>下屏轻微发黄，贴膜撕掉后全是划痕<br>上屏撕掉贴膜，有5粒很大的灰尘在屏幕里，清理不了</p>
-<span id="more"></span>
-
-<h2 id="第一步-下载文件"><a href="#第一步-下载文件" class="headerlink" title="第一步 下载文件"></a>第一步 下载文件</h2><ol>
-<li><p>下载pit.bin<br>ndsi插入sd卡，打开相机（第一次进入可能有个小教程），点击右上图标进入sd卡，点击右边橙色相册<br>看上方星星、梅花、红心右边有没有facebook的蓝色图标。<br>如果有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/768_1024/pit.bin</a><br>如果没有facebook图标，下载<a href="https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin">https://dsi.cfw.guide/assets/files/memory_pit/256/pit.bin</a></p>
-</li>
-<li><p>下载其他<br><a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z">https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z</a><br><a href="https://problemkaputt.de/unlaunch.zip">https://problemkaputt.de/unlaunch.zip</a><br>或者我的网盘分享 <a href="https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez">https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez</a> 提取码: cdez</p>
-</li>
-<li><p>复制文件到sd卡根目录<br>ndsi拔出sd卡<br>解压TWiLightMenu-DSi.7z，复制BOOT.NDS，_nds。升级TWiLightMenu的话覆盖复制<br>解压unlaunch.zip，复制UNLAUNCH.DSI</p>
-</li>
-<li><p>复制文件到sd卡的private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;<br>把这里原来的pit.bin重命名成oldpit.bin，把下载的pit.bin复制过来<br>如果没这个文件夹，可能是没进入过相机</p>
-</li>
-<li><p>ndsi插入sd卡</p>
-</li>
-</ol>
-<h2 id="第二步-安装TWiLightMenu，使用Memory-Pit方法"><a href="#第二步-安装TWiLightMenu，使用Memory-Pit方法" class="headerlink" title="第二步 安装TWiLightMenu，使用Memory Pit方法"></a>第二步 安装TWiLightMenu，使用Memory Pit方法</h2><ol>
-<li><p>运行相机<br>进入相机，点击右上图标进入sd卡，点击右边橙色相册，如果成功破解会闪过红色</p>
-</li>
-<li><p>设置<br>按左右选择语言，中文，按a确定，第二项跟随系统<br>如果下屏出现红色界面，写的guru meditation，不用怕，关机再开机选择english，最后能改成中文（见下方其他设置）。</p>
-</li>
-</ol>
-<h2 id="第三步-安装unlaunch"><a href="#第三步-安装unlaunch" class="headerlink" title="第三步 安装unlaunch"></a>第三步 安装unlaunch</h2><ol>
-<li><p>下载文件<br><a href="https://problemkaputt.de/unlaunch.zip">https://problemkaputt.de/unlaunch.zip</a><br>解压缩UNLAUNCH.DSI放到sd卡根目录</p>
-</li>
-<li><p>安装unlaunch<br>TWiLightMenu界面，点击unlaunch dsi installer（黑白人像图标），进入诡异图片界面<br>点击install now，大概2秒，最下面显示installation complete就可以了<br>按a后退，选择power down，再开机，进入诡异图片界面</p>
-</li>
-<li><p>设置开机自动进入TWiLightMenu<br>options，no button，twilight menu++，save &amp; exit，关机再开机，自动进入TWiLightMenu</p>
-</li>
-</ol>
-<h2 id="第四步-完成"><a href="#第四步-完成" class="headerlink" title="第四步 完成"></a>第四步 完成</h2><ol>
-<li><p>清理sd卡<br>进入sd卡<br>删除UNLAUNCH.DSI<br>文件夹private&#x2F;ds&#x2F;app&#x2F;484E494A&#x2F;，删除pit.bin，把这里的oldpit.bin改回pit.bin</p>
-</li>
-<li><p>复制游戏rom<br>复制游戏rom到sd卡任何文件夹，根目录也可以<br>如果按平台分类，可以参照TWiLightMenu-DSi.7z中的roms文件夹<br>注意gba和其他一些平台（未全部测试）文件名不能有中文，nds可以中文</p>
-</li>
-</ol>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="操作方法（切换菜单，退出游戏）"><a href="#操作方法（切换菜单，退出游戏）" class="headerlink" title="操作方法（切换菜单，退出游戏）"></a>操作方法（切换菜单，退出游戏）</h3><p>第一次进游戏会比较慢，第二次就好了<br>游戏设置子菜单：选择游戏界面按y<br>删除游戏：选择游戏界面按x<br>调节背光亮度：按住select，音量加减<br>唤出菜单：L+方向下+select<br>退出游戏：L+R+方向下+B四个键一起按住2秒<br>gba退出游戏：点击下屏（好像没有退出选项），或者轻按关机<br>进入unlaunch，按住a键开机</p>
-<h3 id="其他设置"><a href="#其他设置" class="headerlink" title="其他设置"></a>其他设置</h3><h4 id="修改用户名生日等"><a href="#修改用户名生日等" class="headerlink" title="修改用户名生日等"></a>修改用户名生日等</h4><p>按住a键开机，进入诡异图片界面，选择system settings，按a进入<br>第二页，第一项（用户名，签名，颜色，生日），中间两项修改日期时间<br>第三页，第二项校准手写笔，第三项测试麦克风，第四项连接wifi（接续设定，上级者设定，接续先4未设定，检索，选择wifi后输入密码，ok，ok，ok）<br>最下面按钮退出</p>
-<h4 id="TWiLightMenu设置"><a href="#TWiLightMenu设置" class="headerlink" title="TWiLightMenu设置"></a>TWiLightMenu设置</h4><p>TWiLightMenu界面，按select，点击屏幕中间最下的方框（nds游戏机样子的图标）进去TWiLightMenu设置，L和R切换页面<br>用户界面设置：语言：中文（简体），之前选择english可以在这里改<br>DSI3DSUI音乐，关<br>nds-bootstrap设置：音乐麦克风频率，47.61kHz<br>其他设置：无线网络，关（左边的wifi灯就不亮了）<br>按b键保存并退出</p>
-<h4 id="备份系统"><a href="#备份系统" class="headerlink" title="备份系统"></a>备份系统</h4><p><a href="https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds">https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds</a><br>复制dumpTool.nds到sd卡根目录<br>TWiLightMenu中选择dumptool，按a键开始备份，可能需要约10分钟<br>按start退出dumptool，关闭把sd卡插入电脑，备份nand.bin</p>
-<h4 id="gba-bios"><a href="#gba-bios" class="headerlink" title="gba bios"></a>gba bios</h4><p>网盘下载bios.bin，复制到sd卡_gba文件夹内</p>
-<h4 id="把retroarch的nds模拟器的存档转到ndsi上继续玩"><a href="#把retroarch的nds模拟器的存档转到ndsi上继续玩" class="headerlink" title="把retroarch的nds模拟器的存档转到ndsi上继续玩"></a>把retroarch的nds模拟器的存档转到ndsi上继续玩</h4><p>retroarch存档一般在RetroArchsaves\melonDS DS<br>文件扩展是.srm，手动把扩展名改成.sav<br>如果不行，尝试在这个网址转换成.sav格式<a href="https://savefileconverter.com/#/srm-sav">https://savefileconverter.com/#/srm-sav</a><br>复制.sav到卡上，一般在roms\nds\saves文件夹</p>
-<h4 id="玩游戏时出现红屏错误界面"><a href="#玩游戏时出现红屏错误界面" class="headerlink" title="玩游戏时出现红屏错误界面"></a>玩游戏时出现红屏错误界面</h4><p>进游戏前，按y，向下卡带读取DMA：关闭<br>不行的话或者尝试进入TWiLightMenu设置，游戏使用语言改成english</p>
-<h4 id="进入unlaunch界面"><a href="#进入unlaunch界面" class="headerlink" title="进入unlaunch界面"></a>进入unlaunch界面</h4><p>关机的时候，同时按住a和b，再开机</p>
-<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://dsi.cfw.guide/">https://dsi.cfw.guide/</a></p>
-]]></content>
-      <categories>
-        <category>极客</category>
-      </categories>
-      <tags>
-        <tag>极客</tag>
-        <tag>游戏</tag>
-        <tag>掌机</tag>
-        <tag>ndsi</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>neeview一键保存当前图片命名为文件名加图片名</title>
-    <url>/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/</url>
-    <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.04.14<br>neeview43.2版测试通过</p>
-<h2 id="neeview下载"><a href="#neeview下载" class="headerlink" title="neeview下载"></a>neeview下载</h2><p>电脑上已经安装了.NET运行库可以下载fd版本，地址：<a href="https://github.com/neelabo/NeeView/releases/">https://github.com/neelabo/NeeView/releases/</a></p>
-<h2 id="neeview开启脚本功能"><a href="#neeview开启脚本功能" class="headerlink" title="neeview开启脚本功能"></a>neeview开启脚本功能</h2><p>选项，设置，指令，脚本，使用脚本（开），打开脚本文件夹</p>
-<span id="more"></span>
-
-<h2 id="neeview一键保存当前图片命名为文件名加图片名"><a href="#neeview一键保存当前图片命名为文件名加图片名" class="headerlink" title="neeview一键保存当前图片命名为文件名加图片名"></a>neeview一键保存当前图片命名为文件名加图片名</h2><p>在脚本文件夹新建文件：<a href="https://github.com/wangandi520/andyspythonscript/blob/main/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D.nvjs">neeview一键保存当前图片命名为文件名加图片名.nvjs</a><br>第15行修改成要保存图片的目录，斜杠要写两遍</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// @name neeview一键保存当前图片命名为文件名加图片名</span></span><br><span class="line"><span class="comment">// @description neeview一键保存当前图片命名为文件名加图片名</span></span><br><span class="line"><span class="comment">// @shortCutKey Ctrl+S</span></span><br><span class="line"><span class="comment">// https://github.com/wangandi520/andyspythonscript</span></span><br><span class="line"><span class="comment">// 版本1.2</span></span><br><span class="line"><span class="comment">// log()函数可以在neeview console中输出信息。在选项，打开脚本控制台</span></span><br><span class="line"><span class="comment">// 脚本用于保存漫画压缩包内的图片到某个位置，保存成功后neeview右下角会弹出提示</span></span><br><span class="line"><span class="comment">// 快捷键默认是Ctrl+S，可以自己修改，在选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名</span></span><br><span class="line"><span class="comment">// 保存图片是原压缩包内的文件，未经过其他处理</span></span><br><span class="line"><span class="comment">// 弹出的命令提示符窗口是修改文件名用的</span></span><br><span class="line"><span class="comment">// 保存图片名不是原图片名，文件名格式：zip文件名_图片相对于zip的相对路径_图片名.扩展名</span></span><br><span class="line"><span class="comment">// 例如压缩包1.zip内包含文件夹2，文件夹2内包含图片3.jpg，保存的文件名就是1_2_3.jpg</span></span><br><span class="line"><span class="comment">// 保存图片的文件夹路径：saveImagePath，注意要双斜杠，文件夹最后不加斜杠</span></span><br><span class="line"><span class="comment">// 例如var saveImagePath = &quot;D:\\漫画截图&quot;</span></span><br><span class="line"><span class="keyword">var</span> saveImagePath = <span class="string">&quot;H:\\ecomic截图&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 从文件名和扩展名，获取文件名，不包括扩展名</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileNameWithoutExt</span>(<span class="params">fileName</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> lastDotIndex = fileName.<span class="title function_">lastIndexOf</span>(<span class="string">&#x27;.&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> lastDotIndex === -<span class="number">1</span> ? fileName : fileName.<span class="title function_">substring</span>(<span class="number">0</span>, lastDotIndex);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从文件名和扩展名，获取扩展名，包括点号</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileExtension</span>(<span class="params">fileName</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> lastDotIndex = fileName.<span class="title function_">lastIndexOf</span>(<span class="string">&#x27;.&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> lastDotIndex === -<span class="number">1</span> ? <span class="string">&#x27;&#x27;</span> : fileName.<span class="title function_">substring</span>(lastDotIndex);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 从完整路径，获取文件名和扩展名</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFileNameFromPath</span>(<span class="params">filePath</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> pathParts = filePath.<span class="title function_">split</span>(<span class="string">&#x27;\\&#x27;</span>);</span><br><span class="line">    <span class="keyword">return</span> pathParts[pathParts.<span class="property">length</span> - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取图片在压缩包内的相对路径，文件名，扩展名，并使用下划线代替斜杠</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getRelativeFilePath</span>(<span class="params">zipFilePath, imageFilePath</span>) &#123;</span><br><span class="line">	<span class="keyword">if</span> (imageFilePath.<span class="title function_">startsWith</span>(zipFilePath)) &#123;</span><br><span class="line">		<span class="keyword">return</span> imageFilePath.<span class="title function_">substring</span>(zipFilePath.<span class="property">length</span>).<span class="title function_">replace</span>(<span class="regexp">/\\/g</span>, <span class="string">&#x27;_&#x27;</span>);</span><br><span class="line">        <span class="comment">//return filePath.substring(folderPath.length);</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> param01 = &#123;</span><br><span class="line">    <span class="string">&quot;Mode&quot;</span>: <span class="string">&quot;Original&quot;</span>, </span><br><span class="line">    <span class="string">&quot;IsOriginalSize&quot;</span>: <span class="string">&quot;True&quot;</span>, </span><br><span class="line">    <span class="string">&quot;IsShowToast&quot;</span>: <span class="string">&quot;False&quot;</span>, </span><br><span class="line">    <span class="string">&quot;OverwriteMode&quot;</span>: <span class="string">&quot;AddNumber&quot;</span>, </span><br><span class="line">    <span class="string">&quot;FileNameMode&quot;</span>: <span class="string">&quot;BookPageNumber&quot;</span>, </span><br><span class="line">    <span class="string">&quot;ExportFolder&quot;</span>: saveImagePath</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 执行导出图片</span></span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">ExportImage</span>.<span class="title class_">Patch</span>(param01).<span class="title class_">Execute</span>()</span><br><span class="line"><span class="comment">// 当前书籍路径，文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getBookPath = nv.<span class="property">Book</span>.<span class="property">Path</span></span><br><span class="line"><span class="comment">// 当前书籍文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getBookFileName = <span class="title function_">getFileNameFromPath</span>(nv.<span class="property">Book</span>.<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前书籍文件名</span></span><br><span class="line"><span class="keyword">var</span> getBookFileNameWithoutSuffix = <span class="title function_">getFileNameWithoutExt</span>(getBookFileName)</span><br><span class="line"><span class="comment">// 当前图片序号，从0开始</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageIndex = nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Index</span></span><br><span class="line"><span class="comment">// 当前图片路径，文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPagePath = nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span></span><br><span class="line"><span class="comment">// 当前图片文件名，扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageFileName = <span class="title function_">getFileNameFromPath</span>(nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前图片扩展名</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageFileSuffix = <span class="title function_">getFileExtension</span>(nv.<span class="property">Book</span>.<span class="property">ViewPages</span>[<span class="number">0</span>].<span class="property">Path</span>)</span><br><span class="line"><span class="comment">// 当前图片在压缩包内的相对路径</span></span><br><span class="line"><span class="keyword">var</span> getCurrentPageRelativePath = <span class="title function_">getRelativeFilePath</span>(getBookPath, getCurrentPagePath)</span><br><span class="line"><span class="comment">// 程序导出的图片的路径</span></span><br><span class="line">oldFileName = saveImagePath + <span class="string">&#x27;\\&#x27;</span> + getBookFileNameWithoutSuffix + <span class="string">&#x27;_&#x27;</span> + getCurrentPageIndex + getCurrentPageFileSuffix</span><br><span class="line"><span class="comment">// 要修改成新的文件名，ren命令不加路径，move命令加路径</span></span><br><span class="line"><span class="comment">//newFileName = getBookFileNameWithoutSuffix + getCurrentPageRelativePath</span></span><br><span class="line">newFileName = saveImagePath + <span class="string">&#x27;\\&#x27;</span> + getBookFileNameWithoutSuffix + getCurrentPageRelativePath</span><br><span class="line"><span class="comment">// 改名，如果有重名的，就覆盖</span></span><br><span class="line"><span class="keyword">var</span> cmdPara = <span class="string">&#x27; /c SET &quot;COPYCMD=/Y&quot; &amp;&amp; move &quot;&#x27;</span> + oldFileName + <span class="string">&#x27;&quot; &quot;&#x27;</span> + newFileName + <span class="string">&#x27;&quot; &amp;&amp; echo &#x27;</span></span><br><span class="line"><span class="comment">//var cmdPara = &#x27; /c ren &quot;&#x27; + oldFileName + &#x27;&quot; &quot;&#x27; + newFileName + &#x27;&quot;&#x27;</span></span><br><span class="line"><span class="comment">//var cmdPara = nv.Config.Script.ScriptFolder + &#x27;\\neeview一键保存当前图片命名为文件名加图片名.py &#x27; + oldFileName + &#x27; &#x27; + newFileName</span></span><br><span class="line"><span class="keyword">var</span> param02 = &#123;</span><br><span class="line">    <span class="string">&quot;Command&quot;</span>: <span class="string">&quot;cmd.exe&quot;</span>,</span><br><span class="line">    <span class="comment">//&quot;Command&quot;: &quot;python.exe&quot;,</span></span><br><span class="line">    <span class="string">&quot;Parameter&quot;</span>: cmdPara</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 两个命令效果相同</span></span><br><span class="line">nv.<span class="property">Command</span>.<span class="property">OpenExternalApp</span>.<span class="title class_">Patch</span>(param02).<span class="title class_">Execute</span>()</span><br><span class="line"><span class="comment">//system(&quot;cmd.exe&quot;, cmdPara)</span></span><br><span class="line">nv.<span class="title class_">ShowToast</span>(newFileName + <span class="string">&#x27;文件已保存。&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<h2 id="设置快捷键"><a href="#设置快捷键" class="headerlink" title="设置快捷键"></a>设置快捷键</h2><p>默认快捷键是Ctrl+S，修改在<br>选项，设置，指令，指令设置，拉到最下面，neeview一键保存当前图片命名为文件名加页数，双击，快捷键，如果有叹号是冲突了，点消除冲突，选择脚本名<br>之后Ctrl+S，neeview右下角会显示XX已存储</p>
-<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>neeview，帮助，脚本说明</p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>NeeView</tag>
-        <tag>漫画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>potplayer+whisper+ollama自动生成字幕并翻译</title>
-    <url>/2025/03/11/potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91/</url>
-    <content><![CDATA[<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.05<br>使用了一段时间，感觉还是无法替代人工字幕，已弃用。</p>
-<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>打开视频后自动生成对应语言的字幕，并翻译，无需联网。字幕显示双语。</p>
-<h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>有时翻译的字幕会显示详细的解释</p>
-<p>更新日期2025.03.11</p>
-<span id="more"></span>
-
-<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>命令行运行，或者新建个ollama.bat里面填写运行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\你的用户名\AppData\Local\Programs\Ollama\ollama.exe run qwen2.5:0.5b</span><br></pre></td></tr></table></figure>
-
-<p>打开potplayer播放后自动生成原文字幕和翻译字幕</p>
-<h2 id="下载potplayer"><a href="#下载potplayer" class="headerlink" title="下载potplayer"></a>下载potplayer</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://potplayer.daum.net/</span><br></pre></td></tr></table></figure>
-
-<p>不要去别的网站下载，有风险。</p>
-<h2 id="下载Faster-Whisper-XXL"><a href="#下载Faster-Whisper-XXL" class="headerlink" title="下载Faster-Whisper-XXL"></a>下载Faster-Whisper-XXL</h2><p><a href="https://github.com/Purfview/whisper-standalone-win/releases/tag/Faster-Whisper-XXL">https://github.com/Purfview/whisper-standalone-win/releases/tag/Faster-Whisper-XXL</a></p>
-<p>文件选择Faster-Whisper-XXL_r245.2_windows.7z，或更新的版本。</p>
-<p>下载好后，在potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕，点击转换引擎，我的是在。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\DAUM\PotPlayer\Module\Whisper</span><br></pre></td></tr></table></figure>
-
-<p>解压缩Faster-Whisper-XXL_r245.2_windows.7z的Faster-Whisper-XXL文件夹到这里。</p>
-<h2 id="下载faster-whisper-small模型"><a href="#下载faster-whisper-small模型" class="headerlink" title="下载faster-whisper-small模型"></a>下载faster-whisper-small模型</h2><p><a href="https://www.modelscope.cn/models/angelala00/faster-whisper-small/files">https://www.modelscope.cn/models/angelala00/faster-whisper-small/files</a></p>
-<p>下载好后，在potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕，点击型号，我的是在</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\30204\AppData\Roaming\PotPlayerMini64\Model</span><br></pre></td></tr></table></figure>
-
-<p>新建一个faster-whisper-small文件夹，把下载的文件放进去。</p>
-<h2 id="下载ollama和qwen模型"><a href="#下载ollama和qwen模型" class="headerlink" title="下载ollama和qwen模型"></a>下载ollama和qwen模型</h2><p>可以参照之前的博客文章<a href="https://andi.wang/2025/01/26/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8Cdeepseekr1%E6%A8%A1%E5%9E%8B/">本地运行deepseekr1模型</a></p>
-<p>可以下载最小的模型qwen2.5:0.5b </p>
-<h2 id="下载potplayer的插件"><a href="#下载potplayer的插件" class="headerlink" title="下载potplayer的插件"></a>下载potplayer的插件</h2><p><a href="https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt">https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt</a></p>
-<p>下载好后，在potplayer，鼠标右键，字幕，实时字幕翻译，实时字幕翻译设置，点击打开文件夹，我的是在</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Program Files\DAUM\PotPlayer\Extension\Subtitle\Translate</span><br></pre></td></tr></table></figure>
-
-<p>把SubtitleTranslate - ollama_general.as和SubtitleTranslate - ollama_general.ico两个文件放在这</p>
-<p>要使用别的模型的话，36行和76行可以都需要修改</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">string selected_model = &quot;qwen2.5:0.5b&quot;; // 默认使用第一个模型</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">selected_model = &quot;qwen2.5:0.5b&quot;; // 使用默认模型</span><br></pre></td></tr></table></figure>
-
-<p>修改136，测试有时可以只翻译的结果，不显示每句的详细解释</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">prompt += &quot;3. 只要给出译文，不要给出详细的解释\n\n&quot;;</span><br></pre></td></tr></table></figure>
-
-<h2 id="potplayer设置"><a href="#potplayer设置" class="headerlink" title="potplayer设置"></a>potplayer设置</h2><p>potplayer，鼠标右键，字幕，生成有声字幕，生成有声字幕</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">转换引擎：Faster-Whisper-XXL</span><br><span class="line">型号：small</span><br><span class="line">尽可能将字幕保存在视频同目录中：勾选</span><br><span class="line">自动生成：选择自己需要的情况</span><br></pre></td></tr></table></figure>
-
-<p>potplayer，鼠标右键，字幕，实时字幕翻译，实时字幕翻译设置</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用条件：总是使用</span><br><span class="line">翻译位置：上面显示翻译</span><br><span class="line">翻译引擎：Ollama translate(General)</span><br></pre></td></tr></table></figure>
-
-<p>命令提示符下运行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C:\Users\30204\AppData\Local\Programs\Ollama\ollama.exe run qwen2.5:0.5b</span><br></pre></td></tr></table></figure>
-
-<p>实时字幕翻译设置，点击测试，如果显示了翻译就是成功了，以后打开视频自动生成字幕+翻译了，速度看各自显卡</p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>吉他翻弹.Speak softly love/The Godfather</title>
-    <url>/2017/03/23/speaksoftlylove/</url>
-    <content><![CDATA[<p>拍摄：尼康D610外录<br>原版：<a href="https://www.youtube.com/watch?v=8vDhVFnYVl4">https://www.youtube.com/watch?v=8vDhVFnYVl4</a><br>练了3天，好几处瑕疵，为了纪念好几年才看完的教父吧。<br>B站地址：<a href="http://www.bilibili.com/video/av9345205">http://www.bilibili.com/video/av9345205</a></p>
-<iframe src="//player.bilibili.com/player.html?aid=9345205&cid=20636940&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="false"> </iframe> ]]></content>
-      <categories>
-        <category>吉他</category>
-      </categories>
-      <tags>
-        <tag>吉他</tag>
-        <tag>指弹</tag>
       </tags>
   </entry>
   <entry>
@@ -4199,6 +4199,55 @@
         <tag>书</tag>
         <tag>电影</tag>
         <tag>电视剧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>书籍删减与翻译情况</title>
+    <url>/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/</url>
+    <content><![CDATA[<hr>
+<p><strong>方括号内为被删减的内容，书名下多个出版社是都有删减的意思</strong></p>
+<span id="more"></span>
+
+<hr>
+<h2 id="二刻拍案惊奇"><a href="#二刻拍案惊奇" class="headerlink" title="二刻拍案惊奇"></a>二刻拍案惊奇</h2><p><strong>三民书局</strong><br><strong>人民文学出版社 三言二拍插图典藏版</strong><br><strong>人民文学出版社 中国古典小说藏本</strong></p>
+<h3 id="卷三十五-错调情贾母詈女-误告状孙郎得妻"><a href="#卷三十五-错调情贾母詈女-误告状孙郎得妻" class="headerlink" title="卷三十五 错调情贾母詈女 误告状孙郎得妻"></a>卷三十五 错调情贾母詈女 误告状孙郎得妻</h3><p>两腿中间，兀自气腾腾。[孙小官按不住欲心如火，腾的跳上身去，分开两股，将铁一般硬的玉茎，对着牝门，用些唾津润了，弄将进去，抽拽起来。]嘴对着嘴，恣意亲咂。</p>
+<p>其他参考：</p>
+<p>二刻拍案惊奇 第十八卷 甄监生浪吞秘药 春花婢误泄风情<br>醒世恒言 第二十三卷 金海陵注cr纵欲亡身</p>
+<hr>
+<h2 id="警世通言"><a href="#警世通言" class="headerlink" title="警世通言"></a>警世通言</h2><p><strong>中华书局 中华经典小说注释系列</strong><br><strong>人民文学出版社 三言二拍插图典藏版</strong><br><strong>人民文学出版社 中国古典小说藏本</strong><br><strong>BookDNA浙版数媒</strong></p>
+<h3 id="第三十五卷-况太守断死孩儿"><a href="#第三十五卷-况太守断死孩儿" class="headerlink" title="第三十五卷 况太守断死孩儿"></a>第三十五卷 况太守断死孩儿</h3><p>如今五月，天气正热，你却赤身仰卧，把那[话儿弄得硬硬的，]待他来照门时，你只推做睡着了。</p>
+<hr>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>三言二拍 阉割 闻人生野战，甄监生，珍珠衫，乔太守乱点鸳鸯谱</p>
+<hr>
+<h2 id="故事-材质结构风格和银幕剧作的原理"><a href="#故事-材质结构风格和银幕剧作的原理" class="headerlink" title="故事 材质结构风格和银幕剧作的原理"></a>故事 材质结构风格和银幕剧作的原理</h2><p><strong>微信读书</strong></p>
+<h3 id="PARTI作家和故事艺术"><a href="#PARTI作家和故事艺术" class="headerlink" title="PARTI作家和故事艺术"></a>PARTI作家和故事艺术</h3><p>微信读书里删掉了下面两行，而纸质版和kindle版都有这句话</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">故事是人生必需的设备</span><br><span class="line">--肯尼斯伯克</span><br></pre></td></tr></table></figure>
+
+<p>英文版是Stories are equipment for living<br>繁体版是故事是生活中不可或缺的</p>
+<h3 id="PARTIV作家在工作"><a href="#PARTIV作家在工作" class="headerlink" title="PARTIV作家在工作"></a>PARTIV作家在工作</h3><p>简体版是任何文章的初稿都是狗屎<br>英文版是The first draft of anything is shit<br>繁体版是所有初稿都是狗屎</p>
+<p>感觉简体版翻译的有点问题。</p>
+<hr>
+<h2 id="在中国大地上-保罗索鲁"><a href="#在中国大地上-保罗索鲁" class="headerlink" title="在中国大地上 保罗索鲁"></a>在中国大地上 保罗索鲁</h2><p><strong>后浪出版 九州出版社 陈媛媛译</strong></p>
+<p>对比版本：马可孛罗文化出版，城邦出版发行（騎乘鐵公雞：搭火車橫越中國）徐丽松译<br>几分钟简单看了几章，第三章，第十三章都有删减，疑似整本书的删减属于比较多了</p>
+<hr>
+<h2 id="一只鸟接着一只鸟：关于写作与人生的建议"><a href="#一只鸟接着一只鸟：关于写作与人生的建议" class="headerlink" title="一只鸟接着一只鸟：关于写作与人生的建议"></a>一只鸟接着一只鸟：关于写作与人生的建议</h2><p><strong>中信出版社 朱耘译</strong></p>
+<p>对比版本：野人文化出版，远足文化发行，寫作課一隻鳥接著一隻鳥寫就對了！，朱耘译<br>每章标题和正文之间的几句话都被删掉了，这段话没在正文中出现过。</p>
+<hr>
+<h2 id="红楼梦"><a href="#红楼梦" class="headerlink" title="红楼梦"></a>红楼梦</h2><p><strong>微信读书 人民文学出版社 第四版 2022</strong></p>
+<p>第五回的红楼梦12支曲，把注释写到正文里了。</p>
+<hr>
+<h2 id="名侦探的献祭"><a href="#名侦探的献祭" class="headerlink" title="名侦探的献祭"></a>名侦探的献祭</h2><p>《开端》这章的2，有一句</p>
+<blockquote>
+<p>这个公司跟凛凛子关系不浅。可以说，正是他们的虚假集资案促使大埘结识了凛凛子。不过，区区一个研究室的同学，怎么会知道她过去的事情呢？</p>
+</blockquote>
+<p>看民间翻译的版本，有一句“母亲是这家公司的受害者”，少了这句感觉挺影响理解的，不知道啥情况。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -17863,55 +17912,6 @@
       </tags>
   </entry>
   <entry>
-    <title>书籍删减与翻译情况</title>
-    <url>/2023/06/06/%E4%B9%A6%E7%B1%8D%E5%88%A0%E5%87%8F%E4%B8%8E%E7%BF%BB%E8%AF%91%E6%83%85%E5%86%B5/</url>
-    <content><![CDATA[<hr>
-<p><strong>方括号内为被删减的内容，书名下多个出版社是都有删减的意思</strong></p>
-<span id="more"></span>
-
-<hr>
-<h2 id="二刻拍案惊奇"><a href="#二刻拍案惊奇" class="headerlink" title="二刻拍案惊奇"></a>二刻拍案惊奇</h2><p><strong>三民书局</strong><br><strong>人民文学出版社 三言二拍插图典藏版</strong><br><strong>人民文学出版社 中国古典小说藏本</strong></p>
-<h3 id="卷三十五-错调情贾母詈女-误告状孙郎得妻"><a href="#卷三十五-错调情贾母詈女-误告状孙郎得妻" class="headerlink" title="卷三十五 错调情贾母詈女 误告状孙郎得妻"></a>卷三十五 错调情贾母詈女 误告状孙郎得妻</h3><p>两腿中间，兀自气腾腾。[孙小官按不住欲心如火，腾的跳上身去，分开两股，将铁一般硬的玉茎，对着牝门，用些唾津润了，弄将进去，抽拽起来。]嘴对着嘴，恣意亲咂。</p>
-<p>其他参考：</p>
-<p>二刻拍案惊奇 第十八卷 甄监生浪吞秘药 春花婢误泄风情<br>醒世恒言 第二十三卷 金海陵注cr纵欲亡身</p>
-<hr>
-<h2 id="警世通言"><a href="#警世通言" class="headerlink" title="警世通言"></a>警世通言</h2><p><strong>中华书局 中华经典小说注释系列</strong><br><strong>人民文学出版社 三言二拍插图典藏版</strong><br><strong>人民文学出版社 中国古典小说藏本</strong><br><strong>BookDNA浙版数媒</strong></p>
-<h3 id="第三十五卷-况太守断死孩儿"><a href="#第三十五卷-况太守断死孩儿" class="headerlink" title="第三十五卷 况太守断死孩儿"></a>第三十五卷 况太守断死孩儿</h3><p>如今五月，天气正热，你却赤身仰卧，把那[话儿弄得硬硬的，]待他来照门时，你只推做睡着了。</p>
-<hr>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>三言二拍 阉割 闻人生野战，甄监生，珍珠衫，乔太守乱点鸳鸯谱</p>
-<hr>
-<h2 id="故事-材质结构风格和银幕剧作的原理"><a href="#故事-材质结构风格和银幕剧作的原理" class="headerlink" title="故事 材质结构风格和银幕剧作的原理"></a>故事 材质结构风格和银幕剧作的原理</h2><p><strong>微信读书</strong></p>
-<h3 id="PARTI作家和故事艺术"><a href="#PARTI作家和故事艺术" class="headerlink" title="PARTI作家和故事艺术"></a>PARTI作家和故事艺术</h3><p>微信读书里删掉了下面两行，而纸质版和kindle版都有这句话</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">故事是人生必需的设备</span><br><span class="line">--肯尼斯伯克</span><br></pre></td></tr></table></figure>
-
-<p>英文版是Stories are equipment for living<br>繁体版是故事是生活中不可或缺的</p>
-<h3 id="PARTIV作家在工作"><a href="#PARTIV作家在工作" class="headerlink" title="PARTIV作家在工作"></a>PARTIV作家在工作</h3><p>简体版是任何文章的初稿都是狗屎<br>英文版是The first draft of anything is shit<br>繁体版是所有初稿都是狗屎</p>
-<p>感觉简体版翻译的有点问题。</p>
-<hr>
-<h2 id="在中国大地上-保罗索鲁"><a href="#在中国大地上-保罗索鲁" class="headerlink" title="在中国大地上 保罗索鲁"></a>在中国大地上 保罗索鲁</h2><p><strong>后浪出版 九州出版社 陈媛媛译</strong></p>
-<p>对比版本：马可孛罗文化出版，城邦出版发行（騎乘鐵公雞：搭火車橫越中國）徐丽松译<br>几分钟简单看了几章，第三章，第十三章都有删减，疑似整本书的删减属于比较多了</p>
-<hr>
-<h2 id="一只鸟接着一只鸟：关于写作与人生的建议"><a href="#一只鸟接着一只鸟：关于写作与人生的建议" class="headerlink" title="一只鸟接着一只鸟：关于写作与人生的建议"></a>一只鸟接着一只鸟：关于写作与人生的建议</h2><p><strong>中信出版社 朱耘译</strong></p>
-<p>对比版本：野人文化出版，远足文化发行，寫作課一隻鳥接著一隻鳥寫就對了！，朱耘译<br>每章标题和正文之间的几句话都被删掉了，这段话没在正文中出现过。</p>
-<hr>
-<h2 id="红楼梦"><a href="#红楼梦" class="headerlink" title="红楼梦"></a>红楼梦</h2><p><strong>微信读书 人民文学出版社 第四版 2022</strong></p>
-<p>第五回的红楼梦12支曲，把注释写到正文里了。</p>
-<hr>
-<h2 id="名侦探的献祭"><a href="#名侦探的献祭" class="headerlink" title="名侦探的献祭"></a>名侦探的献祭</h2><p>《开端》这章的2，有一句</p>
-<blockquote>
-<p>这个公司跟凛凛子关系不浅。可以说，正是他们的虚假集资案促使大埘结识了凛凛子。不过，区区一个研究室的同学，怎么会知道她过去的事情呢？</p>
-</blockquote>
-<p>看民间翻译的版本，有一句“母亲是这家公司的受害者”，少了这句感觉挺影响理解的，不知道啥情况。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>仙境传说简易入门攻略</title>
     <url>/2025/01/10/%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/</url>
     <content><![CDATA[<hr>
@@ -18064,6 +18064,28 @@
       </categories>
       <tags>
         <tag>仙境传说</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用github的action配合python每天签到</title>
+    <url>/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</url>
+    <content><![CDATA[<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.03.14</p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
+<span id="more"></span>
+
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）<br>在github的项目界面，点Actions，Skip this and set up a workflow yourself<br>复制下面的代码后，右上角commit changes</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
+
+<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a href="https://crontab.guru/">https://crontab.guru/</a><br>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。<br>要运行两个以上的脚本，就把9到20行再复制一遍，第9行任务名要改。<br>几个python签到脚本例子：</p>
+<p><a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
+<p><a href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
+<p>Actions里没有东西，可能需要push一次才能更新。<br>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
+]]></content>
+      <categories>
+        <category>程序</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -18269,28 +18291,6 @@
         <tag>Raspberry</tag>
         <tag>树莓派</tag>
         <tag>nuc</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用github的action配合python每天签到</title>
-    <url>/2024/02/11/%E4%BD%BF%E7%94%A8github%E7%9A%84action%E9%85%8D%E5%90%88python%E6%AF%8F%E5%A4%A9%E7%AD%BE%E5%88%B0/</url>
-    <content><![CDATA[<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2024.03.14</p>
-<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>使用python的requests或selenium，达到每天自动离线签到的效果，设置完成后不用手机和电脑。</p>
-<span id="more"></span>
-
-<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>新建项目，建议设置为private（Settings，Change repository visibility）<br>在github的项目界面，点Actions，Skip this and set up a workflow yourself<br>复制下面的代码后，右上角commit changes</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">name:  qiandao</span><br><span class="line">on:</span><br><span class="line">  push:</span><br><span class="line">    branches:</span><br><span class="line">      - main</span><br><span class="line">  schedule:</span><br><span class="line">    - cron:  &quot;0 1 * * *&quot;</span><br><span class="line">jobs:</span><br><span class="line">  qiandao01:</span><br><span class="line">    runs-on: ubuntu-latest</span><br><span class="line">    steps:</span><br><span class="line">    - uses: actions/checkout@v4</span><br><span class="line">    - uses: actions/setup-python@v5</span><br><span class="line">      with:</span><br><span class="line">        python-version: &#x27;3.10&#x27; </span><br><span class="line">    - run: |</span><br><span class="line">        python -m pip install --upgrade pip</span><br><span class="line">        pip install requests</span><br><span class="line">    - run: |</span><br><span class="line">        python qiaodao01.py</span><br></pre></td></tr></table></figure>
-
-<p>第1行name随便填，第7行cron是执行的时间，要用北京时间减8小时，每天早上9点运行填”0 1 * * *”，测试过每天的运行时间不一定准确，有时偏差1小时，其他时间参照<a href="https://crontab.guru/">https://crontab.guru/</a><br>第9行qiaodao01是任务名，随便填，第20行是你的python文件名。<br>要运行两个以上的脚本，就把9到20行再复制一遍，第9行任务名要改。<br>几个python签到脚本例子：</p>
-<p><a href="https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py">https://github.com/wangandi520/andyspythonscript/blob/main/%E6%BC%AB%E7%94%BB%E8%A1%A5%E6%A1%A3%E7%AD%BE%E5%88%B0.py</a></p>
-<p><a href="https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py">https://github.com/Dragonliu2018/dukou-checkin/blob/main/checkin.py</a></p>
-<p>Actions里没有东西，可能需要push一次才能更新。<br>设置完成后，Actions，qiandao，qiandao01里能看到具体的运行情况。</p>
-]]></content>
-      <categories>
-        <category>程序</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -18862,16 +18862,16 @@
         <category>程序</category>
       </categories>
       <tags>
-        <tag>阅读</tag>
         <tag>漫画</tag>
         <tag>python</tag>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
     <title>单机网页麻将游戏电脑麻将</title>
     <url>/2025/04/18/%E5%8D%95%E6%9C%BA%E7%BD%91%E9%A1%B5%E9%BA%BB%E5%B0%86%E6%B8%B8%E6%88%8F%E7%94%B5%E8%84%91%E9%BA%BB%E5%B0%86/</url>
     <content><![CDATA[<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.2.2</p>
-<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/kobalab/Majiang">https://github.com/kobalab/Majiang</a><br>原作者演示地址：<a href="https://kobalab.net/majiang/">https://kobalab.net/majiang/</a><br>别人推荐，试了下很方便，随时随地开一局不用等。<br>键盘左右方向选牌，回车键摸切。<br>喇叭图标旁边的加减号是调整出牌速度的，减小就出牌更快。<br>不想吃碰，点屏幕任意地方就可以跳过，不用点叉。<br>打完可以下载牌谱，可以复盘，复盘按灯泡（快捷键I）能显示牌理，上下出牌，左右跳到牌局开头结束，空格自动播放。</p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>原项目地址：<a href="https://github.com/kobalab/Majiang">https://github.com/kobalab/Majiang</a><br>原作者演示地址：<a href="https://kobalab.net/majiang/">https://kobalab.net/majiang/</a><br>作者写的使用方法<a href="https://blog.kobalab.net/entry/2024/02/15/081605#majiang-server-%E3%81%AE%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95">https://blog.kobalab.net/entry/2024/02/15/081605#majiang-server-%E3%81%AE%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95</a><br>别人推荐，试了下很方便，随时随地开一局不用等。<br>键盘左右方向选牌，回车键摸切。<br>喇叭图标旁边的加减号是调整出牌速度的，减小就出牌更快。<br>不想吃碰，点屏幕任意地方就可以跳过，不用点叉。<br>打完可以下载牌谱，可以复盘，复盘按灯泡（快捷键I）能显示牌理，上下出牌，左右跳到牌局开头结束，空格自动播放。</p>
 <h2 id="更新多人联机方法"><a href="#更新多人联机方法" class="headerlink" title="更新多人联机方法"></a>更新多人联机方法</h2><p>可能没法直接使用，作者的演示里可以用，参考<a href="https://github.com/kobalab/majiang-server">https://github.com/kobalab/majiang-server</a><br>首页上方选择ネット対戦，随便输入一个名字登录，建房间选择ルーム作成，上面有个编号，例如ルーム D3900<br>让朋友输入D3900就能加入，不用4个人也能开始游戏</p>
 <span id="more"></span>
 
@@ -19190,6 +19190,142 @@
       </tags>
   </entry>
   <entry>
+    <title>快速上手XXX</title>
+    <url>/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8BXXX/</url>
+    <content><![CDATA[<p>几个关键技巧。</p>
+<hr>
+<span id="more"></span>
+
+
+<h2 id="羽毛球"><a href="#羽毛球" class="headerlink" title="羽毛球"></a>羽毛球</h2><p>几个要点：<br>1.关注手腕的力。<br>2.身体的转动：不是任何时候都适用。高远球是以自己身体中线，右手拿拍，打球的时候身体偏向右侧，打的时候右侧身体向前，形成一个转动。<br>3.球拍的转动：不是任何时候都适用。不用拍的正中间击打球，用左或右，也就是球飞过来时，你的拍面是向左或右，击打时加上旋转的力更容易发力。<br>4.握拍姿势：手心不要完全握紧拍柄，留一定空隙，整个网面的切面对齐到手的虎口的位置，图：</p>
+<p><img src="/images/shengqian08.jpg" alt="握拍姿势"></p>
+<hr>
+<h2 id="弹弓"><a href="#弹弓" class="headerlink" title="弹弓"></a>弹弓</h2><p>使用扁皮筋，瞄准时上下皮筋重合到一条线，可以垂直（下图1）也可以倾斜（下图2）。<br>短拉来说，弓要垂直（就是弓的平板垂直地面，弓与皮筋连接的两个点，到你右手的距离一样），右手拇指顶到颧骨，重点是记住这个位置。<br>确定左手的高度，可以右手固定好位置，左手拿弓靠近右手，看哪个位置右手弹丸在弹弓正中间射出。<br>靶子在你的皮筋的那条线上，距离越远，弓要越往上抬。</p>
+<h3 id="矫正高度"><a href="#矫正高度" class="headerlink" title="矫正高度"></a>矫正高度</h3><p>横握容易理解，泥丸打的高了，你的瞄点就降低点。<br>斜握如果打的高了，降低的瞄点应该在皮筋的斜线，还是垂直地面的线，目前测试应该是垂直地面的线，待确定。<br>如果横卧时瞄点在靶子下方，斜卧是就要在右下方，待确定。</p>
+<h3 id="两种姿势"><a href="#两种姿势" class="headerlink" title="两种姿势"></a>两种姿势</h3><p>横握瞄打，头偏的角度会影响精准度，要找到一个固定的位置。<br>斜握的优势是不用歪着头瞄准。</p>
+<h3 id="弓门和皮筋长度"><a href="#弓门和皮筋长度" class="headerlink" title="弓门和皮筋长度"></a>弓门和皮筋长度</h3><p>正常外弓门（弹弓宽处）80mm，换成75mm的弹弓，瞄点要往下调整。<br>换成更短的皮筋，瞄点要往下调整。</p>
+<p><img src="/images/shengqian09.jpg" alt="横握瞄打"></p>
+<p><img src="/images/shengqian10.jpg" alt="斜握瞄打"></p>
+<hr>
+<h2 id="拉力赛车游戏"><a href="#拉力赛车游戏" class="headerlink" title="拉力赛车游戏"></a>拉力赛车游戏</h2><p>搜索两个关键词：载荷转移，循迹刹车</p>
+<hr>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>羽毛球</tag>
+        <tag>弹弓</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>所有网盘分享</title>
+    <url>/2025/06/06/%E6%89%80%E6%9C%89%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025年6月6日</p>
+<h2 id="所有链接"><a href="#所有链接" class="headerlink" title="所有链接"></a>所有链接</h2><table>
+<thead>
+<tr>
+<th>文件名</th>
+<th>链接</th>
+<th>提取码</th>
+<th>分享时间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://andi.wang/go?search=%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4">仙境传说简易入门攻略</a></td>
+<td><a href="https://pan.baidu.com/s/1ymN844B38XWDPywmdz0ixg?pwd=d5ue">https://pan.baidu.com/s/1ymN844B38XWDPywmdz0ixg?pwd=d5ue</a></td>
+<td>d5ue</td>
+<td>2025-10-11 11:55</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E6%A0%91%E8%8E%93%E6%B4%BE5">树莓派5刷Raspberry Pi OS和其他功能</a></td>
+<td><a href="https://pan.baidu.com/s/1uvgT0eSmNST-e_ymBcDWBw?pwd=nmqx">https://pan.baidu.com/s/1uvgT0eSmNST-e_ymBcDWBw?pwd=nmqx</a></td>
+<td>nmqx</td>
+<td>2025-06-30 14:40</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8">老王随机点名器</a></td>
+<td><a href="https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ?pwd=6666">https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ?pwd=6666</a></td>
+<td>6666</td>
+<td>2021-07-01 18:47</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB">舒适阅读电子书和漫画</a></td>
+<td><a href="https://pan.baidu.com/s/1W1SVPelOFhHUGAaOOjeLGg?pwd=xix6">https://pan.baidu.com/s/1W1SVPelOFhHUGAaOOjeLGg?pwd=xix6</a></td>
+<td>xix6</td>
+<td>2025-06-02 07:43</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E7%99%BD%E8%89%B2%E7%9B%B8%E7%B0%BF2%E5%BE%88%E5%A5%BD">白色相簿2很好</a></td>
+<td><a href="https://pan.baidu.com/s/13D94FfVrtYTeNrgV1xTcog?pwd=kgta">https://pan.baidu.com/s/13D94FfVrtYTeNrgV1xTcog?pwd=kgta</a></td>
+<td>kgta</td>
+<td>2026-01-07 09:25</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C">安卓掌机模拟器经验</a></td>
+<td><a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></td>
+<td>26rw</td>
+<td>2025-05-10 21:00</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B">ndsi无烧录卡刷TWiLightMenu过程</a></td>
+<td><a href="https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez">https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez</a></td>
+<td>cdez</td>
+<td>2025-05-07 15:26</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C">开源掌机和RetroArch个人体验</a></td>
+<td><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu</a></td>
+<td>49uu</td>
+<td>2025-03-26 19:53</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91">potplayer+whisper+ollama自动生成字幕并翻译</a></td>
+<td><a href="https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt">https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt</a></td>
+<td>2cwt</td>
+<td>2025-03-11 15:40</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc">立直麻将点数计算工具mahjong-calc</a></td>
+<td><a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m</a></td>
+<td>aw4m</td>
+<td>2024-03-03 12:31</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B">联想拯救者y700一代（2022）平板刷机过程</a></td>
+<td><a href="https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333">https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333</a></td>
+<td>3333</td>
+<td>2024-01-27 10:35</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%5B%E8%BD%AC%E8%BD%BD%5D%5B%E9%9F%B3%E9%A2%91%E5%A4%84%E7%90%86%5D%5B%E7%BF%BB%E5%94%B1%5D%E6%9F%AF%E5%8D%97%E4%B8%BB%E9%A2%98%E6%9B%B2%E3%82%AD%E3%83%9F%E3%81%8C%E3%81%84%E3%82%8C%E3%81%B0%EF%BC%8C%E4%B8%80%E8%8F%AF%E3%81%B2%E3%81%8B%E3%82%8A%EF%BC%8C%E5%8E%BB%E6%8B%8D%E6%89%8B%E5%A3%B0">[转载][音频处理][翻唱]柯南主题曲キミがいれば，一華ひかり，去拍手声</a></td>
+<td><a href="https://pan.baidu.com/s/1ctVh-F-xEgsCxFOxEZmlaA?pwd=uze3">https://pan.baidu.com/s/1ctVh-F-xEgsCxFOxEZmlaA?pwd=uze3</a></td>
+<td>uze3</td>
+<td>2024-01-04 23:07</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E6%BC%AB%E7%94%BB%E8%A1%A5%E9%A1%B5">漫画补页</a></td>
+<td><a href="https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528">https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528</a></td>
+<td>p528</td>
+<td>2022-06-04 17:53</td>
+</tr>
+<tr>
+<td><a href="https://andi.wang/go?search=%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E5%A4%84%E7%90%86%E8%84%9A%E6%9C%AC">漫画整理处理脚本</a></td>
+<td><a href="https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix">https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix</a></td>
+<td>41ix</td>
+<td>2022-03-27 21:30</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>极客</category>
+      </categories>
+      <tags>
+        <tag>下载</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开源掌机和RetroArch个人体验</title>
     <url>/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<hr>
@@ -19348,142 +19484,6 @@
         <tag>rg35xxsp</tag>
         <tag>miyoomini</tag>
         <tag>RetroArch</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>快速上手XXX</title>
-    <url>/2023/12/29/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8BXXX/</url>
-    <content><![CDATA[<p>几个关键技巧。</p>
-<hr>
-<span id="more"></span>
-
-
-<h2 id="羽毛球"><a href="#羽毛球" class="headerlink" title="羽毛球"></a>羽毛球</h2><p>几个要点：<br>1.关注手腕的力。<br>2.身体的转动：不是任何时候都适用。高远球是以自己身体中线，右手拿拍，打球的时候身体偏向右侧，打的时候右侧身体向前，形成一个转动。<br>3.球拍的转动：不是任何时候都适用。不用拍的正中间击打球，用左或右，也就是球飞过来时，你的拍面是向左或右，击打时加上旋转的力更容易发力。<br>4.握拍姿势：手心不要完全握紧拍柄，留一定空隙，整个网面的切面对齐到手的虎口的位置，图：</p>
-<p><img src="/images/shengqian08.jpg" alt="握拍姿势"></p>
-<hr>
-<h2 id="弹弓"><a href="#弹弓" class="headerlink" title="弹弓"></a>弹弓</h2><p>使用扁皮筋，瞄准时上下皮筋重合到一条线，可以垂直（下图1）也可以倾斜（下图2）。<br>短拉来说，弓要垂直（就是弓的平板垂直地面，弓与皮筋连接的两个点，到你右手的距离一样），右手拇指顶到颧骨，重点是记住这个位置。<br>确定左手的高度，可以右手固定好位置，左手拿弓靠近右手，看哪个位置右手弹丸在弹弓正中间射出。<br>靶子在你的皮筋的那条线上，距离越远，弓要越往上抬。</p>
-<h3 id="矫正高度"><a href="#矫正高度" class="headerlink" title="矫正高度"></a>矫正高度</h3><p>横握容易理解，泥丸打的高了，你的瞄点就降低点。<br>斜握如果打的高了，降低的瞄点应该在皮筋的斜线，还是垂直地面的线，目前测试应该是垂直地面的线，待确定。<br>如果横卧时瞄点在靶子下方，斜卧是就要在右下方，待确定。</p>
-<h3 id="两种姿势"><a href="#两种姿势" class="headerlink" title="两种姿势"></a>两种姿势</h3><p>横握瞄打，头偏的角度会影响精准度，要找到一个固定的位置。<br>斜握的优势是不用歪着头瞄准。</p>
-<h3 id="弓门和皮筋长度"><a href="#弓门和皮筋长度" class="headerlink" title="弓门和皮筋长度"></a>弓门和皮筋长度</h3><p>正常外弓门（弹弓宽处）80mm，换成75mm的弹弓，瞄点要往下调整。<br>换成更短的皮筋，瞄点要往下调整。</p>
-<p><img src="/images/shengqian09.jpg" alt="横握瞄打"></p>
-<p><img src="/images/shengqian10.jpg" alt="斜握瞄打"></p>
-<hr>
-<h2 id="拉力赛车游戏"><a href="#拉力赛车游戏" class="headerlink" title="拉力赛车游戏"></a>拉力赛车游戏</h2><p>搜索两个关键词：载荷转移，循迹刹车</p>
-<hr>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>羽毛球</tag>
-        <tag>弹弓</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>所有网盘分享</title>
-    <url>/2025/06/06/%E6%89%80%E6%9C%89%E7%BD%91%E7%9B%98%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025年6月6日</p>
-<h2 id="所有链接"><a href="#所有链接" class="headerlink" title="所有链接"></a>所有链接</h2><table>
-<thead>
-<tr>
-<th>文件名</th>
-<th>链接</th>
-<th>提取码</th>
-<th>分享时间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://andi.wang/go?search=%E4%BB%99%E5%A2%83%E4%BC%A0%E8%AF%B4">仙境传说简易入门攻略</a></td>
-<td><a href="https://pan.baidu.com/s/1ymN844B38XWDPywmdz0ixg?pwd=d5ue">https://pan.baidu.com/s/1ymN844B38XWDPywmdz0ixg?pwd=d5ue</a></td>
-<td>d5ue</td>
-<td>2025-10-11 11:55</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E6%A0%91%E8%8E%93%E6%B4%BE5">树莓派5刷Raspberry Pi OS和其他功能</a></td>
-<td><a href="https://pan.baidu.com/s/1uvgT0eSmNST-e_ymBcDWBw?pwd=nmqx">https://pan.baidu.com/s/1uvgT0eSmNST-e_ymBcDWBw?pwd=nmqx</a></td>
-<td>nmqx</td>
-<td>2025-06-30 14:40</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E8%80%81%E7%8E%8B%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D%E5%99%A8">老王随机点名器</a></td>
-<td><a href="https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ?pwd=6666">https://pan.baidu.com/s/1xIfjE0okmYK7NV2iyc0gCQ?pwd=6666</a></td>
-<td>6666</td>
-<td>2021-07-01 18:47</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E8%88%92%E9%80%82%E9%98%85%E8%AF%BB%E7%94%B5%E5%AD%90%E4%B9%A6%E5%92%8C%E6%BC%AB%E7%94%BB">舒适阅读电子书和漫画</a></td>
-<td><a href="https://pan.baidu.com/s/1W1SVPelOFhHUGAaOOjeLGg?pwd=xix6">https://pan.baidu.com/s/1W1SVPelOFhHUGAaOOjeLGg?pwd=xix6</a></td>
-<td>xix6</td>
-<td>2025-06-02 07:43</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E7%99%BD%E8%89%B2%E7%9B%B8%E7%B0%BF2%E5%BE%88%E5%A5%BD">白色相簿2很好</a></td>
-<td><a href="https://pan.baidu.com/s/13D94FfVrtYTeNrgV1xTcog?pwd=kgta">https://pan.baidu.com/s/13D94FfVrtYTeNrgV1xTcog?pwd=kgta</a></td>
-<td>kgta</td>
-<td>2026-01-07 09:25</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E5%AE%89%E5%8D%93%E6%8E%8C%E6%9C%BA%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%BB%8F%E9%AA%8C">安卓掌机模拟器经验</a></td>
-<td><a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></td>
-<td>26rw</td>
-<td>2025-05-10 21:00</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B">ndsi无烧录卡刷TWiLightMenu过程</a></td>
-<td><a href="https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez">https://pan.baidu.com/s/1g00x_xvjXDS624evcaLqnA?pwd=cdez</a></td>
-<td>cdez</td>
-<td>2025-05-07 15:26</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C">开源掌机和RetroArch个人体验</a></td>
-<td><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu</a></td>
-<td>49uu</td>
-<td>2025-03-26 19:53</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=potplayer+whisper+ollama%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%AD%97%E5%B9%95%E5%B9%B6%E7%BF%BB%E8%AF%91">potplayer+whisper+ollama自动生成字幕并翻译</a></td>
-<td><a href="https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt">https://pan.baidu.com/s/1nZthbmbzCr7M2kiPqoDq6A?pwd=2cwt</a></td>
-<td>2cwt</td>
-<td>2025-03-11 15:40</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E7%AB%8B%E7%9B%B4%E9%BA%BB%E5%B0%86%E7%82%B9%E6%95%B0%E8%AE%A1%E7%AE%97%E5%B7%A5%E5%85%B7mahjong-calc">立直麻将点数计算工具mahjong-calc</a></td>
-<td><a href="https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m">https://pan.baidu.com/s/12ztxHY5NJafjM_F3N9dkPQ?pwd=aw4m</a></td>
-<td>aw4m</td>
-<td>2024-03-03 12:31</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B">联想拯救者y700一代（2022）平板刷机过程</a></td>
-<td><a href="https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333">https://pan.baidu.com/s/1S0dbLtVuCmy4ayTi-qt1rg?pwd=3333</a></td>
-<td>3333</td>
-<td>2024-01-27 10:35</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%5B%E8%BD%AC%E8%BD%BD%5D%5B%E9%9F%B3%E9%A2%91%E5%A4%84%E7%90%86%5D%5B%E7%BF%BB%E5%94%B1%5D%E6%9F%AF%E5%8D%97%E4%B8%BB%E9%A2%98%E6%9B%B2%E3%82%AD%E3%83%9F%E3%81%8C%E3%81%84%E3%82%8C%E3%81%B0%EF%BC%8C%E4%B8%80%E8%8F%AF%E3%81%B2%E3%81%8B%E3%82%8A%EF%BC%8C%E5%8E%BB%E6%8B%8D%E6%89%8B%E5%A3%B0">[转载][音频处理][翻唱]柯南主题曲キミがいれば，一華ひかり，去拍手声</a></td>
-<td><a href="https://pan.baidu.com/s/1ctVh-F-xEgsCxFOxEZmlaA?pwd=uze3">https://pan.baidu.com/s/1ctVh-F-xEgsCxFOxEZmlaA?pwd=uze3</a></td>
-<td>uze3</td>
-<td>2024-01-04 23:07</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E6%BC%AB%E7%94%BB%E8%A1%A5%E9%A1%B5">漫画补页</a></td>
-<td><a href="https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528">https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528</a></td>
-<td>p528</td>
-<td>2022-06-04 17:53</td>
-</tr>
-<tr>
-<td><a href="https://andi.wang/go?search=%E6%BC%AB%E7%94%BB%E6%95%B4%E7%90%86%E5%A4%84%E7%90%86%E8%84%9A%E6%9C%AC">漫画整理处理脚本</a></td>
-<td><a href="https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix">https://pan.baidu.com/s/1k40sYPhkG79yIehZaUuJtw?pwd=41ix</a></td>
-<td>41ix</td>
-<td>2022-03-27 21:30</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>极客</category>
-      </categories>
-      <tags>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -20689,6 +20689,20 @@
       </tags>
   </entry>
   <entry>
+    <title>百年孤独人物关系图（自制）</title>
+    <url>/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
+    <content><![CDATA[<hr>
+<p><img src="/images/bainiangudu01.png" alt="百年孤独人物关系图（自制）"></p>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>百年孤独</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>王小波真正大全集15册 标注</title>
     <url>/2025/02/24/%E7%8E%8B%E5%B0%8F%E6%B3%A2%E7%9C%9F%E6%AD%A3%E5%A4%A7%E5%85%A8%E9%9B%8615%E5%86%8C%E6%A0%87%E6%B3%A8/</url>
     <content><![CDATA[<p><strong>共87条标注</strong></p>
@@ -21278,20 +21292,6 @@
       </categories>
       <tags>
         <tag>电脑手机技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>百年孤独人物关系图（自制）</title>
-    <url>/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</url>
-    <content><![CDATA[<hr>
-<p><img src="/images/bainiangudu01.png" alt="百年孤独人物关系图（自制）"></p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>百年孤独</tag>
       </tags>
   </entry>
   <entry>
@@ -22151,8 +22151,8 @@
         <category>评测</category>
       </categories>
       <tags>
-        <tag>阅读</tag>
         <tag>漫画</tag>
+        <tag>阅读</tag>
         <tag>评测</tag>
       </tags>
   </entry>
@@ -22515,13 +22515,6 @@
       </tags>
   </entry>
   <entry>
-    <title>404 Not Found</title>
-    <url>/404.html</url>
-    <content><![CDATA[<hr>
-<p>页面不存在或者已删除<br><a href="https://andi.wang/">点击返回首页</a><br><a href="https://github.com/wangandi520">我的github</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>关于这个博客</title>
     <url>/about/index.html</url>
     <content><![CDATA[<h2 id="使用的程序"><a href="#使用的程序" class="headerlink" title="使用的程序"></a>使用的程序</h2><p><a href="https://hexo.io/">Hexo博客</a></p>
@@ -22537,9 +22530,11 @@
 <img src="/images/weixin.png" alt="微信" width="200" height="200"/>]]></content>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>404 Not Found</title>
+    <url>/404.html</url>
+    <content><![CDATA[<hr>
+<p>页面不存在或者已删除<br><a href="https://andi.wang/">点击返回首页</a><br><a href="https://github.com/wangandi520">我的github</a></p>
+]]></content>
   </entry>
   <entry>
     <title>我的作品</title>
@@ -22547,6 +22542,11 @@
     <content><![CDATA[<h2 id="吉他和弦图生成"><a href="#吉他和弦图生成" class="headerlink" title="吉他和弦图生成]"></a>吉他和弦图生成]</h2><p><a href="/guitar">演示</a><br><a href="https://github.com/wangandi520/guitar-chord-search-and-generate">Github</a></p>
 <h2 id="单页面股票行情查询"><a href="#单页面股票行情查询" class="headerlink" title="单页面股票行情查询"></a>单页面股票行情查询</h2><p><a href="/stock">演示</a><br><a href="https://github.com/wangandi520/allinonestock">Github</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>标签</title>
