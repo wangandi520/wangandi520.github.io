@@ -90,7 +90,7 @@ $(function(){
 
     function init() {
 
-        sock = io('/majiang', { path: `${base}/server/socket.io/`});
+        sock = io('/', { path: `${base}/server/socket.io/`});
 
         sock.on('HELLO', hello);
         sock.on('ROOM', room);
