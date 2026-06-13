@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Heart rate broadcast - Predictive low latency</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <style>
+        :root {
+            --bg-color: #000000;
+            --primary-red: #ff0033;
+            --dim-red: rgba(255, 0, 51, 0.15);
+            --text-main: #ffffff;
+            --font-tech: 'Courier New', 'Microsoft YaHei', monospace;
+            --panel-bg: rgba(20, 0, 0, 0.9);
+        }
+
+        body {
+            margin: 0; overflow: hidden;
+            background-color: var(--bg-color);
+            color: var(--primary-red);
+            font-family: var(--font-tech);
+            user-select: none;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- 3D 背景层 --- */
+        #canvas-3d {
+            position: fixed; top: 0; left: 0;
+            width: 100%; height: 100%; z-index: 1;
+        }
+
+        /* --- UI 层布局 --- */
+        #ui-layer {
+            position: absolute; top: 0; left: 0;
+            width: 100%; height: 100%; z-index: 10;
+            pointer-events: none;
+        }
+
+        /* 顶部 HUD */
+        .hud-header {
+            position: absolute; top: 20px; left: 20px;
+            pointer-events: auto;
+        }
+        .hud-title h1 { 
+            margin: 0; 
+            font-size: 20px; 
+            letter-spacing: 4px; 
+            font-weight: normal; 
+            color: #fff; 
+            text-shadow: 0 0 10px var(--primary-red); 
+        }
+        .hud-title .sub { 
+            font-size: 10px; 
+            color: var(--primary-red); 
+            letter-spacing: 2px; 
+            opacity: 0.8; 
+            margin-top: 4px; 
+        }
+        
+        .sys-status {
+            margin-top: 8px; font-size: 12px; color: #666; 
+            border: 1px solid #333; padding: 2px 8px; display: inline-block;
+            letter-spacing: 1px; transition: 0.3s; border-radius: 4px;
+        }
+        .sys-status.online { color: #fff; border-color: var(--primary-red); box-shadow: 0 0 10px var(--dim-red); background: rgba(255,0,51,0.1); }
+
+        /* 右上角菜单按钮 */
+        #menu-trigger {
+            position: absolute; top: 20px; right: 20px;
+            width: 44px; height: 44px;
+            background: rgba(0,0,0,0.6);
+            border: 1px solid var(--primary-red);
+            border-radius: 12px;
+            color: var(--primary-red);
+            display: flex; justify-content: center; align-items: center;
+            font-size: 24px; cursor: pointer; pointer-events: auto;
+            z-index: 50;
+            transition: all 0.3s;
+            box-shadow: 0 0 10px rgba(255,0,51,0.1);
+        }
+        #menu-trigger:hover { background: var(--primary-red); color: #000; box-shadow: 0 0 20px var(--primary-red); }
+
+        /* 右侧滑出菜单 */
+        #side-menu {
+            position: absolute; top: 75px; right: 20px;
+            width: 180px;
+            background: var(--panel-bg);
+            border: 1px solid var(--dim-red);
+            border-radius: 12px;
+            padding: 10px;
+            display: flex; flex-direction: column; gap: 10px;
+            pointer-events: auto;
+            backdrop-filter: blur(5px);
+            transform: translateX(120%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 49;
+        }
+        #side-menu.active { transform: translateX(0); }
+
+        .menu-btn {
+            background: rgba(50, 0, 0, 0.5);
+            border: 1px solid var(--primary-red);
+            color: #fff;
+            padding: 10px;
+            font-family: var(--font-tech);
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-radius: 8px;
+            text-align: center;
+        }
+        /* 禁用状态样式 */
+        .menu-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            background: rgba(30, 0, 0, 0.5);
+            border-color: rgba(255, 0, 51, 0.3);
+        }
+        .menu-btn:hover:not(:disabled) { background: var(--primary-red); color: #000; }
+
+        /* 中央显示区 (数字) */
+        #view-numeric {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            z-index: 5;
+            pointer-events: none;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        .bpm-val { 
+            font-size: 120px; 
+            font-weight: bold; 
+            color: #fff; 
+            line-height: 1; 
+            text-shadow: 0 0 40px var(--primary-red), 2px 2px 0px rgba(0,0,0,0.8);
+            font-family: 'Arial', sans-serif;
+            transition: color 0.2s;
+        }
+        .bpm-val.warning { color: #ff3333; text-shadow: 0 0 60px #ff0000; animation: text-flash 0.2s infinite alternate; }
+        .bpm-label { 
+            font-size: 14px; 
+            letter-spacing: 6px; 
+            color: rgba(255,255,255,0.7); 
+            margin-top: 5px; 
+            text-shadow: 0 0 5px #000; 
+        }
+
+        /* 移动端样式适配 */
+        @media screen and (max-width: 768px) {
+            .hud-title h1 { font-size: 16px; }
+            .hud-title .sub { font-size: 8px; }
+            .sys-status { font-size: 10px; }
+            #menu-trigger { width: 36px; height: 36px; font-size: 20px; }
+            #side-menu { width: 150px; top: 65px; }
+            .menu-btn { padding: 8px; font-size: 11px; }
+            .bpm-val { font-size: 80px; }
+            .bpm-label { font-size: 12px; letter-spacing: 4px; }
+            #view-graph { height: 30vh; }
+        }
+
+        @keyframes text-flash { from { opacity: 1; } to { opacity: 0.5; } }
+
+        /* 底部 ECG 图表区 */
+        #view-graph {
+            position: absolute; bottom: 0; left: 0;
+            width: 100%; height: 25vh;
+            background: linear-gradient(0deg, rgba(255,0,51,0.1) 0%, transparent 100%);
+            border-top: 1px solid var(--dim-red);
+            transition: all 0.5s ease;
+            z-index: 2;
+        }
+        canvas#ecg-canvas { width: 100%; height: 100%; display: block; }
+
+        /* --- 模式特定样式 --- */
+        body.mode-num-only #view-graph { opacity: 0; pointer-events: none; }
+        body.mode-curve-only #canvas-3d { opacity: 0; }
+        body.mode-curve-only #view-numeric { opacity: 0; }
+        body.mode-curve-only #view-graph { 
+            height: 100vh; border-top: none; 
+            background: #000;
+        }
+
+        /* --- 弹窗样式 --- */
+        .panel {
+            position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            background: rgba(15, 0, 0, 0.95); 
+            border: 1px solid var(--primary-red);
+            border-radius: 12px;
+            padding: 25px; width: 85%; max-width: 320px; 
+            z-index: 100; pointer-events: auto;
+            box-shadow: 0 0 40px rgba(255,0,51,0.2); 
+            display: none; color: #fff;
+        }
+        .panel h3 { margin: 0 0 20px 0; color: var(--primary-red); border-bottom: 1px solid #333; padding-bottom: 10px; font-size: 16px; letter-spacing: 2px;}
+        .row { display: flex; justify-content: space-between; margin-bottom: 15px; font-size: 14px; align-items: center; }
+        
+        input[type="number"] { 
+            background: #220000; border: 1px solid #550000; border-radius: 4px;
+            color: #fff; width: 60px; padding: 6px; text-align: center; font-family: var(--font-tech);
+        }
+        input[type="checkbox"] { accent-color: var(--primary-red); width: 18px; height: 18px; cursor: pointer; }
+        
+        .btn-action { width: 100%; padding: 10px; background: #330000; border: 1px solid var(--primary-red); color: #fff; border-radius: 8px; cursor: pointer; transition: 0.2s; margin-top: 10px;}
+        .btn-action:hover { background: var(--primary-red); color: #000; }
+
+        /* 报警闪烁特效 */
+        body.alarm-active { animation: screen-flash 0.5s infinite; }
+        @keyframes screen-flash {
+            0%, 100% { box-shadow: inset 0 0 0 0 transparent; border: 1px solid transparent; }
+            50% { box-shadow: inset 0 0 100px rgba(255, 0, 0, 0.8); border: 20px solid rgba(255,0,0,0.3); }
+        }
+
+    </style>
+</head>
+<body>
+
+    <canvas id="canvas-3d"></canvas>
+
+    <div id="ui-layer">
+        <div class="hud-header">
+            <div class="hud-title">
+                <h1>HEART SYNC</h1>
+                <div class="sub">REAL-TIME PREDICTION ENGINE</div>
+            </div>
+            <div class="sys-status" id="status-badge">设备未连接</div>
+        </div>
+
+        <div id="menu-trigger" onclick="toggleMenu()" disabled>☰</div>
+
+<div id="side-menu">
+    <button class="menu-btn" id="btn-connect" disabled>连接设备</button>
+    <button class="menu-btn" id="btn-view" disabled>视图: 全显示</button>
+    <button class="menu-btn" onclick="openSettings()" disabled>预警设置</button>
+    <button class="menu-btn" onclick="generateReport()" disabled>健康报告</button>
+    <button class="menu-btn" onclick="toggleAudio()" id="btn-audio" disabled>心跳音: 关</button>
+    <!-- 修改后的版权文字区域 -->
+    <h5 style="text-align: center; margin: 0; padding: 10px 0; cursor: pointer;">
+        Copyright Belongs To<br>
+        <a href="https://Studio.mfis.one/" target="_blank" style="text-decoration: none; color: inherit;">
+            MatrixFive
+        </a>
+    </h5>
+</div>
+
+        <div id="view-numeric">
+            <div class="bpm-val" id="bpm-val">--</div>
+            <div class="bpm-label">BPM</div>
+        </div>
+
+        <div id="view-graph">
+            <canvas id="ecg-canvas"></canvas>
+        </div>
+    </div>
+
+    <div id="panel-settings" class="panel">
+        <h3>预警配置</h3>
+        <div class="row"><label>开启监测报警</label><input type="checkbox" id="chk-alarm"></div>
+        <div class="row"><label>心率下限 (Min)</label><input type="number" id="inp-min"></div>
+        <div class="row"><label>心率上限 (Max)</label><input type="number" id="inp-max"></div>
+        <button class="btn-action" onclick="saveAndCloseSettings()" disabled>保存配置</button>
+    </div>
+
+    <div id="panel-report" class="panel">
+        <h3>本次监测报告</h3>
+        <div id="report-content" style="font-size: 13px; line-height: 1.8; color: #ddd; margin-bottom: 15px; max-height: 250px; overflow-y:auto; border: 1px dashed #333; padding: 10px;"></div>
+        <button class="btn-action" onclick="document.getElementById('panel-report').style.display='none'" disabled>关闭</button>
+    </div>
+
+<script>
+    // 全局状态：是否已确认提示
+    let userConfirmed = false;
+
+
+    /**
+     * 启用所有交互按钮
+     */
+    function enableAllButtons() {
+        const allButtons = document.querySelectorAll('.menu-btn, .btn-action, #menu-trigger');
+        allButtons.forEach(btn => {
+            btn.disabled = false;
+            // 移除禁用样式（针对menu-trigger）
+            if (btn.id === 'menu-trigger') {
+                btn.style.opacity = '1';
+            }
+        });
+    }
+
+    /**
+     * 系统状态与配置 (核心逻辑升级)
+     */
+    const STATE = {
+        connected: false,
+        bpm: 0,
+        pulseIntensity: 0, // 视觉脉冲值 0.0 - 1.0
+        
+        // --- 新增：预测逻辑变量 ---
+        lastBeatTime: 0,
+        beatInterval: 0,   // 两跳之间的毫秒数 (60000/bpm)
+        // -----------------------
+
+        history: [],
+        viewMode: 0, 
+        cfg: {
+            audio: false, // 默认关闭心跳音
+            alarmEnabled: true, 
+            min: 50,
+            max: 120
+        },
+        alarmActive: false,
+        alarmInterval: null
+    };
+
+    // DOM 元素引用
+    const DOM = {
+        bpm: document.getElementById('bpm-val'),
+        status: document.getElementById('status-badge'),
+        menu: document.getElementById('side-menu'),
+        btnView: document.getElementById('btn-view'),
+        btnAudio: document.getElementById('btn-audio'),
+        inpMin: document.getElementById('inp-min'),
+        inpMax: document.getElementById('inp-max'),
+        chkAlarm: document.getElementById('chk-alarm')
+    };
+
+    // --- 设备检测：判断是否为移动端 ---
+    function isMobile() {
+        return window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    // --- 0. 持久化存储 ---
+    function loadSettings() {
+        if (!userConfirmed) return; // 未确认则不加载配置
+        const saved = localStorage.getItem('vital_monitor_cfg');
+        if (saved) {
+            try {
+                const parsed = JSON.parse(saved);
+                STATE.cfg = { ...STATE.cfg, ...parsed };
+            } catch (e) { console.error("配置读取失败"); }
+        }
+        DOM.inpMin.value = STATE.cfg.min;
+        DOM.inpMax.value = STATE.cfg.max;
+        DOM.chkAlarm.checked = STATE.cfg.alarmEnabled;
+        updateAudioBtn();
+    }
+
+    function saveAndCloseSettings() {
+        if (!userConfirmed) return;
+        STATE.cfg.min = parseInt(DOM.inpMin.value) || 50;
+        STATE.cfg.max = parseInt(DOM.inpMax.value) || 120;
+        STATE.cfg.alarmEnabled = DOM.chkAlarm.checked;
+        localStorage.setItem('vital_monitor_cfg', JSON.stringify(STATE.cfg));
+        
+        document.getElementById('panel-settings').style.display = 'none';
+        toggleMenu();
+        if(STATE.bpm > 0) checkAlarm(STATE.bpm); 
+    }
+
+    function openSettings() {
+        if (!userConfirmed) return;
+        document.getElementById('panel-settings').style.display = 'block';
+        toggleMenu();
+    }
+
+    // --- 1. UI 交互 ---
+    function toggleMenu() {
+        if (!userConfirmed) return;
+        DOM.menu.classList.toggle('active');
+    }
+
+    const modeNames = ["视图: 全显示", "视图: 只显示数字", "视图: 只显示曲线"];
+    DOM.btnView.onclick = () => {
+        if (!userConfirmed) return;
+        STATE.viewMode = (STATE.viewMode + 1) % 3;
+        DOM.btnView.textContent = modeNames[STATE.viewMode];
+        document.body.classList.remove('mode-num-only', 'mode-curve-only');
+        if (STATE.viewMode === 1) document.body.classList.add('mode-num-only');
+        else if (STATE.viewMode === 2) document.body.classList.add('mode-curve-only');
+        setTimeout(() => window.dispatchEvent(new Event('resize')), 100);
+    };
+
+    function toggleAudio() {
+        if (!userConfirmed) return;
+        STATE.cfg.audio = !STATE.cfg.audio;
+        updateAudioBtn();
+        localStorage.setItem('vital_monitor_cfg', JSON.stringify(STATE.cfg));
+    }
+
+    function updateAudioBtn() {
+        DOM.btnAudio.textContent = STATE.cfg.audio ? "心跳音: 开" : "心跳音: 关";
+        DOM.btnAudio.style.opacity = STATE.cfg.audio ? "1" : "0.5";
+    }
+
+    // --- 2. 音频系统 ---
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    
+    function playTone(freq, type, duration, forcePlay = false) {
+        if (!userConfirmed) return;
+        if (!forcePlay && !STATE.cfg.audio) return; 
+        
+        if (audioCtx.state === 'suspended') audioCtx.resume().catch(()=>{});
+        
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        
+        osc.type = type;
+        osc.frequency.value = freq;
+        
+        // 优化：更短促有力的声音包络
+        const now = audioCtx.currentTime;
+        gain.gain.setValueAtTime(0, now);
+        gain.gain.linearRampToValueAtTime(0.5, now + 0.01);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+        
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        
+        osc.start(now);
+        osc.stop(now + duration + 0.1);
+    }
+
+    // --- 3. 核心逻辑 (大幅修改：引入本地预测) ---
+    
+    // 触发单次心跳视觉与听觉效果
+    function triggerBeat() {
+        if (!userConfirmed) return;
+        // 瞬间拉高脉冲强度
+        STATE.pulseIntensity = 1.0; 
+        
+        // 播放声音 (如果没有报警)
+        if (!STATE.alarmActive) {
+            // 心跳声使用低频正弦波，听起来更像心跳
+            playTone(150, 'sine', 0.15, false);
+        }
+    }
+
+    function startAlarmLoop() {
+        if (!userConfirmed || STATE.alarmInterval) return; 
+        playTone(880, 'square', 0.05, true);
+        STATE.alarmInterval = setInterval(() => {
+            playTone(880, 'square', 0.05, true); 
+            if(navigator.vibrate) navigator.vibrate(50);
+        }, 150); // 稍微调慢一点报警频率以免太吵
+    }
+
+    function stopAlarmLoop() {
+        if (!userConfirmed) return;
+        if (STATE.alarmInterval) {
+            clearInterval(STATE.alarmInterval);
+            STATE.alarmInterval = null;
+        }
+    }
+
+    function checkAlarm(bpm) {
+        if (!userConfirmed) return;
+        if (!STATE.cfg.alarmEnabled) { 
+            stopAlarm(); 
+            return; 
+        }
+
+        if (bpm < STATE.cfg.min || bpm > STATE.cfg.max) {
+            if (!STATE.alarmActive) {
+                STATE.alarmActive = true;
+                document.body.classList.add('alarm-active');
+                DOM.bpm.classList.add('warning');
+                startAlarmLoop(); 
+            }
+        } else {
+            stopAlarm();
+        }
+    }
+
+    function stopAlarm() {
+        if (!userConfirmed) return;
+        if(STATE.alarmActive) {
+            STATE.alarmActive = false;
+            document.body.classList.remove('alarm-active');
+            DOM.bpm.classList.remove('warning');
+            stopAlarmLoop(); 
+        }
+    }
+
+    document.getElementById('btn-connect').addEventListener('click', async () => {
+        if (!userConfirmed) return;
+        if (STATE.connected) { location.reload(); return; }
+        try {
+            DOM.status.textContent = "搜索中...";
+            const device = await navigator.bluetooth.requestDevice({ filters: [{ services: ['heart_rate'] }] });
+            const server = await device.gatt.connect();
+            const service = await server.getPrimaryService('heart_rate');
+            const char = await service.getCharacteristic('heart_rate_measurement');
+            
+            await char.startNotifications();
+            char.addEventListener('characteristicvaluechanged', handleHeartRate);
+
+            STATE.connected = true;
+            DOM.status.textContent = "设备连接成功";
+            DOM.status.classList.add('online');
+            document.getElementById('btn-connect').textContent = "断开连接";
+            
+            // 激活音频上下文
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+
+        } catch(e) {
+            DOM.status.textContent = "连接失败";
+            console.error(e);
+        }
+    });
+
+    // 关键修改：此函数不再直接控制动画，只负责更新数据
+    function handleHeartRate(e) {
+        if (!userConfirmed) return;
+        const val = e.target.value;
+        const bpm = (val.getUint8(0) & 1) === 0 ? val.getUint8(1) : val.getUint16(1, true);
+        
+        STATE.bpm = bpm;
+        DOM.bpm.textContent = bpm;
+        STATE.history.push({ t: Date.now(), v: bpm });
+        
+        // 计算间隔 (60000ms / BPM) = 每次心跳的毫秒间隔
+        if (bpm > 0) {
+            STATE.beatInterval = 60000 / bpm;
+        }
+
+        checkAlarm(bpm);
+        // 注意：这里删除了 playTone 和 pulseIntensity=1 的代码
+        // 改由 animate 循环根据时间自动触发
+    }
+
+    // --- 4. ECG 曲线 ---
+    const cvs = document.getElementById('ecg-canvas');
+    const ctx = cvs.getContext('2d');
+    const dataPoints = new Array(300).fill(0.5);
+
+    function resizeCanvas() {
+        if (!userConfirmed) return;
+        const container = document.getElementById('view-graph');
+        cvs.width = container.clientWidth;
+        cvs.height = container.clientHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+
+    function drawECG() {
+        if (!userConfirmed) return;
+        dataPoints.shift();
+        let y = 0.5;
+        
+        // 修改：让 ECG 响应本地预测的脉冲强度
+        if (STATE.connected && STATE.bpm > 0) {
+            if (STATE.pulseIntensity > 0.05) {
+                // 当脉冲强度高时（心跳瞬间），模拟 QRS 波
+                // 使用 Math.sin 配合 pulseIntensity 制造波形
+                // 这里的 0.9 是波幅
+                y = 0.5 - (Math.sin(Date.now() / 10) * STATE.pulseIntensity * 0.8);
+            } else {
+                // 静息时的随机噪声
+                y = 0.5 + (Math.random() - 0.5) * 0.02;
+            }
+        }
+        
+        dataPoints.push(y);
+
+        ctx.clearRect(0, 0, cvs.width, cvs.height);
+        
+        // 网格背景
+        ctx.strokeStyle = 'rgba(255, 0, 51, 0.1)';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        const gridSize = isMobile() ? 30 : 40; // 移动端网格更小
+        for(let x=0; x<cvs.width; x+=gridSize) { ctx.moveTo(x,0); ctx.lineTo(x, cvs.height); }
+        for(let py=0; py<cvs.height; py+=gridSize) { ctx.moveTo(0,py); ctx.lineTo(cvs.width, py); }
+        ctx.stroke();
+
+        // 曲线绘制
+        ctx.beginPath();
+        const xStep = cvs.width / (dataPoints.length - 1);
+        for(let i=0; i<dataPoints.length; i++) {
+            const x = i * xStep;
+            const valY = dataPoints[i] * cvs.height;
+            if(i===0) ctx.moveTo(x, valY); else ctx.lineTo(x, valY);
+        }
+
+        ctx.strokeStyle = '#ff0033';
+        ctx.lineWidth = isMobile() ? 1.5 : 2; // 移动端曲线更细
+        ctx.shadowBlur = isMobile() ? 10 : 15; // 移动端阴影更小
+        ctx.shadowColor = '#ff0033';
+        ctx.stroke();
+        ctx.shadowBlur = 0;
+    }
+
+    // --- 5. 3D 场景 ---
+    let scene, camera, renderer, heartMesh;
+
+    /**
+     * 初始化3D场景（适配移动端）
+     */
+    function init3DScene() {
+        scene = new THREE.Scene();
+        
+        // 移动端调整相机参数：更远的距离 + 更小的视角，避免裁切
+        const isMobileDevice = isMobile();
+        camera = new THREE.PerspectiveCamera(
+            isMobileDevice ? 50 : 60, // 移动端视角更小，视野更广
+            window.innerWidth/window.innerHeight, 
+            0.1, 
+            1000
+        );
+        // 移动端相机位置更远，心脏更小
+        camera.position.z = isMobileDevice ? 60 : 45; 
+        camera.position.y = isMobileDevice ? 3 : 5; 
+        camera.lookAt(0, 0, 0);
+
+        renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('canvas-3d'), alpha: true, antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+
+        // 网格地面：移动端更小
+        const gridSize = isMobileDevice ? 150 : 200;
+        const gridDivisions = isMobileDevice ? 30 : 40;
+        const gridHelper = new THREE.GridHelper(gridSize, gridDivisions, 0x660000, 0x220000);
+        gridHelper.position.y = -20; 
+        scene.add(gridHelper);
+
+        // 粒子心脏构建：移动端粒子更少、尺寸更小
+        const geometry = new THREE.BufferGeometry();
+        const count = isMobileDevice ? 1500 : 3000; // 移动端粒子数减半，提升性能
+        const positions = new Float32Array(count * 3);
+        const colors = new Float32Array(count * 3);
+        const colorObj = new THREE.Color(0xff0033);
+
+        // 移动端心脏基础缩放更小
+        const baseScale = isMobileDevice ? 0.7 : 1.0;
+
+        for(let i=0; i<count; i++) {
+            const t = Math.PI * 2 * Math.random();
+            const r = (Math.random() * 0.2 + 0.8); 
+            const scale = baseScale;
+            const x = 16 * Math.pow(Math.sin(t), 3) * r * scale;
+            const y = (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * r * scale;
+            const z = (Math.random() - 0.5) * (isMobileDevice ? 7 : 10) * scale; // 移动端z轴范围更小
+
+            positions[i*3] = x;
+            positions[i*3+1] = y;
+            positions[i*3+2] = z;
+
+            colors[i*3] = colorObj.r + (Math.random()-0.5)*0.2;
+            colors[i*3+1] = colorObj.g;
+            colors[i*3+2] = colorObj.b;
+        }
+
+        geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+        // 移动端粒子尺寸更小
+        const pointSize = isMobileDevice ? 0.4 : 0.6;
+        const material = new THREE.PointsMaterial({
+            size: pointSize, vertexColors: true, 
+            blending: THREE.AdditiveBlending,
+            transparent: true, opacity: 0.8
+        });
+
+        heartMesh = new THREE.Points(geometry, material);
+        // 移动端心脏初始缩放更小
+        heartMesh.scale.set(baseScale, baseScale, baseScale);
+        scene.add(heartMesh);
+
+        window.addEventListener('resize', () => {
+            if (!userConfirmed) return;
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    }
+
+    // --- 核心渲染循环 ---
+    function animate() {
+        requestAnimationFrame(animate);
+        if (!userConfirmed) return; // 未确认则不渲染
+        
+        const now = performance.now(); // 使用高精度时间
+
+        // 1. 预测逻辑：如果已连接且有心率
+        if (STATE.connected && STATE.bpm > 0) {
+            // 检查是否到了下一跳的时间
+            if (now - STATE.lastBeatTime > STATE.beatInterval) {
+                STATE.lastBeatTime = now;
+                triggerBeat(); // 触发视觉和听觉
+            }
+        }
+
+        // 2. 视觉脉冲衰减 (模拟收缩后的舒张)
+        // 0.92 的衰减系数决定了心跳回弹的速度
+        STATE.pulseIntensity *= 0.92;
+        if(STATE.pulseIntensity < 0.01) STATE.pulseIntensity = 0;
+
+        // 3. 应用缩放：移动端缩放幅度更小
+        const isMobileDevice = isMobile();
+        const scaleAmplitude = isMobileDevice ? 0.25 : 0.35;
+        const scale = 1.0 + (STATE.pulseIntensity * scaleAmplitude); 
+        // 叠加基础缩放（移动端更小）
+        const baseScale = isMobileDevice ? 0.7 : 1.0;
+        heartMesh.scale.set(scale * baseScale, scale * baseScale, scale * baseScale);
+        
+        // 增加颜色闪烁
+        if(STATE.pulseIntensity > 0.1) {
+            heartMesh.material.opacity = 0.8 + (STATE.pulseIntensity * 0.2);
+        } else {
+            heartMesh.material.opacity = 0.8;
+        }
+
+        if (STATE.viewMode !== 2) renderer.render(scene, camera);
+        drawECG();
+    }
+    
+    // --- 报告 ---
+    window.generateReport = () => {
+        if (!userConfirmed) return;
+        if(STATE.history.length === 0) { alert("暂无数据"); return; }
+        const vals = STATE.history.map(x=>x.v);
+        const avg = Math.round(vals.reduce((a,b)=>a+b,0)/vals.length);
+        const max = Math.max(...vals);
+        const min = Math.min(...vals);
+        
+        let html = `
+            <p><strong>平均心率:</strong> ${avg} BPM</p>
+            <p><strong>峰值:</strong> <span style="color:#ff3333">${max}</span> / <span style="color:#00ccff">${min}</span></p>
+            <p><strong>预警配置:</strong> ${STATE.cfg.min} - ${STATE.cfg.max}</p>
+        `;
+        document.getElementById('report-content').innerHTML = html;
+        document.getElementById('panel-report').style.display = 'block';
+        toggleMenu();
+    }
+
+    /**
+     * 初始化应用核心功能
+     */
+    function initApp() {
+        init3DScene(); // 初始化3D场景
+        loadSettings(); // 加载配置
+        resizeCanvas(); // 调整画布尺寸
+        animate(); // 启动渲染循环
+    }
+</script>
+</body>
+</html>
