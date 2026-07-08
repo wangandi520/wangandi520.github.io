@@ -511,13 +511,13 @@
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
     
     
-    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
-    
     <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
     
     <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
     
     <category term="boox" scheme="https://andi.wang/tags/boox/"/>
+    
+    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
     
   </entry>
   
@@ -642,11 +642,12 @@
     <link href="https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/"/>
     <id>https://andi.wang/2024/03/07/neeview%E4%B8%80%E9%94%AE%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E5%9B%BE%E7%89%87%E5%91%BD%E5%90%8D%E4%B8%BA%E6%96%87%E4%BB%B6%E5%90%8D%E5%8A%A0%E5%9B%BE%E7%89%87%E5%90%8D/</id>
     <published>2024-03-07T07:20:21.000Z</published>
-    <updated>2025-04-15T15:53:39.299Z</updated>
+    <updated>2026-07-06T04:47:04.099Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2025.04.14&lt;br&gt;neeview43.2版测试通过&lt;/p&gt;
+&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2026.07.06&lt;br&gt;neeview43.2版测试通过&lt;/p&gt;
+&lt;h2 id=&quot;46-0版已自带本功能&quot;&gt;&lt;a href=&quot;#46-0版已自带本功能&quot; class=&quot;headerlink&quot; title=&quot;46.0版已自带本功能&quot;&gt;&lt;/a&gt;46.0版已自带本功能&lt;/h2&gt;&lt;p&gt;文件，另存为，页文件名格式填写{Book}{Name}&lt;/p&gt;
 &lt;h2 id=&quot;neeview下载&quot;&gt;&lt;a href=&quot;#neeview下载&quot; class=&quot;headerlink&quot; title=&quot;neeview下载&quot;&gt;&lt;/a&gt;neeview下载&lt;/h2&gt;&lt;p&gt;电脑上已经安装了.NET运行库可以下载fd版本，地址：&lt;a href=&quot;https://github.com/neelabo/NeeView/releases/&quot;&gt;https://github.com/neelabo/NeeView/releases/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;neeview开启脚本功能&quot;&gt;&lt;a href=&quot;#neeview开启脚本功能&quot; class=&quot;headerlink&quot; title=&quot;neeview开启脚本功能&quot;&gt;&lt;/a&gt;neeview开启脚本功能&lt;/h2&gt;&lt;p&gt;选项，设置，指令，脚本，使用脚本（开），打开脚本文件夹&lt;/p&gt;</summary>
     
@@ -978,7 +979,7 @@
     <link href="https://andi.wang/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
     <id>https://andi.wang/2023/06/07/%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</id>
     <published>2023-06-07T02:41:57.000Z</published>
-    <updated>2026-06-19T13:15:43.624Z</updated>
+    <updated>2026-07-04T16:23:16.898Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
