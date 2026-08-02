@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2026-08-02T09:30:07.288Z</updated>
+  <updated>2026-08-02T11:40:58.257Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,12 +21,12 @@
     <link href="https://andi.wang/2026/08/02/%E4%B8%AD%E5%B7%9E%E9%9F%B5%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%95%E6%93%8ERIME%EF%BC%88%E5%B0%8F%E7%8B%BC%E6%AF%AB%EF%BC%89+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3%EF%BC%88%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%89/"/>
     <id>https://andi.wang/2026/08/02/%E4%B8%AD%E5%B7%9E%E9%9F%B5%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%95%E6%93%8ERIME%EF%BC%88%E5%B0%8F%E7%8B%BC%E6%AF%AB%EF%BC%89+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3%EF%BC%88%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%89/</id>
     <published>2026-08-02T09:01:10.000Z</published>
-    <updated>2026-08-02T09:30:07.288Z</updated>
+    <updated>2026-08-02T11:40:58.257Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
 &lt;h2 id=&quot;更新时间&quot;&gt;&lt;a href=&quot;#更新时间&quot; class=&quot;headerlink&quot; title=&quot;更新时间&quot;&gt;&lt;/a&gt;更新时间&lt;/h2&gt;&lt;p&gt;2026.08.02&lt;/p&gt;
-&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;中州韵是输入法引擎&lt;br&gt;小狼毫是windows下的程序前端&lt;br&gt;雾凇拼音是双排配置方案&lt;/p&gt;</summary>
+&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;中州韵是输入法引擎&lt;br&gt;小狼毫是windows下的程序前端&lt;br&gt;雾凇拼音是双拼配置方案&lt;/p&gt;</summary>
     
     
     
@@ -504,11 +504,11 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
-    
     <category term="html" scheme="https://andi.wang/tags/html/"/>
     
     <category term="投资" scheme="https://andi.wang/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
     
   </entry>
   
