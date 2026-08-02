@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2025-09-12T02:05:57.563Z</updated>
+  <updated>2026-08-02T09:25:33.762Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中州韵输入法引擎RIME（小狼毫）+雾凇拼音（小鹤双拼）</title>
+    <link href="https://andi.wang/2026/08/02/%E4%B8%AD%E5%B7%9E%E9%9F%B5%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%95%E6%93%8ERIME%EF%BC%88%E5%B0%8F%E7%8B%BC%E6%AF%AB%EF%BC%89+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3%EF%BC%88%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%89/"/>
+    <id>https://andi.wang/2026/08/02/%E4%B8%AD%E5%B7%9E%E9%9F%B5%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%95%E6%93%8ERIME%EF%BC%88%E5%B0%8F%E7%8B%BC%E6%AF%AB%EF%BC%89+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3%EF%BC%88%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%89/</id>
+    <published>2026-08-02T09:01:10.000Z</published>
+    <updated>2026-08-02T09:25:33.762Z</updated>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;更新时间&quot;&gt;&lt;a href=&quot;#更新时间&quot; class=&quot;headerlink&quot; title=&quot;更新时间&quot;&gt;&lt;/a&gt;更新时间&lt;/h2&gt;&lt;p&gt;2026.08.02&lt;/p&gt;
+&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;中州韵是输入法引擎&lt;br&gt;小狼毫是windows下的程序前端&lt;br&gt;雾凇拼音是双排配置方案&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="电脑技巧" scheme="https://andi.wang/tags/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>自己做简单装修和一些思考</title>
@@ -828,7 +849,7 @@
     <link href="https://andi.wang/2023/12/29/%E5%87%A0%E7%A7%8D%E8%BF%90%E5%8A%A8%E7%9A%84%E6%A0%B8%E5%BF%83%E5%85%B3%E9%94%AE%E7%82%B9/"/>
     <id>https://andi.wang/2023/12/29/%E5%87%A0%E7%A7%8D%E8%BF%90%E5%8A%A8%E7%9A%84%E6%A0%B8%E5%BF%83%E5%85%B3%E9%94%AE%E7%82%B9/</id>
     <published>2023-12-29T07:20:25.000Z</published>
-    <updated>2026-07-11T09:51:22.630Z</updated>
+    <updated>2026-07-15T05:37:15.213Z</updated>
     
     
     <summary type="html">&lt;p&gt;羽毛球，弹弓，拉力赛车游戏，摩托车。&lt;br&gt;几个让人豁然开朗的关键问题。&lt;/p&gt;</summary>
@@ -929,7 +950,7 @@
     <link href="https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/"/>
     <id>https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</id>
     <published>2023-11-20T06:48:55.000Z</published>
-    <updated>2026-01-11T10:36:43.148Z</updated>
+    <updated>2026-07-31T15:30:20.654Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -1040,27 +1061,6 @@
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     
     <category term="红楼梦" scheme="https://andi.wang/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SciTE文本编辑器配置</title>
-    <link href="https://andi.wang/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/"/>
-    <id>https://andi.wang/2023/01/29/SciTE%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E9%85%8D%E7%BD%AE/</id>
-    <published>2023-01-29T12:55:01.000Z</published>
-    <updated>2025-04-15T15:54:49.233Z</updated>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;更新日期&quot;&gt;&lt;a href=&quot;#更新日期&quot; class=&quot;headerlink&quot; title=&quot;更新日期&quot;&gt;&lt;/a&gt;更新日期&lt;/h2&gt;&lt;p&gt;2024.09.20&lt;/p&gt;
-&lt;p&gt;打开Options - Open User Options File，填写下面的代码&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://andi.wang/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="电脑技巧" scheme="https://andi.wang/tags/%E7%94%B5%E8%84%91%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
