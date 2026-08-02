@@ -6,7 +6,7 @@
   <link href="https://andi.wang/atom.xml" rel="self"/>
   
   <link href="https://andi.wang/"/>
-  <updated>2026-08-02T09:25:33.762Z</updated>
+  <updated>2026-08-02T09:30:07.288Z</updated>
   <id>https://andi.wang/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://andi.wang/2026/08/02/%E4%B8%AD%E5%B7%9E%E9%9F%B5%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%95%E6%93%8ERIME%EF%BC%88%E5%B0%8F%E7%8B%BC%E6%AF%AB%EF%BC%89+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3%EF%BC%88%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%89/"/>
     <id>https://andi.wang/2026/08/02/%E4%B8%AD%E5%B7%9E%E9%9F%B5%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%95%E6%93%8ERIME%EF%BC%88%E5%B0%8F%E7%8B%BC%E6%AF%AB%EF%BC%89+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3%EF%BC%88%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%89/</id>
     <published>2026-08-02T09:01:10.000Z</published>
-    <updated>2026-08-02T09:25:33.762Z</updated>
+    <updated>2026-08-02T09:30:07.288Z</updated>
     
     
     <summary type="html">&lt;hr&gt;
@@ -504,11 +504,11 @@
     <category term="程序" scheme="https://andi.wang/categories/%E7%A8%8B%E5%BA%8F/"/>
     
     
+    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
+    
     <category term="html" scheme="https://andi.wang/tags/html/"/>
     
     <category term="投资" scheme="https://andi.wang/tags/%E6%8A%95%E8%B5%84/"/>
-    
-    <category term="javascript" scheme="https://andi.wang/tags/javascript/"/>
     
   </entry>
   
