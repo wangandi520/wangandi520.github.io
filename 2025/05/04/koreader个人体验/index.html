@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 8.1.2">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="更新日期2026.09.12目前仍不建议一般用户使用。 最后总结第N次尝试使用失败，主要是缺少这几个功能：  webdav同步阅读进度，看官方的说明里写了有，硬是没找到，只有个koreader服务器。尝试安装docker的sync服务器失败。  完成的功能之前使用过几次koreader，每次都因为使用方式很别扭放弃了这次详细使用一下，把各种奇葩设置修改成更现代的操作方式">
+<meta property="og:type" content="article">
+<meta property="og:title" content="koreader个人体验">
+<meta property="og:url" content="https://andi.wang/2025/05/04/koreader%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/index.html">
+<meta property="og:site_name" content="Andy&#39;s word">
+<meta property="og:description" content="更新日期2026.09.12目前仍不建议一般用户使用。 最后总结第N次尝试使用失败，主要是缺少这几个功能：  webdav同步阅读进度，看官方的说明里写了有，硬是没找到，只有个koreader服务器。尝试安装docker的sync服务器失败。  完成的功能之前使用过几次koreader，每次都因为使用方式很别扭放弃了这次详细使用一下，把各种奇葩设置修改成更现代的操作方式">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-05-04T13:11:24.000Z">
+<meta property="article:modified_time" content="2026-09-12T15:35:14.165Z">
+<meta property="article:author" content="Andy">
+<meta property="article:tag" content="koreader">
+<meta property="article:tag" content="阅读">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://andi.wang/2025/05/04/koreader%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://andi.wang/2025/05/04/koreader%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/","path":"2025/05/04/koreader个人体验/","title":"koreader个人体验"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>koreader个人体验 | Andy's word</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Andy's word</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">如果我会发光，就不必害怕黑暗。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+		  <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
+      src="/images/avatar.png"></a>
+</div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F"><span class="nav-number">1.</span> <span class="nav-text">更新日期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%80%E5%90%8E%E6%80%BB%E7%BB%93"><span class="nav-number">2.</span> <span class="nav-text">最后总结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%8C%E6%88%90%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="nav-number">3.</span> <span class="nav-text">完成的功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%89%93%E5%BC%80koreader"><span class="nav-number">4.</span> <span class="nav-text">第一次打开koreader</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%95%8C%E9%9D%A2"><span class="nav-number">5.</span> <span class="nav-text">界面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-number">6.</span> <span class="nav-text">设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9-sdr%E6%96%87%E4%BB%B6%E5%A4%B9%E4%BD%8D%E7%BD%AE"><span class="nav-number">6.1.</span> <span class="nav-text">修改.sdr文件夹位置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E8%BF%94%E5%9B%9E%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="nav-number">6.2.</span> <span class="nav-text">文件浏览器中返回的功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E4%BD%93%E5%AD%97%E4%BD%93"><span class="nav-number">6.3.</span> <span class="nav-text">字体字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E7%82%B9%E5%87%BB%E5%B1%8F%E5%B9%95%E5%9B%9B%E4%B8%AA%E8%A7%92%E8%90%BD%E7%9A%84%E5%8A%9F%E8%83%BD"><span class="nav-number">6.4.</span> <span class="nav-text">设置点击屏幕四个角落的功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#webdav%E5%90%8C%E6%AD%A5"><span class="nav-number">6.5.</span> <span class="nav-text">webdav同步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%9D%E5%AD%98%E5%BD%93%E5%89%8D%E8%AE%BE%E7%BD%AE"><span class="nav-number">6.6.</span> <span class="nav-text">保存当前设置</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+	<a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
+	  src="/images/avatar.png"></a>
+  <p class="site-author-name" itemprop="name">Andy</p>
+  <div class="site-description" itemprop="description">阅读音乐运动极客</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">66</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">92</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wangandi520" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>github</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1952945" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
+      </span>
+  </div>
+
+		   
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="/guitar" title="&#x2F;guitar">吉他和弦生成</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/mahjongtab" title="&#x2F;mahjongtab">麻将牌谱生成</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/mahjong-calc" title="&#x2F;mahjong-calc">麻将点数计算</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/majiang" title="&#x2F;majiang">单机电脑麻将</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/stock" title="&#x2F;stock">股票投资行情</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528" title="https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;11eu_MVZZZR-gP_lTDOICUA?pwd&#x3D;p528" rel="noopener" target="_blank">漫画补页下载</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://github.com/wangandi520/andyspythonscript" title="https:&#x2F;&#x2F;github.com&#x2F;wangandi520&#x2F;andyspythonscript" rel="noopener" target="_blank">漫画整理脚本</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://andi.wang/go?id=76" title="https:&#x2F;&#x2F;andi.wang&#x2F;go?id&#x3D;76">所有网盘分享</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/go" title="&#x2F;go">文章短链接</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://andi.wang/2025/05/04/koreader%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Andy">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Andy's word">
+      <meta itemprop="description" content="阅读音乐运动极客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="koreader个人体验 | Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          koreader个人体验
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-05-04 21:11:24" itemprop="dateCreated datePublished" datetime="2025-05-04T21:11:24+08:00">2025-05-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2026-09-12 23:35:14" itemprop="dateModified" datetime="2026-09-12T23:35:14+08:00">2026-09-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9E%81%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">极客</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>992</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.09.12<br>目前仍不建议一般用户使用。</p>
+<h2 id="最后总结"><a href="#最后总结" class="headerlink" title="最后总结"></a>最后总结</h2><p>第N次尝试使用失败，主要是缺少这几个功能：</p>
+<ol>
+<li>webdav同步阅读进度，看官方的说明里写了有，硬是没找到，只有个koreader服务器。尝试安装docker的sync服务器失败。</li>
+</ol>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>之前使用过几次koreader，每次都因为使用方式很别扭放弃了<br>这次详细使用一下，把各种奇葩设置修改成更现代的操作方式</p>
+<span id="more"></span>
+
+<h2 id="第一次打开koreader"><a href="#第一次打开koreader" class="headerlink" title="第一次打开koreader"></a>第一次打开koreader</h2><p>选择存放书的目录，长按，设置为主目录<br>点屏幕上方中间“KOReader”，初始界面：最近阅读（历史记录，或者其他）<br>再次修改，阅读时，文件浏览器，点屏幕上方中间“KOReader”<br>选一本书进入阅读界面</p>
+<h2 id="界面"><a href="#界面" class="headerlink" title="界面"></a>界面</h2><p>阅读界面，点屏幕上部，上半部分是程序设置，下半部分是排版设置。点击下半部分，上半部分就会隐藏<br>上半部分最上面的图标依次是：<br><strong>导航（书签图标），排版（纸张图标），设置（齿轮图标），工具（扳手图标），搜索（放大镜图标），文件浏览器（抽屉图标），主菜单（三横）</strong></p>
+<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><h3 id="修改-sdr文件夹位置"><a href="#修改-sdr文件夹位置" class="headerlink" title="修改.sdr文件夹位置"></a>修改.sdr文件夹位置</h3><p>默认情况下，每本书的标注和一些信息会保存在书籍同目录，这样就显得很乱。<br>设置，文档，书籍元数据文件夹，选择第二项或第三</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/storage/emulated/0/koreader/docsettings</span><br><span class="line">/storage/emulated/0/koreader/hashocsettings</span><br></pre></td></tr></table></figure>
+
+<p>这个没法自定义地址也是离谱</p>
+<h3 id="文件浏览器中返回的功能"><a href="#文件浏览器中返回的功能" class="headerlink" title="文件浏览器中返回的功能"></a>文件浏览器中返回的功能</h3><p>设置，当行，在文件浏览器中按下返回键：进入父文件夹。</p>
+<h3 id="字体字体"><a href="#字体字体" class="headerlink" title="字体字体"></a>字体字体</h3><p>没找到设置字体文件夹的方法，需要把自己的字体复制到&#x2F;koreader&#x2F;fonts文件夹中<br>设置字体：排版，字体，我选的思源宋体是source han serif sc</p>
+<h3 id="设置点击屏幕四个角落的功能"><a href="#设置点击屏幕四个角落的功能" class="headerlink" title="设置点击屏幕四个角落的功能"></a>设置点击屏幕四个角落的功能</h3><p>设置，点击与手势，手势管理，点击角落<br>左上，阅读器，目录，目录<br>右上，一般，文件浏览器<br>左下，一般，历史记录<br>右下，设备，退出koreader</p>
+<h3 id="webdav同步"><a href="#webdav同步" class="headerlink" title="webdav同步"></a>webdav同步</h3><p>只能同步阅读统计，没法同步进度<br>工具，阅读统计，设置，云同步，添加服务，左上角加号，webdav<br>服务器显示名称：随便填<br>webdav地址：<a target="_blank" rel="noopener" href="http://192.168.1.修改地址:51234/">http://192.168.1.修改地址:51234</a><br>用户名密码按自己的填写<br>服务器搭建攻略<a href="https://andi.wang/go?id=24">https://andi.wang/go?id=24</a></p>
+<h3 id="保存当前设置"><a href="#保存当前设置" class="headerlink" title="保存当前设置"></a>保存当前设置</h3><p>排版，文档设置，保存文档设置为默认。<br>如果不进行这项，打开别的书还会是软件最初的状态。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/weixin.png" alt="Andy 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="Andy 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Andy
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://andi.wang/2025/05/04/koreader%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/" title="koreader个人体验">https://andi.wang/2025/05/04/koreader个人体验/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E9%98%85%E8%AF%BB/" rel="tag"># 阅读</a>
+              <a href="/tags/koreader/" rel="tag"># koreader</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/04/22/hexo%E7%94%9F%E6%88%90%E7%9F%AD%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%AC%E9%A1%B5%E9%9D%A2%E4%B8%8D%E4%BF%AE%E6%94%B9%E5%8E%9F%E7%BB%93%E6%9E%84/" rel="prev" title="hexo生成短链接跳转页面不修改原结构">
+                  <i class="fa fa-angle-left"></i> hexo生成短链接跳转页面不修改原结构
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2025/05/08/ndsi%E6%97%A0%E7%83%A7%E5%BD%95%E5%8D%A1%E5%88%B7TWiLightMenu%E8%BF%87%E7%A8%8B/" rel="next" title="ndsi无烧录卡刷TWiLightMenu过程">
+                  ndsi无烧录卡刷TWiLightMenu过程 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2017 – 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Andy</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wangandi520","repo":"wangandi520.github.io","client_id":"4608a30c8bf01d212dc2","client_secret":"1728dfa6fb7625b83daa2e898ab26b0b82d475f2","admin_user":"wangandi520","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":["zh-CN","zh-TW","en"],"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"7b47b0a9583e1bc25f68439e063bf76c"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>

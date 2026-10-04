@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 8.1.2">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="更新日期2026.10.03 术语9个方向↑↓←→↖↗↙↘按小键盘数字从下到上，左到右依次是123456789每一行代表一种按法弹，指的是按一下马上抬起来按住，指的是一直按住不抬起来 2x代表2次，2xLP是按2次轻拳，2LP是蹲着按1次轻拳2代表蹲8代表跳 方向输入7（↖）	8（↑）	9（↗）4（←）	5（空）	6（→）1（↙）	2（↓）	3（↘） 按键标识P（Punch，拳） K（Kick，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="街霸6和hitbox技巧">
+<meta property="og:url" content="https://andi.wang/2026/10/03/%E8%A1%97%E9%9C%B86%E5%92%8Chitbox%E6%8A%80%E5%B7%A7/index.html">
+<meta property="og:site_name" content="Andy&#39;s word">
+<meta property="og:description" content="更新日期2026.10.03 术语9个方向↑↓←→↖↗↙↘按小键盘数字从下到上，左到右依次是123456789每一行代表一种按法弹，指的是按一下马上抬起来按住，指的是一直按住不抬起来 2x代表2次，2xLP是按2次轻拳，2LP是蹲着按1次轻拳2代表蹲8代表跳 方向输入7（↖）	8（↑）	9（↗）4（←）	5（空）	6（→）1（↙）	2（↓）	3（↘） 按键标识P（Punch，拳） K（Kick，">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-10-03T15:30:01.000Z">
+<meta property="article:modified_time" content="2026-10-03T15:46:42.563Z">
+<meta property="article:author" content="Andy">
+<meta property="article:tag" content="hitbox">
+<meta property="article:tag" content="街霸6">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://andi.wang/2026/10/03/%E8%A1%97%E9%9C%B86%E5%92%8Chitbox%E6%8A%80%E5%B7%A7/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://andi.wang/2026/10/03/%E8%A1%97%E9%9C%B86%E5%92%8Chitbox%E6%8A%80%E5%B7%A7/","path":"2026/10/03/街霸6和hitbox技巧/","title":"街霸6和hitbox技巧"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>街霸6和hitbox技巧 | Andy's word</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Andy's word</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">如果我会发光，就不必害怕黑暗。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+		  <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
+      src="/images/avatar.png"></a>
+</div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F"><span class="nav-number">1.</span> <span class="nav-text">更新日期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AF%E8%AF%AD"><span class="nav-number">2.</span> <span class="nav-text">术语</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hitbox%E6%8C%89%E9%94%AE%E6%8C%89%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">Hitbox按键按法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hitbox%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7"><span class="nav-number">4.</span> <span class="nav-text">Hitbox固件升级</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD"><span class="nav-number">4.1.</span> <span class="nav-text">下载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%87%E7%BA%A7%E6%96%B9%E6%B3%95"><span class="nav-number">4.2.</span> <span class="nav-text">升级方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">4.3.</span> <span class="nav-text">其他</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mod%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8"><span class="nav-number">5.</span> <span class="nav-text">mod安装使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%AD%E4%B9%B0dlc%E4%BA%BA%E7%89%A9"><span class="nav-number">6.</span> <span class="nav-text">购买dlc人物</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8D%E7%9F%A5%E7%81%AB%E8%88%9E%E7%9B%B8%E5%85%B3"><span class="nav-number">7.</span> <span class="nav-text">不知火舞相关</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%9E%E6%AE%B5"><span class="nav-number">7.1.</span> <span class="nav-text">连段</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A1%AE%E5%8F%8D%E5%BA%B7"><span class="nav-number">7.2.</span> <span class="nav-text">确反康</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%89%E5%BF%8D%E7%84%B0"><span class="nav-number">7.3.</span> <span class="nav-text">有忍焰</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A0%E6%96%97%E6%B0%94"><span class="nav-number">7.4.</span> <span class="nav-text">加斗气</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96-1"><span class="nav-number">7.5.</span> <span class="nav-text">其他</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+	<a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
+	  src="/images/avatar.png"></a>
+  <p class="site-author-name" itemprop="name">Andy</p>
+  <div class="site-description" itemprop="description">阅读音乐运动极客</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">66</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">92</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wangandi520" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>github</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1952945" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
+      </span>
+  </div>
+
+		   
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="/guitar" title="&#x2F;guitar">吉他和弦生成</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/mahjongtab" title="&#x2F;mahjongtab">麻将牌谱生成</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/mahjong-calc" title="&#x2F;mahjong-calc">麻将点数计算</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/majiang" title="&#x2F;majiang">单机电脑麻将</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/stock" title="&#x2F;stock">股票投资行情</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528" title="https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;11eu_MVZZZR-gP_lTDOICUA?pwd&#x3D;p528" rel="noopener" target="_blank">漫画补页下载</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://github.com/wangandi520/andyspythonscript" title="https:&#x2F;&#x2F;github.com&#x2F;wangandi520&#x2F;andyspythonscript" rel="noopener" target="_blank">漫画整理脚本</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://andi.wang/go?id=76" title="https:&#x2F;&#x2F;andi.wang&#x2F;go?id&#x3D;76">所有网盘分享</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/go" title="&#x2F;go">文章短链接</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://andi.wang/2026/10/03/%E8%A1%97%E9%9C%B86%E5%92%8Chitbox%E6%8A%80%E5%B7%A7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Andy">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Andy's word">
+      <meta itemprop="description" content="阅读音乐运动极客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="街霸6和hitbox技巧 | Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          街霸6和hitbox技巧
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-10-03 23:30:01 / 修改时间：23:46:42" itemprop="dateCreated datePublished" datetime="2026-10-03T23:30:01+08:00">2026-10-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%B8%B8%E6%88%8F/" itemprop="url" rel="index"><span itemprop="name">游戏</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.8k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.03</p>
+<h2 id="术语"><a href="#术语" class="headerlink" title="术语"></a>术语</h2><p>9个方向↑↓←→↖↗↙↘按小键盘数字从下到上，左到右依次是123456789<br>每一行代表一种按法<br>弹，指的是按一下马上抬起来<br>按住，指的是一直按住不抬起来</p>
+<p>2x代表2次，2xLP是按2次轻拳，2LP是蹲着按1次轻拳<br>2代表蹲<br>8代表跳</p>
+<p>方向输入<br>7（↖）	8（↑）	9（↗）<br>4（←）	5（空）	6（→）<br>1（↙）	2（↓）	3（↘）</p>
+<p>按键标识<br>P（Punch，拳） K（Kick，脚）<br>L（Light，轻） M（Medium，中） H（Heavy，重）<br>LP轻拳	MP中拳	HP重拳<br>LK轻脚	MK中脚	HK重脚</p>
+<p>OD：Overdrive，斗气加强技，同时按两拳或两脚<br>SA：Super Art，超必杀技<br>DI：Drive Impact，斗气迸发，重拳+重腿<br>DP：Driver Parry，斗气招架，蓝防，轻拳+轻腿<br>DR：Drive Rush，斗气冲锋，绿冲，中拳中脚同时按，或者设置单一按键，6+DR+6或者按住DR，66。裸绿冲不能按方向键。<br>CH：Counter Hit，打康，对手出招时命中对手<br>PC：Punish Counter，确反康，对手硬直7时命中对手</p>
+<span id="more"></span>
+
+<h2 id="Hitbox按键按法"><a href="#Hitbox按键按法" class="headerlink" title="Hitbox按键按法"></a>Hitbox按键按法</h2><p>↓→↘，升龙，3种按法，推荐前两种<br>628按住，8和拳脚同时按<br>2按住点2下6<br>6按住轻点2，2抬起后按拳脚</p>
+<p>↓↘→，必杀技<br>268按住，8和拳脚同时按</p>
+<p>↓↘→↓↘→，超级杀技，3种按法，推荐前两种<br>2按住6868，2可以一直按住，最后8抬起来后再按拳脚<br>2按住，6按住，2抬起，弹24，弹起后再按拳脚。6不能提前按住<br>6按住2424<br>按不出来的话，拳脚适当慢点，在方向都抬起后再按</p>
+<p>360度<br>426依次按住，42抬起6按住，8</p>
+<h2 id="Hitbox固件升级"><a href="#Hitbox固件升级" class="headerlink" title="Hitbox固件升级"></a>Hitbox固件升级</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a target="_blank" rel="noopener" href="https://github.com/OpenStickCommunity/GP2040-CE/releases">https://github.com/OpenStickCommunity/GP2040-CE/releases</a><br>DOIO H06M下载GP2040-CE_0.7.12_Pico.uf2<br>RTU2025大师版下载GP2040-CE_0.7.12_Pico.uf2<br>Haute42 S16-C下载GP2040-CE_0.7.12_Haute42COSMOX.uf2</p>
+<h3 id="升级方法"><a href="#升级方法" class="headerlink" title="升级方法"></a>升级方法</h3><p>按住back+start+上，三个键，同时插入usb线<br>电脑出现u盘<br>把flash_nuke.uf2文件复制进去，设备自动重启后（RTU2025大师版跳过这一步）<br>等u盘图标再次出现，把对应的.uf2复制进去，设备自动升级完成</p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>RTU2025大师版升级后显示屏有些错乱，在网页配置（按住start键插入usb线）模式，功能配置，显示屏配置，布局选项，按钮布局左侧和右侧，都选择Stickless 16<br>如果出现其他错误，再usb刷原版固件就可以，可能在客服QQ群拿到</p>
+<h2 id="mod安装使用"><a href="#mod安装使用" class="headerlink" title="mod安装使用"></a>mod安装使用</h2><p><a target="_blank" rel="noopener" href="https://sf6cm.sctrip.asia/#downloads">https://sf6cm.sctrip.asia/#downloads</a><br>点击“下载 Windows Client”，下载exe到任意位置，运行<br>点击“下载 MOD 完整包”到街霸6目录，dinput8.dll，reframework文件夹和游戏的StreetFighter6.exe在同一级<br>开始游戏，进入训练模式<br><a target="_blank" rel="noopener" href="https://sf6cm.sctrip.asia/classic-combos%EF%BC%8C%E9%80%89%E6%8B%A9%E8%BF%9E%E6%AE%B5%EF%BC%8C%E5%AE%89%E8%A3%85">https://sf6cm.sctrip.asia/classic-combos，选择连段，安装</a><br>游戏上方，连段训练<br>游戏下方，刷新列表，开始训练</p>
+<h2 id="购买dlc人物"><a href="#购买dlc人物" class="headerlink" title="购买dlc人物"></a>购买dlc人物</h2><p>单买一个人物：选择人物时，选入手角色，使用Fighter Coin，前往steam商店，是，充值35元就可以了</p>
+<h2 id="不知火舞相关"><a href="#不知火舞相关" class="headerlink" title="不知火舞相关"></a>不知火舞相关</h2><h3 id="连段"><a href="#连段" class="headerlink" title="连段"></a>连段</h3><p>2LP 3xLK<br>8LK 3xLK<br>OD龙炎舞 忍蜂、DP、SA<br>HP OD扇 HP 忍蜂<br>DR 4HK<br>DR 2MP HP 忍蜂、DP<br>2MK DR 4HK 2MP DR HK 2MP 龙炎舞 忍蜂 SA<br>3xP HDP<br>LP 忍蜂<br>H龙炎舞 忍蜂<br>H龙炎舞 DP<br>3x2LP L忍蜂&#x2F;HDP<br>2x2LK LP L忍蜂&#x2F;HDP<br>DR 2LK 2MP<br>8HK HP</p>
+<h3 id="确反康"><a href="#确反康" class="headerlink" title="确反康"></a>确反康</h3><p>HK：DR HP H龙炎舞 L忍蜂 LDP</p>
+<h3 id="有忍焰"><a href="#有忍焰" class="headerlink" title="有忍焰"></a>有忍焰</h3><p>3xLK H空箭 HDP</p>
+<h3 id="加斗气"><a href="#加斗气" class="headerlink" title="加斗气"></a>加斗气</h3><p>HK<br>L龙炎舞<br>HP+L扇，对手动作时HK，全套：站重脚（确反康），绿冲，站重手，重龙炎舞，轻忍蜂，板边轻升龙<br>HP+S蓄力扇+HK+扇子落下后HK</p>
+<h3 id="其他-1"><a href="#其他-1" class="headerlink" title="其他"></a>其他</h3><p>2MP LP 2MK L龙炎舞<br>升龙后绿冲<br>空中超必杀，使用↓↘→↓↘→的第三种按法，最后K和↑一起按<br>后退受身：倒地时按住后+下+2个腿<br>2MK DR 4HK<br>前前（大前走跳） 2MK<br>MP DR 4HK 2MP H龙炎舞 前前（前走） 6MP（或投）、<br>投 前前（前走） 2LK 投<br>蓄力中或轻扇 DR</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/weixin.png" alt="Andy 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="Andy 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Andy
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://andi.wang/2026/10/03/%E8%A1%97%E9%9C%B86%E5%92%8Chitbox%E6%8A%80%E5%B7%A7/" title="街霸6和hitbox技巧">https://andi.wang/2026/10/03/街霸6和hitbox技巧/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E8%A1%97%E9%9C%B86/" rel="tag"># 街霸6</a>
+              <a href="/tags/hitbox/" rel="tag"># hitbox</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2026/08/02/%E4%B8%AD%E5%B7%9E%E9%9F%B5%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%95%E6%93%8ERIME%EF%BC%88%E5%B0%8F%E7%8B%BC%E6%AF%AB%EF%BC%89+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3%EF%BC%88%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%EF%BC%89/" rel="prev" title="中州韵输入法引擎RIME（小狼毫）+雾凇拼音（小鹤双拼）">
+                  <i class="fa fa-angle-left"></i> 中州韵输入法引擎RIME（小狼毫）+雾凇拼音（小鹤双拼）
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2017 – 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Andy</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wangandi520","repo":"wangandi520.github.io","client_id":"4608a30c8bf01d212dc2","client_secret":"1728dfa6fb7625b83daa2e898ab26b0b82d475f2","admin_user":"wangandi520","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":["zh-CN","zh-TW","en"],"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"eba00e09be74bec6c39acb9c0df90ecd"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>
