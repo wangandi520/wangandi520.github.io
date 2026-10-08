@@ -11,7 +11,7 @@
   <rights>All rights reserved 2026, Andy</rights>
   <subtitle>如果我会发光，就不必害怕黑暗。</subtitle>
   <title>Andy's word</title>
-  <updated>2026-10-06T14:31:33.505Z</updated>
+  <updated>2026-10-08T07:50:08.163Z</updated>
   <entry>
     <author>
       <name>Andy</name>
@@ -24,15 +24,15 @@
     <published>2026-10-03T15:30:01.000Z</published>
     <summary>
       <![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.03</p>
-<h2 id="术语"><a href="#术语" class="headerlink" title="术语"></a>术语</h2><p>9个方向↑↓←→↖↗↙↘按小键盘数字从下到上，左到右依次是123456789<br>每一行代表一种按法<br>弹，指的是按一下马上抬起来<br>按住，指的是一直按住不抬起来</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.08</p>
+<h2 id="格斗游戏术语"><a href="#格斗游戏术语" class="headerlink" title="格斗游戏术语"></a>格斗游戏术语</h2><p>9个方向↑↓←→↖↗↙↘按小键盘数字从下到上，左到右依次是123456789<br>每一行代表一种按法<br>弹，指的是按一下马上抬起来<br>按住，指的是一直按住不抬起来</p>
 <p>2x代表2次，2xLP是按2次轻拳，2LP是蹲着按1次轻拳<br>2代表蹲<br>8代表跳</p>
 <p>方向输入<br>7（↖）	8（↑）	9（↗）<br>4（←）	5（空）	6（→）<br>1（↙）	2（↓）	3（↘）</p>
 <p>按键标识<br>P（Punch，拳） K（Kick，脚）<br>L（Light，轻） M（Medium，中） H（Heavy，重）<br>LP轻拳	MP中拳	HP重拳<br>LK轻脚	MK中脚	HK重脚</p>
-<p>OD：Overdrive，斗气加强技，同时按两拳或两脚<br>SA：Super Art，超必杀技<br>DI：Drive Impact，斗气迸发，重拳+重腿<br>DP：Driver Parry，斗气招架，蓝防，轻拳+轻腿<br>DR：Drive Rush，斗气冲锋，绿冲，中拳中脚同时按，或者设置单一按键，6+DR+6或者按住DR，66。裸绿冲不能按方向键。<br>CH：Counter Hit，打康，对手出招时命中对手<br>PC：Punish Counter，确反康，对手硬直7时命中对手</p>]]>
+<p>OD：Overdrive，斗气加强技，同时按两拳或两脚<br>SA：Super Art，超必杀技<br>DI：Drive Impact，斗气迸发，重拳重腿同时按，或者设置单一按键<br>DP：Driver Parry，斗气招架，蓝防，轻拳轻腿同时按，或者设置单一按键<br>DR：Drive Rush，斗气冲锋，绿冲，中拳中脚同时按，或者设置单一按键，6+DR+6或者按住DR，66。裸绿冲不能按方向键。<br>CH：Counter Hit，打康，对手出招时命中对手<br>PC：Punish Counter，确反康，对手硬直时命中对手</p>]]>
     </summary>
     <title>街霸6和hitbox技巧</title>
-    <updated>2026-10-06T14:31:33.505Z</updated>
+    <updated>2026-10-08T07:50:08.163Z</updated>
   </entry>
   <entry>
     <author>
@@ -165,10 +165,10 @@
 <h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.25</p>
 <h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用烧录卡，只用sd卡（tf+卡套，或sd卡，后面简写成sd卡）玩游戏<br>游戏roms通过网上下载，存到sd卡上<br>支持的平台参照TWiLightMenu-DSi.7z中的roms文件夹</p>
 <h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，其他机型适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
-<h2 id="闲鱼收的机器情况"><a href="#闲鱼收的机器情况" class="headerlink" title="闲鱼收的机器情况"></a>闲鱼收的机器情况</h2><p>350元白色，外壳没划痕没污渍，也没发黄<br>a面有液体擦试过的痕迹<br>下屏轻微发黄，贴膜撕掉后全是划痕<br>上屏撕掉贴膜，有5粒很大的灰尘在屏幕里，清理不了</p>]]>
+<h2 id="闲鱼收的机器情况"><a href="#闲鱼收的机器情况" class="headerlink" title="闲鱼收的机器情况"></a>闲鱼收的机器情况</h2><p>350元白色，外壳没划痕没污渍，也没发黄<br>a面有液体擦试过的痕迹<br>下屏轻微发黄，贴膜撕掉后全是划痕<br>上屏撕掉贴膜，有5粒很大的灰尘在屏幕里，拆掉外壳后清理干净</p>]]>
     </summary>
     <title>ndsi无烧录卡刷TWiLightMenu过程</title>
-    <updated>2025-05-25T07:45:42.151Z</updated>
+    <updated>2026-10-07T06:32:05.134Z</updated>
   </entry>
   <entry>
     <author>
