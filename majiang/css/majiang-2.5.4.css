@@ -180,16 +180,25 @@ body.title > .version {
   color: #fff;
   background: #00f;
 }
-#title .login img {
-  width: 1.2em;
-  vertical-align: middle;
-}
 #title .login form:not(.local) input[type="submit"] {
   width: 120px;
   border: none;
   background: none;
   text-align: left;
   padding: 0;
+}
+#title .login .logo {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: text-bottom;
+  background-size: cover;
+}
+#title .login .hatena .logo {
+  background-image: url("https://www.hatena.ne.jp/p/images/favicon.ico");
+}
+#title .login .google .logo {
+  background-image: url("https://www.google.com/favicon.ico");
 }
 body.board {
   color: #fff;
