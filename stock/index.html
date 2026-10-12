@@ -164,21 +164,23 @@
 			})
 
 			$.ajax({
-				dataType: 'script',
-				url: 'https://hq.sinajs.cn/list=' + code,
-				cache: true,
-				async: false,
-				// headers: {'X-Alt-Referer': 'https://finance.sina.com.cn/stock' },
-				headers: {"X-Alt-Referer":"https://finance.sina.com.cn/stock"},
-				//headers: {"Referer":"https://finance.sina.com.cn/stock"},
-				success: function () {
-					var result = '';
-					var elements = new Array();
-					result = eval('hq_str_' + code);
+				dataType: 'json',
+				url: 'http://127.0.0.1:3000/api/sina-quote?code=' + encodeURIComponent(code),
+				cache: false,
+				success: function (response) {
+					var result = response.result;
+					var elements = [];
+					if (typeof result !== 'string' || result.length === 0) {
+						console.error('新浪行情数据为空或格式不正确');
+						return;
+					}
 					var oldInfo = $('#oldInfo').html();
 					elements = result.split(',');
 					writeToHtml(code, elements, mode, oldInfo, result);
 					//console.log(elements);
+				},
+				error: function (xhr) {
+					console.error('行情请求失败，请确认本机代理已启动。', xhr.status, xhr.responseText);
 				}
 			});
 
@@ -190,20 +192,23 @@
 			if (code == '')
 				return;
 			$.ajax({
-				dataType: 'script',
-				url: 'https://hq.sinajs.cn/list=' + code,
-				cache: true,
-				async: false,
-				headers: {"X-Alt-Referer":"https://finance.sina.com.cn/stock"},
-				success: function () {
-					//result数据的数组
-					var result = new Array();
-					//code代码的数组
-					for (var i = 0; i < newCode.length; i++) {
-						result[i] = eval("hq_str_" + newCode[i]);
+				dataType: 'json',
+				url: 'http://127.0.0.1:3000/api/sina-quote?code=' + encodeURIComponent(code),
+				cache: false,
+				success: function (response) {
+					var result = response.result;
+					var elements = [];
+					if (typeof result !== 'string' || result.length === 0) {
+						console.error('新浪行情数据为空或格式不正确');
+						return;
 					}
-					writeToMyStock(code, result, mode);
-					//console.log(result);
+					var oldInfo = $('#oldInfo').html();
+					elements = result.split(',');
+					writeToHtml(code, elements, mode, oldInfo, result);
+					//console.log(elements);
+				},
+				error: function (xhr) {
+					console.error('行情请求失败，请确认本机代理已启动。', xhr.status, xhr.responseText);
 				}
 			});
 		}
