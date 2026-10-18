@@ -11,7 +11,30 @@
   <rights>All rights reserved 2026, Andy</rights>
   <subtitle>如果我会发光，就不必害怕黑暗。</subtitle>
   <title>Andy's word</title>
-  <updated>2026-10-10T13:13:23.293Z</updated>
+  <updated>2026-10-18T11:02:41.857Z</updated>
+  <entry>
+    <author>
+      <name>Andy</name>
+    </author>
+    <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
+    <category term="小米14" scheme="https://andi.wang/tags/%E5%B0%8F%E7%B1%B314/"/>
+    <category term="解锁" scheme="https://andi.wang/tags/%E8%A7%A3%E9%94%81/"/>
+    <category term="刷机" scheme="https://andi.wang/tags/%E5%88%B7%E6%9C%BA/"/>
+    <id>https://andi.wang/2026/10/18/%E5%B0%8F%E7%B1%B314%E8%A7%A3%E9%94%81BL%E5%B9%B6%E5%88%B7EU%E7%89%88%E7%B3%BB%E7%BB%9F/</id>
+    <link href="https://andi.wang/2026/10/18/%E5%B0%8F%E7%B1%B314%E8%A7%A3%E9%94%81BL%E5%B9%B6%E5%88%B7EU%E7%89%88%E7%B3%BB%E7%BB%9F/"/>
+    <published>2026-10-18T08:01:08.000Z</published>
+    <summary>
+      <![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.18</p>
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>本教程仅为个人经验分享，刷机失败本人不负任何责任。</p>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用登录小米账户，直接解锁BL<br>刷入eu版系统，eu版是欧洲民间根据中文rom修改的，eea版欧洲官方，这次使用eu版<br>使用到的工具和rom链接，均通过官方链接下载<br><a href="https://pan.baidu.com/s/1GjJseZpMjkZXj0NJMCVELQ?pwd=6nta">https://pan.baidu.com/s/1GjJseZpMjkZXj0NJMCVELQ?pwd=6nta</a></p>
+<h2 id="我的设备"><a href="#我的设备" class="headerlink" title="我的设备"></a>我的设备</h2><p>电脑win11<br>手机国行小米14，系统版本HyperOS 3.0.307.0</p>
+<h2 id="适用人群"><a href="#适用人群" class="headerlink" title="适用人群"></a>适用人群</h2><p>对隐私较敏感，动手理解能力强，爱折腾的</p>
+<h2 id="不适用人群"><a href="#不适用人群" class="headerlink" title="不适用人群"></a>不适用人群</h2><p>依赖小米服务，例如小爱同学，NFC的</p>]]>
+    </summary>
+    <title>小米14解锁BL并刷EU版系统</title>
+    <updated>2026-10-18T11:02:41.857Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Andy</name>
@@ -162,13 +185,13 @@
     <published>2025-05-08T03:15:44.000Z</published>
     <summary>
       <![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2025.05.25</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.13</p>
 <h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用烧录卡，只用sd卡（tf+卡套，或sd卡，后面简写成sd卡）玩游戏<br>游戏roms通过网上下载，存到sd卡上<br>支持的平台参照TWiLightMenu-DSi.7z中的roms文件夹</p>
 <h2 id="需要的设备"><a href="#需要的设备" class="headerlink" title="需要的设备"></a>需要的设备</h2><p>任天堂ndsi，其他机型适用情况未知<br>sd卡，格式化FAT32，分配单元大小32KB</p>
 <h2 id="闲鱼收的机器情况"><a href="#闲鱼收的机器情况" class="headerlink" title="闲鱼收的机器情况"></a>闲鱼收的机器情况</h2><p>350元白色，外壳没划痕没污渍，也没发黄<br>a面有液体擦试过的痕迹<br>下屏轻微发黄，贴膜撕掉后全是划痕<br>上屏撕掉贴膜，有5粒很大的灰尘在屏幕里，拆掉外壳后清理干净</p>]]>
     </summary>
     <title>ndsi无烧录卡刷TWiLightMenu过程</title>
-    <updated>2026-10-07T06:32:05.134Z</updated>
+    <updated>2026-10-13T06:07:07.594Z</updated>
   </entry>
   <entry>
     <author>
@@ -677,8 +700,8 @@
       <name>Andy</name>
     </author>
     <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
-    <category term="y700" scheme="https://andi.wang/tags/y700/"/>
     <category term="刷机" scheme="https://andi.wang/tags/%E5%88%B7%E6%9C%BA/"/>
+    <category term="y700" scheme="https://andi.wang/tags/y700/"/>
     <id>https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</id>
     <link href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
     <published>2024-01-13T09:11:23.000Z</published>
@@ -729,8 +752,8 @@
       <name>Andy</name>
     </author>
     <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
-    <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
     <category term="音乐" scheme="https://andi.wang/tags/%E9%9F%B3%E4%B9%90/"/>
     <category term="电吉他" scheme="https://andi.wang/tags/%E7%94%B5%E5%90%89%E4%BB%96/"/>
     <category term="单车" scheme="https://andi.wang/tags/%E5%8D%95%E8%BD%A6/"/>
@@ -818,23 +841,5 @@
     </summary>
     <title>百年孤独人物关系图（自制）</title>
     <updated>2023-07-20T01:02:23.505Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Andy</name>
-    </author>
-    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
-    <category term="食品" scheme="https://andi.wang/tags/%E9%A3%9F%E5%93%81/"/>
-    <id>https://andi.wang/2023/06/07/%E5%93%81%E7%89%8C%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/</id>
-    <link href="https://andi.wang/2023/06/07/%E5%93%81%E7%89%8C%E5%BA%97%E9%93%BA%E9%A3%9F%E5%93%81%E7%94%A8%E5%93%81/"/>
-    <published>2023-06-07T02:41:57.000Z</published>
-    <summary>
-      <![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.07.12</p>
-<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>如果是连锁店的话，可能只是其中一家有问题。<br>如果是品牌的话，可能只是其中一个产品有问题。</p>
-<h2 id="品牌"><a href="#品牌" class="headerlink" title="品牌"></a>品牌</h2><p><strong>舒肤佳肥皂</strong>：联苯乙烯二苯基二磺酸二钠<br><strong>乐事薯片</strong>：特丁基对苯二酚<br><strong>九牧</strong>：原价400块钱的水龙头阀体是最垃圾的锌合金材质<br><strong>蓝犀牛搬家</strong>：即使是不同师傅，也能看见你上次搬家的订单。<br><strong>贝壳</strong>：省心租。租房时家具全发霉，门拉不动。附带的保洁服务，师傅甚至没带扫把和拖把。租房时，明天拒绝过中介看房，但强行带人来看房。泄露租户手机号码。<br><strong>九号Ninebot</strong>：某5000价位的电动自行车，限速25，但是速度超过15就会滴滴响，客服说关不掉。售后维修单点评5星满我给1星，并选择不要电话回访，结果还是有门店的人打电话来，应该是内部系统里没什么隐私保护。原厂配件腿撑生锈严重。仪表换了两次，一次是屏幕有莫名其妙的像是进水的颜色，一次是提示电池错误，使用的原装电池，换了仪表后正常。<br><strong>捷安特</strong>：某4000价位的山地车，骑行中脚停止踩动，链条会甩一下。30km&#x2F;h以上速度时，前刹会滋滋响，不是刺耳的那种。后轮转动时飞轮有左右位移。店铺说这3种情况都是正常。<br><strong>豪爵</strong>：某1万价位的车，新车原装护杠内侧掉漆，两种情况出厂时剐蹭的，或者店铺剐蹭的，买车的时候工作人员没说。</p>]]>
-    </summary>
-    <title>品牌店铺食品用品</title>
-    <updated>2026-08-25T14:22:02.684Z</updated>
   </entry>
 </feed>
