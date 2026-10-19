@@ -11,7 +11,7 @@
   <rights>All rights reserved 2026, Andy</rights>
   <subtitle>如果我会发光，就不必害怕黑暗。</subtitle>
   <title>Andy's word</title>
-  <updated>2026-10-18T11:02:41.857Z</updated>
+  <updated>2026-10-19T00:30:42.661Z</updated>
   <entry>
     <author>
       <name>Andy</name>
@@ -25,15 +25,15 @@
     <published>2026-10-18T08:01:08.000Z</published>
     <summary>
       <![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.18</p>
-<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>本教程仅为个人经验分享，刷机失败本人不负任何责任。</p>
-<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用登录小米账户，直接解锁BL<br>刷入eu版系统，eu版是欧洲民间根据中文rom修改的，eea版欧洲官方，这次使用eu版<br>使用到的工具和rom链接，均通过官方链接下载<br><a href="https://pan.baidu.com/s/1GjJseZpMjkZXj0NJMCVELQ?pwd=6nta">https://pan.baidu.com/s/1GjJseZpMjkZXj0NJMCVELQ?pwd=6nta</a></p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.19</p>
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>本教程仅为个人经验分享，刷机失败本人不负任何责任。<br>刷机过程会清空手机内所有数据。</p>
+<h2 id="完成的功能"><a href="#完成的功能" class="headerlink" title="完成的功能"></a>完成的功能</h2><p>不用登录小米账户，直接解锁BL<br>刷入eu版系统，eu版是欧洲民间根据中文rom修改的，eea版欧洲官方，这次使用eu版<br>eu版系统无法OTA更新<br>使用到的工具和rom链接，均通过官方链接下载<br><a href="https://pan.baidu.com/s/1GjJseZpMjkZXj0NJMCVELQ?pwd=6nta">https://pan.baidu.com/s/1GjJseZpMjkZXj0NJMCVELQ?pwd=6nta</a></p>
 <h2 id="我的设备"><a href="#我的设备" class="headerlink" title="我的设备"></a>我的设备</h2><p>电脑win11<br>手机国行小米14，系统版本HyperOS 3.0.307.0</p>
 <h2 id="适用人群"><a href="#适用人群" class="headerlink" title="适用人群"></a>适用人群</h2><p>对隐私较敏感，动手理解能力强，爱折腾的</p>
-<h2 id="不适用人群"><a href="#不适用人群" class="headerlink" title="不适用人群"></a>不适用人群</h2><p>依赖小米服务，例如小爱同学，NFC的</p>]]>
+<h2 id="不适用人群"><a href="#不适用人群" class="headerlink" title="不适用人群"></a>不适用人群</h2><p>依赖小米云服务，例如小爱同学，NFC的</p>]]>
     </summary>
     <title>小米14解锁BL并刷EU版系统</title>
-    <updated>2026-10-18T11:02:41.857Z</updated>
+    <updated>2026-10-19T00:30:42.661Z</updated>
   </entry>
   <entry>
     <author>
@@ -752,8 +752,8 @@
       <name>Andy</name>
     </author>
     <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <category term="音乐" scheme="https://andi.wang/tags/%E9%9F%B3%E4%B9%90/"/>
     <category term="电吉他" scheme="https://andi.wang/tags/%E7%94%B5%E5%90%89%E4%BB%96/"/>
     <category term="单车" scheme="https://andi.wang/tags/%E5%8D%95%E8%BD%A6/"/>
