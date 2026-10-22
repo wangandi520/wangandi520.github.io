@@ -163,13 +163,14 @@
     <published>2025-05-10T01:44:25.000Z</published>
     <summary>
       <![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.08.31<br>测试机型：骁龙865，骁龙870，安伯尼克RG DS</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>下面这些模拟器，能日常使用的有retroarch，ppsspp，drastic，ryujinx<br>如果不是为了折腾机器，只为玩游戏，推荐安卓手机平板或者windows平台<br>winodws的ryujinx比所有安卓模拟器都强得多，<a href="https://git.ryujinx.app/ryubing/ryujinx/-/releases">https://git.ryujinx.app/ryubing/ryujinx/-/releases</a><br>游戏流畅度：PC &gt; 安卓手机平板 &gt; 安卓掌机 &gt; linux掌机<br>安卓前端天马，ES-DE不是必须的，只是一个入口</p>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>一些需要的文件分享<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
-<p>模拟器（平台）<br>moonlight+sunshine（串流）<br>NetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>Dophin（任天堂Wii）<br>DraStic（任天堂DS）<br>AzaharPlus（任天堂3DS）<br>eden（任天堂Switch）<br>winlator（微软windows）<br>ryujinx（windows上的switch模拟器）<br>cemu（windows上的wiiu模拟器）</p>]]>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.22<br>测试机型：骁龙865，骁龙870，骁龙8G2，安伯尼克RG DS</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果不是为了折腾机器，只为玩游戏，推荐安卓手机平板或者windows平台<br>我的习惯是不安装前端（例如天马，ES-DE）和整合包，单独下载游戏和模拟器，见下方链接</p>
+<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href="https://coolrom.com/">https://coolrom.com/</a><br><a href="https://romsfun.com/roms/">https://romsfun.com/roms/</a></p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>文件分享:<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
+<p>比较舒适使用的模拟器（被模拟的平台）<br>moonlight+sunshine（电脑+手机串流，安卓玩电脑游戏）<br>NetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>AzaharPlus（任天堂3DS）<br>eden（任天堂Switch）<br>winlator（微软windows）<br>droiddeck（steam）</p>]]>
     </summary>
     <title>安卓掌机模拟器经验</title>
-    <updated>2026-09-02T02:41:16.608Z</updated>
+    <updated>2026-10-22T16:17:41.998Z</updated>
   </entry>
   <entry>
     <author>
@@ -309,6 +310,7 @@
     <category term="rg34xx" scheme="https://andi.wang/tags/rg34xx/"/>
     <category term="rg35xxsp" scheme="https://andi.wang/tags/rg35xxsp/"/>
     <category term="miyoomini" scheme="https://andi.wang/tags/miyoomini/"/>
+    <category term="trimui brick hammer" scheme="https://andi.wang/tags/trimui-brick-hammer/"/>
     <category term="RetroArch" scheme="https://andi.wang/tags/RetroArch/"/>
     <id>https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/</id>
     <link href="https://andi.wang/2025/03/26/%E5%BC%80%E6%BA%90%E6%8E%8C%E6%9C%BA%E5%92%8CRetroArch%E4%B8%AA%E4%BA%BA%E4%BD%93%E9%AA%8C/"/>
@@ -320,7 +322,7 @@
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价安伯尼克rg35xxplus，rg35xxsp，rg34xx，miyoo mini v4。<br><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">相关资源下载</a></p>]]>
     </summary>
     <title>开源掌机和RetroArch个人体验</title>
-    <updated>2026-09-04T07:57:54.096Z</updated>
+    <updated>2026-10-22T06:08:33.184Z</updated>
   </entry>
   <entry>
     <author>
