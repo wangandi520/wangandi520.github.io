@@ -48,14 +48,14 @@
     <summary>
       <![CDATA[<hr>
 <h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.08</p>
-<h2 id="格斗游戏术语"><a href="#格斗游戏术语" class="headerlink" title="格斗游戏术语"></a>格斗游戏术语</h2><p>9个方向↑↓←→↖↗↙↘按小键盘数字从下到上，左到右依次是123456789<br>每一行代表一种按法<br>弹，指的是按一下马上抬起来<br>按住，指的是一直按住不抬起来</p>
-<p>2x代表2次，2xLP是按2次轻拳，2LP是蹲着按1次轻拳<br>2代表蹲<br>8代表跳</p>
+<h2 id="格斗游戏术语"><a href="#格斗游戏术语" class="headerlink" title="格斗游戏术语"></a>格斗游戏术语</h2><p>9个方向↑↓←→↖↗↙↘按小键盘数字从下到上，左到右依次是123456789<br>每一行是一种按法<br>弹，指的是按一下马上抬起来<br>按住，指的是一直按住不抬起来</p>
+<p>2x表示2次，2xLP是按2次轻拳，2LP是蹲着按1次轻拳<br>2表示蹲<br>8表示跳<br>MP&#x2F;MK表示中拳或者中脚</p>
 <p>方向输入<br>7（↖）	8（↑）	9（↗）<br>4（←）	5（空）	6（→）<br>1（↙）	2（↓）	3（↘）</p>
-<p>按键标识<br>P（Punch，拳） K（Kick，脚）<br>L（Light，轻） M（Medium，中） H（Heavy，重）<br>LP轻拳	MP中拳	HP重拳<br>LK轻脚	MK中脚	HK重脚</p>
-<p>OD：Overdrive，斗气加强技，同时按两拳或两脚<br>SA：Super Art，超必杀技<br>DI：Drive Impact，斗气迸发，重拳重腿同时按，或者设置单一按键<br>DP：Driver Parry，斗气招架，蓝防，轻拳轻腿同时按，或者设置单一按键<br>DR：Drive Rush，斗气冲锋，绿冲，中拳中脚同时按，或者设置单一按键，6+DR+6或者按住DR，66。裸绿冲不能按方向键。<br>CH：Counter Hit，打康，对手出招时命中对手<br>PC：Punish Counter，确反康，对手硬直时命中对手</p>]]>
+<p>按键标识<br>P（Punch，拳） K（Kick，脚）<br>L（Light，轻） M（Medium，中） H（Heavy，重）<br>LP轻拳	MP中拳	HP重拳<br>LK轻脚	MK中脚	HK重脚<br>PP任意两个拳同时按<br>KK任意两个脚同时按</p>
+<p>OD：Overdrive，斗气加强技，同时按两拳或两脚<br>SA：Super Art，超必杀技<br>DI：Drive Impact，斗气迸发，重拳重腿同时按，或者设置单一按键<br>DP：Driver Parry，斗气招架，蓝防，轻拳轻腿同时按，或者设置单一按键<br>DR：Drive Rush，斗气冲锋，绿冲，中拳中脚同时按，或者设置单一按键，6+DR+6或者按住DR，66。裸绿冲不能按方向键。<br>CH：Counter Hit，打康，对手出招时命中对手<br>PC：Punish Counter，确反康，对手硬直时命中对手<br>SA：Super Art，超必杀技</p>]]>
     </summary>
     <title>街霸6和hitbox技巧</title>
-    <updated>2026-10-10T13:13:23.293Z</updated>
+    <updated>2026-10-27T04:06:27.386Z</updated>
   </entry>
   <entry>
     <author>
@@ -163,14 +163,14 @@
     <published>2025-05-10T01:44:25.000Z</published>
     <summary>
       <![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.23<br>测试机型：骁龙8Gen2，少部分在骁龙865上</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.10.29<br>测试机型：骁龙8Gen2，少部分在骁龙865上</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果不是为了折腾机器，只为玩游戏，推荐安卓手机平板或者windows平台<br>我的习惯是不安装前端（例如天马，ES-DE）和整合包，单独下载游戏和模拟器，见下方链接</p>
 <h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href="https://coolrom.com/">https://coolrom.com/</a><br><a href="https://romsfun.com/roms/">https://romsfun.com/roms/</a><br><a href="https://nxbrew.net/">https://nxbrew.net/</a><br><a href="https://www.ziperto.com/">https://www.ziperto.com/</a><br>不用加速器的节点推荐DataNodes</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>文件分享:<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
-<p>比较舒适使用的模拟器（被模拟的平台）<br>moonlight+sunshine（电脑+手机串流，安卓玩电脑游戏）<br>NetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>AzaharPlus（任天堂3DS）<br>eden（任天堂Switch）<br>winlator（微软windows）<br>droiddeck（steam）</p>]]>
+<p>比较舒适使用的模拟器（被模拟的平台）<br>moonlight+sunshine（电脑+手机串流，安卓玩电脑游戏）<br>DuckStation（索尼PS1）<br>NetherSX2（索尼PS2）<br>PPSSPP（索尼PSP）<br>DraStic（任天堂DS）<br>AzaharPlus（任天堂3DS）<br>eden（任天堂Switch）<br>winlator（微软windows）<br>droiddeck（steam）</p>]]>
     </summary>
     <title>安卓掌机模拟器经验</title>
-    <updated>2026-10-23T12:11:42.571Z</updated>
+    <updated>2026-10-29T05:57:08.632Z</updated>
   </entry>
   <entry>
     <author>
@@ -322,7 +322,7 @@
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>安伯尼克rg35xxplus使用技巧，RetroArch使用技巧（跨平台）。<br>简单评价安伯尼克rg35xxplus，rg35xxsp，rg34xx，miyoo mini v4。<br><a href="https://pan.baidu.com/s/1Ec_fnVhMSWfCW0Lr3XaMiw?pwd=49uu">相关资源下载</a></p>]]>
     </summary>
     <title>开源掌机和RetroArch个人体验</title>
-    <updated>2026-10-22T06:08:33.184Z</updated>
+    <updated>2026-10-25T02:51:30.587Z</updated>
   </entry>
   <entry>
     <author>
