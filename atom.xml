@@ -11,7 +11,39 @@
   <rights>All rights reserved 2026, Andy</rights>
   <subtitle>如果我会发光，就不必害怕黑暗。</subtitle>
   <title>Andy's word</title>
-  <updated>2026-10-19T00:30:42.661Z</updated>
+  <updated>2026-11-04T15:46:06.856Z</updated>
+  <entry>
+    <author>
+      <name>Andy</name>
+    </author>
+    <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
+    <category term="音频" scheme="https://andi.wang/tags/%E9%9F%B3%E9%A2%91/"/>
+    <category term="音乐" scheme="https://andi.wang/tags/%E9%9F%B3%E4%B9%90/"/>
+    <category term="电钢琴" scheme="https://andi.wang/tags/%E7%94%B5%E9%92%A2%E7%90%B4/"/>
+    <id>https://andi.wang/2026/11/04/%E7%94%B5%E9%92%A2%E7%90%B4%E4%BD%BF%E7%94%A8%E8%BD%AF%E9%9F%B3%E6%BA%90%E5%B9%B6%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E7%9A%84%E9%9F%B3%E7%AC%A6/</id>
+    <link href="https://andi.wang/2026/11/04/%E7%94%B5%E9%92%A2%E7%90%B4%E4%BD%BF%E7%94%A8%E8%BD%AF%E9%9F%B3%E6%BA%90%E5%B9%B6%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E7%9A%84%E9%9F%B3%E7%AC%A6/"/>
+    <published>2026-11-04T15:18:25.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>适合钢琴初学者</p>
+<h2 id="需要的设备："><a href="#需要的设备：" class="headerlink" title="需要的设备："></a>需要的设备：</h2><ul>
+<li>电钢琴（有usb接口，或者midi接口）</li>
+<li>usb线（或midi转usb线，midi转usb线时，转接线in接电钢琴out，转接线out接电钢琴in）</li>
+<li>电脑</li>
+<li>usb声卡，支持ASIO</li>
+<li>耳机或音箱</li>
+<li>有一种硅胶音符条，可以放在琴键上方</li>
+</ul>
+<h2 id="需要的软件（windows）："><a href="#需要的软件（windows）：" class="headerlink" title="需要的软件（windows）："></a>需要的软件（windows）：</h2><ul>
+<li>reaper，功能强大，便宜，官网<a href="https://www.reaper.fm/%EF%BC%8C%E6%88%96%E5%85%B6%E4%BB%96%E9%9F%B3%E9%A2%91%E5%AE%BF%E4%B8%BB%E8%BD%AF%E4%BB%B6">https://www.reaper.fm/，或其他音频宿主软件</a></li>
+<li>显示输入音符的插件midi lens，免费，官网<a href="https://www.dizzylab.net/d/midi-lens/">https://www.dizzylab.net/d/midi-lens/</a></li>
+<li>软音源，例如pianoteq等，一般收费，学习版可以在<a href="https://rutracker.org/">https://rutracker.org/</a></li>
+</ul>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p><a href="https://pan.baidu.com/s/1H2-VQrEmLNdq44tGRdVrfw?pwd=f5j2">https://pan.baidu.com/s/1H2-VQrEmLNdq44tGRdVrfw?pwd=f5j2</a></p>
+<hr>]]>
+    </summary>
+    <title>电钢琴使用软音源并显示输入的音符</title>
+    <updated>2026-11-04T15:46:06.856Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Andy</name>
@@ -132,7 +164,7 @@
 <h2 id="所有链接"><a href="#所有链接"]]>
     </summary>
     <title>所有网盘分享</title>
-    <updated>2026-01-07T01:28:20.318Z</updated>
+    <updated>2026-11-04T15:41:33.064Z</updated>
   </entry>
   <entry>
     <author>
@@ -837,22 +869,5 @@
     </summary>
     <title>小米14的一些bug</title>
     <updated>2026-07-31T15:30:26.037Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Andy</name>
-    </author>
-    <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
-    <category term="百年孤独" scheme="https://andi.wang/tags/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC/"/>
-    <id>https://andi.wang/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</id>
-    <link href="https://andi.wang/2023/06/11/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/"/>
-    <published>2023-06-11T03:41:25.000Z</published>
-    <summary>
-      <![CDATA[<hr>
-<p><img src="/images/bainiangudu01.png"]]>
-    </summary>
-    <title>百年孤独人物关系图（自制）</title>
-    <updated>2023-07-20T01:02:23.505Z</updated>
   </entry>
 </feed>

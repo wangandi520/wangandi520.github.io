@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 8.1.2">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"andi.wang","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="目标适合钢琴初学者 需要的设备： 电钢琴（有usb接口，或者midi接口） usb线（或midi转usb线，midi转usb线时，转接线in接电钢琴out，转接线out接电钢琴in） 电脑 usb声卡，支持ASIO 耳机或音箱 有一种硅胶音符条，可以放在琴键上方  需要的软件（windows）： reaper，功能强大，便宜，官网https:&#x2F;&#x2F;www.reaper.fm&#x2F;，或其他音频宿主软件 显">
+<meta property="og:type" content="article">
+<meta property="og:title" content="电钢琴使用软音源并显示输入的音符">
+<meta property="og:url" content="https://andi.wang/2026/11/04/%E7%94%B5%E9%92%A2%E7%90%B4%E4%BD%BF%E7%94%A8%E8%BD%AF%E9%9F%B3%E6%BA%90%E5%B9%B6%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E7%9A%84%E9%9F%B3%E7%AC%A6/index.html">
+<meta property="og:site_name" content="Andy&#39;s word">
+<meta property="og:description" content="目标适合钢琴初学者 需要的设备： 电钢琴（有usb接口，或者midi接口） usb线（或midi转usb线，midi转usb线时，转接线in接电钢琴out，转接线out接电钢琴in） 电脑 usb声卡，支持ASIO 耳机或音箱 有一种硅胶音符条，可以放在琴键上方  需要的软件（windows）： reaper，功能强大，便宜，官网https:&#x2F;&#x2F;www.reaper.fm&#x2F;，或其他音频宿主软件 显">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-11-04T15:18:25.000Z">
+<meta property="article:modified_time" content="2026-11-04T15:46:06.856Z">
+<meta property="article:author" content="Andy">
+<meta property="article:tag" content="电钢琴">
+<meta property="article:tag" content="音乐">
+<meta property="article:tag" content="音频">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://andi.wang/2026/11/04/%E7%94%B5%E9%92%A2%E7%90%B4%E4%BD%BF%E7%94%A8%E8%BD%AF%E9%9F%B3%E6%BA%90%E5%B9%B6%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E7%9A%84%E9%9F%B3%E7%AC%A6/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://andi.wang/2026/11/04/%E7%94%B5%E9%92%A2%E7%90%B4%E4%BD%BF%E7%94%A8%E8%BD%AF%E9%9F%B3%E6%BA%90%E5%B9%B6%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E7%9A%84%E9%9F%B3%E7%AC%A6/","path":"2026/11/04/电钢琴使用软音源并显示输入的音符/","title":"电钢琴使用软音源并显示输入的音符"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>电钢琴使用软音源并显示输入的音符 | Andy's word</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Andy's word" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Andy's word</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">如果我会发光，就不必害怕黑暗。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+		  <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
+      src="/images/avatar.png"></a>
+</div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E6%A0%87"><span class="nav-number">1.</span> <span class="nav-text">目标</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E8%A6%81%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">需要的设备：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E8%A6%81%E7%9A%84%E8%BD%AF%E4%BB%B6%EF%BC%88windows%EF%BC%89%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">需要的软件（windows）：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD"><span class="nav-number">4.</span> <span class="nav-text">下载</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%9E%E7%BA%BF%E6%96%B9%E5%BC%8F"><span class="nav-number">5.</span> <span class="nav-text">连线方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="nav-number">6.</span> <span class="nav-text">插件安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#reaper%E8%AE%BE%E7%BD%AE"><span class="nav-number">7.</span> <span class="nav-text">reaper设置</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+	<a href="/"><img class="site-author-image" itemprop="image" alt="Andy"
+	  src="/images/avatar.png"></a>
+  <p class="site-author-name" itemprop="name">Andy</p>
+  <div class="site-description" itemprop="description">阅读音乐运动极客</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">68</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">96</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wangandi520" title="github → https:&#x2F;&#x2F;github.com&#x2F;wangandi520" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>github</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/1952945" title="bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1952945" rel="noopener me" target="_blank">bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="rss → &#x2F;atom.xml" rel="noopener me"><i class="fa fa-rss fa-fw"></i>rss</a>
+      </span>
+  </div>
+
+		   
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="/guitar" title="&#x2F;guitar">吉他和弦生成</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/mahjongtab" title="&#x2F;mahjongtab">麻将牌谱生成</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/mahjong-calc" title="&#x2F;mahjong-calc">麻将点数计算</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/majiang" title="&#x2F;majiang">单机电脑麻将</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://pan.baidu.com/s/11eu_MVZZZR-gP_lTDOICUA?pwd=p528" title="https:&#x2F;&#x2F;pan.baidu.com&#x2F;s&#x2F;11eu_MVZZZR-gP_lTDOICUA?pwd&#x3D;p528" rel="noopener" target="_blank">漫画补页下载</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://github.com/wangandi520/andyspythonscript" title="https:&#x2F;&#x2F;github.com&#x2F;wangandi520&#x2F;andyspythonscript" rel="noopener" target="_blank">漫画整理脚本</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://andi.wang/go?id=76" title="https:&#x2F;&#x2F;andi.wang&#x2F;go?id&#x3D;76">所有网盘分享</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/go" title="&#x2F;go">文章短链接</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://andi.wang/2026/11/04/%E7%94%B5%E9%92%A2%E7%90%B4%E4%BD%BF%E7%94%A8%E8%BD%AF%E9%9F%B3%E6%BA%90%E5%B9%B6%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E7%9A%84%E9%9F%B3%E7%AC%A6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Andy">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Andy's word">
+      <meta itemprop="description" content="阅读音乐运动极客">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="电钢琴使用软音源并显示输入的音符 | Andy's word">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          电钢琴使用软音源并显示输入的音符
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-11-04 23:18:25 / 修改时间：23:46:06" itemprop="dateCreated datePublished" datetime="2026-11-04T23:18:25+08:00">2026-11-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%9E%81%E5%AE%A2/" itemprop="url" rel="index"><span itemprop="name">极客</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>761</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>适合钢琴初学者</p>
+<h2 id="需要的设备："><a href="#需要的设备：" class="headerlink" title="需要的设备："></a>需要的设备：</h2><ul>
+<li>电钢琴（有usb接口，或者midi接口）</li>
+<li>usb线（或midi转usb线，midi转usb线时，转接线in接电钢琴out，转接线out接电钢琴in）</li>
+<li>电脑</li>
+<li>usb声卡，支持ASIO</li>
+<li>耳机或音箱</li>
+<li>有一种硅胶音符条，可以放在琴键上方</li>
+</ul>
+<h2 id="需要的软件（windows）："><a href="#需要的软件（windows）：" class="headerlink" title="需要的软件（windows）："></a>需要的软件（windows）：</h2><ul>
+<li>reaper，功能强大，便宜，官网<a target="_blank" rel="noopener" href="https://www.reaper.fm/%EF%BC%8C%E6%88%96%E5%85%B6%E4%BB%96%E9%9F%B3%E9%A2%91%E5%AE%BF%E4%B8%BB%E8%BD%AF%E4%BB%B6">https://www.reaper.fm/，或其他音频宿主软件</a></li>
+<li>显示输入音符的插件midi lens，免费，官网<a target="_blank" rel="noopener" href="https://www.dizzylab.net/d/midi-lens/">https://www.dizzylab.net/d/midi-lens/</a></li>
+<li>软音源，例如pianoteq等，一般收费，学习版可以在<a target="_blank" rel="noopener" href="https://rutracker.org/">https://rutracker.org/</a></li>
+</ul>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1H2-VQrEmLNdq44tGRdVrfw?pwd=f5j2">https://pan.baidu.com/s/1H2-VQrEmLNdq44tGRdVrfw?pwd=f5j2</a></p>
+<hr>
+<span id="more"></span>
+
+<h2 id="连线方式"><a href="#连线方式" class="headerlink" title="连线方式"></a>连线方式</h2><p>输入：<br>电钢琴-usb线-电脑</p>
+<p>输出：<br>电脑-usb线-usb声卡-耳机或音箱</p>
+<h2 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h2><p>直接安装，或者复制vst文件到目录<br>一般存放路径在C:\Program Files\Common Files\VST3<br>可以在reaper，Options，Preferences，Plug-ins，VST中查看路径</p>
+<h2 id="reaper设置"><a href="#reaper设置" class="headerlink" title="reaper设置"></a>reaper设置</h2><p>reaper，Options，Preferences，Audio，MIDI Inputs，可以看到midi设备，双击，3个enable打钩<br>reaper空白处鼠标右键，Insert new track<br>右键这个轨道的红色圆点，Input：MIDI，ALL MIDI Inputs打钩，Automatic record-arm when track selected打钩<br>点击这个轨道的FX按钮，插入midi lens和软音源，轨道右侧点击midi lens，显示五线谱和琴键窗口<br>弹一下电钢琴应该有声音了，同时会显示自己弹的是什么音</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/weixin.png" alt="Andy 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="Andy 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Andy
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://andi.wang/2026/11/04/%E7%94%B5%E9%92%A2%E7%90%B4%E4%BD%BF%E7%94%A8%E8%BD%AF%E9%9F%B3%E6%BA%90%E5%B9%B6%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E7%9A%84%E9%9F%B3%E7%AC%A6/" title="电钢琴使用软音源并显示输入的音符">https://andi.wang/2026/11/04/电钢琴使用软音源并显示输入的音符/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E9%9F%B3%E9%A2%91/" rel="tag"># 音频</a>
+              <a href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag"># 音乐</a>
+              <a href="/tags/%E7%94%B5%E9%92%A2%E7%90%B4/" rel="tag"># 电钢琴</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2026/10/18/%E5%B0%8F%E7%B1%B314%E8%A7%A3%E9%94%81BL%E5%B9%B6%E5%88%B7EU%E7%89%88%E7%B3%BB%E7%BB%9F/" rel="prev" title="小米14解锁BL并刷EU版系统">
+                  <i class="fa fa-angle-left"></i> 小米14解锁BL并刷EU版系统
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2017 – 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Andy</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wangandi520","repo":"wangandi520.github.io","client_id":"4608a30c8bf01d212dc2","client_secret":"1728dfa6fb7625b83daa2e898ab26b0b82d475f2","admin_user":"wangandi520","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":["zh-CN","zh-TW","en"],"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"af54ee3aedc3c07f65600113d2c96a62"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>
