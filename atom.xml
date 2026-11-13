@@ -49,9 +49,9 @@
       <name>Andy</name>
     </author>
     <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
-    <category term="刷机" scheme="https://andi.wang/tags/%E5%88%B7%E6%9C%BA/"/>
     <category term="小米14" scheme="https://andi.wang/tags/%E5%B0%8F%E7%B1%B314/"/>
     <category term="解锁" scheme="https://andi.wang/tags/%E8%A7%A3%E9%94%81/"/>
+    <category term="刷机" scheme="https://andi.wang/tags/%E5%88%B7%E6%9C%BA/"/>
     <id>https://andi.wang/2026/10/18/%E5%B0%8F%E7%B1%B314%E8%A7%A3%E9%94%81BL%E5%B9%B6%E5%88%B7EU%E7%89%88%E7%B3%BB%E7%BB%9F/</id>
     <link href="https://andi.wang/2026/10/18/%E5%B0%8F%E7%B1%B314%E8%A7%A3%E9%94%81BL%E5%B9%B6%E5%88%B7EU%E7%89%88%E7%B3%BB%E7%BB%9F/"/>
     <published>2026-10-18T08:01:08.000Z</published>
@@ -202,7 +202,6 @@
 <p>比较舒适使用的模拟器（被模拟的平台）</p>
 <ul>
 <li><a href="#moonlight-sunshine">moonlight+sunshine（电脑+手机串流，安卓玩电脑游戏）</a></li>
-<li><a href="#duckstation">DuckStation（索尼PS1）</a></li>
 <li><a href="#ARMSX2">ARMSX2（索尼PS2）</a></li>
 <li><a href="#ppsspp">PPSSPP（索尼PSP）</a></li>
 <li><a href="#drastic">DraStic（任天堂DS）</a></li>
@@ -210,10 +209,11 @@
 <li><a href="#eden">eden（任天堂Switch）</a></li>
 <li><a href="#winlator">winlator（微软windows）</a></li>
 <li><a href="#droiddeck">droiddeck（steam）</a></li>
-</ul>]]>
+</ul>
+<p>没在这个列表但在下面有的，是不太可用的模拟器</p>]]>
     </summary>
     <title>安卓掌机模拟器经验</title>
-    <updated>2026-11-03T06:08:32.062Z</updated>
+    <updated>2026-11-13T15:19:32.328Z</updated>
   </entry>
   <entry>
     <author>
@@ -513,10 +513,10 @@
       <name>Andy</name>
     </author>
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
-    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
     <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
     <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
     <category term="boox" scheme="https://andi.wang/tags/boox/"/>
+    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
     <id>https://andi.wang/2024/11/09/%E6%96%87%E7%9F%B3poke6%E9%BB%91%E8%89%B2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</id>
     <link href="https://andi.wang/2024/11/09/%E6%96%87%E7%9F%B3poke6%E9%BB%91%E8%89%B2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/"/>
     <published>2024-11-09T03:20:01.000Z</published>
@@ -745,8 +745,8 @@
       <name>Andy</name>
     </author>
     <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
-    <category term="y700" scheme="https://andi.wang/tags/y700/"/>
     <category term="刷机" scheme="https://andi.wang/tags/%E5%88%B7%E6%9C%BA/"/>
+    <category term="y700" scheme="https://andi.wang/tags/y700/"/>
     <id>https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/</id>
     <link href="https://andi.wang/2024/01/13/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y700%E4%B8%80%E4%BB%A3%EF%BC%882022%EF%BC%89%E5%B9%B3%E6%9D%BF%E5%88%B7%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
     <published>2024-01-13T09:11:23.000Z</published>
