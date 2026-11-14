@@ -346,6 +346,25 @@
       <name>Andy</name>
     </author>
     <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
+    <category term="围棋" scheme="https://andi.wang/tags/%E5%9B%B4%E6%A3%8B/"/>
+    <id>https://andi.wang/2025/03/26/sabaki+katago%E7%8E%A9%E5%9B%B4%E6%A3%8B/</id>
+    <link href="https://andi.wang/2025/03/26/sabaki+katago%E7%8E%A9%E5%9B%B4%E6%A3%8B/"/>
+    <published>2025-03-26T10:12:11.000Z</published>
+    <summary>
+      <![CDATA[<hr>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.11.14</p>
+<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>各个软件官网：<br><a href="https://github.com/SabakiHQ/Sabaki">https://github.com/SabakiHQ/Sabaki</a><br><a href="https://github.com/lightvector/KataGo/releases">https://github.com/lightvector/KataGo/releases</a><br><a href="https://katagotraining.org/networks/">https://katagotraining.org/networks/</a></p>
+<p>分别下载：<br>sabaki-v0.60.0-win-x64-portable.exe<br>（按自己电脑配置下载对应版本）katago-v1.18.1-opencl-windows-x64.zip<br>（绿色的是推荐的）kata1-tf3-b11c768-s12382M-d6533M.bin.gz</p>
+<p><a href="https://pan.baidu.com/s/1R1Ge_6Oidkt2N6M8cAzteQ?pwd=uqem">https://pan.baidu.com/s/1R1Ge_6Oidkt2N6M8cAzteQ?pwd=uqem</a></p>]]>
+    </summary>
+    <title>sabaki+katago玩围棋</title>
+    <updated>2026-11-14T15:58:32.151Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Andy</name>
+    </author>
+    <category term="极客" scheme="https://andi.wang/categories/%E6%9E%81%E5%AE%A2/"/>
     <category term="极客" scheme="https://andi.wang/tags/%E6%9E%81%E5%AE%A2/"/>
     <category term="游戏" scheme="https://andi.wang/tags/%E6%B8%B8%E6%88%8F/"/>
     <category term="掌机" scheme="https://andi.wang/tags/%E6%8E%8C%E6%9C%BA/"/>
@@ -513,10 +532,10 @@
       <name>Andy</name>
     </author>
     <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
+    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
     <category term="电纸书" scheme="https://andi.wang/tags/%E7%94%B5%E7%BA%B8%E4%B9%A6/"/>
     <category term="文石" scheme="https://andi.wang/tags/%E6%96%87%E7%9F%B3/"/>
     <category term="boox" scheme="https://andi.wang/tags/boox/"/>
-    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
     <id>https://andi.wang/2024/11/09/%E6%96%87%E7%9F%B3poke6%E9%BB%91%E8%89%B2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/</id>
     <link href="https://andi.wang/2024/11/09/%E6%96%87%E7%9F%B3poke6%E9%BB%91%E8%89%B2%E8%AF%84%E6%B5%8B%E4%BD%93%E9%AA%8C/"/>
     <published>2024-11-09T03:20:01.000Z</published>
@@ -852,22 +871,5 @@
     </summary>
     <title>音频软件插件简评</title>
     <updated>2025-04-15T16:09:33.444Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Andy</name>
-    </author>
-    <category term="评测" scheme="https://andi.wang/categories/%E8%AF%84%E6%B5%8B/"/>
-    <category term="评测" scheme="https://andi.wang/tags/%E8%AF%84%E6%B5%8B/"/>
-    <id>https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/</id>
-    <link href="https://andi.wang/2023/11/20/%E5%B0%8F%E7%B1%B314%E7%9A%84bug/"/>
-    <published>2023-11-20T06:48:55.000Z</published>
-    <summary>
-      <![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.01.11</p>
-<h2 id="小米14的一些bug"><a href="#小米14的一些bug" class="headerlink" title="小米14的一些bug"></a>小米14的一些bug</h2><p>说明：手机没使用手机搬家，app都是在小米商店或google play下载，apk都通过在线杀毒，没安装乱七八糟的app，路由器正常且网络通畅。</p>]]>
-    </summary>
-    <title>小米14的一些bug</title>
-    <updated>2026-07-31T15:30:26.037Z</updated>
   </entry>
 </feed>
