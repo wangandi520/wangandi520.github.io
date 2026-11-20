@@ -183,7 +183,7 @@
 <h2 id="所有链接"><a href="#所有链接"]]>
     </summary>
     <title>所有网盘分享</title>
-    <updated>2026-11-04T15:41:33.064Z</updated>
+    <updated>2026-11-17T07:47:02.406Z</updated>
   </entry>
   <entry>
     <author>
@@ -214,7 +214,7 @@
     <published>2025-05-10T01:44:25.000Z</published>
     <summary>
       <![CDATA[<hr>
-<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.11.3<br>测试机型：骁龙8Gen2，少部分在骁龙865上</p>
+<h2 id="更新日期"><a href="#更新日期" class="headerlink" title="更新日期"></a>更新日期</h2><p>2026.11.16<br>测试机型：骁龙8Gen2，少部分在骁龙865上</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果不是为了折腾机器，只为玩游戏，推荐安卓手机平板或者windows平台<br>我的习惯是不安装前端（例如天马，ES-DE）和整合包，单独下载游戏和模拟器，见下方链接</p>
 <h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><p><a href="https://coolrom.com/">https://coolrom.com/</a><br><a href="https://romsfun.com/roms/">https://romsfun.com/roms/</a><br><a href="https://nxbrew.net/">https://nxbrew.net/</a><br><a href="https://www.ziperto.com/">https://www.ziperto.com/</a><br>不用加速器的节点推荐DataNodes，megaup</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>简单记录下安卓的一些模拟器配置使用经验<br>retroarch的经验见另一篇文章<a href="https://andi.wang/go?id=68">https://andi.wang/go?id=68</a><br>文件分享:<a href="https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw">https://pan.baidu.com/s/1dm1IiwMXxgVdvI2i4qEf6A?pwd=26rw</a></p>
@@ -229,10 +229,10 @@
 <li><a href="#winlator">winlator（微软windows）</a></li>
 <li><a href="#droiddeck">droiddeck（steam）</a></li>
 </ul>
-<p>没在这个列表但在下面有的，是不太可用的模拟器</p>]]>
+<p>没在这个列表但在下面有的，是不推荐使用的模拟器</p>]]>
     </summary>
     <title>安卓掌机模拟器经验</title>
-    <updated>2026-11-15T05:53:26.247Z</updated>
+    <updated>2026-11-20T07:59:49.166Z</updated>
   </entry>
   <entry>
     <author>
@@ -436,9 +436,9 @@
       <name>Andy</name>
     </author>
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <id>https://andi.wang/2025/02/24/%E7%8E%8B%E5%B0%8F%E6%B3%A2%E7%9C%9F%E6%AD%A3%E5%A4%A7%E5%85%A8%E9%9B%8615%E5%86%8C%E6%A0%87%E6%B3%A8/</id>
     <link href="https://andi.wang/2025/02/24/%E7%8E%8B%E5%B0%8F%E6%B3%A2%E7%9C%9F%E6%AD%A3%E5%A4%A7%E5%85%A8%E9%9B%8615%E5%86%8C%E6%A0%87%E6%B3%A8/"/>
     <published>2025-02-24T08:19:47.000Z</published>
@@ -555,9 +555,9 @@
       <name>Andy</name>
     </author>
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <id>https://andi.wang/2024/06/06/%E4%B8%89%E6%97%A5%E9%97%B4%E7%9A%84%E5%B9%B8%E7%A6%8F%E6%A0%87%E6%B3%A8/</id>
     <link href="https://andi.wang/2024/06/06/%E4%B8%89%E6%97%A5%E9%97%B4%E7%9A%84%E5%B9%B8%E7%A6%8F%E6%A0%87%E6%B3%A8/"/>
     <published>2024-06-06T10:54:48.000Z</published>
@@ -583,9 +583,9 @@
       <name>Andy</name>
     </author>
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <id>https://andi.wang/2024/04/25/%E4%B8%8D%E8%83%BD%E6%89%BF%E5%8F%97%E7%9A%84%E7%94%9F%E5%91%BD%E4%B9%8B%E8%BD%BB%E6%A0%87%E6%B3%A8/</id>
     <link href="https://andi.wang/2024/04/25/%E4%B8%8D%E8%83%BD%E6%89%BF%E5%8F%97%E7%9A%84%E7%94%9F%E5%91%BD%E4%B9%8B%E8%BD%BB%E6%A0%87%E6%B3%A8/"/>
     <published>2024-04-25T10:41:08.000Z</published>
@@ -612,21 +612,38 @@
       <name>Andy</name>
     </author>
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
+    <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     <id>https://andi.wang/2024/04/13/%E5%85%B6%E4%BB%96%E6%A0%87%E6%B3%A8/</id>
     <link href="https://andi.wang/2024/04/13/%E5%85%B6%E4%BB%96%E6%A0%87%E6%B3%A8/"/>
     <published>2024-04-13T07:52:01.000Z</published>
     <summary>
       <![CDATA[<hr>
+<h2 id="山月记"><a href="#山月记" class="headerlink" title="山月记"></a>山月记</h2><p><strong>中岛敦著 王子豪译 广西师范大学出版社</strong></p>
+<blockquote>
+<p>穿衣蔽体后，人类的皮肤变得脆弱而丑陋。发明座驾后，人类的双脚变得脆弱而丑陋；普及文字后，人类的脑筋已经转不动了。</p>
+</blockquote>
+<blockquote>
+<p>未曾写下的事，就是从未发生的事。</p>
+</blockquote>
+<hr>
 <h2 id="刀锋"><a href="#刀锋" class="headerlink" title="刀锋"></a>刀锋</h2><p><strong>毛姆著 陈以侃译 北京日报出版社</strong></p>
 <blockquote>
 <p>我之前任何一部小说，动笔时从来没有像这样疑虑重重。称之为小说，只因为想不到别的叫法。这里面没有多少故事要讲，结尾既无人离世，也不是一场婚礼。人一死，万事皆休，用来了结整个故事很有概括性;用结婚收尾也很妥当，见多识广的读者一听这种所谓的大团圆结局，就要皱眉头，其实大可不必。普通人总有这样一种自然反应，觉得一旦结了婚，剩下的事就没什么好讲了;这种反应很有道理。男人女人，不管之前如何跌宕起伏，既然终成眷属，生物意义上尽了自己的责任，兴趣自然就转移到了下一代人身上。但我没有给读者这样安心的终局。</p>
 </blockquote>
+<blockquote>
+<p>开写这部小说时，还有一个理由让我颇有顾虑，那就是里面要处理的大多是美国人。了解一个人本就极为不易，我一向有个观点，除了自己的同胞，我们是无法真正认识一个人的。男男女女都不只是他们自己，还是他出生的地方、他学步的公寓或农场、孩童时玩的游戏、老人家的迷信说法、吃的食物、上的学堂、关注的运动、记诵的诗人，还有他们信仰的神。所有这些东西构成了一个人，而这些东西，你靠道听途说是懂不了的，你只有实实在在地经历过它们，才能懂得。你得是他们，才能懂得他们。而你只能通过观察去了解一个外国人，要在纸面上让他们有血有肉是很难的。</p>
+</blockquote>
+<blockquote>
+<p>“我想要结婚，想要生孩子，想要生活——”</p>
+</blockquote>
+<blockquote>
+<p>印度教的人会说，没有什么‘一开始’，每个灵魂都跟宇宙一样，无始无终，一直都在那里，它的本质是由更早的存在决定的。</p>
+</blockquote>
 <hr>]]>
     </summary>
     <title>其他标注</title>
-    <updated>2026-01-05T09:48:01.248Z</updated>
+    <updated>2026-11-19T16:03:27.504Z</updated>
   </entry>
   <entry>
     <author>
@@ -736,9 +753,9 @@
       <name>Andy</name>
     </author>
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <id>https://andi.wang/2024/02/05/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E8%B5%96%E6%98%8E%E7%8F%A0%E8%AF%91%E6%A0%87%E6%B3%A8/</id>
     <link href="https://andi.wang/2024/02/05/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E8%B5%96%E6%98%8E%E7%8F%A0%E8%AF%91%E6%A0%87%E6%B3%A8/"/>
     <published>2024-02-05T03:09:36.000Z</published>
@@ -838,9 +855,9 @@
       <name>Andy</name>
     </author>
     <category term="读书笔记" scheme="https://andi.wang/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <category term="标注" scheme="https://andi.wang/tags/%E6%A0%87%E6%B3%A8/"/>
     <category term="读书笔记" scheme="https://andi.wang/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <category term="阅读" scheme="https://andi.wang/tags/%E9%98%85%E8%AF%BB/"/>
     <id>https://andi.wang/2023/12/25/%E7%BE%8E%E4%B8%BD%E7%9A%84%E4%B8%96%E7%95%8C%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C%20%E6%A0%87%E6%B3%A8/</id>
     <link href="https://andi.wang/2023/12/25/%E7%BE%8E%E4%B8%BD%E7%9A%84%E4%B8%96%E7%95%8C%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C%20%E6%A0%87%E6%B3%A8/"/>
     <published>2023-12-25T03:38:22.000Z</published>
